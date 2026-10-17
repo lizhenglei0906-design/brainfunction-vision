@@ -1,0 +1,5523 @@
+{
+  "id": "foundation-function-synthesis-v0",
+  "name": "九项基础脑功能综合核验库",
+  "version": "0.1.0",
+  "status": "draft",
+  "sourceNote": "Function-level synthesis built above paradigm-level evidence. Entries summarize major paradigms, source-backed convergence, Schaefer200 proxy points, and presentation-safe claims. Coordinate-level precision still requires full-text peak-coordinate review.",
+  "syntheses": [
+    {
+      "functionId": "attention",
+      "status": "candidate_network",
+      "summary": "注意力不是一个单点能力，而是在警觉准备、空间/目标定向、显著刺激捕捉、冲突监控、规则保持和反应输出之间持续切换的协作系统。",
+      "salesNarrative": "讲注意力时，可以先从全景热区讲起：孩子进入任务时，大脑先处理视觉线索和目标，再由顶叶-额叶系统把注意力指向关键位置；当干扰或目标变化出现时，前岛叶/额叶岛盖和前扣带提示需要控制，DLPFC/额顶控制系统维持规则并约束最终反应。",
+      "mechanismSummary": "ANT、Posner、Stroop、Flanker、持续注意/CPT、多目标追踪和双任务共同指向一个额顶-顶叶-显著性控制骨架：视觉/线索输入进入顶叶定向系统，前岛叶/额叶岛盖和前扣带标记显著性、冲突和控制需求，DLPFC/额顶控制维持任务规则并下行调节反应输出。",
+      "safeClaims": [
+        "可讲注意力由警觉、定向、抗干扰、持续监控和任务协调几个成分共同构成。",
+        "可讲多种注意范式反复牵动顶叶/顶内沟、额叶眼动区、前岛叶/额叶岛盖、前扣带/内侧额叶和 DLPFC/额顶控制系统。",
+        "可讲当前 3D 点位是 Schaefer200 代理点位，用于演示跨范式重合区域，而不是单篇论文的精确峰值。"
+      ],
+      "avoidClaims": [
+        "不要把注意力讲成一个独立脑区或单一网络。",
+        "不要把丘脑、脑干、基底节、小脑等皮层外结构硬塞进当前 Schaefer200 皮层模型。",
+        "不要说当前点位已经证明训练产品效果或个体诊断结论。"
+      ],
+      "paradigmUses": [
+        {
+          "paradigmId": "attention-network-test",
+          "role": "core",
+          "evidenceWeight": 0.95,
+          "synthesisRole": "核心综合范式，用同一任务拆出警觉、定向和执行冲突控制。"
+        },
+        {
+          "paradigmId": "stroop",
+          "role": "core",
+          "evidenceWeight": 0.9,
+          "synthesisRole": "用于说明干扰信息下的规则保持、冲突监控和抑制控制。"
+        },
+        {
+          "paradigmId": "posner-cueing",
+          "role": "core",
+          "evidenceWeight": 0.86,
+          "synthesisRole": "用于说明目标导向空间定向和无效线索后的重新定向。"
+        },
+        {
+          "paradigmId": "flanker",
+          "role": "core",
+          "evidenceWeight": 0.78,
+          "synthesisRole": "用于说明旁侧干扰下的目标选择和反应竞争。"
+        },
+        {
+          "paradigmId": "sustained-attention-cpt",
+          "role": "core",
+          "evidenceWeight": 0.82,
+          "synthesisRole": "用于说明持续警觉、目标监控和漏报/冲动控制。"
+        },
+        {
+          "paradigmId": "multiple-object-tracking",
+          "role": "core",
+          "evidenceWeight": 0.78,
+          "synthesisRole": "用于说明动态场景中的空间注意分配和多个目标保持。"
+        },
+        {
+          "paradigmId": "dual-task",
+          "role": "supporting",
+          "evidenceWeight": 0.68,
+          "synthesisRole": "用于说明注意资源分配、任务协调和负荷监控。"
+        },
+        {
+          "paradigmId": "n-back",
+          "role": "supporting",
+          "evidenceWeight": 0.55,
+          "synthesisRole": "作为工作记忆任务中的持续注意和目标监控参与层。"
+        },
+        {
+          "paradigmId": "simple-reaction-time",
+          "role": "boundary",
+          "evidenceWeight": 0.35,
+          "synthesisRole": "只作为警觉和刺激-反应速度的低复杂度行为基线。"
+        },
+        {
+          "paradigmId": "digit-span",
+          "role": "supporting",
+          "evidenceWeight": 0.42,
+          "synthesisRole": "作为注意维持参与短时序列保持的交叉范式，不作为注意力主入口。"
+        },
+        {
+          "paradigmId": "go-no-go",
+          "role": "supporting",
+          "evidenceWeight": 0.62,
+          "synthesisRole": "用于说明注意目标触发后还需要抑制不该出的反应。"
+        },
+        {
+          "paradigmId": "task-switching",
+          "role": "supporting",
+          "evidenceWeight": 0.6,
+          "synthesisRole": "用于说明注意焦点和任务规则在不同任务集之间切换。"
+        },
+        {
+          "paradigmId": "choice-reaction-time",
+          "role": "supporting",
+          "evidenceWeight": 0.48,
+          "synthesisRole": "作为刺激识别、选择注意和反应选择的速度侧入口。"
+        },
+        {
+          "paradigmId": "sentence-comprehension",
+          "role": "boundary",
+          "evidenceWeight": 0.34,
+          "synthesisRole": "阅读理解需要注意参与，但不应被讲成注意力主范式。"
+        },
+        {
+          "paradigmId": "keep-track",
+          "role": "supporting",
+          "evidenceWeight": 0.58,
+          "synthesisRole": "用于说明持续监控目标类别并更新当前信息。"
+        },
+        {
+          "paradigmId": "object-span",
+          "role": "supporting",
+          "evidenceWeight": 0.44,
+          "synthesisRole": "作为视觉物体短时保持中的注意参与层。"
+        },
+        {
+          "paradigmId": "temporal-order-judgment",
+          "role": "boundary",
+          "evidenceWeight": 0.4,
+          "synthesisRole": "事件先后判断涉及注意定向和快速排序，但主标签仍归反应速度。"
+        },
+        {
+          "paradigmId": "math-word-problem",
+          "role": "boundary",
+          "evidenceWeight": 0.28,
+          "synthesisRole": "相关范式中存在注意分配、目标筛选或警觉成分，但不是注意力主范式。"
+        },
+        {
+          "paradigmId": "source-memory",
+          "role": "boundary",
+          "evidenceWeight": 0.28,
+          "synthesisRole": "相关范式中存在注意分配、目标筛选或警觉成分，但不是注意力主范式。"
+        },
+        {
+          "paradigmId": "face-name-association",
+          "role": "boundary",
+          "evidenceWeight": 0.28,
+          "synthesisRole": "相关范式中存在注意分配、目标筛选或警觉成分，但不是注意力主范式。"
+        },
+        {
+          "paradigmId": "visual-delayed-memory",
+          "role": "boundary",
+          "evidenceWeight": 0.28,
+          "synthesisRole": "相关范式中存在注意分配、目标筛选或警觉成分，但不是注意力主范式。"
+        },
+        {
+          "paradigmId": "symbol-search-coding-speed",
+          "role": "boundary",
+          "evidenceWeight": 0.28,
+          "synthesisRole": "相关范式中存在注意分配、目标筛选或警觉成分，但不是注意力主范式。"
+        },
+        {
+          "paradigmId": "visual-search-schulte",
+          "role": "boundary",
+          "evidenceWeight": 0.28,
+          "synthesisRole": "相关范式中存在注意分配、目标筛选或警觉成分，但不是注意力主范式。"
+        },
+        {
+          "paradigmId": "perceptual-discrimination-rt",
+          "role": "boundary",
+          "evidenceWeight": 0.28,
+          "synthesisRole": "相关范式中存在注意分配、目标筛选或警觉成分，但不是注意力主范式。"
+        },
+        {
+          "paradigmId": "embedded-figures",
+          "role": "boundary",
+          "evidenceWeight": 0.28,
+          "synthesisRole": "相关范式中存在注意分配、目标筛选或警觉成分，但不是注意力主范式。"
+        }
+      ],
+      "sourceUses": [
+        {
+          "sourceId": "fan-2002-ant-behavior",
+          "supportRole": "task_identity",
+          "paradigmIds": [
+            "attention-network-test"
+          ],
+          "note": "支持 ANT 作为同时估计 alerting、orienting 和 executive attention 效率的行为范式。"
+        },
+        {
+          "sourceId": "fan-2005-ant-fmri",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "attention-network-test"
+          ],
+          "note": "Fan 2005 支持 ANT 警觉、定向和执行冲突的区域关联；当前 8 个节点用于教学示意。原文 26 组坐标是经 Brett 转换后的 Talairach，旧记录误标为 MNI，尚未验证到当前 FSL 图谱的逐峰映射。丘脑与小脑保留结构示意，不表示论文峰值定位。",
+          "spatialAuditStatus": "REPORTED_TALAIRACH_AFTER_BRETT_NOT_MNI; EXACT_FSL_MAPPING_NOT_ESTABLISHED"
+        },
+        {
+          "sourceId": "corbetta-shulman-2002-attention",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "posner-cueing",
+            "attention-network-test",
+            "multiple-object-tracking"
+          ],
+          "note": "支持目标导向背侧注意和刺激驱动腹侧重定向的综述级框架。"
+        },
+        {
+          "sourceId": "petersen-posner-2012-attention-system",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "attention-network-test",
+            "posner-cueing"
+          ],
+          "note": "支持把注意系统拆成定向、执行控制等成分的总框架。"
+        },
+        {
+          "sourceId": "pardo-1990-stroop-acc",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "stroop"
+          ],
+          "note": "支持 Stroop 冲突任务中前扣带/内侧额叶监控节点的重要性。"
+        },
+        {
+          "sourceId": "macdonald-2000-stroop-control",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "stroop"
+          ],
+          "note": "支持 DLPFC 任务准备/控制实施与 ACC 表现监控的功能分工。"
+        },
+        {
+          "sourceId": "niendam-2012-cognitive-control",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "stroop",
+            "flanker",
+            "dual-task"
+          ],
+          "note": "支持跨执行控制任务的额顶/扣带-岛盖控制骨架，但不是单一范式的坐标级结论。"
+        },
+        {
+          "sourceId": "culham-2001-attention-response",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "multiple-object-tracking"
+          ],
+          "note": "支持多目标追踪中注意负荷与顶叶/额叶注意反应相关。"
+        },
+        {
+          "sourceId": "langner-eickhoff-2013-vigilant-attention",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "sustained-attention-cpt"
+          ],
+          "note": "支持持续注意/警觉任务的元分析级神经机制入口。"
+        }
+      ],
+      "convergenceRegions": [
+        {
+          "id": "attention-visual-input",
+          "label": "视觉线索/目标输入",
+          "networkId": "visual",
+          "regionCoverageId": "visual-cortex",
+          "displayParcelId": "schaefer200_002",
+          "candidateParcelIds": [
+            "schaefer200_001",
+            "schaefer200_002",
+            "schaefer200_003",
+            "schaefer200_101",
+            "schaefer200_102",
+            "schaefer200_105"
+          ],
+          "overlapParadigmIds": [
+            "attention-network-test",
+            "stroop",
+            "posner-cueing",
+            "multiple-object-tracking"
+          ],
+          "supportSourceIds": [
+            "fan-2005-ant-fmri",
+            "corbetta-shulman-2002-attention"
+          ],
+          "consistency": "medium",
+          "interpretation": "视觉线索、目标或文字颜色材料进入任务，是注意系统被调用的输入端。",
+          "caution": "视觉输入不是注意力本身；它只是多数视觉注意范式的共同材料入口。"
+        },
+        {
+          "id": "attention-parietal-orienting",
+          "label": "顶叶/顶内沟定向与追踪",
+          "networkId": "dorsal_attention",
+          "regionCoverageId": "intraparietal-posterior-parietal",
+          "displayParcelId": "schaefer200_142",
+          "candidateParcelIds": [
+            "schaefer200_033",
+            "schaefer200_036",
+            "schaefer200_037",
+            "schaefer200_038",
+            "schaefer200_040",
+            "schaefer200_061",
+            "schaefer200_062",
+            "schaefer200_063",
+            "schaefer200_139",
+            "schaefer200_140",
+            "schaefer200_141",
+            "schaefer200_142",
+            "schaefer200_144",
+            "schaefer200_165",
+            "schaefer200_166",
+            "schaefer200_167"
+          ],
+          "overlapParadigmIds": [
+            "attention-network-test",
+            "stroop",
+            "posner-cueing",
+            "multiple-object-tracking",
+            "dual-task"
+          ],
+          "supportSourceIds": [
+            "fan-2005-ant-fmri",
+            "corbetta-shulman-2002-attention",
+            "culham-2001-attention-response"
+          ],
+          "consistency": "high",
+          "interpretation": "顶叶/顶内沟附近是空间定向、目标选择、多目标追踪和刺激-反应映射反复出现的核心代理区域。",
+          "caution": "当前为 Schaefer200 的顶叶代理覆盖，不能替代单篇论文的峰值坐标。"
+        },
+        {
+          "id": "attention-fef-alerting",
+          "label": "额叶眼动区/警觉准备",
+          "networkId": "dorsal_attention",
+          "regionCoverageId": "frontal-eye-fields",
+          "displayParcelId": "schaefer200_145",
+          "candidateParcelIds": [
+            "schaefer200_041",
+            "schaefer200_042",
+            "schaefer200_145",
+            "schaefer200_146"
+          ],
+          "overlapParadigmIds": [
+            "attention-network-test",
+            "sustained-attention-cpt"
+          ],
+          "supportSourceIds": [
+            "fan-2005-ant-fmri",
+            "langner-eickhoff-2013-vigilant-attention"
+          ],
+          "consistency": "medium",
+          "interpretation": "额叶眼动区附近用于表达警觉准备、目标定向和持续监控中的额叶注意准备。",
+          "caution": "ANT 中 alerting 还涉及丘脑等皮层外结构，当前皮层模型只显示额叶代理。"
+        },
+        {
+          "id": "attention-insula-salience",
+          "label": "前岛叶/额叶岛盖显著性捕捉",
+          "networkId": "ventral_attention",
+          "regionCoverageId": "frontal-operculum-anterior-insula",
+          "displayParcelId": "schaefer200_154",
+          "candidateParcelIds": [
+            "schaefer200_047",
+            "schaefer200_048",
+            "schaefer200_049",
+            "schaefer200_050",
+            "schaefer200_152",
+            "schaefer200_153",
+            "schaefer200_154",
+            "schaefer200_155"
+          ],
+          "overlapParadigmIds": [
+            "stroop",
+            "flanker",
+            "sustained-attention-cpt"
+          ],
+          "supportSourceIds": [
+            "niendam-2012-cognitive-control",
+            "corbetta-shulman-2002-attention"
+          ],
+          "consistency": "medium",
+          "interpretation": "前岛叶/额叶岛盖用于表达突发目标、干扰或任务状态变化带来的显著性和控制需求。",
+          "caution": "前岛叶的精细分部超出当前 Yeo7/Schaefer200 演示层，需要专门 atlas 才能继续拆分。"
+        },
+        {
+          "id": "attention-acc-monitoring",
+          "label": "前扣带/内侧额叶冲突监控",
+          "networkId": "ventral_attention",
+          "regionCoverageId": "anterior-cingulate-medial-frontal",
+          "displayParcelId": "schaefer200_052",
+          "candidateParcelIds": [
+            "schaefer200_052",
+            "schaefer200_053",
+            "schaefer200_054",
+            "schaefer200_072",
+            "schaefer200_073",
+            "schaefer200_090",
+            "schaefer200_156",
+            "schaefer200_157",
+            "schaefer200_178",
+            "schaefer200_179",
+            "schaefer200_180"
+          ],
+          "overlapParadigmIds": [
+            "attention-network-test",
+            "stroop",
+            "sustained-attention-cpt",
+            "dual-task"
+          ],
+          "supportSourceIds": [
+            "fan-2005-ant-fmri",
+            "pardo-1990-stroop-acc",
+            "macdonald-2000-stroop-control",
+            "niendam-2012-cognitive-control"
+          ],
+          "consistency": "high",
+          "interpretation": "前扣带/内侧额叶用于表达冲突、负荷、错误风险和控制需求监控。",
+          "caution": "Fan 2005 报告前扣带/中前扣带相关激活，但旧坐标系误标已在修复记录中更正，逐峰映射仍未通过。当前只以区域锚点表达 dACC/aMCC/pre-SMA 邻近带，不证明精确分区归属。"
+        },
+        {
+          "id": "attention-dlpfc-rule-control",
+          "label": "DLPFC/额顶规则保持",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "dorsolateral-prefrontal-cortex",
+          "displayParcelId": "schaefer200_068",
+          "candidateParcelIds": [
+            "schaefer200_066",
+            "schaefer200_067",
+            "schaefer200_068",
+            "schaefer200_170",
+            "schaefer200_171",
+            "schaefer200_172"
+          ],
+          "overlapParadigmIds": [
+            "attention-network-test",
+            "stroop",
+            "multiple-object-tracking",
+            "dual-task"
+          ],
+          "supportSourceIds": [
+            "macdonald-2000-stroop-control",
+            "niendam-2012-cognitive-control",
+            "culham-2001-attention-response"
+          ],
+          "consistency": "high",
+          "interpretation": "DLPFC/额顶控制用于表达任务规则保持、目标集合维持和对注意/反应的自上而下约束。",
+          "caution": "DLPFC 与 IFG/IFJ 等额叶亚区仍需要坐标级复核，当前先作为额顶控制代理。"
+        },
+        {
+          "id": "attention-motor-output",
+          "label": "运动准备与反应输出",
+          "networkId": "somatomotor",
+          "regionCoverageId": "primary-motor-somatomotor",
+          "displayParcelId": "schaefer200_028",
+          "candidateParcelIds": [
+            "schaefer200_026",
+            "schaefer200_028",
+            "schaefer200_041",
+            "schaefer200_054",
+            "schaefer200_018",
+            "schaefer200_019",
+            "schaefer200_118",
+            "schaefer200_119",
+            "schaefer200_129",
+            "schaefer200_131",
+            "schaefer200_145",
+            "schaefer200_158"
+          ],
+          "overlapParadigmIds": [
+            "attention-network-test",
+            "stroop",
+            "flanker",
+            "sustained-attention-cpt"
+          ],
+          "supportSourceIds": [
+            "fan-2005-ant-fmri",
+            "pardo-1990-stroop-acc"
+          ],
+          "consistency": "medium",
+          "interpretation": "运动皮层代理用于表达注意任务最终落到按键、口头反应或动作准备。",
+          "caution": "运动输出是任务执行端，不应被讲成注意控制本身。"
+        }
+      ],
+      "overlay": {
+        "nodes": [
+          {
+            "id": "attention-visual-input",
+            "label": "视觉线索/目标输入",
+            "role": "sensory_input",
+            "networkId": "visual",
+            "regionCoverageId": "visual-cortex",
+            "displayParcelId": "schaefer200_002",
+            "candidateParcelIds": [
+              "schaefer200_001",
+              "schaefer200_002",
+              "schaefer200_003",
+              "schaefer200_101",
+              "schaefer200_102",
+              "schaefer200_105"
+            ],
+            "weight": 0.74,
+            "caption": "视觉线索和目标材料进入注意系统。"
+          },
+          {
+            "id": "attention-parietal-orienting",
+            "label": "顶叶/顶内沟定向",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "intraparietal-posterior-parietal",
+            "displayParcelId": "schaefer200_142",
+            "candidateParcelIds": [
+              "schaefer200_033",
+              "schaefer200_036",
+              "schaefer200_037",
+              "schaefer200_038",
+              "schaefer200_040",
+              "schaefer200_061",
+              "schaefer200_062",
+              "schaefer200_063",
+              "schaefer200_139",
+              "schaefer200_140",
+              "schaefer200_141",
+              "schaefer200_142",
+              "schaefer200_144",
+              "schaefer200_165",
+              "schaefer200_166",
+              "schaefer200_167"
+            ],
+            "weight": 0.92,
+            "caption": "顶叶系统把注意力指向目标位置、目标集合或关键刺激维度。"
+          },
+          {
+            "id": "attention-fef-alerting",
+            "label": "额叶眼动区/警觉",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "frontal-eye-fields",
+            "displayParcelId": "schaefer200_145",
+            "candidateParcelIds": [
+              "schaefer200_041",
+              "schaefer200_042",
+              "schaefer200_145",
+              "schaefer200_146"
+            ],
+            "weight": 0.72,
+            "caption": "额叶注意准备帮助进入等待目标的状态。"
+          },
+          {
+            "id": "attention-thalamic-alerting",
+            "label": "丘脑警觉门控",
+            "role": "modulator",
+            "networkId": "ventral_attention",
+            "regionCoverageId": "thalamus",
+            "physicalStructureId": "thalamus",
+            "specializedAtlasLabelIds": [
+              "harvard-oxford-subcortical-basal-ganglia-thalamus-04",
+              "harvard-oxford-subcortical-basal-ganglia-thalamus-15"
+            ],
+            "weight": 0.54,
+            "caption": "ANT alerting 中左右丘脑是已接入的粗粒度皮层外结构，适合在注意力总览里作为警觉/门控边界显示。"
+          },
+          {
+            "id": "attention-insula-salience",
+            "label": "前岛叶/岛盖显著性",
+            "role": "salience_detection",
+            "networkId": "ventral_attention",
+            "regionCoverageId": "frontal-operculum-anterior-insula",
+            "displayParcelId": "schaefer200_154",
+            "candidateParcelIds": [
+              "schaefer200_047",
+              "schaefer200_048",
+              "schaefer200_049",
+              "schaefer200_050",
+              "schaefer200_152",
+              "schaefer200_153",
+              "schaefer200_154",
+              "schaefer200_155"
+            ],
+            "weight": 0.82,
+            "caption": "突发目标、干扰或规则变化触发显著性和控制需求。"
+          },
+          {
+            "id": "attention-acc-monitoring",
+            "label": "前扣带/内侧额叶监控",
+            "role": "conflict_monitoring",
+            "networkId": "ventral_attention",
+            "regionCoverageId": "anterior-cingulate-medial-frontal",
+            "displayParcelId": "schaefer200_052",
+            "candidateParcelIds": [
+              "schaefer200_052",
+              "schaefer200_053",
+              "schaefer200_054",
+              "schaefer200_072",
+              "schaefer200_073",
+              "schaefer200_090",
+              "schaefer200_156",
+              "schaefer200_157",
+              "schaefer200_178",
+              "schaefer200_179",
+              "schaefer200_180"
+            ],
+            "weight": 0.9,
+            "caption": "冲突、负荷和错误风险被监控出来，提示需要控制。"
+          },
+          {
+            "id": "attention-dlpfc-rule-control",
+            "label": "DLPFC/额顶控制",
+            "role": "executive_control",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "dorsolateral-prefrontal-cortex",
+            "displayParcelId": "schaefer200_068",
+            "candidateParcelIds": [
+              "schaefer200_066",
+              "schaefer200_067",
+              "schaefer200_068",
+              "schaefer200_170",
+              "schaefer200_171",
+              "schaefer200_172"
+            ],
+            "weight": 0.9,
+            "caption": "维持任务规则和目标集合，并对注意和反应进行自上而下约束。"
+          },
+          {
+            "id": "attention-motor-output",
+            "label": "运动准备/反应输出",
+            "role": "response_selection",
+            "networkId": "somatomotor",
+            "regionCoverageId": "primary-motor-somatomotor",
+            "displayParcelId": "schaefer200_028",
+            "candidateParcelIds": [
+              "schaefer200_026",
+              "schaefer200_028",
+              "schaefer200_041",
+              "schaefer200_054",
+              "schaefer200_018",
+              "schaefer200_019",
+              "schaefer200_118",
+              "schaefer200_119",
+              "schaefer200_129",
+              "schaefer200_131",
+              "schaefer200_145",
+              "schaefer200_158"
+            ],
+            "weight": 0.66,
+            "caption": "注意任务最终落到按键、口头反应或动作准备。"
+          }
+        ],
+        "edges": [
+          {
+            "id": "attention-edge-visual-parietal",
+            "sourceNodeId": "attention-visual-input",
+            "targetNodeId": "attention-parietal-orienting",
+            "relation": "candidate_flow",
+            "weight": 0.76,
+            "caption": "目标或线索输入后，顶叶系统把注意力指向关键位置或目标。"
+          },
+          {
+            "id": "attention-edge-parietal-fef",
+            "sourceNodeId": "attention-parietal-orienting",
+            "targetNodeId": "attention-fef-alerting",
+            "relation": "coactivation",
+            "weight": 0.7,
+            "caption": "顶叶和额叶眼动区共同支持空间定向与警觉准备。"
+          },
+          {
+            "id": "attention-edge-fef-thalamus",
+            "sourceNodeId": "attention-fef-alerting",
+            "targetNodeId": "attention-thalamic-alerting",
+            "relation": "coactivation",
+            "weight": 0.5,
+            "caption": "注意力警觉层保留丘脑粗定位，不把丘脑硬映射成皮层点。"
+          },
+          {
+            "id": "attention-edge-visual-insula",
+            "sourceNodeId": "attention-visual-input",
+            "targetNodeId": "attention-insula-salience",
+            "relation": "salience_gate",
+            "weight": 0.68,
+            "caption": "突发目标或干扰刺激进入显著性检测通道。"
+          },
+          {
+            "id": "attention-edge-insula-acc",
+            "sourceNodeId": "attention-insula-salience",
+            "targetNodeId": "attention-acc-monitoring",
+            "relation": "salience_gate",
+            "weight": 0.76,
+            "caption": "显著性变化和干扰会提高冲突/负荷监控需求。"
+          },
+          {
+            "id": "attention-edge-acc-dlpfc",
+            "sourceNodeId": "attention-acc-monitoring",
+            "targetNodeId": "attention-dlpfc-rule-control",
+            "relation": "coactivation",
+            "weight": 0.84,
+            "caption": "监控到冲突后，额顶控制系统维持规则并调整策略。"
+          },
+          {
+            "id": "attention-edge-dlpfc-parietal",
+            "sourceNodeId": "attention-dlpfc-rule-control",
+            "targetNodeId": "attention-parietal-orienting",
+            "relation": "top_down_bias",
+            "weight": 0.82,
+            "caption": "任务规则反过来约束注意分配和目标选择。"
+          },
+          {
+            "id": "attention-edge-dlpfc-motor",
+            "sourceNodeId": "attention-dlpfc-rule-control",
+            "targetNodeId": "attention-motor-output",
+            "relation": "top_down_bias",
+            "weight": 0.68,
+            "caption": "控制系统约束最终反应输出，避免被干扰反应带走。"
+          }
+        ]
+      },
+      "nextCoordinateReview": [
+        "Fan 2005 的坐标系记录和26行来源链已修复，逆Brett近似计算可复现；仍须验证历史模板到当前FSL图谱的适用性。现有节点继续只作区域教学示意。",
+        "Stroop 的 Pardo 1990、MacDonald 2000 和 Niendam 2012 坐标已完成 MNI 转换/映射；后续只需精修 dACC/aMCC、DLPFC、顶叶选择和反应输出的展示层级。",
+        "Flanker 已补入 Marini 2016 任务样本坐标复核，可讲 target selection、proactive frontal control、ACC/insula control demand 和 response output；边界是任务样本，不讲成 Flanker 全元分析。",
+        "为持续注意/CPT 从 Langner & Eickhoff 2013 提取坐标簇，并确认额顶/扣带-岛盖边界。",
+        "Jovicich 2001 Table 1 已把 MOT/多目标追踪推进到生产级坐标裁剪：运动视觉输入、顶叶追踪负荷、FEF/前运动准备和内侧额叶需求分层显示；Culham 2001 继续作为区域级背景，Merkel 2015 只用于后续策略分型精修。"
+      ]
+    },
+    {
+      "functionId": "short_term_memory",
+      "status": "candidate_network",
+      "summary": "短时记忆力主要表现为短时间保持、更新和操作信息；当前演示层把 N-back 更新、数字/言语广度、空间广度、物体广度和 keep-track 分开处理，避免把所有工作记忆任务混成同一张图。",
+      "salesNarrative": "讲短时记忆时，可以先讲“信息先临时放在脑子里，再按任务要求更新或复述”。顶叶/顶内沟附近负责容量、位置和项目集合，DLPFC/额顶系统维持规则和当前目标，内侧额叶/前岛叶提示更新或匹配需求；数字广度更偏言语复述和语音环路，空间广度更偏顶叶-视觉空间保持，物体广度更偏腹侧视觉物体保持。",
+      "mechanismSummary": "N-back、digit span、grid span、object span 和 keep-track 共同指向额顶-顶叶工作记忆骨架，但材料和操作不同：N-back 强调更新和匹配，digit span 强调言语序列保持与复述，grid span 强调空间位置保持，object span 强调物体/面孔视觉保持。Rottschy/Owen 支持广义 WM 与 N-back 核心，Emch/Paulesu/Awh 支持言语 WM 和复述/储存分支，Jonides/Courtney/Diwadkar 支持空间与物体 WM 候选分支。",
+      "safeClaims": [
+        "可讲短时记忆包含保持、容量、更新、复述和抗干扰几个层级。",
+        "可讲当前图中顶叶/顶内沟、DLPFC/额顶控制和内侧额叶/前岛叶是多个短时记忆范式反复出现的候选骨架。",
+        "可讲数字广度、空间广度和物体广度共享工作记忆控制骨架，但材料通路和候选脑区不同。"
+      ],
+      "avoidClaims": [
+        "不要把数字广度、空间广度、物体广度和 N-back 讲成完全同一种任务。",
+        "不要把当前候选点位讲成最终训练靶点或个体诊断标记。",
+        "不要把 Smith 1996 的候选峰值直接当作最终训练靶点；数字广度和空间广度仍需要生产裁剪后再讲成坐标级定论。"
+      ],
+      "paradigmUses": [
+        {
+          "paradigmId": "n-back",
+          "role": "core",
+          "evidenceWeight": 0.9,
+          "synthesisRole": "更新、保持和持续注意的核心范式。"
+        },
+        {
+          "paradigmId": "digit-span",
+          "role": "core",
+          "evidenceWeight": 0.75,
+          "synthesisRole": "言语/序列短时容量的演示入口。"
+        },
+        {
+          "paradigmId": "grid-span",
+          "role": "core",
+          "evidenceWeight": 0.78,
+          "synthesisRole": "空间位置短时保持的演示入口。"
+        },
+        {
+          "paradigmId": "object-span",
+          "role": "core",
+          "evidenceWeight": 0.72,
+          "synthesisRole": "视觉物体短时容量的演示入口。"
+        },
+        {
+          "paradigmId": "keep-track",
+          "role": "supporting",
+          "evidenceWeight": 0.65,
+          "synthesisRole": "执行功能中的更新控制与短时保持交界范式。"
+        },
+        {
+          "paradigmId": "mental-arithmetic",
+          "role": "supporting",
+          "evidenceWeight": 0.5,
+          "synthesisRole": "多步骤心算需要中间结果保持和规则维持，是短时记忆参与计算的交叉范式。"
+        },
+        {
+          "paradigmId": "word-list-learning",
+          "role": "boundary",
+          "evidenceWeight": 0.38,
+          "synthesisRole": "词表学习含临时保持，但主问题是长时编码和提取。"
+        },
+        {
+          "paradigmId": "multiple-object-tracking",
+          "role": "supporting",
+          "evidenceWeight": 0.58,
+          "synthesisRole": "动态目标追踪需要短时保持多个目标位置。"
+        },
+        {
+          "paradigmId": "dual-task",
+          "role": "supporting",
+          "evidenceWeight": 0.52,
+          "synthesisRole": "双任务负荷会牵动短时保持和资源分配。"
+        },
+        {
+          "paradigmId": "tower-of-london",
+          "role": "supporting",
+          "evidenceWeight": 0.48,
+          "synthesisRole": "规划任务需要临时保持目标状态和中间步骤。"
+        },
+        {
+          "paradigmId": "algebra-equation-solving",
+          "role": "boundary",
+          "evidenceWeight": 0.3,
+          "synthesisRole": "复杂代数题需要短时保持中间状态，但主归计算。"
+        },
+        {
+          "paradigmId": "phonological-decoding",
+          "role": "boundary",
+          "evidenceWeight": 0.32,
+          "synthesisRole": "音韵解码需要语音工作记忆支持，但主归阅读。"
+        }
+      ],
+      "sourceUses": [
+        {
+          "sourceId": "owen-2005-nback",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "n-back"
+          ],
+          "note": "Owen 2005 Table II 已抽取并转换为 N-back 候选坐标，用于更新、匹配、额顶控制和反应准备。"
+        },
+        {
+          "sourceId": "rottschy-2012-working-memory",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "n-back",
+            "digit-span",
+            "grid-span",
+            "object-span",
+            "keep-track"
+          ],
+          "note": "作为广义工作记忆核心网络的坐标元分析入口，提供额顶、顶叶、前岛叶/扣带和运动准备候选骨架。"
+        },
+        {
+          "sourceId": "emch-2019-verbal-wm-meta",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "digit-span",
+            "n-back"
+          ],
+          "note": "支持言语工作记忆的 IFG/岛盖、前中央/SMA、内侧额叶、下顶叶和负荷敏感前额叶候选层；不能单独当作纯数字广度图。"
+        },
+        {
+          "sourceId": "paulesu-1993-phonological-loop",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "digit-span"
+          ],
+          "note": "支持左 BA40/缘上回语音储存和左 BA44/Broca 区复述控制的经典语音环路分支。"
+        },
+        {
+          "sourceId": "awh-1996-verbal-wm-storage-rehearsal",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "digit-span"
+          ],
+          "note": "支持言语短时储存与复述控制的分离，补强后顶叶、Broca/premotor/SMA 候选点。"
+        },
+        {
+          "sourceId": "jonides-1993-spatial-wm-pet",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "grid-span"
+          ],
+          "note": "支持空间工作记忆的右前额叶、顶叶、枕叶和前运动候选层，当前仍为候选坐标。"
+        },
+        {
+          "sourceId": "courtney-1996-object-spatial-wm",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "grid-span",
+            "object-span"
+          ],
+          "note": "支持空间位置保持和物体/面孔保持的分离，用于避免 grid span 与 object span 混用。"
+        },
+        {
+          "sourceId": "diwadkar-2000-dynamic-spatial-wm",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "grid-span"
+          ],
+          "note": "作为空间工作记忆中顶叶-DLPFC 协作的低置信候选证据，不作为最终坐标定论。"
+        },
+        {
+          "sourceId": "miyake-2000-executive-functions",
+          "supportRole": "behavioral_boundary",
+          "paradigmIds": [
+            "keep-track"
+          ],
+          "note": "帮助把更新任务和其他执行功能成分区分开。"
+        }
+      ],
+      "convergenceRegions": [
+        {
+          "id": "stm-broad-wm-core",
+          "label": "额顶工作记忆核心",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "dorsolateral-prefrontal-cortex",
+          "displayParcelId": "schaefer200_068",
+          "candidateParcelIds": [
+            "schaefer200_063",
+            "schaefer200_167",
+            "schaefer200_068",
+            "schaefer200_174",
+            "schaefer200_048",
+            "schaefer200_154"
+          ],
+          "overlapParadigmIds": [
+            "n-back",
+            "digit-span",
+            "grid-span",
+            "object-span",
+            "keep-track"
+          ],
+          "supportSourceIds": [
+            "rottschy-2012-working-memory",
+            "owen-2005-nback"
+          ],
+          "consistency": "high",
+          "interpretation": "用于表达多个工作记忆范式共享的额顶控制、负荷维持和任务规则保持骨架。",
+          "caution": "这是广义工作记忆候选核心，不等于每个简单广度任务的专属坐标。"
+        },
+        {
+          "id": "stm-nback-updating",
+          "label": "N-back 更新/匹配网络",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "dorsolateral-prefrontal-cortex",
+          "displayParcelId": "schaefer200_068",
+          "candidateParcelIds": [
+            "schaefer200_036",
+            "schaefer200_138",
+            "schaefer200_068",
+            "schaefer200_172",
+            "schaefer200_042",
+            "schaefer200_052",
+            "schaefer200_180"
+          ],
+          "overlapParadigmIds": [
+            "n-back"
+          ],
+          "supportSourceIds": [
+            "owen-2005-nback",
+            "rottschy-2012-working-memory",
+            "emch-2019-verbal-wm-meta"
+          ],
+          "consistency": "high",
+          "interpretation": "用于表达 N-back 中持续更新、当前项目匹配、额顶控制和反应准备。",
+          "caution": "不要把 N-back 更新网络直接复制成 digit-span 或 grid-span 的完整网络。"
+        },
+        {
+          "id": "stm-verbal-rehearsal-loop",
+          "label": "言语储存/复述环路",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "inferior-frontal-gyrus",
+          "displayParcelId": "schaefer200_069",
+          "candidateParcelIds": [
+            "schaefer200_019",
+            "schaefer200_050",
+            "schaefer200_069",
+            "schaefer200_156"
+          ],
+          "overlapParadigmIds": [
+            "digit-span"
+          ],
+          "supportSourceIds": [
+            "paulesu-1993-phonological-loop",
+            "awh-1996-verbal-wm-storage-rehearsal",
+            "emch-2019-verbal-wm-meta"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达数字/言语序列的语音储存、主动复述和发音计划支持。",
+          "caution": "当前仍是语音环路候选代理，不是语言专门 atlas 的最终定位。"
+        },
+        {
+          "id": "stm-spatial-holding",
+          "label": "空间位置保持",
+          "networkId": "dorsal_attention",
+          "regionCoverageId": "intraparietal-posterior-parietal",
+          "displayParcelId": "schaefer200_142",
+          "candidateParcelIds": [
+            "schaefer200_138",
+            "schaefer200_142",
+            "schaefer200_115",
+            "schaefer200_176"
+          ],
+          "overlapParadigmIds": [
+            "grid-span"
+          ],
+          "supportSourceIds": [
+            "jonides-1993-spatial-wm-pet",
+            "courtney-1996-object-spatial-wm",
+            "diwadkar-2000-dynamic-spatial-wm"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达空间位置、格子路径和视觉空间负荷在顶叶-枕顶区域的候选保持。",
+          "caution": "Diwadkar DLPFC/顶叶点仍为低置信候选；Smith 1996 边界材料已补齐但多数峰仍需人工生产裁剪。"
+        },
+        {
+          "id": "stm-object-visual-holding",
+          "label": "物体/视觉短时保持",
+          "networkId": "visual",
+          "regionCoverageId": "ventral-temporal-fusiform-parahippocampal",
+          "displayParcelId": "schaefer200_002",
+          "candidateParcelIds": [
+            "schaefer200_002",
+            "schaefer200_108",
+            "schaefer200_139",
+            "schaefer200_172"
+          ],
+          "overlapParadigmIds": [
+            "object-span"
+          ],
+          "supportSourceIds": [
+            "courtney-1996-object-spatial-wm"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达物体、面孔或视觉样式在短时间内保持的腹侧视觉和额顶候选支持。",
+          "caution": "不是完整物体识别网络，也不能替代面孔/物体专门图谱。"
+        },
+        {
+          "id": "stm-update-monitor",
+          "label": "更新/匹配监控",
+          "networkId": "ventral_attention",
+          "regionCoverageId": "anterior-cingulate-medial-frontal",
+          "displayParcelId": "schaefer200_052",
+          "candidateParcelIds": [
+            "schaefer200_052",
+            "schaefer200_154"
+          ],
+          "overlapParadigmIds": [
+            "n-back",
+            "dual-task",
+            "keep-track"
+          ],
+          "supportSourceIds": [
+            "rottschy-2012-working-memory",
+            "emch-2019-verbal-wm-meta"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达新项目到来、匹配判断、冲突/显著性和更新需求。",
+          "caution": "内侧额叶、前岛叶和额叶岛盖分工还需坐标级复核。"
+        }
+      ],
+      "overlay": {
+        "nodes": [
+          {
+            "id": "stm-broad-wm-core",
+            "label": "额顶工作记忆核心",
+            "role": "executive_control",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "dorsolateral-prefrontal-cortex",
+            "displayParcelId": "schaefer200_068",
+            "candidateParcelIds": [
+              "schaefer200_063",
+              "schaefer200_167",
+              "schaefer200_068",
+              "schaefer200_174",
+              "schaefer200_048",
+              "schaefer200_154"
+            ],
+            "weight": 0.88,
+            "caption": "维持任务规则、当前目标和工作记忆负荷。"
+          },
+          {
+            "id": "stm-nback-updating",
+            "label": "N-back 更新/匹配",
+            "role": "memory_context",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "dorsolateral-prefrontal-cortex",
+            "displayParcelId": "schaefer200_068",
+            "candidateParcelIds": [
+              "schaefer200_036",
+              "schaefer200_138",
+              "schaefer200_068",
+              "schaefer200_172",
+              "schaefer200_042",
+              "schaefer200_052",
+              "schaefer200_180"
+            ],
+            "weight": 0.84,
+            "caption": "持续更新当前项目，并判断它是否匹配前面的位置。"
+          },
+          {
+            "id": "stm-verbal-rehearsal-loop",
+            "label": "言语储存/复述",
+            "role": "memory_context",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "inferior-frontal-gyrus",
+            "displayParcelId": "schaefer200_069",
+            "candidateParcelIds": [
+              "schaefer200_019",
+              "schaefer200_050",
+              "schaefer200_069",
+              "schaefer200_156"
+            ],
+            "weight": 0.78,
+            "caption": "把数字或词语序列临时保持住，并通过复述维持。"
+          },
+          {
+            "id": "stm-spatial-holding",
+            "label": "空间位置保持",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "intraparietal-posterior-parietal",
+            "displayParcelId": "schaefer200_142",
+            "candidateParcelIds": [
+              "schaefer200_138",
+              "schaefer200_142",
+              "schaefer200_115",
+              "schaefer200_176"
+            ],
+            "weight": 0.76,
+            "caption": "短时间保持格子位置、路径顺序和空间关系。"
+          },
+          {
+            "id": "stm-object-visual-holding",
+            "label": "物体视觉保持",
+            "role": "sensory_input",
+            "networkId": "visual",
+            "regionCoverageId": "ventral-temporal-fusiform-parahippocampal",
+            "displayParcelId": "schaefer200_002",
+            "candidateParcelIds": [
+              "schaefer200_002",
+              "schaefer200_108",
+              "schaefer200_139",
+              "schaefer200_172"
+            ],
+            "weight": 0.68,
+            "caption": "临时保持物体、面孔或视觉样式的信息。"
+          },
+          {
+            "id": "stm-update-monitor",
+            "label": "更新/匹配监控",
+            "role": "conflict_monitoring",
+            "networkId": "ventral_attention",
+            "regionCoverageId": "anterior-cingulate-medial-frontal",
+            "displayParcelId": "schaefer200_052",
+            "candidateParcelIds": [
+              "schaefer200_052",
+              "schaefer200_154"
+            ],
+            "weight": 0.72,
+            "caption": "提示新信息、匹配判断和更新需求。"
+          }
+        ],
+        "edges": [
+          {
+            "id": "stm-edge-core-update",
+            "sourceNodeId": "stm-update-monitor",
+            "targetNodeId": "stm-broad-wm-core",
+            "relation": "salience_gate",
+            "weight": 0.72,
+            "caption": "更新或匹配需求触发额顶控制系统。"
+          },
+          {
+            "id": "stm-edge-core-nback",
+            "sourceNodeId": "stm-broad-wm-core",
+            "targetNodeId": "stm-nback-updating",
+            "relation": "coactivation",
+            "weight": 0.78,
+            "caption": "额顶控制和更新匹配共同完成 N-back。"
+          },
+          {
+            "id": "stm-edge-core-verbal",
+            "sourceNodeId": "stm-broad-wm-core",
+            "targetNodeId": "stm-verbal-rehearsal-loop",
+            "relation": "top_down_bias",
+            "weight": 0.66,
+            "caption": "控制系统维持复述策略和数字序列目标。"
+          },
+          {
+            "id": "stm-edge-core-spatial",
+            "sourceNodeId": "stm-broad-wm-core",
+            "targetNodeId": "stm-spatial-holding",
+            "relation": "top_down_bias",
+            "weight": 0.64,
+            "caption": "控制系统把注意维持在空间位置和路径顺序上。"
+          },
+          {
+            "id": "stm-edge-visual-object",
+            "sourceNodeId": "stm-object-visual-holding",
+            "targetNodeId": "stm-broad-wm-core",
+            "relation": "candidate_flow",
+            "weight": 0.58,
+            "caption": "视觉物体信息进入短时保持并接受控制调节。"
+          }
+        ]
+      },
+      "nextCoordinateReview": [
+        "短时记忆功能总览已从 3 个候选点扩展为 6 个演示候选节点：广义 WM 核心、N-back 更新、言语复述、空间保持、物体视觉保持和更新监控。",
+        "下一步需把 Smith 1996 verbal/spatial WM 候选峰裁剪到数字广度/空间广度生产 overlay，并把 Emch 2019 supplement 按 n-back、Sternberg、PASAT、digit-span-like 任务族拆细。",
+        "Digit span、grid span、object span 仍保持 coordinates_mapped_candidate，不升级 reviewed；当前用途是演示候选网络，不是训练靶点或诊断点。"
+      ]
+    },
+    {
+      "functionId": "reading",
+      "status": "candidate_network",
+      "summary": "阅读能力从视觉字形进入正字法识别、腹侧词形候选、音韵解码、词义访问和句意整合；Taylor 2013 已给出 word/pseudoword、orthographic、phonological 和 lexical/semantic contrast 的坐标候选层，Binder 2009 与 Price 2012 用来约束语义/句子理解边界。当前 Schaefer200/Yeo7 只能作为演示候选支架，不能替代语言专门图谱或 VWFA 精确图谱。",
+      "salesNarrative": "讲阅读时，可以先讲文字不是直接变成理解，而是先进入视觉/正字法系统，再走腹侧词形候选路线和音韵解码路线；熟悉词更快接到词义和角回/下顶叶整合，陌生词或伪词更依赖 IFG、顶叶和音韵转换；最后语义颞叶、DMPFC、VMPFC 与后扣带把词句放回语境、经验和背景记忆。",
+      "mechanismSummary": "Taylor 2013 支持把阅读拆成视觉/正字法输入、腹侧词形候选、伪词/音韵解码、下额回控制、下顶叶/角回语义和注意支持等候选层；Binder 2009 支持分布式语义系统，Price 2012 用于语言/阅读综述边界，McCandliss 2003 用于 VWFA/视觉词形专长框架。当前用途是候选演示网络，不是精确 VWFA 或完整语言 atlas。",
+      "safeClaims": [
+        "可讲阅读涉及字形识别、正字法加工、音韵转换、词义访问、上下文整合和语义控制。",
+        "可讲熟悉词和伪词/陌生词会偏向不同路线：熟悉词更容易接入词义，伪词更依赖音韵解码和控制。",
+        "可讲当前模型显示的是阅读候选支架，能够用于产品演示，但不是语言专门 atlas 或诊断工具。"
+      ],
+      "avoidClaims": [
+        "不要把 Yeo7/Schaefer200 网络名直接讲成完整语言网络。",
+        "不要把阅读理解困难简化成单个视觉点位问题。",
+        "不要把腹侧颞枕候选点说成已经坐实的精确 VWFA；当前只说文字形态/腹侧词形候选。",
+        "不要把 Taylor 2013 的所有峰值一次性全亮成阅读全脑激活图。"
+      ],
+      "paradigmUses": [
+        {
+          "paradigmId": "lexical-decision",
+          "role": "core",
+          "evidenceWeight": 0.82,
+          "synthesisRole": "字词识别和语义访问入口。"
+        },
+        {
+          "paradigmId": "sentence-comprehension",
+          "role": "core",
+          "evidenceWeight": 0.72,
+          "synthesisRole": "句意整合和上下文理解入口。"
+        },
+        {
+          "paradigmId": "semantic-task",
+          "role": "core",
+          "evidenceWeight": 0.78,
+          "synthesisRole": "词义、概念关系和语义控制入口。"
+        },
+        {
+          "paradigmId": "drm-false-memory",
+          "role": "boundary",
+          "evidenceWeight": 0.42,
+          "synthesisRole": "DRM 依赖词义和语义 gist，但主标签属于长时记忆。"
+        },
+        {
+          "paradigmId": "deductive-reasoning",
+          "role": "boundary",
+          "evidenceWeight": 0.4,
+          "synthesisRole": "语言材料演绎推理会调用阅读/句意处理，但主标签属于推理。"
+        },
+        {
+          "paradigmId": "word-pseudoword-reading",
+          "role": "core",
+          "evidenceWeight": 0.78,
+          "synthesisRole": "字词/伪词阅读作为阅读能力的核心路线任务，承接字形、音韵和词义三层。"
+        },
+        {
+          "paradigmId": "phonological-decoding",
+          "role": "core",
+          "evidenceWeight": 0.68,
+          "synthesisRole": "音韵解码补足儿童阅读中的发音规则和押韵判断支路。"
+        },
+        {
+          "paradigmId": "orthographic-processing",
+          "role": "core",
+          "evidenceWeight": 0.74,
+          "synthesisRole": "正字法加工补足视觉字形/熟悉字形通路。"
+        },
+        {
+          "paradigmId": "associative-memory",
+          "role": "supporting",
+          "evidenceWeight": 0.42,
+          "synthesisRole": "联想记忆作为词义和概念联结的背景支撑，不作为阅读主任务。"
+        },
+        {
+          "paradigmId": "math-word-problem",
+          "role": "supporting",
+          "evidenceWeight": 0.54,
+          "synthesisRole": "数学应用题体现阅读限定词和逻辑关系抽取。"
+        },
+        {
+          "paradigmId": "face-name-association",
+          "role": "boundary",
+          "evidenceWeight": 0.3,
+          "synthesisRole": "面孔-姓名联结含文字/姓名标签，但主归长时记忆。"
+        }
+      ],
+      "sourceUses": [
+        {
+          "sourceId": "taylor-2013-reading-meta",
+          "supportRole": "coordinate_boundary",
+          "paradigmIds": [
+            "word-pseudoword-reading",
+            "phonological-decoding",
+            "orthographic-processing",
+            "lexical-decision",
+            "semantic-task"
+          ],
+          "note": "已抽取坐标候选，用于区分视觉/正字法、腹侧词形、音韵解码、IFG 控制、下顶叶支持和语义候选层。"
+        },
+        {
+          "sourceId": "price-2012-language-review",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "lexical-decision",
+            "sentence-comprehension",
+            "word-pseudoword-reading"
+          ],
+          "note": "语言/阅读系统综述级边界，用来避免把阅读压成单一视觉点。"
+        },
+        {
+          "sourceId": "binder-2009-semantic-system",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "semantic-task",
+            "sentence-comprehension"
+          ],
+          "note": "语义系统分布式网络的区域级证据入口；坐标级仍需补充材料继续复核。"
+        },
+        {
+          "sourceId": "mccandliss-2003-vwfa",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "orthographic-processing",
+            "word-pseudoword-reading"
+          ],
+          "note": "VWFA/左梭状阅读专长框架；当前只支持解释腹侧词形候选，不升级精确 VWFA 点位。"
+        }
+      ],
+      "convergenceRegions": [
+        {
+          "id": "reading-visual-orthographic-input",
+          "label": "视觉/正字法输入",
+          "networkId": "visual",
+          "regionCoverageId": "visual-cortex",
+          "displayParcelId": "schaefer200_003",
+          "candidateParcelIds": [
+            "schaefer200_003",
+            "schaefer200_008"
+          ],
+          "overlapParadigmIds": [
+            "orthographic-processing",
+            "word-pseudoword-reading",
+            "lexical-decision"
+          ],
+          "supportSourceIds": [
+            "taylor-2013-reading-meta"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达文字作为视觉符号和正字法线索进入阅读系统。",
+          "caution": "这是视觉/正字法候选入口，不等同于完整 VWFA。"
+        },
+        {
+          "id": "reading-ventral-word-form-candidate",
+          "label": "腹侧词形候选路线",
+          "networkId": "visual",
+          "regionCoverageId": "ventral-temporal-word-form",
+          "displayParcelId": "schaefer200_100",
+          "candidateParcelIds": [
+            "schaefer200_003",
+            "schaefer200_031",
+            "schaefer200_100",
+            "schaefer200_103"
+          ],
+          "overlapParadigmIds": [
+            "word-pseudoword-reading",
+            "orthographic-processing",
+            "lexical-decision"
+          ],
+          "supportSourceIds": [
+            "taylor-2013-reading-meta",
+            "mccandliss-2003-vwfa"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达熟悉字词形态沿腹侧视觉-颞叶路线被稳定识别。",
+          "caution": "当前只能说腹侧词形候选，不能说精确 VWFA 已复核。"
+        },
+        {
+          "id": "reading-phonological-decoding",
+          "label": "音韵解码/伪词路线",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "inferior-frontal-gyrus",
+          "displayParcelId": "schaefer200_069",
+          "candidateParcelIds": [
+            "schaefer200_043",
+            "schaefer200_048",
+            "schaefer200_069",
+            "schaefer200_087"
+          ],
+          "overlapParadigmIds": [
+            "phonological-decoding",
+            "word-pseudoword-reading"
+          ],
+          "supportSourceIds": [
+            "taylor-2013-reading-meta",
+            "price-2012-language-review"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达陌生词、伪词和发音规则需要把字形转换成音韵序列。",
+          "caution": "IFG/前运动/默认网络邻近候选需保持任务边界，不作为单一阅读中心。"
+        },
+        {
+          "id": "reading-parietal-phonological-attention",
+          "label": "顶叶音韵/注意支持",
+          "networkId": "dorsal_attention",
+          "regionCoverageId": "angular-gyrus-inferior-parietal",
+          "displayParcelId": "schaefer200_138",
+          "candidateParcelIds": [
+            "schaefer200_036",
+            "schaefer200_063",
+            "schaefer200_138",
+            "schaefer200_141",
+            "schaefer200_166"
+          ],
+          "overlapParadigmIds": [
+            "phonological-decoding",
+            "word-pseudoword-reading",
+            "lexical-decision"
+          ],
+          "supportSourceIds": [
+            "taylor-2013-reading-meta"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达阅读中对音韵、注意定向和下顶叶支持的候选层。",
+          "caution": "这是一组候选支持点，不是单个阅读核心。"
+        },
+        {
+          "id": "reading-angular-semantic-integration",
+          "label": "角回/下顶叶语义整合",
+          "networkId": "default_mode",
+          "regionCoverageId": "angular-gyrus-inferior-parietal",
+          "displayParcelId": "schaefer200_081",
+          "candidateParcelIds": [
+            "schaefer200_061",
+            "schaefer200_081",
+            "schaefer200_082"
+          ],
+          "overlapParadigmIds": [
+            "sentence-comprehension",
+            "semantic-task",
+            "lexical-decision"
+          ],
+          "supportSourceIds": [
+            "taylor-2013-reading-meta",
+            "binder-2009-semantic-system"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达熟悉词意义、概念关系和上下文整合。",
+          "caution": "角回、缘上回和下顶叶不同亚区不能合成一个精确点。"
+        },
+        {
+          "id": "reading-semantic-temporal",
+          "label": "颞叶语义表征",
+          "networkId": "default_mode",
+          "regionCoverageId": "semantic-temporal-cortex",
+          "displayParcelId": "schaefer200_064",
+          "candidateParcelIds": [
+            "schaefer200_064"
+          ],
+          "overlapParadigmIds": [
+            "lexical-decision",
+            "sentence-comprehension",
+            "semantic-task"
+          ],
+          "supportSourceIds": [
+            "price-2012-language-review",
+            "binder-2009-semantic-system"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达词义和概念知识。",
+          "caution": "语义系统是分布式网络，不能压成单点。"
+        },
+        {
+          "id": "reading-ifg-control",
+          "label": "下额回/语义控制",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "inferior-frontal-gyrus",
+          "displayParcelId": "schaefer200_066",
+          "candidateParcelIds": [
+            "schaefer200_043",
+            "schaefer200_048",
+            "schaefer200_066",
+            "schaefer200_069",
+            "schaefer200_087"
+          ],
+          "overlapParadigmIds": [
+            "lexical-decision",
+            "semantic-task",
+            "phonological-decoding"
+          ],
+          "supportSourceIds": [
+            "taylor-2013-reading-meta",
+            "price-2012-language-review",
+            "binder-2009-semantic-system"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达从多个意义或读音中选择任务相关解释。",
+          "caution": "IFG 亚区和语言侧化需专门核验。"
+        },
+        {
+          "id": "reading-dmpfc-retrieval",
+          "label": "DMPFC 主动语义检索",
+          "networkId": "default_mode",
+          "regionCoverageId": "anterior-cingulate-medial-frontal",
+          "displayParcelId": "schaefer200_092",
+          "candidateParcelIds": [
+            "schaefer200_092"
+          ],
+          "overlapParadigmIds": [
+            "semantic-task"
+          ],
+          "supportSourceIds": [
+            "binder-2009-semantic-system"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达目标导向的主动语义检索。",
+          "caution": "不要和 Stroop/冲突监控 ACC 混成同一个点。"
+        },
+        {
+          "id": "reading-vmpfc-affective-context",
+          "label": "VMPFC 情境价值",
+          "networkId": "default_mode",
+          "regionCoverageId": "orbitofrontal-ventral-prefrontal",
+          "displayParcelId": "schaefer200_084",
+          "candidateParcelIds": [
+            "schaefer200_084"
+          ],
+          "overlapParadigmIds": [
+            "semantic-task"
+          ],
+          "supportSourceIds": [
+            "binder-2009-semantic-system"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达概念的情绪、价值和个人意义背景。",
+          "caution": "不是完整情绪网络或 OFC-纹状体反馈环路。"
+        },
+        {
+          "id": "reading-pcc-context",
+          "label": "后扣带语境背景",
+          "networkId": "default_mode",
+          "regionCoverageId": "posterior-cingulate-ventral-precuneus",
+          "displayParcelId": "schaefer200_096",
+          "candidateParcelIds": [
+            "schaefer200_096"
+          ],
+          "overlapParadigmIds": [
+            "semantic-task",
+            "drm-false-memory"
+          ],
+          "supportSourceIds": [
+            "binder-2009-semantic-system"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达概念知识与背景记忆的语境支撑。",
+          "caution": "后扣带、楔前叶和 retrosplenial 需要坐标级细分。"
+        }
+      ],
+      "overlay": {
+        "nodes": [
+          {
+            "id": "reading-visual-orthographic-input",
+            "label": "视觉/正字法输入",
+            "role": "sensory_input",
+            "networkId": "visual",
+            "regionCoverageId": "visual-cortex",
+            "displayParcelId": "schaefer200_003",
+            "candidateParcelIds": [
+              "schaefer200_003",
+              "schaefer200_008"
+            ],
+            "weight": 0.78,
+            "caption": "文字作为视觉符号进入系统。"
+          },
+          {
+            "id": "reading-ventral-word-form-candidate",
+            "label": "腹侧词形候选",
+            "role": "sensory_input",
+            "networkId": "visual",
+            "regionCoverageId": "ventral-temporal-word-form",
+            "displayParcelId": "schaefer200_100",
+            "candidateParcelIds": [
+              "schaefer200_003",
+              "schaefer200_031",
+              "schaefer200_100",
+              "schaefer200_103"
+            ],
+            "weight": 0.74,
+            "caption": "熟悉字形沿腹侧视觉-颞叶路线稳定识别。"
+          },
+          {
+            "id": "reading-phonological-decoding",
+            "label": "音韵解码",
+            "role": "response_selection",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "inferior-frontal-gyrus",
+            "displayParcelId": "schaefer200_069",
+            "candidateParcelIds": [
+              "schaefer200_043",
+              "schaefer200_048",
+              "schaefer200_069",
+              "schaefer200_087"
+            ],
+            "weight": 0.72,
+            "caption": "陌生词和伪词需要把字形转换成音韵。"
+          },
+          {
+            "id": "reading-parietal-phonological-attention",
+            "label": "顶叶音韵/注意支持",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "angular-gyrus-inferior-parietal",
+            "displayParcelId": "schaefer200_138",
+            "candidateParcelIds": [
+              "schaefer200_036",
+              "schaefer200_063",
+              "schaefer200_138",
+              "schaefer200_141",
+              "schaefer200_166"
+            ],
+            "weight": 0.68,
+            "caption": "顶叶帮助维持音韵、注意和阅读序列。"
+          },
+          {
+            "id": "reading-angular-semantic-integration",
+            "label": "角回语义整合",
+            "role": "memory_context",
+            "networkId": "default_mode",
+            "regionCoverageId": "angular-gyrus-inferior-parietal",
+            "displayParcelId": "schaefer200_081",
+            "candidateParcelIds": [
+              "schaefer200_061",
+              "schaefer200_081",
+              "schaefer200_082"
+            ],
+            "weight": 0.74,
+            "caption": "整合词义关系和上下文意义。"
+          },
+          {
+            "id": "reading-semantic-temporal",
+            "label": "颞叶语义",
+            "role": "memory_context",
+            "networkId": "default_mode",
+            "regionCoverageId": "semantic-temporal-cortex",
+            "displayParcelId": "schaefer200_064",
+            "candidateParcelIds": [
+              "schaefer200_064"
+            ],
+            "weight": 0.72,
+            "caption": "访问词义和概念知识。"
+          },
+          {
+            "id": "reading-ifg-control",
+            "label": "下额/语义控制",
+            "role": "executive_control",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "inferior-frontal-gyrus",
+            "displayParcelId": "schaefer200_066",
+            "candidateParcelIds": [
+              "schaefer200_043",
+              "schaefer200_048",
+              "schaefer200_066",
+              "schaefer200_069",
+              "schaefer200_087"
+            ],
+            "weight": 0.7,
+            "caption": "选择任务相关意义并支持判断输出。"
+          },
+          {
+            "id": "reading-dmpfc-retrieval",
+            "label": "DMPFC 检索",
+            "role": "executive_control",
+            "networkId": "default_mode",
+            "regionCoverageId": "anterior-cingulate-medial-frontal",
+            "displayParcelId": "schaefer200_092",
+            "candidateParcelIds": [
+              "schaefer200_092"
+            ],
+            "weight": 0.56,
+            "caption": "主动检索相关概念。"
+          },
+          {
+            "id": "reading-vmpfc-affective-context",
+            "label": "VMPFC 情境价值",
+            "role": "affective_value",
+            "networkId": "default_mode",
+            "regionCoverageId": "orbitofrontal-ventral-prefrontal",
+            "displayParcelId": "schaefer200_084",
+            "candidateParcelIds": [
+              "schaefer200_084"
+            ],
+            "weight": 0.48,
+            "caption": "提供情绪、价值和个人意义背景。"
+          },
+          {
+            "id": "reading-pcc-context",
+            "label": "后扣带背景",
+            "role": "memory_context",
+            "networkId": "default_mode",
+            "regionCoverageId": "posterior-cingulate-ventral-precuneus",
+            "displayParcelId": "schaefer200_096",
+            "candidateParcelIds": [
+              "schaefer200_096"
+            ],
+            "weight": 0.52,
+            "caption": "提供背景知识和语境记忆支撑。"
+          }
+        ],
+        "edges": [
+          {
+            "id": "reading-edge-visual-ventral",
+            "sourceNodeId": "reading-visual-orthographic-input",
+            "targetNodeId": "reading-ventral-word-form-candidate",
+            "relation": "candidate_flow",
+            "weight": 0.72,
+            "caption": "视觉字形进入腹侧词形候选路线。"
+          },
+          {
+            "id": "reading-edge-visual-phonological",
+            "sourceNodeId": "reading-visual-orthographic-input",
+            "targetNodeId": "reading-phonological-decoding",
+            "relation": "candidate_flow",
+            "weight": 0.62,
+            "caption": "陌生词和伪词从字形转向音韵解码。"
+          },
+          {
+            "id": "reading-edge-ventral-semantic",
+            "sourceNodeId": "reading-ventral-word-form-candidate",
+            "targetNodeId": "reading-semantic-temporal",
+            "relation": "candidate_flow",
+            "weight": 0.66,
+            "caption": "熟悉字形更快接入词义系统。"
+          },
+          {
+            "id": "reading-edge-phonological-parietal",
+            "sourceNodeId": "reading-phonological-decoding",
+            "targetNodeId": "reading-parietal-phonological-attention",
+            "relation": "coactivation",
+            "weight": 0.58,
+            "caption": "音韵转换需要顶叶支持序列和注意。"
+          },
+          {
+            "id": "reading-edge-phonological-ifg",
+            "sourceNodeId": "reading-phonological-decoding",
+            "targetNodeId": "reading-ifg-control",
+            "relation": "top_down_bias",
+            "weight": 0.62,
+            "caption": "下额回参与选择读音和相关意义。"
+          },
+          {
+            "id": "reading-edge-parietal-angular",
+            "sourceNodeId": "reading-parietal-phonological-attention",
+            "targetNodeId": "reading-angular-semantic-integration",
+            "relation": "context_integration",
+            "weight": 0.52,
+            "caption": "顶叶支持进入词义/上下文整合。"
+          },
+          {
+            "id": "reading-edge-semantic-angular",
+            "sourceNodeId": "reading-semantic-temporal",
+            "targetNodeId": "reading-angular-semantic-integration",
+            "relation": "context_integration",
+            "weight": 0.66,
+            "caption": "词义进入上下文整合。"
+          },
+          {
+            "id": "reading-edge-control-semantic",
+            "sourceNodeId": "reading-ifg-control",
+            "targetNodeId": "reading-semantic-temporal",
+            "relation": "top_down_bias",
+            "weight": 0.58,
+            "caption": "语义控制帮助选择相关解释。"
+          },
+          {
+            "id": "reading-edge-dmpfc-semantic",
+            "sourceNodeId": "reading-dmpfc-retrieval",
+            "targetNodeId": "reading-semantic-temporal",
+            "relation": "top_down_bias",
+            "weight": 0.5,
+            "caption": "主动检索帮助找到相关概念。"
+          },
+          {
+            "id": "reading-edge-angular-pcc",
+            "sourceNodeId": "reading-angular-semantic-integration",
+            "targetNodeId": "reading-pcc-context",
+            "relation": "context_integration",
+            "weight": 0.5,
+            "caption": "整合结果进入背景记忆语境。"
+          },
+          {
+            "id": "reading-edge-vmpfc-pcc",
+            "sourceNodeId": "reading-vmpfc-affective-context",
+            "targetNodeId": "reading-pcc-context",
+            "relation": "context_integration",
+            "weight": 0.42,
+            "caption": "情境价值进入背景意义网络。"
+          }
+        ]
+      },
+      "nextCoordinateReview": [
+        "阅读功能总览已按 Taylor 2013 坐标候选扩展为视觉/正字法、腹侧词形、音韵解码、顶叶支持、语义整合和上下文系统。",
+        "下一步需补阅读/语言专门 atlas，复核 VWFA、左 IFG、颞叶语义和顶叶阅读相关点位的精细边界。",
+        "Binder 2009 semantic-system supplement 仍需坐标级复核；当前语义/句子理解保持区域级候选。"
+      ],
+      "presentationStages": [
+        {
+          "id": "reading-stage-visual-word-form",
+          "title": "字形先进入视觉和词形路线",
+          "summary": "先把字词、伪词或句子材料拆成可识别的视觉字形和正字法线索，再进入腹侧词形候选路线。",
+          "nodeIds": [
+            "reading-visual-orthographic-input",
+            "reading-ventral-word-form-candidate"
+          ],
+          "speakerCue": "先讲孩子不是直接理解意思，而是先把文字形态稳定识别出来。"
+        },
+        {
+          "id": "reading-stage-phonology-semantics",
+          "title": "陌生词需要音韵和顶叶支持",
+          "summary": "伪词、陌生词或发音规则要求把字形转换成音韵，并由顶叶和 IFG 支持选择与维持。",
+          "nodeIds": [
+            "reading-phonological-decoding",
+            "reading-parietal-phonological-attention",
+            "reading-ifg-control"
+          ],
+          "speakerCue": "再讲读不熟的词不是只靠看见字形，还要把字形和声音规则接起来。"
+        },
+        {
+          "id": "reading-stage-context-comprehension",
+          "title": "词义和句意完成整合",
+          "summary": "颞叶语义、角回/下顶叶、DMPFC、VMPFC、后扣带/楔前叶参与词义访问、主动检索和上下文整合。",
+          "nodeIds": [
+            "reading-semantic-temporal",
+            "reading-angular-semantic-integration",
+            "reading-dmpfc-retrieval",
+            "reading-vmpfc-affective-context",
+            "reading-pcc-context"
+          ],
+          "speakerCue": "最后讲阅读理解不是认字结束，而是把句子放进上下文和经验里。"
+        }
+      ]
+    },
+    {
+      "functionId": "calculation",
+      "status": "candidate_network",
+      "summary": "计算能力从非符号数量感、数字与数量对应、小数量识别、数字大小和数轴开始，再进入算术事实、在线运算、代数符号、几何空间、概率统计与应用题建模；当前以视觉输入、顶叶数量/空间系统、下顶叶形式整合、额顶规则控制和冲突监控作为候选主线。",
+      "salesNarrative": "讲计算时，可以先讲一条从直觉到逻辑的路径：孩子先看见数字、图形或题干，顶叶系统快速形成数量和空间关系；熟练题可能直接提取算术事实，复杂题则需要 DLPFC/额顶系统维持步骤、规则和逻辑模型；当直觉答案和题干限制冲突时，前扣带/内侧额叶候选系统提示切回规则和逻辑。",
+      "mechanismSummary": "数感和数字比较共同指向视觉输入、IPS/SPL 数量表征和下顶叶整合；熟练算术事实更需要语义/长期记忆和下顶叶事实提取；应用题需要额外解析题干限定词、条件关系和逻辑结构；复杂心算、代数、几何、统计和应用题额外需要额顶规则控制、工作记忆、空间关系和冲突监控。Dehaene 1999 已完成 Talairach-to-MNI 转换和一轮 Schaefer200 候选映射，强化了近似数量的双侧顶叶主线和精确算术的左角回/后内侧候选；Arsalidou 2011 Tables 2-6 与 Zago 2001 Tables 2-4 已补入数字/计算、加减乘和简单/复杂心算坐标候选；Amalric SI S1/S2/S6/S8 已完成高级数学/几何候选映射。心算、数字比较、数量估计/数感和算术事实提取已完成第一轮生产裁剪；后续缺口主要是学生任务迁移边界、数学应用题和概率统计专门证据。 2026-09-02新增符号-非符号数量对应、小数量识别/计数和数轴估计三个网络级范式，补齐数量理解基础层；三者均未生成新生产坐标。",
+      "safeClaims": [
+        "可讲计算不是单纯算得快，而是数量直觉、符号/空间输入、下顶叶整合、长期事实提取、规则步骤和逻辑监控的协作。"
+      ],
+      "avoidClaims": [
+        "不要把计算能力简化成单个顶叶点位；不要把专家高级数学网络直接当成儿童训练靶点；不要把概率统计或应用题逻辑讲成已经有专属坐标复核的单一脑区。"
+      ],
+      "paradigmUses": [
+        {
+          "paradigmId": "approximate-number-sense",
+          "role": "core",
+          "evidenceWeight": 0.82,
+          "synthesisRole": "数学直觉、数量估计和近似大小判断；Dehaene 1999 坐标候选已映射到双侧顶叶主线。"
+        },
+        {
+          "paradigmId": "mental-arithmetic",
+          "role": "core",
+          "evidenceWeight": 0.86,
+          "synthesisRole": "多步骤心算和规则执行。"
+        },
+        {
+          "paradigmId": "arithmetic-fact-retrieval",
+          "role": "core",
+          "evidenceWeight": 0.72,
+          "synthesisRole": "熟练四则运算事实提取和答案选择；Dehaene 1999 支持左角回/下顶叶候选，额叶点仍较松。"
+        },
+        {
+          "paradigmId": "number-comparison",
+          "role": "core",
+          "evidenceWeight": 0.78,
+          "synthesisRole": "基础数量大小表征和快速比较。"
+        },
+        {
+          "paradigmId": "algebra-equation-solving",
+          "role": "supporting",
+          "evidenceWeight": 0.58,
+          "synthesisRole": "变量、等式和符号规则变换；目前使用高级数学共享网络，尚非代数专属峰。"
+        },
+        {
+          "paradigmId": "geometric-reasoning",
+          "role": "supporting",
+          "evidenceWeight": 0.66,
+          "synthesisRole": "图形、空间关系和几何证明目标；已纳入 Amalric SI S2 几何特异峰。"
+        },
+        {
+          "paradigmId": "probability-statistics-reasoning",
+          "role": "supporting",
+          "evidenceWeight": 0.34,
+          "synthesisRole": "比例、概率、统计图表和不确定性判断；当前证据最弱。"
+        },
+        {
+          "paradigmId": "math-word-problem",
+          "role": "core",
+          "evidenceWeight": 0.42,
+          "synthesisRole": "题干限定词、数量关系、逻辑建模和冲动答案抑制。"
+        },
+        {
+          "paradigmId": "symbolic-quantity-mapping",
+          "role": "core",
+          "evidenceWeight": 0.7,
+          "synthesisRole": "把数字、数词和点阵对应到同一数量意义；当前为儿童/成人发展研究支持的网络级链路。"
+        },
+        {
+          "paradigmId": "subitizing-enumeration",
+          "role": "core",
+          "evidenceWeight": 0.64,
+          "synthesisRole": "区分少量快速整体识别与较大集合逐项搜索和计数。"
+        },
+        {
+          "paradigmId": "number-line-estimation",
+          "role": "core",
+          "evidenceWeight": 0.68,
+          "synthesisRole": "把数量大小、数序和空间比例放在同一数轴任务中观察。"
+        }
+      ],
+      "sourceUses": [
+        {
+          "sourceId": "arsalidou-taylor-2011-calculation",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "mental-arithmetic",
+            "number-comparison",
+            "arithmetic-fact-retrieval"
+          ],
+          "note": "数加工和计算相关脑区的元分析入口；摘要支持下顶叶共同核心和操作特异性前额叶差异。"
+        },
+        {
+          "sourceId": "dehaene-1999-sources-math-thinking",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "approximate-number-sense",
+            "arithmetic-fact-retrieval"
+          ],
+          "note": "原始 Talairach 峰已转 MNI 并完成一轮 Schaefer200 候选映射；可用于区分近似数量/双侧顶叶系统和精确算术/左角回事实提取，额叶峰需谨慎。"
+        },
+        {
+          "sourceId": "dehaene-2009-math-intuitions",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "approximate-number-sense",
+            "number-comparison",
+            "math-word-problem"
+          ],
+          "note": "用于把计算讲解分成快速数量直觉、符号规则处理和后续逻辑校验三层。"
+        },
+        {
+          "sourceId": "zago-2001-simple-complex-calculation",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "mental-arithmetic",
+            "arithmetic-fact-retrieval",
+            "algebra-equation-solving"
+          ],
+          "note": "简单与复杂心算任务来源，用于控制负荷和额顶参与边界。"
+        },
+        {
+          "sourceId": "houde-2003-logical-math-cognition",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "math-word-problem",
+            "probability-statistics-reasoning"
+          ],
+          "note": "逻辑/数学认知和直觉错误抑制的综述框架。"
+        },
+        {
+          "sourceId": "amalric-dehaene-2016-advanced-math",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "algebra-equation-solving",
+            "geometric-reasoning"
+          ],
+          "note": "SI Appendix S1/S6/S8 支持高级数学共享额顶-顶叶-枕颞网络，S2 提供几何特异峰；无代数专属强峰，需保留专家样本和教育场景边界。"
+        },
+        {
+          "sourceId": "piazza-2003-subitizing-counting",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "subitizing-enumeration"
+          ],
+          "note": "成人视觉量化fMRI用于区分少量并行识别和较大集合串行计数；只作网络级任务边界。"
+        },
+        {
+          "sourceId": "cantlon-2009-abstract-number-development",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "symbolic-quantity-mapping",
+            "number-comparison",
+            "approximate-number-sense"
+          ],
+          "note": "儿童与成人符号/非符号比较研究，用于数字形式与数量意义的发展边界。"
+        },
+        {
+          "sourceId": "berteletti-2015-number-line-subtraction",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "number-line-estimation"
+          ],
+          "note": "儿童数轴表现与减法任务IPS/pSPL活动关系，用于数序、数量和空间比例的网络级接口。"
+        }
+      ],
+      "presentationStages": [
+        {
+          "id": "calc-stage-intuition",
+          "title": "1. 数学直觉先启动",
+          "summary": "孩子先被熟悉数字、数量大小或空间关系吸引，顶叶数量系统快速给出一个直觉方向。",
+          "nodeIds": [
+            "calc-visual-symbol",
+            "calc-ips-number",
+            "calc-ipl-integration"
+          ],
+          "speakerCue": "这里可以讲：不是孩子完全不会算，而是熟悉数量关系先把大脑带到一个下意识答案上。"
+        },
+        {
+          "id": "calc-stage-conflict",
+          "title": "2. 发现题干限制冲突",
+          "summary": "题干限定词和直觉答案不一致时，前扣带/内侧额叶候选控制层提示冲突，需要暂停自动反应。",
+          "nodeIds": [
+            "calc-semantic-constraint",
+            "calc-acc-conflict"
+          ],
+          "speakerCue": "这里可以讲：关键限定词不是装饰，它改变了解题路径；看漏限定词，大脑就会沿着熟悉路径冲出去。"
+        },
+        {
+          "id": "calc-stage-logic",
+          "title": "3. 规则建模接管",
+          "summary": "额顶控制系统维持题干条件、运算步骤和逻辑结构，再反向约束数量操作，帮助回到正确解法。",
+          "nodeIds": [
+            "calc-semantic-constraint",
+            "calc-dlpfc-rule",
+            "calc-ips-number"
+          ],
+          "speakerCue": "这里可以讲：训练目标不是压掉数学直觉，而是让控制系统在关键时刻把直觉接回逻辑模型。"
+        }
+      ],
+      "convergenceRegions": [
+        {
+          "id": "calc-visual-symbol",
+          "label": "视觉/枕颞符号图形输入",
+          "networkId": "visual",
+          "regionCoverageId": "visual-cortex",
+          "displayParcelId": "schaefer200_003",
+          "candidateParcelIds": [
+            "schaefer200_001",
+            "schaefer200_002",
+            "schaefer200_003",
+            "schaefer200_031",
+            "schaefer200_064",
+            "schaefer200_101",
+            "schaefer200_102",
+            "schaefer200_111",
+            "schaefer200_135",
+            "schaefer200_168"
+          ],
+          "overlapParadigmIds": [
+            "approximate-number-sense",
+            "mental-arithmetic",
+            "number-comparison",
+            "arithmetic-fact-retrieval",
+            "algebra-equation-solving",
+            "geometric-reasoning",
+            "probability-statistics-reasoning",
+            "math-word-problem",
+            "symbolic-quantity-mapping",
+            "subitizing-enumeration",
+            "number-line-estimation"
+          ],
+          "supportSourceIds": [
+            "arsalidou-taylor-2011-calculation",
+            "dehaene-1999-sources-math-thinking",
+            "amalric-dehaene-2016-advanced-math",
+            "piazza-2003-subitizing-counting",
+            "cantlon-2009-abstract-number-development",
+            "berteletti-2015-number-line-subtraction"
+          ],
+          "consistency": "medium",
+          "interpretation": "数字、公式、符号、图形和题干材料进入视觉/枕颞处理；Amalric SI S8 对公式/VNFA候选点提供补充。",
+          "caution": "符号加工、文字阅读、公式视觉和一般视觉输入需区分。"
+        },
+        {
+          "id": "calc-ips-number",
+          "label": "IPS/SPL 数量/空间表征",
+          "networkId": "dorsal_attention",
+          "regionCoverageId": "intraparietal-posterior-parietal",
+          "displayParcelId": "schaefer200_138",
+          "candidateParcelIds": [
+            "schaefer200_035",
+            "schaefer200_037",
+            "schaefer200_038",
+            "schaefer200_040",
+            "schaefer200_046",
+            "schaefer200_061",
+            "schaefer200_138",
+            "schaefer200_140",
+            "schaefer200_141",
+            "schaefer200_142",
+            "schaefer200_143",
+            "schaefer200_144",
+            "schaefer200_166",
+            "schaefer200_167"
+          ],
+          "overlapParadigmIds": [
+            "approximate-number-sense",
+            "mental-arithmetic",
+            "number-comparison",
+            "algebra-equation-solving",
+            "geometric-reasoning",
+            "probability-statistics-reasoning",
+            "math-word-problem",
+            "symbolic-quantity-mapping",
+            "subitizing-enumeration",
+            "number-line-estimation"
+          ],
+          "supportSourceIds": [
+            "arsalidou-taylor-2011-calculation",
+            "dehaene-1999-sources-math-thinking",
+            "amalric-dehaene-2016-advanced-math",
+            "piazza-2003-subitizing-counting",
+            "cantlon-2009-abstract-number-development",
+            "berteletti-2015-number-line-subtraction"
+          ],
+          "consistency": "high",
+          "interpretation": "用于表达数量大小、数量关系、比例和空间化数学关系；Dehaene 1999 强化近似数量的双侧 IPS/SPL/楔前叶，Amalric SI S1/S2/S6 强化高级数学和几何顶叶候选点。",
+          "caution": "顶上小叶、顶内沟、角回、几何空间关系和比例统计需要进一步拆分。"
+        },
+        {
+          "id": "calc-semantic-constraint",
+          "label": "颞叶语义/题干限定词接口",
+          "networkId": "default_mode",
+          "regionCoverageId": "semantic-temporal-cortex",
+          "displayParcelId": "schaefer200_076",
+          "candidateParcelIds": [
+            "schaefer200_064",
+            "schaefer200_075",
+            "schaefer200_076",
+            "schaefer200_077",
+            "schaefer200_078",
+            "schaefer200_168",
+            "schaefer200_186",
+            "schaefer200_187",
+            "schaefer200_188",
+            "schaefer200_189"
+          ],
+          "overlapParadigmIds": [
+            "math-word-problem",
+            "probability-statistics-reasoning",
+            "algebra-equation-solving"
+          ],
+          "supportSourceIds": [
+            "dehaene-2009-math-intuitions",
+            "houde-2003-logical-math-cognition",
+            "amalric-dehaene-2016-advanced-math"
+          ],
+          "consistency": "low",
+          "interpretation": "用于表达应用题中的限定词、条件语义和逻辑关系入口，帮助把题干从一般文字转成可计算的约束。",
+          "caution": "这是语义/语言理解的粗粒度代理，不是应用题专属坐标点；后续需要语言和应用题 fMRI 文献继续精校。"
+        },
+        {
+          "id": "calc-ipl-integration",
+          "label": "IPL/角回数量事实整合",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "angular-gyrus-inferior-parietal",
+          "displayParcelId": "schaefer200_082",
+          "candidateParcelIds": [
+            "schaefer200_035",
+            "schaefer200_046",
+            "schaefer200_061",
+            "schaefer200_063",
+            "schaefer200_082",
+            "schaefer200_165",
+            "schaefer200_166"
+          ],
+          "overlapParadigmIds": [
+            "mental-arithmetic",
+            "number-comparison",
+            "arithmetic-fact-retrieval",
+            "algebra-equation-solving",
+            "geometric-reasoning",
+            "symbolic-quantity-mapping"
+          ],
+          "supportSourceIds": [
+            "arsalidou-taylor-2011-calculation",
+            "dehaene-1999-sources-math-thinking",
+            "zago-2001-simple-complex-calculation",
+            "amalric-dehaene-2016-advanced-math",
+            "cantlon-2009-abstract-number-development"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达数量关系、算术事实、中间结果和符号意义的整合；Dehaene 1999 精确计算峰支持左角回候选，几何 S2 也提示左缘上回/下顶叶候选参与。",
+          "caution": "下顶叶候选点仍需与具体任务和坐标表对齐；右角回峰在 Schaefer200 中最近点偏颞上沟，暂不当强角回点。"
+        },
+        {
+          "id": "calc-dlpfc-rule",
+          "label": "DLPFC/额顶规则步骤控制",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "dorsolateral-prefrontal-cortex",
+          "displayParcelId": "schaefer200_068",
+          "candidateParcelIds": [
+            "schaefer200_042",
+            "schaefer200_043",
+            "schaefer200_065",
+            "schaefer200_066",
+            "schaefer200_067",
+            "schaefer200_068",
+            "schaefer200_069",
+            "schaefer200_146",
+            "schaefer200_147",
+            "schaefer200_170",
+            "schaefer200_171",
+            "schaefer200_172",
+            "schaefer200_181"
+          ],
+          "overlapParadigmIds": [
+            "mental-arithmetic",
+            "algebra-equation-solving",
+            "geometric-reasoning",
+            "probability-statistics-reasoning",
+            "math-word-problem",
+            "number-line-estimation",
+            "subitizing-enumeration"
+          ],
+          "supportSourceIds": [
+            "arsalidou-taylor-2011-calculation",
+            "zago-2001-simple-complex-calculation",
+            "houde-2003-logical-math-cognition",
+            "amalric-dehaene-2016-advanced-math"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达多步骤计算、代数变换、几何证明、统计条件和应用题逻辑建模中的规则保持、策略控制和中间结果更新；Amalric SI S1/S6 给出双侧 MFG/SFS/SMA/BA10 候选峰。",
+          "caution": "简单数量比较不一定需要同等强度的前额控制；专家数学和学生解题不能直接等同。"
+        },
+        {
+          "id": "calc-acc-conflict",
+          "label": "前扣带/内侧额叶冲突监控",
+          "networkId": "ventral_attention",
+          "regionCoverageId": "anterior-cingulate-medial-frontal",
+          "displayParcelId": "schaefer200_053",
+          "candidateParcelIds": [
+            "schaefer200_052",
+            "schaefer200_053",
+            "schaefer200_054",
+            "schaefer200_156",
+            "schaefer200_157"
+          ],
+          "overlapParadigmIds": [
+            "probability-statistics-reasoning",
+            "math-word-problem"
+          ],
+          "supportSourceIds": [
+            "houde-2003-logical-math-cognition"
+          ],
+          "consistency": "low",
+          "interpretation": "用于表达直觉答案和题干/规则限制冲突时的监控和切换提示。",
+          "caution": "这是跨逻辑/冲突控制证据的候选合成，不是应用题专属坐标结论。"
+        }
+      ],
+      "overlay": {
+        "nodes": [
+          {
+            "id": "calc-visual-symbol",
+            "label": "视觉/枕颞符号输入",
+            "role": "sensory_input",
+            "networkId": "visual",
+            "regionCoverageId": "visual-cortex",
+            "displayParcelId": "schaefer200_003",
+            "candidateParcelIds": [
+              "schaefer200_001",
+              "schaefer200_002",
+              "schaefer200_003",
+              "schaefer200_031",
+              "schaefer200_064",
+              "schaefer200_101",
+              "schaefer200_102",
+              "schaefer200_111",
+              "schaefer200_135",
+              "schaefer200_168"
+            ],
+            "weight": 0.72,
+            "caption": "看见数字、公式、符号、图形和题干材料。"
+          },
+          {
+            "id": "calc-ips-number",
+            "label": "IPS/SPL 数量空间",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "intraparietal-posterior-parietal",
+            "displayParcelId": "schaefer200_138",
+            "candidateParcelIds": [
+              "schaefer200_035",
+              "schaefer200_037",
+              "schaefer200_038",
+              "schaefer200_040",
+              "schaefer200_046",
+              "schaefer200_061",
+              "schaefer200_138",
+              "schaefer200_140",
+              "schaefer200_141",
+              "schaefer200_142",
+              "schaefer200_143",
+              "schaefer200_144",
+              "schaefer200_166",
+              "schaefer200_167"
+            ],
+            "weight": 0.9,
+            "caption": "形成数量大小、比例、顶叶空间和高级数学关系。"
+          },
+          {
+            "id": "calc-semantic-constraint",
+            "label": "颞叶语义/题干限定词",
+            "role": "context",
+            "networkId": "default_mode",
+            "regionCoverageId": "semantic-temporal-cortex",
+            "displayParcelId": "schaefer200_076",
+            "candidateParcelIds": [
+              "schaefer200_064",
+              "schaefer200_075",
+              "schaefer200_076",
+              "schaefer200_077",
+              "schaefer200_078",
+              "schaefer200_168",
+              "schaefer200_186",
+              "schaefer200_187",
+              "schaefer200_188",
+              "schaefer200_189"
+            ],
+            "weight": 0.64,
+            "caption": "解析题干限定词、条件关系和语义约束。"
+          },
+          {
+            "id": "calc-ipl-integration",
+            "label": "IPL/角回事实整合",
+            "role": "memory_context",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "angular-gyrus-inferior-parietal",
+            "displayParcelId": "schaefer200_082",
+            "candidateParcelIds": [
+              "schaefer200_035",
+              "schaefer200_046",
+              "schaefer200_061",
+              "schaefer200_063",
+              "schaefer200_082",
+              "schaefer200_165",
+              "schaefer200_166"
+            ],
+            "weight": 0.74,
+            "caption": "整合数量关系、算术事实、几何关系和中间结果。"
+          },
+          {
+            "id": "calc-dlpfc-rule",
+            "label": "DLPFC 规则建模",
+            "role": "executive_control",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "dorsolateral-prefrontal-cortex",
+            "displayParcelId": "schaefer200_068",
+            "candidateParcelIds": [
+              "schaefer200_042",
+              "schaefer200_043",
+              "schaefer200_065",
+              "schaefer200_066",
+              "schaefer200_067",
+              "schaefer200_068",
+              "schaefer200_069",
+              "schaefer200_146",
+              "schaefer200_147",
+              "schaefer200_170",
+              "schaefer200_171",
+              "schaefer200_172",
+              "schaefer200_181"
+            ],
+            "weight": 0.82,
+            "caption": "维持运算步骤、代数规则、几何证明目标和应用题逻辑模型。"
+          },
+          {
+            "id": "calc-acc-conflict",
+            "label": "前扣带冲突监控",
+            "role": "conflict_monitoring",
+            "networkId": "ventral_attention",
+            "regionCoverageId": "anterior-cingulate-medial-frontal",
+            "displayParcelId": "schaefer200_053",
+            "candidateParcelIds": [
+              "schaefer200_052",
+              "schaefer200_053",
+              "schaefer200_054",
+              "schaefer200_156",
+              "schaefer200_157"
+            ],
+            "weight": 0.58,
+            "caption": "监控直觉答案和题干限制之间的冲突。"
+          }
+        ],
+        "edges": [
+          {
+            "id": "calc-edge-symbol-number",
+            "sourceNodeId": "calc-visual-symbol",
+            "targetNodeId": "calc-ips-number",
+            "relation": "candidate_flow",
+            "weight": 0.72,
+            "caption": "视觉符号进入数量表征。"
+          },
+          {
+            "id": "calc-edge-number-ipl",
+            "sourceNodeId": "calc-ips-number",
+            "targetNodeId": "calc-ipl-integration",
+            "relation": "context_integration",
+            "weight": 0.66,
+            "caption": "数量大小表征进入下顶叶整合层。"
+          },
+          {
+            "id": "calc-edge-symbol-semantic",
+            "sourceNodeId": "calc-visual-symbol",
+            "targetNodeId": "calc-semantic-constraint",
+            "relation": "context_integration",
+            "weight": 0.58,
+            "caption": "题干文字和限定词进入语义条件层。"
+          },
+          {
+            "id": "calc-edge-semantic-conflict",
+            "sourceNodeId": "calc-semantic-constraint",
+            "targetNodeId": "calc-acc-conflict",
+            "relation": "salience_gate",
+            "weight": 0.62,
+            "caption": "限定词和直觉答案不一致时触发冲突监控。"
+          },
+          {
+            "id": "calc-edge-semantic-rule",
+            "sourceNodeId": "calc-semantic-constraint",
+            "targetNodeId": "calc-dlpfc-rule",
+            "relation": "context_integration",
+            "weight": 0.66,
+            "caption": "题干条件进入规则保持和逻辑建模。"
+          },
+          {
+            "id": "calc-edge-ipl-rule",
+            "sourceNodeId": "calc-ipl-integration",
+            "targetNodeId": "calc-dlpfc-rule",
+            "relation": "context_integration",
+            "weight": 0.62,
+            "caption": "中间结果和数量关系进入步骤控制。"
+          },
+          {
+            "id": "calc-edge-rule-number",
+            "sourceNodeId": "calc-dlpfc-rule",
+            "targetNodeId": "calc-ips-number",
+            "relation": "top_down_bias",
+            "weight": 0.74,
+            "caption": "计算规则约束数量操作。"
+          },
+          {
+            "id": "calc-edge-conflict-rule",
+            "sourceNodeId": "calc-acc-conflict",
+            "targetNodeId": "calc-dlpfc-rule",
+            "relation": "salience_gate",
+            "weight": 0.58,
+            "caption": "冲突提示切回规则和逻辑建模。"
+          }
+        ]
+      },
+      "nextCoordinateReview": [
+        "核 Arsalidou & Taylor 2011 中数比较、心算和角回/顶内沟的坐标差异。",
+        "核 Zago 2001 的 simple/complex calculation 坐标，与 Dehaene 1999 的 exact/approximate 分离交叉验证。",
+        "补找应用题、概率统计和学生代数/几何任务的行为+fMRI研究，避免直接套专家高级数学网络。",
+        "若需要把新增数量范式升到点位级，分别复核Piazza 2003、Cantlon 2009和Berteletti 2015的任务条件与峰值表；在此之前保持网络级。"
+      ]
+    },
+    {
+      "functionId": "reaction_speed",
+      "status": "candidate_network",
+      "summary": "反应速度覆盖刺激识别、警觉准备、知觉辨别、反应选择、时间顺序判断、动作输出和熟练自动化。",
+      "salesNarrative": "讲反应速度时，可以把它拆成三段：先看见并辨别刺激，再选择该做什么反应，最后把反应稳定输出。这样能解释为什么有的孩子不是不努力，而是某一段加工链路慢。",
+      "mechanismSummary": "简单反应、选择反应、符号搜索、视觉搜索、时间顺序判断和知觉辨别共同指向视觉输入、显著性警觉、顶叶/额顶刺激-反应映射、运动输出和小脑时序自动化候选层。",
+      "safeClaims": [
+        "可讲反应速度包含刺激评价、反应选择和动作输出。",
+        "反应速度不只包括简单按键，还包括视觉搜索、符号编码、知觉辨别和动作输出。"
+      ],
+      "avoidClaims": [
+        "不要把反应速度等同运动速度；也不要把行为反应时直接当成脑区激活证据。",
+        "不要把 Schulte 表或符号搜索讲成已经有专门坐标级 fMRI 证据。"
+      ],
+      "paradigmUses": [
+        {
+          "paradigmId": "simple-reaction-time",
+          "role": "core",
+          "evidenceWeight": 0.62,
+          "synthesisRole": "低复杂度警觉和动作输出基线。"
+        },
+        {
+          "paradigmId": "choice-reaction-time",
+          "role": "core",
+          "evidenceWeight": 0.72,
+          "synthesisRole": "刺激辨别和反应选择。"
+        },
+        {
+          "paradigmId": "temporal-order-judgment",
+          "role": "core",
+          "evidenceWeight": 0.74,
+          "synthesisRole": "快速事件先后排序和知觉判断。"
+        },
+        {
+          "paradigmId": "attention-network-test",
+          "role": "supporting",
+          "evidenceWeight": 0.5,
+          "synthesisRole": "ANT 用反应时估计注意网络效率，是速度测量参与层。"
+        },
+        {
+          "paradigmId": "posner-cueing",
+          "role": "supporting",
+          "evidenceWeight": 0.48,
+          "synthesisRole": "有效/无效线索的反应时差体现定向速度和重定向成本。"
+        },
+        {
+          "paradigmId": "go-no-go",
+          "role": "supporting",
+          "evidenceWeight": 0.52,
+          "synthesisRole": "Go 反应速度和 No-Go 抑制共同构成速度-控制交界。"
+        },
+        {
+          "paradigmId": "stop-signal",
+          "role": "supporting",
+          "evidenceWeight": 0.5,
+          "synthesisRole": "停止信号任务依赖快速取消反应，是反应速度的控制边界。"
+        },
+        {
+          "paradigmId": "lexical-decision",
+          "role": "supporting",
+          "evidenceWeight": 0.46,
+          "synthesisRole": "词汇判断包含快速刺激识别和按键决策。"
+        },
+        {
+          "paradigmId": "number-comparison",
+          "role": "supporting",
+          "evidenceWeight": 0.46,
+          "synthesisRole": "数字比较包含快速数量判断和反应选择。"
+        },
+        {
+          "paradigmId": "recognition-memory",
+          "role": "boundary",
+          "evidenceWeight": 0.36,
+          "synthesisRole": "再认任务有反应时指标，但主问题是长时记忆提取。"
+        },
+        {
+          "paradigmId": "sustained-attention-cpt",
+          "role": "supporting",
+          "evidenceWeight": 0.52,
+          "synthesisRole": "CPT/TOVA 类任务用反应速度和漏报/误报衡量持续警觉。"
+        },
+        {
+          "paradigmId": "symbol-search-coding-speed",
+          "role": "core",
+          "evidenceWeight": 0.72,
+          "synthesisRole": "符号搜索/编码速度补足教育测评中的加工速度分支。"
+        },
+        {
+          "paradigmId": "visual-search-schulte",
+          "role": "core",
+          "evidenceWeight": 0.68,
+          "synthesisRole": "视觉搜索/舒尔特表补足扫描速度和目标定位分支。"
+        },
+        {
+          "paradigmId": "perceptual-discrimination-rt",
+          "role": "core",
+          "evidenceWeight": 0.62,
+          "synthesisRole": "知觉辨别反应时补足感觉辨别速度与动作输出分离。"
+        },
+        {
+          "paradigmId": "approximate-number-sense",
+          "role": "supporting",
+          "evidenceWeight": 0.44,
+          "synthesisRole": "数量估计有速度成分，但主归计算。"
+        },
+        {
+          "paradigmId": "arithmetic-fact-retrieval",
+          "role": "supporting",
+          "evidenceWeight": 0.42,
+          "synthesisRole": "算术事实提取有熟练反应速度成分，但主归计算/长时记忆。"
+        },
+        {
+          "paradigmId": "word-pseudoword-reading",
+          "role": "supporting",
+          "evidenceWeight": 0.36,
+          "synthesisRole": "字词阅读包含反应速度指标，但主归阅读。"
+        }
+      ],
+      "sourceUses": [
+        {
+          "sourceId": "houlihan-1994-reaction-time-processes",
+          "supportRole": "behavioral_boundary",
+          "paradigmIds": [
+            "simple-reaction-time",
+            "choice-reaction-time"
+          ],
+          "note": "用于把反应时拆成刺激评价、反应选择和运动输出。"
+        },
+        {
+          "sourceId": "davis-2009-temporal-order-judgment",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "temporal-order-judgment"
+          ],
+          "note": "用于时间顺序判断和 TPJ 候选映射。"
+        },
+        {
+          "sourceId": "king-2019-cerebellum-task-battery",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "symbol-search-coding-speed",
+            "perceptual-discrimination-rt"
+          ],
+          "note": "小脑任务域作为速度、时序和熟练输出的候选补充，不直接证明每个范式。"
+        }
+      ],
+      "convergenceRegions": [
+        {
+          "id": "speed-visual-input",
+          "label": "快速刺激识别",
+          "networkId": "visual",
+          "regionCoverageId": "visual-cortex",
+          "displayParcelId": "schaefer200_002",
+          "candidateParcelIds": [
+            "schaefer200_002"
+          ],
+          "overlapParadigmIds": [
+            "simple-reaction-time",
+            "choice-reaction-time"
+          ],
+          "supportSourceIds": [
+            "houlihan-1994-reaction-time-processes"
+          ],
+          "consistency": "medium",
+          "interpretation": "刺激出现后的输入端。",
+          "caution": "行为来源不直接支持具体视觉激活峰值。"
+        },
+        {
+          "id": "speed-salience-alert",
+          "label": "警觉/显著性捕捉",
+          "networkId": "ventral_attention",
+          "regionCoverageId": "frontal-operculum-anterior-insula",
+          "displayParcelId": "schaefer200_154",
+          "candidateParcelIds": [
+            "schaefer200_154"
+          ],
+          "overlapParadigmIds": [
+            "simple-reaction-time",
+            "choice-reaction-time"
+          ],
+          "supportSourceIds": [
+            "corbetta-shulman-2002-attention"
+          ],
+          "consistency": "medium",
+          "interpretation": "捕捉突发刺激并进入反应准备。",
+          "caution": "简单反应时不应讲成复杂显著性网络证明。"
+        },
+        {
+          "id": "speed-motor-output",
+          "label": "动作输出",
+          "networkId": "somatomotor",
+          "regionCoverageId": "primary-motor-somatomotor",
+          "displayParcelId": "schaefer200_028",
+          "candidateParcelIds": [
+            "schaefer200_028"
+          ],
+          "overlapParadigmIds": [
+            "simple-reaction-time",
+            "choice-reaction-time"
+          ],
+          "supportSourceIds": [
+            "houlihan-1994-reaction-time-processes"
+          ],
+          "consistency": "medium",
+          "interpretation": "完成按键或口头反应。",
+          "caution": "动作输出是终端，不是全部反应速度。"
+        },
+        {
+          "id": "speed-perceptual-discrimination",
+          "label": "顶叶知觉辨别/扫描",
+          "networkId": "dorsal_attention",
+          "regionCoverageId": "intraparietal-posterior-parietal",
+          "displayParcelId": "schaefer200_033",
+          "candidateParcelIds": [
+            "schaefer200_033",
+            "schaefer200_036",
+            "schaefer200_142"
+          ],
+          "overlapParadigmIds": [
+            "choice-reaction-time",
+            "visual-search-schulte",
+            "perceptual-discrimination-rt"
+          ],
+          "supportSourceIds": [
+            "davis-2009-temporal-order-judgment"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达视觉搜索、目标辨别和反应前的信息分类。",
+          "caution": "不是所有反应速度都由顶叶决定；简单反应更依赖警觉和动作通路。"
+        },
+        {
+          "id": "speed-response-selection",
+          "label": "额顶反应选择",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "dorsolateral-prefrontal-cortex",
+          "displayParcelId": "schaefer200_068",
+          "candidateParcelIds": [
+            "schaefer200_066",
+            "schaefer200_068",
+            "schaefer200_069",
+            "schaefer200_173"
+          ],
+          "overlapParadigmIds": [
+            "choice-reaction-time",
+            "symbol-search-coding-speed",
+            "perceptual-discrimination-rt"
+          ],
+          "supportSourceIds": [
+            "houlihan-1994-reaction-time-processes"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达从刺激类别到反应规则的映射。",
+          "caution": "Houlihan 是行为/年龄来源，不能单独证明这些点位。"
+        }
+      ],
+      "overlay": {
+        "nodes": [
+          {
+            "id": "speed-visual-input",
+            "label": "刺激识别",
+            "role": "sensory_input",
+            "networkId": "visual",
+            "regionCoverageId": "visual-cortex",
+            "displayParcelId": "schaefer200_002",
+            "candidateParcelIds": [
+              "schaefer200_001",
+              "schaefer200_002",
+              "schaefer200_003",
+              "schaefer200_101",
+              "schaefer200_102"
+            ],
+            "weight": 0.74,
+            "caption": "视觉刺激、符号和目标位置进入感知识别。"
+          },
+          {
+            "id": "speed-perceptual-discrimination",
+            "label": "知觉辨别",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "intraparietal-posterior-parietal",
+            "displayParcelId": "schaefer200_033",
+            "candidateParcelIds": [
+              "schaefer200_033",
+              "schaefer200_034",
+              "schaefer200_036",
+              "schaefer200_037",
+              "schaefer200_142"
+            ],
+            "weight": 0.72,
+            "caption": "区分目标、干扰和类别差异，解释知觉辨别反应时。"
+          },
+          {
+            "id": "speed-salience-alert",
+            "label": "警觉捕捉",
+            "role": "salience_detection",
+            "networkId": "ventral_attention",
+            "regionCoverageId": "frontal-operculum-anterior-insula",
+            "displayParcelId": "schaefer200_154",
+            "candidateParcelIds": [
+              "schaefer200_047",
+              "schaefer200_048",
+              "schaefer200_154",
+              "schaefer200_155"
+            ],
+            "weight": 0.72,
+            "caption": "提高准备状态，让系统进入可快速反应的状态。"
+          },
+          {
+            "id": "speed-response-selection",
+            "label": "反应选择",
+            "role": "response_selection",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "dorsolateral-prefrontal-cortex",
+            "displayParcelId": "schaefer200_068",
+            "candidateParcelIds": [
+              "schaefer200_066",
+              "schaefer200_068",
+              "schaefer200_069",
+              "schaefer200_170",
+              "schaefer200_173"
+            ],
+            "weight": 0.78,
+            "caption": "把刺激类别映射成按键、口头或眼动反应。"
+          },
+          {
+            "id": "speed-temporal-order-tpj",
+            "label": "TPJ 先后事件捕捉",
+            "role": "salience_detection",
+            "networkId": "ventral_attention",
+            "regionCoverageId": "temporoparietal-junction",
+            "displayParcelId": "schaefer200_149",
+            "candidateParcelIds": [
+              "schaefer200_044",
+              "schaefer200_046",
+              "schaefer200_148",
+              "schaefer200_149"
+            ],
+            "weight": 0.76,
+            "caption": "Davis 2009 时间顺序判断的 TPJ/后颞候选，用来表达事件先后关系被捕捉。"
+          },
+          {
+            "id": "speed-temporal-order-ips",
+            "label": "IPS 时间注意定向",
+            "role": "attention_orienting",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "intraparietal-posterior-parietal",
+            "displayParcelId": "schaefer200_165",
+            "candidateParcelIds": [
+              "schaefer200_063",
+              "schaefer200_165"
+            ],
+            "weight": 0.72,
+            "caption": "把注意定向到两个刺激的先后顺序，支持顶叶排序和报告决策。"
+          },
+          {
+            "id": "speed-temporal-order-fef",
+            "label": "FEF/前运动报告准备",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "frontal-eye-fields",
+            "displayParcelId": "schaefer200_146",
+            "candidateParcelIds": [
+              "schaefer200_041",
+              "schaefer200_070",
+              "schaefer200_145",
+              "schaefer200_146"
+            ],
+            "weight": 0.68,
+            "caption": "额叶眼动区/前运动候选层参与时间注意和按键报告准备。"
+          },
+          {
+            "id": "speed-temporal-order-ifg",
+            "label": "右 IFG/岛盖任务控制",
+            "role": "executive_control",
+            "networkId": "ventral_attention",
+            "regionCoverageId": "inferior-frontal-gyrus",
+            "displayParcelId": "schaefer200_154",
+            "candidateParcelIds": [
+              "schaefer200_152",
+              "schaefer200_154",
+              "schaefer200_170",
+              "schaefer200_190"
+            ],
+            "weight": 0.66,
+            "caption": "维持时间顺序判断规则，把先后判断转成可执行的反应选择。"
+          },
+          {
+            "id": "speed-motor-output",
+            "label": "动作输出",
+            "role": "response_selection",
+            "networkId": "somatomotor",
+            "regionCoverageId": "primary-motor-somatomotor",
+            "displayParcelId": "schaefer200_028",
+            "candidateParcelIds": [
+              "schaefer200_021",
+              "schaefer200_024",
+              "schaefer200_026",
+              "schaefer200_028",
+              "schaefer200_129"
+            ],
+            "weight": 0.84,
+            "caption": "最终形成按键、指向或口头反应。"
+          },
+          {
+            "id": "speed-cerebellar-timing",
+            "label": "小脑时序/自动化候选",
+            "role": "modulator",
+            "networkId": "somatomotor",
+            "regionCoverageId": "cerebellum",
+            "physicalStructureId": "cerebellum",
+            "displayParcelId": "schaefer200_028",
+            "candidateParcelIds": [
+              "schaefer200_028"
+            ],
+            "weight": 0.42,
+            "caption": "小脑作为时序、熟练输出和自动化候选层显示；当前是专门图谱参照，不当作所有反应任务的直接激活证明。"
+          }
+        ],
+        "edges": [
+          {
+            "id": "speed-edge-input-discrimination",
+            "sourceNodeId": "speed-visual-input",
+            "targetNodeId": "speed-perceptual-discrimination",
+            "relation": "candidate_flow",
+            "weight": 0.72,
+            "caption": "刺激先被识别，再进入辨别和分类。"
+          },
+          {
+            "id": "speed-edge-alert-selection",
+            "sourceNodeId": "speed-salience-alert",
+            "targetNodeId": "speed-response-selection",
+            "relation": "salience_gate",
+            "weight": 0.64,
+            "caption": "警觉状态提高反应准备。"
+          },
+          {
+            "id": "speed-edge-discrimination-selection",
+            "sourceNodeId": "speed-perceptual-discrimination",
+            "targetNodeId": "speed-response-selection",
+            "relation": "candidate_flow",
+            "weight": 0.76,
+            "caption": "辨别结果决定应该选择哪种反应。"
+          },
+          {
+            "id": "speed-edge-visual-temporal-tpj",
+            "sourceNodeId": "speed-visual-input",
+            "targetNodeId": "speed-temporal-order-tpj",
+            "relation": "candidate_flow",
+            "weight": 0.54,
+            "caption": "视觉刺激输入进入后颞/TPJ 候选层，形成先后事件的捕捉。"
+          },
+          {
+            "id": "speed-edge-tpj-ips",
+            "sourceNodeId": "speed-temporal-order-tpj",
+            "targetNodeId": "speed-temporal-order-ips",
+            "relation": "context_integration",
+            "weight": 0.64,
+            "caption": "TPJ 捕捉先后事件后，顶叶候选层支持时间注意和排序判断。"
+          },
+          {
+            "id": "speed-edge-ips-fef",
+            "sourceNodeId": "speed-temporal-order-ips",
+            "targetNodeId": "speed-temporal-order-fef",
+            "relation": "candidate_flow",
+            "weight": 0.58,
+            "caption": "顶叶排序结果进入 FEF/前运动报告准备。"
+          },
+          {
+            "id": "speed-edge-order-control-selection",
+            "sourceNodeId": "speed-temporal-order-ifg",
+            "targetNodeId": "speed-response-selection",
+            "relation": "context_integration",
+            "weight": 0.62,
+            "caption": "右 IFG/岛盖任务控制把先后判断规则接到反应选择。"
+          },
+          {
+            "id": "speed-edge-fef-control",
+            "sourceNodeId": "speed-temporal-order-fef",
+            "targetNodeId": "speed-temporal-order-ifg",
+            "relation": "coactivation",
+            "weight": 0.52,
+            "caption": "报告准备和任务控制在时间顺序判断中共同参与。"
+          },
+          {
+            "id": "speed-edge-selection-output",
+            "sourceNodeId": "speed-response-selection",
+            "targetNodeId": "speed-motor-output",
+            "relation": "candidate_flow",
+            "weight": 0.78,
+            "caption": "反应规则落到动作输出。"
+          },
+          {
+            "id": "speed-edge-cerebellar-output",
+            "sourceNodeId": "speed-cerebellar-timing",
+            "targetNodeId": "speed-motor-output",
+            "relation": "coactivation",
+            "weight": 0.38,
+            "caption": "熟练输出和时序调节作为辅助候选层。"
+          }
+        ]
+      },
+      "nextCoordinateReview": [
+        "Davis 2009 时间顺序判断已抽 41 个 cortical MNI 坐标，并完成第一轮生产候选裁剪：TPJ/后颞、IPS、FEF/前运动、右 IFG/岛盖和后颞视觉输入分层显示；下一步人工终审最近 parcel、左右侧和 loose 距离点。",
+        "继续找 symbol search、coding speed、visual search、Schulte-like 和 discrimination RT 的专门 fMRI 或元分析坐标来源。"
+      ],
+      "presentationStages": [
+        {
+          "id": "speed-stage-detect",
+          "title": "先看见并辨别刺激",
+          "summary": "视觉或听觉刺激先被识别，知觉辨别决定反应速度的第一段耗时。",
+          "nodeIds": [
+            "speed-visual-input",
+            "speed-perceptual-discrimination"
+          ],
+          "speakerCue": "先讲反应慢不一定是动作慢，可能是刺激辨别慢。"
+        },
+        {
+          "id": "speed-stage-select",
+          "title": "再选择该做什么反应",
+          "summary": "显著性/警觉系统唤起准备，额顶和顶叶通路把刺激映射成具体反应。",
+          "nodeIds": [
+            "speed-salience-alert",
+            "speed-response-selection",
+            "speed-temporal-order-tpj",
+            "speed-temporal-order-ips",
+            "speed-temporal-order-fef",
+            "speed-temporal-order-ifg"
+          ],
+          "speakerCue": "再讲选择反应比简单反应慢，因为中间多了一步判断和选择。"
+        },
+        {
+          "id": "speed-stage-output",
+          "title": "最后落到动作输出",
+          "summary": "运动通路执行按键或口头反应，小脑只作为时序/自动化候选辅助层。",
+          "nodeIds": [
+            "speed-motor-output",
+            "speed-cerebellar-timing"
+          ],
+          "speakerCue": "最后讲训练速度时，既要练识别，也要练选择和输出的流畅度。"
+        }
+      ]
+    },
+    {
+      "functionId": "mental_imagery_operation",
+      "status": "candidate_network",
+      "summary": "表象操作能力包含生成内部图像、保持视觉/空间表象，并在视觉物体、动态空间、复杂背景分离和折叠/旋转等分支之间调度。",
+      "salesNarrative": "讲表象操作时，可以说孩子不是只看见图形，而是在脑中生成、保持、移动和重组图形：枕叶/腹侧视觉系统提供图像内容，SPL/IPS 支持旋转和空间变换，嵌入图形与纸折叠分支补足复杂结构分离和构型重组，MOT/物体保持分支让这张图更像全脑调度而不是单条视觉-顶叶链，DLPFC/额顶控制维持目标和比较规则。",
+      "mechanismSummary": "心理旋转、视觉表象、空间广度、物体广度、MOT、嵌入图形和空间折叠共同指向视觉皮层、腹侧物体保持、SPL/IPS 空间变换、FEF/动态空间更新、下顶叶背景整合、复杂图形分离和额顶控制。Zacks 2008 已抽取 Table 1 raw Talairach cluster center 并用于心理旋转支架；Ganis 2004 已进入视觉表象坐标候选；Neubauer 2017 已为 paper folding 提供 direct PFT fMRI 候选峰但仍保持 candidate terminal；Walter/Fonville、Jovicich、Courtney/Diwadkar 分别补足嵌入图形、动态追踪和物体/空间保持边界。",
+      "safeClaims": [
+        "可讲视觉表象和心理旋转有交叉，但不能混为一谈；可讲心理旋转应明确包含顶叶空间变换层。",
+        "表象操作现在包含心理旋转、空间展开/折叠、视觉表象和复杂图形分离四条主线。"
+      ],
+      "avoidClaims": [
+        "不要说大脑里真的出现可被观看的图像；不要把心理旋转泛化成全部想象能力。",
+        "不要把心理旋转坐标直接泛化为所有空间折叠和嵌入图形任务。"
+      ],
+      "paradigmUses": [
+        {
+          "paradigmId": "mental-rotation",
+          "role": "core",
+          "evidenceWeight": 0.88,
+          "synthesisRole": "空间表象主动旋转和比较。"
+        },
+        {
+          "paradigmId": "visual-imagery",
+          "role": "core",
+          "evidenceWeight": 0.74,
+          "synthesisRole": "内部视觉图像生成和保持。"
+        },
+        {
+          "paradigmId": "grid-span",
+          "role": "supporting",
+          "evidenceWeight": 0.62,
+          "synthesisRole": "空间位置保持支架。"
+        },
+        {
+          "paradigmId": "object-span",
+          "role": "supporting",
+          "evidenceWeight": 0.62,
+          "synthesisRole": "物体表征和视觉短时保持支架。"
+        },
+        {
+          "paradigmId": "ravens-matrices",
+          "role": "supporting",
+          "evidenceWeight": 0.56,
+          "synthesisRole": "瑞文矩阵包含视觉关系和空间表象操作，但主标签属于推理。"
+        },
+        {
+          "paradigmId": "multiple-object-tracking",
+          "role": "supporting",
+          "evidenceWeight": 0.54,
+          "synthesisRole": "多目标追踪需要动态空间表象更新，是注意与表象操作交叉范式。"
+        },
+        {
+          "paradigmId": "spatial-folding-unfolding",
+          "role": "core",
+          "evidenceWeight": 0.72,
+          "synthesisRole": "空间展开/折叠补足比心理旋转更复杂的空间结构变换。"
+        },
+        {
+          "paradigmId": "embedded-figures",
+          "role": "core",
+          "evidenceWeight": 0.66,
+          "synthesisRole": "嵌入图形补足复杂背景中分离目标结构的表象操作。"
+        },
+        {
+          "paradigmId": "geometric-reasoning",
+          "role": "supporting",
+          "evidenceWeight": 0.58,
+          "synthesisRole": "几何推理使用空间表象，但主归计算/推理。"
+        },
+        {
+          "paradigmId": "visual-delayed-memory",
+          "role": "boundary",
+          "evidenceWeight": 0.34,
+          "synthesisRole": "视觉延迟记忆与视觉表象有关，但主归长时记忆。"
+        }
+      ],
+      "sourceUses": [
+        {
+          "sourceId": "zacks-2008-mental-rotation",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "mental-rotation"
+          ],
+          "note": "心理旋转和空间表象操作的优先证据入口。"
+        },
+        {
+          "sourceId": "kosslyn-2001-imagery-foundations",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "visual-imagery"
+          ],
+          "note": "视觉表象神经基础综述入口。"
+        },
+        {
+          "sourceId": "ganis-2004-imagery-perception",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "visual-imagery"
+          ],
+          "note": "视觉表象和视觉感知重叠/差异的 fMRI 入口。"
+        },
+        {
+          "sourceId": "milivojevic-2003-mental-paper-folding",
+          "supportRole": "behavioral_boundary",
+          "paradigmIds": [
+            "spatial-folding-unfolding"
+          ],
+          "note": "纸折叠与心理旋转的 ERP/行为差异入口；用于说明任务边界，不作为 3D 坐标。"
+        },
+        {
+          "sourceId": "frick-2019-spatial-transformation-achievement",
+          "supportRole": "behavioral_boundary",
+          "paradigmIds": [
+            "spatial-folding-unfolding",
+            "geometric-reasoning"
+          ],
+          "note": "空间变换与后续数学/几何表现的行为发展证据；用于产品讲法，不作为脑区坐标。"
+        },
+        {
+          "sourceId": "neubauer-2017-tacs-paper-folding-fmri",
+          "supportRole": "coordinate_boundary",
+          "paradigmIds": [
+            "spatial-folding-unfolding"
+          ],
+          "note": "paper folding direct PFT fMRI 候选峰已完成 parcel review；用于空间折叠候选分支，不升诊断级定论。"
+        },
+        {
+          "sourceId": "walter-2011-embedded-figures",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "embedded-figures"
+          ],
+          "note": "嵌入图形/复杂图形分离的生产级入口。"
+        },
+        {
+          "sourceId": "jovicich-2001-motion-tracking-load",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "multiple-object-tracking"
+          ],
+          "note": "多目标追踪负荷支撑动态空间更新分支。"
+        },
+        {
+          "sourceId": "courtney-1996-object-spatial-wm",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "object-span",
+            "grid-span"
+          ],
+          "note": "物体和空间工作记忆分离边界，补足视觉物体保持支路。"
+        },
+        {
+          "sourceId": "king-2019-cerebellum-task-battery",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "spatial-folding-unfolding"
+          ],
+          "note": "用于小脑空间/时序候选层边界，不替代专门折叠任务坐标。"
+        }
+      ],
+      "convergenceRegions": [
+        {
+          "id": "imagery-visual-form",
+          "label": "枕叶视觉表象内容",
+          "networkId": "visual",
+          "regionCoverageId": "visual-cortex",
+          "displayParcelId": "schaefer200_011",
+          "candidateParcelIds": [
+            "schaefer200_003",
+            "schaefer200_011"
+          ],
+          "overlapParadigmIds": [
+            "mental-rotation",
+            "visual-imagery",
+            "object-span"
+          ],
+          "supportSourceIds": [
+            "zacks-2008-mental-rotation",
+            "ganis-2004-imagery-perception"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达图形、物体和内部视觉图像内容，尤其是心理旋转中的侧枕/后下颞形态支架。",
+          "caution": "视觉表象不是屏幕式成像；这层不是旋转操作本身。"
+        },
+        {
+          "id": "imagery-parietal-transform",
+          "label": "SPL/IPS 空间变换",
+          "networkId": "dorsal_attention",
+          "regionCoverageId": "intraparietal-posterior-parietal",
+          "displayParcelId": "schaefer200_142",
+          "candidateParcelIds": [
+            "schaefer200_033",
+            "schaefer200_036",
+            "schaefer200_037",
+            "schaefer200_038",
+            "schaefer200_062",
+            "schaefer200_140",
+            "schaefer200_141",
+            "schaefer200_142",
+            "schaefer200_167"
+          ],
+          "overlapParadigmIds": [
+            "mental-rotation",
+            "grid-span",
+            "object-span"
+          ],
+          "supportSourceIds": [
+            "zacks-2008-mental-rotation",
+            "rottschy-2012-working-memory"
+          ],
+          "consistency": "high",
+          "interpretation": "用于表达旋转、空间位置保持和空间比较，是心理旋转最稳的主线。",
+          "caution": "这是 Schaefer200 reviewed 候选，不是诊断级 SPL/IPS 亚区。"
+        },
+        {
+          "id": "imagery-inferior-parietal-context",
+          "label": "下顶叶/角回表象支架",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "angular-gyrus-inferior-parietal",
+          "displayParcelId": "schaefer200_166",
+          "candidateParcelIds": [
+            "schaefer200_061",
+            "schaefer200_063",
+            "schaefer200_165",
+            "schaefer200_166",
+            "schaefer200_184"
+          ],
+          "overlapParadigmIds": [
+            "visual-imagery",
+            "grid-span",
+            "object-span"
+          ],
+          "supportSourceIds": [
+            "ganis-2004-imagery-perception",
+            "rottschy-2012-working-memory"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达内部线索、物体/空间关系和表象背景整合。",
+          "caution": "下顶叶候选点不能替代表象专门坐标。"
+        },
+        {
+          "id": "imagery-control",
+          "label": "额下/DLPFC 比较控制",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "dorsolateral-prefrontal-cortex",
+          "displayParcelId": "schaefer200_069",
+          "candidateParcelIds": [
+            "schaefer200_068",
+            "schaefer200_069",
+            "schaefer200_173",
+            "schaefer200_170",
+            "schaefer200_171",
+            "schaefer200_172"
+          ],
+          "overlapParadigmIds": [
+            "visual-imagery",
+            "multiple-object-tracking",
+            "object-span",
+            "mental-rotation"
+          ],
+          "supportSourceIds": [
+            "ganis-2004-imagery-perception",
+            "zacks-2008-mental-rotation"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于维持内部图像、比较规则和答案选择。",
+          "caution": "控制节点是任务需求，不一定是表象内容本身；FEF/前运动和 ACC 如需显示，应单独作为动作模拟或监控支路。"
+        },
+        {
+          "id": "imagery-object-holding",
+          "label": "腹侧视觉物体保持",
+          "networkId": "visual",
+          "regionCoverageId": "ventral-temporal-fusiform-parahippocampal",
+          "displayParcelId": "schaefer200_100",
+          "candidateParcelIds": [
+            "schaefer200_002",
+            "schaefer200_100",
+            "schaefer200_102"
+          ],
+          "overlapParadigmIds": [
+            "object-span",
+            "visual-delayed-memory",
+            "visual-imagery"
+          ],
+          "supportSourceIds": [
+            "courtney-1996-object-spatial-wm",
+            "diwadkar-2000-dynamic-spatial-wm"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达物体形态、视觉短时保持和表象内容的腹侧支路。",
+          "caution": "物体保持不是空间旋转本身；不能把 object span 直接讲成所有表象操作。"
+        },
+        {
+          "id": "imagery-dynamic-spatial-update",
+          "label": "FEF/动态空间更新",
+          "networkId": "dorsal_attention",
+          "regionCoverageId": "frontal-eye-fields",
+          "displayParcelId": "schaefer200_145",
+          "candidateParcelIds": [
+            "schaefer200_041",
+            "schaefer200_070",
+            "schaefer200_145",
+            "schaefer200_146"
+          ],
+          "overlapParadigmIds": [
+            "multiple-object-tracking",
+            "grid-span",
+            "visual-search-schulte"
+          ],
+          "supportSourceIds": [
+            "jovicich-2001-motion-tracking-load"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达移动目标、视线/注意准备和动态空间表象更新。",
+          "caution": "MOT 是注意与表象操作交叉范式，不能把此节点讲成纯表象内容。"
+        },
+        {
+          "id": "imagery-embedded-disembedding",
+          "label": "复杂图形分离",
+          "networkId": "dorsal_attention",
+          "regionCoverageId": "intraparietal-posterior-parietal",
+          "displayParcelId": "schaefer200_036",
+          "candidateParcelIds": [
+            "schaefer200_033",
+            "schaefer200_036",
+            "schaefer200_037",
+            "schaefer200_142"
+          ],
+          "overlapParadigmIds": [
+            "embedded-figures",
+            "visual-search-schulte"
+          ],
+          "supportSourceIds": [
+            "walter-2011-embedded-figures",
+            "fonville-2013-embedded-figures"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达从复杂背景中分离目标结构、抑制背景干扰和局部-整体重组。",
+          "caution": "嵌入图形是复杂搜索/分离分支，不等同于心理旋转或纸折叠。"
+        },
+        {
+          "id": "imagery-folding-config-transform",
+          "label": "空间折叠/构型重组",
+          "networkId": "dorsal_attention",
+          "regionCoverageId": "intraparietal-posterior-parietal",
+          "displayParcelId": "schaefer200_037",
+          "candidateParcelIds": [
+            "schaefer200_037",
+            "schaefer200_038",
+            "schaefer200_140",
+            "schaefer200_167"
+          ],
+          "overlapParadigmIds": [
+            "spatial-folding-unfolding",
+            "geometric-reasoning"
+          ],
+          "supportSourceIds": [
+            "milivojevic-2003-mental-paper-folding",
+            "neubauer-2017-tacs-paper-folding-fmri",
+            "glass-2013-mental-paper-folding-lesion",
+            "frick-2019-spatial-transformation-achievement"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达比单纯旋转更复杂的折叠、展开和构型重组。",
+          "caution": "paper folding 当前保持 reviewed coordinate-candidate terminal，不升 production reviewed。"
+        }
+      ],
+      "overlay": {
+        "nodes": [
+          {
+            "id": "imagery-visual-form",
+            "label": "枕叶视觉表象",
+            "role": "sensory_input",
+            "networkId": "visual",
+            "regionCoverageId": "visual-cortex",
+            "displayParcelId": "schaefer200_011",
+            "candidateParcelIds": [
+              "schaefer200_003",
+              "schaefer200_011"
+            ],
+            "weight": 0.82,
+            "caption": "生成和保持图形/物体视觉内容。"
+          },
+          {
+            "id": "imagery-parietal-transform",
+            "label": "SPL/IPS 空间变换",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "intraparietal-posterior-parietal",
+            "displayParcelId": "schaefer200_142",
+            "candidateParcelIds": [
+              "schaefer200_033",
+              "schaefer200_036",
+              "schaefer200_037",
+              "schaefer200_038",
+              "schaefer200_062",
+              "schaefer200_140",
+              "schaefer200_141",
+              "schaefer200_142",
+              "schaefer200_167"
+            ],
+            "weight": 0.9,
+            "caption": "旋转、比较和保持空间关系。"
+          },
+          {
+            "id": "imagery-inferior-parietal-context",
+            "label": "下顶叶/角回支架",
+            "role": "memory_context",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "angular-gyrus-inferior-parietal",
+            "displayParcelId": "schaefer200_166",
+            "candidateParcelIds": [
+              "schaefer200_061",
+              "schaefer200_063",
+              "schaefer200_165",
+              "schaefer200_166",
+              "schaefer200_184"
+            ],
+            "weight": 0.72,
+            "caption": "提供内部线索和关系支架。"
+          },
+          {
+            "id": "imagery-control",
+            "label": "额下/DLPFC 比较控制",
+            "role": "executive_control",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "dorsolateral-prefrontal-cortex",
+            "displayParcelId": "schaefer200_069",
+            "candidateParcelIds": [
+              "schaefer200_068",
+              "schaefer200_069",
+              "schaefer200_173",
+              "schaefer200_170",
+              "schaefer200_171",
+              "schaefer200_172"
+            ],
+            "weight": 0.72,
+            "caption": "维持目标和比较规则。"
+          },
+          {
+            "id": "imagery-object-holding",
+            "label": "腹侧视觉物体保持",
+            "role": "memory_context",
+            "networkId": "visual",
+            "regionCoverageId": "ventral-temporal-fusiform-parahippocampal",
+            "displayParcelId": "schaefer200_100",
+            "candidateParcelIds": [
+              "schaefer200_002",
+              "schaefer200_100",
+              "schaefer200_102"
+            ],
+            "weight": 0.68,
+            "caption": "保持物体形态和视觉细节，补足表象内容的腹侧支路。"
+          },
+          {
+            "id": "imagery-dynamic-spatial-update",
+            "label": "FEF/动态空间更新",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "frontal-eye-fields",
+            "displayParcelId": "schaefer200_145",
+            "candidateParcelIds": [
+              "schaefer200_041",
+              "schaefer200_070",
+              "schaefer200_145",
+              "schaefer200_146"
+            ],
+            "weight": 0.66,
+            "caption": "跟踪移动目标和更新空间位置，让表象操作呈现动态调度。"
+          },
+          {
+            "id": "imagery-embedded-disembedding",
+            "label": "复杂图形分离",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "intraparietal-posterior-parietal",
+            "displayParcelId": "schaefer200_036",
+            "candidateParcelIds": [
+              "schaefer200_033",
+              "schaefer200_036",
+              "schaefer200_037",
+              "schaefer200_142"
+            ],
+            "weight": 0.68,
+            "caption": "从复杂背景中分离目标结构，补足局部-整体重组分支。"
+          },
+          {
+            "id": "imagery-folding-config-transform",
+            "label": "空间折叠/构型重组",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "intraparietal-posterior-parietal",
+            "displayParcelId": "schaefer200_037",
+            "candidateParcelIds": [
+              "schaefer200_037",
+              "schaefer200_038",
+              "schaefer200_140",
+              "schaefer200_167"
+            ],
+            "weight": 0.7,
+            "caption": "表达折叠、展开和构型重组，比单纯旋转更接近复杂空间操作。"
+          }
+        ],
+        "edges": [
+          {
+            "id": "imagery-edge-visual-parietal",
+            "sourceNodeId": "imagery-visual-form",
+            "targetNodeId": "imagery-parietal-transform",
+            "relation": "candidate_flow",
+            "weight": 0.78,
+            "caption": "视觉内容进入空间操作。"
+          },
+          {
+            "id": "imagery-edge-context-parietal",
+            "sourceNodeId": "imagery-inferior-parietal-context",
+            "targetNodeId": "imagery-parietal-transform",
+            "relation": "context_integration",
+            "weight": 0.62,
+            "caption": "内部线索和关系背景支撑空间变换。"
+          },
+          {
+            "id": "imagery-edge-control-parietal",
+            "sourceNodeId": "imagery-control",
+            "targetNodeId": "imagery-parietal-transform",
+            "relation": "top_down_bias",
+            "weight": 0.72,
+            "caption": "任务目标约束旋转和比较过程。"
+          },
+          {
+            "id": "imagery-edge-visual-object",
+            "sourceNodeId": "imagery-visual-form",
+            "targetNodeId": "imagery-object-holding",
+            "relation": "candidate_flow",
+            "weight": 0.58,
+            "caption": "视觉表象内容进入物体形态保持支路。"
+          },
+          {
+            "id": "imagery-edge-object-context",
+            "sourceNodeId": "imagery-object-holding",
+            "targetNodeId": "imagery-inferior-parietal-context",
+            "relation": "context_integration",
+            "weight": 0.52,
+            "caption": "物体细节和内部线索共同形成可操作的表象背景。"
+          },
+          {
+            "id": "imagery-edge-visual-embedded",
+            "sourceNodeId": "imagery-visual-form",
+            "targetNodeId": "imagery-embedded-disembedding",
+            "relation": "candidate_flow",
+            "weight": 0.6,
+            "caption": "复杂图形分离从视觉内容进入局部-整体重组。"
+          },
+          {
+            "id": "imagery-edge-embedded-parietal",
+            "sourceNodeId": "imagery-embedded-disembedding",
+            "targetNodeId": "imagery-parietal-transform",
+            "relation": "context_integration",
+            "weight": 0.6,
+            "caption": "分离出的目标结构进入顶叶空间变换。"
+          },
+          {
+            "id": "imagery-edge-parietal-folding",
+            "sourceNodeId": "imagery-parietal-transform",
+            "targetNodeId": "imagery-folding-config-transform",
+            "relation": "candidate_flow",
+            "weight": 0.66,
+            "caption": "基础旋转和空间比较延展到折叠/构型重组。"
+          },
+          {
+            "id": "imagery-edge-dynamic-parietal",
+            "sourceNodeId": "imagery-dynamic-spatial-update",
+            "targetNodeId": "imagery-parietal-transform",
+            "relation": "coactivation",
+            "weight": 0.56,
+            "caption": "动态位置更新和顶叶空间变换共同支持移动目标与空间操作。"
+          }
+        ]
+      },
+      "nextCoordinateReview": [
+        "Zacks 2008 心理旋转 Table 1 已完成 MNI 转换和生产裁剪；继续核 Ganis 2004 的视觉表象坐标，拆分视觉表象生成和心理旋转。",
+        "寻找 paper folding/spatial folding 和 embedded figures fMRI 来源，决定是否能从候选层升级为坐标层。"
+      ],
+      "presentationStages": [
+        {
+          "id": "imagery-stage-generate",
+          "title": "先生成内部图像",
+          "summary": "枕叶和腹侧视觉形态层提供图形、物体和内部视觉内容。",
+          "nodeIds": [
+            "imagery-visual-form",
+            "imagery-object-holding"
+          ],
+          "speakerCue": "先讲表象不是凭空想象，而是调用视觉内容支架。"
+        },
+        {
+          "id": "imagery-stage-transform",
+          "title": "再在脑中移动和旋转",
+          "summary": "SPL/IPS、FEF 和下顶叶支架承担空间关系保持、动态更新、旋转、折叠和比较。",
+          "nodeIds": [
+            "imagery-parietal-transform",
+            "imagery-inferior-parietal-context",
+            "imagery-dynamic-spatial-update",
+            "imagery-embedded-disembedding",
+            "imagery-folding-config-transform"
+          ],
+          "speakerCue": "再讲核心不是看见图，而是能在脑中操作图。"
+        },
+        {
+          "id": "imagery-stage-check",
+          "title": "最后按目标比较答案",
+          "summary": "前额控制层维持任务目标，判断旋转后是否匹配或哪一个答案更合理。",
+          "nodeIds": [
+            "imagery-control"
+          ],
+          "speakerCue": "最后讲表象操作和推理会交叉，但这里主角是空间变换。"
+        }
+      ]
+    },
+    {
+      "functionId": "reasoning",
+      "status": "candidate_network",
+      "summary": "推理能力包括图形关系发现、类比关系迁移、演绎规则应用、归纳规则发现，以及在复杂题目中整合多条条件。",
+      "salesNarrative": "讲推理时，可以把它讲成“抓关系、整合规则、检查答案”三步：先从材料里发现关键关系，再把多个条件整合成规则，最后反查候选答案是否满足条件。",
+      "mechanismSummary": "瑞文矩阵、关系推理、归纳规则发现、类比推理和演绎推理共同构成视觉/语义材料输入、顶叶关系工作区、前额叶/额顶规则整合、右额候选控制和内侧额叶一致性检查的候选网络。Caudle 2023 现在作为现代 visual matrix reasoning 坐标候选，但不等同于原版 Raven/APM 一对一替代。",
+      "safeClaims": [
+        "可讲推理依赖关系提取、规则保持和候选答案比较。",
+        "推理能力现在区分矩阵推理、关系整合、归纳规则发现、演绎推理和类比推理。"
+      ],
+      "avoidClaims": [
+        "不要把推理图直接说成 IQ 诊断或训练提升智力的证明。",
+        "不要把所有推理都压成 Raven 或 DLPFC 单点；不同推理范式的材料和控制负荷不同。"
+      ],
+      "paradigmUses": [
+        {
+          "paradigmId": "ravens-matrices",
+          "role": "core",
+          "evidenceWeight": 0.82,
+          "synthesisRole": "抽象图形关系推理。"
+        },
+        {
+          "paradigmId": "analogical-reasoning",
+          "role": "core",
+          "evidenceWeight": 0.74,
+          "synthesisRole": "关系检索、映射和迁移。"
+        },
+        {
+          "paradigmId": "deductive-reasoning",
+          "role": "core",
+          "evidenceWeight": 0.72,
+          "synthesisRole": "规则前提和结论一致性推导。"
+        },
+        {
+          "paradigmId": "mental-rotation",
+          "role": "supporting",
+          "evidenceWeight": 0.58,
+          "synthesisRole": "心理旋转提供视觉空间关系操作的推理支架。"
+        },
+        {
+          "paradigmId": "tower-of-london",
+          "role": "supporting",
+          "evidenceWeight": 0.6,
+          "synthesisRole": "规划问题需要前瞻性步骤推理和目标状态比较。"
+        },
+        {
+          "paradigmId": "probabilistic-reversal-learning",
+          "role": "supporting",
+          "evidenceWeight": 0.52,
+          "synthesisRole": "反馈反转学习体现规则更新和因果/概率判断的推理边界。"
+        },
+        {
+          "paradigmId": "relational-reasoning",
+          "role": "core",
+          "evidenceWeight": 0.76,
+          "synthesisRole": "关系推理补足多关系同时整合的推理核心。"
+        },
+        {
+          "paradigmId": "inductive-rule-discovery",
+          "role": "core",
+          "evidenceWeight": 0.7,
+          "synthesisRole": "归纳规则发现补足从样例形成假设和规律的推理核心。"
+        },
+        {
+          "paradigmId": "algebra-equation-solving",
+          "role": "supporting",
+          "evidenceWeight": 0.58,
+          "synthesisRole": "代数方程是符号规则推理的计算场景。"
+        },
+        {
+          "paradigmId": "geometric-reasoning",
+          "role": "supporting",
+          "evidenceWeight": 0.56,
+          "synthesisRole": "几何推理是空间关系推理的计算场景。"
+        },
+        {
+          "paradigmId": "probability-statistics-reasoning",
+          "role": "supporting",
+          "evidenceWeight": 0.5,
+          "synthesisRole": "概率统计表达不确定性判断和直觉抑制边界。"
+        },
+        {
+          "paradigmId": "math-word-problem",
+          "role": "supporting",
+          "evidenceWeight": 0.62,
+          "synthesisRole": "数学应用题体现语义关系和逻辑结构建模。"
+        },
+        {
+          "paradigmId": "episodic-order-memory",
+          "role": "boundary",
+          "evidenceWeight": 0.34,
+          "synthesisRole": "事件顺序有序列推理成分，但主归长时记忆。"
+        },
+        {
+          "paradigmId": "spatial-folding-unfolding",
+          "role": "boundary",
+          "evidenceWeight": 0.38,
+          "synthesisRole": "空间折叠包含空间推理，但主归表象操作。"
+        }
+      ],
+      "sourceUses": [
+        {
+          "sourceId": "jung-haier-2007-pfit",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "ravens-matrices",
+            "analogical-reasoning"
+          ],
+          "note": "P-FIT 宽网络讲法边界。"
+        },
+        {
+          "sourceId": "hampshire-2012-intelligence",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "ravens-matrices"
+          ],
+          "note": "推理、短时记忆和语言推理成分拆分入口。"
+        },
+        {
+          "sourceId": "caudle-2023-matrix-reasoning",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "ravens-matrices",
+            "relational-reasoning"
+          ],
+          "note": "现代 visual Matrix Decision Making Task，Table 2 提供 11 个 MNI task-effect peaks；用于 Raven-like / matrix reasoning 坐标候选，保留非原版 Raven/APM 的边界。"
+        },
+        {
+          "sourceId": "bunge-2004-analogical-reasoning",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "analogical-reasoning"
+          ],
+          "note": "类比推理关系检索和整合机制入口。"
+        },
+        {
+          "sourceId": "rodriguez-moreno-hirsch-2009-deductive-reasoning",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "deductive-reasoning"
+          ],
+          "note": "演绎推理 fMRI 入口。"
+        },
+        {
+          "sourceId": "kroger-2002-relational-complexity",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "relational-reasoning"
+          ],
+          "note": "关系复杂度任务用于支持前 DLPFC/额顶关系整合候选层。"
+        }
+      ],
+      "convergenceRegions": [
+        {
+          "id": "reasoning-visual-matrix-input",
+          "label": "视觉矩阵材料输入",
+          "networkId": "visual",
+          "regionCoverageId": "visual-cortex",
+          "displayParcelId": "schaefer200_011",
+          "candidateParcelIds": [
+            "schaefer200_005",
+            "schaefer200_011",
+            "schaefer200_108",
+            "schaefer200_115"
+          ],
+          "overlapParadigmIds": [
+            "ravens-matrices",
+            "relational-reasoning",
+            "mental-rotation"
+          ],
+          "supportSourceIds": [
+            "caudle-2023-matrix-reasoning",
+            "hampshire-2012-intelligence"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达矩阵题、图形材料和视觉关系进入处理系统。",
+          "caution": "视觉输入是材料入口，不是逻辑推理本身。"
+        },
+        {
+          "id": "reasoning-parietal-relation",
+          "label": "顶叶关系聚焦",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "intraparietal-posterior-parietal",
+          "displayParcelId": "schaefer200_062",
+          "candidateParcelIds": [
+            "schaefer200_033",
+            "schaefer200_062",
+            "schaefer200_142",
+            "schaefer200_167"
+          ],
+          "overlapParadigmIds": [
+            "ravens-matrices",
+            "relational-reasoning",
+            "analogical-reasoning"
+          ],
+          "supportSourceIds": [
+            "jung-haier-2007-pfit",
+            "hampshire-2012-intelligence",
+            "caudle-2023-matrix-reasoning",
+            "kroger-2002-relational-complexity"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达关键关系维度、空间工作区和候选答案比较。",
+          "caution": "Caudle 的部分顶叶/枕顶峰仍是 Schaefer200 最近点候选；图形和语言推理的顶叶贡献不能混成同一个精确亚区。"
+        },
+        {
+          "id": "reasoning-dlpfc-integration",
+          "label": "额顶规则整合",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "dorsolateral-prefrontal-cortex",
+          "displayParcelId": "schaefer200_068",
+          "candidateParcelIds": [
+            "schaefer200_068"
+          ],
+          "overlapParadigmIds": [
+            "analogical-reasoning",
+            "tower-of-london",
+            "deductive-reasoning"
+          ],
+          "supportSourceIds": [
+            "bunge-2004-analogical-reasoning",
+            "rodriguez-moreno-hirsch-2009-deductive-reasoning"
+          ],
+          "consistency": "high",
+          "interpretation": "用于整合规则、关系和候选结论。",
+          "caution": "不能外推为智力诊断。"
+        },
+        {
+          "id": "reasoning-right-frontal-candidate-control",
+          "label": "右额叶候选控制",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "inferior-frontal-gyrus",
+          "displayParcelId": "schaefer200_173",
+          "candidateParcelIds": [
+            "schaefer200_147",
+            "schaefer200_173"
+          ],
+          "overlapParadigmIds": [
+            "ravens-matrices",
+            "relational-reasoning",
+            "analogical-reasoning"
+          ],
+          "supportSourceIds": [
+            "caudle-2023-matrix-reasoning",
+            "bunge-2004-analogical-reasoning"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达候选规则保持、错误答案排除和反应选择控制。",
+          "caution": "右 IFG、MFG、DLPFC 与额眼区边界在当前模型里较粗，只能作为控制层候选。"
+        },
+        {
+          "id": "reasoning-semantic-context",
+          "label": "语义/背景关系",
+          "networkId": "default_mode",
+          "regionCoverageId": "angular-gyrus-inferior-parietal",
+          "displayParcelId": "schaefer200_061",
+          "candidateParcelIds": [
+            "schaefer200_061"
+          ],
+          "overlapParadigmIds": [
+            "analogical-reasoning",
+            "deductive-reasoning"
+          ],
+          "supportSourceIds": [
+            "bunge-2004-analogical-reasoning"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达已有知识和关系背景。",
+          "caution": "非语言图形推理不一定依赖同样的语义背景。"
+        },
+        {
+          "id": "reasoning-frontopolar-integration",
+          "label": "前额极多关系整合",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "dorsolateral-prefrontal-cortex",
+          "displayParcelId": "schaefer200_170",
+          "candidateParcelIds": [
+            "schaefer200_068",
+            "schaefer200_170",
+            "schaefer200_171",
+            "schaefer200_172"
+          ],
+          "overlapParadigmIds": [
+            "relational-reasoning",
+            "analogical-reasoning",
+            "ravens-matrices"
+          ],
+          "supportSourceIds": [
+            "kroger-2002-relational-complexity",
+            "bunge-2004-analogical-reasoning"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达多关系同时保持和整合。",
+          "caution": "Kroger 2002 已补入候选坐标，Bunge/Rodriguez 已补坐标，Hampshire 已补网络层；broad reasoning 仍需 Coetzee 等坐标源后才能升级 reviewed。"
+        },
+        {
+          "id": "reasoning-consistency-check",
+          "label": "内侧额叶一致性检查",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "anterior-cingulate-medial-frontal",
+          "displayParcelId": "schaefer200_180",
+          "candidateParcelIds": [
+            "schaefer200_052",
+            "schaefer200_156",
+            "schaefer200_180",
+            "schaefer200_181"
+          ],
+          "overlapParadigmIds": [
+            "deductive-reasoning",
+            "inductive-rule-discovery",
+            "math-word-problem"
+          ],
+          "supportSourceIds": [
+            "rodriguez-moreno-hirsch-2009-deductive-reasoning",
+            "houde-2003-logical-math-cognition"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达候选答案、前提和规则是否一致。",
+          "caution": "不能把冲突检查说成所有推理的唯一核心。"
+        }
+      ],
+      "overlay": {
+        "nodes": [
+          {
+            "id": "reasoning-visual-matrix-input",
+            "label": "视觉矩阵输入",
+            "role": "sensory_input",
+            "networkId": "visual",
+            "regionCoverageId": "visual-cortex",
+            "displayParcelId": "schaefer200_011",
+            "candidateParcelIds": [
+              "schaefer200_005",
+              "schaefer200_011",
+              "schaefer200_108",
+              "schaefer200_115"
+            ],
+            "weight": 0.52,
+            "caption": "图形和矩阵材料先进入视觉处理层，但这里不把视觉输入当作推理核心。"
+          },
+          {
+            "id": "reasoning-parietal-relation",
+            "label": "顶叶关系工作区",
+            "role": "attention_orienting",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "intraparietal-posterior-parietal",
+            "displayParcelId": "schaefer200_062",
+            "candidateParcelIds": [
+              "schaefer200_033",
+              "schaefer200_036",
+              "schaefer200_062",
+              "schaefer200_141",
+              "schaefer200_142"
+            ],
+            "weight": 0.84,
+            "caption": "提取图形、数量或条件之间的关键关系。"
+          },
+          {
+            "id": "reasoning-semantic-context",
+            "label": "语义/背景关系",
+            "role": "memory_context",
+            "networkId": "default_mode",
+            "regionCoverageId": "angular-gyrus-inferior-parietal",
+            "displayParcelId": "schaefer200_061",
+            "candidateParcelIds": [
+              "schaefer200_061",
+              "schaefer200_081",
+              "schaefer200_064"
+            ],
+            "weight": 0.68,
+            "caption": "调用题目语言、已有知识和关系背景。"
+          },
+          {
+            "id": "reasoning-dlpfc-integration",
+            "label": "DLPFC 规则保持",
+            "role": "executive_control",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "dorsolateral-prefrontal-cortex",
+            "displayParcelId": "schaefer200_068",
+            "candidateParcelIds": [
+              "schaefer200_066",
+              "schaefer200_068",
+              "schaefer200_170"
+            ],
+            "weight": 0.9,
+            "caption": "维持当前规则和多个中间条件。"
+          },
+          {
+            "id": "reasoning-right-frontal-candidate-control",
+            "label": "右额候选控制",
+            "role": "executive_control",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "inferior-frontal-gyrus",
+            "displayParcelId": "schaefer200_173",
+            "candidateParcelIds": [
+              "schaefer200_147",
+              "schaefer200_173"
+            ],
+            "weight": 0.72,
+            "caption": "帮助维持候选规则、排除不合适答案，并控制当前反应选择。"
+          },
+          {
+            "id": "reasoning-frontopolar-integration",
+            "label": "前额极多关系整合",
+            "role": "executive_control",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "dorsolateral-prefrontal-cortex",
+            "displayParcelId": "schaefer200_170",
+            "candidateParcelIds": [
+              "schaefer200_068",
+              "schaefer200_170",
+              "schaefer200_171",
+              "schaefer200_172"
+            ],
+            "weight": 0.74,
+            "caption": "把多条关系或条件同时整合成可检验的规则。"
+          },
+          {
+            "id": "reasoning-consistency-check",
+            "label": "一致性检查",
+            "role": "conflict_monitoring",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "anterior-cingulate-medial-frontal",
+            "displayParcelId": "schaefer200_180",
+            "candidateParcelIds": [
+              "schaefer200_052",
+              "schaefer200_156",
+              "schaefer200_180",
+              "schaefer200_181"
+            ],
+            "weight": 0.66,
+            "caption": "检查候选答案是否与前提和规则一致。"
+          }
+        ],
+        "edges": [
+          {
+            "id": "reasoning-edge-visual-relation",
+            "sourceNodeId": "reasoning-visual-matrix-input",
+            "targetNodeId": "reasoning-parietal-relation",
+            "relation": "candidate_flow",
+            "weight": 0.5,
+            "caption": "视觉材料被转成可比较的关系线索。"
+          },
+          {
+            "id": "reasoning-edge-context-relation",
+            "sourceNodeId": "reasoning-semantic-context",
+            "targetNodeId": "reasoning-parietal-relation",
+            "relation": "context_integration",
+            "weight": 0.56,
+            "caption": "语言和背景知识帮助确定哪些关系值得关注。"
+          },
+          {
+            "id": "reasoning-edge-relation-dlpfc",
+            "sourceNodeId": "reasoning-parietal-relation",
+            "targetNodeId": "reasoning-dlpfc-integration",
+            "relation": "coactivation",
+            "weight": 0.78,
+            "caption": "关键关系进入规则保持和候选比较。"
+          },
+          {
+            "id": "reasoning-edge-relation-right-frontal",
+            "sourceNodeId": "reasoning-parietal-relation",
+            "targetNodeId": "reasoning-right-frontal-candidate-control",
+            "relation": "candidate_flow",
+            "weight": 0.62,
+            "caption": "关系工作区把候选规则送入右额控制层。"
+          },
+          {
+            "id": "reasoning-edge-dlpfc-frontopolar",
+            "sourceNodeId": "reasoning-dlpfc-integration",
+            "targetNodeId": "reasoning-frontopolar-integration",
+            "relation": "candidate_flow",
+            "weight": 0.66,
+            "caption": "多个条件被整合成更高层规则。"
+          },
+          {
+            "id": "reasoning-edge-frontopolar-check",
+            "sourceNodeId": "reasoning-frontopolar-integration",
+            "targetNodeId": "reasoning-consistency-check",
+            "relation": "candidate_flow",
+            "weight": 0.6,
+            "caption": "整合后的规则用于检查候选答案。"
+          },
+          {
+            "id": "reasoning-edge-check-dlpfc",
+            "sourceNodeId": "reasoning-consistency-check",
+            "targetNodeId": "reasoning-dlpfc-integration",
+            "relation": "salience_gate",
+            "weight": 0.56,
+            "caption": "发现不一致时，控制层重新调整规则或候选。"
+          },
+          {
+            "id": "reasoning-edge-right-frontal-check",
+            "sourceNodeId": "reasoning-right-frontal-candidate-control",
+            "targetNodeId": "reasoning-consistency-check",
+            "relation": "salience_gate",
+            "weight": 0.48,
+            "caption": "候选答案竞争提高一致性检查需求。"
+          }
+        ]
+      },
+      "nextCoordinateReview": [
+        "Caudle 2023 已把 Raven-like / visual matrix reasoning 从纯区域级讲法推进到坐标候选层；下一步只做跨源裁剪和人工终审，不再死磕 Prabhakaran 1997 旧网页峰值表。",
+        "Kroger 2002 负责关系复杂度生产骨架，Bunge/Rodriguez/Coetzee/Gazzo 负责类比/演绎边界，Hampshire/P-FIT 负责网络层边界；不要把这些范式合成一张过密的“智力网络”。"
+      ],
+      "presentationStages": [
+        {
+          "id": "reasoning-stage-encode-relations",
+          "title": "先抓住材料里的关系",
+          "summary": "视觉/语义材料被转成关系线索，顶叶聚焦关键维度和变化规律。",
+          "nodeIds": [
+            "reasoning-visual-matrix-input",
+            "reasoning-parietal-relation",
+            "reasoning-semantic-context"
+          ],
+          "speakerCue": "先讲推理不是靠感觉选答案，而是先看出关系。"
+        },
+        {
+          "id": "reasoning-stage-integrate-rules",
+          "title": "再把规则整合起来",
+          "summary": "DLPFC/额顶控制维持规则，前额极/控制层帮助整合多个关系。",
+          "nodeIds": [
+            "reasoning-dlpfc-integration",
+            "reasoning-right-frontal-candidate-control",
+            "reasoning-frontopolar-integration"
+          ],
+          "speakerCue": "再讲难题难在多个条件同时成立，而不是单条规则。"
+        },
+        {
+          "id": "reasoning-stage-check-answer",
+          "title": "最后检查候选答案",
+          "summary": "内侧额叶/扣带候选层参与一致性检查，额顶系统把答案选择稳定下来。",
+          "nodeIds": [
+            "reasoning-consistency-check",
+            "reasoning-dlpfc-integration"
+          ],
+          "speakerCue": "最后讲会推理的孩子会反查条件，而不是看哪个答案最像。"
+        }
+      ]
+    },
+    {
+      "functionId": "long_term_memory",
+      "status": "candidate_network",
+      "summary": "长时记忆涉及项目编码、联结绑定、语义联想、情景/来源监控、熟悉性再认和提取控制；Kim 2011、Spaniol 2009、Davachi 2003 已支持演示级候选皮层网络，海马/内侧颞叶通过专门图谱/物理辅助层显示，不强行塞进 Schaefer200。",
+      "salesNarrative": "讲长时记忆时，可以把它讲成“先编码、再绑定、再提取、再判断来源”四步：前额叶和顶叶帮助把要记的信息稳定编码，海马/MTL 边界层负责把项目和情境绑在一起，提取时下顶叶、PCC 和语义颞叶提供线索，前额叶再判断这是准确记忆、熟悉感还是语义联想。",
+      "mechanismSummary": "Kim 2011 支持项目/联想编码中的 IFG、内侧额叶和顶叶注意候选；Spaniol 2009 支持情景编码/提取中的额叶、顶叶、角回和 PCC/retrosplenial 候选；Davachi 2003 和 Dobbins 2002 支持 item/source memory 与来源监控候选；Sperling/Chua/Kirwan-Stark/Zeineh 把 face-name 与 MTL/海马亚区机制推进到更稳的边界层，Zeineh 2003 尤其用于 CA2/3-DG 编码和 posterior subiculum 提取；Stern 把视觉新异图片编码推进到候选层。当前可用于演示词表学习、联想记忆、再认、来源记忆、face-name 和视觉延迟记忆，但 DRM 与完整故事/事件顺序仍不能升级为坐标级网络。",
+      "safeClaims": [
+        "可讲长时记忆包含编码、联结绑定、语义 gist、再认判断、来源/情景监控和提取控制。",
+        "可讲词表学习、联想记忆、再认记忆和来源记忆已有演示级候选皮层网络。",
+        "可讲海马/内侧颞叶是长时记忆关键系统，但当前 3D 中应作为专门图谱/物理辅助层，而不是 Schaefer200 皮层点位。"
+      ],
+      "avoidClaims": [
+        "不要假装当前 Schaefer200 皮层图完整覆盖海马、内嗅、旁海马、嗅周和杏仁核。",
+        "不要把词表学习、再认、来源记忆、DRM、面孔姓名和视觉延迟记忆说成同一张网络。",
+        "不要把 PCC/角回/顶叶提取候选说成记忆储存位置；它们更适合讲线索、注意到记忆和提取支持。",
+        "不要把 DRM semantic gist 或完整故事/事件顺序分支升级到坐标级，直到补到对应神经影像证据。"
+      ],
+      "paradigmUses": [
+        {
+          "paradigmId": "word-list-learning",
+          "role": "core",
+          "evidenceWeight": 0.82,
+          "synthesisRole": "词表编码和提取。"
+        },
+        {
+          "paradigmId": "associative-memory",
+          "role": "core",
+          "evidenceWeight": 0.74,
+          "synthesisRole": "线索-答案、项目-项目和概念联结。"
+        },
+        {
+          "paradigmId": "source-memory",
+          "role": "core",
+          "evidenceWeight": 0.72,
+          "synthesisRole": "来源/情景细节提取和监控。"
+        },
+        {
+          "paradigmId": "recognition-memory",
+          "role": "core",
+          "evidenceWeight": 0.72,
+          "synthesisRole": "熟悉性和再认判断。"
+        },
+        {
+          "paradigmId": "drm-false-memory",
+          "role": "supporting",
+          "evidenceWeight": 0.68,
+          "synthesisRole": "语义 gist 和来源监控。"
+        },
+        {
+          "paradigmId": "semantic-task",
+          "role": "supporting",
+          "evidenceWeight": 0.62,
+          "synthesisRole": "语义知识和长期概念背景。"
+        },
+        {
+          "paradigmId": "sentence-comprehension",
+          "role": "supporting",
+          "evidenceWeight": 0.5,
+          "synthesisRole": "句子理解调用长期语义知识和上下文整合。"
+        },
+        {
+          "paradigmId": "visual-imagery",
+          "role": "supporting",
+          "evidenceWeight": 0.46,
+          "synthesisRole": "视觉表象可调用长期视觉记忆内容，但主标签属于表象操作。"
+        },
+        {
+          "paradigmId": "analogical-reasoning",
+          "role": "supporting",
+          "evidenceWeight": 0.5,
+          "synthesisRole": "类比推理需要检索既有关系和长期语义背景。"
+        },
+        {
+          "paradigmId": "face-name-association",
+          "role": "core",
+          "evidenceWeight": 0.7,
+          "synthesisRole": "面孔-姓名联结补足具体人物标签绑定的长期联想记忆。"
+        },
+        {
+          "paradigmId": "episodic-order-memory",
+          "role": "core",
+          "evidenceWeight": 0.64,
+          "synthesisRole": "事件/情景顺序记忆补足时间顺序和情节组织。"
+        },
+        {
+          "paradigmId": "visual-delayed-memory",
+          "role": "core",
+          "evidenceWeight": 0.62,
+          "synthesisRole": "视觉延迟记忆补足非言语视觉材料的长期编码。"
+        },
+        {
+          "paradigmId": "arithmetic-fact-retrieval",
+          "role": "boundary",
+          "evidenceWeight": 0.36,
+          "synthesisRole": "算术事实提取有长期语义记忆成分，但主归计算。"
+        }
+      ],
+      "sourceUses": [
+        {
+          "sourceId": "kim-2011-subsequent-memory",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "word-list-learning"
+          ],
+          "note": "后续记忆和编码元分析入口。",
+          "spatialAuditStatus": "FOUR_DECLARED_MATRIX_ERRORS_REPAIRED_ARITHMETIC_ONLY; EXACT_FSL_MAPPING_NOT_ESTABLISHED"
+        },
+        {
+          "sourceId": "spaniol-2009-episodic-memory",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "word-list-learning",
+            "recognition-memory"
+          ],
+          "note": "情景记忆编码和提取 ALE 元分析入口。"
+        },
+        {
+          "sourceId": "davachi-2003-item-source-memory",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "associative-memory",
+            "source-memory"
+          ],
+          "note": "item recognition 与 source recollection 的 MTL 分化；当前用于 atlas 边界和任务身份。"
+        },
+        {
+          "sourceId": "dobbins-2002-source-memory-control",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "source-memory"
+          ],
+          "note": "来源记忆的前额叶控制候选来源，全文待取。"
+        },
+        {
+          "sourceId": "wagner-2005-parietal-episodic-retrieval",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "associative-memory",
+            "source-memory",
+            "recognition-memory"
+          ],
+          "note": "顶叶情景提取候选框架，全文待取。"
+        },
+        {
+          "sourceId": "cabeza-2008-parietal-episodic-memory",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "source-memory",
+            "recognition-memory"
+          ],
+          "note": "顶叶注意-记忆框架，PDF 获取失败但 PMC 元数据可追踪。"
+        },
+        {
+          "sourceId": "roediger-mcdermott-1995-drm",
+          "supportRole": "task_identity",
+          "paradigmIds": [
+            "drm-false-memory"
+          ],
+          "note": "DRM 行为范式身份来源。"
+        },
+        {
+          "sourceId": "binder-2009-semantic-system",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "semantic-task",
+            "drm-false-memory",
+            "associative-memory"
+          ],
+          "note": "语义系统和 gist 背景支架。"
+        }
+      ],
+      "convergenceRegions": [
+        {
+          "id": "ltm-item-encoding-ifg-control",
+          "label": "IFG/额叶项目编码控制",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "inferior-frontal-gyrus",
+          "displayParcelId": "schaefer200_069",
+          "candidateParcelIds": [
+            "schaefer200_048",
+            "schaefer200_069",
+            "schaefer200_087",
+            "schaefer200_147",
+            "schaefer200_173"
+          ],
+          "overlapParadigmIds": [
+            "word-list-learning",
+            "associative-memory"
+          ],
+          "supportSourceIds": [
+            "kim-2011-subsequent-memory"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达词表和联想材料编码时的选择、语义组织和控制支持。",
+          "caution": "这是编码控制候选，不是记忆储存点。"
+        },
+        {
+          "id": "ltm-encoding-medial-frontal-set",
+          "label": "内侧额叶编码定势",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "anterior-cingulate-medial-frontal",
+          "displayParcelId": "schaefer200_052",
+          "candidateParcelIds": [
+            "schaefer200_052",
+            "schaefer200_092",
+            "schaefer200_181"
+          ],
+          "overlapParadigmIds": [
+            "word-list-learning"
+          ],
+          "supportSourceIds": [
+            "kim-2011-subsequent-memory"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达把注意和控制定向到“要记住”的材料上。",
+          "caution": "不能和 Stroop 冲突监控 ACC 讲成同一功能。"
+        },
+        {
+          "id": "ltm-encoding-parietal-attention",
+          "label": "顶叶编码注意",
+          "networkId": "dorsal_attention",
+          "regionCoverageId": "intraparietal-posterior-parietal",
+          "displayParcelId": "schaefer200_142",
+          "candidateParcelIds": [
+            "schaefer200_033",
+            "schaefer200_037",
+            "schaefer200_062",
+            "schaefer200_142",
+            "schaefer200_167"
+          ],
+          "overlapParadigmIds": [
+            "word-list-learning",
+            "associative-memory"
+          ],
+          "supportSourceIds": [
+            "kim-2011-subsequent-memory"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达注意到要记材料、维持编码目标和项目选择。",
+          "caution": "顶叶候选不等于海马绑定机制。"
+        },
+        {
+          "id": "ltm-mtl-binding-boundary",
+          "label": "海马/MTL 联结绑定边界",
+          "networkId": "limbic",
+          "regionCoverageId": "hippocampal-formation",
+          "displayParcelId": "schaefer200_100",
+          "candidateParcelIds": [
+            "schaefer200_100"
+          ],
+          "overlapParadigmIds": [
+            "associative-memory",
+            "source-memory",
+            "face-name-association",
+            "episodic-order-memory",
+            "visual-delayed-memory"
+          ],
+          "supportSourceIds": [
+            "davachi-2003-item-source-memory"
+          ],
+          "consistency": "atlas_boundary",
+          "interpretation": "用于表达项目-来源、项目-项目和情景索引需要 MTL/海马系统。",
+          "caution": "这是专门图谱/物理辅助层，不是 Schaefer200 皮层坐标证明。"
+        },
+        {
+          "id": "ltm-episodic-frontal-control",
+          "label": "额叶情景提取控制",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "dorsolateral-prefrontal-cortex",
+          "displayParcelId": "schaefer200_068",
+          "candidateParcelIds": [
+            "schaefer200_066",
+            "schaefer200_068",
+            "schaefer200_069"
+          ],
+          "overlapParadigmIds": [
+            "recognition-memory",
+            "source-memory",
+            "word-list-learning"
+          ],
+          "supportSourceIds": [
+            "spaniol-2009-episodic-memory",
+            "dobbins-2002-source-memory-control"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达提取策略、来源判断和再认决策中的控制。",
+          "caution": "Dobbins 2002 已补入来源记忆控制候选；当前仍需和 Davachi/Spaniol/Wagner 做生产裁剪。"
+        },
+        {
+          "id": "ltm-episodic-parietal-retrieval",
+          "label": "顶叶情景提取支持",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "angular-gyrus-inferior-parietal",
+          "displayParcelId": "schaefer200_166",
+          "candidateParcelIds": [
+            "schaefer200_036",
+            "schaefer200_038",
+            "schaefer200_062",
+            "schaefer200_142",
+            "schaefer200_166",
+            "schaefer200_167"
+          ],
+          "overlapParadigmIds": [
+            "recognition-memory",
+            "source-memory",
+            "associative-memory"
+          ],
+          "supportSourceIds": [
+            "spaniol-2009-episodic-memory",
+            "wagner-2005-parietal-episodic-retrieval",
+            "cabeza-2008-parietal-episodic-memory"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达注意到记忆、回忆线索和情景细节提取支持。",
+          "caution": "Wagner/Cabeza 仍是边界框架，不是当前坐标级终审来源。"
+        },
+        {
+          "id": "ltm-angular-subjective-recollection",
+          "label": "角回/主观回忆候选",
+          "networkId": "default_mode",
+          "regionCoverageId": "angular-gyrus-inferior-parietal",
+          "displayParcelId": "schaefer200_082",
+          "candidateParcelIds": [
+            "schaefer200_082",
+            "schaefer200_166"
+          ],
+          "overlapParadigmIds": [
+            "recognition-memory",
+            "source-memory"
+          ],
+          "supportSourceIds": [
+            "spaniol-2009-episodic-memory",
+            "wagner-2005-parietal-episodic-retrieval",
+            "cabeza-2008-parietal-episodic-memory"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达“想起来”的主观回忆感和细节整合候选。",
+          "caution": "仍需 parietal episodic-memory 专门复核。"
+        },
+        {
+          "id": "ltm-pcc-retrosplenial-context",
+          "label": "PCC/后扣带情景背景",
+          "networkId": "default_mode",
+          "regionCoverageId": "posterior-cingulate-ventral-precuneus",
+          "displayParcelId": "schaefer200_098",
+          "candidateParcelIds": [
+            "schaefer200_096",
+            "schaefer200_098"
+          ],
+          "overlapParadigmIds": [
+            "source-memory",
+            "recognition-memory",
+            "associative-memory"
+          ],
+          "supportSourceIds": [
+            "spaniol-2009-episodic-memory",
+            "davachi-2003-item-source-memory"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达场景、来源和情景背景线索。",
+          "caution": "PCC/retrosplenial 是皮层情景背景候选，不是海马。"
+        },
+        {
+          "id": "ltm-semantic-temporal",
+          "label": "颞叶语义背景",
+          "networkId": "default_mode",
+          "regionCoverageId": "semantic-temporal-cortex",
+          "displayParcelId": "schaefer200_064",
+          "candidateParcelIds": [
+            "schaefer200_064",
+            "schaefer200_075",
+            "schaefer200_076"
+          ],
+          "overlapParadigmIds": [
+            "semantic-task",
+            "drm-false-memory",
+            "associative-memory",
+            "word-list-learning"
+          ],
+          "supportSourceIds": [
+            "binder-2009-semantic-system"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达长期语义知识、项目线索和词表 gist。",
+          "caution": "语义 gist 不能直接等同于情景记忆或海马提取。"
+        }
+      ],
+      "overlay": {
+        "nodes": [
+          {
+            "id": "ltm-item-encoding-ifg-control",
+            "label": "IFG 项目编码",
+            "role": "executive_control",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "inferior-frontal-gyrus",
+            "displayParcelId": "schaefer200_069",
+            "candidateParcelIds": [
+              "schaefer200_048",
+              "schaefer200_069",
+              "schaefer200_087",
+              "schaefer200_147",
+              "schaefer200_173"
+            ],
+            "weight": 0.78,
+            "caption": "帮助选择、组织和编码要记住的词语或联想材料。"
+          },
+          {
+            "id": "ltm-encoding-medial-frontal-set",
+            "label": "内侧额叶编码定势",
+            "role": "conflict_monitoring",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "anterior-cingulate-medial-frontal",
+            "displayParcelId": "schaefer200_052",
+            "candidateParcelIds": [
+              "schaefer200_052",
+              "schaefer200_092",
+              "schaefer200_181"
+            ],
+            "weight": 0.62,
+            "caption": "把注意和控制定向到要记住的材料上。"
+          },
+          {
+            "id": "ltm-encoding-parietal-attention",
+            "label": "顶叶编码注意",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "intraparietal-posterior-parietal",
+            "displayParcelId": "schaefer200_142",
+            "candidateParcelIds": [
+              "schaefer200_033",
+              "schaefer200_037",
+              "schaefer200_062",
+              "schaefer200_142",
+              "schaefer200_167"
+            ],
+            "weight": 0.72,
+            "caption": "帮助维持编码目标并选择当前要记的项目。"
+          },
+          {
+            "id": "ltm-mtl-binding-boundary",
+            "label": "海马/MTL 绑定边界",
+            "role": "memory_context",
+            "networkId": "limbic",
+            "regionCoverageId": "hippocampal-formation",
+            "physicalStructureId": "hippocampal-formation",
+            "displayParcelId": "schaefer200_100",
+            "candidateParcelIds": [
+              "schaefer200_100"
+            ],
+            "weight": 0.66,
+            "caption": "项目、来源和情景绑定依赖 MTL/海马系统；当前用专门图谱辅助表达。"
+          },
+          {
+            "id": "ltm-episodic-parietal-retrieval",
+            "label": "顶叶情景提取",
+            "role": "memory_context",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "angular-gyrus-inferior-parietal",
+            "displayParcelId": "schaefer200_166",
+            "candidateParcelIds": [
+              "schaefer200_036",
+              "schaefer200_038",
+              "schaefer200_062",
+              "schaefer200_142",
+              "schaefer200_166",
+              "schaefer200_167"
+            ],
+            "weight": 0.76,
+            "caption": "提取时支持线索、细节和注意到记忆。"
+          },
+          {
+            "id": "ltm-angular-subjective-recollection",
+            "label": "角回主观回忆",
+            "role": "memory_context",
+            "networkId": "default_mode",
+            "regionCoverageId": "angular-gyrus-inferior-parietal",
+            "displayParcelId": "schaefer200_082",
+            "candidateParcelIds": [
+              "schaefer200_082",
+              "schaefer200_166"
+            ],
+            "weight": 0.64,
+            "caption": "表达“想起来”的主观回忆感和细节整合。"
+          },
+          {
+            "id": "ltm-pcc-retrosplenial-context",
+            "label": "PCC 情景背景",
+            "role": "context",
+            "networkId": "default_mode",
+            "regionCoverageId": "posterior-cingulate-ventral-precuneus",
+            "displayParcelId": "schaefer200_098",
+            "candidateParcelIds": [
+              "schaefer200_096",
+              "schaefer200_098"
+            ],
+            "weight": 0.62,
+            "caption": "组织场景、来源和情景背景线索。"
+          },
+          {
+            "id": "ltm-semantic-temporal",
+            "label": "颞叶语义背景",
+            "role": "memory_context",
+            "networkId": "default_mode",
+            "regionCoverageId": "semantic-temporal-cortex",
+            "displayParcelId": "schaefer200_064",
+            "candidateParcelIds": [
+              "schaefer200_064",
+              "schaefer200_075",
+              "schaefer200_076"
+            ],
+            "weight": 0.58,
+            "caption": "长期语义知识、词表 gist 和项目线索。"
+          },
+          {
+            "id": "ltm-episodic-frontal-control",
+            "label": "额叶来源监控",
+            "role": "executive_control",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "dorsolateral-prefrontal-cortex",
+            "displayParcelId": "schaefer200_068",
+            "candidateParcelIds": [
+              "schaefer200_066",
+              "schaefer200_068",
+              "schaefer200_069"
+            ],
+            "weight": 0.74,
+            "caption": "判断信息来源、提取策略和记忆可靠性。"
+          }
+        ],
+        "edges": [
+          {
+            "id": "ltm-edge-semantic-encoding",
+            "sourceNodeId": "ltm-semantic-temporal",
+            "targetNodeId": "ltm-item-encoding-ifg-control",
+            "relation": "context_integration",
+            "weight": 0.52,
+            "caption": "语义线索帮助组织要编码的项目。"
+          },
+          {
+            "id": "ltm-edge-parietal-encoding",
+            "sourceNodeId": "ltm-encoding-parietal-attention",
+            "targetNodeId": "ltm-item-encoding-ifg-control",
+            "relation": "top_down_bias",
+            "weight": 0.62,
+            "caption": "顶叶注意帮助选择当前要记住的材料。"
+          },
+          {
+            "id": "ltm-edge-medial-encoding",
+            "sourceNodeId": "ltm-encoding-medial-frontal-set",
+            "targetNodeId": "ltm-item-encoding-ifg-control",
+            "relation": "top_down_bias",
+            "weight": 0.56,
+            "caption": "内侧额叶编码定势帮助维持记忆目标。"
+          },
+          {
+            "id": "ltm-edge-encoding-mtl",
+            "sourceNodeId": "ltm-item-encoding-ifg-control",
+            "targetNodeId": "ltm-mtl-binding-boundary",
+            "relation": "candidate_flow",
+            "weight": 0.6,
+            "caption": "编码后的项目进入 MTL/海马联结绑定。"
+          },
+          {
+            "id": "ltm-edge-mtl-pcc",
+            "sourceNodeId": "ltm-mtl-binding-boundary",
+            "targetNodeId": "ltm-pcc-retrosplenial-context",
+            "relation": "context_integration",
+            "weight": 0.52,
+            "caption": "绑定内容与情景背景线索协作。"
+          },
+          {
+            "id": "ltm-edge-pcc-parietal",
+            "sourceNodeId": "ltm-pcc-retrosplenial-context",
+            "targetNodeId": "ltm-episodic-parietal-retrieval",
+            "relation": "context_integration",
+            "weight": 0.58,
+            "caption": "情景背景帮助顶叶提取细节。"
+          },
+          {
+            "id": "ltm-edge-parietal-angular",
+            "sourceNodeId": "ltm-episodic-parietal-retrieval",
+            "targetNodeId": "ltm-angular-subjective-recollection",
+            "relation": "coactivation",
+            "weight": 0.56,
+            "caption": "顶叶提取支持主观回忆和细节整合。"
+          },
+          {
+            "id": "ltm-edge-angular-frontal",
+            "sourceNodeId": "ltm-angular-subjective-recollection",
+            "targetNodeId": "ltm-episodic-frontal-control",
+            "relation": "candidate_flow",
+            "weight": 0.6,
+            "caption": "回忆内容进入来源和可靠性监控。"
+          },
+          {
+            "id": "ltm-edge-semantic-frontal",
+            "sourceNodeId": "ltm-semantic-temporal",
+            "targetNodeId": "ltm-episodic-frontal-control",
+            "relation": "salience_gate",
+            "weight": 0.44,
+            "caption": "语义联想需要被监控，避免把 gist 当成真实来源。"
+          }
+        ]
+      },
+      "nextCoordinateReview": [
+        "长时记忆功能总览已按 Kim 2011、Spaniol 2009、Davachi 2003 扩展为编码控制、顶叶注意、MTL 绑定边界、情景提取、角回主观回忆、PCC 背景和来源监控。",
+        "Dobbins 2002、Sperling 2003、Chua 2007 和 Stern 1996 已补入候选/边界证据；下一步是生产裁剪和 MTL 图谱投影，Wagner 2005 作为顶叶记忆综述补强。",
+        "继续精修 MTL/hippocampal atlas projection；不要把海马/旁海马/嗅周/杏仁核讲成 Schaefer200 皮层点。"
+      ],
+      "presentationStages": [
+        {
+          "id": "ltm-stage-encode-attend",
+          "title": "先注意并编码要记材料",
+          "summary": "顶叶注意、内侧额叶定势和 IFG 控制帮助把词语、图像或联想材料稳定编码。",
+          "nodeIds": [
+            "ltm-encoding-parietal-attention",
+            "ltm-encoding-medial-frontal-set",
+            "ltm-item-encoding-ifg-control"
+          ],
+          "speakerCue": "先讲能记住不是靠硬塞，而是先把注意和组织方式调好。"
+        },
+        {
+          "id": "ltm-stage-bind-context",
+          "title": "再把项目和情境绑定",
+          "summary": "编码后的项目进入 MTL/海马边界层，并和 PCC/后扣带情景背景形成线索。",
+          "nodeIds": [
+            "ltm-item-encoding-ifg-control",
+            "ltm-mtl-binding-boundary",
+            "ltm-pcc-retrosplenial-context"
+          ],
+          "speakerCue": "再讲长期记忆真正关键的是把内容和背景绑起来。"
+        },
+        {
+          "id": "ltm-stage-retrieve-monitor",
+          "title": "最后提取并判断来源",
+          "summary": "顶叶提取、角回主观回忆和额叶来源监控帮助区分真记得、熟悉感和语义联想。",
+          "nodeIds": [
+            "ltm-episodic-parietal-retrieval",
+            "ltm-angular-subjective-recollection",
+            "ltm-episodic-frontal-control",
+            "ltm-semantic-temporal"
+          ],
+          "speakerCue": "最后讲记忆训练不只是多记，还要能判断信息从哪来、靠不靠谱。"
+        }
+      ]
+    },
+    {
+      "functionId": "executive_function",
+      "status": "candidate_network",
+      "summary": "执行功能是一组总控能力，包括抑制、切换、更新、计划、反馈调整、冲突监控和动作约束。",
+      "salesNarrative": "讲执行功能时，可以把它理解成大脑的控制台：前岛叶/额叶岛盖捕捉需要改变的信号，前扣带/内侧额叶监控冲突、错误和负荷，DLPFC/额顶控制系统维持规则并调整策略，顶叶重映射当前任务目标，SMA/运动通道执行或取消动作，OFC/腹侧前额叶根据反馈更新选择价值。",
+      "mechanismSummary": "Go/No-Go、Stop-signal、任务切换、Tower of London、Keep-track、概率反转学习和 Stroop/Flanker 共同指向一个扣带-岛盖显著性/监控系统、额顶规则控制系统、顶叶任务重映射系统、运动抑制通道和反馈价值更新通道构成的候选执行控制骨架。复杂数学题里的代数变换、概率统计判断和应用题逻辑建模作为相关支持层，主要体现规则保持、条件筛选、中间状态更新和直觉答案抑制。",
+      "safeClaims": [
+        "可讲执行功能包含抑制、切换、更新、计划、反馈调整和动作约束，是跨范式的控制集合。",
+        "可讲执行功能比单一注意网络更像一张总控网络：它既要发现冲突，也要维持规则、更新策略并约束输出。",
+        "在复杂数学题中，可以把执行功能讲成帮助学生压住第一反应、保持题目规则、更新中间状态并切回逻辑结构的控制层。"
+      ],
+      "avoidClaims": [
+        "不要把执行功能讲成一个单点或单一脑区；它是多个控制子系统的组合。",
+        "不要把当前皮层图谱直接扩展到基底节、丘脑、STN 或小脑等皮层外停止回路。",
+        "不要把代数、概率统计或应用题候选网络讲成已经完成执行功能点位级复核；当前只是复杂任务中的执行控制边界。"
+      ],
+      "paradigmUses": [
+        {
+          "paradigmId": "go-no-go",
+          "role": "core",
+          "evidenceWeight": 0.78,
+          "synthesisRole": "预期反应抑制。"
+        },
+        {
+          "paradigmId": "stop-signal",
+          "role": "core",
+          "evidenceWeight": 0.82,
+          "synthesisRole": "停止已准备或已启动反应。"
+        },
+        {
+          "paradigmId": "task-switching",
+          "role": "core",
+          "evidenceWeight": 0.78,
+          "synthesisRole": "任务集和规则切换。"
+        },
+        {
+          "paradigmId": "tower-of-london",
+          "role": "core",
+          "evidenceWeight": 0.72,
+          "synthesisRole": "计划和问题解决。"
+        },
+        {
+          "paradigmId": "keep-track",
+          "role": "core",
+          "evidenceWeight": 0.72,
+          "synthesisRole": "更新和监控。"
+        },
+        {
+          "paradigmId": "probabilistic-reversal-learning",
+          "role": "core",
+          "evidenceWeight": 0.68,
+          "synthesisRole": "反馈学习和规则反转。"
+        },
+        {
+          "paradigmId": "stroop",
+          "role": "supporting",
+          "evidenceWeight": 0.76,
+          "synthesisRole": "冲突控制和规则保持。"
+        },
+        {
+          "paradigmId": "attention-network-test",
+          "role": "supporting",
+          "evidenceWeight": 0.62,
+          "synthesisRole": "ANT 的执行注意成分是执行功能和注意力交叉入口。"
+        },
+        {
+          "paradigmId": "flanker",
+          "role": "supporting",
+          "evidenceWeight": 0.62,
+          "synthesisRole": "旁侧干扰体现冲突处理和反应竞争控制。"
+        },
+        {
+          "paradigmId": "n-back",
+          "role": "supporting",
+          "evidenceWeight": 0.66,
+          "synthesisRole": "N-back 的更新和目标维持体现执行更新成分。"
+        },
+        {
+          "paradigmId": "mental-arithmetic",
+          "role": "supporting",
+          "evidenceWeight": 0.54,
+          "synthesisRole": "多步骤心算需要规则保持、步骤控制和中间结果更新。"
+        },
+        {
+          "paradigmId": "algebra-equation-solving",
+          "role": "supporting",
+          "evidenceWeight": 0.48,
+          "synthesisRole": "代数方程和符号变换需要规则保持、步骤计划和中间状态更新；当前是计算/推理交叉的执行控制候选层。"
+        },
+        {
+          "paradigmId": "probability-statistics-reasoning",
+          "role": "supporting",
+          "evidenceWeight": 0.42,
+          "synthesisRole": "概率统计判断需要抑制表面直觉，维持条件、样本和比例规则；当前仍缺专门坐标来源。"
+        },
+        {
+          "paradigmId": "math-word-problem",
+          "role": "supporting",
+          "evidenceWeight": 0.5,
+          "synthesisRole": "应用题逻辑建模体现题干限定词保持、数量关系重组和冲动答案抑制。"
+        },
+        {
+          "paradigmId": "sustained-attention-cpt",
+          "role": "supporting",
+          "evidenceWeight": 0.58,
+          "synthesisRole": "持续注意任务包含目标监控、反应抑制和冲动控制。"
+        },
+        {
+          "paradigmId": "dual-task",
+          "role": "supporting",
+          "evidenceWeight": 0.56,
+          "synthesisRole": "双任务需要任务协调、资源分配和控制切换。"
+        },
+        {
+          "paradigmId": "deductive-reasoning",
+          "role": "supporting",
+          "evidenceWeight": 0.5,
+          "synthesisRole": "演绎推理需要规则应用、前提保持和一致性检查。"
+        },
+        {
+          "paradigmId": "source-memory",
+          "role": "boundary",
+          "evidenceWeight": 0.34,
+          "synthesisRole": "相关范式中有监控、规则保持或切换成分，但不作为执行功能主范式。"
+        },
+        {
+          "paradigmId": "episodic-order-memory",
+          "role": "boundary",
+          "evidenceWeight": 0.34,
+          "synthesisRole": "相关范式中有监控、规则保持或切换成分，但不作为执行功能主范式。"
+        },
+        {
+          "paradigmId": "relational-reasoning",
+          "role": "boundary",
+          "evidenceWeight": 0.34,
+          "synthesisRole": "相关范式中有监控、规则保持或切换成分，但不作为执行功能主范式。"
+        },
+        {
+          "paradigmId": "inductive-rule-discovery",
+          "role": "boundary",
+          "evidenceWeight": 0.34,
+          "synthesisRole": "相关范式中有监控、规则保持或切换成分，但不作为执行功能主范式。"
+        }
+      ],
+      "sourceUses": [
+        {
+          "sourceId": "niendam-2012-cognitive-control",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "stroop",
+            "flanker",
+            "task-switching",
+            "go-no-go",
+            "tower-of-london"
+          ],
+          "note": "跨任务执行控制网络元分析入口。"
+        },
+        {
+          "sourceId": "aron-2014-response-inhibition",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "stop-signal"
+          ],
+          "note": "反应抑制综述入口。"
+        },
+        {
+          "sourceId": "swick-2011-stopping",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "go-no-go",
+            "stop-signal"
+          ],
+          "note": "Go/No-Go 与 Stop-signal 边界入口；PDF 与 Tables 2-4 已入库抽取，可作为二者差异的元分析候选坐标层，仍需裁剪后进入生产 overlay。"
+        },
+        {
+          "sourceId": "aron-poldrack-2006-stop-signal",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "stop-signal"
+          ],
+          "note": "Stop-signal task-fMRI 皮层候选来源；右 IFC 与 SMA/pre-SMA 已可映射，STN/GP 保留为 atlas 边界。"
+        },
+        {
+          "sourceId": "rubia-2006-frontostriatal-cognitive-control",
+          "supportRole": "coordinate_boundary",
+          "paradigmIds": [
+            "go-no-go",
+            "task-switching"
+          ],
+          "note": "成人组 Go/No-Go 与任务切换坐标已完成 Talairach-to-MNI 转换和 Schaefer200 reviewed 映射；Simon 行暂缓到专门范式。"
+        },
+        {
+          "sourceId": "miyake-2000-executive-functions",
+          "supportRole": "behavioral_boundary",
+          "paradigmIds": [
+            "task-switching",
+            "keep-track",
+            "dual-task"
+          ],
+          "note": "执行功能成分分类边界。"
+        },
+        {
+          "sourceId": "unterrainer-owen-2006-planning",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "tower-of-london"
+          ],
+          "note": "规划、目标保持和步骤控制边界。"
+        },
+        {
+          "sourceId": "cools-2002-reversal-learning",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "probabilistic-reversal-learning"
+          ],
+          "note": "反馈学习和规则反转的候选来源；皮层外纹状体边界需要保留。"
+        },
+        {
+          "sourceId": "rottschy-2012-working-memory",
+          "supportRole": "coordinate_boundary",
+          "paradigmIds": [
+            "n-back",
+            "keep-track"
+          ],
+          "note": "工作记忆更新的坐标代理入口，但不能自动替代 keep-track 专门坐标。"
+        },
+        {
+          "sourceId": "amalric-dehaene-2016-advanced-math",
+          "supportRole": "coordinate_boundary",
+          "paradigmIds": [
+            "algebra-equation-solving",
+            "math-word-problem"
+          ],
+          "note": "高级数学共享额顶-顶叶-枕颞网络可作为复杂数学规则保持和符号结构处理的候选边界；专家样本不能直接等同学生应用题。"
+        },
+        {
+          "sourceId": "houde-2003-logical-math-cognition",
+          "supportRole": "meta_review",
+          "paradigmIds": [
+            "probability-statistics-reasoning",
+            "math-word-problem"
+          ],
+          "note": "逻辑/数学认知和直觉错误抑制框架，用于解释复杂题中执行控制介入，但不是点位坐标来源。"
+        },
+        {
+          "sourceId": "kroger-2002-relational-complexity",
+          "supportRole": "task_fmri",
+          "paradigmIds": [
+            "relational-reasoning",
+            "inductive-rule-discovery"
+          ],
+          "note": "关系复杂度和规则发现可作为执行控制相关边界来源。"
+        }
+      ],
+      "convergenceRegions": [
+        {
+          "id": "exec-insula-salience",
+          "label": "前岛叶/额叶岛盖控制需求",
+          "networkId": "ventral_attention",
+          "regionCoverageId": "frontal-operculum-anterior-insula",
+          "displayParcelId": "schaefer200_154",
+          "candidateParcelIds": [
+            "schaefer200_047",
+            "schaefer200_048",
+            "schaefer200_049",
+            "schaefer200_050",
+            "schaefer200_152",
+            "schaefer200_153",
+            "schaefer200_154",
+            "schaefer200_155",
+            "schaefer200_173",
+            "schaefer200_190"
+          ],
+          "overlapParadigmIds": [
+            "go-no-go",
+            "stop-signal",
+            "task-switching",
+            "flanker",
+            "keep-track"
+          ],
+          "supportSourceIds": [
+            "niendam-2012-cognitive-control",
+            "aron-2014-response-inhibition",
+            "aron-poldrack-2006-stop-signal",
+            "rubia-2006-frontostriatal-cognitive-control",
+            "marini-2016-distractor-filtering"
+          ],
+          "consistency": "high",
+          "interpretation": "用于表达停止信号、切换线索、变化检测和控制需求，是执行功能从自动处理转入控制处理的入口。",
+          "caution": "Go/No-Go 与 Task switching 已有 Rubia reviewed 坐标支撑；Flanker 已有 Marini 2016 任务样本坐标支撑；Stop-signal 已有 Aron 2006 右 IFC 任务 fMRI 皮层候选；Keep-track 仍需专门来源，不能直接复制同一套岛盖/IFG 点位。"
+        },
+        {
+          "id": "exec-acc-monitoring",
+          "label": "前扣带/aMCC/pre-SMA 监控",
+          "networkId": "ventral_attention",
+          "regionCoverageId": "anterior-cingulate-medial-frontal",
+          "displayParcelId": "schaefer200_052",
+          "candidateParcelIds": [
+            "schaefer200_052",
+            "schaefer200_053",
+            "schaefer200_054",
+            "schaefer200_072",
+            "schaefer200_073",
+            "schaefer200_156",
+            "schaefer200_157",
+            "schaefer200_178",
+            "schaefer200_179"
+          ],
+          "overlapParadigmIds": [
+            "stroop",
+            "flanker",
+            "n-back",
+            "dual-task",
+            "probabilistic-reversal-learning"
+          ],
+          "supportSourceIds": [
+            "niendam-2012-cognitive-control",
+            "macdonald-2000-stroop-control"
+          ],
+          "consistency": "high",
+          "interpretation": "用于表达冲突、错误、负荷和反馈监控，提示当前策略需要调整。",
+          "caution": "ACC、aMCC 和 pre-SMA 不应完全合并；当前是皮层代理层。"
+        },
+        {
+          "id": "exec-dlpfc-control",
+          "label": "DLPFC/额顶规则控制",
+          "networkId": "frontoparietal",
+          "regionCoverageId": "dorsolateral-prefrontal-cortex",
+          "displayParcelId": "schaefer200_068",
+          "candidateParcelIds": [
+            "schaefer200_066",
+            "schaefer200_067",
+            "schaefer200_068",
+            "schaefer200_069",
+            "schaefer200_170",
+            "schaefer200_171",
+            "schaefer200_172",
+            "schaefer200_173"
+          ],
+          "overlapParadigmIds": [
+            "go-no-go",
+            "task-switching",
+            "tower-of-london",
+            "keep-track",
+            "probabilistic-reversal-learning",
+            "algebra-equation-solving",
+            "probability-statistics-reasoning",
+            "math-word-problem"
+          ],
+          "supportSourceIds": [
+            "niendam-2012-cognitive-control",
+            "rubia-2006-frontostriatal-cognitive-control",
+            "nitschke-2017-tower-of-london",
+            "amalric-dehaene-2016-advanced-math",
+            "houde-2003-logical-math-cognition"
+          ],
+          "consistency": "high",
+          "interpretation": "用于维持规则、更新策略、计划步骤并把控制信号传给注意和动作系统；在复杂数学题中，它也表达条件保持、方程变换和题干限定词带来的策略重排。",
+          "caution": "Go/No-Go 与 Task switching 已完成 Rubia 坐标复核；Tower of London 已完成 Nitschke 2017 规划任务元分析坐标复核；Keep-track 仍需专门任务坐标；复杂数学题的执行控制仍是候选边界，不等于执行功能专门坐标复核。"
+        },
+        {
+          "id": "exec-parietal-taskset",
+          "label": "顶叶任务集/目标重映射",
+          "networkId": "dorsal_attention",
+          "regionCoverageId": "intraparietal-posterior-parietal",
+          "displayParcelId": "schaefer200_142",
+          "candidateParcelIds": [
+            "schaefer200_033",
+            "schaefer200_037",
+            "schaefer200_040",
+            "schaefer200_062",
+            "schaefer200_141",
+            "schaefer200_142",
+            "schaefer200_144",
+            "schaefer200_167"
+          ],
+          "overlapParadigmIds": [
+            "task-switching",
+            "tower-of-london",
+            "keep-track",
+            "dual-task",
+            "n-back",
+            "algebra-equation-solving",
+            "probability-statistics-reasoning",
+            "math-word-problem"
+          ],
+          "supportSourceIds": [
+            "niendam-2012-cognitive-control",
+            "rottschy-2012-working-memory",
+            "rubia-2006-frontostriatal-cognitive-control",
+            "amalric-dehaene-2016-advanced-math"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达新规则下当前要看什么、保持什么、比较什么，是切换和更新任务的重要支架；复杂数学题中，它也承接数量关系、比例条件和中间结果的重映射。",
+          "caution": "顶叶任务集和注意定向、数量空间表征高度重叠，不能把它讲成执行功能独有点位。"
+        },
+        {
+          "id": "exec-sma-motor-gating",
+          "label": "SMA/pre-SMA/运动输出门控",
+          "networkId": "somatomotor",
+          "regionCoverageId": "primary-motor-somatomotor",
+          "displayParcelId": "schaefer200_158",
+          "candidateParcelIds": [
+            "schaefer200_026",
+            "schaefer200_028",
+            "schaefer200_054",
+            "schaefer200_129",
+            "schaefer200_131",
+            "schaefer200_146",
+            "schaefer200_158"
+          ],
+          "overlapParadigmIds": [
+            "go-no-go",
+            "stop-signal",
+            "stroop",
+            "sustained-attention-cpt"
+          ],
+          "supportSourceIds": [
+            "swick-2011-stopping",
+            "aron-2014-response-inhibition",
+            "aron-poldrack-2006-stop-signal"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达动作准备、按键输出和取消反应，是执行控制落到行为的出口；Stop-signal 中 SMA/pre-SMA 候选点表达停止需求对动作门控的影响。",
+          "caution": "停止信号的 STN/GP 通路不在当前皮层图谱中，SMA/pre-SMA 不能替代基底节停止机制。"
+        },
+        {
+          "id": "exec-ofc-feedback",
+          "label": "OFC/腹侧前额叶反馈价值更新",
+          "networkId": "limbic",
+          "regionCoverageId": "orbitofrontal-ventral-prefrontal",
+          "displayParcelId": "schaefer200_055",
+          "candidateParcelIds": [
+            "schaefer200_055",
+            "schaefer200_056",
+            "schaefer200_065",
+            "schaefer200_159",
+            "schaefer200_160",
+            "schaefer200_161"
+          ],
+          "overlapParadigmIds": [
+            "probabilistic-reversal-learning"
+          ],
+          "supportSourceIds": [
+            "cools-2002-reversal-learning"
+          ],
+          "consistency": "medium",
+          "interpretation": "用于表达反馈变了、规则可能反了，需要重新估计当前选择价值。",
+          "caution": "反转学习还涉及纹状体等皮层外结构；当前只显示皮层可表达部分。"
+        }
+      ],
+      "presentationStages": [
+        {
+          "id": "exec-stage-demand",
+          "title": "1. 发现需要控制",
+          "summary": "前岛叶/额叶岛盖和内侧额叶先发现停止、切换、冲突、错误或反馈变化。",
+          "nodeIds": [
+            "exec-insula-salience",
+            "exec-acc-monitoring"
+          ],
+          "speakerCue": "这里可以讲：执行功能不是一上来就算答案，而是先判断现在需不需要从自动模式切到控制模式。"
+        },
+        {
+          "id": "exec-stage-rule",
+          "title": "2. 维持规则并重映射目标",
+          "summary": "DLPFC/额顶系统维持当前规则，顶叶把注意目标、项目集合或空间状态重新排好。",
+          "nodeIds": [
+            "exec-dlpfc-control",
+            "exec-parietal-taskset"
+          ],
+          "speakerCue": "这里可以讲：孩子能不能换规则、记住步骤、更新当前信息，都在这层体现。"
+        },
+        {
+          "id": "exec-stage-output",
+          "title": "3. 约束动作并根据反馈调整",
+          "summary": "运动通道被执行或取消，反馈价值系统帮助下一轮选择更新策略。",
+          "nodeIds": [
+            "exec-sma-motor-gating",
+            "exec-ofc-feedback",
+            "exec-dlpfc-control"
+          ],
+          "speakerCue": "这里落到行为：该停时停，该换时换，做错后能根据反馈改策略。"
+        }
+      ],
+      "overlay": {
+        "nodes": [
+          {
+            "id": "exec-insula-salience",
+            "label": "前岛叶/岛盖需求信号",
+            "role": "salience_detection",
+            "networkId": "ventral_attention",
+            "regionCoverageId": "frontal-operculum-anterior-insula",
+            "displayParcelId": "schaefer200_154",
+            "candidateParcelIds": [
+              "schaefer200_047",
+              "schaefer200_048",
+              "schaefer200_049",
+              "schaefer200_050",
+              "schaefer200_152",
+              "schaefer200_153",
+              "schaefer200_154",
+              "schaefer200_155"
+            ],
+            "weight": 0.92,
+            "caption": "检测停止、切换、反馈或变化需求。"
+          },
+          {
+            "id": "exec-acc-monitoring",
+            "label": "内侧额叶监控",
+            "role": "conflict_monitoring",
+            "networkId": "ventral_attention",
+            "regionCoverageId": "anterior-cingulate-medial-frontal",
+            "displayParcelId": "schaefer200_052",
+            "candidateParcelIds": [
+              "schaefer200_052",
+              "schaefer200_053",
+              "schaefer200_054",
+              "schaefer200_156",
+              "schaefer200_157"
+            ],
+            "weight": 0.9,
+            "caption": "监控冲突、错误、负荷和反馈偏差。"
+          },
+          {
+            "id": "exec-dlpfc-control",
+            "label": "DLPFC 规则控制",
+            "role": "executive_control",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "dorsolateral-prefrontal-cortex",
+            "displayParcelId": "schaefer200_068",
+            "candidateParcelIds": [
+              "schaefer200_066",
+              "schaefer200_067",
+              "schaefer200_068",
+              "schaefer200_170",
+              "schaefer200_171",
+              "schaefer200_172"
+            ],
+            "weight": 0.94,
+            "caption": "维持规则、更新策略并约束反应。"
+          },
+          {
+            "id": "exec-parietal-taskset",
+            "label": "顶叶任务集重映射",
+            "role": "attention_orienting",
+            "networkId": "dorsal_attention",
+            "regionCoverageId": "intraparietal-posterior-parietal",
+            "displayParcelId": "schaefer200_142",
+            "candidateParcelIds": [
+              "schaefer200_033",
+              "schaefer200_037",
+              "schaefer200_040",
+              "schaefer200_062",
+              "schaefer200_141",
+              "schaefer200_142",
+              "schaefer200_144",
+              "schaefer200_167"
+            ],
+            "weight": 0.76,
+            "caption": "把注意目标、当前项目或空间状态按新规则重排。"
+          },
+          {
+            "id": "exec-sma-motor-gating",
+            "label": "SMA/pre-SMA 门控",
+            "role": "response_selection",
+            "networkId": "somatomotor",
+            "regionCoverageId": "primary-motor-somatomotor",
+            "displayParcelId": "schaefer200_158",
+            "candidateParcelIds": [
+              "schaefer200_026",
+              "schaefer200_028",
+              "schaefer200_054",
+              "schaefer200_129",
+              "schaefer200_131",
+              "schaefer200_146",
+              "schaefer200_158"
+            ],
+            "weight": 0.74,
+            "caption": "执行、延迟或取消按键/动作输出；Stop-signal 中可表达 SMA/pre-SMA 门控。"
+          },
+          {
+            "id": "exec-thalamic-gate",
+            "label": "丘脑门控边界",
+            "role": "modulator",
+            "networkId": "ventral_attention",
+            "regionCoverageId": "thalamus",
+            "physicalStructureId": "thalamus",
+            "specializedAtlasLabelIds": [
+              "harvard-oxford-subcortical-basal-ganglia-thalamus-04",
+              "harvard-oxford-subcortical-basal-ganglia-thalamus-15"
+            ],
+            "weight": 0.52,
+            "caption": "Stroop、ANT 和 Stop-signal 中重复出现的丘脑粗定位边界，用于表达警觉、反应门控和控制需求的皮层外入口。"
+          },
+          {
+            "id": "exec-basal-ganglia-gate",
+            "label": "基底节反应/反馈门控",
+            "role": "modulator",
+            "networkId": "frontoparietal",
+            "regionCoverageId": "basal-ganglia",
+            "physicalStructureId": "basal-ganglia",
+            "specializedAtlasLabelIds": [
+              "harvard-oxford-subcortical-basal-ganglia-thalamus-05",
+              "harvard-oxford-subcortical-basal-ganglia-thalamus-06",
+              "harvard-oxford-subcortical-basal-ganglia-thalamus-07",
+              "harvard-oxford-subcortical-basal-ganglia-thalamus-16",
+              "harvard-oxford-subcortical-basal-ganglia-thalamus-17",
+              "harvard-oxford-subcortical-basal-ganglia-thalamus-18"
+            ],
+            "weight": 0.5,
+            "caption": "尾状核、壳核、苍白球等粗结构用于表达动作选择、反馈学习和 frontostriatal 门控边界；当前不覆盖 STN。"
+          },
+          {
+            "id": "exec-ofc-feedback",
+            "label": "反馈价值更新",
+            "role": "affective_value",
+            "networkId": "limbic",
+            "regionCoverageId": "orbitofrontal-ventral-prefrontal",
+            "displayParcelId": "schaefer200_055",
+            "candidateParcelIds": [
+              "schaefer200_055",
+              "schaefer200_056",
+              "schaefer200_159",
+              "schaefer200_160"
+            ],
+            "weight": 0.68,
+            "caption": "根据反馈改变当前选择价值和策略预期。"
+          }
+        ],
+        "edges": [
+          {
+            "id": "exec-edge-insula-acc",
+            "sourceNodeId": "exec-insula-salience",
+            "targetNodeId": "exec-acc-monitoring",
+            "relation": "salience_gate",
+            "weight": 0.8,
+            "caption": "变化或停止信号提高监控需求。"
+          },
+          {
+            "id": "exec-edge-acc-dlpfc",
+            "sourceNodeId": "exec-acc-monitoring",
+            "targetNodeId": "exec-dlpfc-control",
+            "relation": "coactivation",
+            "weight": 0.86,
+            "caption": "监控结果推动策略控制和规则更新。"
+          },
+          {
+            "id": "exec-edge-dlpfc-parietal",
+            "sourceNodeId": "exec-dlpfc-control",
+            "targetNodeId": "exec-parietal-taskset",
+            "relation": "top_down_bias",
+            "weight": 0.76,
+            "caption": "规则控制把注意目标和任务集重新分配。"
+          },
+          {
+            "id": "exec-edge-parietal-dlpfc",
+            "sourceNodeId": "exec-parietal-taskset",
+            "targetNodeId": "exec-dlpfc-control",
+            "relation": "context_integration",
+            "weight": 0.62,
+            "caption": "当前项目、空间状态或目标位置反馈给规则控制。"
+          },
+          {
+            "id": "exec-edge-dlpfc-motor",
+            "sourceNodeId": "exec-dlpfc-control",
+            "targetNodeId": "exec-sma-motor-gating",
+            "relation": "top_down_bias",
+            "weight": 0.78,
+            "caption": "控制系统约束动作输出或取消反应。"
+          },
+          {
+            "id": "exec-edge-dlpfc-thalamus",
+            "sourceNodeId": "exec-dlpfc-control",
+            "targetNodeId": "exec-thalamic-gate",
+            "relation": "coactivation",
+            "weight": 0.46,
+            "caption": "丘脑作为控制和反应门控的皮层外粗定位边界。"
+          },
+          {
+            "id": "exec-edge-dlpfc-basal-ganglia",
+            "sourceNodeId": "exec-dlpfc-control",
+            "targetNodeId": "exec-basal-ganglia-gate",
+            "relation": "top_down_bias",
+            "weight": 0.44,
+            "caption": "额顶控制与基底节门控共同表达反应选择和反馈调整边界。"
+          },
+          {
+            "id": "exec-edge-insula-motor",
+            "sourceNodeId": "exec-insula-salience",
+            "targetNodeId": "exec-sma-motor-gating",
+            "relation": "salience_gate",
+            "weight": 0.6,
+            "caption": "停止或变化信号快速影响动作门控。"
+          },
+          {
+            "id": "exec-edge-ofc-acc",
+            "sourceNodeId": "exec-ofc-feedback",
+            "targetNodeId": "exec-acc-monitoring",
+            "relation": "candidate_flow",
+            "weight": 0.64,
+            "caption": "反馈价值变化进入错误和冲突监控。"
+          },
+          {
+            "id": "exec-edge-dlpfc-ofc",
+            "sourceNodeId": "exec-dlpfc-control",
+            "targetNodeId": "exec-ofc-feedback",
+            "relation": "top_down_bias",
+            "weight": 0.54,
+            "caption": "新规则改变下一轮反馈解释。"
+          }
+        ]
+      },
+      "nextCoordinateReview": [
+        "Niendam 2012 已完成 Tables 3-7 的 Talairach-to-MNI 转换和 Schaefer200 映射，可作为跨任务执行控制骨架；但不要把整张跨任务网络直接复制到 Keep-track 或 N-back 单范式。",
+        "Rubia 2006 已完成成人组 Go/No-Go 与任务切换 Table II 坐标转换和 reviewed 映射；Simon 行暂缓，等待新增 Simon/interference-inhibition 范式。",
+        "Marini 2016 已补足 Flanker/distractor-filtering 任务样本坐标复核；边界是任务样本，不讲成 Flanker 全元分析。",
+        "Aron & Poldrack 2006 已补足 Stop-signal 任务 fMRI 皮层候选坐标：右 IFC 与 SMA/pre-SMA 可用于基础演示；STN/GP 保留为 atlas 边界。",
+        "Swick 2011 PDF 已入库并抽取 Tables 2-4；现在可作为 Go/No-Go vs Stop-signal 的元分析候选坐标层，但仍需和 Aron/Rubia/Niendam 交叉裁剪后再进入生产 overlay。",
+        "Nitschke 2017 已补足 Tower of London 规划任务 ALE 坐标复核；尾状核作为 Schaefer200 外边界保留。",
+        "Cools 2002 概率反转学习已完成 reviewed 映射；纹状体仍是 atlas 边界。",
+        "Keep-track 仍需专门 neuroimaging 来源，不应直接套 N-back 坐标。"
+      ]
+    }
+  ]
+}

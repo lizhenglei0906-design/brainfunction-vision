@@ -1,0 +1,83 @@
+{
+  "id": "quantity-understanding-triplet",
+  "version": "0.1.0",
+  "status": "source_backed_product_composite",
+  "isFormalParadigm": false,
+  "functionId": "calculation",
+  "label": "数量理解三联任务",
+  "englishLabel": "Quantity Understanding Triplet",
+  "summary": "用三段连续任务观察孩子如何从看见数量，走到理解数字，再把数字放进有顺序和尺度的关系中。",
+  "architectureSourceId": "cangoz-2018-tablet-dyscalculia-screening",
+  "trainingImagingAnchorId": "park-2024-number-sense-training-fmri",
+  "formalParadigmIds": [
+    "approximate-number-sense",
+    "subitizing-enumeration",
+    "symbolic-quantity-mapping",
+    "number-comparison",
+    "number-line-estimation"
+  ],
+  "sourceIds": [
+    "cangoz-2018-tablet-dyscalculia-screening",
+    "park-2024-number-sense-training-fmri",
+    "piazza-2003-subitizing-counting",
+    "cantlon-2009-abstract-number-development",
+    "berteletti-2015-number-line-subtraction",
+    "dehaene-2009-math-intuitions"
+  ],
+  "stages": [
+    {
+      "id": "see-quantity",
+      "order": 1,
+      "label": "一眼能看出多少吗",
+      "prompt": "先看一组点。少的时候，孩子能不能直接看出数量；多起来以后，能不能稳稳地数清楚。",
+      "formalParadigmIds": [
+        "approximate-number-sense",
+        "subitizing-enumeration"
+      ],
+      "measureLabels": [
+        "不数时最多能看出几个",
+        "每多一个，数清楚要多花多久",
+        "估出来的数量和实际差多少"
+      ],
+      "storyBeat": "先别急着认数字。给孩子看一堆点，看看他能不能直接知道有几个；点多起来以后，再看他会不会漏数或重复数。"
+    },
+    {
+      "id": "give-symbol-meaning",
+      "order": 2,
+      "label": "数字和数量对得上吗",
+      "prompt": "再把点阵换成数字。看看孩子见到“7”时，能不能想到七个东西，也能不能分清7和8谁更大。",
+      "formalParadigmIds": [
+        "symbolic-quantity-mapping",
+        "number-comparison"
+      ],
+      "measureLabels": [
+        "数字和点阵能不能配对",
+        "两个数字越接近，会不会越难比较",
+        "点阵换成数字后，要多想多久"
+      ],
+      "storyBeat": "孩子会念数字，不一定真的懂数字。这里要看他能不能把数字、数词和真实数量接到一起。"
+    },
+    {
+      "id": "place-number-in-range",
+      "order": 3,
+      "label": "这个数该放在哪儿",
+      "prompt": "最后给一条有起点和终点的数轴。让孩子把目标数字放进去，并说说自己是怎么找位置的。",
+      "formalParadigmIds": [
+        "number-line-estimation"
+      ],
+      "measureLabels": [
+        "落点离正确位置有多远",
+        "会不会先找中点或四分点",
+        "数轴范围变大后会不会更容易偏"
+      ],
+      "storyBeat": "懂了一个数字代表多少，还要知道它在整段范围里的位置。比如25，大约就在0到100的四分之一处。"
+    }
+  ],
+  "storyConclusion": "三关连起来，才能区分孩子卡在看见数量、理解符号，还是把数量放进顺序和尺度。某一关吃力不等于计算能力整体不好。",
+  "consumerBoundary": [
+    "This composite organizes existing task families for product explanation; it is not an internationally standardized named paradigm.",
+    "Do not average stage measures into a diagnostic score or use the battery as a dyscalculia diagnosis.",
+    "Do not promote aggregate function-level nodes into new production coordinates for the composite.",
+    "Training evidence for symbolic-nonsymbolic mapping does not establish broad transfer to all arithmetic, geometry, statistics, or school achievement."
+  ]
+}

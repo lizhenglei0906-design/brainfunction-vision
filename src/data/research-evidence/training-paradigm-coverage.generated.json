@@ -1,0 +1,2738 @@
+{
+  "id": "training-paradigm-coverage-v0",
+  "updated": "2026-09-02",
+  "owner": "resource_evidence_thread",
+  "status": "round_7_quantity_understanding_paradigms_added",
+  "definitions": {
+    "direct_training": "The study trains the same paradigm or a very close operational version and reports a behavioral and/or imaging outcome.",
+    "near_component": "The study trains a core mechanism used by the paradigm, but does not validate the full paradigm as a training target.",
+    "broad_plasticity": "The study demonstrates broader practice-related plasticity and is background only.",
+    "boundary_only": "A review or negative/limited-transfer result constrains claims, but no positive local training anchor exists.",
+    "mitigation_only": "The paradigm primarily measures an error pattern or risk; train verification or compensatory strategies instead of repeatedly practicing the phenomenon.",
+    "no_local_training_evidence": "No sufficiently close local training source is currently archived."
+  },
+  "summary": {
+    "paradigmCount": 57,
+    "localTrainingSourceCount": 27,
+    "positiveAnchorCount": 47,
+    "directT0T1Count": 24,
+    "boundaryOrMitigationCount": 7,
+    "noLocalTrainingEvidenceCount": 3,
+    "statusCounts": {
+      "near_component": 20,
+      "direct_training": 24,
+      "broad_plasticity": 3,
+      "boundary_only": 6,
+      "no_local_training_evidence": 3,
+      "mitigation_only": 1
+    },
+    "priorityDirectGapCount": 22
+  },
+  "byFunction": [
+    {
+      "functionId": "attention",
+      "total": 7,
+      "positiveAnchorCount": 7,
+      "directT0T1Count": 3,
+      "statusCounts": {
+        "near_component": 4,
+        "direct_training": 3
+      }
+    },
+    {
+      "functionId": "short_term_memory",
+      "total": 4,
+      "positiveAnchorCount": 4,
+      "directT0T1Count": 4,
+      "statusCounts": {
+        "direct_training": 4
+      }
+    },
+    {
+      "functionId": "executive_function",
+      "total": 6,
+      "positiveAnchorCount": 5,
+      "directT0T1Count": 3,
+      "statusCounts": {
+        "direct_training": 3,
+        "broad_plasticity": 1,
+        "near_component": 1,
+        "no_local_training_evidence": 1
+      }
+    },
+    {
+      "functionId": "reasoning",
+      "total": 5,
+      "positiveAnchorCount": 5,
+      "directT0T1Count": 1,
+      "statusCounts": {
+        "direct_training": 1,
+        "near_component": 4
+      }
+    },
+    {
+      "functionId": "mental_imagery_operation",
+      "total": 4,
+      "positiveAnchorCount": 2,
+      "directT0T1Count": 0,
+      "statusCounts": {
+        "broad_plasticity": 1,
+        "near_component": 1,
+        "boundary_only": 2
+      }
+    },
+    {
+      "functionId": "reaction_speed",
+      "total": 6,
+      "positiveAnchorCount": 5,
+      "directT0T1Count": 1,
+      "statusCounts": {
+        "near_component": 3,
+        "boundary_only": 1,
+        "direct_training": 1,
+        "broad_plasticity": 1
+      }
+    },
+    {
+      "functionId": "calculation",
+      "total": 11,
+      "positiveAnchorCount": 8,
+      "directT0T1Count": 7,
+      "statusCounts": {
+        "direct_training": 7,
+        "boundary_only": 1,
+        "near_component": 1,
+        "no_local_training_evidence": 2
+      }
+    },
+    {
+      "functionId": "reading",
+      "total": 6,
+      "positiveAnchorCount": 4,
+      "directT0T1Count": 2,
+      "statusCounts": {
+        "near_component": 2,
+        "boundary_only": 2,
+        "direct_training": 2
+      }
+    },
+    {
+      "functionId": "long_term_memory",
+      "total": 8,
+      "positiveAnchorCount": 7,
+      "directT0T1Count": 3,
+      "statusCounts": {
+        "direct_training": 3,
+        "near_component": 4,
+        "mitigation_only": 1
+      }
+    }
+  ],
+  "priorityDirectGaps": [
+    {
+      "paradigmId": "stroop",
+      "label": "Stroop 色词冲突任务",
+      "primaryFunctionId": "attention",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "rueda-2005-executive-attention-training",
+        "klingberg-2005-working-memory-training-adhd-rct"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "flanker",
+      "label": "Flanker 旁侧干扰任务",
+      "primaryFunctionId": "attention",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "rueda-2005-executive-attention-training"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "posner-cueing",
+      "label": "Posner 空间线索任务",
+      "primaryFunctionId": "attention",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "rueda-2005-executive-attention-training"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "mental-rotation",
+      "label": "心理旋转",
+      "primaryFunctionId": "mental_imagery_operation",
+      "currentStatus": "broad_plasticity",
+      "currentPositiveSourceIds": [
+        "kuhn-2014-super-mario-structural-plasticity",
+        "draganski-2004-juggling-structural-plasticity"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "choice-reaction-time",
+      "label": "选择反应时",
+      "primaryFunctionId": "reaction_speed",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "mackey-2011-reasoning-speed-training-children",
+        "dux-2009-multitasking-training-fmri",
+        "zinke-2012-task-switching-training-adolescents"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "lexical-decision",
+      "label": "词汇判断",
+      "primaryFunctionId": "reading",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "temple-2003-dyslexia-remediation-fmri"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "sentence-comprehension",
+      "label": "句子理解",
+      "primaryFunctionId": "reading",
+      "currentStatus": "boundary_only",
+      "currentPositiveSourceIds": [],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "simple-reaction-time",
+      "label": "简单反应时",
+      "primaryFunctionId": "reaction_speed",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "mackey-2011-reasoning-speed-training-children"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "visual-imagery",
+      "label": "视觉表象任务",
+      "primaryFunctionId": "mental_imagery_operation",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "kuhn-2014-super-mario-structural-plasticity",
+        "engvig-2010-memory-training-cortical-thickness",
+        "hampstead-2011-face-name-memory-training-fmri"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "recognition-memory",
+      "label": "再认记忆",
+      "primaryFunctionId": "long_term_memory",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "engvig-2010-memory-training-cortical-thickness",
+        "hampstead-2011-face-name-memory-training-fmri"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "source-memory",
+      "label": "来源记忆",
+      "primaryFunctionId": "long_term_memory",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "engvig-2010-memory-training-cortical-thickness"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "sustained-attention-cpt",
+      "label": "持续注意/CPT",
+      "primaryFunctionId": "attention",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "klingberg-2005-working-memory-training-adhd-rct",
+        "felssberg-2025-mot-training-fmri",
+        "jones-2020-child-adhd-nback-training"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "tower-of-london",
+      "label": "伦敦塔规划任务",
+      "primaryFunctionId": "executive_function",
+      "currentStatus": "broad_plasticity",
+      "currentPositiveSourceIds": [
+        "kuhn-2014-super-mario-structural-plasticity"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "deductive-reasoning",
+      "label": "演绎推理",
+      "primaryFunctionId": "reasoning",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "mackey-2011-reasoning-speed-training-children"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "orthographic-processing",
+      "label": "正字法/字形加工",
+      "primaryFunctionId": "reading",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "keller-just-2009-reading-remediation-white-matter"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "visual-search-schulte",
+      "label": "视觉搜索/舒尔特方格",
+      "primaryFunctionId": "reaction_speed",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "kuhn-2014-super-mario-structural-plasticity",
+        "draganski-2004-juggling-structural-plasticity",
+        "felssberg-2025-mot-training-fmri"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "perceptual-discrimination-rt",
+      "label": "知觉辨别反应时",
+      "primaryFunctionId": "reaction_speed",
+      "currentStatus": "broad_plasticity",
+      "currentPositiveSourceIds": [
+        "kuhn-2014-super-mario-structural-plasticity",
+        "draganski-2004-juggling-structural-plasticity"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "spatial-folding-unfolding",
+      "label": "空间展开/折叠",
+      "primaryFunctionId": "mental_imagery_operation",
+      "currentStatus": "boundary_only",
+      "currentPositiveSourceIds": [],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "relational-reasoning",
+      "label": "关系推理/关系整合",
+      "primaryFunctionId": "reasoning",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "mackey-2011-reasoning-speed-training-children"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "inductive-rule-discovery",
+      "label": "归纳推理/规则发现",
+      "primaryFunctionId": "reasoning",
+      "currentStatus": "near_component",
+      "currentPositiveSourceIds": [
+        "mackey-2011-reasoning-speed-training-children"
+      ],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "subitizing-enumeration",
+      "label": "小数量识别与计数",
+      "primaryFunctionId": "calculation",
+      "currentStatus": "no_local_training_evidence",
+      "currentPositiveSourceIds": [],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    },
+    {
+      "paradigmId": "number-line-estimation",
+      "label": "数序与数轴估计",
+      "primaryFunctionId": "calculation",
+      "currentStatus": "no_local_training_evidence",
+      "currentPositiveSourceIds": [],
+      "need": "Find a direct controlled training study or retain the current component-level boundary without forcing coverage."
+    }
+  ],
+  "items": [
+    {
+      "paradigmId": "stroop",
+      "label": "Stroop 色词冲突任务",
+      "primaryFunctionId": "attention",
+      "functionIds": [
+        "attention",
+        "executive_function"
+      ],
+      "importance": {
+        "functionId": "executive_function",
+        "rank": 1,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "rueda-2005-executive-attention-training",
+        "klingberg-2005-working-memory-training-adhd-rct",
+        "simons-2016-brain-training-review"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [
+        "simons-2016-brain-training-review"
+      ],
+      "evidence": [
+        {
+          "sourceId": "rueda-2005-executive-attention-training",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "支持执行注意和冲突控制训练，不是色词冲突训练。"
+        },
+        {
+          "sourceId": "klingberg-2005-working-memory-training-adhd-rct",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "报告部分抑制近迁移，不能当作Stroop直接训练。"
+        },
+        {
+          "sourceId": "simons-2016-brain-training-review",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "任务本身改善不能自动外推到远任务、日常认知或产品疗效。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "attention-network-test",
+      "label": "ANT 注意网络测试",
+      "primaryFunctionId": "attention",
+      "functionIds": [
+        "attention",
+        "executive_function",
+        "reaction_speed"
+      ],
+      "importance": {
+        "functionId": "attention",
+        "rank": 1,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "rueda-2005-executive-attention-training"
+      ],
+      "directSourceIds": [
+        "rueda-2005-executive-attention-training"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "rueda-2005-executive-attention-training",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "训练和测量均围绕警觉、定向和执行注意成分。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "flanker",
+      "label": "Flanker 旁侧干扰任务",
+      "primaryFunctionId": "attention",
+      "functionIds": [
+        "attention",
+        "executive_function"
+      ],
+      "importance": {
+        "functionId": "attention",
+        "rank": 4,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "rueda-2005-executive-attention-training"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "rueda-2005-executive-attention-training",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "训练含冲突过滤成分，但不是Flanker专门练习。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "posner-cueing",
+      "label": "Posner 空间线索任务",
+      "primaryFunctionId": "attention",
+      "functionIds": [
+        "attention",
+        "reaction_speed"
+      ],
+      "importance": {
+        "functionId": "attention",
+        "rank": 3,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "rueda-2005-executive-attention-training"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "rueda-2005-executive-attention-training",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "训练含空间定向和线索利用成分，但不是Posner专门训练。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "n-back",
+      "label": "N-back 更新任务",
+      "primaryFunctionId": "short_term_memory",
+      "functionIds": [
+        "short_term_memory",
+        "executive_function",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "short_term_memory",
+        "rank": 1,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "klingberg-2005-working-memory-training-adhd-rct",
+        "melby-lervag-2016-working-memory-far-transfer-meta",
+        "simons-2016-brain-training-review",
+        "kuhn-2013-updating-training-striatal-dynamics",
+        "jones-2020-child-adhd-nback-training",
+        "jones-2020-working-memory-metacognitive-academic-transfer"
+      ],
+      "directSourceIds": [
+        "kuhn-2013-updating-training-striatal-dynamics",
+        "jones-2020-child-adhd-nback-training"
+      ],
+      "boundarySourceIds": [
+        "melby-lervag-2016-working-memory-far-transfer-meta",
+        "simons-2016-brain-training-review",
+        "jones-2020-working-memory-metacognitive-academic-transfer"
+      ],
+      "evidence": [
+        {
+          "sourceId": "klingberg-2005-working-memory-training-adhd-rct",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "训练工作记忆更新与负荷，但不是标准n-back。"
+        },
+        {
+          "sourceId": "melby-lervag-2016-working-memory-far-transfer-meta",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "工作记忆训练近迁移较稳定，远迁移到智力、阅读和算术缺乏稳定证据。"
+        },
+        {
+          "sourceId": "simons-2016-brain-training-review",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "任务本身改善不能自动外推到远任务、日常认知或产品疗效。"
+        },
+        {
+          "sourceId": "kuhn-2013-updating-training-striatal-dynamics",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "46名成人被随机分到高强度更新/n-back训练或较短、固定难度主动对照，约54次训练并完成3次fMRI。"
+        },
+        {
+          "sourceId": "jones-2020-child-adhd-nback-training",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "80名7至14岁ADHD儿童进入分析；空间N-back组完成约5周20次、每次约15分钟的自适应训练，并与时长和奖励相近的主动对照比较。"
+        },
+        {
+          "sourceId": "jones-2020-working-memory-metacognitive-academic-transfer",
+          "tier": "T1",
+          "fitLevel": "transfer_boundary",
+          "note": "该研究训练的是多任务Cogmed而非N-back；全文还明确区分了两类任务的结构，因此只能作为广义工作记忆迁移边界。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "digit-span",
+      "label": "数字广度",
+      "primaryFunctionId": "short_term_memory",
+      "functionIds": [
+        "short_term_memory",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "short_term_memory",
+        "rank": 2,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "klingberg-2005-working-memory-training-adhd-rct",
+        "melby-lervag-2016-working-memory-far-transfer-meta",
+        "simons-2016-brain-training-review",
+        "jones-2020-working-memory-metacognitive-academic-transfer"
+      ],
+      "directSourceIds": [
+        "klingberg-2005-working-memory-training-adhd-rct",
+        "jones-2020-working-memory-metacognitive-academic-transfer"
+      ],
+      "boundarySourceIds": [
+        "melby-lervag-2016-working-memory-far-transfer-meta",
+        "simons-2016-brain-training-review"
+      ],
+      "evidence": [
+        {
+          "sourceId": "klingberg-2005-working-memory-training-adhd-rct",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "自适应工作记忆训练包含言语序列保持成分。"
+        },
+        {
+          "sourceId": "melby-lervag-2016-working-memory-far-transfer-meta",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "工作记忆训练近迁移较稳定，远迁移到智力、阅读和算术缺乏稳定证据。"
+        },
+        {
+          "sourceId": "simons-2016-brain-training-review",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "任务本身改善不能自动外推到远任务、日常认知或产品疗效。"
+        },
+        {
+          "sourceId": "jones-2020-working-memory-metacognitive-academic-transfer",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "Cogmed包含数字倒序回忆训练，并以数字顺背、倒背等未训练任务检验近迁移；近迁移保持到三个月。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "grid-span",
+      "label": "空间广度",
+      "primaryFunctionId": "short_term_memory",
+      "functionIds": [
+        "short_term_memory",
+        "mental_imagery_operation"
+      ],
+      "importance": {
+        "functionId": "short_term_memory",
+        "rank": 3,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "kuhn-2014-super-mario-structural-plasticity",
+        "klingberg-2005-working-memory-training-adhd-rct",
+        "melby-lervag-2016-working-memory-far-transfer-meta",
+        "simons-2016-brain-training-review",
+        "jones-2020-working-memory-metacognitive-academic-transfer"
+      ],
+      "directSourceIds": [
+        "klingberg-2005-working-memory-training-adhd-rct"
+      ],
+      "boundarySourceIds": [
+        "melby-lervag-2016-working-memory-far-transfer-meta",
+        "simons-2016-brain-training-review"
+      ],
+      "evidence": [
+        {
+          "sourceId": "kuhn-2014-super-mario-structural-plasticity",
+          "tier": "T2",
+          "fitLevel": "broad_plasticity",
+          "note": "任务包含空间记忆负荷，但未直接训练空间广度。"
+        },
+        {
+          "sourceId": "klingberg-2005-working-memory-training-adhd-rct",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "主要未训练结局之一是视空间广度。"
+        },
+        {
+          "sourceId": "melby-lervag-2016-working-memory-far-transfer-meta",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "工作记忆训练近迁移较稳定，远迁移到智力、阅读和算术缺乏稳定证据。"
+        },
+        {
+          "sourceId": "simons-2016-brain-training-review",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "任务本身改善不能自动外推到远任务、日常认知或产品疗效。"
+        },
+        {
+          "sourceId": "jones-2020-working-memory-metacognitive-academic-transfer",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "训练包含空间位置序列和移动位置追踪，结果覆盖Dot Matrix与Spatial Span；支持空间广度近成分，不等于项目网格任务的直接验证。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "go-no-go",
+      "label": "Go/No-Go 反应抑制任务",
+      "primaryFunctionId": "executive_function",
+      "functionIds": [
+        "executive_function",
+        "reaction_speed",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "executive_function",
+        "rank": 3,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "berkman-2014-inhibitory-control-training-fmri",
+        "chavan-2015-inhibitory-control-functional-structural-plasticity"
+      ],
+      "directSourceIds": [
+        "chavan-2015-inhibitory-control-functional-structural-plasticity"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "berkman-2014-inhibitory-control-training-fmri",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "共同支持反应抑制和提前准备的训练逻辑，但任务本身是停止信号而非Go/No-Go。"
+        },
+        {
+          "sourceId": "chavan-2015-inhibitory-control-functional-structural-plasticity",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "18名成人连续14天、每天约1小时练习Go/No-Go，前后进行功能、结构和弥散MRI。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "stop-signal",
+      "label": "停止信号任务",
+      "primaryFunctionId": "executive_function",
+      "functionIds": [
+        "executive_function",
+        "reaction_speed"
+      ],
+      "importance": {
+        "functionId": "executive_function",
+        "rank": 2,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "berkman-2014-inhibitory-control-training-fmri",
+        "chavan-2015-inhibitory-control-functional-structural-plasticity"
+      ],
+      "directSourceIds": [
+        "berkman-2014-inhibitory-control-training-fmri"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "berkman-2014-inhibitory-control-training-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "60名成人随机接受10次自适应停止信号训练或主动假训练，前后均完成SST-fMRI。"
+        },
+        {
+          "sourceId": "chavan-2015-inhibitory-control-functional-structural-plasticity",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "支持额下回抑制效率的可塑性，但不是停止信号范式。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "task-switching",
+      "label": "任务切换",
+      "primaryFunctionId": "executive_function",
+      "functionIds": [
+        "executive_function",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "executive_function",
+        "rank": 4,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "simons-2016-brain-training-review",
+        "zinke-2012-task-switching-training-adolescents"
+      ],
+      "directSourceIds": [
+        "zinke-2012-task-switching-training-adolescents"
+      ],
+      "boundarySourceIds": [
+        "simons-2016-brain-training-review"
+      ],
+      "evidence": [
+        {
+          "sourceId": "simons-2016-brain-training-review",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "任务本身改善不能自动外推到远任务、日常认知或产品疗效。"
+        },
+        {
+          "sourceId": "zinke-2012-task-switching-training-adolescents",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "80名10至14岁青少年分为任务切换、切换加运动、单纯运动和无接触对照；切换训练为3次。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "ravens-matrices",
+      "label": "瑞文矩阵",
+      "primaryFunctionId": "reasoning",
+      "functionIds": [
+        "reasoning",
+        "mental_imagery_operation"
+      ],
+      "importance": {
+        "functionId": "reasoning",
+        "rank": 1,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "mackey-2011-reasoning-speed-training-children",
+        "melby-lervag-2016-working-memory-far-transfer-meta",
+        "simons-2016-brain-training-review"
+      ],
+      "directSourceIds": [
+        "mackey-2011-reasoning-speed-training-children"
+      ],
+      "boundarySourceIds": [
+        "melby-lervag-2016-working-memory-far-transfer-meta",
+        "simons-2016-brain-training-review"
+      ],
+      "evidence": [
+        {
+          "sourceId": "mackey-2011-reasoning-speed-training-children",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "推理游戏训练后以非言语推理测验评估近迁移。"
+        },
+        {
+          "sourceId": "melby-lervag-2016-working-memory-far-transfer-meta",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "工作记忆训练近迁移较稳定，远迁移到智力、阅读和算术缺乏稳定证据。"
+        },
+        {
+          "sourceId": "simons-2016-brain-training-review",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "任务本身改善不能自动外推到远任务、日常认知或产品疗效。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "mental-rotation",
+      "label": "心理旋转",
+      "primaryFunctionId": "mental_imagery_operation",
+      "functionIds": [
+        "mental_imagery_operation",
+        "reasoning"
+      ],
+      "importance": {
+        "functionId": "mental_imagery_operation",
+        "rank": 1,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "broad_plasticity",
+      "bestPositiveFit": "broad_plasticity",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "kuhn-2014-super-mario-structural-plasticity",
+        "draganski-2004-juggling-structural-plasticity",
+        "uttal-2013-spatial-training-meta"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [
+        "uttal-2013-spatial-training-meta"
+      ],
+      "evidence": [
+        {
+          "sourceId": "kuhn-2014-super-mario-structural-plasticity",
+          "tier": "T2",
+          "fitLevel": "broad_plasticity",
+          "note": "复杂3D平台游戏包含空间导航和策略成分，但不是心理旋转训练。"
+        },
+        {
+          "sourceId": "draganski-2004-juggling-structural-plasticity",
+          "tier": "T2",
+          "fitLevel": "broad_plasticity",
+          "note": "涉及空间动作但不是心理旋转。"
+        },
+        {
+          "sourceId": "uttal-2013-spatial-training-meta",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "217项空间训练研究的元分析支持空间技能总体可塑，但不替代心理旋转专门干预。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "choice-reaction-time",
+      "label": "选择反应时",
+      "primaryFunctionId": "reaction_speed",
+      "functionIds": [
+        "reaction_speed",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "reaction_speed",
+        "rank": 2,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "mackey-2011-reasoning-speed-training-children",
+        "dux-2009-multitasking-training-fmri",
+        "zinke-2012-task-switching-training-adolescents"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "mackey-2011-reasoning-speed-training-children",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "速度游戏包含选择反应成分。"
+        },
+        {
+          "sourceId": "dux-2009-multitasking-training-fmri",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "训练由两个速度化选择反应任务组成，可支持反应选择效率的近成分设计，不等于一般反应速度训练。"
+        },
+        {
+          "sourceId": "zinke-2012-task-switching-training-adolescents",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "研究观察到有限的选择反应时远迁移，但不是直接速度训练。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "mental-arithmetic",
+      "label": "心算任务",
+      "primaryFunctionId": "calculation",
+      "functionIds": [
+        "calculation",
+        "short_term_memory",
+        "executive_function"
+      ],
+      "importance": {
+        "functionId": "calculation",
+        "rank": 6,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "iuculano-2015-math-tutoring-dyscalculia-fmri",
+        "supekar-2013-math-tutoring-neural-predictors",
+        "park-brannon-2013-ans-training",
+        "qin-2004-algebra-learning-fmri"
+      ],
+      "directSourceIds": [
+        "iuculano-2015-math-tutoring-dyscalculia-fmri",
+        "supekar-2013-math-tutoring-neural-predictors"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "iuculano-2015-math-tutoring-dyscalculia-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "针对算术事实和心算策略的儿童辅导并测量前后fMRI。"
+        },
+        {
+          "sourceId": "supekar-2013-math-tutoring-neural-predictors",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "8周个别数学辅导并测量算术表现，影像为训练前预测因素。"
+        },
+        {
+          "sourceId": "park-brannon-2013-ans-training",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "近似加减训练后符号加减正确题数增加，但不等于完整心算能力训练。"
+        },
+        {
+          "sourceId": "qin-2004-algebra-learning-fmri",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "方程求解包含算术事实提取和符号变换，但不是独立心算训练。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "lexical-decision",
+      "label": "词汇判断",
+      "primaryFunctionId": "reading",
+      "functionIds": [
+        "reading",
+        "reaction_speed"
+      ],
+      "importance": {
+        "functionId": "reading",
+        "rank": 2,
+        "tier": "core"
+      },
+      "trainingPolicy": "component_trainable",
+      "policyRationale": "可训练字词识别速度和词形-词义映射，但需要词汇判断专门结局验证。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "temple-2003-dyslexia-remediation-fmri"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "temple-2003-dyslexia-remediation-fmri",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "支持字词识别子成分，但未训练词汇判断范式。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "word-list-learning",
+      "label": "词表学习",
+      "primaryFunctionId": "long_term_memory",
+      "functionIds": [
+        "long_term_memory",
+        "short_term_memory"
+      ],
+      "importance": {
+        "functionId": "long_term_memory",
+        "rank": 1,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "engvig-2010-memory-training-cortical-thickness"
+      ],
+      "directSourceIds": [
+        "engvig-2010-memory-training-cortical-thickness"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "engvig-2010-memory-training-cortical-thickness",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "地点法训练直接用于词表学习。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "associative-memory",
+      "label": "联想记忆",
+      "primaryFunctionId": "long_term_memory",
+      "functionIds": [
+        "long_term_memory",
+        "reading"
+      ],
+      "importance": {
+        "functionId": "long_term_memory",
+        "rank": 2,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "engvig-2010-memory-training-cortical-thickness",
+        "hampstead-2011-face-name-memory-training-fmri"
+      ],
+      "directSourceIds": [
+        "engvig-2010-memory-training-cortical-thickness",
+        "hampstead-2011-face-name-memory-training-fmri"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "engvig-2010-memory-training-cortical-thickness",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "地点和项目之间建立策略性联结。"
+        },
+        {
+          "sourceId": "hampstead-2011-face-name-memory-training-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "训练用视觉特征、押韵昵称和夸张表象建立成对联结。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "sentence-comprehension",
+      "label": "句子理解",
+      "primaryFunctionId": "reading",
+      "functionIds": [
+        "reading",
+        "long_term_memory",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "reading",
+        "rank": 5,
+        "tier": "core"
+      },
+      "trainingPolicy": "component_trainable",
+      "policyRationale": "应训练词义整合、句法保持和背景知识调用；解码训练不能自动代表理解提升。",
+      "coverageStatus": "boundary_only",
+      "bestPositiveFit": null,
+      "hasLocalPositiveAnchor": false,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "melby-lervag-2016-working-memory-far-transfer-meta",
+        "simons-2016-brain-training-review",
+        "keller-just-2009-reading-remediation-white-matter",
+        "jones-2020-child-adhd-nback-training",
+        "jones-2020-working-memory-metacognitive-academic-transfer"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [
+        "melby-lervag-2016-working-memory-far-transfer-meta",
+        "simons-2016-brain-training-review",
+        "keller-just-2009-reading-remediation-white-matter",
+        "jones-2020-child-adhd-nback-training",
+        "jones-2020-working-memory-metacognitive-academic-transfer"
+      ],
+      "evidence": [
+        {
+          "sourceId": "melby-lervag-2016-working-memory-far-transfer-meta",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "工作记忆训练近迁移较稳定，远迁移到智力、阅读和算术缺乏稳定证据。"
+        },
+        {
+          "sourceId": "simons-2016-brain-training-review",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "任务本身改善不能自动外推到远任务、日常认知或产品疗效。"
+        },
+        {
+          "sourceId": "keller-just-2009-reading-remediation-white-matter",
+          "tier": "T0",
+          "fitLevel": "transfer_boundary",
+          "note": "篇章理解没有可靠的组别乘时间效应，可作为阅读子成分不能自动远迁移到理解的边界。"
+        },
+        {
+          "sourceId": "jones-2020-child-adhd-nback-training",
+          "tier": "T1",
+          "fitLevel": "transfer_boundary",
+          "note": "篇章理解和阅读流畅进入学校任务复合指标，但训练组未见可靠组间提升；不可把N-back近迁移外推成阅读理解提升。"
+        },
+        {
+          "sourceId": "jones-2020-working-memory-metacognitive-academic-transfer",
+          "tier": "T1",
+          "fitLevel": "transfer_boundary",
+          "note": "阅读理解在训练后和三个月后均无可靠改善，即使工作记忆近迁移明显，也不能自动外推到阅读。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "number-comparison",
+      "label": "数字大小比较",
+      "primaryFunctionId": "calculation",
+      "functionIds": [
+        "calculation",
+        "reaction_speed"
+      ],
+      "importance": {
+        "functionId": "calculation",
+        "rank": 3,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "iuculano-2015-math-tutoring-dyscalculia-fmri",
+        "park-brannon-2013-ans-training",
+        "park-2024-number-sense-training-fmri"
+      ],
+      "directSourceIds": [
+        "park-2024-number-sense-training-fmri"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "iuculano-2015-math-tutoring-dyscalculia-fmri",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "训练涉及数字知识但不是单独的比较训练。"
+        },
+        {
+          "sourceId": "park-brannon-2013-ans-training",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "训练使用数量表征和比较成分，但主要任务是近似运算而非单纯数字比较。"
+        },
+        {
+          "sourceId": "park-2024-number-sense-training-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "训练前后均测量符号与非符号数量比较效率，但不能外推到所有数字比较和数学成绩。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "approximate-number-sense",
+      "label": "非符号数量感",
+      "primaryFunctionId": "calculation",
+      "functionIds": [
+        "calculation",
+        "reaction_speed"
+      ],
+      "importance": {
+        "functionId": "calculation",
+        "rank": 1,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "park-brannon-2013-ans-training",
+        "park-2024-number-sense-training-fmri"
+      ],
+      "directSourceIds": [
+        "park-brannon-2013-ans-training",
+        "park-2024-number-sense-training-fmri"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "park-brannon-2013-ans-training",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "两个成人实验用6至10次非符号近似加减训练，比较被动和两类主动训练条件。"
+        },
+        {
+          "sourceId": "park-2024-number-sense-training-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "7至10岁儿童接受四周数感训练，训练和测量都包含非符号点阵数量加工。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "arithmetic-fact-retrieval",
+      "label": "算术事实提取",
+      "primaryFunctionId": "calculation",
+      "functionIds": [
+        "calculation",
+        "long_term_memory",
+        "reaction_speed"
+      ],
+      "importance": {
+        "functionId": "calculation",
+        "rank": 7,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "iuculano-2015-math-tutoring-dyscalculia-fmri",
+        "supekar-2013-math-tutoring-neural-predictors",
+        "qin-2004-algebra-learning-fmri"
+      ],
+      "directSourceIds": [
+        "iuculano-2015-math-tutoring-dyscalculia-fmri",
+        "supekar-2013-math-tutoring-neural-predictors"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "iuculano-2015-math-tutoring-dyscalculia-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "辅导直接覆盖算术事实提取。"
+        },
+        {
+          "sourceId": "supekar-2013-math-tutoring-neural-predictors",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "辅导直接覆盖算术事实。"
+        },
+        {
+          "sourceId": "qin-2004-algebra-learning-fmri",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "练习后前额叶提取负荷下降，支持规则和算术事实提取的近成分解释。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "algebra-equation-solving",
+      "label": "代数方程/符号变换",
+      "primaryFunctionId": "calculation",
+      "functionIds": [
+        "calculation",
+        "reasoning",
+        "executive_function",
+        "short_term_memory"
+      ],
+      "importance": {
+        "functionId": "reasoning",
+        "rank": 7,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "qin-2004-algebra-learning-fmri"
+      ],
+      "directSourceIds": [
+        "qin-2004-algebra-learning-fmri"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "qin-2004-algebra-learning-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "10名12至15岁初学代数的学生进行5天方程练习，第1和第5天完成fMRI。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "geometric-reasoning",
+      "label": "几何空间推理",
+      "primaryFunctionId": "calculation",
+      "functionIds": [
+        "calculation",
+        "mental_imagery_operation",
+        "reasoning"
+      ],
+      "importance": {
+        "functionId": "mental_imagery_operation",
+        "rank": 6,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "boundary_only",
+      "bestPositiveFit": null,
+      "hasLocalPositiveAnchor": false,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "uttal-2013-spatial-training-meta"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [
+        "uttal-2013-spatial-training-meta"
+      ],
+      "evidence": [
+        {
+          "sourceId": "uttal-2013-spatial-training-meta",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "空间训练可迁移到未训练的空间任务，但不能自动外推到几何课程成绩。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "probability-statistics-reasoning",
+      "label": "概率统计判断",
+      "primaryFunctionId": "calculation",
+      "functionIds": [
+        "calculation",
+        "reasoning",
+        "executive_function"
+      ],
+      "importance": {
+        "functionId": "reasoning",
+        "rank": 9,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "babai-2018-proportional-reasoning"
+      ],
+      "directSourceIds": [
+        "babai-2018-proportional-reasoning"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "babai-2018-proportional-reasoning",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "直接干预比例推理中的自然数干扰和问题表征。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "math-word-problem",
+      "label": "数学应用题逻辑建模",
+      "primaryFunctionId": "calculation",
+      "functionIds": [
+        "calculation",
+        "reading",
+        "reasoning",
+        "executive_function",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "reasoning",
+        "rank": 6,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "babai-2018-proportional-reasoning",
+        "melby-lervag-2016-working-memory-far-transfer-meta",
+        "jones-2020-child-adhd-nback-training",
+        "jones-2020-working-memory-metacognitive-academic-transfer"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [
+        "melby-lervag-2016-working-memory-far-transfer-meta",
+        "jones-2020-child-adhd-nback-training",
+        "jones-2020-working-memory-metacognitive-academic-transfer"
+      ],
+      "evidence": [
+        {
+          "sourceId": "babai-2018-proportional-reasoning",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "支持应用题中的关系表征，但不是完整文字题训练。"
+        },
+        {
+          "sourceId": "melby-lervag-2016-working-memory-far-transfer-meta",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "工作记忆训练近迁移较稳定，远迁移到智力、阅读和算术缺乏稳定证据。"
+        },
+        {
+          "sourceId": "jones-2020-child-adhd-nback-training",
+          "tier": "T1",
+          "fitLevel": "transfer_boundary",
+          "note": "Woodcock-Johnson数学应用题进入学校任务复合指标，但训练组未见可靠组间提升。"
+        },
+        {
+          "sourceId": "jones-2020-working-memory-metacognitive-academic-transfer",
+          "tier": "T1",
+          "fitLevel": "transfer_boundary",
+          "note": "数学推理在训练后立即改善，但三个月后未保持；短期变化不能写成稳定学业提升。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "simple-reaction-time",
+      "label": "简单反应时",
+      "primaryFunctionId": "reaction_speed",
+      "functionIds": [
+        "reaction_speed",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "reaction_speed",
+        "rank": 1,
+        "tier": "core"
+      },
+      "trainingPolicy": "measurement_or_outcome",
+      "policyRationale": "更适合作为基础速度指标；提升通常来自警觉、感觉辨别和动作准备成分。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "mackey-2011-reasoning-speed-training-children"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "mackey-2011-reasoning-speed-training-children",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "支持加工速度但不是简单反应时专门训练。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "visual-imagery",
+      "label": "视觉表象任务",
+      "primaryFunctionId": "mental_imagery_operation",
+      "functionIds": [
+        "mental_imagery_operation",
+        "long_term_memory"
+      ],
+      "importance": {
+        "functionId": "mental_imagery_operation",
+        "rank": 3,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "kuhn-2014-super-mario-structural-plasticity",
+        "engvig-2010-memory-training-cortical-thickness",
+        "hampstead-2011-face-name-memory-training-fmri",
+        "uttal-2013-spatial-training-meta"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [
+        "uttal-2013-spatial-training-meta"
+      ],
+      "evidence": [
+        {
+          "sourceId": "kuhn-2014-super-mario-structural-plasticity",
+          "tier": "T2",
+          "fitLevel": "broad_plasticity",
+          "note": "只支持复杂空间行动学习的广义可塑性背景。"
+        },
+        {
+          "sourceId": "engvig-2010-memory-training-cortical-thickness",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "地点法明确依赖视觉表象策略。"
+        },
+        {
+          "sourceId": "hampstead-2011-face-name-memory-training-fmri",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "助记策略明确要求形成夸张面部特征的心理图像。"
+        },
+        {
+          "sourceId": "uttal-2013-spatial-training-meta",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "空间技能训练的元分析边界可约束表象训练讲法，但不直接证明视觉表象质量改变。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "analogical-reasoning",
+      "label": "类比推理",
+      "primaryFunctionId": "reasoning",
+      "functionIds": [
+        "reasoning",
+        "long_term_memory"
+      ],
+      "importance": {
+        "functionId": "reasoning",
+        "rank": 5,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "mackey-2011-reasoning-speed-training-children"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "mackey-2011-reasoning-speed-training-children",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "支持关系映射成分，未直接训练类比任务。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "recognition-memory",
+      "label": "再认记忆",
+      "primaryFunctionId": "long_term_memory",
+      "functionIds": [
+        "long_term_memory",
+        "reaction_speed"
+      ],
+      "importance": {
+        "functionId": "long_term_memory",
+        "rank": 5,
+        "tier": "core"
+      },
+      "trainingPolicy": "measurement_or_outcome",
+      "policyRationale": "更适合作为记忆训练结果指标；训练通常瞄准编码、联结或提取策略。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "engvig-2010-memory-training-cortical-thickness",
+        "hampstead-2011-face-name-memory-training-fmri"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "engvig-2010-memory-training-cortical-thickness",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "再认属于结局测量，不能当作再认训练。"
+        },
+        {
+          "sourceId": "hampstead-2011-face-name-memory-training-fmri",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "四选一再认是训练后的结果测量，不是独立再认训练。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "source-memory",
+      "label": "来源记忆",
+      "primaryFunctionId": "long_term_memory",
+      "functionIds": [
+        "long_term_memory",
+        "executive_function",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "long_term_memory",
+        "rank": 4,
+        "tier": "core"
+      },
+      "trainingPolicy": "component_trainable",
+      "policyRationale": "训练应瞄准项目与来源线索的绑定和提取，而不是只重复做来源判断。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "engvig-2010-memory-training-cortical-thickness"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "engvig-2010-memory-training-cortical-thickness",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "来源记忆是训练前后结局，不是独立训练目标。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "multiple-object-tracking",
+      "label": "多目标追踪",
+      "primaryFunctionId": "attention",
+      "functionIds": [
+        "attention",
+        "short_term_memory",
+        "mental_imagery_operation"
+      ],
+      "importance": {
+        "functionId": "attention",
+        "rank": 7,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "draganski-2004-juggling-structural-plasticity",
+        "felssberg-2025-mot-training-fmri"
+      ],
+      "directSourceIds": [
+        "felssberg-2025-mot-training-fmri"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "draganski-2004-juggling-structural-plasticity",
+          "tier": "T2",
+          "fitLevel": "broad_plasticity",
+          "note": "涉及追踪多个运动物体但不是MOT范式。"
+        },
+        {
+          "sourceId": "felssberg-2025-mot-training-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "33名成人在2周内完成5次MOT，首末两次以3T fMRI测量位置和对象表征变化。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "sustained-attention-cpt",
+      "label": "持续注意/CPT",
+      "primaryFunctionId": "attention",
+      "functionIds": [
+        "attention",
+        "executive_function",
+        "reaction_speed"
+      ],
+      "importance": {
+        "functionId": "attention",
+        "rank": 2,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "klingberg-2005-working-memory-training-adhd-rct",
+        "felssberg-2025-mot-training-fmri",
+        "jones-2020-child-adhd-nback-training"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "klingberg-2005-working-memory-training-adhd-rct",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "注意维持是工作记忆训练的伴随成分。"
+        },
+        {
+          "sourceId": "felssberg-2025-mot-training-fmri",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "持续追踪需要稳定注意，但研究未训练CPT式警觉维持。"
+        },
+        {
+          "sourceId": "jones-2020-child-adhd-nback-training",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "CPT抑制控制是未训练结局并出现小效应，不是CPT直接训练，也不能代表广泛课堂注意迁移。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "dual-task",
+      "label": "双任务",
+      "primaryFunctionId": "attention",
+      "functionIds": [
+        "attention",
+        "executive_function",
+        "short_term_memory"
+      ],
+      "importance": {
+        "functionId": "attention",
+        "rank": 6,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "dux-2009-multitasking-training-fmri"
+      ],
+      "directSourceIds": [
+        "dux-2009-multitasking-training-fmri"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "dux-2009-multitasking-training-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "7名成人接受约2周双任务训练并完成3次fMRI，双任务成本显著下降但未消失。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "tower-of-london",
+      "label": "伦敦塔规划任务",
+      "primaryFunctionId": "executive_function",
+      "functionIds": [
+        "executive_function",
+        "reasoning",
+        "short_term_memory"
+      ],
+      "importance": {
+        "functionId": "executive_function",
+        "rank": 6,
+        "tier": "core"
+      },
+      "trainingPolicy": "component_trainable",
+      "policyRationale": "训练应拆成目标分解、预演、规则约束和错误回退；本地仍缺强对照的ToL直接训练全文。",
+      "coverageStatus": "broad_plasticity",
+      "bestPositiveFit": "broad_plasticity",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "kuhn-2014-super-mario-structural-plasticity"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "kuhn-2014-super-mario-structural-plasticity",
+          "tier": "T2",
+          "fitLevel": "broad_plasticity",
+          "note": "包含策略规划但不是伦敦塔训练。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "keep-track",
+      "label": "保持追踪",
+      "primaryFunctionId": "executive_function",
+      "functionIds": [
+        "executive_function",
+        "short_term_memory",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "executive_function",
+        "rank": 7,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "klingberg-2005-working-memory-training-adhd-rct",
+        "kuhn-2013-updating-training-striatal-dynamics",
+        "zinke-2012-task-switching-training-adolescents"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "klingberg-2005-working-memory-training-adhd-rct",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "支持持续更新与目标保持的近成分设计。"
+        },
+        {
+          "sourceId": "kuhn-2013-updating-training-striatal-dynamics",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "数字连续更新任务直接训练保持和替换当前状态，是Keep-track最接近的更新成分证据。"
+        },
+        {
+          "sourceId": "zinke-2012-task-switching-training-adolescents",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "无外在线索的切换任务要求维持任务集合并追踪下一步，支持保持追踪成分。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "object-span",
+      "label": "物体广度",
+      "primaryFunctionId": "short_term_memory",
+      "functionIds": [
+        "short_term_memory",
+        "mental_imagery_operation",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "short_term_memory",
+        "rank": 4,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "klingberg-2005-working-memory-training-adhd-rct",
+        "kuhn-2013-updating-training-striatal-dynamics",
+        "gaspar-2013-change-detection-training"
+      ],
+      "directSourceIds": [
+        "gaspar-2013-change-detection-training"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "klingberg-2005-working-memory-training-adhd-rct",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "支持物体/视空间保持的近成分设计。"
+        },
+        {
+          "sourceId": "kuhn-2013-updating-training-striatal-dynamics",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "空间n-back支持视觉空间工作记忆更新，但不直接训练物体广度。"
+        },
+        {
+          "sourceId": "gaspar-2013-change-detection-training",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "成人完成16次自适应多物体变化检测训练；训练材料上的编码速度提高，但更换刺激后的近迁移和真实场景变化检测均未优于主动对照。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "probabilistic-reversal-learning",
+      "label": "概率反转学习",
+      "primaryFunctionId": "executive_function",
+      "functionIds": [
+        "executive_function",
+        "reasoning"
+      ],
+      "importance": {
+        "functionId": "executive_function",
+        "rank": 8,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "component_trainable",
+      "policyRationale": "训练重点是读取反馈、更新价值和在规则改变后停止沿用旧策略。",
+      "coverageStatus": "no_local_training_evidence",
+      "bestPositiveFit": null,
+      "hasLocalPositiveAnchor": false,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": []
+    },
+    {
+      "paradigmId": "temporal-order-judgment",
+      "label": "时间顺序判断",
+      "primaryFunctionId": "reaction_speed",
+      "functionIds": [
+        "reaction_speed",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "reaction_speed",
+        "rank": 6,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "measurement_or_outcome",
+      "policyRationale": "可通过感觉时序和节律训练改善，但当前本地库没有足够直接训练锚点。",
+      "coverageStatus": "boundary_only",
+      "bestPositiveFit": null,
+      "hasLocalPositiveAnchor": false,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "simons-2016-brain-training-review"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [
+        "simons-2016-brain-training-review"
+      ],
+      "evidence": [
+        {
+          "sourceId": "simons-2016-brain-training-review",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "任务本身改善不能自动外推到远任务、日常认知或产品疗效。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "semantic-task",
+      "label": "语义任务",
+      "primaryFunctionId": "reading",
+      "functionIds": [
+        "reading",
+        "long_term_memory"
+      ],
+      "importance": {
+        "functionId": "reading",
+        "rank": 6,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "component_trainable",
+      "policyRationale": "应训练概念联结、受控提取和语境选择；当前本地库缺语义训练直接证据。",
+      "coverageStatus": "boundary_only",
+      "bestPositiveFit": null,
+      "hasLocalPositiveAnchor": false,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "simons-2016-brain-training-review"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [
+        "simons-2016-brain-training-review"
+      ],
+      "evidence": [
+        {
+          "sourceId": "simons-2016-brain-training-review",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "任务本身改善不能自动外推到远任务、日常认知或产品疗效。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "drm-false-memory",
+      "label": "DRM 词表假记忆",
+      "primaryFunctionId": "long_term_memory",
+      "functionIds": [
+        "long_term_memory",
+        "reading"
+      ],
+      "importance": {
+        "functionId": "long_term_memory",
+        "rank": 9,
+        "tier": "related"
+      },
+      "trainingPolicy": "mitigation_only",
+      "policyRationale": "DRM主要是错误记忆现象和风险测量；适合训练来源核验和延迟复查，不应宣传为反复练DRM即可提升记忆。",
+      "coverageStatus": "mitigation_only",
+      "bestPositiveFit": null,
+      "hasLocalPositiveAnchor": false,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": []
+    },
+    {
+      "paradigmId": "deductive-reasoning",
+      "label": "演绎推理",
+      "primaryFunctionId": "reasoning",
+      "functionIds": [
+        "reasoning",
+        "executive_function",
+        "reading"
+      ],
+      "importance": {
+        "functionId": "reasoning",
+        "rank": 4,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "mackey-2011-reasoning-speed-training-children"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "mackey-2011-reasoning-speed-training-children",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "支持一般规则操作成分，未直接训练演绎任务。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "face-name-association",
+      "label": "面孔-姓名联结",
+      "primaryFunctionId": "long_term_memory",
+      "functionIds": [
+        "long_term_memory",
+        "reading",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "long_term_memory",
+        "rank": 3,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "hampstead-2011-face-name-memory-training-fmri"
+      ],
+      "directSourceIds": [
+        "hampstead-2011-face-name-memory-training-fmri"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "hampstead-2011-face-name-memory-training-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "6名遗忘型多域MCI患者接受3次面孔-姓名助记训练，前后完成fMRI和四选一再认。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "episodic-order-memory",
+      "label": "事件顺序/情景顺序记忆",
+      "primaryFunctionId": "long_term_memory",
+      "functionIds": [
+        "long_term_memory",
+        "reasoning",
+        "executive_function"
+      ],
+      "importance": {
+        "functionId": "long_term_memory",
+        "rank": 6,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "engvig-2010-memory-training-cortical-thickness"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "engvig-2010-memory-training-cortical-thickness",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "地点法包含有序线索，但不等于情景顺序训练。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "visual-delayed-memory",
+      "label": "视觉延迟记忆",
+      "primaryFunctionId": "long_term_memory",
+      "functionIds": [
+        "long_term_memory",
+        "mental_imagery_operation",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "long_term_memory",
+        "rank": 7,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "measurement_or_outcome",
+      "policyRationale": "更适合做编码与保持策略的延迟结局，不等于独立能力靶点。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "engvig-2010-memory-training-cortical-thickness"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "engvig-2010-memory-training-cortical-thickness",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "支持延迟回忆策略的近成分，不是视觉延迟记忆专门训练。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "word-pseudoword-reading",
+      "label": "字词/伪词阅读",
+      "primaryFunctionId": "reading",
+      "functionIds": [
+        "reading",
+        "reaction_speed"
+      ],
+      "importance": {
+        "functionId": "reading",
+        "rank": 1,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "temple-2003-dyslexia-remediation-fmri",
+        "keller-just-2009-reading-remediation-white-matter"
+      ],
+      "directSourceIds": [
+        "temple-2003-dyslexia-remediation-fmri",
+        "keller-just-2009-reading-remediation-white-matter"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "temple-2003-dyslexia-remediation-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "训练和测量直接覆盖字词/伪词音韵加工。"
+        },
+        {
+          "sourceId": "keller-just-2009-reading-remediation-white-matter",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "主要行为收益出现在非词阅读/音韵解码，而不是篇章理解。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "phonological-decoding",
+      "label": "音韵解码/押韵判断",
+      "primaryFunctionId": "reading",
+      "functionIds": [
+        "reading",
+        "short_term_memory"
+      ],
+      "importance": {
+        "functionId": "reading",
+        "rank": 4,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "temple-2003-dyslexia-remediation-fmri",
+        "keller-just-2009-reading-remediation-white-matter"
+      ],
+      "directSourceIds": [
+        "temple-2003-dyslexia-remediation-fmri",
+        "keller-just-2009-reading-remediation-white-matter"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "temple-2003-dyslexia-remediation-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "8周音韵和口语加工矫正并测量前后fMRI。"
+        },
+        {
+          "sourceId": "keller-just-2009-reading-remediation-white-matter",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "35名阅读困难儿童接受约100小时、6个月的解码训练，另有未干预阅读困难组和良好阅读组。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "orthographic-processing",
+      "label": "正字法/字形加工",
+      "primaryFunctionId": "reading",
+      "functionIds": [
+        "reading"
+      ],
+      "importance": {
+        "functionId": "reading",
+        "rank": 3,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "keller-just-2009-reading-remediation-white-matter"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "keller-just-2009-reading-remediation-white-matter",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "研究训练字词解码但未证明独立正字法加工训练效果。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "symbol-search-coding-speed",
+      "label": "符号搜索/编码速度",
+      "primaryFunctionId": "reaction_speed",
+      "functionIds": [
+        "reaction_speed",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "reaction_speed",
+        "rank": 3,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "mackey-2011-reasoning-speed-training-children"
+      ],
+      "directSourceIds": [
+        "mackey-2011-reasoning-speed-training-children"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "mackey-2011-reasoning-speed-training-children",
+          "tier": "T1",
+          "fitLevel": "direct_training",
+          "note": "速度训练组的核心结局是编码/加工速度。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "visual-search-schulte",
+      "label": "视觉搜索/舒尔特方格",
+      "primaryFunctionId": "reaction_speed",
+      "functionIds": [
+        "reaction_speed",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "reaction_speed",
+        "rank": 4,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "kuhn-2014-super-mario-structural-plasticity",
+        "draganski-2004-juggling-structural-plasticity",
+        "felssberg-2025-mot-training-fmri"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "kuhn-2014-super-mario-structural-plasticity",
+          "tier": "T2",
+          "fitLevel": "broad_plasticity",
+          "note": "包含动态视觉搜索但不是舒尔特/静态搜索。"
+        },
+        {
+          "sourceId": "draganski-2004-juggling-structural-plasticity",
+          "tier": "T2",
+          "fitLevel": "broad_plasticity",
+          "note": "包含动态视觉选择但不是静态搜索训练。"
+        },
+        {
+          "sourceId": "felssberg-2025-mot-training-fmri",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "共同涉及动态目标选择和干扰过滤，但MOT不是静态视觉搜索。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "perceptual-discrimination-rt",
+      "label": "知觉辨别反应时",
+      "primaryFunctionId": "reaction_speed",
+      "functionIds": [
+        "reaction_speed",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "reaction_speed",
+        "rank": 5,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "broad_plasticity",
+      "bestPositiveFit": "broad_plasticity",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "kuhn-2014-super-mario-structural-plasticity",
+        "draganski-2004-juggling-structural-plasticity",
+        "simons-2016-brain-training-review"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [
+        "simons-2016-brain-training-review"
+      ],
+      "evidence": [
+        {
+          "sourceId": "kuhn-2014-super-mario-structural-plasticity",
+          "tier": "T2",
+          "fitLevel": "broad_plasticity",
+          "note": "包含快速感知动作但不是知觉辨别反应时训练。"
+        },
+        {
+          "sourceId": "draganski-2004-juggling-structural-plasticity",
+          "tier": "T2",
+          "fitLevel": "broad_plasticity",
+          "note": "杂耍只支持感知运动学习的广义可塑性。"
+        },
+        {
+          "sourceId": "simons-2016-brain-training-review",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "任务本身改善不能自动外推到远任务、日常认知或产品疗效。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "spatial-folding-unfolding",
+      "label": "空间展开/折叠",
+      "primaryFunctionId": "mental_imagery_operation",
+      "functionIds": [
+        "mental_imagery_operation",
+        "reasoning"
+      ],
+      "importance": {
+        "functionId": "mental_imagery_operation",
+        "rank": 2,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "boundary_only",
+      "bestPositiveFit": null,
+      "hasLocalPositiveAnchor": false,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "uttal-2013-spatial-training-meta"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [
+        "uttal-2013-spatial-training-meta"
+      ],
+      "evidence": [
+        {
+          "sourceId": "uttal-2013-spatial-training-meta",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "可支持空间转换训练的总体效应与保持性边界，不能声称折叠范式已有本地直接影像训练证据。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "embedded-figures",
+      "label": "嵌入图形/复杂图形搜索",
+      "primaryFunctionId": "mental_imagery_operation",
+      "functionIds": [
+        "mental_imagery_operation",
+        "attention"
+      ],
+      "importance": {
+        "functionId": "mental_imagery_operation",
+        "rank": 4,
+        "tier": "supporting"
+      },
+      "trainingPolicy": "component_trainable",
+      "policyRationale": "可训练整体-局部切换和复杂背景中的目标分离，但需专门任务验证。",
+      "coverageStatus": "boundary_only",
+      "bestPositiveFit": null,
+      "hasLocalPositiveAnchor": false,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "uttal-2013-spatial-training-meta"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [
+        "uttal-2013-spatial-training-meta"
+      ],
+      "evidence": [
+        {
+          "sourceId": "uttal-2013-spatial-training-meta",
+          "tier": "T3",
+          "fitLevel": "transfer_boundary",
+          "note": "可作为复杂图形分解和空间加工训练的总体边界，不是嵌入图形专门训练。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "relational-reasoning",
+      "label": "关系推理/关系整合",
+      "primaryFunctionId": "reasoning",
+      "functionIds": [
+        "reasoning",
+        "executive_function"
+      ],
+      "importance": {
+        "functionId": "reasoning",
+        "rank": 2,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "mackey-2011-reasoning-speed-training-children"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "mackey-2011-reasoning-speed-training-children",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "推理游戏直接练习关系整合成分。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "inductive-rule-discovery",
+      "label": "归纳推理/规则发现",
+      "primaryFunctionId": "reasoning",
+      "functionIds": [
+        "reasoning",
+        "executive_function"
+      ],
+      "importance": {
+        "functionId": "reasoning",
+        "rank": 3,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "可直接练习任务或其核心操作，但必须分别验证训练内进步、相似任务迁移和真实学习迁移。",
+      "coverageStatus": "near_component",
+      "bestPositiveFit": "near_component",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [
+        "mackey-2011-reasoning-speed-training-children"
+      ],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "mackey-2011-reasoning-speed-training-children",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "训练包含规则发现但不是单一归纳范式。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "symbolic-quantity-mapping",
+      "label": "数字与数量对应",
+      "primaryFunctionId": "calculation",
+      "functionIds": [
+        "calculation"
+      ],
+      "importance": {
+        "functionId": "calculation",
+        "rank": 2,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "Symbol-to-quantity correspondence can be practiced directly, but the current local intervention evidence is only a near component.",
+      "coverageStatus": "direct_training",
+      "bestPositiveFit": "direct_training",
+      "hasLocalPositiveAnchor": true,
+      "hasDirectT0T1Anchor": true,
+      "evidenceSourceIds": [
+        "iuculano-2015-math-tutoring-dyscalculia-fmri",
+        "park-brannon-2013-ans-training",
+        "park-2024-number-sense-training-fmri"
+      ],
+      "directSourceIds": [
+        "park-2024-number-sense-training-fmri"
+      ],
+      "boundarySourceIds": [],
+      "evidence": [
+        {
+          "sourceId": "iuculano-2015-math-tutoring-dyscalculia-fmri",
+          "tier": "T0",
+          "fitLevel": "near_component",
+          "note": "儿童数学辅导覆盖数字知识和算术关系，但不是单独的符号-数量对应训练。"
+        },
+        {
+          "sourceId": "park-brannon-2013-ans-training",
+          "tier": "T1",
+          "fitLevel": "near_component",
+          "note": "非符号近似运算训练后的符号算术变化提示跨形式联系，但没有直接训练数字与点阵配对。"
+        },
+        {
+          "sourceId": "park-2024-number-sense-training-fmri",
+          "tier": "T0",
+          "fitLevel": "direct_training",
+          "note": "训练直接围绕非符号点阵与阿拉伯数字数量表征之间的对应。"
+        }
+      ]
+    },
+    {
+      "paradigmId": "subitizing-enumeration",
+      "label": "小数量识别与计数",
+      "primaryFunctionId": "calculation",
+      "functionIds": [
+        "calculation",
+        "attention",
+        "reaction_speed"
+      ],
+      "importance": {
+        "functionId": "calculation",
+        "rank": 4,
+        "tier": "core"
+      },
+      "trainingPolicy": "measurement_or_outcome",
+      "policyRationale": "The task is valuable for separating rapid small-set recognition from serial counting; direct training and broad transfer should not be assumed.",
+      "coverageStatus": "no_local_training_evidence",
+      "bestPositiveFit": null,
+      "hasLocalPositiveAnchor": false,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": []
+    },
+    {
+      "paradigmId": "number-line-estimation",
+      "label": "数序与数轴估计",
+      "primaryFunctionId": "calculation",
+      "functionIds": [
+        "calculation",
+        "mental_imagery_operation",
+        "reasoning"
+      ],
+      "importance": {
+        "functionId": "calculation",
+        "rank": 5,
+        "tier": "core"
+      },
+      "trainingPolicy": "task_can_be_trained",
+      "policyRationale": "Number-line placement can be practiced directly, while general arithmetic transfer requires separate testing.",
+      "coverageStatus": "no_local_training_evidence",
+      "bestPositiveFit": null,
+      "hasLocalPositiveAnchor": false,
+      "hasDirectT0T1Anchor": false,
+      "evidenceSourceIds": [],
+      "directSourceIds": [],
+      "boundarySourceIds": [],
+      "evidence": []
+    }
+  ],
+  "consumerBoundary": [
+    "Do not publish a complete direct-training claim merely because every formal paradigm has a reviewed policy. Positive, boundary-only, mitigation-only, and missing states are different evidence classes.",
+    "Training studies do not enter production 3D points without separate coordinate review.",
+    "External intervention studies support mechanism and design rationale, not BrainFunction product efficacy or individual prediction."
+  ]
+}

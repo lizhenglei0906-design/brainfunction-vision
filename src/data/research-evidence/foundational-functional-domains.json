@@ -1,0 +1,3100 @@
+{
+  "id": "foundational-functional-domains-v0",
+  "name": "Foundational Functional Domain Priors",
+  "version": "0.1.0",
+  "status": "foundation",
+  "atlas": {
+    "atlas": "Schaefer2018",
+    "resolution": 200,
+    "networkTaxonomy": "Yeo7",
+    "coordinateSpace": "FSLMNI152_1mm_RAS"
+  },
+  "method": "Network-derived domain priors for a reusable atlas layer. Parcel-domain links are computed from each parcel's network membership layer. This file does not claim task-specific activation or parcel-level evidence.",
+  "sources": [
+    {
+      "id": "amalric-dehaene-2016-advanced-math",
+      "type": "paper",
+      "title": "Origins of the brain networks for advanced mathematics in expert mathematicians",
+      "citation": "Amalric M, Dehaene S. Proceedings of the National Academy of Sciences. 2016;113(18):4909-4917.",
+      "year": 2016,
+      "doi": "10.1073/pnas.1603205113",
+      "url": "https://doi.org/10.1073/pnas.1603205113",
+      "scope": "Task fMRI source for advanced mathematical reasoning across algebra, analysis, geometry, and topology in expert mathematicians; use cautiously for student-facing demonstrations.",
+      "tags": [
+        "calculation",
+        "advanced-math",
+        "algebra",
+        "geometry",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "aron-2014-response-inhibition",
+      "type": "paper",
+      "title": "Inhibition and the right inferior frontal cortex: one decade on",
+      "citation": "Aron AR, Robbins TW, Poldrack RA. Trends in Cognitive Sciences. 2014;18(4):177-185.",
+      "year": 2014,
+      "doi": "10.1016/j.tics.2013.12.003",
+      "url": "https://doi.org/10.1016/j.tics.2013.12.003",
+      "scope": "Review source for response inhibition and right inferior frontal cortex claims. Use for stop-signal and IFG boundary language, with subcortical stopping circuitry preserved as an atlas limitation.",
+      "tags": [
+        "response-inhibition",
+        "right-ifg",
+        "stop-signal",
+        "review",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "aron-poldrack-2006-stop-signal",
+      "type": "paper",
+      "title": "Cortical and Subcortical Contributions to Stop Signal Response Inhibition: Role of the Subthalamic Nucleus",
+      "citation": "Aron AR, Poldrack RA. Journal of Neuroscience. 2006;26(9):2424-2433.",
+      "year": 2006,
+      "doi": "10.1523/JNEUROSCI.4682-05.2006",
+      "pmid": "16510720",
+      "url": "https://www.jneurosci.org/content/26/9/2424",
+      "scope": "Task fMRI source for Stop-signal response inhibition. Use right IFC and SMA/pre-SMA as cortical Schaefer200 candidates while preserving STN/GP as atlas-boundary evidence.",
+      "tags": [
+        "response-inhibition",
+        "stop-signal",
+        "right-ifg",
+        "sma",
+        "stn",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "arsalidou-taylor-2011-calculation",
+      "type": "paper",
+      "title": "Is 2 + 2 = 4? Meta-analyses of brain areas needed for numbers and calculations",
+      "citation": "Arsalidou M, Taylor MJ. NeuroImage. 2011;54(3):2382-2393.",
+      "year": 2011,
+      "doi": "10.1016/j.neuroimage.2010.10.009",
+      "url": "https://doi.org/10.1016/j.neuroimage.2010.10.009",
+      "scope": "Meta-analytic source for numbers and calculations. Use as a priority source for number comparison, arithmetic, parietal quantity representation, symbol input, and control/load boundaries.",
+      "tags": [
+        "calculation",
+        "number-processing",
+        "meta-analysis",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "augustinack-2013-perirhinal",
+      "type": "paper",
+      "title": "Predicting the location of human perirhinal cortex, Brodmann's area 35, from MRI",
+      "citation": "Augustinack JC, Huber KE, Stevens AA, Roy M, Frosch MP, van der Kouwe AJW, Wald LL, Van Leemput K, McKee A, Fischl B; Alzheimer's Disease Neuroimaging Initiative. NeuroImage. 2013;64:32-42.",
+      "year": 2013,
+      "doi": "10.1016/j.neuroimage.2012.08.071",
+      "pmid": "22960087",
+      "pmcid": "PMC3508349",
+      "url": "https://doi.org/10.1016/j.neuroimage.2012.08.071",
+      "scope": "Histology-validated ex vivo MRI and FreeSurfer/fsaverage probabilistic localization source for human perirhinal cortex BA35. Use for MTL/perirhinal atlas-boundary language and atlas package search targets, not for task activation.",
+      "tags": [
+        "medial-temporal-lobe",
+        "perirhinal-cortex",
+        "BA35",
+        "FreeSurfer",
+        "fsaverage",
+        "probabilistic-atlas",
+        "atlas-boundary"
+      ]
+    },
+    {
+      "id": "awh-1996-verbal-wm-storage-rehearsal",
+      "type": "paper",
+      "title": "Dissociation of Storage and Rehearsal in Verbal Working Memory: Evidence From Positron Emission Tomography",
+      "citation": "Awh E, Jonides J, Smith EE, Schumacher EH, Koeppe RA, Katz S. Psychological Science. 1996;7(1):25-31.",
+      "year": 1996,
+      "doi": "10.1111/j.1467-9280.1996.tb00662.x",
+      "url": "https://doi.org/10.1111/j.1467-9280.1996.tb00662.x",
+      "scope": "PET source separating verbal working-memory storage and rehearsal. Use to review digit-span phonological-store and rehearsal-control claims.",
+      "tags": [
+        "working-memory",
+        "verbal-working-memory",
+        "rehearsal",
+        "digit-span",
+        "task-study",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "babai-2018-proportional-reasoning",
+      "type": "paper",
+      "title": "Proportional reasoning: Reducing the interference of natural numbers through an intervention based on the problem-solving framework of executive functions",
+      "citation": "Babai R, Cohen E, Stavy R. Neuroeducation. 2018;5(2):109-118.",
+      "year": 2018,
+      "doi": "10.24046/neuroed.20180502.109",
+      "url": "https://doi.org/10.24046/neuroed.20180502.109",
+      "scope": "Behavioral/neuroeducation intervention source for proportional reasoning and natural-number interference. Use for problem-representation and instructional-design claims, not brain-coordinate mapping.",
+      "tags": [
+        "calculation",
+        "proportional-reasoning",
+        "natural-number-interference",
+        "behavioral-intervention"
+      ]
+    },
+    {
+      "id": "babcock-vallesi-2015-inductive-reasoning",
+      "type": "paper",
+      "title": "The interaction of process and domain in prefrontal cortex during inductive reasoning",
+      "citation": "Babcock L, Vallesi A. Neuropsychologia. 2015;67:91-99.",
+      "year": 2015,
+      "doi": "10.1016/j.neuropsychologia.2014.12.010",
+      "pmid": "25498406",
+      "pmcid": "PMC4410791",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4410791/",
+      "scope": "Task-fMRI source for verbal and spatial pattern discovery in inductive reasoning. Use as coordinate-intake evidence for shared left VLPFC and domain-shaped bilateral prefrontal involvement.",
+      "tags": [
+        "reasoning",
+        "inductive-rule-discovery",
+        "task-fmri",
+        "coordinate-intake"
+      ]
+    },
+    {
+      "id": "bellmund-2020-sequence-memory",
+      "type": "paper",
+      "title": "Sequence Memory in the Hippocampal-Entorhinal Region",
+      "citation": "Bellmund JLS, Deuker L, Schröder TN, Doeller CF. Journal of Cognitive Neuroscience. 2020;32(11):2056-2070.",
+      "year": 2020,
+      "doi": "10.1162/jocn_a_01592",
+      "url": "https://doi.org/10.1162/jocn_a_01592",
+      "scope": "Review/mechanism source for sequence memory in the hippocampal-entorhinal region. Local PDF review found no numeric MNI/Talairach peak-coordinate table, so use it for MTL/hippocampal-entorhinal explanation and atlas boundaries rather than Schaefer200 cortical parcel claims.",
+      "tags": [
+        "long-term-memory",
+        "sequence-memory",
+        "episodic-order-memory",
+        "mtl",
+        "roi-source"
+      ]
+    },
+    {
+      "id": "bids-derivatives",
+      "type": "specification",
+      "title": "BIDS Derivatives",
+      "citation": "Brain Imaging Data Structure Specification, Derivatives section.",
+      "url": "https://bids-specification.readthedocs.io/en/stable/derivatives/introduction.html"
+    },
+    {
+      "id": "binder-2009-semantic-system",
+      "type": "paper",
+      "title": "Where Is the Semantic System? A Critical Review and Meta-Analysis of 120 Functional Neuroimaging Studies",
+      "citation": "Binder JR, Desai RH, Graves WW, Conant LL. Cerebral Cortex. 2009;19(12):2767-2796.",
+      "year": 2009,
+      "doi": "10.1093/cercor/bhp055",
+      "url": "https://doi.org/10.1093/cercor/bhp055",
+      "scope": "Critical review and meta-analysis for semantic processing. Use for semantic tasks, sentence comprehension, DRM gist, temporal semantic cortex, and angular/inferior parietal boundaries.",
+      "tags": [
+        "semantic-system",
+        "reading",
+        "long-term-memory",
+        "meta-analysis",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "bunge-2004-analogical-reasoning",
+      "type": "paper",
+      "title": "Analogical Reasoning and Prefrontal Cortex: Evidence for Separable Retrieval and Integration Mechanisms",
+      "citation": "Bunge SA, Wendelken C, Badre D, Wagner AD. Cerebral Cortex. 2005;15(3):239-249.",
+      "year": 2005,
+      "doi": "10.1093/cercor/bhh126",
+      "url": "https://doi.org/10.1093/cercor/bhh126",
+      "scope": "Task-fMRI source for verbal analogical reasoning, semantic retrieval, relational integration, and prefrontal control. Use for analogy-specific region-level review.",
+      "tags": [
+        "analogical-reasoning",
+        "prefrontal-cortex",
+        "semantic-retrieval",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "cromheeke-mueller-2014-emotion-cognition-ale",
+      "type": "paper",
+      "title": "Probing emotional influences on cognitive control: an ALE meta-analysis of cognition emotion interactions",
+      "citation": "Cromheeke S, Mueller SC. Brain Structure and Function. 2014;219(3):995-1008.",
+      "year": 2014,
+      "doi": "10.1007/s00429-013-0549-z",
+      "pmid": "23563751",
+      "url": "https://doi.org/10.1007/s00429-013-0549-z",
+      "scope": "Coordinate-based ALE meta-analysis of emotion-cognition interactions during cognitive-control tasks. Use as a secondary emotion-cognition boundary and cross-check for task relevance and performance-direction language; Tables 2-4 Talairach peaks remain intake-only until conversion and parcel review.",
+      "tags": [
+        "emotion-cognition",
+        "cognitive-control",
+        "ale-meta-analysis",
+        "emotional-interference",
+        "coordinate-intake-boundary"
+      ]
+    },
+    {
+      "id": "cabeza-2008-parietal-episodic-memory",
+      "type": "paper",
+      "title": "The parietal cortex and episodic memory: an attentional account",
+      "citation": "Cabeza R, Ciaramelli E, Olson IR, Moscovitch M. Nature Reviews Neuroscience. 2008;9(8):613-625.",
+      "year": 2008,
+      "doi": "10.1038/nrn2459",
+      "pmid": "18641668",
+      "pmcid": "PMC2692883",
+      "url": "https://doi.org/10.1038/nrn2459",
+      "scope": "Review source for parietal attention-to-memory framing. Use as a network-level guardrail for episodic retrieval and source-memory displays.",
+      "tags": [
+        "long-term-memory",
+        "episodic-retrieval",
+        "parietal-cortex",
+        "review"
+      ]
+    },
+    {
+      "id": "caudle-2023-matrix-reasoning",
+      "type": "paper",
+      "title": "Neural activity and network analysis for understanding reasoning using the matrix reasoning task",
+      "citation": "Caudle MM, Spadoni AD, Schiehser DM, Simmons AN, Bomyea J. Cognitive Processing. 2023;24(4):585-594.",
+      "year": 2023,
+      "doi": "10.1007/s10339-023-01152-2",
+      "pmid": "37597116",
+      "pmcid": "PMC10533635",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10533635/",
+      "scope": "Task-fMRI source for a Matrix Decision Making Task close to Raven-like visual matrix reasoning. Table 2 provides MNI peaks for frontoparietal, SMA/dACC, right IFG, occipital and fusiform task-effect candidates; Table 3 provides connectivity paths. Use for modern matrix-reasoning coordinate review, not as a one-to-one Raven/APM replacement.",
+      "tags": [
+        "reasoning",
+        "relational-reasoning",
+        "matrix-reasoning",
+        "raven-like",
+        "task-fmri",
+        "coordinate-intake"
+      ]
+    },
+    {
+      "id": "chua-2007-anterior-hippocampal-associative-encoding",
+      "type": "paper",
+      "title": "Evidence for a specific role of the anterior hippocampal region in successful associative encoding",
+      "citation": "Chua EF, Schacter DL, Rand-Giovannetti E, Sperling RA. Hippocampus. 2007;17(11):1071-1080.",
+      "year": 2007,
+      "doi": "10.1002/hipo.20340",
+      "url": "https://doi.org/10.1002/hipo.20340",
+      "scope": "Face-name fMRI source comparing remembered face-name associations and item memory; use as candidate anterior hippocampal associative-encoding support.",
+      "tags": [
+        "long-term-memory",
+        "face-name",
+        "hippocampus",
+        "associative-encoding"
+      ]
+    },
+    {
+      "id": "coetzee-2018-core-reasoning",
+      "type": "paper",
+      "title": "At the core of reasoning: Dissociating deductive and non-deductive load",
+      "citation": "Coetzee JP, Monti MM. Human Brain Mapping. 2018;39(4):1850-1861.",
+      "year": 2018,
+      "doi": "10.1002/hbm.23979",
+      "url": "https://doi.org/10.1002/hbm.23979",
+      "scope": "Task-fMRI source for reasoning complexity versus memory complexity. Use to refine deductive/relational reasoning overlays and avoid over-attributing working-memory load to reasoning.",
+      "tags": [
+        "reasoning",
+        "deductive-reasoning",
+        "relational-reasoning",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "cohen-2002-vwfa-language-specific-tuning",
+      "type": "paper",
+      "title": "Language-specific tuning of visual cortex? Functional properties of the visual word form area",
+      "citation": "Cohen L, Lehéricy S, Chochon F, et al. Brain. 2002;125(5):1054-1069.",
+      "year": 2002,
+      "doi": "10.1093/brain/awf094",
+      "url": "https://doi.org/10.1093/brain/awf094",
+      "scope": "Task-fMRI source for visual word form area and orthographic word processing. Tables 1-5 have been extracted into 11 Talairach VWFA/visual-input candidate coordinates plus an MNI-converted review file; use to anchor left ventral occipitotemporal reading candidates while keeping full language comprehension separate.",
+      "tags": [
+        "reading",
+        "vwfa",
+        "orthographic-processing",
+        "word-reading",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "collette-2005-executive-functioning-unity-diversity",
+      "type": "paper",
+      "title": "Exploring the unity and diversity of the neural substrates of executive functioning",
+      "citation": "Collette F, Van der Linden M, Laureys S, Delfiore G, Degueldre C, Luxen A, Salmon E. Human Brain Mapping. 2005;25(4):409-423.",
+      "year": 2005,
+      "doi": "10.1002/hbm.20118",
+      "pmcid": "PMC6871684",
+      "url": "https://doi.org/10.1002/hbm.20118",
+      "scope": "PET comparison of updating, shifting and inhibition. PMC tables archived/extracted; use Table I/II Talairach coordinates as executive updating/common-EF candidates after MNI conversion, not as keep-track original-task proof.",
+      "tags": [
+        "executive-function",
+        "short-term-memory",
+        "updating",
+        "keep-track-boundary",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "constable-2004-sentence-complexity-modality",
+      "type": "paper",
+      "title": "Sentence complexity and input modality effects in sentence comprehension: an fMRI study",
+      "citation": "Constable RT, Pugh KR, Berroya E, et al. NeuroImage. 2004;22(1):11-21.",
+      "year": 2004,
+      "doi": "10.1016/j.neuroimage.2004.01.001",
+      "url": "https://doi.org/10.1016/j.neuroimage.2004.01.001",
+      "scope": "Task-fMRI source for sentence complexity and visual/auditory input modality. Tables 1 and 3 have been extracted as Talairach raw plus MNI-converted coordinate candidates; Table 2 is retained as a modality-boundary source, not a core sentence-comprehension overlay.",
+      "tags": [
+        "reading",
+        "sentence-comprehension",
+        "language",
+        "input-modality",
+        "coordinate-review-priority",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "cools-2002-reversal-learning",
+      "type": "paper",
+      "title": "Defining the Neural Mechanisms of Probabilistic Reversal Learning Using Event-Related Functional Magnetic Resonance Imaging",
+      "citation": "Cools R, Clark L, Owen AM, Robbins TW. The Journal of Neuroscience. 2002;22(11):4563-4567.",
+      "year": 2002,
+      "doi": "10.1523/JNEUROSCI.22-11-04563.2002",
+      "url": "https://doi.org/10.1523/JNEUROSCI.22-11-04563.2002",
+      "scope": "Task-fMRI source for probabilistic reversal learning, feedback-based rule change, and OFC/control-network candidate language. Striatal components remain outside the current cortical atlas.",
+      "tags": [
+        "reversal-learning",
+        "feedback-learning",
+        "ofc",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "corbetta-shulman-2002-attention",
+      "type": "paper",
+      "title": "Control of goal-directed and stimulus-driven attention in the brain",
+      "citation": "Corbetta M, Shulman GL. Nature Reviews Neuroscience. 2002;3:201-215.",
+      "year": 2002,
+      "doi": "10.1038/nrn755",
+      "url": "https://doi.org/10.1038/nrn755",
+      "scope": "Review-level evidence for partially segregated dorsal and ventral attention systems: top-down goal-directed selection and stimulus-driven detection/reorienting.",
+      "tags": [
+        "attention",
+        "goal-directed-attention",
+        "stimulus-driven-attention",
+        "reorienting"
+      ]
+    },
+    {
+      "id": "courtney-1996-object-spatial-wm",
+      "type": "paper",
+      "title": "Object and Spatial Visual Working Memory Activate Separate Neural Systems in Human Cortex",
+      "citation": "Courtney SM, Ungerleider LG, Keil K, Haxby JV. Cerebral Cortex. 1996;6(1):39-49.",
+      "year": 1996,
+      "doi": "10.1093/cercor/6.1.39",
+      "url": "https://doi.org/10.1093/cercor/6.1.39",
+      "scope": "Task-imaging source separating object and spatial visual working memory. Use to keep object span and grid/span claims distinct.",
+      "tags": [
+        "working-memory",
+        "spatial-working-memory",
+        "object-working-memory",
+        "grid-span",
+        "object-span",
+        "task-study",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "crescentini-2011-rule-acquisition",
+      "type": "paper",
+      "title": "Mechanisms of rule acquisition and rule following in inductive reasoning",
+      "citation": "Crescentini C, Seyed-Allaei S, De Pisapia N, et al. Journal of Neuroscience. 2011;31(21):7763-7774.",
+      "year": 2011,
+      "doi": "10.1523/JNEUROSCI.4579-10.2011",
+      "pmid": "21613494",
+      "pmcid": "PMC6633120",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6633120/",
+      "scope": "Task-fMRI source for Brixton-style inductive rule acquisition, rule following, and rule difficulty. Use as coordinate-intake evidence for inductive-rule discovery with contrast-level pruning.",
+      "tags": [
+        "reasoning",
+        "inductive-rule-discovery",
+        "task-fmri",
+        "coordinate-intake"
+      ]
+    },
+    {
+      "id": "culham-2001-attention-response",
+      "type": "paper",
+      "title": "Attention Response Functions",
+      "citation": "Culham JC, Cavanagh P, Kanwisher NG. Neuron. 2001;32(4):737-745.",
+      "year": 2001,
+      "doi": "10.1016/S0896-6273(01)00499-8",
+      "url": "https://doi.org/10.1016/S0896-6273(01)00499-8",
+      "scope": "Task-fMRI source for attentional load and multiple-object tracking style attention-response functions. Use for MOT region-level review.",
+      "tags": [
+        "multiple-object-tracking",
+        "attentional-load",
+        "parietal",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "damestani-2021-auditory-oddball-tone-discrimination",
+      "type": "paper",
+      "title": "Revealing the mechanisms behind novel auditory stimuli discrimination: An evaluation of silent functional MRI using looping star",
+      "citation": "Damestani NL, O'Daly O, Solana AB, Wiesinger F, Lythgoe DJ, Hill S, de Lara Rubio A, Makovac E, Williams SCR, Zelaya F. Human Brain Mapping. 2021;42(9):2833-2850.",
+      "year": 2021,
+      "doi": "10.1002/hbm.25407",
+      "pmid": "33729637",
+      "pmcid": "PMC8127154",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8127154/",
+      "scope": "Open PMC task-fMRI source for auditory oddball and tone-discrimination contrasts. Use as auditory-specific candidate evidence for perceptual-discrimination RT, including auditory cortex/STG input, frontal-opercular/anterior-insula salience support, medial-frontal/SMA response preparation and limited parietal support. Do not use as generic simple RT, ordinary choice RT, SDMT, symbol-search, or classroom processing-speed production evidence.",
+      "tags": [
+        "reaction-speed",
+        "perceptual-discrimination-rt",
+        "auditory-oddball",
+        "tone-discrimination",
+        "task-fmri",
+        "coordinate-review-priority",
+        "pmc-open-access"
+      ]
+    },
+    {
+      "id": "davachi-2003-item-source-memory",
+      "type": "paper",
+      "title": "Multiple routes to memory: Distinct medial temporal lobe processes build item and source memories",
+      "citation": "Davachi L, Mitchell JP, Wagner AD. Proceedings of the National Academy of Sciences. 2003;100(4):2157-2162.",
+      "year": 2003,
+      "doi": "10.1073/pnas.0337195100",
+      "pmid": "12578977",
+      "pmcid": "PMC149975",
+      "url": "https://doi.org/10.1073/pnas.0337195100",
+      "scope": "Task fMRI source separating item recognition from source recollection during encoding. Use for associative-memory and source-memory atlas-boundary language; MTL peaks remain outside the current cortical Schaefer200 display.",
+      "tags": [
+        "long-term-memory",
+        "associative-memory",
+        "source-memory",
+        "task-fmri",
+        "medial-temporal-boundary"
+      ]
+    },
+    {
+      "id": "davis-2009-temporal-order-judgment",
+      "type": "paper",
+      "title": "Temporal Order Judgments Activate Temporal Parietal Junction",
+      "citation": "Davis B, Christie J, Rorden C. The Journal of Neuroscience. 2009;29(10):3182-3188.",
+      "year": 2009,
+      "doi": "10.1523/JNEUROSCI.5793-08.2009",
+      "url": "https://doi.org/10.1523/JNEUROSCI.5793-08.2009",
+      "scope": "Task study for temporal order judgment and TPJ candidate mapping. Use for event-order and timing-review priority.",
+      "tags": [
+        "temporal-order-judgment",
+        "tpj",
+        "task-study",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "dehaene-1999-sources-math-thinking",
+      "type": "paper",
+      "title": "Sources of Mathematical Thinking: Behavioral and Brain-Imaging Evidence",
+      "citation": "Dehaene S, Spelke E, Pinel P, Stanescu R, Tsivkin S. Science. 1999;284(5416):970-974.",
+      "year": 1999,
+      "doi": "10.1126/science.284.5416.970",
+      "url": "https://doi.org/10.1126/science.284.5416.970",
+      "scope": "Behavioral and brain-imaging source separating exact arithmetic, approximate arithmetic, language-dependent arithmetic facts, and bilateral parietal numerical magnitude representations.",
+      "tags": [
+        "calculation",
+        "number-sense",
+        "approximate-arithmetic",
+        "exact-arithmetic",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "dehaene-2009-math-intuitions",
+      "type": "paper",
+      "title": "Origins of Mathematical Intuitions: The Case of Arithmetic",
+      "citation": "Dehaene S. Annals of the New York Academy of Sciences. 2009;1156(1):232-259.",
+      "year": 2009,
+      "doi": "10.1111/j.1749-6632.2009.04469.x",
+      "url": "https://doi.org/10.1111/j.1749-6632.2009.04469.x",
+      "scope": "Review source for mathematical intuition, number sense, elementary arithmetic, and symbol-to-quantity mapping.",
+      "tags": [
+        "calculation",
+        "number-sense",
+        "math-intuition",
+        "review"
+      ]
+    },
+    {
+      "id": "diwadkar-2000-dynamic-spatial-wm",
+      "type": "paper",
+      "title": "Collaborative Activity between Parietal and Dorso-Lateral Prefrontal Cortex in Dynamic Spatial Working Memory Revealed by fMRI",
+      "citation": "Diwadkar VA, Carpenter PA, Just MA. NeuroImage. 2000;12(1):85-99.",
+      "year": 2000,
+      "doi": "10.1006/nimg.2000.0586",
+      "url": "https://doi.org/10.1006/nimg.2000.0586",
+      "scope": "Task fMRI source for parietal and dorsolateral-prefrontal collaboration in dynamic spatial working memory. Use for grid/span candidate connections after coordinate extraction.",
+      "tags": [
+        "working-memory",
+        "spatial-working-memory",
+        "grid-span",
+        "dlpfc",
+        "parietal",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "dizaji-2021-intelligence-neuroimaging-review",
+      "type": "paper",
+      "title": "Linking Brain Biology to Intellectual Endowment: A Review on the Associations of Human Intelligence With Neuroimaging Data",
+      "citation": "Dizaji AS, Hebling Vieira B, Khodaei MR, Ashrafi M, Parham E, Hossein-Zadeh GA, et al. Basic and Clinical Neuroscience. 2021;12(1):1-28.",
+      "year": 2021,
+      "doi": "10.32598/bcn.12.1.574.1",
+      "url": "https://doi.org/10.32598/bcn.12.1.574.1",
+      "scope": "Review source for intelligence-neuroimaging interpretation boundaries across WAIS/Raven-like reasoning, working memory, processing speed, and prediction claims. Use as language guardrail, not coordinate evidence.",
+      "tags": [
+        "reasoning",
+        "intelligence",
+        "wais",
+        "raven",
+        "review"
+      ]
+    },
+    {
+      "id": "dobbins-2002-source-memory-control",
+      "type": "paper",
+      "title": "Executive control during episodic retrieval: multiple prefrontal processes subserve source memory",
+      "citation": "Dobbins IG, Foley H, Schacter DL, Wagner AD. Neuron. 2002;35(5):989-996.",
+      "year": 2002,
+      "doi": "10.1016/S0896-6273(02)00858-9",
+      "pmid": "12372291",
+      "url": "https://doi.org/10.1016/S0896-6273(02)00858-9",
+      "scope": "Task fMRI source for prefrontal control during episodic/source retrieval. Use for source-monitoring and retrieval-control claims; full text still needs institution access.",
+      "tags": [
+        "long-term-memory",
+        "source-memory",
+        "prefrontal-control",
+        "task-fmri",
+        "paper-needed"
+      ]
+    },
+    {
+      "id": "dux-2006-central-bottleneck",
+      "type": "paper",
+      "title": "Isolation of a Central Bottleneck of Information Processing with Time-Resolved fMRI",
+      "citation": "Dux PE, Ivanoff J, Asplund CL, Marois R. Neuron. 2006;52(6):1109-1120.",
+      "year": 2006,
+      "doi": "10.1016/j.neuron.2006.11.009",
+      "url": "https://doi.org/10.1016/j.neuron.2006.11.009",
+      "scope": "Time-resolved fMRI source for central processing bottleneck under dual-task load. Use for executive/reaction-speed bottleneck explanations.",
+      "tags": [
+        "executive-function",
+        "dual-task",
+        "central-bottleneck",
+        "reaction-speed",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "emch-2019-verbal-wm-meta",
+      "type": "paper",
+      "title": "Neural Correlates of Verbal Working Memory: An fMRI Meta-Analysis",
+      "citation": "Emch M, von Bastian CC, Koch K. Frontiers in Human Neuroscience. 2019;13:180.",
+      "year": 2019,
+      "doi": "10.3389/fnhum.2019.00180",
+      "url": "https://doi.org/10.3389/fnhum.2019.00180",
+      "scope": "fMRI meta-analysis source for verbal working memory. Use to strengthen digit-span/verbal-span phonological storage, rehearsal, and frontoparietal control boundaries before coordinate-to-parcel review.",
+      "tags": [
+        "working-memory",
+        "verbal-working-memory",
+        "digit-span",
+        "meta-analysis",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "esmeyer-2025-crossmodal-perceptual-decision",
+      "type": "paper",
+      "title": "Effector-dependent neural representations of perceptual decisions independent of motor actions and sensory modalities",
+      "citation": "Esmeyer J, Schmidt TT, Blankenburg F. Imaging Neuroscience. 2025;3:IMAG.a.11.",
+      "year": 2025,
+      "doi": "10.1162/IMAG.a.11",
+      "pmid": "40800809",
+      "pmcid": "PMC12319951",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12319951/",
+      "scope": "Task-fMRI source for visual delayed match-to-comparison perceptual decisions and visual/vibrotactile cross-modal conjunction. Use as candidate evidence for IPS/PMd cross-modal perceptual-decision representations; do not use as generic simple RT, SDMT, ordinary choice RT, or auditory RT evidence.",
+      "tags": [
+        "reaction-speed",
+        "perceptual-discrimination-rt",
+        "perceptual-decision",
+        "cross-modal",
+        "visual-decision",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "ewert-2018-distal-atlas",
+      "type": "paper",
+      "title": "Toward defining deep brain stimulation targets in MNI space: A subcortical atlas based on multimodal MRI, histology and structural connectivity",
+      "citation": "Ewert S, Plettig P, Chakravarty MM, Kuhn AA, Horn A. NeuroImage. 2018;170:271-282.",
+      "year": 2018,
+      "doi": "10.1016/j.neuroimage.2017.05.015",
+      "preprintDoi": "10.1101/062851",
+      "url": "https://doi.org/10.1016/j.neuroimage.2017.05.015",
+      "scope": "Subcortical atlas methodology source for DISTAL / Lead-DBS targets in MNI 152 NLIN 2009b space. Use for STN, GPi/GPe, VIM and DBS-target atlas-boundary language; not for task activation or behavioral training effects.",
+      "tags": [
+        "subcortical-atlas",
+        "distal",
+        "lead-dbs",
+        "stn",
+        "gpi",
+        "gpe",
+        "vim",
+        "basal-ganglia",
+        "thalamus",
+        "atlas-boundary"
+      ]
+    },
+    {
+      "id": "ezzyat-davachi-2014-temporal-proximity",
+      "type": "paper",
+      "title": "Similarity Breeds Proximity: Pattern Similarity within and across Contexts Is Related to Later Mnemonic Judgments of Temporal Proximity",
+      "citation": "Ezzyat Y, Davachi L. Neuron. 2014;81(5):1179-1189.",
+      "year": 2014,
+      "doi": "10.1016/j.neuron.2014.01.042",
+      "url": "https://doi.org/10.1016/j.neuron.2014.01.042",
+      "scope": "Task fMRI / pattern-similarity source for temporal-proximity judgments. Supplemental Table S2 supplies MNI coordinates for context-boundary versus same-context contrasts; non-cortical and MTL rows remain atlas boundaries.",
+      "tags": [
+        "long-term-memory",
+        "episodic-order-memory",
+        "temporal-proximity",
+        "sequence-memory",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "fan-2005-ant-fmri",
+      "type": "paper",
+      "title": "The activation of attentional networks",
+      "citation": "Fan J, McCandliss BD, Fossella J, Flombaum JI, Posner MI. NeuroImage. 2005;26(2):471-479.",
+      "year": 2005,
+      "doi": "10.1016/j.neuroimage.2005.02.004",
+      "url": "https://doi.org/10.1016/j.neuroimage.2005.02.004",
+      "scope": "Event-related fMRI source for Attention Network Test alerting, orienting, and executive-control contrasts. Use for ANT-specific region-level review; subcortical alerting evidence remains outside the current Schaefer200 cortical display.",
+      "tags": [
+        "attention",
+        "attention-network-test",
+        "task-fmri",
+        "coordinate-review-priority"
+      ],
+      "spatialAuditStatus": "REPORTED_TALAIRACH_AFTER_BRETT_NOT_MNI; EXACT_FSL_MAPPING_NOT_ESTABLISHED"
+    },
+    {
+      "id": "fan-2014-uncertainty-cognitive-control",
+      "type": "paper",
+      "title": "Quantitative Characterization of Functional Anatomical Contributions to Cognitive Control under Uncertainty",
+      "citation": "Fan J, Gu X, Liu X, Guise KG, Park Y, Martin L, de Marchena A, Tang CY, Minzenberg MJ, Hof PR. Journal of Cognitive Neuroscience. 2014;26(7):1490-1506.",
+      "year": 2014,
+      "doi": "10.1162/jocn_a_00554",
+      "pmid": "24116884",
+      "pmcid": "PMC5070967",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5070967/",
+      "scope": "Task-fMRI source for visual majority-function decisions under information entropy. Use as bridge evidence for perceptual-decision uncertainty and cognitive-control load; do not use as ordinary Hick-Hyman response-alternative choice RT.",
+      "tags": [
+        "reaction-speed",
+        "perceptual-discrimination-rt",
+        "perceptual-decision",
+        "uncertainty",
+        "cognitive-control",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "fittipaldi-marquez-2017-sdmt-neural-efficiency",
+      "type": "paper",
+      "title": "Exploring Neural Efficiency in Multiple Sclerosis Patients during the Symbol Digit Modalities Test: A Functional Magnetic Resonance Imaging Study",
+      "citation": "Fittipaldi-Marquez MS, et al. Neurodegenerative Diseases. 2017;17(6):292-300.",
+      "year": 2017,
+      "doi": "10.1159/000460252",
+      "url": "https://doi.org/10.1159/000460252",
+      "scope": "Supplementary task-fMRI SDMT coordinate source. Figshare Tables S1-S2 report MNI activation coordinates for MS patients and healthy controls across 1.5s, 2s and 2.5s ISI conditions, plus task-load contrasts. Use as supplemental SDMT/coding-speed coordinate evidence and load-modulation boundary, not as the primary healthy-student processing-speed overlay.",
+      "tags": [
+        "reaction-speed",
+        "processing-speed",
+        "symbol-digit-modalities-test",
+        "coding-speed",
+        "task-fmri",
+        "coordinate-table",
+        "multiple-sclerosis-boundary"
+      ]
+    },
+    {
+      "id": "fonville-2013-embedded-figures",
+      "type": "paper",
+      "title": "Evaluation of Enhanced Attention to Local Detail in Anorexia Nervosa Using the Embedded Figures Test; an fMRI Study",
+      "citation": "Fonville L, Giampietro V, Williams SCR, Simmons A, Tchanturia K. PLoS ONE. 2013;8(5):e63964.",
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0063964",
+      "url": "https://doi.org/10.1371/journal.pone.0063964",
+      "scope": "Clinical task-fMRI boundary source for embedded figures and local-detail strategy. Use to discuss strategy differences, not as a primary ordinary-student coordinate overlay.",
+      "tags": [
+        "embedded-figures",
+        "local-detail",
+        "clinical-boundary",
+        "task-fmri",
+        "mapping-boundary"
+      ]
+    },
+    {
+      "id": "forn-2009-sdmt-fmri",
+      "type": "paper",
+      "title": "A Symbol Digit Modalities Test version suitable for functional MRI studies",
+      "citation": "Forn C, Belloch V, Bustamante JC, Garbin G, Parcet-Ibars MA, Sanjuan A, Ventura N, Avila C. Neuroscience Letters. 2009;456(1):11-14.",
+      "year": 2009,
+      "doi": "10.1016/j.neulet.2009.03.081",
+      "pmid": "19429124",
+      "url": "https://doi.org/10.1016/j.neulet.2009.03.081",
+      "scope": "Task-fMRI adaptation of the oral Symbol Digit Modalities Test in 18 healthy volunteers. Use Table 1 Talairach coordinates as the primary candidate source for symbol digit / coding-speed visual scanning, frontoparietal attention-working-memory and response-selection overlays; preserve caudate and cerebellar peaks as specialized-atlas boundary evidence.",
+      "tags": [
+        "reaction-speed",
+        "processing-speed",
+        "symbol-digit-modalities-test",
+        "coding-speed",
+        "task-fmri",
+        "coordinate-table"
+      ]
+    },
+    {
+      "id": "frick-2019-spatial-transformation-achievement",
+      "type": "paper",
+      "title": "Spatial transformation abilities and their relation to later academic achievement",
+      "citation": "Frick A. Psychological Research. 2019;83(7):1465-1484.",
+      "year": 2019,
+      "doi": "10.1007/s00426-018-1008-5",
+      "url": "https://doi.org/10.1007/s00426-018-1008-5",
+      "scope": "Longitudinal behavioral/developmental source linking early spatial transformation subcomponents to later mathematics performance. Use for sales-facing task relevance and math/geometry boundaries, not brain-coordinate mapping.",
+      "tags": [
+        "spatial-transformation",
+        "mental-folding",
+        "mathematics",
+        "geometry",
+        "developmental-study",
+        "behavioral-paradigm"
+      ]
+    },
+    {
+      "id": "ganis-2004-imagery-perception",
+      "type": "paper",
+      "title": "Brain areas underlying visual mental imagery and visual perception: an fMRI study",
+      "citation": "Ganis G, Thompson WL, Kosslyn SM. Cognitive Brain Research. 2004;20(2):226-241.",
+      "year": 2004,
+      "doi": "10.1016/j.cogbrainres.2004.02.012",
+      "url": "https://doi.org/10.1016/j.cogbrainres.2004.02.012",
+      "scope": "Task-fMRI source comparing visual imagery and visual perception. Use for imagery-perception overlap and control-boundary review before coordinate mapping.",
+      "tags": [
+        "visual-imagery",
+        "visual-perception",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "gazzo-2023-probabilistic-deductive-reasoning",
+      "type": "paper",
+      "title": "Probabilistic and deductive reasoning in the human brain",
+      "citation": "Gazzo Castañeda LE, Sklarek B, Dal Mas DE, et al. NeuroImage. 2023;275:120180.",
+      "year": 2023,
+      "doi": "10.1016/j.neuroimage.2023.120180",
+      "url": "https://doi.org/10.1016/j.neuroimage.2023.120180",
+      "scope": "Task-fMRI source for probabilistic versus deductive reasoning. Use to refine probability/statistics reasoning and deductive reasoning boundaries.",
+      "tags": [
+        "reasoning",
+        "probability-statistics-reasoning",
+        "deductive-reasoning",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "gitelman-1999-covert-spatial-attention",
+      "type": "paper",
+      "title": "A Large-Scale Distributed Network for Covert Spatial Attention",
+      "citation": "Gitelman DR, Nobre AC, Parrish TB, et al. Brain. 1999;122(6):1093-1106.",
+      "year": 1999,
+      "doi": "10.1093/brain/122.6.1093",
+      "url": "https://doi.org/10.1093/brain/122.6.1093",
+      "scope": "Task-imaging source for covert spatial attention. Table 1 cortical coordinates are extracted for Posner/cueing spatial-orienting review; thalamic and basal-ganglia rows are kept as specialized-atlas boundary evidence.",
+      "tags": [
+        "attention",
+        "posner-cueing",
+        "spatial-orienting",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "glass-2013-mental-paper-folding-lesion",
+      "type": "paper",
+      "title": "Mental Paper Folding Performance Following Penetrating Traumatic Brain Injury in Combat Veterans: A Lesion Mapping Study",
+      "citation": "Glass L, Krueger F, Solomon J, Raymont V, Grafman J. Cerebral Cortex. 2013;23(7):1663-1672.",
+      "year": 2013,
+      "doi": "10.1093/cercor/bhs153",
+      "pmid": "22669970",
+      "pmcid": "PMC3673178",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3673178/",
+      "scope": "Voxel-based lesion-symptom mapping source for AFQT-7 mental paper folding / boxes performance. Use for task-specific causal lesion boundaries around right inferior parietal lobule and left parahippocampal region; do not describe as task-fMRI activation.",
+      "tags": [
+        "mental-paper-folding",
+        "spatial-folding-unfolding",
+        "lesion-mapping",
+        "vlsm",
+        "coordinate-review-priority",
+        "mapping-boundary"
+      ]
+    },
+    {
+      "id": "hampshire-2012-intelligence",
+      "type": "paper",
+      "title": "Fractionating human intelligence",
+      "citation": "Hampshire A, Highfield RR, Parkin BL, Owen AM. Neuron. 2012;76(6):1225-1237.",
+      "year": 2012,
+      "doi": "10.1016/j.neuron.2012.06.022",
+      "url": "https://doi.org/10.1016/j.neuron.2012.06.022",
+      "scope": "Task source for decomposing reasoning, short-term memory, and verbal components. Use for Raven-like and reasoning-task family boundaries before coordinate extraction.",
+      "tags": [
+        "reasoning",
+        "intelligence",
+        "task-study",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "harris-2013-spatial-transformations-rotation-folding",
+      "type": "paper",
+      "title": "Understanding spatial transformations: similarities and differences between mental rotation and mental folding",
+      "citation": "Harris J, Hirsh-Pasek K, Newcombe NS. Cognitive Processing. 2013;14(2):105-115.",
+      "year": 2013,
+      "doi": "10.1007/s10339-013-0544-6",
+      "url": "https://doi.org/10.1007/s10339-013-0544-6",
+      "scope": "Conceptual/review source for mental rotation versus mental folding. Local PDF review found no numeric coordinate table; use for task taxonomy and do not use as coordinate evidence.",
+      "tags": [
+        "imagery-operation",
+        "mental-rotation",
+        "spatial-folding",
+        "task-boundary"
+      ]
+    },
+    {
+      "id": "heekeren-2004-perceptual-decision",
+      "type": "paper",
+      "title": "A general mechanism for perceptual decision-making in the human brain",
+      "citation": "Heekeren HR, Marrett S, Bandettini PA, Ungerleider LG. Nature. 2004;431(7010):859-862.",
+      "year": 2004,
+      "doi": "10.1038/nature02966",
+      "url": "https://doi.org/10.1038/nature02966",
+      "scope": "Task-fMRI source for visual perceptual decision-making. Use for perceptual-discrimination RT candidate coordinates and sensory-evidence integration; do not use as generic simple RT or auditory discrimination evidence.",
+      "tags": [
+        "reaction-speed",
+        "perceptual-discrimination-rt",
+        "perceptual-decision",
+        "visual-decision",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "hopfinger-2000-top-down-attention",
+      "type": "paper",
+      "title": "The neural mechanisms of top-down attentional control",
+      "citation": "Hopfinger JB, Buonocore MH, Mangun GR. Nature Neuroscience. 2000;3(3):284-291.",
+      "year": 2000,
+      "doi": "10.1038/72999",
+      "pmid": "10700262",
+      "url": "https://doi.org/10.1038/72999",
+      "scope": "Event-related fMRI source for symbolic spatial-cue preparation and top-down attentional control. Use for Posner/cueing coordinate-candidate evidence while preserving target-response and insula/putamen atlas-boundary limits.",
+      "tags": [
+        "attention",
+        "posner-cueing",
+        "top-down-attention",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "houde-2003-logical-math-cognition",
+      "type": "paper",
+      "title": "Neural foundations of logical and mathematical cognition",
+      "citation": "Houde O, Tzourio-Mazoyer N. Nature Reviews Neuroscience. 2003;4(6):507-514.",
+      "year": 2003,
+      "doi": "10.1038/nrn1117",
+      "url": "https://doi.org/10.1038/nrn1117",
+      "scope": "Review source for logical and mathematical cognition, inhibition of intuitive/perceptual errors, and shifting from intuitive responses to logical reasoning.",
+      "tags": [
+        "calculation",
+        "reasoning",
+        "inhibition",
+        "logical-cognition",
+        "review"
+      ]
+    },
+    {
+      "id": "houlihan-1994-reaction-time-processes",
+      "type": "paper",
+      "title": "Reaction time and movement time as measures of stimulus evaluation and response processes",
+      "citation": "Houlihan M, Campbell K, Stelmack RM. Intelligence. 1994;18(3):289-307.",
+      "year": 1994,
+      "doi": "10.1016/0160-2896(94)90031-0",
+      "url": "https://doi.org/10.1016/0160-2896(94)90031-0",
+      "scope": "Behavioral decomposition source for reaction time and movement time. Use for simple/choice reaction-time task identity, not direct brain-region evidence.",
+      "tags": [
+        "reaction-time",
+        "behavioral-paradigm",
+        "stimulus-evaluation",
+        "response-processes"
+      ]
+    },
+    {
+      "id": "hsieh-2014-sequence-memory",
+      "type": "paper",
+      "title": "Hippocampal Activity Patterns Carry Information about Objects in Temporal Context",
+      "citation": "Hsieh LT, Gruber MJ, Jenkins LJ, Ranganath C. Neuron. 2014;81(5):1165-1178.",
+      "year": 2014,
+      "doi": "10.1016/j.neuron.2014.01.015",
+      "url": "https://doi.org/10.1016/j.neuron.2014.01.015",
+      "scope": "Task fMRI / MVPA source for hippocampal temporal-context sequence memory. Local article and supplement were reviewed; use for hippocampal/MTL mechanism and ROI-boundary language, not direct Schaefer200 coordinates.",
+      "tags": [
+        "long-term-memory",
+        "episodic-order-memory",
+        "sequence-memory",
+        "hippocampus",
+        "mtl",
+        "task-fmri",
+        "roi-boundary"
+      ]
+    },
+    {
+      "id": "hung-2018-inhibition-emotional-interference",
+      "type": "paper",
+      "title": "Dissociations of cognitive inhibition, response inhibition, and emotional interference: Voxelwise ALE meta-analyses of fMRI studies",
+      "citation": "Hung Y, Gaillard SL, Yarmak P, Arsalidou M. Human Brain Mapping. 2018;39:4065-4082.",
+      "year": 2018,
+      "doi": "10.1002/hbm.24232",
+      "url": "https://doi.org/10.1002/hbm.24232",
+      "scope": "Coordinate-based ALE meta-analysis separating cognitive inhibition, response inhibition, and emotional interference. Use for inhibition-domain and emotion-cognition boundary language; Table II Talairach peaks remain intake-only until conversion and parcel review.",
+      "tags": [
+        "executive-control",
+        "inhibition",
+        "emotional-interference",
+        "ale-meta-analysis",
+        "coordinate-intake-boundary"
+      ]
+    },
+    {
+      "id": "jobard-2003-dual-route-reading-meta",
+      "type": "paper",
+      "title": "Evaluation of the dual route theory of reading: a metanalysis of 35 neuroimaging studies",
+      "citation": "Jobard G, Crivello F, Tzourio-Mazoyer N. NeuroImage. 2003;20(2):693-712.",
+      "year": 2003,
+      "doi": "10.1016/S1053-8119(03)00343-4",
+      "url": "https://doi.org/10.1016/S1053-8119(03)00343-4",
+      "scope": "Coordinate-based reading meta-analysis. Tables 2-12 have been extracted into MNI cluster-mean coordinate intake. Use for reading-route priors across visual word-form, phonological, lexical-semantic and IFG control layers while preserving dual-route task-family boundaries.",
+      "tags": [
+        "reading",
+        "word-reading",
+        "dual-route",
+        "phonological-decoding",
+        "orthographic-processing",
+        "meta-analysis"
+      ]
+    },
+    {
+      "id": "jonides-1993-spatial-wm-pet",
+      "type": "paper",
+      "title": "Spatial working memory in humans as revealed by PET",
+      "citation": "Jonides J, Smith EE, Koeppe RA, Awh E, Minoshima S, Mintun MA. Nature. 1993;363(6430):623-625.",
+      "year": 1993,
+      "doi": "10.1038/363623a0",
+      "url": "https://doi.org/10.1038/363623a0",
+      "scope": "Classic PET source for spatial working memory. Use for grid/span spatial holding and parietal-prefrontal coordinate review.",
+      "tags": [
+        "working-memory",
+        "spatial-working-memory",
+        "grid-span",
+        "task-study",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "jovicich-2001-motion-tracking-load",
+      "title": "Brain Areas Specific for Attentional Load in a Motion-Tracking Task",
+      "citation": "Jovicich J, Peters RJ, Koch C, Braun J, Chang L, Ernst T. Journal of Cognitive Neuroscience. 2001;13(8):1048-1058.",
+      "year": 2001,
+      "doi": "10.1162/089892901753294347",
+      "url": "https://doi.org/10.1162/089892901753294347",
+      "type": "paper",
+      "scope": "Task-fMRI source for multiple-object tracking / attentional load. Use extracted coordinates for candidate mapping; keep cerebellum and basal-ganglia rows in specialized atlas layers.",
+      "tags": [
+        "attention",
+        "multiple-object-tracking",
+        "task-fmri",
+        "coordinate-intake"
+      ]
+    },
+    {
+      "id": "jung-haier-2007-pfit",
+      "type": "paper",
+      "title": "The Parieto-Frontal Integration Theory (P-FIT) of intelligence: converging neuroimaging evidence",
+      "citation": "Jung RE, Haier RJ. Behavioral and Brain Sciences. 2007;30(2):135-154.",
+      "year": 2007,
+      "doi": "10.1017/S0140525X07001185",
+      "url": "https://doi.org/10.1017/S0140525X07001185",
+      "scope": "Review source for parieto-frontal reasoning and intelligence-task evidence. Use for Raven-like reasoning at region/network level, not diagnostic IQ claims.",
+      "tags": [
+        "reasoning",
+        "intelligence",
+        "pfit",
+        "review",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "kansaku-2004-simple-reaction-time",
+      "type": "paper",
+      "title": "A shared neural network for simple reaction time",
+      "citation": "Kansaku K, Hanakawa T, Wu T, Hallett M. NeuroImage. 2004;22(2):904-911.",
+      "year": 2004,
+      "doi": "10.1016/j.neuroimage.2004.02.006",
+      "url": "https://doi.org/10.1016/j.neuroimage.2004.02.006",
+      "scope": "Task-fMRI source for simple reaction time across visual, auditory and somatosensory cues. Use for reaction-speed coordinate intake with Talairach provenance.",
+      "tags": [
+        "reaction-speed",
+        "simple-reaction-time",
+        "sensorimotor",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "kim-2011-subsequent-memory",
+      "type": "paper",
+      "title": "Neural activity that predicts subsequent memory and forgetting: A meta-analysis of 74 fMRI studies",
+      "citation": "Kim H. NeuroImage. 2011;54(3):2446-2461.",
+      "year": 2011,
+      "doi": "10.1016/j.neuroimage.2010.09.045",
+      "url": "https://doi.org/10.1016/j.neuroimage.2010.09.045",
+      "scope": "Meta-analysis of subsequent-memory effects. Use for long-term encoding and word-list learning priors, with hippocampal/MTL boundaries kept explicit.",
+      "tags": [
+        "long-term-memory",
+        "encoding",
+        "word-list-learning",
+        "meta-analysis",
+        "coordinate-review-priority"
+      ],
+      "spatialAuditStatus": "FOUR_DECLARED_MATRIX_ERRORS_REPAIRED_ARITHMETIC_ONLY; EXACT_FSL_MAPPING_NOT_ESTABLISHED"
+    },
+    {
+      "id": "kim-cabeza-2007-true-false-memory-formation",
+      "type": "paper",
+      "title": "Differential Contributions of Prefrontal, Medial Temporal, and Sensory-Perceptual Regions to True and False Memory Formation",
+      "citation": "Kim H, Cabeza R. Cerebral Cortex. 2007;17(9):2143-2150.",
+      "year": 2007,
+      "doi": "10.1093/cercor/bhl122",
+      "url": "https://doi.org/10.1093/cercor/bhl122",
+      "scope": "Task-fMRI source for subsequent true and false memory formation. Use for long-term-memory false-recognition and source-monitoring boundaries.",
+      "tags": [
+        "long-term-memory",
+        "false-memory",
+        "recognition-memory",
+        "mtl",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "kirwan-stark-2004-face-name-pairs",
+      "title": "Medial temporal lobe activation during encoding and retrieval of novel face-name pairs",
+      "citation": "Kirwan CB, Stark CEL. Hippocampus. 2004;14(7):919-930.",
+      "year": 2004,
+      "doi": "10.1002/hipo.20014",
+      "url": "https://doi.org/10.1002/hipo.20014",
+      "type": "paper",
+      "scope": "Task-fMRI source for face-name associative memory. Use cortical claims cautiously and keep perirhinal, entorhinal, hippocampal, parahippocampal and amygdala coordinates in MTL/specialized atlas review.",
+      "tags": [
+        "long-term-memory",
+        "face-name-association",
+        "medial-temporal-lobe",
+        "coordinate-intake"
+      ]
+    },
+    {
+      "id": "konishi-2002-recency-judgment",
+      "type": "paper",
+      "title": "Neural correlates of recency judgment",
+      "citation": "Konishi S, Uchida I, Okuaki T, Machida T, Shirouzu I, Miyashita Y. The Journal of Neuroscience. 2002;22(21):9549-9555.",
+      "year": 2002,
+      "doi": "10.1523/JNEUROSCI.22-21-09549.2002",
+      "pmid": "12417679",
+      "pmcid": "PMC6758056",
+      "url": "https://doi.org/10.1523/JNEUROSCI.22-21-09549.2002",
+      "scope": "Task fMRI source for recency judgment and temporal-order retrieval. Use for episodic-order-memory coordinate candidates with explicit boundaries: this supports word-sequence recency retrieval, not all real-world event-order memory.",
+      "tags": [
+        "long-term-memory",
+        "episodic-order-memory",
+        "recency-judgment",
+        "temporal-order-retrieval",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "kosslyn-2001-imagery-foundations",
+      "type": "paper",
+      "title": "Neural foundations of imagery",
+      "citation": "Kosslyn SM, Ganis G, Thompson WL. Nature Reviews Neuroscience. 2001;2(9):635-642.",
+      "year": 2001,
+      "doi": "10.1038/35090055",
+      "url": "https://doi.org/10.1038/35090055",
+      "scope": "Review source for visual mental imagery and perception-imagery overlap. Use for visual-imagery task boundaries, not precise parcel claims.",
+      "tags": [
+        "visual-imagery",
+        "mental-imagery",
+        "review",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "kroger-2002-relational-complexity",
+      "type": "paper",
+      "title": "Recruitment of Anterior Dorsolateral Prefrontal Cortex in Human Reasoning: a Parametric Study of Relational Complexity",
+      "citation": "Kroger JK, Sabb FW, Fales CL, Bookheimer SY, Cohen MS, Holyoak KJ. Cerebral Cortex. 2002;12(5):477-485.",
+      "year": 2002,
+      "doi": "10.1093/cercor/12.5.477",
+      "url": "https://doi.org/10.1093/cercor/12.5.477",
+      "scope": "Task fMRI source for relational complexity in matrix reasoning. Use as candidate evidence for anterior DLPFC, inferior frontal, superior parietal and cingulate involvement in relational reasoning.",
+      "tags": [
+        "reasoning",
+        "relational-complexity",
+        "matrix-reasoning",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "kumaran-maguire-2006-unexpected-sequence-events",
+      "type": "paper",
+      "title": "An Unexpected Sequence of Events: Mismatch Detection in the Human Hippocampus",
+      "citation": "Kumaran D, Maguire EA. PLoS Biology. 2006;4(12):e424.",
+      "year": 2006,
+      "doi": "10.1371/journal.pbio.0040424",
+      "pmid": "17132050",
+      "pmcid": "PMC1661685",
+      "url": "https://doi.org/10.1371/journal.pbio.0040424",
+      "scope": "Task-fMRI source for unexpected event-sequence / mismatch detection. PLOS Table S1 supplies MNI cortical peaks plus MTL atlas-boundary evidence for episodic-order-memory, with a boundary that this is not a complete everyday event-order model.",
+      "tags": [
+        "long-term-memory",
+        "episodic-order-memory",
+        "sequence-memory",
+        "mismatch-detection",
+        "mtl",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "langner-eickhoff-2013-vigilant-attention",
+      "type": "paper",
+      "title": "Sustaining attention to simple tasks: A meta-analytic review of the neural mechanisms of vigilant attention",
+      "citation": "Langner R, Eickhoff SB. Psychological Bulletin. 2013;139(4):870-900.",
+      "year": 2013,
+      "doi": "10.1037/a0030694",
+      "url": "https://doi.org/10.1037/a0030694",
+      "scope": "Meta-analytic review of vigilant/sustained attention. Use for CPT and sustained-attention task-family convergence before coordinate extraction.",
+      "tags": [
+        "sustained-attention",
+        "vigilance",
+        "cpt",
+        "meta-analysis",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "macdonald-2000-stroop-control",
+      "type": "paper",
+      "title": "Dissociating the Role of the Dorsolateral Prefrontal and Anterior Cingulate Cortex in Cognitive Control",
+      "citation": "MacDonald AW, Cohen JD, Stenger VA, Carter CS. Science. 2000;288(5472):1835-1838.",
+      "year": 2000,
+      "doi": "10.1126/science.288.5472.1835",
+      "url": "https://doi.org/10.1126/science.288.5472.1835",
+      "scope": "Task fMRI source separating DLPFC task-control preparation and ACC performance monitoring in Stroop-like cognitive control. Use for Stroop control-boundary review.",
+      "tags": [
+        "stroop",
+        "cognitive-control",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "manjaly-2003-hidden-figures-fmri",
+      "type": "paper",
+      "title": "In search of the hidden: an fMRI study with implications for the study of patients with autism and with acquired brain injury",
+      "citation": "Manjaly ZM, Bruning N, Neufang S, et al. NeuroImage. 2003;19(3):674-683.",
+      "year": 2003,
+      "doi": "10.1016/S1053-8119(03)00095-8",
+      "url": "https://doi.org/10.1016/S1053-8119(03)00095-8",
+      "scope": "Task-fMRI source for hidden/embedded figures. Table 1 has been extracted into raw stereotactic/Talairach-style and MNI-converted coordinate intakes. Use Table 1B as EFT-specific convergence evidence alongside Walter/Fonville; keep Table 1A as broad visual-search scaffold.",
+      "tags": [
+        "imagery-operation",
+        "embedded-figures",
+        "visual-search",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "marini-2016-distractor-filtering",
+      "type": "paper",
+      "title": "Orchestrating Proactive and Reactive Mechanisms for Filtering Distracting Information: Brain-Behavior Relationships Revealed by a Mixed-Design fMRI Study",
+      "citation": "Marini F, Demeter E, Roberts KC, Chelazzi L, Woldorff MG. Journal of Neuroscience. 2016;36(3):988-1000.",
+      "year": 2016,
+      "doi": "10.1523/JNEUROSCI.2966-15.2016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4719027/",
+      "scope": "Mixed-design fMRI source for arrow-flanker distraction filtering. Use Table 1 for proactive mixed-block control, Table 2 for reactive incongruent-trial conflict, and keep the claim at task-sample/network level until a Flanker meta-analysis is added.",
+      "tags": [
+        "flanker",
+        "distractor-filtering",
+        "attention",
+        "executive-control",
+        "task-fmri",
+        "coordinate-reviewed"
+      ]
+    },
+    {
+      "id": "merkel-2015-multiple-object-tracking-strategies",
+      "type": "paper",
+      "title": "Neural correlates of multiple object tracking strategies",
+      "citation": "Merkel C, Hopf JM, Schoenfeld MA. NeuroImage. 2015;118:63-73.",
+      "year": 2015,
+      "doi": "10.1016/j.neuroimage.2015.06.005",
+      "url": "https://doi.org/10.1016/j.neuroimage.2015.06.005",
+      "scope": "Task-fMRI source for multiple object tracking strategies. Table 1 MNI ROI seed coordinates have been extracted as 21 review-level candidates. Use with Jovicich 2001 to refine MOT strategy displays, not as a replacement for attentional-load coordinates.",
+      "tags": [
+        "attention",
+        "multiple-object-tracking",
+        "visual-tracking",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "milivojevic-2003-mental-paper-folding",
+      "type": "paper",
+      "title": "Non-identical neural mechanisms for two types of mental transformation: event-related potentials during mental rotation and mental paper folding",
+      "citation": "Milivojevic B, Johnson BW, Hamm JP, Corballis MC. Neuropsychologia. 2003;41(10):1345-1356.",
+      "year": 2003,
+      "doi": "10.1016/S0028-3932(03)00060-5",
+      "url": "https://doi.org/10.1016/S0028-3932(03)00060-5",
+      "scope": "ERP and behavioral source comparing mental letter rotation with mental paper folding. Use for task identity, complexity, and parietal-lateralization boundaries; do not use as MNI/Schaefer coordinate evidence.",
+      "tags": [
+        "mental-paper-folding",
+        "spatial-folding-unfolding",
+        "mental-rotation",
+        "event-related-potentials",
+        "behavioral-paradigm",
+        "mapping-boundary"
+      ]
+    },
+    {
+      "id": "miyake-2000-executive-functions",
+      "type": "paper",
+      "title": "The unity and diversity of executive functions and their contributions to complex frontal lobe tasks",
+      "citation": "Miyake A, Friedman NP, Emerson MJ, Witzki AH, Howerter A, Wager TD. Cognitive Psychology. 2000;41(1):49-100.",
+      "year": 2000,
+      "doi": "10.1006/cogp.1999.0734",
+      "url": "https://doi.org/10.1006/cogp.1999.0734",
+      "scope": "Behavioral executive-function taxonomy source for inhibition, shifting, and updating. Use for keep-track and task-family identity, not brain-region evidence.",
+      "tags": [
+        "executive-functions",
+        "updating",
+        "shifting",
+        "inhibition",
+        "behavioral-paradigm"
+      ]
+    },
+    {
+      "type": "model_note",
+      "title": "Brain Function Vision evidence modeling note",
+      "citation": "Project-local modeling convention: keep atlas, evidence priors, and task overlays separate."
+    },
+    {
+      "id": "murty-2011-flexible-updating",
+      "type": "paper",
+      "title": "Selective updating of working memory content modulates meso-cortico-striatal activity",
+      "citation": "Murty VP, Sambataro F, Radulescu E, Altamura M, Iudicello J, Zoltick B, Weinberger DR, Goldberg TE, Mattay VS. NeuroImage. 2011;57(3):1264-1272.",
+      "year": 2011,
+      "doi": "10.1016/j.neuroimage.2011.05.006",
+      "pmcid": "PMC3908780",
+      "url": "https://doi.org/10.1016/j.neuroimage.2011.05.006",
+      "scope": "Selective working-memory updating source. PMC Table 2 MNI coordinates support updating > maintenance and updating > overwriting candidates; caudate/SN-VTA/cerebellum remain atlas-boundary evidence.",
+      "tags": [
+        "executive-function",
+        "short-term-memory",
+        "updating",
+        "keep-track-boundary",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "navarro-schroder-2015-entorhinal-topography",
+      "type": "paper",
+      "title": "Functional topography of the human entorhinal cortex",
+      "citation": "Navarro Schroder T, Haak KV, Zaragoza Jimenez NI, Beckmann CF, Doeller CF. eLife. 2015;4:e06738.",
+      "year": 2015,
+      "doi": "10.7554/eLife.06738",
+      "pmid": "26052748",
+      "pmcid": "PMC4524462",
+      "url": "https://doi.org/10.7554/eLife.06738",
+      "scope": "High-field 7T fMRI and connectivity-gradient source for human entorhinal functional topography. Use for anterior-lateral versus posterior-medial entorhinal cortex, anterior-temporal/posterior-medial memory-system, and object/content versus scene/spatial-context mechanism language; not for Schaefer200 cortical task-activation points.",
+      "tags": [
+        "medial-temporal-lobe",
+        "entorhinal-cortex",
+        "alec",
+        "pmec",
+        "long-term-memory",
+        "scene-memory",
+        "object-memory",
+        "spatial-context",
+        "functional-connectivity",
+        "atlas-boundary"
+      ]
+    },
+    {
+      "id": "nee-brown-2013-updating-hierarchical-contexts",
+      "type": "paper",
+      "title": "Dissociable Frontal-Striatal and Frontal-Parietal Networks Involved in Updating Hierarchical Contexts in Working Memory",
+      "citation": "Nee DE, Brown JW. Cerebral Cortex. 2013;23(9):2146-2158.",
+      "year": 2013,
+      "doi": "10.1093/cercor/bhs194",
+      "pmcid": "PMC3841420",
+      "url": "https://doi.org/10.1093/cercor/bhs194",
+      "scope": "Hierarchical context-updating fMRI source. PMC Tables 1-2 MNI coordinates support frontal-cingulate, frontal-parietal and frontostriatal updating boundaries, not keep-track original-task localization.",
+      "tags": [
+        "executive-function",
+        "short-term-memory",
+        "updating",
+        "keep-track-boundary",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "neubauer-2017-tacs-paper-folding-fmri",
+      "type": "paper",
+      "title": "The influence of transcranial alternating current stimulation (tACS) on fluid intelligence: An fMRI study",
+      "citation": "Neubauer AC, Wammerl M, Benedek M, Jauk E, Jausovec N. Personality and Individual Differences. 2017;118:50-55.",
+      "year": 2017,
+      "doi": "10.1016/j.paid.2017.04.016",
+      "pmid": "29176918",
+      "pmcid": "PMC5700801",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5700801/",
+      "scope": "Task-fMRI source including a paper folding task. Use Supplementary Table S2 VERUM+SHAM task-specific MNI peaks as a direct PFT activation candidate; keep Table 1 stimulation-modulation peaks separate from ordinary task activation.",
+      "tags": [
+        "mental-paper-folding",
+        "spatial-folding-unfolding",
+        "paper-folding-test",
+        "task-fmri",
+        "coordinate-review-priority",
+        "candidate-coordinate-source"
+      ]
+    },
+    {
+      "id": "ng-2021-word-problem-lexical-consistency",
+      "type": "paper",
+      "title": "Operation-Specific Lexical Consistency Effect in Fronto-Insular-Parietal Network During Word Problem Solving",
+      "citation": "Ng CT, Lung TC, Chang TT. Frontiers in Human Neuroscience. 2021;15:631438.",
+      "year": 2021,
+      "doi": "10.3389/fnhum.2021.631438",
+      "pmid": "33746763",
+      "pmcid": "PMC7987662",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7987662/",
+      "scope": "Task-fMRI source for arithmetic compare-word problems with lexical consistency by operation manipulation. Use as adult coordinate-intake evidence for math-word-problem logic/conflict modeling; keep child-transfer and caudate boundaries explicit.",
+      "tags": [
+        "calculation",
+        "math-word-problem",
+        "task-fmri",
+        "coordinate-intake"
+      ]
+    },
+    {
+      "id": "ng-2025-word-problem-sentence-comprehension",
+      "type": "paper",
+      "title": "Distinct Behavioural and Brain Response Profiles Between Arithmetic Word Problem Solving and Sentence Comprehension in Third and Fourth Graders",
+      "citation": "Ng CT, Chen XY, Chang TT. European Journal of Neuroscience. 2025;61(2):e70003.",
+      "year": 2025,
+      "doi": "10.1111/ejn.70003",
+      "url": "https://doi.org/10.1111/ejn.70003",
+      "scope": "Child fMRI source contrasting arithmetic word-problem solving and sentence comprehension. Use for product-demonstration boundaries between math intuition and semantic/logical comprehension.",
+      "tags": [
+        "calculation",
+        "reading",
+        "math-word-problem",
+        "sentence-comprehension",
+        "children",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "niendam-2012-cognitive-control",
+      "type": "paper",
+      "title": "Meta-analytic evidence for a superordinate cognitive control network subserving diverse executive functions",
+      "citation": "Niendam TA, Laird AR, Ray KL, Dean YM, Glahn DC, Carter CS. Cognitive, Affective, & Behavioral Neuroscience. 2012;12(2):241-268.",
+      "year": 2012,
+      "doi": "10.3758/s13415-011-0083-5",
+      "url": "https://doi.org/10.3758/s13415-011-0083-5",
+      "scope": "Coordinate-based meta-analytic evidence for a cross-task cognitive-control network. Use for Stroop/Flanker/executive-control convergence priors, while preserving task-specific boundaries.",
+      "tags": [
+        "executive-control",
+        "conflict-control",
+        "meta-analysis",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "nitschke-2017-tower-of-london",
+      "type": "paper",
+      "title": "A Meta-analysis on the neural basis of planning: Activation likelihood estimation of functional brain imaging results in the Tower of London task",
+      "citation": "Nitschke K, Köstering L, Finkel L, Weiller C, Kaller CP. Human Brain Mapping. 2017;38(1):396-413.",
+      "year": 2017,
+      "doi": "10.1002/hbm.23368",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6867129/",
+      "scope": "Coordinate-based ALE meta-analysis for Tower of London planning and planning-complexity networks. Use Table 2 weighted centroids for planning overlays; keep caudate as atlas-boundary evidence outside Schaefer200.",
+      "tags": [
+        "planning",
+        "tower-of-london",
+        "executive-control",
+        "meta-analysis",
+        "coordinate-reviewed"
+      ]
+    },
+    {
+      "id": "owen-2005-nback",
+      "type": "paper",
+      "title": "N-back working memory paradigm: A meta-analysis of normative functional neuroimaging studies",
+      "citation": "Owen AM, McMillan KM, Laird AR, Bullmore E. Human Brain Mapping. 2005;25(1):46-59.",
+      "year": 2005,
+      "doi": "10.1002/hbm.20131",
+      "url": "https://doi.org/10.1002/hbm.20131",
+      "scope": "Meta-analysis of normative n-back functional neuroimaging studies. Use for n-back working-memory updating and frontoparietal/premotor/posterior-parietal task-family evidence, not for direct Schaefer parcel claims until coordinates are converted and mapped.",
+      "tags": [
+        "working-memory",
+        "n-back",
+        "meta-analysis",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "pardo-1990-stroop-acc",
+      "type": "paper",
+      "title": "The anterior cingulate cortex mediates processing selection in the Stroop attentional conflict paradigm",
+      "citation": "Pardo JV, Pardo PJ, Janer KW, Raichle ME. Proceedings of the National Academy of Sciences. 1990;87(1):256-259.",
+      "year": 1990,
+      "doi": "10.1073/pnas.87.1.256",
+      "url": "https://doi.org/10.1073/pnas.87.1.256",
+      "scope": "Classic task-imaging source for Stroop conflict and anterior cingulate/medial frontal processing-selection evidence. Use as a region-level priority source, not final parcel proof.",
+      "tags": [
+        "stroop",
+        "conflict-monitoring",
+        "task-study",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "parsons-osherson-2001-deductive-probabilistic-reasoning",
+      "type": "paper",
+      "title": "New Evidence for Distinct Right and Left Brain Systems for Deductive versus Probabilistic Reasoning",
+      "citation": "Parsons LM, Osherson DN. Cerebral Cortex. 2001;11(10):954-965.",
+      "year": 2001,
+      "doi": "10.1093/cercor/11.10.954",
+      "url": "https://doi.org/10.1093/cercor/11.10.954",
+      "scope": "PET task source for contrasting deductive and probabilistic reasoning. Use for reasoning/probability candidate coordinates with explicit Talairach provenance; not a task-general proof of all reasoning networks.",
+      "tags": [
+        "reasoning",
+        "deductive-reasoning",
+        "probability-statistics-reasoning",
+        "task-pet",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "paulesu-1993-phonological-loop",
+      "type": "paper",
+      "title": "The neural correlates of the verbal component of working memory",
+      "citation": "Paulesu E, Frith CD, Frackowiak RSJ. Nature. 1993;362(6418):342-345.",
+      "year": 1993,
+      "doi": "10.1038/362342a0",
+      "url": "https://doi.org/10.1038/362342a0",
+      "scope": "Classic neuroimaging source for the verbal component of working memory and phonological-loop framing. Use for digit-span source acquisition and coordinate review.",
+      "tags": [
+        "working-memory",
+        "phonological-loop",
+        "digit-span",
+        "task-study",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "prabhakaran-1997-fluid-reasoning-raven",
+      "type": "paper",
+      "title": "Neural Substrates of Fluid Reasoning: An fMRI Study of Neocortical Activation during Performance of the Raven's Progressive Matrices Test",
+      "citation": "Prabhakaran V, Smith JAL, Desmond JE, Glover GH, Gabrieli JDE. Cognitive Psychology. 1997;33(1):43-63.",
+      "year": 1997,
+      "doi": "10.1006/cogp.1997.0659",
+      "url": "https://doi.org/10.1006/cogp.1997.0659",
+      "scope": "Task-fMRI source for Raven/APM fluid reasoning. Use for Raven-specific region and network boundaries; exact Schaefer200 point mapping still requires the external activation-foci table referenced by the article.",
+      "tags": [
+        "reasoning",
+        "raven",
+        "fluid-reasoning",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "price-2012-language-review",
+      "type": "paper",
+      "title": "A review and synthesis of the first 20 years of PET and fMRI studies of heard speech, spoken language and reading",
+      "citation": "Price CJ. NeuroImage. 2012;62(2):816-847.",
+      "year": 2012,
+      "doi": "10.1016/j.neuroimage.2012.04.062",
+      "url": "https://doi.org/10.1016/j.neuroimage.2012.04.062",
+      "scope": "Review and synthesis for speech, language, and reading neuroimaging. Use for reading and sentence-comprehension boundaries before language-specific atlas work.",
+      "tags": [
+        "reading",
+        "language",
+        "sentence-comprehension",
+        "review",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "rae-2014-selection-stopping",
+      "title": "Selection and stopping in voluntary action: A meta-analysis and combined fMRI study",
+      "citation": "Rae CL, Hughes LE, Weaver C, Anderson MC, Rowe JB. NeuroImage. 2014;86:381-391.",
+      "year": 2014,
+      "doi": "10.1016/j.neuroimage.2013.10.012",
+      "url": "https://doi.org/10.1016/j.neuroimage.2013.10.012",
+      "type": "paper",
+      "scope": "Combined coordinate source: GingerALE meta-analysis plus within-subject fMRI for voluntary action selection and stopping. Use conjunction/preSMA rows for production review; do not show all extracted peaks.",
+      "tags": [
+        "executive-function",
+        "reaction-speed",
+        "stop-signal",
+        "response-selection",
+        "coordinate-intake"
+      ]
+    },
+    {
+      "id": "reineberg-2022-general-executive-function",
+      "type": "paper",
+      "title": "Context-specific activations are a hallmark of the neural basis of individual differences in common executive function",
+      "citation": "Reineberg AE, Banich MT, Wager TD, Friedman NP. NeuroImage. 2022;249:118845.",
+      "year": 2022,
+      "doi": "10.1016/j.neuroimage.2021.118845",
+      "url": "https://doi.org/10.1016/j.neuroimage.2021.118845",
+      "scope": "Large-sample executive-function fMRI task battery source. Use for keep-track and common-executive-function framing; local PDF/HTML/supplement review found network maps and atlas-composition summaries but no numeric peak-coordinate table.",
+      "tags": [
+        "executive-function",
+        "keep-track",
+        "updating",
+        "common-executive-function",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "ring-1999-preserved-cognitive-skills-autism",
+      "type": "paper",
+      "title": "Cerebral correlates of preserved cognitive skills in autism",
+      "citation": "Ring HA, Baron-Cohen S, Wheelwright S, et al. Brain. 1999;122(7):1305-1315.",
+      "year": 1999,
+      "doi": "10.1093/brain/122.7.1305",
+      "url": "https://doi.org/10.1093/brain/122.7.1305",
+      "scope": "Autism hidden-figures imaging source. Tables 2-4 have been extracted into raw Talairach and MNI-converted clinical-boundary coordinate intakes. Use for embedded-figures strategy differences and clinical boundary framing; avoid generalizing directly to typical training claims.",
+      "tags": [
+        "imagery-operation",
+        "embedded-figures",
+        "autism",
+        "boundary-source"
+      ]
+    },
+    {
+      "id": "rodriguez-moreno-hirsch-2009-deductive-reasoning",
+      "type": "paper",
+      "title": "The dynamics of deductive reasoning: An fMRI investigation",
+      "citation": "Rodriguez-Moreno D, Hirsch J. Neuropsychologia. 2009;47(4):949-961.",
+      "year": 2009,
+      "doi": "10.1016/j.neuropsychologia.2008.08.030",
+      "url": "https://doi.org/10.1016/j.neuropsychologia.2008.08.030",
+      "scope": "Task-fMRI source for deductive reasoning dynamics. Use for premise/rule inference and frontoparietal-language control boundaries.",
+      "tags": [
+        "deductive-reasoning",
+        "task-fmri",
+        "frontoparietal",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "roediger-mcdermott-1995-drm",
+      "type": "paper",
+      "title": "Creating false memories: Remembering words not presented in lists",
+      "citation": "Roediger HL, McDermott KB. Journal of Experimental Psychology: Learning, Memory, and Cognition. 1995;21(4):803-814.",
+      "year": 1995,
+      "doi": "10.1037/0278-7393.21.4.803",
+      "url": "https://doi.org/10.1037/0278-7393.21.4.803",
+      "scope": "Behavioral paradigm source for DRM false memory. Use for task identity and semantic-gist boundaries, not direct brain-region evidence.",
+      "tags": [
+        "drm",
+        "false-memory",
+        "behavioral-paradigm",
+        "semantic-gist"
+      ]
+    },
+    {
+      "id": "rolls-2022-hippocampus-vmpfc-memory",
+      "type": "paper",
+      "title": "The hippocampus, ventromedial prefrontal cortex, and episodic and semantic memory",
+      "citation": "Rolls ET. Progress in Neurobiology. 2022;217:102334.",
+      "year": 2022,
+      "doi": "10.1016/j.pneurobio.2022.102334",
+      "url": "https://doi.org/10.1016/j.pneurobio.2022.102334",
+      "scope": "Review-level source for hippocampus, vmPFC, episodic memory, semantic memory, and schema/context language. Use as a candidate framework, not coordinate evidence.",
+      "tags": [
+        "long-term-memory",
+        "episodic-memory",
+        "hippocampus",
+        "vmPFC",
+        "review"
+      ]
+    },
+    {
+      "id": "rottschy-2012-working-memory",
+      "type": "paper",
+      "title": "Modelling neural correlates of working memory: A coordinate-based meta-analysis",
+      "citation": "Rottschy C, Langner R, Dogan I, et al. NeuroImage. 2012;60(1):830-846.",
+      "year": 2012,
+      "doi": "10.1016/j.neuroimage.2011.11.050",
+      "url": "https://doi.org/10.1016/j.neuroimage.2011.11.050",
+      "scope": "Coordinate-based working-memory meta-analysis. Use as a priority source for separating maintenance, manipulation, updating, and load/capacity evidence; do not use for final parcel-level claims until full-text coordinates are extracted.",
+      "tags": [
+        "working-memory",
+        "coordinate-based-meta-analysis",
+        "short-term-memory",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "rubia-2006-frontostriatal-cognitive-control",
+      "type": "paper",
+      "title": "Progressive increase of frontostriatal brain activation from childhood to adulthood during event-related tasks of cognitive control",
+      "citation": "Rubia K, Smith AB, Woolley J, et al. Human Brain Mapping. 2006;27(12):973-993.",
+      "year": 2006,
+      "doi": "10.1002/hbm.20237",
+      "pmid": "16683265",
+      "pmcid": "PMC6871373",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6871373/",
+      "scope": "Event-related fMRI source spanning Go/No-Go, Simon interference, and task-switching cognitive-control tasks. Use the extracted Talairach Table II rows as raw coordinate intake for Go/No-Go and task switching; keep Simon rows deferred until a dedicated Simon paradigm is added.",
+      "tags": [
+        "executive-control",
+        "go-no-go",
+        "task-switching",
+        "simon-task",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "saylik-2022-executive-function-unity-diversity",
+      "type": "paper",
+      "title": "Characterising the unity and diversity of executive functions in a within-subject fMRI study",
+      "citation": "Saylik R, Williams AL, Murphy RA, Szameitat AJ. Scientific Reports. 2022;12:8182.",
+      "year": 2022,
+      "doi": "10.1038/s41598-022-11433-z",
+      "url": "https://doi.org/10.1038/s41598-022-11433-z",
+      "scope": "Task fMRI source for common and distinct executive-function activity across updating, inhibition, switching and dual-tasking. Use Table 1 conjunction peaks as common-EF support while preserving task-specific boundaries.",
+      "tags": [
+        "executive-function",
+        "updating",
+        "inhibition",
+        "switching",
+        "dual-task",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "schaefer2018",
+      "type": "paper",
+      "title": "Local-Global Parcellation of the Human Cerebral Cortex from Intrinsic Functional Connectivity MRI",
+      "citation": "Schaefer A, Kong R, Gordon EM, et al. Cerebral Cortex, 2018.",
+      "year": 2018,
+      "doi": "10.1093/cercor/bhx179",
+      "url": "https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal"
+    },
+    {
+      "id": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "type": "paper",
+      "title": "A sensory signature that distinguishes true from false memories",
+      "citation": "Slotnick SD, Schacter DL. Nature Neuroscience. 2004;7(6):664-672.",
+      "year": 2004,
+      "doi": "10.1038/nn1252",
+      "url": "https://doi.org/10.1038/nn1252",
+      "scope": "Task-fMRI source for distinguishing true and false recognition through sensory-perceptual signatures. Use for DRM/false-memory and recognition-memory boundaries.",
+      "tags": [
+        "long-term-memory",
+        "false-memory",
+        "recognition-memory",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "smith-1996-verbal-spatial-wm",
+      "type": "paper",
+      "title": "Dissociating Verbal and Spatial Working Memory Using PET",
+      "citation": "Smith EE, Jonides J, Koeppe RA. Cerebral Cortex. 1996;6(1):11-20.",
+      "year": 1996,
+      "doi": "10.1093/cercor/6.1.11",
+      "url": "https://doi.org/10.1093/cercor/6.1.11",
+      "scope": "PET source dissociating verbal and spatial working memory. Use as a boundary source for digit-span versus grid/spatial-span overlays.",
+      "tags": [
+        "working-memory",
+        "verbal-working-memory",
+        "spatial-working-memory",
+        "digit-span",
+        "grid-span",
+        "task-study",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "spaniol-2009-episodic-memory",
+      "type": "paper",
+      "title": "Event-related fMRI studies of episodic encoding and retrieval: Meta-analyses using activation likelihood estimation",
+      "citation": "Spaniol J, Davidson PSR, Kim ASN, Han H, Moscovitch M, Grady CL. Neuropsychologia. 2009;47(8-9):1765-1779.",
+      "year": 2009,
+      "doi": "10.1016/j.neuropsychologia.2009.02.028",
+      "url": "https://doi.org/10.1016/j.neuropsychologia.2009.02.028",
+      "scope": "ALE meta-analyses for episodic encoding and retrieval. Use for recognition-memory and long-term-memory retrieval priors before coordinate-to-parcel mapping.",
+      "tags": [
+        "episodic-memory",
+        "recognition-memory",
+        "retrieval",
+        "meta-analysis",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "sperling-2003-face-name",
+      "type": "paper",
+      "title": "Putting names to faces:",
+      "citation": "Sperling R, Chua E, Cocchiarella A, et al. NeuroImage. 2003;20(2):1400-1410.",
+      "year": 2003,
+      "doi": "10.1016/S1053-8119(03)00391-4",
+      "url": "https://doi.org/10.1016/S1053-8119(03)00391-4",
+      "scope": "Task fMRI face-name associative encoding source. Use as candidate evidence for face-name associative memory, hippocampal/medial temporal binding, and prefrontal strategy boundaries.",
+      "tags": [
+        "long-term-memory",
+        "face-name",
+        "associative-memory",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "stavy-babai-kallai-2016-proportional-reasoning",
+      "type": "paper",
+      "title": "Proportional Reasoning",
+      "citation": "Stavy R, Babai R, Kallai AY. Zeitschrift fuer Psychologie. 2016;224(4):266-276.",
+      "year": 2016,
+      "doi": "10.1027/2151-2604/a000262",
+      "url": "https://doi.org/10.1027/2151-2604/a000262",
+      "scope": "Screenshot-derived task-fMRI source for proportional reasoning, congruity and salience. Use as candidate coordinate evidence for ratio/proportional reasoning and math-intuition conflict; do not treat as full production wording until the PDF methods and table captions are reviewed.",
+      "tags": [
+        "calculation",
+        "proportional-reasoning",
+        "probability-statistics-reasoning",
+        "math-intuition-conflict",
+        "salience",
+        "task-fmri",
+        "coordinate-review-priority",
+        "screenshot-intake"
+      ]
+    },
+    {
+      "id": "stern-1996-novel-picture-encoding",
+      "type": "paper",
+      "title": "The hippocampal formation participates in novel picture encoding: evidence from functional magnetic resonance imaging",
+      "citation": "Stern CE, Corkin S, Gonzalez RG, et al. Proceedings of the National Academy of Sciences. 1996;93(16):8660-8665.",
+      "year": 1996,
+      "doi": "10.1073/pnas.93.16.8660",
+      "url": "https://doi.org/10.1073/pnas.93.16.8660",
+      "scope": "Task fMRI source for novel picture encoding involving hippocampal formation, parahippocampal gyrus, lingual and fusiform gyri. Use as visual delayed/long-term visual memory candidate evidence.",
+      "tags": [
+        "long-term-memory",
+        "visual-memory",
+        "picture-encoding",
+        "hippocampus"
+      ]
+    },
+    {
+      "id": "swick-2011-stopping",
+      "type": "paper",
+      "title": "Are the neural correlates of stopping and not going identical? Quantitative meta-analysis of two response inhibition tasks",
+      "citation": "Swick D, Ashley V, Turken AU. NeuroImage. 2011;56(3):1655-1665.",
+      "year": 2011,
+      "doi": "10.1016/j.neuroimage.2011.02.070",
+      "url": "https://doi.org/10.1016/j.neuroimage.2011.02.070",
+      "scope": "Quantitative meta-analysis comparing Go/No-Go and Stop-signal response-inhibition tasks. Use to separate no-go withholding from stop-signal cancellation and to prioritize inhibition-related coordinate review.",
+      "tags": [
+        "response-inhibition",
+        "go-no-go",
+        "stop-signal",
+        "meta-analysis",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "taylor-2013-reading-meta",
+      "type": "paper",
+      "title": "Can cognitive models explain brain activation during word and pseudoword reading? A meta-analysis of 36 neuroimaging studies",
+      "citation": "Taylor JS, Rastle K, Davis MH. Psychological Bulletin. 2013;139(4):766-791.",
+      "year": 2013,
+      "doi": "10.1037/a0030266",
+      "url": "https://doi.org/10.1037/a0030266",
+      "scope": "Meta-analysis for word and pseudoword reading. Use for lexical-decision and reading-task convergence priors while preserving language-atlas limitations.",
+      "tags": [
+        "reading",
+        "lexical-decision",
+        "word-reading",
+        "meta-analysis",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "thakral-2025-false-memory-meta",
+      "type": "paper",
+      "title": "Are False Memory and Creative Thinking Mediated by Common Neural Substrates? An fMRI Meta-Analysis",
+      "citation": "Thakral PP, Starkey CC, Devitt AL, Schacter DL. Creativity Research Journal. 2025;37(1):6-21.",
+      "year": 2025,
+      "doi": "10.1080/10400419.2023.2269356",
+      "pmid": "39953013",
+      "pmcid": "PMC11810115",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11810115/",
+      "scope": "False-recognition fMRI meta-analysis source. Use Table 3 as DRM-family false-recognition candidate evidence only; do not claim a robust shared false-memory/creative-thinking network.",
+      "tags": [
+        "long-term-memory",
+        "false-memory",
+        "meta-analysis",
+        "coordinate-intake"
+      ]
+    },
+    {
+      "id": "tubridy-davachi-2011-episodic-sequence-encoding",
+      "type": "paper",
+      "title": "Medial Temporal Lobe Contributions to Episodic Sequence Encoding",
+      "citation": "Tubridy S, Davachi L. Cerebral Cortex. 2011;21(2):272-280.",
+      "year": 2011,
+      "doi": "10.1093/cercor/bhq092",
+      "pmcid": "PMC3020579",
+      "url": "https://doi.org/10.1093/cercor/bhq092",
+      "scope": "Episodic sequence encoding source. PMC full text reports ordered > misordered MTL MNI coordinates; use as hippocampal/subicular/parahippocampal specialized-atlas boundary evidence for episodic-order-memory.",
+      "tags": [
+        "long-term-memory",
+        "episodic-order-memory",
+        "sequence-memory",
+        "mtl",
+        "hippocampus",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "uddin2019-universal-taxonomy",
+      "type": "paper",
+      "title": "Towards a Universal Taxonomy of Macro-scale Functional Human Brain Networks",
+      "citation": "Uddin LQ, Yeo BTT, Spreng RN. Brain Topography. 2019;32(6):926-942.",
+      "year": 2019,
+      "doi": "10.1007/s10548-019-00744-6",
+      "pmid": "31707621",
+      "pmcid": "PMC7325607",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7325607/",
+      "scope": "Macro-scale functional network taxonomy and nomenclature review. Use it to support broad network naming and cross-network interpretation, not precise parcel-level task activation.",
+      "tags": [
+        "network-taxonomy",
+        "nomenclature",
+        "macro-scale-networks"
+      ]
+    },
+    {
+      "id": "unterrainer-owen-2006-planning",
+      "type": "paper",
+      "title": "Planning and problem solving: From neuropsychology to functional neuroimaging",
+      "citation": "Unterrainer JM, Owen AM. Journal of Physiology-Paris. 2006;99(4-6):308-317.",
+      "year": 2006,
+      "doi": "10.1016/j.jphysparis.2006.03.014",
+      "url": "https://doi.org/10.1016/j.jphysparis.2006.03.014",
+      "scope": "Review source for Tower of London, planning, and problem-solving neuroimaging. Use for planning-task boundaries before detailed coordinate extraction.",
+      "tags": [
+        "planning",
+        "tower-of-london",
+        "executive-control",
+        "review",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "vigneau-2006-left-hemisphere-language-meta",
+      "type": "paper",
+      "title": "Meta-analyzing left hemisphere language areas: phonology, semantics, and sentence processing",
+      "citation": "Vigneau M, Beaucousin V, Hervé PY, et al. NeuroImage. 2006;30(4):1414-1432.",
+      "year": 2006,
+      "doi": "10.1016/j.neuroimage.2005.11.002",
+      "url": "https://doi.org/10.1016/j.neuroimage.2005.11.002",
+      "scope": "Meta-analysis of left-hemisphere language areas. Table 4 has been extracted into 30 MNI cluster means separating phonology, semantics and sentence processing; use as a review-level language scaffold.",
+      "tags": [
+        "reading",
+        "language",
+        "phonology",
+        "semantics",
+        "sentence-comprehension",
+        "meta-analysis"
+      ]
+    },
+    {
+      "id": "wager-2004-shifting-attention-meta",
+      "type": "paper",
+      "title": "Neuroimaging studies of shifting attention: a meta-analysis",
+      "citation": "Wager TD, Jonides J, Reading S. NeuroImage. 2004;22(4):1679-1693.",
+      "year": 2004,
+      "doi": "10.1016/j.neuroimage.2004.03.052",
+      "url": "https://doi.org/10.1016/j.neuroimage.2004.03.052",
+      "scope": "Meta-analysis of shifting attention. Table 2 MNI density-analysis coordinates have been extracted as 13 cortical candidates plus 1 thalamus atlas-boundary row. Use for attention shifting and task-switching boundary evidence with contrast/task-family pruning; do not use as the sole ANT/Posner orienting source.",
+      "tags": [
+        "attention",
+        "attention-shifting",
+        "task-switching",
+        "meta-analysis",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "wagner-2005-parietal-episodic-retrieval",
+      "type": "paper",
+      "title": "Parietal lobe contributions to episodic memory retrieval",
+      "citation": "Wagner AD, Shannon BJ, Kahn I, Buckner RL. Trends in Cognitive Sciences. 2005;9(9):445-453.",
+      "year": 2005,
+      "doi": "10.1016/j.tics.2005.07.001",
+      "pmid": "16054861",
+      "url": "https://doi.org/10.1016/j.tics.2005.07.001",
+      "scope": "Review source for inferior/lateral parietal contributions to episodic retrieval. Use for angular/IPL retrieval-support language before coordinate-level mapping.",
+      "tags": [
+        "long-term-memory",
+        "episodic-retrieval",
+        "parietal-cortex",
+        "review",
+        "paper-needed"
+      ]
+    },
+    {
+      "id": "walter-2011-embedded-figures",
+      "type": "paper",
+      "title": "Activation in a Frontoparietal Cortical Network Underlies Individual Differences in the Performance of an Embedded Figures Task",
+      "citation": "Walter E, Dassonville P. PLoS ONE. 2011;6(7):e20742.",
+      "year": 2011,
+      "doi": "10.1371/journal.pone.0020742",
+      "url": "https://doi.org/10.1371/journal.pone.0020742",
+      "scope": "Task-fMRI source for the Embedded Figures Test. Use for visual disembedding, parietal search, and performance-related right IFG/insula/TPJ control branches after Talairach-to-MNI conversion.",
+      "tags": [
+        "embedded-figures",
+        "visual-disembedding",
+        "frontoparietal",
+        "task-fmri",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "wu-2018-hick-hyman",
+      "type": "paper",
+      "title": "Hick-Hyman Law is Mediated by the Cognitive Control Network in the Brain",
+      "citation": "Wu T, Dufford AJ, Egan LJ, Mackie MA, Chen C, Yuan C, Chen C, Li X, Liu X, Hof PR, Fan J. Cerebral Cortex. 2018;28(7):2267-2282.",
+      "year": 2018,
+      "doi": "10.1093/cercor/bhx127",
+      "pmid": "28531252",
+      "pmcid": "PMC5998988",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5998988/",
+      "scope": "Task-fMRI source candidate for ordinary choice reaction time / Hick-Hyman response-alternative load. Main article and user-provided supplement zip are locally archived; Supplementary Tables 2-15 and 17 have been extracted to a coordinate-intake candidate and Table 6 ROI coordinates define the CCN seed family. Still requires local parcel pruning before point-level reviewed mapping.",
+      "tags": [
+        "reaction-speed",
+        "choice-reaction-time",
+        "hick-hyman",
+        "response-selection",
+        "task-fmri",
+        "coordinate-review-priority",
+        "supplement-extracted"
+      ]
+    },
+    {
+      "id": "ye-zhou-2009-sentence-conflict-control",
+      "type": "paper",
+      "title": "Conflict control during sentence comprehension: fMRI evidence",
+      "citation": "Ye Z, Zhou X. NeuroImage. 2009;48(1):280-290.",
+      "year": 2009,
+      "doi": "10.1016/j.neuroimage.2009.06.032",
+      "url": "https://doi.org/10.1016/j.neuroimage.2009.06.032",
+      "scope": "Task-fMRI source for conflict control during sentence comprehension. Tables 2/4 are extracted as 28 MNI candidates for sentence plausibility/syntax effects and cross-domain conflict-control overlap; keep Table 3 Stroop/flanker rows as comparator context.",
+      "tags": [
+        "reading",
+        "sentence-comprehension",
+        "semantic-conflict",
+        "executive-control",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "yeo2011",
+      "type": "paper",
+      "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity",
+      "citation": "Yeo BTT, Krienen FM, Sepulcre J, et al. Journal of Neurophysiology, 2011.",
+      "year": 2011,
+      "doi": "10.1152/jn.00338.2011"
+    },
+    {
+      "id": "zacks-2008-mental-rotation",
+      "type": "paper",
+      "title": "Neuroimaging studies of mental rotation: A meta-analysis and review",
+      "citation": "Zacks JM. Journal of Cognitive Neuroscience. 2008;20(1):1-19.",
+      "year": 2008,
+      "doi": "10.1162/jocn.2008.20013",
+      "url": "https://doi.org/10.1162/jocn.2008.20013",
+      "scope": "Meta-analysis and review of mental rotation neuroimaging studies. Use for mental-rotation task-family evidence around posterior parietal spatial transformation and task-conditional motor-simulation boundaries.",
+      "tags": [
+        "mental-rotation",
+        "spatial-imagery",
+        "meta-analysis",
+        "coordinate-review-priority"
+      ]
+    },
+    {
+      "id": "zago-2001-simple-complex-calculation",
+      "type": "paper",
+      "title": "Neural Correlates of Simple and Complex Mental Calculation",
+      "citation": "Zago L, Pesenti M, Mellet E, Crivello F, Mazoyer B, Tzourio-Mazoyer N. NeuroImage. 2001;13(2):314-327.",
+      "year": 2001,
+      "doi": "10.1006/nimg.2000.0697",
+      "url": "https://doi.org/10.1006/nimg.2000.0697",
+      "scope": "Task fMRI source for simple versus complex mental calculation, calculation load, and frontoparietal control boundaries.",
+      "tags": [
+        "calculation",
+        "mental-arithmetic",
+        "complex-calculation",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "zeineh-2003-face-name-hippocampus",
+      "type": "paper",
+      "title": "Dynamics of the Hippocampus During Encoding and Retrieval of Face-Name Pairs",
+      "citation": "Zeineh MM, Engel SA, Thompson PM, Bookheimer SY. Science. 2003;299(5606):577-580.",
+      "year": 2003,
+      "doi": "10.1126/science.1077775",
+      "url": "https://doi.org/10.1126/science.1077775",
+      "scope": "High-resolution task-fMRI source for face-name associative learning. Use as specialized MTL/hippocampal-subfield evidence for CA2/3-DG encoding and posterior-subiculum retrieval; keep subfield boundaries out of Schaefer200 cortical parcel claims.",
+      "tags": [
+        "long-term-memory",
+        "face-name",
+        "hippocampus",
+        "mtl-subfield",
+        "task-fmri"
+      ]
+    },
+    {
+      "id": "kuhn-2014-super-mario-structural-plasticity",
+      "type": "paper",
+      "title": "Playing Super Mario induces structural brain plasticity: gray matter changes resulting from training with a commercial video game",
+      "citation": "Kuhn S, Gleich T, Lorenz RC, Lindenberger U, Gallinat J. Molecular Psychiatry. 2014;19(2):265-271.",
+      "year": 2014,
+      "doi": "10.1038/mp.2013.120",
+      "pmid": "24166407",
+      "url": "https://doi.org/10.1038/mp.2013.120",
+      "scope": "Longitudinal structural MRI training study using a commercial 3D platform game. Use as background evidence that complex spatial-navigation, strategic-planning, working-memory, and motor-coordination practice can be associated with measurable structural plasticity in right hippocampal formation, right DLPFC, and bilateral cerebellum. Do not treat as direct evidence for this product, child outcomes, point-level activation, or diagnostic claims.",
+      "tags": [
+        "training-neuroplasticity",
+        "video-game-training",
+        "spatial-navigation",
+        "strategic-planning",
+        "working-memory",
+        "motor-coordination",
+        "hippocampus",
+        "dlpfc",
+        "cerebellum",
+        "structural-mri"
+      ]
+    },
+    {
+      "id": "iuculano-2015-math-tutoring-dyscalculia-fmri",
+      "type": "paper",
+      "title": "Cognitive tutoring induces widespread neuroplasticity and remediates brain function in children with mathematical learning disabilities",
+      "citation": "Iuculano T, Rosenberg-Lee M, Richardson J, Tenison C, Fuchs L, Supekar K, Menon V. Nature Communications. 2015;6:8453.",
+      "year": 2015,
+      "doi": "10.1038/ncomms9453",
+      "pmid": "26419418",
+      "pmcid": "PMC4598717",
+      "url": "https://doi.org/10.1038/ncomms9453",
+      "scope": "Direct calculation-training anchor. Supports cautious claims that a studied tutoring protocol improved arithmetic performance and changed distributed task-related brain responses in a mathematical-learning-disability sample.",
+      "tags": [
+        "training-evidence",
+        "calculation",
+        "math-tutoring",
+        "children",
+        "mld",
+        "task-fmri",
+        "pre-post"
+      ]
+    },
+    {
+      "id": "supekar-2013-math-tutoring-neural-predictors",
+      "type": "paper",
+      "title": "Neural predictors of individual differences in response to math tutoring in primary-grade school children",
+      "citation": "Supekar K, Swigart AG, Tenison C, Jolles DD, Rosenberg-Lee M, Fuchs L, Menon V. PNAS. 2013;110(20):8230-8235.",
+      "year": 2013,
+      "doi": "10.1073/pnas.1222154110",
+      "pmid": "23630286",
+      "pmcid": "PMC3657798",
+      "url": "https://doi.org/10.1073/pnas.1222154110",
+      "scope": "Calculation tutoring and response-variability anchor. The imaging result is a pretutoring predictor, not evidence of training-induced structural or connectivity change.",
+      "tags": [
+        "training-evidence",
+        "calculation",
+        "math-tutoring",
+        "children",
+        "hippocampus",
+        "resting-state",
+        "prediction-boundary"
+      ]
+    },
+    {
+      "id": "rueda-2005-executive-attention-training",
+      "type": "paper",
+      "title": "Training, maturation, and genetic influences on the development of executive attention",
+      "citation": "Rueda MR, Rothbart MK, McCandliss BD, Saccomanno L, Posner MI. PNAS. 2005;102(41):14931-14936.",
+      "year": 2005,
+      "doi": "10.1073/pnas.0506897102",
+      "pmid": "16192352",
+      "pmcid": "PMC1253585",
+      "url": "https://doi.org/10.1073/pnas.0506897102",
+      "scope": "Developmental executive-attention training anchor for ANT/flanker/conflict-control design. It is behavioral and ERP evidence, not MRI evidence.",
+      "tags": [
+        "training-evidence",
+        "attention",
+        "executive-function",
+        "children",
+        "ant",
+        "flanker",
+        "erp"
+      ]
+    },
+    {
+      "id": "temple-2003-dyslexia-remediation-fmri",
+      "type": "paper",
+      "title": "Neural deficits in children with dyslexia ameliorated by behavioral remediation: Evidence from functional MRI",
+      "citation": "Temple E, Deutsch GK, Poldrack RA, Miller SL, Tallal P, Merzenich MM, Gabrieli JDE. PNAS. 2003;100(5):2860-2865.",
+      "year": 2003,
+      "doi": "10.1073/pnas.0030098100",
+      "pmid": "12604786",
+      "pmcid": "PMC151431",
+      "url": "https://doi.org/10.1073/pnas.0030098100",
+      "scope": "Direct reading-remediation anchor for phonological decoding and word/pseudoword reading. Supports both normalization and compensatory-change language under a dyslexia-specific boundary.",
+      "tags": [
+        "training-evidence",
+        "reading",
+        "phonological-decoding",
+        "children",
+        "dyslexia",
+        "task-fmri",
+        "pre-post"
+      ]
+    },
+    {
+      "id": "klingberg-2005-working-memory-training-adhd-rct",
+      "type": "paper",
+      "title": "Computerized training of working memory in children with ADHD: a randomized, controlled trial",
+      "citation": "Klingberg T, Fernell E, Olesen PJ, et al. J Am Acad Child Adolesc Psychiatry. 2005;44(2):177-186.",
+      "year": 2005,
+      "doi": "10.1097/00004583-200502000-00010",
+      "pmid": "15689731",
+      "url": "https://doi.org/10.1097/00004583-200502000-00010",
+      "scope": "可作为儿童工作记忆训练的随机对照行为证据，说明在特定临床样本、训练剂量和近任务条件下，工作记忆表现可能改善。 样本是未用兴奋剂的ADHD儿童，完成者只有44人；没有训练前后MRI终点，远迁移、日常功能和一般儿童效果不能据此确定。",
+      "tags": [
+        "training-evidence",
+        "working-memory",
+        "attention",
+        "executive-function",
+        "children",
+        "adhd",
+        "randomized-controlled-trial"
+      ]
+    },
+    {
+      "id": "engvig-2010-memory-training-cortical-thickness",
+      "type": "paper",
+      "title": "Effects of memory training on cortical thickness in the elderly",
+      "citation": "Engvig A, Fjell AM, Westlye LT, et al. NeuroImage. 2010;52(4):1667-1676.",
+      "year": 2010,
+      "doi": "10.1016/j.neuroimage.2010.05.041",
+      "pmid": "20580844",
+      "url": "https://doi.org/10.1016/j.neuroimage.2010.05.041",
+      "scope": "可用于说明在中老年样本中，结构化记忆策略训练可能同时伴随来源记忆改善和局部结构MRI变化。 样本为42至77岁的健康中老年人，控制组是被动控制；不能外推到儿童、一般学习成绩或所有长期记忆训练。MRI形态变化也不是个体诊断指标。",
+      "tags": [
+        "training-evidence",
+        "long-term-memory",
+        "method-of-loci",
+        "older-adults",
+        "structural-mri",
+        "cortical-thickness"
+      ]
+    },
+    {
+      "id": "mackey-2011-reasoning-speed-training-children",
+      "type": "paper",
+      "title": "Differential effects of reasoning and speed training in children",
+      "citation": "Mackey AP, Hill SS, Stone SI, Bunge SA. Developmental Science. 2011;14(3):582-590.",
+      "year": 2011,
+      "doi": "10.1111/j.1467-7687.2010.01005.x",
+      "pmid": "21477196",
+      "url": "https://doi.org/10.1111/j.1467-7687.2010.01005.x",
+      "scope": "可用于说明儿童的推理和加工速度表现具有可训练性，而且训练效果更可能先出现在与训练内容接近的任务上。 样本小、没有无训练控制组、部分评估未完全盲法，也没有MRI终点；论文中的大效应不能当作一般儿童、智商或学业提升的稳定估计。",
+      "tags": [
+        "training-evidence",
+        "reasoning",
+        "processing-speed",
+        "children",
+        "behavioral-intervention",
+        "near-transfer"
+      ]
+    },
+    {
+      "id": "draganski-2004-juggling-structural-plasticity",
+      "type": "paper",
+      "title": "Neuroplasticity: changes in grey matter induced by training",
+      "citation": "Draganski B, Gaser C, Busch V, Schuierer G, Bogdahn U, May A. Nature. 2004;427:311-312.",
+      "year": 2004,
+      "doi": "10.1038/427311a",
+      "pmid": "14737157",
+      "url": "https://doi.org/10.1038/427311a",
+      "scope": "可作为感知运动学习引起成人脑结构可塑性的经典背景证据，帮助解释训练剂量、持续练习和停止练习后的变化。 杂耍不是九项功能中的标准认知范式，也不是儿童学习训练；只能作为广义可塑性背景，不能证明推理、速度或表象能力会自动迁移。",
+      "tags": [
+        "training-evidence",
+        "neuroplasticity",
+        "juggling",
+        "visual-motion",
+        "structural-mri",
+        "broad-background"
+      ]
+    },
+    {
+      "id": "melby-lervag-2016-working-memory-far-transfer-meta",
+      "type": "paper",
+      "title": "Working memory training does not improve performance on measures of intelligence or other measures of far transfer",
+      "citation": "Melby-Lervag M, Redick TS, Hulme C. Perspectives on Psychological Science. 2016;11(4):512-534.",
+      "year": 2016,
+      "doi": "10.1177/1745691616635612",
+      "pmid": "27474138",
+      "url": "https://doi.org/10.1177/1745691616635612",
+      "scope": "可用于解释为什么训练设计应锁定具体瓶颈、把练习接到真实任务，并分别验证近迁移和远迁移。 这篇综述反对把简单重复练习宣传为一般智力或现实能力提升，但不等于任何针对性教育干预都无效。",
+      "tags": [
+        "training-evidence",
+        "meta-analysis",
+        "working-memory",
+        "near-transfer",
+        "far-transfer",
+        "overclaim-boundary"
+      ]
+    },
+    {
+      "id": "simons-2016-brain-training-review",
+      "type": "paper",
+      "title": "Do brain-training programs work?",
+      "citation": "Simons DJ, Boot WR, Charness N, et al. Psychological Science in the Public Interest. 2016;17(3):103-186.",
+      "year": 2016,
+      "doi": "10.1177/1529100616661983",
+      "pmid": "27697851",
+      "url": "https://doi.org/10.1177/1529100616661983",
+      "scope": "可作为九项功能共同的证据边界：先讲训练内容、样本、剂量和直接结果，再单独证明是否迁移到真实学习。 它评估的是外部脑训练研究，不证明本项目无效或有效；具体训练仍需自己的对照、随访、真实任务和产品级验证。",
+      "tags": [
+        "training-evidence",
+        "review",
+        "brain-training",
+        "transfer",
+        "methods",
+        "overclaim-boundary"
+      ]
+    },
+    {
+      "id": "dux-2009-multitasking-training-fmri",
+      "type": "paper",
+      "title": "Training improves multitasking performance by increasing the speed of information processing in human prefrontal cortex",
+      "citation": "Dux PE, Tombu MN, Harrison S, Rogers BP, Tong F, Marois R. Neuron. 2009;63(1):127-138.",
+      "year": 2009,
+      "doi": "10.1016/j.neuron.2009.06.005",
+      "pmid": "19607798",
+      "pmcid": "PMC2713348",
+      "url": "https://doi.org/10.1016/j.neuron.2009.06.005",
+      "scope": "可用于说明双任务干扰可以在高度相似的任务条件下通过重复练习明显降低，并为并行任务训练中的反应选择、节奏和自动化设计提供机制依据。 样本只有7名成人，训练任务和测验高度相似，残余双任务成本仍存在；不能讲成多任务能力被彻底消除、可远迁移到学习成绩或适用于儿童。",
+      "tags": [
+        "training-evidence",
+        "dual-task",
+        "multitasking",
+        "fmri",
+        "prefrontal-cortex",
+        "near-transfer"
+      ]
+    },
+    {
+      "id": "berkman-2014-inhibitory-control-training-fmri",
+      "type": "paper",
+      "title": "Training-induced changes in inhibitory control network activity",
+      "citation": "Berkman ET, Kahn LE, Merchant JS. Journal of Neuroscience. 2014;34(1):149-157.",
+      "year": 2014,
+      "doi": "10.1523/JNEUROSCI.3564-13.2014",
+      "pmid": "24381276",
+      "pmcid": "PMC3866481",
+      "url": "https://doi.org/10.1523/JNEUROSCI.3564-13.2014",
+      "scope": "可用于说明停止控制训练不仅可能提高近任务表现，还可能让控制从临时反应更多前移到提前准备。 成人样本、近任务指标和组水平fMRI不能外推到儿童日常自控、课堂行为或本项目疗效；论文也指出抑制训练向其他任务的迁移有限。",
+      "tags": [
+        "training-evidence",
+        "stop-signal",
+        "inhibitory-control",
+        "randomized",
+        "active-control",
+        "fmri"
+      ]
+    },
+    {
+      "id": "chavan-2015-inhibitory-control-functional-structural-plasticity",
+      "type": "paper",
+      "title": "Differential patterns of functional and structural plasticity within and between inferior frontal gyri support training-induced improvements in inhibitory control proficiency",
+      "citation": "Chavan CF, Mouthon M, Draganski B, van der Zwaag W, Spierer L. Human Brain Mapping. 2015;36(7):2527-2543.",
+      "year": 2015,
+      "doi": "10.1002/hbm.22789",
+      "pmid": "25801718",
+      "pmcid": "PMC6869523",
+      "url": "https://doi.org/10.1002/hbm.22789",
+      "scope": "可用于说明在高剂量、任务高度一致的成人训练中，Go/No-Go表现和额下回功能/结构指标可能同步变化。 样本只有18人且没有独立无训练对照组；每天1小时、连续14天的剂量不能直接迁移到儿童或产品设计，也不能把影像变化讲成越大越好。",
+      "tags": [
+        "training-evidence",
+        "go-no-go",
+        "inhibitory-control",
+        "fmri",
+        "structural-mri",
+        "dti"
+      ]
+    },
+    {
+      "id": "kuhn-2013-updating-training-striatal-dynamics",
+      "type": "paper",
+      "title": "The dynamics of change in striatal activity following updating training",
+      "citation": "Kühn S, Schmiedek F, Noack H, et al. Human Brain Mapping. 2013;34(7):1530-1541.",
+      "year": 2013,
+      "doi": "10.1002/hbm.22007",
+      "pmid": "22331673",
+      "pmcid": "PMC6870272",
+      "url": "https://doi.org/10.1002/hbm.22007",
+      "scope": "可用于解释工作记忆更新训练需要看训练进程、难度和时点，脑活动上升或下降都可能反映学习阶段变化。 成人高剂量训练、主动对照剂量不等价，且局部BOLD变化不是能力高低刻度；不能把纹状体变化转成个体诊断或儿童训练靶点。",
+      "tags": [
+        "training-evidence",
+        "working-memory",
+        "updating",
+        "n-back",
+        "active-control",
+        "fmri",
+        "striatum"
+      ]
+    },
+    {
+      "id": "zinke-2012-task-switching-training-adolescents",
+      "type": "paper",
+      "title": "Plasticity of Executive Control through Task Switching Training in Adolescents",
+      "citation": "Zinke K, Einert M, Pfennig L, Kliegel M. Frontiers in Human Neuroscience. 2012;6:41.",
+      "year": 2012,
+      "doi": "10.3389/fnhum.2012.00041",
+      "pmid": "22470325",
+      "pmcid": "PMC3312238",
+      "url": "https://doi.org/10.3389/fnhum.2012.00041",
+      "scope": "可用于说明青少年的任务切换成本可以通过少量针对性练习改善，但主要收益仍贴近训练结构。 没有MRI终点，训练只有3次，远迁移有限；不能把切换训练讲成普遍提升工作记忆、抑制或学业表现。",
+      "tags": [
+        "training-evidence",
+        "task-switching",
+        "adolescents",
+        "near-transfer",
+        "far-transfer-boundary"
+      ]
+    },
+    {
+      "id": "park-brannon-2013-ans-training",
+      "type": "paper",
+      "title": "Training the Approximate Number System Improves Math Proficiency",
+      "citation": "Park J, Brannon EM. Psychological Science. 2013;24(10):2013-2019.",
+      "year": 2013,
+      "doi": "10.1177/0956797613482944",
+      "pmid": "23921769",
+      "pmcid": "PMC3797151",
+      "url": "https://doi.org/10.1177/0956797613482944",
+      "scope": "可用于数感训练的任务设计依据，并强调训练应包含近似运算、反馈和逐步调难，而不是只反复比大小。 研究对象是成人、没有影像终点，且后续领域存在复制和元分析争议；不能据此承诺儿童数学成绩或把ANS当成唯一数学瓶颈。",
+      "tags": [
+        "training-evidence",
+        "approximate-number-system",
+        "symbolic-arithmetic",
+        "behavioral-intervention",
+        "transfer-boundary"
+      ]
+    },
+    {
+      "id": "qin-2004-algebra-learning-fmri",
+      "type": "paper",
+      "title": "The change of the brain activation patterns as children learn algebra equation solving",
+      "citation": "Qin Y, Carter CS, Silk EM, et al. Proceedings of the National Academy of Sciences. 2004;101(15):5686-5691.",
+      "year": 2004,
+      "doi": "10.1073/pnas.0401227101",
+      "pmid": "15064407",
+      "pmcid": "PMC397478",
+      "url": "https://doi.org/10.1073/pnas.0401227101",
+      "scope": "可用于说明代数训练应拆成问题表征、符号变换、规则提取和答案执行，并通过练习降低不必要的检索和变换成本。 只有10名学生、5天练习且没有独立对照组；不能把活动下降简单解释为能力更强，也不能外推到所有数学学习。",
+      "tags": [
+        "training-evidence",
+        "algebra",
+        "children",
+        "practice",
+        "fmri",
+        "symbolic-transformation"
+      ]
+    },
+    {
+      "id": "keller-just-2009-reading-remediation-white-matter",
+      "type": "paper",
+      "title": "Altering cortical connectivity: remediation-induced changes in the white matter of poor readers",
+      "citation": "Keller TA, Just MA. Neuron. 2009;64(5):624-631.",
+      "year": 2009,
+      "doi": "10.1016/j.neuron.2009.10.018",
+      "pmid": "20005820",
+      "pmcid": "PMC2796260",
+      "url": "https://doi.org/10.1016/j.neuron.2009.10.018",
+      "scope": "可用于说明阅读训练需要瞄准具体瓶颈；在阅读困难儿童中，足量音韵解码训练可能同时伴随行为和白质指标变化。 样本是阅读困难儿童，四种干预被合并分析；影像指标不能直接解释为髓鞘增加，篇章理解也未出现可靠改善，不能宣传为全面阅读能力提升。",
+      "tags": [
+        "training-evidence",
+        "reading-remediation",
+        "phonological-decoding",
+        "children",
+        "dti",
+        "white-matter"
+      ]
+    },
+    {
+      "id": "hampstead-2011-face-name-memory-training-fmri",
+      "type": "paper",
+      "title": "Activation and effective connectivity changes following explicit-memory training for face-name pairs in patients with mild cognitive impairment: a pilot study",
+      "citation": "Hampstead BM, Stringer AY, Stilla RF, et al. Neurorehabilitation and Neural Repair. 2011;25(3):210-222.",
+      "year": 2011,
+      "doi": "10.1177/1545968310382424",
+      "pmid": "20935339",
+      "pmcid": "PMC3595021",
+      "url": "https://doi.org/10.1177/1545968310382424",
+      "scope": "可用于面孔-姓名联结和联想记忆训练的策略机制：把难记的配对转成显著视觉特征、语言钩子和可回想图像。 只有6名MCI患者、无独立对照组，属于先导研究；不能外推到健康儿童、所有情景记忆或海马结构变化。",
+      "tags": [
+        "training-evidence",
+        "face-name",
+        "associative-memory",
+        "mnemonic",
+        "mci",
+        "pilot",
+        "fmri"
+      ]
+    },
+    {
+      "id": "felssberg-2025-mot-training-fmri",
+      "type": "paper",
+      "title": "Cortical network modulations associated with prolonged training of the multiple object-tracking task",
+      "citation": "Felssberg AM, Schonemann N, Hopf JM, Schoenfeld MA, Merkel C. Imaging Neuroscience. 2025;3:imag_a_00577.",
+      "year": 2025,
+      "doi": "10.1162/imag_a_00577",
+      "pmid": "40800779",
+      "pmcid": "PMC12319924",
+      "url": "https://doi.org/10.1162/imag_a_00577",
+      "scope": "可用于多目标追踪训练的直接证据，并帮助设计目标数量、速度、干扰密度和追踪持续时间的渐进负荷。 成人任务特异训练、没有独立未训练对照组，且研究本身指出迁移有限；不能把MOT收益讲成一般注意力或运动表现提升。",
+      "tags": [
+        "training-evidence",
+        "multiple-object-tracking",
+        "visual-attention",
+        "fmri",
+        "task-specific-training"
+      ]
+    },
+    {
+      "id": "uttal-2013-spatial-training-meta",
+      "type": "paper",
+      "title": "The malleability of spatial skills: a meta-analysis of training studies",
+      "citation": "Uttal DH, Meadow NG, Tipton E, et al. Psychological Bulletin. 2013;139(2):352-402.",
+      "year": 2013,
+      "doi": "10.1037/a0028446",
+      "pmid": "22663761",
+      "url": "https://doi.org/10.1037/a0028446",
+      "scope": "可用于说明空间能力不是完全固定的，训练应把练习、表征方式和真实空间任务连接起来，并分别检验近迁移与远迁移。 元分析汇总的是多种空间任务，不能据此声称每个具体范式、学业结果或个体都会得到同等改善，也没有提供统一的脑影像结论。",
+      "tags": [
+        "training-evidence",
+        "meta-analysis",
+        "spatial-skills",
+        "mental-rotation",
+        "transfer",
+        "durability"
+      ]
+    },
+    {
+      "id": "aronen-2005-nback-school-performance",
+      "type": "paper",
+      "title": "Working memory, psychiatric symptoms, and academic performance at school",
+      "citation": "Aronen ET, Vuontela V, Steenari MR, Salmi J, Carlson S. Neurobiology of Learning and Memory. 2005;83(1):33-42.",
+      "year": 2005,
+      "doi": "10.1016/j.nlm.2004.06.010",
+      "pmid": "15607686",
+      "url": "https://researchportal.helsinki.fi/en/publications/working-memory-psychiatric-symptoms-and-academic-performance-at-s/",
+      "scope": "可用于说明儿童N-back表现和学校中的学习、注意表现存在相关性，也能帮助把实验任务连接到课堂观察。 这是横断面相关研究，学业表现来自教师报告，样本较小；不能据此判断因果方向，更不能推成练N-back一定会提高成绩。当前只核验了官方元数据与摘要，尚无合法开放全文进入本地库。",
+      "tags": [
+        "n-back",
+        "children",
+        "school-performance",
+        "teacher-report",
+        "working-memory",
+        "association"
+      ]
+    },
+    {
+      "id": "jones-2020-child-adhd-nback-training",
+      "type": "paper",
+      "title": "Exploring N-Back Cognitive Training for Children With ADHD",
+      "citation": "Jones MR, Katz B, Buschkuehl M, Jaeggi SM, Shah P. Journal of Attention Disorders. 2020;24(5):704-719.",
+      "year": 2020,
+      "doi": "10.1177/1087054718779230",
+      "pmid": "29877128",
+      "pmcid": "PMC6445784",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6445784/",
+      "scope": "可作为儿童N-back训练形式、剂量、自适应调难和主动对照的直接证据，也可用于解释为什么训练任务进步、相似任务迁移和学科成绩迁移必须分开看。 样本仅为ADHD儿童，入组后还有训练依从性排除；即时效应主要贴近N-back和CPT，三个月结果在多重比较校正后减弱，学校任务和矩阵推理没有可靠组间提升。不能外推到普通儿童或宣传为提高阅读、数学和一般智力。",
+      "tags": [
+        "training-evidence",
+        "n-back",
+        "children",
+        "adhd",
+        "active-control",
+        "near-transfer",
+        "academic-transfer-boundary"
+      ]
+    },
+    {
+      "id": "jones-2020-working-memory-metacognitive-academic-transfer",
+      "type": "paper",
+      "title": "The academic outcomes of working memory and metacognitive strategy training in children: A double-blind randomized controlled trial",
+      "citation": "Jones JS, Milton F, Mostazir M, Adlam AR. Developmental Science. 2020;23(4):e12870.",
+      "year": 2020,
+      "doi": "10.1111/desc.12870",
+      "pmid": "31134713",
+      "pmcid": "PMC7379186",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7379186/",
+      "scope": "可作为儿童工作记忆训练中较完整的训练、近迁移、学业远迁移和保持时间证据，也能说明主动对照和延迟测量为何重要。 训练是包含11类言语与视空间任务的Cogmed，不是N-back直接训练。数学效应短暂且未保持，阅读没有改善；元认知策略增加了部分近迁移，但没有额外带来数学或阅读收益。不能把结果写成工作记忆训练稳定提高学业成绩。",
+      "tags": [
+        "training-evidence",
+        "working-memory",
+        "children",
+        "academic-transfer",
+        "follow-up",
+        "randomized-trial"
+      ]
+    },
+    {
+      "id": "roberts-2016-working-memory-two-year-academic-outcomes",
+      "type": "paper",
+      "title": "Academic Outcomes 2 Years After Working Memory Training for Children With Low Working Memory: A Randomized Clinical Trial",
+      "citation": "Roberts G, Quach J, Spencer-Smith M, et al. JAMA Pediatrics. 2016;170(5):e154568.",
+      "year": 2016,
+      "doi": "10.1001/jamapediatrics.2015.4568",
+      "pmid": "26954779",
+      "url": "https://research.monash.edu/en/publications/academic-outcomes-2-years-after-working-memory-training-for-child/",
+      "scope": "可作为训练迁移链和长期随访做得较完整的大样本边界研究，尤其适合说明为什么不能用短期任务进步代替长期学业结果。 对照条件是常规课堂教学，而不是等时主动认知训练；样本是筛查出的低工作记忆儿童，且训练占用了课堂时间。当前只核验官方摘要和大学元数据，尚未获得可合法归档的开放全文，因此只能使用摘要明确报告的结果。",
+      "tags": [
+        "training-evidence",
+        "working-memory",
+        "children",
+        "academic-transfer",
+        "follow-up",
+        "randomized-trial"
+      ]
+    },
+    {
+      "id": "jacobs-1887-prehension-digit-span",
+      "type": "paper",
+      "title": "Experiments on \"Prehension\"",
+      "citation": "Jacobs J. Mind. 1887;os-12(45):75-79.",
+      "year": 1887,
+      "doi": "10.1093/mind/os-12.45.75",
+      "url": "https://academic.oup.com/mind/article-abstract/os-12/45/75/2877871",
+      "scope": "可用于交代数字广度的早期实验逻辑，以及为什么测验要逐级增加长度并区分长度错误与顺序错误。 当前只核验了OUP元数据和公开历史摘要；第三方全文下载触发访问保护，未把挑战页当作论文。不要据此加入超出元数据与公认任务史的细节。",
+      "tags": [
+        "digit-span",
+        "history",
+        "immediate-memory",
+        "behavioral-paradigm"
+      ]
+    },
+    {
+      "id": "corsi-1972-spatial-span-thesis",
+      "type": "paper",
+      "title": "Human memory and the medial temporal region of the brain",
+      "citation": "Corsi PM. Doctoral thesis, McGill University. 1972.",
+      "year": 1972,
+      "url": "https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=1033436511",
+      "scope": "可用于说明空间广度为什么不能被数字广度替代，以及九块木块、顺序复现和空间路线的原始任务逻辑。 原论文同时研究短时广度、重复序列学习和颞叶切除，不能把某一组临床结果直接解释成普通儿童的空间广度脑定位。",
+      "tags": [
+        "grid-span",
+        "corsi-blocks",
+        "spatial-memory",
+        "clinical-neuropsychology"
+      ]
+    },
+    {
+      "id": "luck-vogel-1997-visual-working-memory-capacity",
+      "type": "paper",
+      "title": "The capacity of visual working memory for features and conjunctions",
+      "citation": "Luck SJ, Vogel EK. Nature. 1997;390:279-281.",
+      "year": 1997,
+      "doi": "10.1038/36846",
+      "url": "https://www.nature.com/articles/36846",
+      "scope": "可用于解释物体广度测量的是有限数量的整合视觉对象，以及颜色、方向、大小等特征为什么会以物体为单位绑定。 四个是该组成人实验和材料下的容量估计，不是所有年龄、材料和个体的固定上限，也不能直接换算成儿童学习能力等级。",
+      "tags": [
+        "object-span",
+        "visual-working-memory",
+        "change-detection",
+        "feature-binding"
+      ]
+    },
+    {
+      "id": "gaspar-2013-change-detection-training",
+      "type": "paper",
+      "title": "Change Detection: Training and Transfer",
+      "citation": "Gaspar JG, Neider MB, Simons DJ, McCarley JS, Kramer AF. PLoS ONE. 2013;8(6):e67781.",
+      "year": 2013,
+      "doi": "10.1371/journal.pone.0067781",
+      "pmid": "23840775",
+      "pmcid": "PMC3695860",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3695860/",
+      "scope": "可用于说明物体变化检测练习能够提高训练材料上的速度和准确性，同时提醒读者把原任务进步、换材料迁移和真实情境迁移分开检验。 样本是成人，训练剂量很高，且自适应变量主要是编码时间。不能把结果外推为儿童物体广度训练处方，也不能把熟悉训练材料后的进步写成视觉工作记忆容量普遍提升。",
+      "tags": [
+        "object-span",
+        "training-evidence",
+        "change-detection",
+        "transfer-boundary",
+        "active-control"
+      ]
+    },
+    {
+      "id": "meyer-schvaneveldt-1971-lexical-decision",
+      "type": "paper",
+      "title": "Facilitation in recognizing pairs of words: Evidence of a dependence between retrieval operations",
+      "citation": "Meyer DE, Schvaneveldt RW. Journal of Experimental Psychology. 1971;90(2):227-234.",
+      "year": 1971,
+      "doi": "10.1037/h0031564",
+      "url": "https://doi.org/10.1037/h0031564",
+      "scope": "可用于交代词汇判断与语义启动的研究史：判断两个字符串是否为真词时，意义相关的词对通常比无关词对更快。该效应支持词汇提取会受到语义背景影响，但不能据此把词汇判断等同完整阅读理解，或把反应时差解释成单一脑区活动。",
+      "tags": [
+        "reading",
+        "lexical-decision",
+        "semantic-priming",
+        "behavioral-paradigm",
+        "history"
+      ]
+    },
+    {
+      "id": "berninger-1999-early-reading-intervention",
+      "type": "paper",
+      "title": "Early Intervention for Reading Disabilities: Teaching the Alphabetic Principle in a Connectionist Framework",
+      "citation": "Berninger VW, Abbott RD, Zook D, Ogier S, Lemos-Britton Z, Brooksher R. Journal of Learning Disabilities. 1999;32(6):491-503.",
+      "year": 1999,
+      "doi": "10.1177/002221949903200604",
+      "url": "https://journals.sagepub.com/doi/10.1177/002221949903200604",
+      "scope": "48名一年级末有阅读困难的儿童被随机分到整词、字词内部单元或两者结合的教学条件，共接受8次、每次30分钟的一对一教学。三组在所教词和标准化阅读测验上均有进步，字词内部单元教学在标准化真实词阅读上呈现优势。适合作为早期字词识别和解码教学的近成分证据；不能当作词汇判断直接训练、长期篇章理解迁移或通用剂量处方。",
+      "tags": [
+        "reading",
+        "lexical-decision",
+        "word-reading",
+        "child-intervention",
+        "randomized-trial",
+        "transfer-boundary"
+      ]
+    },
+    {
+      "id": "devonshire-2013-orthographic-instruction",
+      "type": "paper",
+      "title": "Spelling and reading development: The effect of teaching children multiple levels of representation in their orthography",
+      "citation": "Devonshire V, Morris P, Fluck M. Learning and Instruction. 2013;25:85-94.",
+      "year": 2013,
+      "doi": "10.1016/j.learninstruc.2012.11.007",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0959475212001028",
+      "scope": "120名5至7岁儿童参加随机交叉设计，比较传统自然拼读与同时明确教授词形、音韵、词素和词源规则的教学。多层次教学阶段在字词阅读和拼写上优于自然拼读阶段。可用于正字法教学的直接行为证据，但它是英语、多成分课堂干预，不能单独归因为字形加工，也不能直接外推到汉字学习或脑区改变。",
+      "tags": [
+        "reading",
+        "orthographic-processing",
+        "word-reading",
+        "spelling",
+        "child-intervention",
+        "cross-over-trial"
+      ]
+    },
+    {
+      "id": "to-2015-cantonese-syntax-intervention",
+      "type": "paper",
+      "title": "A Randomized Controlled Trial of Two Syntactic Treatment Procedures With Cantonese-Speaking, School-Age Children With Language Disorders",
+      "citation": "To CKS, Lui HM, Li XX, Lam GYH. Journal of Speech, Language, and Hearing Research. 2015;58(4):1258-1272.",
+      "year": 2015,
+      "doi": "10.1044/2015_JSLHR-L-14-0140",
+      "url": "https://pubs.asha.org/doi/10.1044/2015_JSLHR-L-14-0140",
+      "scope": "52名粤语学龄期语言障碍儿童被随机分到句子合并或叙事嵌入两种句法干预，45名按分配完成，4个月后两组标准化语言表现均有增长，两种方案之间没有可靠差异。可用于说明复杂句法成分可以被直接教学；由于没有未训练对照臂、样本为语言障碍儿童，不能据此确定自然成熟之外的净效应、普通儿童剂量或阅读篇章远迁移。",
+      "tags": [
+        "reading",
+        "sentence-comprehension",
+        "syntax",
+        "child-intervention",
+        "randomized-comparison",
+        "transfer-boundary"
+      ]
+    },
+    {
+      "id": "margosein-1982-semantic-mapping",
+      "type": "paper",
+      "title": "The Effects of Instruction Using Semantic Mapping on Vocabulary and Comprehension",
+      "citation": "Margosein CM, Pascarella ET, Pflaum SW. The Journal of Early Adolescence. 1982;2(2):185-194.",
+      "year": 1982,
+      "doi": "10.1177/027243168200200210",
+      "url": "https://journals.sagepub.com/doi/10.1177/027243168200200210",
+      "scope": "44名初中生被随机分到丰富语境释义或语义映射教学；语义映射要求把新词与已知相关词比较异同，在周测、后测和标准化一般词汇测验上占优。适合作为词汇语义关系教学的直接行为证据；摘要不能支持广泛篇章理解、学科成绩或长期保持结论。",
+      "tags": [
+        "reading",
+        "semantic-task",
+        "vocabulary",
+        "semantic-mapping",
+        "student-intervention",
+        "randomized-trial"
+      ]
+    },
+    {
+      "id": "kirchner-1958-nback-origin",
+      "type": "paper",
+      "title": "Age differences in short-term retention of rapidly changing information",
+      "citation": "Kirchner WK. J Exp Psychol. 1958;55(4):352-358.",
+      "year": 1958,
+      "doi": "10.1037/h0043688",
+      "pmid": "13539317",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13539317/",
+      "scope": "可用于交代N-back最初为何被设计、灯光与按键装置怎样运行，以及原始年龄组比较发现了什么。 当前核验到PubMed官方元数据和出版社索引的摘要级结果，尚无合法开放全文进入本地库。研究比较年轻人与老年成人，不能直接外推为儿童训练效果或脑定位证据。",
+      "tags": [
+        "n-back",
+        "history",
+        "aging",
+        "behavioral-paradigm"
+      ]
+    },
+    {
+      "id": "piazza-2003-subitizing-counting",
+      "type": "paper",
+      "title": "Single-trial classification of parallel pre-attentive and serial attentive processes using functional magnetic resonance imaging",
+      "citation": "Piazza M, Giacomini E, Le Bihan D, Dehaene S. Proceedings of the Royal Society B. 2003;270(1521):1237-1241.",
+      "year": 2003,
+      "doi": "10.1098/rspb.2003.2356",
+      "pmid": "12816636",
+      "pmcid": "PMC1691365",
+      "url": "https://doi.org/10.1098/rspb.2003.2356",
+      "scope": "可用于把小数量快速识别与较大数量逐项计数分成两个加工阶段，并说明计数会额外调用空间注意和搜索。 成人小样本和特定视觉阵列不能用于儿童诊断，也不能把某个转折点固定成所有人的绝对容量；本轮只使用网络级显示，不生成新生产坐标。",
+      "tags": [
+        "calculation",
+        "subitizing",
+        "counting",
+        "enumeration",
+        "fmri",
+        "visual-attention"
+      ]
+    },
+    {
+      "id": "cantlon-2009-abstract-number-development",
+      "type": "paper",
+      "title": "The Neural Development of an Abstract Concept of Number",
+      "citation": "Cantlon JF, Libertus ME, Pinel P, Dehaene S, Brannon EM, Pelphrey KA. Journal of Cognitive Neuroscience. 2009;21(11):2217-2229.",
+      "year": 2009,
+      "doi": "10.1162/jocn.2008.21159",
+      "pmid": "19016605",
+      "pmcid": "PMC2745480",
+      "url": "https://doi.org/10.1162/jocn.2008.21159",
+      "scope": "可用于解释孩子要把数字符号接到它所代表的数量意义，并把数字形式与点阵数量作为可以比较但不能完全等同的两种输入。 这是组水平发展研究，不证明所有年龄都使用完全相同的抽象数量编码；不能把共享顶叶活动讲成单一数量中心或个体数学能力诊断。",
+      "tags": [
+        "calculation",
+        "symbolic-number",
+        "nonsymbolic-quantity",
+        "development",
+        "children",
+        "fmri"
+      ]
+    },
+    {
+      "id": "berteletti-2015-number-line-subtraction",
+      "type": "paper",
+      "title": "How number line estimation skills relate to neural activations in single digit subtraction problems",
+      "citation": "Berteletti I, Man G, Booth JR. NeuroImage. 2015;107:198-206.",
+      "year": 2015,
+      "doi": "10.1016/j.neuroimage.2014.12.011",
+      "pmid": "25497398",
+      "pmcid": "PMC4300271",
+      "url": "https://doi.org/10.1016/j.neuroimage.2014.12.011",
+      "scope": "可用于把数序、数量大小和空间位置的协调单列为数轴估计范式，并解释数轴不是单纯画图，而是数量表征与空间比例共同工作。 研究报告的是行为与脑活动相关，不是训练因果；样本筛除了明显数学困难，不能据此诊断儿童或承诺数轴练习必然提升整体数学成绩。",
+      "tags": [
+        "calculation",
+        "number-line",
+        "estimation",
+        "children",
+        "subtraction",
+        "fmri"
+      ]
+    },
+    {
+      "id": "cangoz-2018-tablet-dyscalculia-screening",
+      "type": "paper",
+      "title": "Comparing two cut-off based criteria while investigating the discriminatory characteristics of a tablet-based dyscalculia screening battery for 5-9 age group",
+      "citation": "Cangoz B, Olkun S, Altun A, Salman F. Archives of Neuropsychiatry. 2018;55(2):177-182.",
+      "year": 2018,
+      "doi": "10.5152/npa.2017.19255",
+      "pmid": "30042648",
+      "pmcid": "PMC6060656",
+      "url": "https://doi.org/10.5152/npa.2017.19255",
+      "scope": "可用于三联任务的结构来源，并说明同一个孩子可以在统一入口下分别完成数量识别、符号比较和数轴定位。 这是土耳其小学样本的筛查研究；按一个标准差分组时三项任务未能稳定区分组别，只有比较最低10%与其余学生时出现区分，不能当成中国儿童常模或诊断工具。",
+      "tags": [
+        "calculation",
+        "numerical-cognition-battery",
+        "subitizing",
+        "symbolic-comparison",
+        "number-line",
+        "children"
+      ]
+    },
+    {
+      "id": "park-2024-number-sense-training-fmri",
+      "type": "paper",
+      "title": "Short-term number sense training recapitulates long-term neurodevelopmental changes from childhood to adolescence",
+      "citation": "Park Y, Zhang Y, Chang H, Menon V. Developmental Science. 2024;27(5):e13524.",
+      "year": 2024,
+      "doi": "10.1111/desc.13524",
+      "pmid": "38695515",
+      "pmcid": "PMC11343340",
+      "url": "https://doi.org/10.1111/desc.13524",
+      "scope": "可作为数量理解三联任务中“数字代表多少”一关的直接训练和fMRI锚点，也可说明训练目标是改善跨形式数量加工，而不是机械刷同一种比较题。 训练样本、剂量和多变量影像结果不能直接外推成本项目疗效；神经表征相似性训练后下降不等于大脑变差，也不能证明整体数学成绩、数轴或计数都会同步提高。",
+      "tags": [
+        "training-evidence",
+        "number-sense",
+        "symbolic-number",
+        "nonsymbolic-quantity",
+        "children",
+        "fmri"
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "id": "visual-processing",
+      "label": "视觉信息处理",
+      "englishLabel": "Visual processing",
+      "description": "用于解释视觉输入、形状、颜色、空间位置等信息进入系统后的早期和中层处理。",
+      "primaryNetwork": "visual",
+      "relatedNetworks": [
+        "visual"
+      ],
+      "relation": "network_prior",
+      "confidence": "strong_prior",
+      "tags": [
+        "perception",
+        "visual",
+        "sensory"
+      ],
+      "sourceIds": [
+        "schaefer2018",
+        "yeo2011",
+        "uddin2019-universal-taxonomy"
+      ]
+    },
+    {
+      "id": "somatomotor-control",
+      "label": "感觉运动控制",
+      "englishLabel": "Somatomotor control",
+      "description": "用于解释身体感觉、动作执行、动作反馈以及反应输出相关的候选脑网络。",
+      "primaryNetwork": "somatomotor",
+      "relatedNetworks": [
+        "somatomotor"
+      ],
+      "relation": "network_prior",
+      "confidence": "strong_prior",
+      "tags": [
+        "motor",
+        "somatosensory",
+        "response"
+      ],
+      "sourceIds": [
+        "schaefer2018",
+        "yeo2011",
+        "uddin2019-universal-taxonomy"
+      ]
+    },
+    {
+      "id": "goal-directed-attention",
+      "label": "目标导向注意",
+      "englishLabel": "Goal-directed attention",
+      "description": "用于解释主动搜索、空间注意、任务目标牵引下的注意分配。",
+      "primaryNetwork": "dorsal_attention",
+      "relatedNetworks": [
+        "dorsal_attention"
+      ],
+      "relation": "network_prior",
+      "confidence": "strong_prior",
+      "tags": [
+        "attention",
+        "orienting",
+        "top-down"
+      ],
+      "sourceIds": [
+        "schaefer2018",
+        "yeo2011",
+        "uddin2019-universal-taxonomy",
+        "corbetta-shulman-2002-attention"
+      ]
+    },
+    {
+      "id": "salience-reorienting",
+      "label": "显著性与注意切换",
+      "englishLabel": "Salience and reorienting",
+      "description": "用于解释突发线索、显著刺激、任务状态变化时的注意切换候选网络。",
+      "primaryNetwork": "ventral_attention",
+      "relatedNetworks": [
+        "ventral_attention"
+      ],
+      "relation": "network_prior",
+      "confidence": "strong_prior",
+      "tags": [
+        "salience",
+        "switching",
+        "reorienting"
+      ],
+      "sourceIds": [
+        "schaefer2018",
+        "yeo2011",
+        "uddin2019-universal-taxonomy",
+        "corbetta-shulman-2002-attention"
+      ]
+    },
+    {
+      "id": "affective-value",
+      "label": "情绪价值与内在状态",
+      "englishLabel": "Affective value and internal state",
+      "description": "用于解释情绪、价值、动机和内在身体状态相关的候选网络。",
+      "primaryNetwork": "limbic",
+      "relatedNetworks": [
+        "limbic"
+      ],
+      "relation": "network_prior",
+      "confidence": "strong_prior",
+      "tags": [
+        "affect",
+        "value",
+        "internal-state"
+      ],
+      "sourceIds": [
+        "schaefer2018",
+        "yeo2011"
+      ]
+    },
+    {
+      "id": "executive-control",
+      "label": "执行控制",
+      "englishLabel": "Executive control",
+      "description": "用于解释规则维持、任务目标管理、控制策略和灵活调整。",
+      "primaryNetwork": "frontoparietal",
+      "relatedNetworks": [
+        "frontoparietal"
+      ],
+      "relation": "network_prior",
+      "confidence": "strong_prior",
+      "tags": [
+        "control",
+        "rule",
+        "goal"
+      ],
+      "sourceIds": [
+        "schaefer2018",
+        "yeo2011",
+        "uddin2019-universal-taxonomy"
+      ]
+    },
+    {
+      "id": "self-memory-context",
+      "label": "自我、记忆与背景整合",
+      "englishLabel": "Self, memory, and contextual integration",
+      "description": "用于解释内省、自传记忆、背景整合和非外显任务状态下的自发思维。",
+      "primaryNetwork": "default_mode",
+      "relatedNetworks": [
+        "default_mode"
+      ],
+      "relation": "network_prior",
+      "confidence": "strong_prior",
+      "tags": [
+        "self",
+        "memory",
+        "context"
+      ],
+      "sourceIds": [
+        "schaefer2018",
+        "yeo2011",
+        "uddin2019-universal-taxonomy"
+      ]
+    },
+    {
+      "id": "attention-control-backbone",
+      "label": "注意控制候选骨架",
+      "englishLabel": "Attention-control candidate backbone",
+      "description": "为后续注意控制类任务预留的跨网络候选骨架，连接目标导向注意、显著性切换和执行控制。它是建模先验，不是某个任务的最终结论。",
+      "relatedNetworks": [
+        "dorsal_attention",
+        "ventral_attention",
+        "frontoparietal"
+      ],
+      "relation": "cross_network_prior",
+      "confidence": "working_hypothesis",
+      "tags": [
+        "attention",
+        "control",
+        "cross-network"
+      ],
+      "sourceIds": [
+        "schaefer2018",
+        "yeo2011",
+        "uddin2019-universal-taxonomy",
+        "corbetta-shulman-2002-attention",
+        "hopfinger-2000-top-down-attention",
+        "model-note-v0"
+      ]
+    }
+  ]
+}

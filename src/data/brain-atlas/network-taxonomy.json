@@ -1,0 +1,62 @@
+{
+  "id": "yeo-7-networks",
+  "name": "Yeo 7 Functional Networks",
+  "networks": [
+    {
+      "id": "visual",
+      "sourceName": "Vis",
+      "label": "视觉网络",
+      "englishLabel": "Visual Network",
+      "description": "主要参与视觉信息处理。",
+      "color": "#6d6096"
+    },
+    {
+      "id": "somatomotor",
+      "sourceName": "SomMot",
+      "label": "躯体运动网络",
+      "englishLabel": "Somatomotor Network",
+      "description": "主要参与身体感觉、运动控制和动作反馈。",
+      "color": "#4d7893"
+    },
+    {
+      "id": "dorsal_attention",
+      "sourceName": "DorsAttn",
+      "label": "背侧注意网络",
+      "englishLabel": "Dorsal Attention Network",
+      "description": "主要参与目标导向的注意分配和空间注意控制。",
+      "color": "#4f8978"
+    },
+    {
+      "id": "ventral_attention",
+      "sourceName": "SalVentAttn",
+      "label": "腹侧注意/显著性网络",
+      "englishLabel": "Ventral Attention / Salience Network",
+      "description": "主要参与突发线索、显著刺激和注意切换。",
+      "color": "#b98b3b"
+    },
+    {
+      "id": "limbic",
+      "sourceName": "Limbic",
+      "label": "边缘网络",
+      "englishLabel": "Limbic Network",
+      "description": "主要参与情绪、价值和内在状态相关处理。",
+      "color": "#8f7661"
+    },
+    {
+      "id": "frontoparietal",
+      "sourceName": "Cont",
+      "label": "额顶控制网络",
+      "englishLabel": "Frontoparietal Control Network",
+      "description": "主要参与规则维持、执行控制和任务目标管理。",
+      "color": "#bd6258"
+    },
+    {
+      "id": "default_mode",
+      "sourceName": "Default",
+      "label": "默认模式网络",
+      "englishLabel": "Default Mode Network",
+      "description": "主要参与自发思维、内省、情景记忆和背景性整合。",
+      "color": "#a76382"
+    }
+  ]
+}

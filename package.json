@@ -1,0 +1,38 @@
+{
+  "name": "brainfunction-vision",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4197 --strictPort",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4197 --strictPort",
+    "validate": "node scripts/validate-core.mjs",
+    "validate:spatial": "node scripts/validate-spatial.mjs",
+    "validate:coordinates": "node scripts/validate-coordinate-evidence.mjs",
+    "validate:teaching": "node scripts/validate-teaching.mjs",
+    "validate:pages": "node scripts/validate-pages.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@fontsource/ibm-plex-sans": "^5.2.8",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.184.1",
+    "@vitejs/plugin-react": "^5.1.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.7"
+  },
+  "description": "BrainFunction · 脑图、范式故事与论文",
+  "author": "lizhenglei0906-design",
+  "license": "MIT AND CC-BY-4.0",
+  "homepage": "https://lizhenglei0906-design.github.io/brainfunction-vision/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lizhenglei0906-design/brainfunction-vision.git"
+  }
+}

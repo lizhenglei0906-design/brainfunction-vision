@@ -1,0 +1,589 @@
+{
+  "id": "physical-brain-structures-v0",
+  "version": "0.1.0",
+  "status": "seed",
+  "coordinateSpace": "viewer_ras_approximate",
+  "sourceNote": "Auxiliary non-Schaefer physical structures for presentation. Basal ganglia/STN rendering now prefers the atlas-derived CIT168 deterministic mesh in src/data/brain-surface/cit168-subcortical-det25.surface.json; thalamus rendering prefers the coarse Harvard-Oxford mesh in src/data/brain-surface/harvard-oxford-thalamus.surface.json; limbic and fallback components remain approximate viewer-space anchors, not evidence that Schaefer200 covers these structures. Specialized atlas label references point to src/data/specialized-atlases/specialized-atlas-registry.seed.json.",
+  "systems": [
+    {
+      "id": "limbic_system",
+      "label": "边缘系统",
+      "englishLabel": "Limbic system",
+      "color": "#b984a8",
+      "caution": "用于把海马、杏仁核和内侧颞叶记忆结构显式标成皮层外辅助层；不要把它当作 Schaefer200 parcel。"
+    },
+    {
+      "id": "cerebellum",
+      "label": "小脑",
+      "englishLabel": "Cerebellum",
+      "color": "#87a8bf",
+      "caution": "用于表达运动定时、误差调节、部分注意/计算/表象任务中的小脑边界；3D 形状优先来自 SUITPy FSL 小脑模板表面，分叶/网络标签以 specialized-atlas registry 为准。"
+    },
+    {
+      "id": "subcortical",
+      "label": "丘脑/基底节",
+      "englishLabel": "Thalamus and basal ganglia",
+      "color": "#8a9fcf",
+      "caution": "用于表达丘脑、尾状核、壳核、苍白球和伏隔核的皮层外辅助层；基底节/STN 优先由 CIT168 确定性标签 mesh 表达，丘脑优先由 Harvard-Oxford 粗结构 mesh 表达，但仍不是 pulvinar、mediodorsal thalamus 等分核精度。"
+    }
+  ],
+  "structures": [
+    {
+      "id": "hippocampal-formation",
+      "label": "海马结构",
+      "englishLabel": "Hippocampal formation",
+      "systemId": "limbic_system",
+      "relatedRegionCoverageId": "hippocampal-formation",
+      "componentIds": [
+        "left-hippocampus",
+        "right-hippocampus"
+      ],
+      "caution": "只作为长时记忆/联结绑定/情景来源的物理占位，不能讲成坐标级精确激活。",
+      "specializedAtlasLabelIds": [
+        "mtl-left-hippocampal-formation",
+        "mtl-right-hippocampal-formation"
+      ]
+    },
+    {
+      "id": "amygdala",
+      "label": "杏仁核",
+      "englishLabel": "Amygdala",
+      "systemId": "limbic_system",
+      "componentIds": [
+        "left-amygdala",
+        "right-amygdala"
+      ],
+      "caution": "用于表达情绪价值、显著性和记忆情绪调制的边界层；当前没有任务坐标级核验。",
+      "specializedAtlasLabelIds": [
+        "mtl-left-amygdala",
+        "mtl-right-amygdala"
+      ]
+    },
+    {
+      "id": "entorhinal-parahippocampal-interface",
+      "label": "内嗅/海马旁接口",
+      "englishLabel": "Entorhinal and parahippocampal interface",
+      "systemId": "limbic_system",
+      "relatedRegionCoverageId": "hippocampal-formation",
+      "componentIds": [
+        "left-entorhinal-parahippocampal",
+        "right-entorhinal-parahippocampal"
+      ],
+      "caution": "用于表达新信息进入海马系统和情景背景接口，不等同于皮层表面海马旁回 parcel。",
+      "specializedAtlasLabelIds": [
+        "mtl-left-entorhinal-parahippocampal",
+        "mtl-right-entorhinal-parahippocampal"
+      ]
+    },
+    {
+      "id": "thalamus",
+      "label": "丘脑",
+      "englishLabel": "Thalamus",
+      "systemId": "subcortical",
+      "relatedRegionCoverageId": "thalamus",
+      "componentIds": [
+        "left-thalamus",
+        "right-thalamus"
+      ],
+      "caution": "3D 主视图优先渲染 Harvard-Oxford 左右丘脑粗结构 mesh；可作为 ANT、Stroop、停止控制、推理/计算边界中的丘脑位置参考，但不能讲成 pulvinar、mediodorsal thalamus 等分核。",
+      "specializedAtlasLabelIds": [
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-04",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-15"
+      ]
+    },
+    {
+      "id": "basal-ganglia",
+      "label": "基底神经节",
+      "englishLabel": "Basal ganglia",
+      "systemId": "subcortical",
+      "relatedRegionCoverageId": "basal-ganglia",
+      "componentIds": [
+        "left-caudate",
+        "right-caudate",
+        "left-putamen",
+        "right-putamen",
+        "left-pallidum",
+        "right-pallidum",
+        "left-accumbens",
+        "right-accumbens"
+      ],
+      "caution": "用于表达动作选择、反应门控、反馈学习和 frontostriatal 边界；3D 主视图优先渲染 CIT168 确定性标签 mesh，可区分尾状核、壳核、伏隔核、GPe、GPi、STN 等，但仍属于群体图谱可视化，不是个体临床分割。",
+      "specializedAtlasLabelIds": [
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-05",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-06",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-07",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-11",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-16",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-17",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-18",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-21"
+      ]
+    },
+    {
+      "id": "cerebellum",
+      "label": "小脑",
+      "englishLabel": "Cerebellum",
+      "systemId": "cerebellum",
+      "relatedRegionCoverageId": "cerebellum",
+      "componentIds": [
+        "left-cerebellar-hemisphere",
+        "right-cerebellar-hemisphere",
+        "cerebellar-vermis"
+      ],
+      "caution": "Three.js 主视图优先渲染 SUITPy FSL 小脑模板 mesh；这些 component 主要保留为连接锚点和旧版备份层。当前 mesh 可表达群体模板级小脑外形，分叶/网络解释仍以 Diedrichsen/Buckner 图谱和范式证据为准。",
+      "specializedAtlasLabelIds": [
+        "diedrichsen-2009-cerebellar-lobules-01",
+        "diedrichsen-2009-cerebellar-lobules-02",
+        "diedrichsen-2009-cerebellar-lobules-03",
+        "diedrichsen-2009-cerebellar-lobules-04",
+        "diedrichsen-2009-cerebellar-lobules-05",
+        "diedrichsen-2009-cerebellar-lobules-06",
+        "diedrichsen-2009-cerebellar-lobules-07",
+        "diedrichsen-2009-cerebellar-lobules-08",
+        "diedrichsen-2009-cerebellar-lobules-09",
+        "diedrichsen-2009-cerebellar-lobules-10",
+        "diedrichsen-2009-cerebellar-lobules-11",
+        "diedrichsen-2009-cerebellar-lobules-12",
+        "diedrichsen-2009-cerebellar-lobules-13",
+        "diedrichsen-2009-cerebellar-lobules-14",
+        "diedrichsen-2009-cerebellar-lobules-15",
+        "diedrichsen-2009-cerebellar-lobules-16",
+        "diedrichsen-2009-cerebellar-lobules-17",
+        "diedrichsen-2009-cerebellar-lobules-18",
+        "diedrichsen-2009-cerebellar-lobules-19",
+        "diedrichsen-2009-cerebellar-lobules-20",
+        "diedrichsen-2009-cerebellar-lobules-21",
+        "diedrichsen-2009-cerebellar-lobules-22",
+        "diedrichsen-2009-cerebellar-lobules-23",
+        "diedrichsen-2009-cerebellar-lobules-24",
+        "diedrichsen-2009-cerebellar-lobules-25",
+        "diedrichsen-2009-cerebellar-lobules-26",
+        "diedrichsen-2009-cerebellar-lobules-27",
+        "diedrichsen-2009-cerebellar-lobules-28",
+        "diedrichsen-2009-cerebellar-lobules-29",
+        "diedrichsen-2009-cerebellar-lobules-30",
+        "diedrichsen-2009-cerebellar-lobules-31",
+        "diedrichsen-2009-cerebellar-lobules-32",
+        "diedrichsen-2009-cerebellar-lobules-33",
+        "diedrichsen-2009-cerebellar-lobules-34",
+        "buckner-2011-cerebellum-7networks-01",
+        "buckner-2011-cerebellum-7networks-02",
+        "buckner-2011-cerebellum-7networks-03",
+        "buckner-2011-cerebellum-7networks-04",
+        "buckner-2011-cerebellum-7networks-05",
+        "buckner-2011-cerebellum-7networks-06",
+        "buckner-2011-cerebellum-7networks-07"
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "left-hippocampus",
+      "label": "左海马",
+      "englishLabel": "Left hippocampus",
+      "structureId": "hippocampal-formation",
+      "systemId": "limbic_system",
+      "laterality": "left",
+      "center": [
+        -29,
+        -20,
+        22
+      ],
+      "scale": [
+        8,
+        4.6,
+        19
+      ],
+      "rotation": [
+        0.08,
+        -0.44,
+        -0.08
+      ]
+    },
+    {
+      "id": "right-hippocampus",
+      "label": "右海马",
+      "englishLabel": "Right hippocampus",
+      "structureId": "hippocampal-formation",
+      "systemId": "limbic_system",
+      "laterality": "right",
+      "center": [
+        29,
+        -20,
+        22
+      ],
+      "scale": [
+        8,
+        4.6,
+        19
+      ],
+      "rotation": [
+        0.08,
+        0.44,
+        0.08
+      ]
+    },
+    {
+      "id": "left-amygdala",
+      "label": "左杏仁核",
+      "englishLabel": "Left amygdala",
+      "structureId": "amygdala",
+      "systemId": "limbic_system",
+      "laterality": "left",
+      "center": [
+        -23,
+        -17,
+        3
+      ],
+      "scale": [
+        7,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "right-amygdala",
+      "label": "右杏仁核",
+      "englishLabel": "Right amygdala",
+      "structureId": "amygdala",
+      "systemId": "limbic_system",
+      "laterality": "right",
+      "center": [
+        23,
+        -17,
+        3
+      ],
+      "scale": [
+        7,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "left-entorhinal-parahippocampal",
+      "label": "左内嗅/海马旁接口",
+      "englishLabel": "Left entorhinal-parahippocampal interface",
+      "structureId": "entorhinal-parahippocampal-interface",
+      "systemId": "limbic_system",
+      "laterality": "left",
+      "center": [
+        -24,
+        -24,
+        13
+      ],
+      "scale": [
+        10,
+        4,
+        14
+      ],
+      "rotation": [
+        0,
+        -0.28,
+        0
+      ]
+    },
+    {
+      "id": "right-entorhinal-parahippocampal",
+      "label": "右内嗅/海马旁接口",
+      "englishLabel": "Right entorhinal-parahippocampal interface",
+      "structureId": "entorhinal-parahippocampal-interface",
+      "systemId": "limbic_system",
+      "laterality": "right",
+      "center": [
+        24,
+        -24,
+        13
+      ],
+      "scale": [
+        10,
+        4,
+        14
+      ],
+      "rotation": [
+        0,
+        0.28,
+        0
+      ]
+    },
+    {
+      "id": "left-thalamus",
+      "label": "左丘脑",
+      "englishLabel": "Left thalamus",
+      "structureId": "thalamus",
+      "systemId": "subcortical",
+      "laterality": "left",
+      "center": [
+        -10,
+        6,
+        19
+      ],
+      "scale": [
+        8.5,
+        7.2,
+        10.5
+      ],
+      "color": "#6f80b6",
+      "opacity": 0.24
+    },
+    {
+      "id": "right-thalamus",
+      "label": "右丘脑",
+      "englishLabel": "Right thalamus",
+      "structureId": "thalamus",
+      "systemId": "subcortical",
+      "laterality": "right",
+      "center": [
+        11,
+        7,
+        18
+      ],
+      "scale": [
+        8.5,
+        7.2,
+        10.5
+      ],
+      "color": "#6f80b6",
+      "opacity": 0.24
+    },
+    {
+      "id": "left-caudate",
+      "label": "左尾状核",
+      "englishLabel": "Left caudate",
+      "structureId": "basal-ganglia",
+      "systemId": "subcortical",
+      "laterality": "left",
+      "center": [
+        -13,
+        10,
+        -9
+      ],
+      "scale": [
+        5.2,
+        5.8,
+        11.5
+      ],
+      "rotation": [
+        0.06,
+        -0.22,
+        0
+      ],
+      "color": "#6d9b7f",
+      "opacity": 0.2
+    },
+    {
+      "id": "right-caudate",
+      "label": "右尾状核",
+      "englishLabel": "Right caudate",
+      "structureId": "basal-ganglia",
+      "systemId": "subcortical",
+      "laterality": "right",
+      "center": [
+        13,
+        10,
+        -10
+      ],
+      "scale": [
+        5.2,
+        5.8,
+        11.5
+      ],
+      "rotation": [
+        0.06,
+        0.22,
+        0
+      ],
+      "color": "#6d9b7f",
+      "opacity": 0.2
+    },
+    {
+      "id": "left-putamen",
+      "label": "左壳核",
+      "englishLabel": "Left putamen",
+      "structureId": "basal-ganglia",
+      "systemId": "subcortical",
+      "laterality": "left",
+      "center": [
+        -25,
+        0,
+        -1
+      ],
+      "scale": [
+        6.8,
+        7.4,
+        10
+      ],
+      "rotation": [
+        -0.04,
+        -0.16,
+        0.08
+      ],
+      "color": "#c98a63",
+      "opacity": 0.2
+    },
+    {
+      "id": "right-putamen",
+      "label": "右壳核",
+      "englishLabel": "Right putamen",
+      "structureId": "basal-ganglia",
+      "systemId": "subcortical",
+      "laterality": "right",
+      "center": [
+        25,
+        0,
+        -2
+      ],
+      "scale": [
+        6.8,
+        7.4,
+        10
+      ],
+      "rotation": [
+        -0.04,
+        0.16,
+        -0.08
+      ],
+      "color": "#c98a63",
+      "opacity": 0.2
+    },
+    {
+      "id": "left-pallidum",
+      "label": "左苍白球",
+      "englishLabel": "Left pallidum",
+      "structureId": "basal-ganglia",
+      "systemId": "subcortical",
+      "laterality": "left",
+      "center": [
+        -19,
+        -1,
+        5
+      ],
+      "scale": [
+        4.8,
+        4.8,
+        6.2
+      ],
+      "color": "#b0a15f",
+      "opacity": 0.22
+    },
+    {
+      "id": "right-pallidum",
+      "label": "右苍白球",
+      "englishLabel": "Right pallidum",
+      "structureId": "basal-ganglia",
+      "systemId": "subcortical",
+      "laterality": "right",
+      "center": [
+        20,
+        -1,
+        4
+      ],
+      "scale": [
+        4.8,
+        4.8,
+        6.2
+      ],
+      "color": "#b0a15f",
+      "opacity": 0.22
+    },
+    {
+      "id": "left-accumbens",
+      "label": "左伏隔核",
+      "englishLabel": "Left accumbens",
+      "structureId": "basal-ganglia",
+      "systemId": "subcortical",
+      "laterality": "left",
+      "center": [
+        -9,
+        -7,
+        -12
+      ],
+      "scale": [
+        3.5,
+        3.2,
+        4.5
+      ],
+      "color": "#c46d86",
+      "opacity": 0.24
+    },
+    {
+      "id": "right-accumbens",
+      "label": "右伏隔核",
+      "englishLabel": "Right accumbens",
+      "structureId": "basal-ganglia",
+      "systemId": "subcortical",
+      "laterality": "right",
+      "center": [
+        9,
+        -6,
+        -12
+      ],
+      "scale": [
+        3.5,
+        3.2,
+        4.5
+      ],
+      "color": "#c46d86",
+      "opacity": 0.24
+    },
+    {
+      "id": "left-cerebellar-hemisphere",
+      "label": "左小脑半球",
+      "englishLabel": "Left cerebellar hemisphere",
+      "structureId": "cerebellum",
+      "systemId": "cerebellum",
+      "laterality": "left",
+      "center": [
+        -30,
+        -52,
+        86
+      ],
+      "scale": [
+        27,
+        15,
+        23
+      ],
+      "color": "#86a8bd",
+      "opacity": 0.28
+    },
+    {
+      "id": "right-cerebellar-hemisphere",
+      "label": "右小脑半球",
+      "englishLabel": "Right cerebellar hemisphere",
+      "structureId": "cerebellum",
+      "systemId": "cerebellum",
+      "laterality": "right",
+      "center": [
+        30,
+        -52,
+        86
+      ],
+      "scale": [
+        27,
+        15,
+        23
+      ],
+      "color": "#86a8bd",
+      "opacity": 0.28
+    },
+    {
+      "id": "cerebellar-vermis",
+      "label": "小脑蚓部",
+      "englishLabel": "Cerebellar vermis",
+      "structureId": "cerebellum",
+      "systemId": "cerebellum",
+      "laterality": "midline",
+      "center": [
+        0,
+        -48,
+        83
+      ],
+      "scale": [
+        9,
+        18,
+        19
+      ],
+      "color": "#789bb2",
+      "opacity": 0.32
+    }
+  ]
+}

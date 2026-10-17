@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>脑图定位说明</title>
+<style>
+body{max-width:850px;margin:48px auto;padding:0 24px;font:17px/1.8 system-ui;color:#24312c;background:#f7f8f5}h1{font-size:28px}h2{font-size:21px;margin-top:32px}a{color:#23695b}table{border-collapse:collapse;width:100%;font-size:15px}td,th{padding:10px;text-align:left;border-bottom:1px solid #ccd8d1}small{color:#53635a}.note{padding:16px;background:#e8eee9;border-radius:12px}
+</style>
+<h1>脑图定位说明</h1>
+<small>核验日期：2026 年 10 月 17 日 · 本地验证候选</small>
+<p class="note">小脑与皮层在同一 FSL 群体参考下的摆放已有依据。主界面的 260 个节点表示教学区域关联；另设 72 个原文报告点的近似对照。两者身份分开，精确定位状态不升级。<a href="../?view=teaching-points">查看近似论文点</a>。</p>
+<h2>画面中的位置分别表示什么</h2>
+<table>
+<tr><th>对象</th><th>实际含义</th></tr>
+<tr><td>200 个分区与 7 个网络</td><td>Schaefer 功能图谱的官方标签。皮层表面来自 2mm 标签体积边界，不是精细皮层重建。</td></tr>
+<tr><td>分区代表坐标</td><td>保留图谱原有代表坐标；不等同于某篇论文的峰值。</td></tr>
+<tr><td>260 个范式节点</td><td>区域、结构或网络的教学锚点。217 个有区域聚合出处，43 个只有范式级出处；没有节点直接绑定某个论文原始峰值。</td></tr>
+<tr><td>小脑</td><td>SUITPy FSL 群体表面，与皮层共同参考及粗解剖摆放已核对。保留全部有效原始面，恢复旧过滤误删的 12 个顶点、35 个面。</td></tr>
+<tr><td>脑干</td><td>程序化教学示意，没有真实解剖定位精度保证。</td></tr>
+<tr><td>平滑展示</td><td>用于看清功能关联。形态变形后不能读取跨结构距离。</td></tr>
+</table>
+<h2>小脑验证到了哪一层</h2>
+<p>作者提供的 FSL 局部 T1 与皮层标签对应的完整 FSL T1 可以通过整数裁剪偏移对应；非零重叠区域 99.9953% 的体素强度相同。结合作者方法、固定版本的空间选择代码、独立体积标签和九个切面，本候选支持共同群体参考及粗解剖摆放。</p>
+<p>小脑叶联合体积的边界到作者外、内两张表面最近顶点的距离中位约 0.98mm，95 分位约 2.08mm。该数值只衡量这些参考之间的一致性，包含体素与网格离散误差；不是论文峰值定位误差，也不是个人 MRI 或小脑细叶的精度保证。未依据画面好看与否平移、缩放小脑。</p>
+<p>依据：<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0133402">Diedrichsen 与 Zotow 的表面方法</a>、<a href="https://github.com/DiedrichsenLab/cerebellar_atlases/tree/6857dfa732de6dd60c94da2f84d0b15ccf316618">作者参考图谱快照</a>。内部参考 MRI、论文 PDF 和切面图未随候选提供。</p>
+<h2>论文坐标这次修好了什么</h2>
+<p>已对111个来源、126份既有坐标文件建立来源链，保留3142条原始及派生记录。21篇来源的方法经过有界核查，109处原文表格坐标逐行核对；其余2092条旧原始展开记录尚未逐行语义核对。原始与派生副本不能算成独立峰值。</p>
+<ul><li>Fan 2005的26组数字保留，报告空间修正为经Brett转换的Talairach；逆Brett计算可复现，但仍是近似候选。</li>
+<li>Kim 2011的4条旧算术错误已修复；Kim与Spaniol共37条原始记录直接从原表恢复。</li>
+<li>Zacks的9条原始/派生关联已按同一条目与完全相同数值补回。旧通用转换及最近分区捷径已关闭。</li>
+<li>Davis 2009的42行原表及FSL4.1/MNI152方法路径已核，5个时序判断节点有相关原表峰值可供查阅。引用关系与图上位置分开，均未获精确定位准入。</li></ul>
+<p><a href="coordinate-evidence.html">查看原文坐标、转换过程和节点依据</a>。转换程序通过72个独立公式算例；算术正确不代表历史模板与当前FSL参考完全匹配。原文单位、历史方法和生物差异的限制分别保留。</p>
+<p>当前260个节点仍是区域/结构/网络锚点。小脑共同群体参考的既有结论不变；脑干仍是教学示意。没有通过移动或吸附论文点制造匹配。</p>
+<h2>当前交付边界</h2>
+<p>本候选按教学用途保留合理点位：Davis 42 点按报告数值近似对照，Fan 26 点按已核 Brett 逆算，Jonides 4 点先修正左右约定再按 Lancaster FSL 逆变换作近似映射。10 个点另标脑区名称限制；23 个点没有皮层标签，不吸附到最近分区。原文坐标未改，点的大小不表示误差。主项目替换差异和 GitHub 本地待审材料已准备；模型的具体 MIT 条件沿用，原创代码 MIT、原创内容 CC BY 4.0 许可已在独立首发目录落实；实际公开尚待最终确认。</p>
+<p><a href="model-license.html">来源与许可</a> · <a href="model-provenance.json">固定版本与模型哈希</a> · <a href="../">返回脑图</a></p>
+</html>

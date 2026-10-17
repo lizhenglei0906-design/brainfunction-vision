@@ -1,0 +1,1302 @@
+{
+  "stroop-visual-input": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "颜色/词义输入",
+    "originalLabel": "颜色/词义输入"
+  },
+  "stroop-acc-monitoring": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前扣带冲突监控",
+    "originalLabel": "前扣带冲突监控"
+  },
+  "stroop-thalamic-gate": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "丘脑反应门控",
+    "originalLabel": "丘脑反应门控"
+  },
+  "stroop-insula-salience": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前岛叶显著性",
+    "originalLabel": "前岛叶显著性"
+  },
+  "stroop-dlpfc-rule": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前额叶规则保持",
+    "originalLabel": "前额叶规则保持"
+  },
+  "stroop-ifg-inhibition": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "额下反应抑制",
+    "originalLabel": "额下反应抑制"
+  },
+  "stroop-parietal-mapping": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶刺激-反应映射",
+    "originalLabel": "顶叶刺激-反应映射"
+  },
+  "stroop-premotor-response": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前运动/SMA反应准备",
+    "originalLabel": "前运动/SMA反应准备"
+  },
+  "ant-visual-cue-target": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "枕颞/梭状视觉输入",
+    "originalLabel": "枕颞/梭状视觉输入"
+  },
+  "ant-alerting-readiness": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右 TPJ 警觉准备",
+    "originalLabel": "右 TPJ 警觉准备"
+  },
+  "ant-thalamic-alerting": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "丘脑警觉门控",
+    "originalLabel": "丘脑警觉门控"
+  },
+  "ant-spatial-orienting": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "FEF/顶叶空间定向",
+    "originalLabel": "FEF/顶叶空间定向"
+  },
+  "ant-acc-conflict": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "中前扣带冲突监控",
+    "originalLabel": "中前扣带冲突监控"
+  },
+  "ant-frontoparietal-rule": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "额下/额中规则控制",
+    "originalLabel": "额下/额中规则控制"
+  },
+  "ant-response-output": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "中央前/中央后反应输出",
+    "originalLabel": "中央前/中央后反应输出"
+  },
+  "ant-cerebellar-vermis": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "小脑关联（整体示意）",
+    "originalLabel": "小脑蚓部/小脑 V"
+  },
+  "flanker-visual-input": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "视觉目标/旁侧刺激输入",
+    "originalLabel": "视觉目标/旁侧刺激输入"
+  },
+  "flanker-target-selection": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶目标选择",
+    "originalLabel": "顶叶目标选择"
+  },
+  "flanker-proactive-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "额顶抗干扰控制",
+    "originalLabel": "额顶抗干扰控制"
+  },
+  "flanker-conflict-monitoring": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "冲突监控",
+    "originalLabel": "冲突监控"
+  },
+  "flanker-salience-demand": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前岛叶控制需求",
+    "originalLabel": "前岛叶控制需求"
+  },
+  "flanker-response": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "反应输出",
+    "originalLabel": "反应输出"
+  },
+  "posner-visual-cue": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "空间线索",
+    "originalLabel": "空间线索"
+  },
+  "posner-orienting": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "主动定向",
+    "originalLabel": "主动定向"
+  },
+  "posner-reorienting": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "重新定向",
+    "originalLabel": "重新定向"
+  },
+  "posner-thalamic-boundary": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "丘脑定向关联（结构示意）",
+    "originalLabel": "右丘脑定向边界"
+  },
+  "nback-parietal-buffer": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶容量缓冲",
+    "originalLabel": "顶叶容量缓冲"
+  },
+  "nback-lateral-pfc-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "侧前额叶控制",
+    "originalLabel": "侧前额叶控制"
+  },
+  "nback-ifg-task-set": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IFG任务集",
+    "originalLabel": "IFG任务集"
+  },
+  "nback-insula-salience": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前岛叶匹配信号",
+    "originalLabel": "前岛叶匹配信号"
+  },
+  "nback-medial-monitoring": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "内侧额叶监控",
+    "originalLabel": "内侧额叶监控"
+  },
+  "digit-span-phonological-store": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "语音短时存储",
+    "originalLabel": "语音短时存储"
+  },
+  "digit-span-rehearsal-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "复述控制",
+    "originalLabel": "复述控制"
+  },
+  "digit-span-capacity-attention": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "容量/顺序监控",
+    "originalLabel": "容量/顺序监控"
+  },
+  "digit-span-response-output": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "复述输出",
+    "originalLabel": "复述输出"
+  },
+  "grid-visual": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "空间图样",
+    "originalLabel": "空间图样"
+  },
+  "grid-spatial-attention": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右IPS空间保持",
+    "originalLabel": "右IPS空间保持"
+  },
+  "grid-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "额顶序列控制",
+    "originalLabel": "额顶序列控制"
+  },
+  "gonogo-signal": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "前岛叶/岛盖信号",
+    "originalLabel": "前岛叶/岛盖信号"
+  },
+  "gonogo-inhibit": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "反应抑制",
+    "originalLabel": "反应抑制"
+  },
+  "gonogo-parietal-set": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右顶叶任务集",
+    "originalLabel": "右顶叶任务集"
+  },
+  "gonogo-motor": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "动作通道",
+    "originalLabel": "动作通道"
+  },
+  "stop-motor-start": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "运动输出通道",
+    "originalLabel": "运动输出通道"
+  },
+  "stop-signal-detect": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 当前以单侧位置代表涉及双侧的概念。",
+    "displayLabel": "双侧前岛叶/岛盖",
+    "originalLabel": "双侧前岛叶/岛盖"
+  },
+  "stop-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右额下控制",
+    "originalLabel": "右额下控制"
+  },
+  "stop-thalamic-gate": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "丘脑停止关联（结构示意）",
+    "originalLabel": "右丘脑停止边界"
+  },
+  "stop-sma-gating": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "SMA/pre-SMA 门控",
+    "originalLabel": "SMA/pre-SMA 门控"
+  },
+  "switch-rule": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "规则更新",
+    "originalLabel": "规则更新"
+  },
+  "switch-cue": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "切换线索",
+    "originalLabel": "切换线索"
+  },
+  "switch-attention": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "目标重定向",
+    "originalLabel": "目标重定向"
+  },
+  "raven-visual-input": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "矩阵图形输入",
+    "originalLabel": "矩阵图形输入"
+  },
+  "raven-parietal-workspace": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶关系工作区",
+    "originalLabel": "顶叶关系工作区"
+  },
+  "raven-right-frontal-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右额叶候选控制",
+    "originalLabel": "右额叶候选控制"
+  },
+  "raven-medial-monitor": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "内侧额叶监控",
+    "originalLabel": "内侧额叶监控"
+  },
+  "raven-response-output": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "反应输出组织",
+    "originalLabel": "反应输出组织"
+  },
+  "rotation-image": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "枕叶视觉表象",
+    "originalLabel": "枕叶视觉表象"
+  },
+  "rotation-space": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "SPL/IPS空间变换",
+    "originalLabel": "SPL/IPS空间变换"
+  },
+  "rotation-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "DLPFC比较控制",
+    "originalLabel": "DLPFC比较控制"
+  },
+  "crt-stimulus": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "刺激识别",
+    "originalLabel": "刺激识别"
+  },
+  "crt-decision": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "额叶反应选择",
+    "originalLabel": "额叶反应选择"
+  },
+  "crt-presma": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "pre-SMA/中前扣带选择调度",
+    "originalLabel": "pre-SMA/中前扣带选择调度"
+  },
+  "crt-output": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "动作输出",
+    "originalLabel": "动作输出"
+  },
+  "crt-alert": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "额盖/前岛显著性",
+    "originalLabel": "额盖/前岛显著性"
+  },
+  "calc-symbol": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "视觉皮层符号输入",
+    "originalLabel": "视觉皮层符号输入"
+  },
+  "calc-quantity": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPS/SPL数量表征",
+    "originalLabel": "IPS/SPL数量表征"
+  },
+  "calc-ipl-integration": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPL/角回数量整合",
+    "originalLabel": "IPL/角回数量整合"
+  },
+  "calc-rule": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "DLPFC步骤控制",
+    "originalLabel": "DLPFC步骤控制"
+  },
+  "calc-step-prep": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "BA6/SFS步骤准备",
+    "originalLabel": "BA6/SFS步骤准备"
+  },
+  "calc-state-demand": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前岛/岛盖任务需求",
+    "originalLabel": "前岛/岛盖任务需求"
+  },
+  "calc-medial-monitoring": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "中前扣带监控",
+    "originalLabel": "中前扣带监控"
+  },
+  "calc-thalamic-subcortical-boundary": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "丘脑/皮层外计算边界",
+    "originalLabel": "丘脑/皮层外计算边界"
+  },
+  "lexical-visual": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "字形识别",
+    "originalLabel": "字形识别"
+  },
+  "lexical-semantic": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "熟悉词语义访问",
+    "originalLabel": "熟悉词语义访问"
+  },
+  "lexical-decision": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "判断输出",
+    "originalLabel": "判断输出"
+  },
+  "word-visual-fusiform": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "词项视觉输入",
+    "originalLabel": "词项视觉输入"
+  },
+  "word-ifg-encoding-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IFG编码控制",
+    "originalLabel": "IFG编码控制"
+  },
+  "word-ips-organization": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPS/SPL组织注意",
+    "originalLabel": "IPS/SPL组织注意"
+  },
+  "word-medial-frontal-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "pre-SMA/内侧额叶控制",
+    "originalLabel": "pre-SMA/内侧额叶控制"
+  },
+  "assoc-visual-cue": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "项目视觉线索",
+    "originalLabel": "项目视觉线索"
+  },
+  "assoc-ifg-selection": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IFG/VLPFC选择编码",
+    "originalLabel": "IFG/VLPFC选择编码"
+  },
+  "assoc-insula-demand": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "岛叶状态需求",
+    "originalLabel": "岛叶状态需求"
+  },
+  "assoc-angular-binding": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "联结整合边界",
+    "originalLabel": "联结整合边界"
+  },
+  "sentence-visual": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "文字输入",
+    "originalLabel": "文字输入"
+  },
+  "sentence-context": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "语义语境",
+    "originalLabel": "语义语境"
+  },
+  "sentence-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "理解整合",
+    "originalLabel": "理解整合"
+  },
+  "sentence-attention": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "阅读注意",
+    "originalLabel": "阅读注意"
+  },
+  "number-symbol": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "视觉皮层数字输入",
+    "originalLabel": "视觉皮层数字输入"
+  },
+  "number-magnitude": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPS/SPL数量大小",
+    "originalLabel": "IPS/SPL数量大小"
+  },
+  "number-ipl-integration": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPL/角回数量整合",
+    "originalLabel": "IPL/角回数量整合"
+  },
+  "number-attention": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "背侧顶叶目标维持",
+    "originalLabel": "背侧顶叶目标维持"
+  },
+  "ans-visual-array": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "视觉数量输入",
+    "originalLabel": "视觉数量输入"
+  },
+  "ans-ips-numerosity": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPS/SPL数量感",
+    "originalLabel": "IPS/SPL数量感"
+  },
+  "ans-comparison-goal": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "比较目标维持",
+    "originalLabel": "比较目标维持"
+  },
+  "ans-response-choice": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "快速判断输出",
+    "originalLabel": "快速判断输出"
+  },
+  "fact-symbol-input": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "数字符号输入",
+    "originalLabel": "数字符号输入"
+  },
+  "fact-left-ips-route": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左IPS熟练答案通路",
+    "originalLabel": "左IPS熟练答案通路"
+  },
+  "fact-angular-retrieval": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "角回/IPL事实提取",
+    "originalLabel": "角回/IPL事实提取"
+  },
+  "fact-ifg-selection": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IFG/岛盖选择检索",
+    "originalLabel": "IFG/岛盖选择检索"
+  },
+  "fact-semantic-store": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "语义事实背景",
+    "originalLabel": "语义事实背景"
+  },
+  "algebra-symbol-input": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "符号/等式输入",
+    "originalLabel": "符号/等式输入"
+  },
+  "algebra-relation-map": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶关系表征",
+    "originalLabel": "顶叶关系表征"
+  },
+  "algebra-dlpfc-rule": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "DLPFC规则变换",
+    "originalLabel": "DLPFC规则变换"
+  },
+  "algebra-ipl-integration": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPL中间结果整合",
+    "originalLabel": "IPL中间结果整合"
+  },
+  "geometry-visual-shape": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "图形视觉输入",
+    "originalLabel": "图形视觉输入"
+  },
+  "geometry-parietal-space": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPS/SPL空间关系",
+    "originalLabel": "IPS/SPL空间关系"
+  },
+  "geometry-dlpfc-proof": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "额顶证明目标",
+    "originalLabel": "额顶证明目标"
+  },
+  "geometry-premotor-transform": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "空间操作准备",
+    "originalLabel": "空间操作准备"
+  },
+  "stats-data-input": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "数字/图表输入",
+    "originalLabel": "数字/图表输入"
+  },
+  "stats-ratio-magnitude": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶比例/数量",
+    "originalLabel": "顶叶比例/数量"
+  },
+  "stats-dlpfc-rule": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "规则/条件控制",
+    "originalLabel": "规则/条件控制"
+  },
+  "stats-salience-interference": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "显著性干扰入口",
+    "originalLabel": "显著性干扰入口"
+  },
+  "stats-conflict-bias": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "直觉偏差监控",
+    "originalLabel": "直觉偏差监控"
+  },
+  "word-problem-text": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "题干文字输入",
+    "originalLabel": "题干文字输入"
+  },
+  "word-problem-semantics": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "题意限定词解析",
+    "originalLabel": "题意限定词解析"
+  },
+  "word-problem-quantity": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶数量关系",
+    "originalLabel": "顶叶数量关系"
+  },
+  "word-problem-model": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "额顶逻辑建模",
+    "originalLabel": "额顶逻辑建模"
+  },
+  "word-problem-salience": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前岛叶冲突提示",
+    "originalLabel": "前岛叶冲突提示"
+  },
+  "word-problem-conflict": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "SMA/dACC冲突监控",
+    "originalLabel": "SMA/dACC冲突监控"
+  },
+  "srt-visual-sensory-input": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "感觉线索输入",
+    "originalLabel": "感觉线索输入"
+  },
+  "srt-multimodal-cue-detection": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "多模态线索检测",
+    "originalLabel": "多模态线索检测"
+  },
+  "srt-medial-frontal-preparation": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "SMA/内侧额叶准备",
+    "originalLabel": "SMA/内侧额叶准备"
+  },
+  "srt-bilateral-premotor-output": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前运动反应准备",
+    "originalLabel": "前运动反应准备"
+  },
+  "srt-opercular-sensorimotor-integration": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "额盖/顶盖感觉运动整合",
+    "originalLabel": "额盖/顶盖感觉运动整合"
+  },
+  "imagery-memory": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "下顶叶/角回记忆线索",
+    "originalLabel": "下顶叶/角回记忆线索"
+  },
+  "imagery-visual": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "枕叶视觉再激活",
+    "originalLabel": "枕叶视觉再激活"
+  },
+  "imagery-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "DLPFC保持操作",
+    "originalLabel": "DLPFC保持操作"
+  },
+  "analogy-frontopolar-integration": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "关系整合",
+    "originalLabel": "关系整合"
+  },
+  "analogy-controlled-retrieval": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "关系检索",
+    "originalLabel": "关系检索"
+  },
+  "analogy-verbal-selection": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "语言选择",
+    "originalLabel": "语言选择"
+  },
+  "analogy-response-check": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "排除无效类比",
+    "originalLabel": "排除无效类比"
+  },
+  "recognition-parietal-retrieval": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶提取线索",
+    "originalLabel": "顶叶提取线索"
+  },
+  "recognition-angular-recollection": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "角回主观回忆",
+    "originalLabel": "角回主观回忆"
+  },
+  "recognition-judge": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前额叶再认判断",
+    "originalLabel": "前额叶再认判断"
+  },
+  "recognition-context-pcc": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "后扣带情景背景",
+    "originalLabel": "后扣带情景背景"
+  },
+  "source-vlpfc-monitor": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左LIPC/VLPFC来源监控",
+    "originalLabel": "左LIPC/VLPFC来源监控"
+  },
+  "source-context": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "retrosplenial情景背景",
+    "originalLabel": "retrosplenial情景背景"
+  },
+  "source-parietal-recollection": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPL/IPS细节提取",
+    "originalLabel": "IPL/IPS细节提取"
+  },
+  "source-mtl-boundary": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "海马/MTL绑定边界",
+    "originalLabel": "海马/MTL绑定边界"
+  },
+  "source-thalamic-boundary": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "丘脑来源检索关联（结构示意）",
+    "originalLabel": "左丘脑来源检索边界"
+  },
+  "mot-visual-motion": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "运动视觉输入",
+    "originalLabel": "运动视觉输入"
+  },
+  "mot-parietal-tracking": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶追踪负荷",
+    "originalLabel": "顶叶追踪负荷"
+  },
+  "mot-fef-premotor-set": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "FEF/前运动准备",
+    "originalLabel": "FEF/前运动准备"
+  },
+  "mot-medial-demand": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "内侧额叶需求",
+    "originalLabel": "内侧额叶需求"
+  },
+  "cpt-visual-monitoring": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "视觉持续监控",
+    "originalLabel": "视觉持续监控"
+  },
+  "cpt-parietal-orienting": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右IPS持续定向",
+    "originalLabel": "右IPS持续定向"
+  },
+  "cpt-tpj-reorienting": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右TPJ重新定向",
+    "originalLabel": "右TPJ重新定向"
+  },
+  "cpt-salience": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前岛叶/岛盖捕捉",
+    "originalLabel": "前岛叶/岛盖捕捉"
+  },
+  "cpt-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "内侧额叶维持控制",
+    "originalLabel": "内侧额叶维持控制"
+  },
+  "cpt-right-frontal-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右额叶规则控制",
+    "originalLabel": "右额叶规则控制"
+  },
+  "cpt-response": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "反应输出",
+    "originalLabel": "反应输出"
+  },
+  "dual-plpfc-bottleneck": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左 pLPFC 反应选择瓶颈",
+    "originalLabel": "左 pLPFC 反应选择瓶颈"
+  },
+  "dual-smfc-presma-timing": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "SMFC/pre-SMA 调度",
+    "originalLabel": "SMFC/pre-SMA 调度"
+  },
+  "tol-mid-dlpfc": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 当前以单侧位置代表涉及双侧的概念。",
+    "displayLabel": "双侧 mid-DLPFC",
+    "originalLabel": "双侧 mid-DLPFC"
+  },
+  "tol-fef": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 当前以单侧位置代表涉及双侧的概念。",
+    "displayLabel": "双侧 FEF",
+    "originalLabel": "双侧 FEF"
+  },
+  "tol-sma-presma": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "SMA/pre-SMA",
+    "originalLabel": "SMA/pre-SMA"
+  },
+  "tol-ipl": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 当前以单侧位置代表涉及双侧的概念。",
+    "displayLabel": "双侧 IPL/顶内沟",
+    "originalLabel": "双侧 IPL/顶内沟"
+  },
+  "tol-precuneus": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "楔前叶",
+    "originalLabel": "楔前叶"
+  },
+  "tol-anterior-insula": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 当前以单侧位置代表涉及双侧的概念。",
+    "displayLabel": "双侧前岛叶/岛盖",
+    "originalLabel": "双侧前岛叶/岛盖"
+  },
+  "tol-rlpfc": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "RLPFC/额极邻近",
+    "originalLabel": "RLPFC/额极邻近"
+  },
+  "keep-update-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "更新控制",
+    "originalLabel": "更新控制"
+  },
+  "keep-active-items": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "活动项目保持",
+    "originalLabel": "活动项目保持"
+  },
+  "keep-change-detection": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "变化检测",
+    "originalLabel": "变化检测"
+  },
+  "object-visual-form": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "腹侧视觉/梭状物体表征",
+    "originalLabel": "腹侧视觉/梭状物体表征"
+  },
+  "object-parietal-buffer": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶容量缓冲",
+    "originalLabel": "顶叶容量缓冲"
+  },
+  "object-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右额下/额下沟保持控制",
+    "originalLabel": "右额下/额下沟保持控制"
+  },
+  "prl-feedback-value": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "VLPFC/岛盖反馈变化",
+    "originalLabel": "VLPFC/岛盖反馈变化"
+  },
+  "prl-rule-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右顶叶规则调整",
+    "originalLabel": "右顶叶规则调整"
+  },
+  "prl-conflict-monitor": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "错误/冲突监控",
+    "originalLabel": "错误/冲突监控"
+  },
+  "toj-visual-input": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "后颞视觉输入",
+    "originalLabel": "后颞视觉输入"
+  },
+  "toj-tpj-sequence": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "TPJ先后事件捕捉",
+    "originalLabel": "TPJ先后事件捕捉"
+  },
+  "toj-ips-orienting": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPS时间注意定向",
+    "originalLabel": "IPS时间注意定向"
+  },
+  "toj-fef-report": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "FEF/前运动报告准备",
+    "originalLabel": "FEF/前运动报告准备"
+  },
+  "toj-ifg-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右IFG/岛盖任务控制",
+    "originalLabel": "右IFG/岛盖任务控制"
+  },
+  "semantic-temporal-representation": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "词义/概念表征",
+    "originalLabel": "词义/概念表征"
+  },
+  "semantic-angular-integration": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "语义整合",
+    "originalLabel": "语义整合"
+  },
+  "semantic-ventral-temporal-interface": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "腹侧颞叶语义接口",
+    "originalLabel": "腹侧颞叶语义接口"
+  },
+  "semantic-dmpfc-retrieval": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "DMPFC语义检索",
+    "originalLabel": "DMPFC语义检索"
+  },
+  "semantic-retrieval-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "语义检索控制",
+    "originalLabel": "语义检索控制"
+  },
+  "semantic-vmpfc-affective-context": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "VMPFC情境价值",
+    "originalLabel": "VMPFC情境价值"
+  },
+  "semantic-pcc-context": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "后扣带语境背景",
+    "originalLabel": "后扣带语境背景"
+  },
+  "drm-semantic-gist": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "语义 gist 入口",
+    "originalLabel": "语义 gist 入口"
+  },
+  "drm-ips-precuneus-false-recognition": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPS/楔前叶错误再认",
+    "originalLabel": "IPS/楔前叶错误再认"
+  },
+  "drm-angular-false-recognition": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "角回/IPL错误熟悉感",
+    "originalLabel": "角回/IPL错误熟悉感"
+  },
+  "drm-medial-monitoring": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "额内侧监控",
+    "originalLabel": "额内侧监控"
+  },
+  "deductive-premise-semantics": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前提语义保持",
+    "originalLabel": "前提语义保持"
+  },
+  "deductive-left-frontal-rule-integration": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左额规则整合",
+    "originalLabel": "左额规则整合"
+  },
+  "deductive-parietal-relation-workspace": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶关系工作区",
+    "originalLabel": "顶叶关系工作区"
+  },
+  "deductive-medial-monitoring": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "内侧额叶监控",
+    "originalLabel": "内侧额叶监控"
+  },
+  "deductive-right-frontal-validation": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右额验证/抑制",
+    "originalLabel": "右额验证/抑制"
+  },
+  "deductive-thalamic-boundary": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "丘脑关联（结构示意）",
+    "originalLabel": "右丘脑边界"
+  },
+  "deductive-basal-ganglia-boundary": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "基底节关联（结构示意）",
+    "originalLabel": "尾状核/苍白球边界"
+  },
+  "face-name-face-input": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "面孔输入",
+    "originalLabel": "面孔输入"
+  },
+  "face-name-name-label": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "姓名标签",
+    "originalLabel": "姓名标签"
+  },
+  "face-name-hippocampal-bind": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "海马联结绑定",
+    "originalLabel": "海马联结绑定"
+  },
+  "face-name-prefrontal-strategy": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前额叶提取策略",
+    "originalLabel": "前额叶提取策略"
+  },
+  "face-name-cingulate-effort": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "联结努力监控",
+    "originalLabel": "联结努力监控"
+  },
+  "episodic-order-hippocampal-sequence": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "海马顺序绑定",
+    "originalLabel": "海马顺序绑定"
+  },
+  "episodic-order-context": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "情景背景",
+    "originalLabel": "情景背景"
+  },
+  "episodic-order-context-boundary-control": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "上下文边界控制",
+    "originalLabel": "上下文边界控制"
+  },
+  "episodic-order-temporal-context-parietal": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "时间上下文支持",
+    "originalLabel": "时间上下文支持"
+  },
+  "episodic-order-boundary-salience": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "边界显著性选择",
+    "originalLabel": "边界显著性选择"
+  },
+  "episodic-order-prefrontal-monitor": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顺序监控",
+    "originalLabel": "顺序监控"
+  },
+  "episodic-order-parietal-detail": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "细节重建",
+    "originalLabel": "细节重建"
+  },
+  "visual-delayed-visual-form": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "视觉形状输入",
+    "originalLabel": "视觉形状输入"
+  },
+  "visual-delayed-mtl-encoding": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "内侧颞叶编码",
+    "originalLabel": "内侧颞叶编码"
+  },
+  "visual-delayed-hippocampus": {
+    "note": "整体或双侧结构的教学代表位置；不表达单侧核团、小脑叶或个体精确位置。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "海马新异编码",
+    "originalLabel": "海马新异编码"
+  },
+  "visual-delayed-parietal-retrieval": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "视觉记忆提取",
+    "originalLabel": "视觉记忆提取"
+  },
+  "wpr-visual": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "枕叶视觉输入",
+    "originalLabel": "枕叶视觉输入"
+  },
+  "wpr-vwfa": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左腹侧颞枕字形区候选",
+    "originalLabel": "左腹侧颞枕字形区候选"
+  },
+  "wpr-ifg-phonology": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左下额音韵控制",
+    "originalLabel": "左下额音韵控制"
+  },
+  "wpr-semantic-temporal": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "熟悉词语义整合",
+    "originalLabel": "熟悉词语义整合"
+  },
+  "phon-visual-form": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "字形输入",
+    "originalLabel": "字形输入"
+  },
+  "phon-left-ifg": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左下额音韵规则",
+    "originalLabel": "左下额音韵规则"
+  },
+  "phon-parietal-support": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPL音韵支持",
+    "originalLabel": "IPL音韵支持"
+  },
+  "ortho-occipital": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "枕叶线条/字形输入",
+    "originalLabel": "枕叶线条/字形输入"
+  },
+  "ortho-vwfa": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左梭状字形区候选",
+    "originalLabel": "左梭状字形区候选"
+  },
+  "ortho-ifg-check": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左下额规则检查",
+    "originalLabel": "左下额规则检查"
+  },
+  "symbol-visual": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "枕叶/枕颞符号输入",
+    "originalLabel": "枕叶/枕颞符号输入"
+  },
+  "symbol-parietal-scan": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶扫描/匹配",
+    "originalLabel": "顶叶扫描/匹配"
+  },
+  "symbol-fef-premotor": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "FEF/前运动反应准备",
+    "originalLabel": "FEF/前运动反应准备"
+  },
+  "symbol-left-ifg-rule": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左 IFG 规则支持",
+    "originalLabel": "左 IFG 规则支持"
+  },
+  "search-visual-field": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "枕叶视觉场",
+    "originalLabel": "枕叶视觉场"
+  },
+  "search-fef": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "额眼区扫描控制",
+    "originalLabel": "额眼区扫描控制"
+  },
+  "search-ips": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶内沟目标定位",
+    "originalLabel": "顶内沟目标定位"
+  },
+  "search-motor": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "中央前回反应输出",
+    "originalLabel": "中央前回反应输出"
+  },
+  "discrimination-sensory": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "视觉/跨模态输入代理",
+    "originalLabel": "视觉/跨模态输入代理"
+  },
+  "discrimination-auditory-input": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "听觉/颞上输入候选",
+    "originalLabel": "听觉/颞上输入候选"
+  },
+  "discrimination-salience": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前岛/额盖控制需求",
+    "originalLabel": "前岛/额盖控制需求"
+  },
+  "discrimination-parietal-choice": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPS/SPL 反应备选工作区",
+    "originalLabel": "IPS/SPL 反应备选工作区"
+  },
+  "discrimination-dlpfc-decision": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左 DLPFC/SFS 证据整合",
+    "originalLabel": "左 DLPFC/SFS 证据整合"
+  },
+  "discrimination-motor": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "PMd/中央前回反应输出",
+    "originalLabel": "PMd/中央前回反应输出"
+  },
+  "folding-visual": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "枕叶形状表象",
+    "originalLabel": "枕叶形状表象"
+  },
+  "folding-right-ipl-ba40-lesion": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右IPL/BA40折叠边界",
+    "originalLabel": "右IPL/BA40折叠边界"
+  },
+  "folding-left-phc-configuration": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左海马旁构型支持",
+    "originalLabel": "左海马旁构型支持"
+  },
+  "embedded-visual-background": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "枕颞复杂图形输入",
+    "originalLabel": "枕颞复杂图形输入"
+  },
+  "embedded-ips-selection": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶/楔前叶目标分离",
+    "originalLabel": "顶叶/楔前叶目标分离"
+  },
+  "embedded-fef-search-set": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "FEF/前运动搜索策略",
+    "originalLabel": "FEF/前运动搜索策略"
+  },
+  "embedded-salience-switch": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右IFG-岛叶熟练搜索",
+    "originalLabel": "右IFG-岛叶熟练搜索"
+  },
+  "relational-dlpfc": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "前DLPFC关系整合",
+    "originalLabel": "前DLPFC关系整合"
+  },
+  "relational-parietal": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "顶叶关系工作空间",
+    "originalLabel": "顶叶关系工作空间"
+  },
+  "relational-acc-monitor": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "内侧额叶冲突监控",
+    "originalLabel": "内侧额叶冲突监控"
+  },
+  "relational-visual-input": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "关系材料输入",
+    "originalLabel": "关系材料输入"
+  },
+  "inductive-material-input": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "样例材料输入",
+    "originalLabel": "样例材料输入"
+  },
+  "inductive-parietal-workspace": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "IPS/SPL关系工作区",
+    "originalLabel": "IPS/SPL关系工作区"
+  },
+  "inductive-left-ifg-hypothesis": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "左IFG/VLPFC假设生成",
+    "originalLabel": "左IFG/VLPFC假设生成"
+  },
+  "inductive-medial-monitoring": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "额内侧规则监控",
+    "originalLabel": "额内侧规则监控"
+  },
+  "inductive-right-pfc-domain-strategy": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。",
+    "displayLabel": "右PFC空间策略支路",
+    "originalLabel": "右PFC空间策略支路"
+  },
+  "symbol-quantity-visual": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "数字/点阵视觉输入",
+    "originalLabel": "数字/点阵视觉输入"
+  },
+  "symbol-quantity-ips": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "IPS/SPL数量意义",
+    "originalLabel": "IPS/SPL数量意义"
+  },
+  "symbol-quantity-ipl": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "下顶叶形式对应",
+    "originalLabel": "下顶叶形式对应"
+  },
+  "symbol-quantity-goal": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "当前对应目标",
+    "originalLabel": "当前对应目标"
+  },
+  "subitizing-visual": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "点阵视觉输入",
+    "originalLabel": "点阵视觉输入"
+  },
+  "subitizing-tpj": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "TPJ小集合识别",
+    "originalLabel": "TPJ小集合识别"
+  },
+  "subitizing-ips-count": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "后顶叶逐项计数",
+    "originalLabel": "后顶叶逐项计数"
+  },
+  "subitizing-frontal-sequence": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "额叶计数顺序",
+    "originalLabel": "额叶计数顺序"
+  },
+  "number-line-visual": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "数字/数轴视觉输入",
+    "originalLabel": "数字/数轴视觉输入"
+  },
+  "number-line-ips": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "IPS数量大小",
+    "originalLabel": "IPS数量大小"
+  },
+  "number-line-spl": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "后顶叶空间比例",
+    "originalLabel": "后顶叶空间比例"
+  },
+  "number-line-rule": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "参考点/区间策略",
+    "originalLabel": "参考点/区间策略"
+  },
+  "number-line-response": {
+    "note": "分区内的教学代表位置，用来说明区域关联；不等于论文报告峰值或细脑区的精确定位。 本节点只有范式级出处，专属峰值关联尚未核实。",
+    "displayLabel": "位置标记输出",
+    "originalLabel": "位置标记输出"
+  }
+}

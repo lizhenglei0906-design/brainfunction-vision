@@ -1,0 +1,1048 @@
+{
+  "id": "region-coverage-registry-v0",
+  "version": "0.1.0",
+  "status": "seed",
+  "atlasScope": "Schaefer2018 200 cortical parcels ordered by Yeo 7 networks. This atlas is a cortical parcellation layer and should not be edited to add non-cortical structures.",
+  "sourceNote": "Working registry for mapping research-region language into the current atlas viewer. Entries are coverage decisions and visualization guardrails, not new anatomical findings.",
+  "regions": [
+    {
+      "id": "frontal-eye-fields",
+      "label": "额叶眼动区",
+      "englishLabel": "Frontal eye fields",
+      "aliases": [
+        "FEF",
+        "frontal eye field"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "parcel_proxy",
+      "relatedParadigmIds": [
+        "posner-cueing",
+        "attention-network-test",
+        "choice-reaction-time",
+        "simple-reaction-time",
+        "sustained-attention-cpt",
+        "visual-search-schulte"
+      ],
+      "relatedFunctionIds": [
+        "attention",
+        "reaction_speed"
+      ],
+      "candidateNetworks": [
+        "dorsal_attention"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_041",
+        "schaefer200_042",
+        "schaefer200_070",
+        "schaefer200_145",
+        "schaefer200_146"
+      ],
+      "explanation": "Schaefer200 includes parcels labeled DorsAttn_FEF in both hemispheres, and Davis 2009 maps a left FEF BA6 peak closely to a neighboring frontoparietal parcel, so this region can be shown as a coarse cortical proxy for orienting, temporal attention, and report preparation.",
+      "caution": "This is a coarse parcel proxy plus coordinate-nearest candidate, not a reviewed anatomical FEF boundary.",
+      "nextAtlasNeed": "Coordinate-based task evidence if we want point-level Posner or eye-field claims."
+    },
+    {
+      "id": "intraparietal-posterior-parietal",
+      "label": "顶内沟/后顶叶",
+      "englishLabel": "Intraparietal sulcus and posterior parietal cortex",
+      "aliases": [
+        "IPS",
+        "posterior parietal cortex",
+        "superior parietal"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "network_proxy",
+      "relatedParadigmIds": [
+        "stroop",
+        "flanker",
+        "attention-network-test",
+        "posner-cueing",
+        "mental-rotation",
+        "ravens-matrices",
+        "number-comparison",
+        "grid-span",
+        "multiple-object-tracking",
+        "sustained-attention-cpt",
+        "dual-task",
+        "tower-of-london",
+        "keep-track",
+        "object-span",
+        "analogical-reasoning",
+        "temporal-order-judgment",
+        "symbol-search-coding-speed",
+        "visual-search-schulte",
+        "spatial-folding-unfolding",
+        "embedded-figures",
+        "relational-reasoning",
+        "inductive-rule-discovery"
+      ],
+      "relatedFunctionIds": [
+        "attention",
+        "mental_imagery_operation",
+        "reasoning",
+        "calculation",
+        "short_term_memory",
+        "reaction_speed"
+      ],
+      "candidateNetworks": [
+        "dorsal_attention",
+        "frontoparietal"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_033",
+        "schaefer200_034",
+        "schaefer200_036",
+        "schaefer200_037",
+        "schaefer200_038",
+        "schaefer200_039",
+        "schaefer200_040",
+        "schaefer200_061",
+        "schaefer200_062",
+        "schaefer200_063",
+        "schaefer200_099",
+        "schaefer200_138",
+        "schaefer200_139",
+        "schaefer200_140",
+        "schaefer200_141",
+        "schaefer200_142",
+        "schaefer200_143",
+        "schaefer200_144",
+        "schaefer200_165",
+        "schaefer200_166",
+        "schaefer200_167",
+        "schaefer200_200"
+      ],
+      "explanation": "Use Schaefer200 parcels whose surface-overlap labels include intraparietal sulcus, superior parietal lobule, angular gyrus, and supramarginal gyrus as a conservative parietal manipulation proxy.",
+      "caution": "These are Schaefer-to-anatomical-overlap candidates, not task-study activation peaks; keep them as candidate parcel proxies until coordinates from specific studies are reviewed.",
+      "nextAtlasNeed": "Coordinate-to-parcel mapping or a parietal/anatomical atlas for finer spatial claims."
+    },
+    {
+      "id": "frontal-operculum-anterior-insula",
+      "label": "额叶岛盖/前岛叶",
+      "englishLabel": "Frontal operculum and anterior insula",
+      "aliases": [
+        "frontal operculum",
+        "anterior insula",
+        "FrOperIns",
+        "AI"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "parcel_proxy",
+      "relatedParadigmIds": [
+        "stroop",
+        "flanker",
+        "go-no-go",
+        "stop-signal",
+        "task-switching",
+        "sustained-attention-cpt",
+        "keep-track",
+        "perceptual-discrimination-rt",
+        "embedded-figures"
+      ],
+      "relatedFunctionIds": [
+        "attention",
+        "executive_function",
+        "reaction_speed"
+      ],
+      "candidateNetworks": [
+        "ventral_attention",
+        "frontoparietal"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_047",
+        "schaefer200_048",
+        "schaefer200_049",
+        "schaefer200_050",
+        "schaefer200_060",
+        "schaefer200_152",
+        "schaefer200_153",
+        "schaefer200_154",
+        "schaefer200_155",
+        "schaefer200_169"
+      ],
+      "explanation": "Schaefer200 has Salience/Ventral Attention FrOperIns parcels, useful for salience, conflict, and stopping explanations.",
+      "caution": "FrOperIns is a broad label and should not be treated as a precise anterior-insula coordinate match.",
+      "nextAtlasNeed": "Task-study coordinates for response inhibition or salience-specific claims."
+    },
+    {
+      "id": "inferior-frontal-gyrus",
+      "label": "下额回",
+      "englishLabel": "Inferior frontal gyrus",
+      "aliases": [
+        "IFG",
+        "right IFG",
+        "rIFG",
+        "inferior frontal cortex"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "network_proxy",
+      "relatedParadigmIds": [
+        "go-no-go",
+        "stop-signal",
+        "stroop",
+        "lexical-decision",
+        "semantic-task",
+        "word-pseudoword-reading",
+        "phonological-decoding",
+        "orthographic-processing",
+        "embedded-figures"
+      ],
+      "relatedFunctionIds": [
+        "executive_function",
+        "reaction_speed",
+        "reading",
+        "mental_imagery_operation"
+      ],
+      "candidateNetworks": [
+        "ventral_attention",
+        "dorsal_attention",
+        "frontoparietal"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_043",
+        "schaefer200_047",
+        "schaefer200_048",
+        "schaefer200_050",
+        "schaefer200_066",
+        "schaefer200_067",
+        "schaefer200_069",
+        "schaefer200_087",
+        "schaefer200_085",
+        "schaefer200_083",
+        "schaefer200_147",
+        "schaefer200_152",
+        "schaefer200_153",
+        "schaefer200_154",
+        "schaefer200_169",
+        "schaefer200_170",
+        "schaefer200_172",
+        "schaefer200_173",
+        "schaefer200_190"
+      ],
+      "explanation": "Current atlas can express IFG-related claims only through nearby ventral-attention/frontoparietal proxies.",
+      "caution": "Do not claim right IFG activation from Schaefer labels alone; response inhibition papers need coordinate review.",
+      "nextAtlasNeed": "Coordinate mapping or an anatomical frontal atlas for IFG-specific claims."
+    },
+    {
+      "id": "dorsolateral-prefrontal-cortex",
+      "label": "背外侧前额叶",
+      "englishLabel": "Dorsolateral prefrontal cortex",
+      "aliases": [
+        "DLPFC",
+        "middle frontal gyrus",
+        "lateral prefrontal cortex"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "network_proxy",
+      "relatedParadigmIds": [
+        "stroop",
+        "flanker",
+        "attention-network-test",
+        "n-back",
+        "digit-span",
+        "ravens-matrices",
+        "mental-arithmetic",
+        "task-switching",
+        "multiple-object-tracking",
+        "dual-task",
+        "tower-of-london",
+        "keep-track",
+        "object-span",
+        "analogical-reasoning",
+        "recognition-memory",
+        "probabilistic-reversal-learning",
+        "drm-false-memory",
+        "deductive-reasoning",
+        "spatial-folding-unfolding",
+        "relational-reasoning",
+        "inductive-rule-discovery",
+        "perceptual-discrimination-rt"
+      ],
+      "relatedFunctionIds": [
+        "attention",
+        "short_term_memory",
+        "reasoning",
+        "calculation",
+        "executive_function",
+        "mental_imagery_operation",
+        "reaction_speed"
+      ],
+      "candidateNetworks": [
+        "frontoparietal",
+        "default_mode"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_066",
+        "schaefer200_067",
+        "schaefer200_068",
+        "schaefer200_170",
+        "schaefer200_171",
+        "schaefer200_172",
+        "schaefer200_173",
+        "schaefer200_174",
+        "schaefer200_175",
+        "schaefer200_069",
+        "schaefer200_093",
+        "schaefer200_094"
+      ],
+      "explanation": "DLPFC-like claims can be represented as frontoparietal/control-network proxies in the current model.",
+      "caution": "Schaefer200 does not label DLPFC as an anatomical area here; keep claims at network level until coordinates are mapped.",
+      "nextAtlasNeed": "Coordinate-level task evidence or an anatomical frontal parcellation."
+    },
+    {
+      "id": "anterior-cingulate-medial-frontal",
+      "label": "前扣带/内侧额叶",
+      "englishLabel": "Anterior cingulate and medial frontal cortex",
+      "aliases": [
+        "ACC",
+        "anterior cingulate",
+        "medial frontal",
+        "pre-SMA",
+        "DMPFC",
+        "dorsomedial prefrontal cortex"
+      ],
+      "structureType": "cortical",
+      "laterality": "midline",
+      "coverageStatus": "network_proxy",
+      "relatedParadigmIds": [
+        "stroop",
+        "attention-network-test",
+        "flanker",
+        "go-no-go",
+        "stop-signal",
+        "task-switching",
+        "sustained-attention-cpt",
+        "dual-task",
+        "probabilistic-reversal-learning",
+        "deductive-reasoning",
+        "semantic-task",
+        "relational-reasoning",
+        "inductive-rule-discovery"
+      ],
+      "relatedFunctionIds": [
+        "attention",
+        "executive_function",
+        "reaction_speed",
+        "reading",
+        "long_term_memory",
+        "reasoning"
+      ],
+      "candidateNetworks": [
+        "ventral_attention",
+        "frontoparietal"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_052",
+        "schaefer200_053",
+        "schaefer200_054",
+        "schaefer200_072",
+        "schaefer200_073",
+        "schaefer200_090",
+        "schaefer200_092",
+        "schaefer200_095",
+        "schaefer200_156",
+        "schaefer200_157",
+        "schaefer200_178",
+        "schaefer200_179",
+        "schaefer200_180",
+        "schaefer200_181",
+        "schaefer200_084"
+      ],
+      "explanation": "Medial/cingulate labels in Schaefer200 can support broad conflict-monitoring and control-network visualization.",
+      "caution": "ACC and pre-SMA are anatomically specific terms; the current parcels are only coarse proxies.",
+      "nextAtlasNeed": "Coordinate mapping before making ACC or pre-SMA point claims."
+    },
+    {
+      "id": "primary-motor-somatomotor",
+      "label": "初级运动/躯体运动皮层",
+      "englishLabel": "Primary motor and somatomotor cortex",
+      "aliases": [
+        "M1",
+        "motor cortex",
+        "somatomotor cortex",
+        "precentral",
+        "premotor",
+        "SMA"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "parcel_proxy",
+      "relatedParadigmIds": [
+        "stroop",
+        "flanker",
+        "attention-network-test",
+        "choice-reaction-time",
+        "simple-reaction-time",
+        "go-no-go",
+        "stop-signal",
+        "sustained-attention-cpt",
+        "task-switching",
+        "symbol-search-coding-speed",
+        "visual-search-schulte",
+        "perceptual-discrimination-rt"
+      ],
+      "relatedFunctionIds": [
+        "reaction_speed",
+        "executive_function"
+      ],
+      "candidateNetworks": [
+        "somatomotor",
+        "dorsal_attention",
+        "ventral_attention"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_021",
+        "schaefer200_024",
+        "schaefer200_026",
+        "schaefer200_028",
+        "schaefer200_043",
+        "schaefer200_041",
+        "schaefer200_054",
+        "schaefer200_018",
+        "schaefer200_019",
+        "schaefer200_118",
+        "schaefer200_119",
+        "schaefer200_129",
+        "schaefer200_131",
+        "schaefer200_147",
+        "schaefer200_145",
+        "schaefer200_146",
+        "schaefer200_151",
+        "schaefer200_158",
+        "schaefer200_120",
+        "schaefer200_121",
+        "schaefer200_122",
+        "schaefer200_126"
+      ],
+      "explanation": "Schaefer200 has somatomotor, dorsal-attention FEF/precentral, and medial salience parcels that can act as a coarse premotor/SMA/action-output layer for response tasks.",
+      "caution": "Use for response-preparation visualization, not as a detailed BA6/SMA coordinate claim or motor homunculus.",
+      "nextAtlasNeed": "Motor- and SMA-specific atlas only if body-part or BA-level detail is needed."
+    },
+    {
+      "id": "visual-cortex",
+      "label": "视觉皮层",
+      "englishLabel": "Visual cortex",
+      "aliases": [
+        "occipital cortex",
+        "visual areas",
+        "V1/V2 proxy"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "parcel_proxy",
+      "relatedParadigmIds": [
+        "attention-network-test",
+        "flanker",
+        "visual-imagery",
+        "multiple-object-tracking",
+        "sustained-attention-cpt",
+        "object-span",
+        "temporal-order-judgment",
+        "word-pseudoword-reading",
+        "orthographic-processing",
+        "symbol-search-coding-speed",
+        "visual-search-schulte",
+        "spatial-folding-unfolding",
+        "embedded-figures",
+        "inductive-rule-discovery"
+      ],
+      "relatedFunctionIds": [
+        "attention",
+        "reading",
+        "mental_imagery_operation",
+        "calculation",
+        "reaction_speed",
+        "reasoning"
+      ],
+      "candidateNetworks": [
+        "visual"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_001",
+        "schaefer200_002",
+        "schaefer200_003",
+        "schaefer200_004",
+        "schaefer200_005",
+        "schaefer200_006",
+        "schaefer200_007",
+        "schaefer200_008",
+        "schaefer200_009",
+        "schaefer200_010",
+        "schaefer200_011",
+        "schaefer200_012",
+        "schaefer200_013",
+        "schaefer200_014",
+        "schaefer200_101",
+        "schaefer200_102",
+        "schaefer200_103",
+        "schaefer200_104",
+        "schaefer200_105",
+        "schaefer200_106",
+        "schaefer200_107",
+        "schaefer200_108",
+        "schaefer200_109",
+        "schaefer200_110",
+        "schaefer200_111",
+        "schaefer200_112",
+        "schaefer200_113",
+        "schaefer200_114",
+        "schaefer200_115",
+        "schaefer200_136"
+      ],
+      "explanation": "The Schaefer200 visual network is represented broadly as a cortical input layer, including occipital, cuneus, inferior-occipital, fusiform, and posterior temporal visual parcels that can be hit by coordinate-based visual task evidence; Davis 2009 posterior inferior temporal cortex maps to a right posterior parcel retained here as a task-material input candidate.",
+      "caution": "This broad visual coverage does not distinguish V1/V2, ventral stream, dorsal stream, VWFA, face/object-selective subfields, or posterior temporal task-support parcels.",
+      "nextAtlasNeed": "Visual-area atlas if V1/V2/VWFA-level detail becomes necessary."
+    },
+    {
+      "id": "ventral-temporal-word-form",
+      "label": "腹侧颞枕文字形态区",
+      "englishLabel": "Ventral temporal word-form region",
+      "aliases": [
+        "VWFA",
+        "visual word form area",
+        "fusiform word area",
+        "left fusiform"
+      ],
+      "structureType": "cortical",
+      "laterality": "left",
+      "coverageStatus": "needs_specialized_atlas",
+      "relatedParadigmIds": [
+        "lexical-decision",
+        "sentence-comprehension",
+        "word-pseudoword-reading",
+        "orthographic-processing",
+        "phonological-decoding"
+      ],
+      "relatedFunctionIds": [
+        "reading"
+      ],
+      "candidateNetworks": [
+        "visual",
+        "default_mode"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_003",
+        "schaefer200_031",
+        "schaefer200_100",
+        "schaefer200_101",
+        "schaefer200_103"
+      ],
+      "explanation": "Reading tasks often need ventral temporal/language detail. Current Schaefer200 points are conservative visual/ventral-temporal proxies for display only; they are not a dedicated VWFA atlas.",
+      "caution": "Use these parcels as a visual word-form display proxy only; do not claim exact VWFA localization until reading-specific coordinates or a language atlas are imported.",
+      "nextAtlasNeed": "Language/reading functional atlas or coordinate-to-parcel mapping."
+    },
+    {
+      "id": "angular-gyrus-inferior-parietal",
+      "label": "角回/下顶叶",
+      "englishLabel": "Angular gyrus and inferior parietal cortex",
+      "aliases": [
+        "angular gyrus",
+        "AG",
+        "inferior parietal lobule",
+        "IPL"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "network_proxy",
+      "relatedParadigmIds": [
+        "sentence-comprehension",
+        "mental-arithmetic",
+        "number-comparison",
+        "word-list-learning",
+        "tower-of-london",
+        "analogical-reasoning",
+        "recognition-memory",
+        "semantic-task",
+        "drm-false-memory"
+      ],
+      "relatedFunctionIds": [
+        "reading",
+        "calculation",
+        "long_term_memory"
+      ],
+      "candidateNetworks": [
+        "default_mode",
+        "frontoparietal"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_061",
+        "schaefer200_063",
+        "schaefer200_081",
+        "schaefer200_082",
+        "schaefer200_165",
+        "schaefer200_166",
+        "schaefer200_184"
+      ],
+      "explanation": "Use parcels whose surface-overlap labels resolve to angular gyrus or supramarginal gyrus as broad inferior-parietal candidates for calculation, semantic, and memory explanations.",
+      "caution": "Angular gyrus and inferior parietal lobule are anatomical claims; these parcels are suitable as candidate proxies, not as reviewed task-specific activation peaks.",
+      "nextAtlasNeed": "Language/math-specific mapping before region-specific claims."
+    },
+    {
+      "id": "hippocampal-formation",
+      "label": "海马结构",
+      "englishLabel": "Hippocampal formation",
+      "aliases": [
+        "hippocampus",
+        "medial temporal lobe",
+        "MTL"
+      ],
+      "structureType": "subcortical",
+      "laterality": "bilateral",
+      "coverageStatus": "needs_specialized_atlas",
+      "relatedParadigmIds": [
+        "word-list-learning",
+        "recognition-memory",
+        "visual-imagery",
+        "drm-false-memory",
+        "associative-memory",
+        "source-memory",
+        "face-name-association",
+        "episodic-order-memory",
+        "visual-delayed-memory"
+      ],
+      "relatedFunctionIds": [
+        "long_term_memory",
+        "mental_imagery_operation"
+      ],
+      "candidateNetworks": [
+        "default_mode",
+        "limbic"
+      ],
+      "candidateParcelIds": [],
+      "explanation": "已接入保守的海马/内侧颞叶物理锚点，用于演示海马、海马旁/内嗅和杏仁核位置；尚不是真实体素级 MTL 亚区 atlas。",
+      "caution": "可以说海马/MTL 物理层已接上，但不能说海马亚区坐标已经精确图谱化。",
+      "nextAtlasNeed": "补 Juelich/CIT168/FreeSurfer hippocampal subfield 等可复用体素图谱后，再做亚区级映射。"
+    },
+    {
+      "id": "basal-ganglia",
+      "label": "基底节",
+      "englishLabel": "Basal ganglia",
+      "aliases": [
+        "basal ganglia",
+        "striatum",
+        "ventral striatum",
+        "nucleus accumbens",
+        "caudate",
+        "putamen",
+        "globus pallidus",
+        "lentiform nucleus",
+        "subthalamic nucleus",
+        "STN",
+        "基底神经节",
+        "纹状体",
+        "尾状核",
+        "壳核",
+        "苍白球"
+      ],
+      "structureType": "subcortical",
+      "laterality": "bilateral",
+      "coverageStatus": "needs_specialized_atlas",
+      "relatedParadigmIds": [
+        "stop-signal",
+        "go-no-go",
+        "stroop",
+        "task-switching",
+        "probabilistic-reversal-learning",
+        "choice-reaction-time",
+        "mental-arithmetic",
+        "math-word-problem",
+        "deductive-reasoning"
+      ],
+      "relatedFunctionIds": [
+        "executive_function",
+        "reaction_speed",
+        "attention",
+        "calculation",
+        "reasoning"
+      ],
+      "candidateNetworks": [
+        "frontoparietal",
+        "ventral_attention",
+        "somatomotor"
+      ],
+      "candidateParcelIds": [],
+      "explanation": "尾状核、壳核、苍白球、腹侧纹状体/伏隔核在抑制控制、反应选择、奖惩反馈、习惯化自动化以及部分数学/推理任务里会反复出现。当前它们不再只算“atlas 外点”，而是正式列入下一条皮层外专门图谱路线。",
+      "caution": "当前额顶、岛叶、SMA 和体感运动皮层节点只能表达皮层伙伴网络，不能替代基底节本体；不要把 putamen/caudate/pallidum/STN 硬映射成 Schaefer200 皮层 parcel。",
+      "nextAtlasNeed": "先导入 Harvard-Oxford subcortical 的 caudate/putamen/pallidum/thalamus/accumbens 体素层并做 coordinate lookup，再视 stop-signal/frontostriatal 证据决定是否细化 STN 或 GPi/GPe。"
+    },
+    {
+      "id": "thalamus",
+      "label": "丘脑",
+      "englishLabel": "Thalamus",
+      "aliases": [
+        "thalamic nuclei",
+        "pulvinar",
+        "mediodorsal thalamus",
+        "丘脑枕"
+      ],
+      "structureType": "subcortical",
+      "laterality": "bilateral",
+      "coverageStatus": "needs_specialized_atlas",
+      "relatedParadigmIds": [
+        "attention-network-test",
+        "posner-cueing",
+        "simple-reaction-time",
+        "choice-reaction-time",
+        "stop-signal",
+        "mental-arithmetic",
+        "deductive-reasoning"
+      ],
+      "relatedFunctionIds": [
+        "attention",
+        "reaction_speed",
+        "executive_function",
+        "calculation",
+        "reasoning"
+      ],
+      "candidateNetworks": [
+        "dorsal_attention",
+        "ventral_attention",
+        "frontoparietal"
+      ],
+      "candidateParcelIds": [],
+      "explanation": "丘脑会在警觉/定向、反应门控、停止控制、部分数学操作和推理控制边界里重复出现。当前不再把它仅仅当成“图谱外”，而是和基底节一起并入正式的 subcortical atlas 路线。",
+      "caution": "当前任何 Schaefer200 皮层 parcel 都不能替代丘脑本体或分核标签；没有专门图谱前，只能把它讲成皮层外结构边界。",
+      "nextAtlasNeed": "和基底节共用第一阶段 Harvard-Oxford subcortical 体素层；后续若 ANT/停止控制需要更细粒度，再考虑 pulvinar 或 mediodorsal thalamus 分核路线。"
+    },
+    {
+      "id": "cerebellum",
+      "label": "小脑",
+      "englishLabel": "Cerebellum",
+      "aliases": [
+        "cerebellar cortex",
+        "cerebellar lobules"
+      ],
+      "structureType": "cerebellar",
+      "laterality": "bilateral",
+      "coverageStatus": "specialized_atlas_reference",
+      "relatedParadigmIds": [
+        "attention-network-test",
+        "mental-rotation",
+        "mental-arithmetic",
+        "choice-reaction-time",
+        "symbol-search-coding-speed",
+        "spatial-folding-unfolding"
+      ],
+      "relatedFunctionIds": [
+        "attention",
+        "mental_imagery_operation",
+        "calculation",
+        "reaction_speed",
+        "long_term_memory"
+      ],
+      "candidateNetworks": [
+        "somatomotor",
+        "frontoparietal",
+        "visual"
+      ],
+      "candidateParcelIds": [],
+      "explanation": "已接入 Diedrichsen 2009 小脑解剖分叶和 Buckner 2011 小脑 7 网络的 MNI/SUIT 来源图谱；任务激活仍需逐范式证据复核。",
+      "caution": "小脑图谱标签是空间参照，不等于某个范式的激活证据。",
+      "nextAtlasNeed": "继续把具体任务坐标映射到 Buckner/SUIT/Diedrichsen 标签。"
+    },
+    {
+      "id": "language-network",
+      "label": "语言网络",
+      "englishLabel": "Language network",
+      "aliases": [
+        "Broca",
+        "Wernicke",
+        "temporal language areas",
+        "semantic network"
+      ],
+      "structureType": "network_construct",
+      "laterality": "left",
+      "coverageStatus": "needs_specialized_atlas",
+      "relatedParadigmIds": [
+        "lexical-decision",
+        "sentence-comprehension",
+        "word-list-learning",
+        "semantic-task",
+        "drm-false-memory",
+        "deductive-reasoning",
+        "word-pseudoword-reading",
+        "phonological-decoding"
+      ],
+      "relatedFunctionIds": [
+        "reading",
+        "long_term_memory"
+      ],
+      "candidateNetworks": [
+        "visual",
+        "default_mode",
+        "frontoparietal"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_064",
+        "schaefer200_066",
+        "schaefer200_078",
+        "schaefer200_168",
+        "schaefer200_186"
+      ],
+      "explanation": "Yeo7 does not provide a dedicated language network. Current points are conservative temporal/IFG proxies for reading and language display only.",
+      "caution": "Do not collapse language into default-mode or visual network as if that were a full language model; treat current parcels as display proxies.",
+      "nextAtlasNeed": "Language-specific functional atlas or study-level coordinate mapping."
+    },
+    {
+      "id": "orbitofrontal-ventral-prefrontal",
+      "label": "眶额/腹侧前额叶",
+      "englishLabel": "Orbitofrontal and ventral prefrontal cortex",
+      "aliases": [
+        "OFC",
+        "orbitofrontal cortex",
+        "ventral prefrontal cortex",
+        "VMPFC",
+        "ventromedial prefrontal cortex",
+        "medial orbital frontal cortex",
+        "reward feedback"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "parcel_proxy",
+      "relatedParadigmIds": [
+        "probabilistic-reversal-learning",
+        "semantic-task",
+        "drm-false-memory"
+      ],
+      "relatedFunctionIds": [
+        "executive_function",
+        "reasoning",
+        "reading",
+        "long_term_memory"
+      ],
+      "candidateNetworks": [
+        "limbic",
+        "frontoparietal",
+        "default_mode"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_055",
+        "schaefer200_056",
+        "schaefer200_065",
+        "schaefer200_084",
+        "schaefer200_088",
+        "schaefer200_159",
+        "schaefer200_160",
+        "schaefer200_161",
+        "schaefer200_191",
+        "schaefer200_192"
+      ],
+      "explanation": "Schaefer200 contains Limbic/Control/Default OFC and ventromedial parcels whose overlap labels include orbital gyri, gyrus rectus, orbital sulci, and medial PFC; use them as a cautious cortical proxy for feedback value, affective semantic context, and reversal-learning demos.",
+      "caution": "This proxy does not include striatum and is not a coordinate-level match to a specific reversal-learning or semantic activation peak.",
+      "nextAtlasNeed": "Coordinate-to-parcel mapping plus a subcortical reward-learning/semantic-memory layer if we need OFC-striatum or VMPFC claims."
+    },
+    {
+      "id": "temporoparietal-junction",
+      "label": "颞顶交界区",
+      "englishLabel": "Temporoparietal junction",
+      "aliases": [
+        "TPJ",
+        "temporo-parietal junction",
+        "temporo-occipito-parietal",
+        "posterior superior temporal sulcus"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "parcel_proxy",
+      "relatedParadigmIds": [
+        "temporal-order-judgment"
+      ],
+      "relatedFunctionIds": [
+        "reaction_speed",
+        "attention"
+      ],
+      "candidateNetworks": [
+        "ventral_attention",
+        "default_mode"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_044",
+        "schaefer200_046",
+        "schaefer200_081",
+        "schaefer200_148",
+        "schaefer200_149",
+        "schaefer200_150"
+      ],
+      "explanation": "Use parcels resolving to planum temporale, supramarginal gyrus, superior temporal sulcus, and Schaefer TempOccPar labels as a conservative TPJ candidate set.",
+      "caution": "TPJ is a junction-level construct; the current parcels are spatial proxies, not a reviewed Davis 2009 coordinate overlay.",
+      "nextAtlasNeed": "Coordinate-level TOJ mapping and a dedicated temporoparietal anatomical atlas for left/right TPJ specificity."
+    },
+    {
+      "id": "auditory-superior-temporal-cortex",
+      "label": "听觉/颞上皮层",
+      "englishLabel": "Auditory and superior temporal cortex",
+      "aliases": [
+        "auditory cortex",
+        "BA41",
+        "BA22",
+        "Heschl gyrus",
+        "superior temporal gyrus",
+        "planum temporale"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "parcel_proxy",
+      "relatedParadigmIds": [
+        "perceptual-discrimination-rt"
+      ],
+      "relatedFunctionIds": [
+        "reaction_speed",
+        "attention"
+      ],
+      "candidateNetworks": [
+        "somatomotor",
+        "ventral_attention",
+        "default_mode"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_016",
+        "schaefer200_017",
+        "schaefer200_019",
+        "schaefer200_044",
+        "schaefer200_077",
+        "schaefer200_078",
+        "schaefer200_116",
+        "schaefer200_117",
+        "schaefer200_149",
+        "schaefer200_150",
+        "schaefer200_188",
+        "schaefer200_189"
+      ],
+      "explanation": "Use Schaefer200 parcels whose identity labels resolve to Heschl/transverse temporal, superior temporal, planum temporale, lateral superior temporal and temporoparietal auditory-adjacent cortex as a display proxy for auditory oddball and tone-discrimination sources.",
+      "caution": "Schaefer200 has no dedicated auditory atlas. Some nearest parcels carry somatomotor or default-mode network labels, so public labels must use the anatomical/coordinate identity rather than the Yeo7 network name.",
+      "nextAtlasNeed": "Auditory functional/anatomical atlas if tone-discrimination, phonological, or auditory attention claims become a major display route."
+    },
+    {
+      "id": "posterior-cingulate-ventral-precuneus",
+      "label": "后扣带/腹侧楔前叶",
+      "englishLabel": "Posterior cingulate and ventral precuneus",
+      "aliases": [
+        "posterior cingulate",
+        "PCC",
+        "ventral precuneus",
+        "retrosplenial cortex",
+        "posterior cingulate gyrus"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "parcel_proxy",
+      "relatedParadigmIds": [
+        "semantic-task",
+        "drm-false-memory",
+        "recognition-memory",
+        "word-list-learning",
+        "visual-imagery"
+      ],
+      "relatedFunctionIds": [
+        "reading",
+        "long_term_memory",
+        "mental_imagery_operation"
+      ],
+      "candidateNetworks": [
+        "default_mode"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_096",
+        "schaefer200_097",
+        "schaefer200_098",
+        "schaefer200_099",
+        "schaefer200_198",
+        "schaefer200_199",
+        "schaefer200_200"
+      ],
+      "explanation": "Use default-mode posterior cingulate and ventral precuneus parcels as a cautious semantic/context and memory-background proxy.",
+      "caution": "Posterior cingulate, retrosplenial cortex, and precuneus are not interchangeable; use this only as a broad Schaefer200 candidate until coordinates are mapped.",
+      "nextAtlasNeed": "Coordinate-level mapping for semantic, episodic-memory, and imagery studies before making subregion-specific claims."
+    },
+    {
+      "id": "ventral-temporal-fusiform-parahippocampal",
+      "label": "腹侧颞叶/梭状-海马旁",
+      "englishLabel": "Ventral temporal fusiform and parahippocampal cortex",
+      "aliases": [
+        "fusiform gyrus",
+        "parahippocampal gyrus",
+        "FG/PH",
+        "ventral temporal cortex",
+        "basal temporal language area"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "parcel_proxy",
+      "relatedParadigmIds": [
+        "semantic-task",
+        "visual-imagery",
+        "drm-false-memory"
+      ],
+      "relatedFunctionIds": [
+        "reading",
+        "long_term_memory",
+        "mental_imagery_operation"
+      ],
+      "candidateNetworks": [
+        "visual",
+        "dorsal_attention",
+        "default_mode"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_002",
+        "schaefer200_031",
+        "schaefer200_100",
+        "schaefer200_101",
+        "schaefer200_102",
+        "schaefer200_103"
+      ],
+      "explanation": "Use fusiform, ventral occipitotemporal, and parahippocampal parcels as a broad proxy for Binder-style ventral temporal semantic interfaces.",
+      "caution": "This does not equal a reviewed VWFA, object-selective, or hippocampal episodic-memory coordinate.",
+      "nextAtlasNeed": "Coordinate-level semantic, reading, and imagery studies before making fusiform/parahippocampal subregion claims."
+    },
+    {
+      "id": "semantic-temporal-cortex",
+      "label": "语义颞叶皮层",
+      "englishLabel": "Semantic temporal cortex",
+      "aliases": [
+        "semantic temporal cortex",
+        "middle temporal gyrus",
+        "superior temporal sulcus",
+        "temporal semantic system"
+      ],
+      "structureType": "cortical",
+      "laterality": "bilateral",
+      "coverageStatus": "parcel_proxy",
+      "relatedParadigmIds": [
+        "semantic-task",
+        "drm-false-memory",
+        "deductive-reasoning"
+      ],
+      "relatedFunctionIds": [
+        "reading",
+        "long_term_memory",
+        "reasoning"
+      ],
+      "candidateNetworks": [
+        "default_mode",
+        "frontoparietal",
+        "limbic"
+      ],
+      "candidateParcelIds": [
+        "schaefer200_064",
+        "schaefer200_075",
+        "schaefer200_076",
+        "schaefer200_077",
+        "schaefer200_078",
+        "schaefer200_168",
+        "schaefer200_186",
+        "schaefer200_187",
+        "schaefer200_188",
+        "schaefer200_189"
+      ],
+      "explanation": "Use middle/superior temporal and default-temporal parcels as a coarse semantic-memory and language-comprehension proxy.",
+      "caution": "This is a broad semantic-temporal candidate set; do not claim it is a complete language network or a VWFA/MTL-specific result.",
+      "nextAtlasNeed": "Language/semantic functional atlas or task coordinates for semantic decisions and reading-specific claims."
+    }
+  ]
+}

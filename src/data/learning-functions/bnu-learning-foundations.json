@@ -1,0 +1,527 @@
+{
+  "id": "bnu-learning-foundations-v0",
+  "name": "九项学习相关基础脑功能",
+  "version": "0.1.0",
+  "status": "foundation",
+  "sourceNote": "Project-local business taxonomy supplied by the product context: a training system for foundational brain functions related to learning. Network mappings are candidate priors for visualization and must be refined with paradigm-level evidence.",
+  "atlasContext": {
+    "networkTaxonomy": "Yeo7",
+    "mappingStatus": "candidate_network_prior"
+  },
+  "functions": [
+    {
+      "id": "attention",
+      "order": 1,
+      "label": "注意力",
+      "englishLabel": "Attention",
+      "description": "维持、选择和切换学习相关信息的能力，是进入任务状态和保持目标的基础。",
+      "contentUse": "适合讲解专注、抗干扰、注意切换和任务目标保持。",
+      "candidateNetworks": [
+        "dorsal_attention",
+        "ventral_attention",
+        "frontoparietal"
+      ],
+      "networkMappingNote": "先用背侧注意、腹侧注意/显著性和额顶控制作为候选骨架；具体范式再细分空间注意、持续注意和冲突控制。",
+      "paradigmExamples": [
+        {
+          "id": "attention-network-test",
+          "label": "ANT 注意网络测试",
+          "englishLabel": "Attention Network Test",
+          "status": "reviewed",
+          "note": "用于同时讲解警觉、空间定向和执行冲突控制三类注意网络。"
+        },
+        {
+          "id": "stroop",
+          "label": "Stroop 色词冲突任务",
+          "englishLabel": "Stroop task",
+          "status": "seed",
+          "note": "后续用于冲突抑制和注意控制讲解。"
+        },
+        {
+          "id": "flanker",
+          "label": "Flanker 旁侧干扰任务",
+          "englishLabel": "Eriksen flanker task",
+          "status": "seed",
+          "note": "后续用于干扰控制和目标刺激选择讲解。"
+        },
+        {
+          "id": "posner-cueing",
+          "label": "Posner 空间线索任务",
+          "englishLabel": "Posner cueing task",
+          "status": "seed",
+          "note": "后续用于空间注意定向和重定向讲解。"
+        }
+      ],
+      "evidenceStatus": "network_prior",
+      "tags": [
+        "attention",
+        "focus",
+        "switching",
+        "control"
+      ]
+    },
+    {
+      "id": "short_term_memory",
+      "order": 2,
+      "label": "短时记忆力",
+      "englishLabel": "Short-term memory",
+      "description": "短时间保持并操作学习材料的能力，支撑听讲、阅读理解和心算等任务。",
+      "contentUse": "适合讲解信息临时保持、工作记忆容量和多步骤任务。",
+      "candidateNetworks": [
+        "frontoparietal",
+        "dorsal_attention"
+      ],
+      "networkMappingNote": "先用额顶控制和背侧注意表示保持目标与分配注意；具体材料类型会进一步牵引视觉、语言或运动相关网络。",
+      "paradigmExamples": [
+        {
+          "id": "digit-span",
+          "label": "数字广度",
+          "englishLabel": "Digit span",
+          "status": "seed",
+          "note": "后续用于短时保持容量讲解。"
+        },
+        {
+          "id": "n-back",
+          "label": "N-back 更新任务",
+          "englishLabel": "N-back task",
+          "status": "seed",
+          "note": "后续用于工作记忆更新和监控讲解。"
+        }
+      ],
+      "evidenceStatus": "review_needed",
+      "tags": [
+        "memory",
+        "working-memory",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "reading",
+      "order": 3,
+      "label": "阅读能力",
+      "englishLabel": "Reading",
+      "description": "从视觉符号进入语义理解和句篇整合的能力。",
+      "contentUse": "适合讲解字词识别、阅读流畅性、理解和持续阅读中的注意分配。",
+      "candidateNetworks": [
+        "visual",
+        "dorsal_attention",
+        "frontoparietal",
+        "default_mode"
+      ],
+      "networkMappingNote": "Schaefer/Yeo 7 网络不是语言专用图谱；这里先保留视觉输入、注意调度、控制和语义背景整合的候选关系。",
+      "paradigmExamples": [
+        {
+          "id": "lexical-decision",
+          "label": "词汇判断",
+          "englishLabel": "Lexical decision",
+          "status": "seed",
+          "note": "后续用于字词识别与语义访问讲解。"
+        },
+        {
+          "id": "sentence-comprehension",
+          "label": "句子理解",
+          "englishLabel": "Sentence comprehension",
+          "status": "seed",
+          "note": "后续用于篇章理解和上下文整合讲解。"
+        },
+        {
+          "id": "word-pseudoword-reading",
+          "label": "字词/伪词阅读",
+          "englishLabel": "Word and pseudoword reading",
+          "status": "seed",
+          "note": "用于演示从字形到读音/词义的基础阅读路线。"
+        },
+        {
+          "id": "orthographic-processing",
+          "label": "正字法/字形加工",
+          "englishLabel": "Orthographic processing",
+          "status": "seed",
+          "note": "用于演示视觉字形区候选层和熟悉字形识别。"
+        },
+        {
+          "id": "phonological-decoding",
+          "label": "音韵解码/押韵判断",
+          "englishLabel": "Phonological decoding",
+          "status": "seed",
+          "note": "用于演示儿童阅读中的音韵转换和读音选择。"
+        }
+      ],
+      "evidenceStatus": "review_needed",
+      "tags": [
+        "reading",
+        "language",
+        "visual",
+        "semantic"
+      ]
+    },
+    {
+      "id": "calculation",
+      "order": 4,
+      "label": "计算能力",
+      "englishLabel": "Calculation",
+      "description": "计算能力从理解多少、大小、顺序和数字意义开始，再发展到精确计数、事实提取、在线运算、符号规则与数学建模。",
+      "contentUse": "适合先讲非符号数量感、数字与数量对应、小数量识别、数字大小和数轴，再进入心算、算术事实、代数、几何、统计与应用题。",
+      "candidateNetworks": [
+        "frontoparietal",
+        "dorsal_attention",
+        "visual"
+      ],
+      "networkMappingNote": "先用视觉网络表示数字、点阵、数轴和题干输入，背侧顶叶和下顶叶表示数量大小、数序、空间比例和符号意义，额顶控制表示计数顺序、运算步骤与逻辑建模；新增数量范式当前只到网络级。",
+      "paradigmExamples": [
+        {
+          "id": "approximate-number-sense",
+          "label": "非符号数量感",
+          "englishLabel": "Nonsymbolic approximate number sense",
+          "status": "seed",
+          "note": "适合观察对多少、大小和比例的直觉，不依赖阿拉伯数字，也不能替代精确计数、数序或符号理解。"
+        },
+        {
+          "id": "symbolic-quantity-mapping",
+          "label": "数字与数量对应",
+          "englishLabel": "Symbolic and nonsymbolic quantity mapping",
+          "status": "seed",
+          "note": "适合区分会认数字外形与理解数字意义：孩子可能认识“7”，但还不能稳定把它接到七个物体、数词和相邻大小关系。"
+        },
+        {
+          "id": "number-comparison",
+          "label": "数字大小比较",
+          "englishLabel": "Symbolic number magnitude comparison",
+          "status": "seed",
+          "note": "适合观察孩子能否从数字符号快速进入大小关系；它不同于比较两堆点，也不同于把数字对应到真实数量。"
+        },
+        {
+          "id": "subitizing-enumeration",
+          "label": "小数量识别与计数",
+          "englishLabel": "Subitizing and enumeration",
+          "status": "seed",
+          "note": "适合区分“一眼看出三四个”和“一个一个数”：前者偏小数量并行识别，后者更依赖空间注意、搜索顺序和计数保持。"
+        },
+        {
+          "id": "number-line-estimation",
+          "label": "数序与数轴估计",
+          "englishLabel": "Number line estimation",
+          "status": "seed",
+          "note": "适合发现孩子是否知道一个数在整体范围里的位置：不仅要会背数序，还要理解25在0到100之间大约位于四分之一处。"
+        },
+        {
+          "id": "mental-arithmetic",
+          "label": "心算任务",
+          "englishLabel": "Mental arithmetic",
+          "status": "seed",
+          "note": "适合讲解计算不是单一能力，而是符号理解、步骤保持和控制监控的组合。"
+        },
+        {
+          "id": "arithmetic-fact-retrieval",
+          "label": "算术事实提取",
+          "englishLabel": "Arithmetic fact retrieval",
+          "status": "seed",
+          "note": "适合讲解熟练计算的自动化部分：看到 7 x 8 这类题时，可能先从长期记忆中提取答案，而不是每次重新计算。"
+        },
+        {
+          "id": "algebra-equation-solving",
+          "label": "代数方程/符号变换",
+          "englishLabel": "Algebra equation solving",
+          "status": "seed",
+          "note": "适合讲解代数题不是只算数字，而是把未知量、等式约束和变换规则保持在脑中，并按步骤更新。"
+        },
+        {
+          "id": "math-word-problem",
+          "label": "数学应用题逻辑建模",
+          "englishLabel": "Mathematical word problem modeling",
+          "status": "seed",
+          "note": "适合讲解学生做题时先被熟悉数量关系带走，又需要冲突监控和执行控制介入，把注意力切回题干限定词和逻辑结构。"
+        },
+        {
+          "id": "geometric-reasoning",
+          "label": "几何空间推理",
+          "englishLabel": "Geometric reasoning",
+          "status": "seed",
+          "note": "适合讲解几何题不是只套公式，而是看见图形结构、在脑中操作空间关系，并把它转成推理步骤。"
+        },
+        {
+          "id": "probability-statistics-reasoning",
+          "label": "概率统计判断",
+          "englishLabel": "Probability and statistics reasoning",
+          "status": "seed",
+          "note": "适合讲解概率统计题：学生要从表面直觉切换到比例、样本、条件和分布关系的判断。"
+        }
+      ],
+      "evidenceStatus": "review_needed",
+      "tags": [
+        "calculation",
+        "number",
+        "rule",
+        "symbol",
+        "algebra",
+        "geometry",
+        "statistics",
+        "word-problem",
+        "numerosity",
+        "number-line",
+        "symbol-quantity-mapping",
+        "subitizing"
+      ]
+    },
+    {
+      "id": "reaction_speed",
+      "order": 5,
+      "label": "反应速度",
+      "englishLabel": "Reaction speed",
+      "description": "从刺激出现到完成反应的速度与稳定性。",
+      "contentUse": "适合讲解反应时、警觉性、刺激识别和动作输出。",
+      "candidateNetworks": [
+        "somatomotor",
+        "dorsal_attention",
+        "ventral_attention"
+      ],
+      "networkMappingNote": "先用躯体运动网络表示动作输出，注意网络表示警觉、定向和突发刺激捕捉。",
+      "paradigmExamples": [
+        {
+          "id": "simple-reaction-time",
+          "label": "简单反应时",
+          "englishLabel": "Simple reaction time",
+          "status": "seed",
+          "note": "后续用于基础反应速度讲解。"
+        },
+        {
+          "id": "choice-reaction-time",
+          "label": "选择反应时",
+          "englishLabel": "Choice reaction time",
+          "status": "seed",
+          "note": "后续用于刺激辨别和反应选择讲解。"
+        },
+        {
+          "id": "symbol-search-coding-speed",
+          "label": "符号搜索/编码速度",
+          "englishLabel": "Symbol search and coding speed",
+          "status": "seed",
+          "note": "用于演示加工速度和规则匹配。"
+        },
+        {
+          "id": "visual-search-schulte",
+          "label": "视觉搜索/舒尔特方格",
+          "englishLabel": "Visual search and Schulte table",
+          "status": "seed",
+          "note": "用于演示扫描速度和目标定位。"
+        },
+        {
+          "id": "perceptual-discrimination-rt",
+          "label": "知觉辨别反应时",
+          "englishLabel": "Perceptual discrimination RT",
+          "status": "seed",
+          "note": "用于演示感觉辨别与动作输出。"
+        }
+      ],
+      "evidenceStatus": "network_prior",
+      "tags": [
+        "reaction-time",
+        "alertness",
+        "motor"
+      ]
+    },
+    {
+      "id": "mental_imagery_operation",
+      "order": 6,
+      "label": "表象操作能力",
+      "englishLabel": "Mental imagery operation",
+      "description": "在头脑中保持、旋转、比较或转换图像表象的能力。",
+      "contentUse": "适合讲解空间想象、图形旋转、几何理解和视觉化思考。",
+      "candidateNetworks": [
+        "visual",
+        "dorsal_attention",
+        "frontoparietal"
+      ],
+      "networkMappingNote": "先用视觉网络表示表象内容，背侧注意和额顶控制表示空间操作与规则管理。",
+      "paradigmExamples": [
+        {
+          "id": "mental-rotation",
+          "label": "心理旋转",
+          "englishLabel": "Mental rotation",
+          "status": "seed",
+          "note": "后续用于空间表象变换讲解。"
+        },
+        {
+          "id": "visual-imagery",
+          "label": "视觉表象任务",
+          "englishLabel": "Visual imagery task",
+          "status": "seed",
+          "note": "后续用于无外部图像时的内部表象讲解。"
+        },
+        {
+          "id": "spatial-folding-unfolding",
+          "label": "空间展开/折叠",
+          "englishLabel": "Spatial folding and unfolding",
+          "status": "seed",
+          "note": "用于演示复杂空间结构变换。"
+        },
+        {
+          "id": "embedded-figures",
+          "label": "嵌入图形/复杂图形搜索",
+          "englishLabel": "Embedded figures",
+          "status": "seed",
+          "note": "用于演示复杂图形分离和表象匹配。"
+        }
+      ],
+      "evidenceStatus": "review_needed",
+      "tags": [
+        "imagery",
+        "spatial",
+        "visual",
+        "operation"
+      ]
+    },
+    {
+      "id": "reasoning",
+      "order": 7,
+      "label": "推理能力",
+      "englishLabel": "Reasoning",
+      "description": "根据规则、关系和已知信息推出新结论的能力。",
+      "contentUse": "适合讲解抽象推理、关系推理、问题解决和策略形成。",
+      "candidateNetworks": [
+        "frontoparietal",
+        "default_mode",
+        "dorsal_attention"
+      ],
+      "networkMappingNote": "先用额顶控制表示规则和策略，默认模式网络表示背景知识与关系整合，背侧注意表示目标维持。",
+      "paradigmExamples": [
+        {
+          "id": "ravens-matrices",
+          "label": "瑞文矩阵",
+          "englishLabel": "Raven's matrices",
+          "status": "seed",
+          "note": "后续用于抽象关系推理讲解。"
+        },
+        {
+          "id": "analogical-reasoning",
+          "label": "类比推理",
+          "englishLabel": "Analogical reasoning",
+          "status": "seed",
+          "note": "后续用于关系映射和迁移讲解。"
+        },
+        {
+          "id": "relational-reasoning",
+          "label": "关系推理/关系整合",
+          "englishLabel": "Relational reasoning",
+          "status": "seed",
+          "note": "用于演示多个关系同时整合。"
+        },
+        {
+          "id": "inductive-rule-discovery",
+          "label": "归纳推理/规则发现",
+          "englishLabel": "Inductive rule discovery",
+          "status": "seed",
+          "note": "用于演示从样例中发现规则。"
+        }
+      ],
+      "evidenceStatus": "review_needed",
+      "tags": [
+        "reasoning",
+        "problem-solving",
+        "rule",
+        "abstraction"
+      ]
+    },
+    {
+      "id": "long_term_memory",
+      "order": 8,
+      "label": "长时记忆",
+      "englishLabel": "Long-term memory",
+      "description": "对知识、经验和学习材料进行长期编码、保持和提取的能力。",
+      "contentUse": "适合讲解知识积累、语义记忆、情景记忆和提取线索。",
+      "candidateNetworks": [
+        "default_mode",
+        "limbic",
+        "frontoparietal"
+      ],
+      "networkMappingNote": "默认模式网络表示记忆和背景整合，边缘网络/物理海马层表示联结绑定和情景记忆，额顶控制表示提取策略；小脑和海马等非皮层结构必须通过辅助结构层展示。",
+      "paradigmExamples": [
+        {
+          "id": "word-list-learning",
+          "label": "词表学习",
+          "englishLabel": "Word-list learning",
+          "status": "seed",
+          "note": "后续用于编码、保持和延迟回忆讲解。"
+        },
+        {
+          "id": "recognition-memory",
+          "label": "再认记忆",
+          "englishLabel": "Recognition memory",
+          "status": "seed",
+          "note": "后续用于熟悉性和提取判断讲解。"
+        },
+        {
+          "id": "face-name-association",
+          "label": "面孔-姓名联结",
+          "englishLabel": "Face-name associative memory",
+          "status": "seed",
+          "note": "用于演示人脸、姓名和海马绑定的长期联结。"
+        },
+        {
+          "id": "episodic-order-memory",
+          "label": "事件顺序/情景顺序记忆",
+          "englishLabel": "Episodic order memory",
+          "status": "seed",
+          "note": "用于演示学习经历、事件步骤和情景顺序。"
+        },
+        {
+          "id": "visual-delayed-memory",
+          "label": "视觉延迟记忆",
+          "englishLabel": "Visual delayed memory",
+          "status": "seed",
+          "note": "用于演示图片/形状等视觉材料的长期编码和延迟提取。"
+        }
+      ],
+      "evidenceStatus": "review_needed",
+      "tags": [
+        "long-term-memory",
+        "semantic",
+        "episodic",
+        "retrieval"
+      ]
+    },
+    {
+      "id": "executive_function",
+      "order": 9,
+      "label": "执行功能",
+      "englishLabel": "Executive function",
+      "description": "抑制冲动、切换规则、计划步骤和监控错误的高级控制能力。",
+      "contentUse": "适合讲解自控、计划、任务切换、错误监控和学习策略。",
+      "candidateNetworks": [
+        "frontoparietal",
+        "ventral_attention",
+        "dorsal_attention"
+      ],
+      "networkMappingNote": "先用额顶控制作为主干，腹侧注意/显著性网络表示状态切换和错误/显著事件捕捉，背侧注意表示目标维持。",
+      "paradigmExamples": [
+        {
+          "id": "go-no-go",
+          "label": "Go/No-Go 反应抑制任务",
+          "englishLabel": "Go/No-Go task",
+          "status": "seed",
+          "note": "后续用于反应抑制讲解。"
+        },
+        {
+          "id": "task-switching",
+          "label": "任务切换",
+          "englishLabel": "Task switching",
+          "status": "seed",
+          "note": "后续用于规则切换和认知灵活性讲解。"
+        },
+        {
+          "id": "stop-signal",
+          "label": "停止信号任务",
+          "englishLabel": "Stop-signal task",
+          "status": "seed",
+          "note": "后续用于抑制控制讲解。"
+        }
+      ],
+      "evidenceStatus": "network_prior",
+      "tags": [
+        "executive-function",
+        "inhibition",
+        "switching",
+        "planning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you reuse this teaching application, cite the project and the original scientific sources relevant to your use."
+type: software
+title: "BrainFunction: 脑图、范式故事与论文"
+version: 0.1.0
+authors:
+  - name: lizhenglei0906-design
+    website: "https://github.com/lizhenglei0906-design"
+repository-code: "https://github.com/lizhenglei0906-design/brainfunction-vision"
+url: "https://lizhenglei0906-design.github.io/brainfunction-vision/"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: "An educational brain-map, paradigm-story and source-reading application. Approximate paper locations are separate from schematic teaching anchors; precise individual localization is not established."
+keywords:
+  - education
+  - cognitive neuroscience
+  - visualization

@@ -1,0 +1,1722 @@
+{
+  "id": "paradigm-evidence-review-contracts-v0",
+  "version": "0.1.0",
+  "status": "draft",
+  "sourceNote": "Internal review contracts for the current seed paradigm library. Candidate entries describe how to review and present the source safely; only reviewed entries should be treated as accepted evidence.",
+  "sourceReviews": [
+    {
+      "sourceId": "amalric-dehaene-2016-advanced-math",
+      "supportScope": "candidate_task_family",
+      "supports": "专家数学家 fMRI 研究显示代数、分析、几何、拓扑等高级数学条件动员一组双侧额叶、顶叶和下颞区域，并与经典语言区相对分离。",
+      "safeUse": "可作为代数、几何和高级数学演示的候选来源，强调高级数学并非只是语言阅读，而会动员空间/数量和额顶推理系统。",
+      "boundary": "研究对象是专家数学家，不等同于儿童或普通学生解题；不能把专家高级数学网络直接当作训练产品已验证靶点。"
+    },
+    {
+      "sourceId": "aron-2004-right-ifc-inhibition",
+      "supportScope": "candidate_network",
+      "supports": "补强右额下回/额叶岛盖与反应抑制的早期综述背景，尤其适合解释 response inhibition、task-set switching 和记忆抑制可能共享右 IFC 机制的历史脉络。",
+      "safeUse": "可作为 Stop-signal 说明中的 supporting reader，帮助解释为什么右 IFC 是停止控制的高优先级候选区域。",
+      "boundary": "这是 2004 综述，不是 Aron 2014 one-decade-on，也不是坐标源；不能用来关闭 2014 本地全文缺口，不能直接生成 Schaefer200 点位。"
+    },
+    {
+      "sourceId": "aron-2014-response-inhibition",
+      "supportScope": "candidate_network",
+      "supports": "候选用于右额下回和反应抑制的综述级背景。",
+      "safeUse": "适合为 Stop-signal 的刹车机制提供候选解释。",
+      "boundary": "右额下回、基底节等细节超出当前 Yeo7 皮层网络可视化能力。"
+    },
+    {
+      "sourceId": "aron-poldrack-2006-stop-signal",
+      "supportScope": "reviewed_network",
+      "supports": "开放 JNeurosci Stop-signal task-fMRI 来源，支持右 IFC 与 SMA/pre-SMA 皮层候选，并把 STN/GP 作为机制关键但 Schaefer200 外的边界。",
+      "safeUse": "可用于 Stop-signal 中“停止已准备反应”的皮层演示：右 IFC/额叶岛盖触发停止控制，SMA/pre-SMA 参与动作门控；同时说明完整机制还依赖 STN/GP。",
+      "boundary": "论文不是坐标元分析，且完整峰值表有限；STN/GP 不应硬映射到皮层点。"
+    },
+    {
+      "sourceId": "arsalidou-taylor-2011-calculation",
+      "supportScope": "candidate_task_family",
+      "supports": "计算与数量加工 fMRI 定量元分析入口；PubMed 摘要支持数字/计算任务共同包含下顶叶活动，并提示不同算术操作在前额叶区域上有分化。",
+      "safeUse": "可作为心算和数字比较的计算能力优先核验来源，重点检查 IPS/SPL、下顶叶、视觉符号输入和前额叶步骤控制的分工。",
+      "boundary": "当前只完成元数据、PubMed 摘要和任务适配确认；数量大小、符号识别、事实提取、多步骤运算和工作记忆负荷要拆开讲，不能用一个顶叶点代表全部计算，也不能把前额叶候选点讲成所有数字比较都固定参与。"
+    },
+    {
+      "sourceId": "awh-1996-verbal-wm-storage-rehearsal",
+      "supportScope": "candidate_task_family",
+      "supports": "言语工作记忆中 storage 与 rehearsal 的 PET 分离证据，可用于把数字广度拆成语音存储和复述控制两个层级。",
+      "safeUse": "用于数字广度/言语短时记忆的机制解释，尤其避免把所有点位都叫作容量。",
+      "boundary": "仍需抽取全文坐标后再决定具体左下顶叶、额下/前运动和前额叶候选点。"
+    },
+    {
+      "sourceId": "babai-2018-proportional-reasoning",
+      "supportScope": "candidate_task_family",
+      "supports": "行为/神经教育干预证据支持比例推理会受到自然数显著性干扰，并且问题表征改变可以降低这种干扰。",
+      "safeUse": "可用于数学应用题、比例推理和数学直觉冲突的销售讲解，说明为什么要先压住熟悉数量反应、再转向比例/逻辑结构。",
+      "boundary": "该文没有 fMRI 坐标表，不能用于 Schaefer200 点位映射；比例推理影像坐标仍需 Stavy, Babai & Kallai 2016 或其他任务态影像来源。"
+    },
+    {
+      "sourceId": "babcock-vallesi-2015-inductive-reasoning",
+      "supportScope": "reviewed_network",
+      "supports": "Table 2 已抽取 pattern discovery、confirmation 和言语/空间领域交互的 MNI 坐标；本项目用于归纳规则发现中左 IFG/VLPFC 和右 PFC 空间/领域策略支路。",
+      "safeUse": "可用于解释归纳推理不是单一 Raven 或关系复杂度任务，而是会受发现规则的过程和材料领域影响。",
+      "boundary": "不能把空间/言语领域效应讲成所有归纳推理都固定激活；尾状核、小脑和广泛颞叶/视觉行不进入当前皮层主图。"
+    },
+    {
+      "sourceId": "bartra-2013-valuation-system",
+      "supportScope": "reviewed_network",
+      "supports": "主观价值、奖励、反馈和回避相关系统的元分析边界，支持 value-feedback 分支。",
+      "safeUse": "可用于解释反馈价值、奖励/惩罚和策略更新如何影响学习任务表现。",
+      "boundary": "不要把 vmPFC/OFC、纹状体和其他价值系统压缩成一个皮层点；不证明训练效果。"
+    },
+    {
+      "sourceId": "bellmund-2020-sequence-memory",
+      "supportScope": "specialized_atlas_needed",
+      "supports": "Hippocampal-entorhinal sequence-memory review supports MTL/entorhinal mechanism language for episodic order and temporal sequence memory.",
+      "safeUse": "可用于事件顺序/情景顺序记忆的 MTL/海马-内嗅机制边界。",
+      "boundary": "本地复核未发现数字 MNI/Talairach 坐标表；不能作为 Schaefer200 点位来源。"
+    },
+    {
+      "sourceId": "binder-2009-semantic-system",
+      "supportScope": "candidate_network",
+      "supports": "支持语义系统为分布式网络，涉及颞叶、下顶叶和前额叶语义控制等候选区域。",
+      "safeUse": "可用于阅读理解和长时语义记忆中的语义系统层级讲解。",
+      "boundary": "元分析支持分布式系统，不支持把语义压缩为单个点位。"
+    },
+    {
+      "sourceId": "bishop-2004-anxiety-attention",
+      "supportScope": "candidate_task_family",
+      "supports": "anxiety / threat-related distractor 的任务族证据，支持威胁显著性会占用注意资源、提高控制需求，并可能削弱顶下控制的讲法。",
+      "safeUse": "可用于情绪-认知框架中解释焦虑状态、威胁线索和注意/执行控制表现之间的关系。",
+      "boundary": "本地 PDF 已补齐，但仍是 P3 optional task-family 边界源；不能用于升级点位、训练效果、临床诊断或个体情绪调节评估。"
+    },
+    {
+      "sourceId": "braem-2017-affective-conflict",
+      "supportScope": "candidate_task_family",
+      "supports": "affective evaluation of conflict 的任务族证据，支持认知冲突可带有负性/厌恶性信号，并在 ACC 活动中体现的情绪-认知调制讲法。",
+      "safeUse": "可用于情绪-认知框架中解释 conflict/control demand 与 affective evaluation 的连接，尤其是控制需求上升和价值/显著性分支。",
+      "boundary": "本地 PDF 已补齐，但仍是 E2 task-family 边界源；不能用于升级点位、训练效果或临床解释。"
+    },
+    {
+      "sourceId": "buhle-2014-cognitive-reappraisal",
+      "supportScope": "reviewed_network",
+      "supports": "认知重评和情绪调节的元分析框架，支持控制系统参与情绪意义重构和调节需求上升。",
+      "safeUse": "可用于情绪-认知调制层中的 reappraisal/control-demand 说明。",
+      "boundary": "不能把元分析讲成训练任务疗效、个体情绪调节能力或新的点位级 overlay。"
+    },
+    {
+      "sourceId": "bunge-2004-analogical-reasoning",
+      "supportScope": "candidate_task_family",
+      "supports": "候选用于类比推理中关系检索和关系整合的前额叶机制证据。",
+      "safeUse": "可用于把类比推理拆成已知关系提取、关系映射和前额控制整合。",
+      "boundary": "不能外推为智力诊断或训练效果证明；语言材料、图形材料和关系复杂度差异需要单独说明。"
+    },
+    {
+      "sourceId": "cabeza-2008-parietal-episodic-memory",
+      "supportScope": "candidate_network",
+      "supports": "候选用于顶叶注意-记忆框架，尤其适合约束情景提取、来源记忆和下顶叶/角回代理点的讲法。",
+      "safeUse": "可作为 source-memory、recognition-memory 和 associative-memory 的网络级边界来源，说明顶叶参与提取和注意到记忆。",
+      "boundary": "Europe PMC 标记有 PDF 但接口下载失败；未取得全文坐标前，不能把它升级成坐标级证据。"
+    },
+    {
+      "sourceId": "caudle-2023-matrix-reasoning",
+      "supportScope": "candidate_network",
+      "supports": "Matrix Decision Making Task fMRI source with Table 2 MNI task-effect peaks for visual input, bilateral parietal/occipito-parietal candidates, SMA/dACC, right IFG/DLPFC and premotor response-organization nodes.",
+      "safeUse": "Use as a modern Raven-like / visual matrix reasoning coordinate candidate after cross-source pruning with Kroger, Prabhakaran, Hampshire and P-FIT/Vakhtin.",
+      "boundary": "This is not original Raven/APM/PMAT; no corrected relational-difficulty effect survived, so do not claim difficulty-parametric reasoning nodes or diagnostic intelligence effects from this paper alone."
+    },
+    {
+      "sourceId": "chechko-2012-emotional-distractors",
+      "supportScope": "candidate_task_family",
+      "supports": "情绪与非情绪 distractor interference 的任务族证据，支持情绪材料改变干扰、准确率和控制需求的讲法。",
+      "safeUse": "可作为注意力/执行控制中 emotional distractor 的任务族补强。",
+      "boundary": "单项任务不能泛化为临床结论或所有情绪状态；未做本项目点位终审前不升级为 point-level overlay。"
+    },
+    {
+      "sourceId": "chen-2018-cognitive-interference",
+      "supportScope": "reviewed_network",
+      "supports": "情绪干扰与认知干扰的跨域元分析框架，支持把情绪-认知调制讲成共享控制、显著性和部分情绪特异成分共同作用。",
+      "safeUse": "可用于注意力、执行控制和情绪-认知总框架的机制说明，尤其是 salience capture 和 control demand 两条分支。",
+      "boundary": "不直接升级任一单范式点位；杏仁核、rACC、vmPFC/OFC 等情绪特异成分需要保留为 atlas-boundary 或综述边界。"
+    },
+    {
+      "sourceId": "chua-2007-anterior-hippocampal-associative-encoding",
+      "supportScope": "specialized_atlas_needed",
+      "supports": "候选支持 anterior hippocampal formation 对成功 face-name 联结编码的贡献。",
+      "safeUse": "可用于增强面孔-姓名联结中海马绑定层的证据优先级。",
+      "boundary": "需要全文坐标和任务细节复核，不能直接当成坐标级最终证据。"
+    },
+    {
+      "sourceId": "coetzee-2018-core-reasoning",
+      "supportScope": "reviewed_network",
+      "supports": "Deductive reasoning complexity and reasoning-over-memory contrasts support left frontal rule integration, medial frontal/pre-SMA monitoring and parietal relational workspace.",
+      "safeUse": "可用于演绎推理生产图的前额-顶叶-中线监控主干。",
+      "boundary": "Tables 2/4 是非演绎/记忆负荷边界，不应混入演绎推理核心；小脑行留作 atlas-boundary。"
+    },
+    {
+      "sourceId": "cohen-2002-vwfa-language-specific-tuning",
+      "supportScope": "reviewed_network",
+      "supports": "VWFA and visual word-form coordinates support ventral occipitotemporal word-form processing and visual-input boundaries.",
+      "safeUse": "可用于阅读通路中 VWFA/左腹侧颞枕候选层。",
+      "boundary": "不要讲成个体级 VWFA 精确定位；右侧和后部视觉点只作边界。"
+    },
+    {
+      "sourceId": "collette-2005-executive-functioning-unity-diversity",
+      "supportScope": "candidate_network",
+      "supports": "Executive-function PET/fMRI coordinate source supports common and diverse updating, inhibition and shifting candidates; local tables have been extracted and converted for updating-family review.",
+      "safeUse": "Use as one updating/common-EF candidate source alongside Murty, Nee/Brown and Saylik, especially for frontoparietal and medial control boundaries.",
+      "boundary": "Do not treat Collette as a keep-track original task or a production-reviewed overlay by itself; Talairach-derived rows require cross-source pruning."
+    },
+    {
+      "sourceId": "constable-2004-sentence-complexity-modality",
+      "supportScope": "reviewed_network",
+      "supports": "Sentence complexity and modality coordinates support sentence-comprehension temporal, frontal and modality-input boundaries.",
+      "safeUse": "可用于句子理解生产图中补强复杂句法/句子整合和视觉/听觉输入边界。",
+      "boundary": "Table 2 是输入通道边界，不应混成句子理解核心。"
+    },
+    {
+      "sourceId": "cools-2002-reversal-learning",
+      "supportScope": "candidate_task_family",
+      "supports": "支持概率反转学习作为反馈学习和认知灵活性任务，并提供 OFC/控制相关神经影像入口。",
+      "safeUse": "可用于讲解规则改变后大脑如何利用反馈调整选择策略。",
+      "boundary": "尚未逐坐标映射；且当前 Schaefer200 不覆盖纹状体，不能讲成完整奖赏-基底节环路。"
+    },
+    {
+      "sourceId": "corbetta-shulman-2002-attention",
+      "supportScope": "reviewed_network",
+      "supports": "注意定向和重定向的综述级网络框架，尤其适合解释背侧目标导向注意与腹侧刺激驱动重定向。",
+      "safeUse": "可用于 Posner 线索任务和注意定向类范式的网络级讲解。",
+      "boundary": "不能直接推出 Schaefer200 某个点位在某个任务中激活，也不能用于个体诊断。"
+    },
+    {
+      "sourceId": "cromheeke-mueller-2014-emotion-cognition-ale",
+      "supportScope": "candidate_network",
+      "supports": "情绪影响认知控制的 ALE 元分析边界源；Tables 2-4 已保留 Talairach intake，可支撑情绪调制控制网络、任务无关情绪干扰和表现方向取决于任务负荷的讲法。",
+      "safeUse": "可用于情绪-认知层说明同一认知任务在情绪条件下会增加额外控制需求，并区分 task-relevant 与 task-irrelevant emotion 的影响。",
+      "boundary": "坐标为 Talairach 且来自跨任务 ALE；未完成 Talairach-to-MNI 转换、contrast review 和 nearest-parcel audit 前，不能进入生产点位或 Schaefer200 parcel 声明；subgenual ACC、amygdala、basal ganglia 等结构保留 atlas-boundary。"
+    },
+    {
+      "sourceId": "courtney-1996-object-spatial-wm",
+      "supportScope": "candidate_task_family",
+      "supports": "物体与空间视觉工作记忆分离的神经影像来源，可用于空间广度和物体广度的边界。",
+      "safeUse": "用于解释空间广度不是所有视觉短时记忆，也不是物体形状保持；应优先核空间位置保持网络。",
+      "boundary": "需要全文坐标后才能判断哪些 Schaefer200 parcel 可被显示；当前只作为候选来源。"
+    },
+    {
+      "sourceId": "crescentini-2011-rule-acquisition",
+      "supportScope": "reviewed_network",
+      "supports": "Tables 2-4 已抽取规则获得、规则跟随和规则难度相关 MNI 坐标；本项目裁剪后用于左额下/额中规则假设、双侧 IPS/SPL 关系工作区和内侧额叶/扣带监控层。",
+      "safeUse": "可用于 `inductive-rule-discovery` 的生产级演示，说明规则发现需要观察样例、保持关系、生成假设并用反馈监控修正。",
+      "boundary": "rule-following、感觉运动、小脑、尾状核和广泛视觉/颞叶行不进入主图核心；不能把规则发现等同任务切换或一般执行功能。"
+    },
+    {
+      "sourceId": "culham-2001-attention-response",
+      "supportScope": "candidate_task_family",
+      "supports": "候选用于多目标追踪中注意负荷、视觉空间注意和额顶/顶叶注意反应的任务证据。",
+      "safeUse": "可作为多目标追踪的优先区域级证据入口，用于解释动态目标追踪会牵动顶叶和额叶注意系统，并区分 task-only 与 load-dependent 反应。",
+      "boundary": "PDF 已入库，但未发现显式峰值坐标表；尚未逐坐标映射到 Schaefer200，当前只能作为区域级候选点位依据。"
+    },
+    {
+      "sourceId": "damestani-2021-auditory-oddball-tone-discrimination",
+      "supportScope": "candidate_network",
+      "supports": "Auditory oddball / tone-discrimination task-fMRI coordinates support an auditory-specific candidate branch for perceptual-discrimination RT, including bilateral auditory/STG input, frontal-opercular/anterior-insula salience marking, medial frontal/SMA response preparation and limited parietal support.",
+      "safeUse": "可用于补足知觉辨别反应时里的听觉输入与偏离音检测候选层，说明反应速度不只发生在视觉材料里。",
+      "boundary": "这是 Looping Star versus GRE-EPI auditory oddball 方法学论文中的任务坐标，不是普通 simple RT、ordinary choice RT、SDMT、符号搜索或课堂加工速度 production overlay；采集序列差异不能讲成认知网络差异，小脑/后颅窝行只走专门图谱边界。"
+    },
+    {
+      "sourceId": "davachi-2003-item-source-memory",
+      "supportScope": "reviewed_network",
+      "supports": "PNAS task fMRI 来源，区分 item recognition 与 source recollection 的编码机制，并指出海马/后海马旁等 MTL 对来源回忆更关键。",
+      "safeUse": "可用于联想记忆和来源记忆的任务身份、MTL 边界和海马不能硬塞进 Schaefer200 的说明。",
+      "boundary": "PDF 已入库，但主要关键结构在内侧颞叶；当前皮层模型只能显示语义线索、下顶叶提取和前额叶监控代理层。"
+    },
+    {
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "supportScope": "candidate_task_family",
+      "supports": "支持时间顺序判断任务和 TPJ 参与事件先后排序的候选证据。",
+      "safeUse": "可用于反应速度/判断速度中“先后顺序判断”的范式身份和 TPJ 候选讲法。",
+      "boundary": "当前显示的 TPJ 是 Schaefer200 代理分区，不能等同论文坐标。"
+    },
+    {
+      "sourceId": "dehaene-1999-sources-math-thinking",
+      "supportScope": "candidate_task_family",
+      "supports": "行为和脑成像证据区分 exact arithmetic 与 approximate arithmetic：精确算术更依赖语言/事实提取，近似算术更依赖双侧顶叶数量和视空间表征。",
+      "safeUse": "可用于把计算能力拆成数学直觉/近似数量、熟练算术事实和在线计算三层，并解释为什么数学直觉和精确答案不是同一套机制。",
+      "boundary": "不能直接把 1999 研究中的条件差异转成当前 Schaefer200 最终点位；题目材料、语言、训练和个体年龄需要另行核验。"
+    },
+    {
+      "sourceId": "dehaene-2009-math-intuitions",
+      "supportScope": "candidate_network",
+      "supports": "综述级支持数学直觉、基础算术、数量比较和符号到数量映射与顶叶数量系统有关。",
+      "safeUse": "可作为数感/数学直觉的概念框架来源，帮助销售讲解从数量直觉到符号计算的过渡。",
+      "boundary": "这是综述级来源，不替代具体任务的峰值坐标；不能单独用于宣布某个 parcel 是数学直觉中心。"
+    },
+    {
+      "sourceId": "diedrichsenlab-cerebellar-atlases",
+      "supportScope": "specialized_atlas_needed",
+      "supports": "Provides imported cerebellar anatomical and Buckner 7-network label tables.",
+      "safeUse": "Use as atlas provenance for cerebellum labels and physical structure rendering.",
+      "boundary": "Atlas labels are spatial references, not task-activation evidence."
+    },
+    {
+      "sourceId": "diwadkar-2000-dynamic-spatial-wm",
+      "supportScope": "candidate_task_family",
+      "supports": "动态空间工作记忆 fMRI 来源，支持顶叶与背外侧前额叶在空间工作记忆中的协作候选。",
+      "safeUse": "用于空间广度中顶叶空间保持和 DLPFC 序列/策略控制的候选连接。",
+      "boundary": "任务是动态空间工作记忆，不等同所有方格广度；坐标映射前不能标为最终点位。"
+    },
+    {
+      "sourceId": "dizaji-2021-intelligence-neuroimaging-review",
+      "supportScope": "reviewed_network",
+      "supports": "综述层支持把 WAIS/Raven/P-FIT、工作记忆、加工速度和神经影像预测结果分开解释，避免把智力讲成一个单一点位或单一网络。",
+      "safeUse": "可作为 Raven-like 推理、加工速度和智力相关销售话术的边界护栏。",
+      "boundary": "这是综述，不提供任务 fMRI 峰值坐标；不能用于生成 3D 点位、个体 IQ 诊断或训练效果证明。"
+    },
+    {
+      "sourceId": "dobbins-2002-source-memory-control",
+      "supportScope": "candidate_task_family",
+      "supports": "候选用于来源记忆中前额叶控制、提取策略和来源监控的任务 fMRI 证据。",
+      "safeUse": "可用于说明 source-memory 不只是再认，还需要前额叶参与来源判断和控制检索。",
+      "boundary": "当前只完成元数据核验，Neuron 全文仍需机构权限；不能把 DLPFC 点位讲成已由该文坐标复核。"
+    },
+    {
+      "sourceId": "dux-2006-central-bottleneck",
+      "supportScope": "candidate_task_family",
+      "supports": "Dual-task central bottleneck ROI coordinates support pLPFC and SMFC bottleneck candidates for dual-task and response-selection limits.",
+      "safeUse": "可用于双任务/反应选择瓶颈边界，解释并行任务时的中心处理限制。",
+      "boundary": "ROI mean 不是普通 whole-brain peak；不能替代 ordinary choice RT 或 simple RT。"
+    },
+    {
+      "sourceId": "emch-2019-verbal-wm-meta",
+      "supportScope": "candidate_task_family",
+      "supports": "语音/言语工作记忆 fMRI 元分析入口，可用于核验数字广度、PASAT、言语 n-back 等任务中语音保持、复述和额顶控制的共同成分。",
+      "safeUse": "优先用于数字广度的语音工作记忆来源补强，并帮助区分言语短时记忆和通用工作记忆核心。",
+      "boundary": "主表坐标和补充材料已进入抽取/溯源层，但任务分类与 Schaefer200 最近点仍需逐条复核；不能把当前数字广度点位标为坐标已核。"
+    },
+    {
+      "sourceId": "esmeyer-2025-crossmodal-perceptual-decision",
+      "supportScope": "candidate_network",
+      "supports": "Visual delayed match-to-comparison fMRI and a visual/vibrotactile conjunction support IPS and PMd candidate coordinates for perceptual-decision representations that are not tied to one sensory modality or one final motor action.",
+      "safeUse": "可用于知觉辨别反应时中说明“差异判断”不只是视觉输入，还可能经过顶叶抽象决策和前运动效应器准备路线。",
+      "boundary": "跨模态 conjunction 是候选层，不能升成普通 reaction-speed production map；它也不能替代 SDMT、ordinary choice RT、simple RT 或听觉专门反应时来源。"
+    },
+    {
+      "sourceId": "etkin-2011-acc-mpfc-emotion",
+      "supportScope": "reviewed_network",
+      "supports": "ACC/mPFC 情绪加工综述边界，支持把内侧额叶讲成情绪评价/表达与情绪调节共同参与的系统，而不是简单 dorsal cognitive / ventral affective 二分。",
+      "safeUse": "可用于情绪-认知调制层中解释情绪压力、恐惧/焦虑线索、评价、反应表达和调节需求如何改变注意与执行控制负荷。",
+      "boundary": "综述级边界源，不提供本项目可直接投影的单任务点位；不能用于临床诊断、个体情绪调节评估、训练疗效或新的 3D overlay 升级。"
+    },
+    {
+      "sourceId": "ezzyat-davachi-2014-temporal-proximity",
+      "supportScope": "candidate_network",
+      "supports": "Temporal-proximity pattern-similarity source provides Supplemental Table S2 MNI cortical peaks for context-boundary and temporal-proximity candidate review, plus subcortical/cerebellar/MTL atlas-boundary rows.",
+      "safeUse": "Use as a candidate temporal-proximity / context-boundary layer for episodic-order memory, especially medial frontal, parietal, IFG/insula and visual/context-boundary nodes.",
+      "boundary": "Do not mix Supplemental Table S1 source-memory context rows into the temporal-proximity overlay; do not treat this candidate layer as full autobiographical or story event-order memory."
+    },
+    {
+      "sourceId": "fan-2002-ant-behavior",
+      "supportScope": "reviewed_network",
+      "supports": "ANT 的行为范式身份：用同一个反应时任务估计 alerting、orienting 和 executive attention 三类注意网络效率。",
+      "safeUse": "可用于说明 ANT 为什么是注意力的核心基础范式，以及为什么它比单一反应时任务更适合拆解注意力成分。",
+      "boundary": "这是行为任务和效率指标来源，不直接提供 Schaefer200 点位定位。"
+    },
+    {
+      "sourceId": "fan-2005-ant-fmri",
+      "supportScope": "reviewed_network",
+      "supports": "事件相关 fMRI ANT 研究支持警觉、定向和执行冲突的区域/网络关联。Tables 3–5 的 26 组数字已对照原表；原文报告的是经 Brett 转换的 Talairach，旧记录误标为 MNI，可另作明确标注的教学近似对照，尚不能支持当前模型的精确逐峰定位。",
+      "safeUse": "可用于讲解 ANT 的警觉准备、空间定向与冲突控制。网页位置为区域教学锚点，不代表 Fan 2005 原始峰值或已验证的峰值到分区映射。",
+      "boundary": "当前小脑、丘脑等节点为结构示意。原文坐标系已在修复记录中更正，逐行来源已建立；历史变换到当前模板的适用性仍待验证；不以最近 parcel 代替配准，也不作为训练靶点或个体诊断。",
+      "spatialAuditStatus": "REPORTED_TALAIRACH_AFTER_BRETT_NOT_MNI; EXACT_FSL_MAPPING_NOT_ESTABLISHED"
+    },
+    {
+      "sourceId": "fan-2014-uncertainty-cognitive-control",
+      "supportScope": "candidate_network",
+      "supports": "Visual majority-function fMRI supports information-entropy/control-load candidate coordinates for ACC, anterior insula, FEF, IPC/IPS and visual regions, with thalamus and cerebellar vermis retained as specialized-atlas boundaries.",
+      "safeUse": "可用于知觉辨别反应时中解释“刺激信息不确定性越高，反应越慢，额顶扣带/前岛控制系统越需要介入”的桥接讲法。",
+      "boundary": "这不是 ordinary Hick-Hyman response-alternative choice RT；response selection 在任务里是二选一且恒定，不能替代 Wu 2018 supplement；丘脑和小脑不能硬映射成 Schaefer200 皮层点。"
+    },
+    {
+      "sourceId": "fittipaldi-marquez-2017-sdmt-neural-efficiency",
+      "supportScope": "candidate_network",
+      "supports": "SDMT fMRI 补充表来源，S1/S2 报告 MS 患者和健康对照在不同 ISI 条件下执行 SDMT 的 MNI 激活坐标，以及 1.5s ISI 相比 2s/2.5s 的负荷增强坐标。",
+      "safeUse": "可用于补强符号搜索/编码速度的跨源一致性检查，特别是视觉输入、额顶扫描/控制、MTL/皮层外和小脑边界，以及任务负荷变高时激活增强的候选说明。",
+      "boundary": "这是 MS/HC 样本和任务负荷研究，不替代 Forn 2009 的健康成人主 overlay；没有主文终审前，不讲成学生加工速度、普通反应时、个体诊断或训练效果证据。"
+    },
+    {
+      "sourceId": "fonville-2013-embedded-figures",
+      "supportScope": "candidate_task_family",
+      "supports": "临床样本中嵌入图形任务的组间差异，提示健康对照更偏楔前叶，厌食症组更偏右梭状回/局部细节策略。",
+      "safeUse": "只作为嵌入图形任务的边界材料：说明不同策略或临床样本可能改变所依赖的视觉/顶叶网络。",
+      "boundary": "不要把 AN > HC 或 HC > AN 的组差异坐标当成普通学生的核心功能点，也不要用于 100% 生产主图。"
+    },
+    {
+      "sourceId": "forn-2009-sdmt-fmri",
+      "supportScope": "reviewed_network",
+      "supports": "SDMT 直接任务 fMRI 来源，Table 1 报告健康成人执行 SDMT 时的 Talairach 峰值，覆盖枕叶/枕颞视觉输入、顶叶/楔前叶扫描注意、额叶规则/反应支持，并报告尾状核和小脑边界点。",
+      "safeUse": "可用于把符号搜索/编码速度从区域级说明推进到 SDMT 专门坐标候选层；适合讲视觉符号输入、顶叶扫描/匹配、额叶反应准备和皮层外边界共同支撑加工速度。",
+      "boundary": "Forn 2009 不是普通反应时或所有课堂加工速度的坐标源；尾状核和小脑点不能强行映射到 Schaefer200，视觉峰值也需要生产裁剪后再演示。"
+    },
+    {
+      "sourceId": "frick-2019-spatial-transformation-achievement",
+      "supportScope": "candidate_task_family",
+      "supports": "发展/行为层面支持空间变换能力与学习成就关系，可用于空间折叠和表象操作的训练意义边界。",
+      "safeUse": "可用于解释为什么空间变换能力值得作为表象操作能力的训练入口之一。",
+      "boundary": "该来源不提供任务态 fMRI 坐标，不能单独支撑 3D 点位。"
+    },
+    {
+      "sourceId": "ganis-2004-imagery-perception",
+      "supportScope": "candidate_task_family",
+      "supports": "fMRI 研究用于比较视觉心理表象和视觉感知涉及的脑区重叠与差异；用户补入 PDF 后，Tables 3-4 已抽取并转为 MNI/Schaefer200 坐标候选。",
+      "safeUse": "可作为视觉表象任务的神经影像入口，帮助解释内部图像生成会牵动视觉、顶叶和额叶控制支架；当前适合做 70% 坐标候选展示。",
+      "boundary": "坐标已完成候选映射，但尚未人工裁剪 production overlay；common imagery-perception 与 perception-only ventral temporal 边界要分开讲，不能声称 imagery-only 精确点位已终审。"
+    },
+    {
+      "sourceId": "gazzo-2023-probabilistic-deductive-reasoning",
+      "supportScope": "candidate_network",
+      "supports": "Modern probabilistic versus deductive reasoning fMRI supports right IFC, dACC/mCC and parietal/precuneus deductive candidates plus vmPFC/insula/MTL probability candidates.",
+      "safeUse": "可用于演绎推理生产图的右额/中线补强，并为概率判断保留候选边界。",
+      "boundary": "概率分支不能直接讲成课堂概率统计；hippocampal ROI/SVC 行必须走 MTL 专门图谱。"
+    },
+    {
+      "sourceId": "gitelman-1999-covert-spatial-attention",
+      "supportScope": "candidate_network",
+      "supports": "Covert spatial attention task-fMRI coordinates support dorsal/ventral attention orienting candidates, with thalamus and basal-ganglia rows kept as atlas-boundary evidence.",
+      "safeUse": "可用于 Posner/cueing 和空间注意讲法中补强 TPJ、FEF/顶叶、丘脑/基底节边界。",
+      "boundary": "这是 covert spatial attention 来源，不替代 ANT 全部 alerting/orienting/executive 分解；皮层外结构不能硬映射成 Schaefer200。"
+    },
+    {
+      "sourceId": "glass-2013-mental-paper-folding-lesion",
+      "supportScope": "candidate_network",
+      "supports": "VLSM 病灶-缺损研究提供 AFQT boxes / mental paper folding 的 Talairach 坐标边界，稳定主线是右 IPL/BA40 和左海马旁/枕颞区域。",
+      "safeUse": "可用于说明空间折叠/展开表现对右顶叶空间变换和左海马旁/枕颞构型支持很敏感，并作为 3D 候选点位复核来源。",
+      "boundary": "这是病灶因果边界，不是 task-fMRI 激活；不能讲成训练时这些区域一定点亮，也不能据此宣称 reviewed parcel。"
+    },
+    {
+      "sourceId": "hampshire-2012-intelligence",
+      "supportScope": "candidate_task_family",
+      "supports": "候选用于把推理、短时记忆和语言推理等成分拆分的任务研究。",
+      "safeUse": "可用于推理和短时记忆演示中的任务成分拆分。",
+      "boundary": "它不是九项脑功能训练系统本身的验证研究，不能直接替代产品效果证据。"
+    },
+    {
+      "sourceId": "hao-2013-embedded-figures-cognitive-style",
+      "supportScope": "candidate_task_family",
+      "supports": "嵌入图形测验相关的个体差异、脑结构和静息功能候选证据。",
+      "safeUse": "只能作为 embedded-figures/field-independence 的弱候选背景，用于说明该任务与视觉分离、局部细节加工和认知风格有关。",
+      "boundary": "这不是任务态 fMRI 激活坐标来源，不能把结构/静息结果当成 3D 点位级证据。"
+    },
+    {
+      "sourceId": "harris-2013-spatial-transformations-rotation-folding",
+      "supportScope": "candidate_task_family",
+      "supports": "Spatial transformation review supports conceptual separation between mental rotation and mental folding.",
+      "safeUse": "可用于空间折叠/心理旋转的任务边界和发展/策略讲法。",
+      "boundary": "综述不提供任务态 fMRI 坐标；不能用于 3D 点位主图。"
+    },
+    {
+      "sourceId": "heekeren-2004-perceptual-decision",
+      "supportScope": "candidate_network",
+      "supports": "Visual perceptual-decision fMRI supports left posterior DLPFC / superior frontal sulcus candidate coordinates for integrating sensory evidence from face- and house-selective visual regions.",
+      "safeUse": "可用于知觉辨别反应时中“感觉证据比较清楚以后进入决策整合”的候选讲法。",
+      "boundary": "不是普通 simple RT、symbol search 或听觉 Tone 辨别坐标；Figure 3 的 FEF/SEF/IPS/INS 只有图示标签，不能直接变成 Schaefer200 点位。"
+    },
+    {
+      "sourceId": "hopfinger-2000-top-down-attention",
+      "supportScope": "candidate_network",
+      "supports": "事件相关 fMRI 空间线索研究报告 cue 阶段的额顶、后扣带、STS 和 lateral occipital 激活；Table 1 已抽取为 Posner/cueing 的 MNI 坐标候选。",
+      "safeUse": "可用于把 Posner/空间线索任务从纯网络级说明推进到坐标候选层，表达线索出现后大脑先准备空间注意，再进入目标处理。",
+      "boundary": "Hopfinger 2000 不是完整 Posner/ANT 分类；SPL cue > target 行需保留显著性边界，insula/putamen 混合标签不能硬映射到皮层，target-response 行未纳入 cue-preparation overlay。"
+    },
+    {
+      "sourceId": "houde-2003-logical-math-cognition",
+      "supportScope": "candidate_network",
+      "supports": "综述级连接逻辑和数学认知，并把抑制直觉/知觉错误、从直觉反应切换到逻辑推理作为关键机制之一。",
+      "safeUse": "适合支撑应用题逻辑建模和概率统计中“先有冲动答案，再由冲突/控制系统切回规则和逻辑”的讲解框架。",
+      "boundary": "综述不能直接提供单一应用题或统计题的坐标；使用时必须说明这是跨任务合成框架。"
+    },
+    {
+      "sourceId": "houlihan-1994-reaction-time-processes",
+      "supportScope": "candidate_task_family",
+      "supports": "候选用于把反应时和运动时分解为刺激评价、反应选择和动作输出过程的行为来源。",
+      "safeUse": "可用于把简单反应时作为行为基线，讲刺激评估和动作输出速度。",
+      "boundary": "这是行为过程来源，不支持具体脑区激活或复杂网络声称。"
+    },
+    {
+      "sourceId": "hsieh-2014-sequence-memory",
+      "supportScope": "specialized_atlas_needed",
+      "supports": "Object-in-temporal-context MVPA source supports hippocampus, PRc, PHc and anterior/posterior hippocampal ROI mechanism boundaries for sequence and temporal-context memory.",
+      "safeUse": "Use for MTL/hippocampal temporal-context mechanism narration and specialized-atlas boundary language in episodic-order memory.",
+      "boundary": "The reviewed article and supplement do not provide a numeric MNI/Talairach peak table; do not create Schaefer200 cortical overlay points from this source alone."
+    },
+    {
+      "sourceId": "hung-2018-inhibition-emotional-interference",
+      "supportScope": "candidate_network",
+      "supports": "认知抑制、反应抑制和情绪干扰三类抑制系统的 ALE 元分析边界；Table II 已保留 Talairach 坐标 intake，可支撑情绪-认知调制和执行控制拆分讲法。",
+      "safeUse": "可用于说明情绪干扰不是普通认知冲突的简单变体，并用于区分 Stroop/Flanker、Go/No-Go/Stop-signal、emotional distractor 类任务的机制边界。",
+      "boundary": "Table II 坐标为 Talairach 且来自跨任务元分析；未完成 Talairach-to-MNI 转换、contrast review 和 nearest-parcel audit 前，不能进入生产点位或 Schaefer200 parcel 声明；amygdala/basal ganglia/thalamus/midbrain 行只能作 atlas-boundary。"
+    },
+    {
+      "sourceId": "jobard-2003-dual-route-reading-meta",
+      "supportScope": "reviewed_network",
+      "supports": "Dual-route reading meta-analysis clusters support visual word-form, phonological, lexical-semantic and left IFG reading-route boundaries.",
+      "safeUse": "可用于阅读能力中词汇判断、字词/伪词、音韵解码和正字法加工的通路支架。",
+      "boundary": "Cluster mean 不是个体诊断或完整语言 atlas；语义系统仍需专门语义来源。"
+    },
+    {
+      "sourceId": "jonides-1993-spatial-wm-pet",
+      "supportScope": "candidate_task_family",
+      "supports": "空间工作记忆 PET 来源，可用于空间广度中顶叶空间保持和前额叶控制的候选核验。",
+      "safeUse": "用于空间广度/方格广度的材料特异证据补强，尤其检查 IPS/SPL 与 DLPFC 是否应作为核心点。",
+      "boundary": "早期 PET 坐标需要确认空间和任务条件；不能直接把通用工作记忆点位替换为空间广度专属点。"
+    },
+    {
+      "sourceId": "jovicich-2001-motion-tracking-load",
+      "supportScope": "reviewed_network",
+      "supports": "多目标追踪负荷研究提供动态视觉输入、SPL/IPS 追踪负荷、FEF/PMA 注意集合和 ACC/内侧额叶需求坐标，可用于 MOT 的生产级分层演示。",
+      "safeUse": "可用于把 MOT 讲成运动视觉输入进入顶叶追踪负荷系统，并由 FEF/前运动准备和内侧额叶任务需求辅助。",
+      "boundary": "Jovicich 表格支持当前 MOT 演示，但视觉输入、追踪负荷、FEF/PMA 和 ACC/内侧额叶必须分层；小脑和基底节仍留在图谱边界，Merkel 2015 只作为未来策略分型精修。"
+    },
+    {
+      "sourceId": "jung-haier-2007-pfit",
+      "supportScope": "reviewed_network",
+      "supports": "候选用于 P-FIT 视角下的推理和智力相关宽网络框架。",
+      "safeUse": "可作为瑞文矩阵和类比推理的宽网络讲法边界。",
+      "boundary": "不能用于诊断性 IQ 声称，也不能把训练效果说成智力提升证明。"
+    },
+    {
+      "sourceId": "kansaku-2004-simple-reaction-time",
+      "supportScope": "reviewed_network",
+      "supports": "Simple reaction-time coordinates support sensory cue detection, medial frontal/SMA preparation, premotor response preparation, opercular salience/integration and cerebellar boundary evidence.",
+      "safeUse": "可用于把 simple RT 讲成从线索输入到反应准备和输出的快速通路。",
+      "boundary": "不等同 choice RT、符号搜索或复杂决策速度；小脑只作专门图谱边界。"
+    },
+    {
+      "sourceId": "kim-2011-subsequent-memory",
+      "supportScope": "candidate_task_family",
+      "supports": "候选用于后续记忆和遗忘相关的长时编码元分析。",
+      "safeUse": "可作为词表学习的编码环节核验入口。",
+      "boundary": "海马和内侧颞叶不能由皮层分区完整表达。旧换算的4条边界结果已按声明算式修正，原值及差异保留；原文转换变体未明确，仍不能用于精确 FSL 峰值定位。",
+      "spatialAuditStatus": "FOUR_DECLARED_MATRIX_ERRORS_REPAIRED_ARITHMETIC_ONLY; EXACT_FSL_MAPPING_NOT_ESTABLISHED"
+    },
+    {
+      "sourceId": "kim-cabeza-2007-true-false-memory-formation",
+      "supportScope": "candidate_network",
+      "supports": "True/false memory formation coordinates support PFC, MTL and sensory-perceptual boundary refinement for false-memory formation.",
+      "safeUse": "可用于 DRM/假记忆形成阶段解释 PFC、感觉再激活和 MTL 边界。",
+      "boundary": "不是单一 DRM primary task；MTL、丘脑和小脑仍需专门图谱。"
+    },
+    {
+      "sourceId": "king-2019-cerebellum-task-battery",
+      "supportScope": "candidate_network",
+      "supports": "Supports cerebellar task-domain organization across motor, language, working-memory, math, and spatial task domains.",
+      "safeUse": "Use for cautious cerebellar candidate layer language when a task plausibly involves timing, sequencing, or practiced output.",
+      "boundary": "Does not by itself prove a cerebellar node for every paradigm in this library."
+    },
+    {
+      "sourceId": "kirwan-stark-2004-face-name-pairs",
+      "supportScope": "specialized_atlas_needed",
+      "supports": "配对联想/face-name 任务提供 MTL/海马相关坐标入口，可用于面孔-姓名绑定的专门图谱层。",
+      "safeUse": "可用于说明 face-name 联结不仅是视觉识别，还需要 MTL/海马绑定候选层。",
+      "boundary": "MTL/海马不能用 Schaefer200 皮层 parcel 硬替代；需要专门图谱投影后再精细呈现。"
+    },
+    {
+      "sourceId": "konishi-2002-recency-judgment",
+      "supportScope": "candidate_network",
+      "supports": "支持词序列近因判断和 temporal-order retrieval 的任务 fMRI 证据。Table 1 报告 HIGH minus LOW 检索需求的皮层峰值，并保留双侧内侧颞叶、丘脑/尾状、脑干和小脑边界。",
+      "safeUse": "可用于把事件/情景顺序记忆中的“顺序检索、上下文排序、前额叶监控”推进到坐标候选层，尤其是 DLPFC/IFG、内侧额叶、顶叶和视觉/运动输出链路。",
+      "boundary": "这不是故事情景顺序或真实生活事件排序的完整证据，也不是毫秒级时间顺序判断；坐标空间需继续复核，因为方法段写 MNI template，而图注使用 Talairach 切片语言。"
+    },
+    {
+      "sourceId": "kosslyn-2001-imagery-foundations",
+      "supportScope": "candidate_task_family",
+      "supports": "候选用于视觉表象的综述级神经基础，尤其是视觉表象与视觉感知的部分重叠和差异。",
+      "safeUse": "可用于说明视觉表象不是单纯看见外界，而是在没有外部图像时调用视觉和控制系统生成内部图像。",
+      "boundary": "不能说大脑里真的出现可被观看的图像，也不能把视觉表象等同于心理旋转或训练效果证据。"
+    },
+    {
+      "sourceId": "kroger-2002-relational-complexity",
+      "supportScope": "candidate_network",
+      "supports": "Supports anterior DLPFC recruitment as relational complexity increases.",
+      "safeUse": "Use for relational reasoning DLPFC/frontoparietal candidate claims.",
+      "boundary": "Needs full coordinate extraction before marking parcels reviewed."
+    },
+    {
+      "sourceId": "kumaran-maguire-2006-unexpected-sequence-events",
+      "supportScope": "specialized_atlas_needed",
+      "supports": "Unexpected-sequence event fMRI source supports mismatch/sequence-memory candidates and MTL boundary rows for episodic-order memory.",
+      "safeUse": "Use for cautious event/sequence memory narration, especially unexpected sequence mismatch and MTL boundary language.",
+      "boundary": "Do not equate this with full autobiographical or story event-order memory; MTL rows require specialized atlas handling."
+    },
+    {
+      "sourceId": "langner-eickhoff-2013-vigilant-attention",
+      "supportScope": "candidate_task_family",
+      "supports": "候选用于持续注意和警觉维持的元分析证据。",
+      "safeUse": "可作为 CPT/TOVA 持续注意范式的核验入口。",
+      "boundary": "不同 CPT/TOVA 版本差异较大，未复核全文前不做精确点位或单一通路声称。"
+    },
+    {
+      "sourceId": "macdonald-2000-stroop-control",
+      "supportScope": "candidate_task_family",
+      "supports": "事件相关 fMRI Stroop 任务显示左 DLPFC 更偏任务准备/控制实施，ACC 更偏不一致刺激下的表现监控。",
+      "safeUse": "可用于把 Stroop 拆成前额叶规则保持和前扣带冲突监控两层，而不是只讲一个笼统注意网络。",
+      "boundary": "该文支持控制实施与监控分工，不支持把所有额叶 parcel 解释为同一种抑制机制。"
+    },
+    {
+      "sourceId": "manjaly-2003-hidden-figures-fmri",
+      "supportScope": "reviewed_network",
+      "supports": "Hidden figures fMRI coordinates support left IFG/ventral premotor and left IPS consistency candidates, with broad visual-search rows as background.",
+      "safeUse": "可用于嵌入图形/复杂图形搜索生产图中补强核心 EFT-specific 点位。",
+      "boundary": "Table 1A 的一般视觉搜索底座不能被讲成嵌入图形特异核心。"
+    },
+    {
+      "sourceId": "marini-2016-distractor-filtering",
+      "supportScope": "reviewed_network",
+      "supports": "箭头 Flanker/旁侧干扰过滤的混合设计 fMRI 样本，包含 proactive Mixed > Pure 和 reactive incongruent > congruent 两类坐标。",
+      "safeUse": "可用于 Flanker 的任务样本级坐标复核，表达视觉输入、顶叶目标选择、额顶抗干扰控制、冲突监控、前岛叶/岛盖控制需求和反应输出。",
+      "boundary": "这不是 Flanker 全元分析；ROI 锚点不能被讲成所有 Flanker 研究的一致峰值。"
+    },
+    {
+      "sourceId": "mccandliss-2003-vwfa",
+      "supportScope": "candidate_task_family",
+      "supports": "Supports the conceptual VWFA/left fusiform reading-expertise framing.",
+      "safeUse": "Use for explaining why orthographic processing needs a ventral occipitotemporal word-form layer.",
+      "boundary": "Review-level source, not a coordinate table for this app; exact points need coordinate extraction from primary studies or meta-analysis."
+    },
+    {
+      "sourceId": "merkel-2015-multiple-object-tracking-strategies",
+      "supportScope": "candidate_network",
+      "supports": "MOT strategy ROI seeds support strategy-specific refinement for multiple-object tracking.",
+      "safeUse": "可用于 MOT 未来策略分型，不替代 Jovicich 生产主干。",
+      "boundary": "ROI seed 坐标不能直接全部上主图；当前生产主干仍以 Jovicich 为准。"
+    },
+    {
+      "sourceId": "milivojevic-2003-mental-paper-folding",
+      "supportScope": "candidate_task_family",
+      "supports": "ERP/行为层面区分心理旋转和心理折叠两类空间变换，可用于空间折叠范式身份和边界说明。",
+      "safeUse": "可用于说明空间折叠不是心理旋转的简单重复，训练讲解中应把折叠、展开和空间变换边界分开。",
+      "boundary": "该来源不是 fMRI 坐标表，不能用于 Schaefer200 点位级激活声称。"
+    },
+    {
+      "sourceId": "miyake-2000-executive-functions",
+      "supportScope": "candidate_task_family",
+      "supports": "候选用于执行功能中更新、抑制、切换等任务分类边界。",
+      "safeUse": "适合帮助区分 keep-track、双任务、切换和抑制任务的功能归属。",
+      "boundary": "这是行为/认知结构来源，不是脑区定位来源；不能直接支持点位级脑区声称。"
+    },
+    {
+      "sourceId": "murty-2011-flexible-updating",
+      "supportScope": "candidate_network",
+      "supports": "Flexible-updating task fMRI source supports updating and rule/context reconfiguration candidates in frontal, parietal and control regions.",
+      "safeUse": "Use for executive updating and working-memory updating candidate review with Collette and Nee/Brown.",
+      "boundary": "Do not equate flexible updating with all keep-track tasks or all short-term memory capacity tests."
+    },
+    {
+      "sourceId": "nee-brown-2013-updating-hierarchical-contexts",
+      "supportScope": "candidate_network",
+      "supports": "Hierarchical-context updating source supports nested context/rule updating candidates across frontal and parietal control systems.",
+      "safeUse": "Use to explain that updating can involve higher-order context/rule revision rather than only refreshing item contents.",
+      "boundary": "Do not present this as the definitive keep-track neural map; it is a context-updating candidate source."
+    },
+    {
+      "sourceId": "neubauer-2017-tacs-paper-folding-fmri",
+      "supportScope": "reviewed_network",
+      "supports": "Supplementary Table S2 提供 Paper Folding Test 的 task-specific MNI 坐标候选；2026-06-22 parcel review 已把 8 个正激活行分成视觉输入、顶叶空间变换和次级任务需求/视觉形态支持，并把 5 个负向行固定为 deactivation boundary。",
+      "safeUse": "可用于把空间折叠从纯病灶边界推进到 direct task-fMRI parcel-reviewed candidate：正向展示优先保留右 lingual、左 IOG、左 IPL、左 SPL 和右 SMG/IPL 五个 compact anchors。",
+      "boundary": "该研究样本小且处在 tACS 设计中；S2 正激活、S2 deactivation 行和主文 Table 1 stimulation-modulation 行必须分开。当前是 reviewed coordinate-candidate terminal，不是 production reviewed、训练效果或个体靶点证据。"
+    },
+    {
+      "sourceId": "ng-2021-word-problem-lexical-consistency",
+      "supportScope": "candidate_task_family",
+      "supports": "数学应用题中词汇一致性、运算选择和额叶-岛叶-顶叶网络候选证据。",
+      "safeUse": "优先作为 `math-word-problem` 的开放全文抽取入口，用于核验限定词/操作词如何影响解题网络。",
+      "boundary": "尚未抽取和复核坐标；不能在坐标表审阅前把它讲成数学应用题 100% 点位。"
+    },
+    {
+      "sourceId": "ng-2025-word-problem-sentence-comprehension",
+      "supportScope": "candidate_task_family",
+      "supports": "小学生数学应用题与句子理解的行为和脑反应差异候选证据。",
+      "safeUse": "可作为产品演示中“应用题不是单纯阅读，也不是单纯计算”的高贴合候选来源。",
+      "boundary": "本地还没有全文/坐标表；拿到材料前只能保留为元数据级候选。"
+    },
+    {
+      "sourceId": "niendam-2012-cognitive-control",
+      "supportScope": "candidate_network",
+      "supports": "候选用于执行控制、冲突监控、抑制、切换和工作记忆控制的跨任务网络框架。",
+      "safeUse": "可作为 Stroop、Flanker、任务切换和 Go/No-Go 的候选核验入口。",
+      "boundary": "全文和任务清单未逐条复核前，不把它说成某个单一范式的专属证据。"
+    },
+    {
+      "sourceId": "nitschke-2017-tower-of-london",
+      "supportScope": "reviewed_network",
+      "supports": "Tower of London 规划任务的坐标级 ALE 元分析证据；Table 2 报告 overall planning 和 planning complexity 的 MNI weighted centroids。",
+      "safeUse": "可用于把伦敦塔规划任务展示为双侧 mid-DLPFC、FEF、SMA/pre-SMA、IPL/楔前叶、前岛叶和 RLPFC 共同参与的规划网络。",
+      "boundary": "尾状核等皮层外结构不在当前 Schaefer200 皮层模型内；Table 2 是群体 ALE centroid，不是个体训练靶点，也不能替代 Stop-signal 或 Keep-track 专门证据。"
+    },
+    {
+      "sourceId": "ochsner-2012-emotion-regulation",
+      "supportScope": "reviewed_network",
+      "supports": "情绪调节的综合模型，支持控制系统、意义系统和情绪反应系统交互的解释。",
+      "safeUse": "可用于情绪-认知框架、故事文案和训练设计的机制边界说明。",
+      "boundary": "综述模型不是训练疗效证据，也不能用于诊断或个体评估。"
+    },
+    {
+      "sourceId": "owen-2005-nback",
+      "supportScope": "candidate_task_family",
+      "supports": "N-back 神经影像元分析报告跨研究稳定的额顶、前运动/内侧额叶和后顶叶激活，可用于 N-back 更新、匹配判断和工作记忆负荷的候选证据。",
+      "safeUse": "优先用于核验 N-back 的更新、保持、匹配判断和额顶控制表述，并作为短时记忆中“更新任务强于简单广度任务”的边界依据。",
+      "boundary": "Owen 2005 使用 Talairach 坐标汇总，投到 Schaefer200 前需要坐标空间转换；不能自动外推到数字广度、空间广度或所有短时容量测验。"
+    },
+    {
+      "sourceId": "pardo-1990-stroop-acc",
+      "supportScope": "reviewed_network",
+      "supports": "PET Stroop 色词冲突研究报告 incongruent 相比 congruent 条件下以前扣带皮层反应最突出，并伴随前运动、SMA、视觉等分布式区域。",
+      "safeUse": "可用于说明 Stroop 的冲突监控/反应选择不能只画成视觉和注意，还应显式放入前扣带/内侧额叶监控节点。",
+      "boundary": "这是一项早期 PET 研究，不等同于 Schaefer200 点位级精确坐标；不能说这些点就是训练靶点。"
+    },
+    {
+      "sourceId": "parsons-osherson-2001-deductive-probabilistic-reasoning",
+      "supportScope": "candidate_task_family",
+      "supports": "演绎与概率推理 PET 坐标候选，可用于推理能力中 deductive versus probabilistic reasoning 的任务边界。",
+      "safeUse": "可用于补强推理演示中的演绎/概率判断差异，并与 Kroger、Bunge、Rodriguez、Hampshire 交叉裁剪。",
+      "boundary": "早期 PET 坐标需要转换和人工复核；不能单独升为所有推理范式的 reviewed parcel。"
+    },
+    {
+      "sourceId": "paulesu-1993-phonological-loop",
+      "supportScope": "candidate_task_family",
+      "supports": "经典语音工作记忆/语音环路神经影像来源，可作为数字广度中语音短时存储和复述控制的候选依据。",
+      "safeUse": "用于解释数字序列不是纯粹视觉或一般注意任务，而需要语音短时保持和主动复述。",
+      "boundary": "早期 PET 研究不能直接等同 Schaefer200 点位；需要全文坐标、坐标空间和任务条件复核。"
+    },
+    {
+      "sourceId": "petersen-posner-2012-attention-system",
+      "supportScope": "reviewed_network",
+      "supports": "注意系统的综述级框架，支持将注意力拆成定向、执行控制等系统，并强调这些系统会与发展、个体差异和干预研究相连。",
+      "safeUse": "可用于九项脑功能中注意力的总框架说明，帮助连接 ANT、Posner 和冲突控制任务。",
+      "boundary": "综述级证据不能替代单个范式的坐标级激活，也不能证明训练产品效果。"
+    },
+    {
+      "sourceId": "prabhakaran-1997-fluid-reasoning-raven",
+      "supportScope": "candidate_task_family",
+      "supports": "Raven/APM task fMRI source supports broad frontal, parietal, temporal and occipital region-level fluid-reasoning boundaries, but the main PDF lacks the numeric RavensTable/source-foci table.",
+      "safeUse": "Use for Raven-specific task identity and region-level reasoning narrative until a source-foci table or replacement peak-coordinate source is obtained.",
+      "boundary": "Do not create Schaefer200 point labels from the main article alone; do not treat Raven, analogy, deduction and probability reasoning as one identical coordinate map."
+    },
+    {
+      "sourceId": "price-2012-language-review",
+      "supportScope": "reviewed_network",
+      "supports": "候选用于语言、阅读和听说加工的综述级系统框架。",
+      "safeUse": "可作为阅读和句子理解需要语言专门层的边界说明。",
+      "boundary": "Yeo7 没有独立语言网络，当前图只能显示粗略支架，不能替代语言图谱。"
+    },
+    {
+      "sourceId": "rae-2014-selection-stopping",
+      "supportScope": "candidate_task_family",
+      "supports": "selection 与 stopping 的补充表坐标可用于反应选择、Stop-signal 和 shared preSMA/控制网络候选层。",
+      "safeUse": "可用于区分选择反应、停止控制和共享控制节点，尤其是 preSMA/IFG/insula/parietal 候选。",
+      "boundary": "补充表点位数量较大，生产 overlay 必须裁剪 conjunction、SVC 或核心行，不能直接显示全部峰值。"
+    },
+    {
+      "sourceId": "reineberg-2022-general-executive-function",
+      "supportScope": "candidate_task_family",
+      "supports": "支持 Keep-track 作为扫描版执行功能更新任务，并提供大样本 common executive function / updating 背景。",
+      "safeUse": "可用于说明 Keep-track 的任务结构：在 remember trials 中持续更新目标类别的最新项目，并与 read trials / fixation 形成 fMRI 对比。",
+      "boundary": "PMC 全文已入库，但正文未提供可直接抽取的群体峰值坐标表；NeuroVault 或原始 maps 未定位前，不能把它用于 Schaefer200 点位级 reviewed overlay。"
+    },
+    {
+      "sourceId": "ring-1999-preserved-cognitive-skills-autism",
+      "supportScope": "candidate_task_family",
+      "supports": "Hidden-figures special-population PET/fMRI-style coordinates support clinical/strategy boundary language for embedded figures.",
+      "safeUse": "可用于说明特殊人群中嵌入图形策略和视觉局部加工边界。",
+      "boundary": "不能把 autism/control 差异直接讲成普通儿童嵌入图形训练靶点。"
+    },
+    {
+      "sourceId": "rodriguez-moreno-hirsch-2009-deductive-reasoning",
+      "supportScope": "candidate_task_family",
+      "supports": "支持演绎推理 fMRI 任务作为规则推导和前提处理的候选神经影像来源；用户补入 PDF 后，Table 2 已抽取 Talairach 峰值、转 MNI 并完成 Schaefer200 最近点候选映射。",
+      "safeUse": "可用于推理能力中“根据前提推出结论”的演示入口，先作为 70% 坐标候选展示额顶控制、顶叶关系工作区和规则/结论检查。",
+      "boundary": "演绎推理材料差异较大；premise integration、conclusion validation 和尾状核/丘脑边界还要人工裁剪，不能直接讲成所有逻辑推理的 100% 点位。"
+    },
+    {
+      "sourceId": "roediger-mcdermott-1995-drm",
+      "supportScope": "candidate_task_family",
+      "supports": "支持 DRM 作为语义相关词表诱发假记忆的经典行为范式。",
+      "safeUse": "可用于讲解长时记忆会受到语义 gist 和来源监控影响。",
+      "boundary": "这是行为范式来源，不直接支持脑区点位，需要另配神经影像文献。"
+    },
+    {
+      "sourceId": "rolls-2022-hippocampus-vmpfc-memory",
+      "supportScope": "candidate_network",
+      "supports": "综述级支持海马、vmPFC、情景记忆、语义记忆和 schema/context 的框架语言。",
+      "safeUse": "可用于事件/情景顺序记忆的框架说明和边界提示。",
+      "boundary": "综述不能替代具体事件顺序任务 fMRI 坐标。"
+    },
+    {
+      "sourceId": "rottschy-2012-working-memory",
+      "supportScope": "candidate_task_family",
+      "supports": "坐标元分析入口，用于工作记忆保持、操作、负荷和材料类型相关任务的候选脑区核验。",
+      "safeUse": "可作为 N-back、数字广度、空间广度和物体广度的工作记忆复核入口，尤其用于拆分保持、操作和容量负荷。",
+      "boundary": "Rottschy 核心表已可作通用工作记忆候选背景，但不能替代材料专门证据；语言复述、空间位置保持、物体保持和容量瓶颈必须分开映射。"
+    },
+    {
+      "sourceId": "rubia-2006-frontostriatal-cognitive-control",
+      "supportScope": "candidate_task_family",
+      "supports": "开放 PMC 任务 fMRI 来源，Table II 支持成人组 Go/No-Go 和任务切换 raw Talairach 坐标入库，并提示同一研究还含 Simon 干扰任务坐标。",
+      "safeUse": "可作为执行功能中 Go/No-Go 抑制和任务切换的坐标来源；当前已经完成 Talairach 转 MNI 和 Schaefer200 复核。",
+      "boundary": "这是发展比较研究，不等同 Swick 2011 的 Go/No-Go vs Stop-signal 元分析；Simon 坐标需新增专门范式后再导入。"
+    },
+    {
+      "sourceId": "saylik-2022-executive-function-unity-diversity",
+      "supportScope": "candidate_network",
+      "supports": "Within-subject executive-function source provides common-EF conjunction peaks and diversity/task-family framing.",
+      "safeUse": "Use as a compact common-EF candidate scaffold for updating/inhibition/shifting discussion.",
+      "boundary": "It is not a keep-track original paradigm source and should not replace task-specific updating, inhibition or switching coordinates."
+    },
+    {
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "supportScope": "candidate_network",
+      "supports": "True versus false recognition coordinates support sensory reactivation and caudate/thalamus/hippocampus boundary evidence for false-memory refinement.",
+      "safeUse": "可用于 DRM/假记忆精修中说明 true-vs-false recognition 的感觉再激活差异。",
+      "boundary": "不是 DRM primary-task 坐标；海马、丘脑和尾状核需要专门图谱，不能直接塞入 Schaefer200 主图。"
+    },
+    {
+      "sourceId": "smith-1996-verbal-spatial-wm",
+      "supportScope": "candidate_task_family",
+      "supports": "言语工作记忆和空间工作记忆分离的 PET 研究入口，可用于数字广度与空间广度的边界对照。",
+      "safeUse": "用于说明数字广度和空间广度不能共享同一套点位；一个偏语音序列，一个偏空间位置保持。",
+      "boundary": "全文坐标未映射前，只能作为任务族边界来源，不把左右顶叶或额叶点位讲成最终定位。"
+    },
+    {
+      "sourceId": "spaniol-2009-episodic-memory",
+      "supportScope": "candidate_task_family",
+      "supports": "候选用于情景记忆编码和提取的 ALE 元分析。",
+      "safeUse": "可作为再认记忆和词表学习提取环节的核验入口。",
+      "boundary": "熟悉性、回忆性和内侧颞叶贡献需要进一步细分。"
+    },
+    {
+      "sourceId": "sperling-2003-face-name",
+      "supportScope": "reviewed_network",
+      "supports": "候选支持 face-name associative encoding 中面孔、姓名与海马/内侧颞叶联结绑定的任务身份和 fMRI 入口。",
+      "safeUse": "可用于说明面孔-姓名联结需要把视觉人脸和语义姓名绑定成长期关联。",
+      "boundary": "全文坐标未抽取前，不讲具体 Schaefer 点位；海马必须保持为物理辅助层。"
+    },
+    {
+      "sourceId": "stavy-babai-kallai-2016-proportional-reasoning",
+      "supportScope": "candidate_task_family",
+      "supports": "Proportional-reasoning fMRI source supports salience/congruency conflict, parietal quantity relations, frontal control and thalamic/cerebellar boundary candidates from user-provided Semantic Scholar figures/tables.",
+      "safeUse": "Use for proportional-reasoning and math-intuition conflict candidate review after Talairach-to-MNI mapping.",
+      "boundary": "The full PDF now verifies the screenshot-derived table numbers, contrast definitions and fMRI methods. Keep the source at candidate task-family level and do not overgeneralize to all probability/statistics reasoning."
+    },
+    {
+      "sourceId": "stern-1996-novel-picture-encoding",
+      "supportScope": "specialized_atlas_needed",
+      "supports": "候选支持新图片编码中海马结构、海马旁回、舌回/梭状回的视觉-记忆互动。",
+      "safeUse": "可用于视觉延迟记忆的种子说明，特别是视觉输入与 MTL 编码的关系。",
+      "boundary": "早期 fMRI 研究需核坐标空间和表格；当前不做精确 parcel 声称。"
+    },
+    {
+      "sourceId": "swick-2011-stopping",
+      "supportScope": "candidate_network",
+      "supports": "Go/No-Go、Stop-signal 及 GNG-SST 差异的 ALE 元分析坐标已抽取并转为 MNI 候选映射，可用于区分两类反应抑制任务的候选网络。",
+      "safeUse": "可帮助区分不反应和停止已准备反应这两类讲法，并作为 Go/No-Go 与 Stop-signal 分开裁剪生产节点的候选坐标来源。",
+      "boundary": "Swick 是元分析候选层，不是单个训练范式的最终点位证明；丘脑、基底节和 claustrum 仍必须作为 atlas-boundary evidence，不得硬映射到 Schaefer200。"
+    },
+    {
+      "sourceId": "taylor-2013-reading-meta",
+      "supportScope": "candidate_task_family",
+      "supports": "候选用于词读、伪词读和词汇判断相关阅读任务的元分析证据。",
+      "safeUse": "优先用于词汇判断和基础字词识别讲解。",
+      "boundary": "不能把它直接扩展成所有阅读理解、篇章理解或训练效果证据。"
+    },
+    {
+      "sourceId": "thakral-2025-false-memory-meta",
+      "supportScope": "reviewed_network",
+      "supports": "Thakral/Schacter 2025 Table 3 报告 false-recognition ALE 坐标；本项目已把左 IPS/楔前叶、左角回/IPL 和左扣带/额内侧峰值裁剪成 DRM-family 错误再认演示层。",
+      "safeUse": "可用于说明 DRM/假再认中语义 gist 可能带来错误熟悉感，随后需要后顶叶证据整合和额内侧监控复核；展示时必须说成 false-recognition 元分析支持的谨慎演示层。",
+      "boundary": "不能说这是单一 DRM primary-task 坐标，也不能说假记忆和创造力共享同一个核心网络；Slotnick 2004 已补 true-vs-false sensory specificity 候选，Kim & Cabeza 2007 已补 formation-stage 候选，但海马/MTL 仍需专门图谱边界。"
+    },
+    {
+      "sourceId": "torres-quesada-2014-emotional-conflict",
+      "supportScope": "candidate_task_family",
+      "supports": "emotional versus non-emotional conflict modulation 的待补任务族来源，当前只作为 emotional-conflict 补强路线。",
+      "safeUse": "在全文或 direct-view evidence 未补齐前，只能作为 P2 获取目标和候选边界。",
+      "boundary": "本地全文仍待补；不能用于升级点位、训练效果或临床解释。"
+    },
+    {
+      "sourceId": "tubridy-davachi-2011-episodic-sequence-encoding",
+      "supportScope": "specialized_atlas_needed",
+      "supports": "Episodic sequence encoding source supports ordered versus misordered MTL/hippocampal boundary evidence.",
+      "safeUse": "Use for MTL/hippocampal sequence-encoding boundary language in episodic-order memory.",
+      "boundary": "Do not force hippocampal, subicular or parahippocampal findings into Schaefer200 cortical parcels or treat this as full story-order memory."
+    },
+    {
+      "sourceId": "unterrainer-owen-2006-planning",
+      "supportScope": "candidate_task_family",
+      "supports": "候选用于计划、问题解决和伦敦塔类任务的神经影像综述入口。",
+      "safeUse": "可作为伦敦塔规划任务的证据检索入口。",
+      "boundary": "当前还没有完成 DOI 和全文边界复核；只作为候选来源。"
+    },
+    {
+      "sourceId": "vigneau-2006-left-hemisphere-language-meta",
+      "supportScope": "candidate_task_family",
+      "supports": "左半球语言区域中音韵、语义和句子加工的元分析候选证据；Table 4 已抽取 30 个 MNI cluster mean。",
+      "safeUse": "可作为 `sentence-comprehension`、`semantic-task` 和 `phonological-decoding` 的语言分层坐标候选来源。",
+      "boundary": "Vigneau 是元分析 cluster mean，不是儿童训练因果证据或精确语言 atlas；生产 overlay 仍需与 Taylor、Jobard、Cohen、Constable、Ye & Zhou 和 Binder/Price 交叉裁剪。"
+    },
+    {
+      "sourceId": "wager-2004-shifting-attention-meta",
+      "supportScope": "candidate_network",
+      "supports": "Attention-shifting meta-analysis coordinates support task-switching/shifting attention candidates, with thalamus boundary evidence.",
+      "safeUse": "可用于 task switching 和注意转换中额顶/中线候选层复核。",
+      "boundary": "元分析坐标需和具体 task-switching 来源交叉，不直接等同所有执行转换。"
+    },
+    {
+      "sourceId": "wagner-2005-parietal-episodic-retrieval",
+      "supportScope": "candidate_network",
+      "supports": "候选用于下顶叶/外侧顶叶在情景记忆提取中的作用，尤其是角回/IPL 记忆线索和提取细节的网络级框架。",
+      "safeUse": "可用于长时记忆的下顶叶提取层讲解，并作为联想记忆、来源记忆、再认记忆的顶叶支架。",
+      "boundary": "当前只完成元数据核验；没有 PDF/全文坐标表前，不能声称已完成 Schaefer200 点位级复核。"
+    },
+    {
+      "sourceId": "walter-2011-embedded-figures",
+      "supportScope": "reviewed_network",
+      "supports": "开放 PLoS ONE 嵌入图形任务态 fMRI 来源；Table 2 支持 Search > Matching 时顶叶/楔前叶和双侧中额/前运动邻近区参与，Table 3 支持右 TPJ/楔前叶、右 IFG、右岛叶等与搜索速度相关。",
+      "safeUse": "可作为嵌入图形/复杂图形搜索的当前主证据：讲成复杂背景中找目标时，顶叶负责图形分离和空间搜索，额叶/右 IFG-岛叶支路参与策略控制和抑制干扰线索。",
+      "boundary": "Walter 2011 是单项普通成人任务研究，坐标为 Talairach-to-MNI 本地转换后的 Schaefer200 候选；不要讲成儿童训练效果、诊断靶点或跨所有空间表象任务的最终定位。"
+    },
+    {
+      "sourceId": "wu-2018-hick-hyman",
+      "supportScope": "candidate_network",
+      "supports": "Main article supports ordinary choice reaction-time / Hick-Hyman task identity and cognitive-control-network involvement, including SMA/ACC, anterior insula, FEF, IPS, thalamus and putamen ROI families.",
+      "safeUse": "可用于把 ordinary choice RT 和 response-alternative load 放进反应速度证据队列，并作为比 Heekeren/Fan 更贴近 Hick-Hyman 的候选来源。",
+      "boundary": "真实 supplementary zip 已取得并抽取；Table 6 ROI 与 Tables 9-12/17 已进入候选裁剪，但仍不能直接升 production-reviewed 普通反应速度网络，丘脑/基底神经节/MTL/小脑继续走专门图谱边界。"
+    },
+    {
+      "sourceId": "ye-zhou-2009-sentence-conflict-control",
+      "supportScope": "reviewed_network",
+      "supports": "Sentence conflict-control coordinates support IFG, temporal language/context and control-network candidates for sentence comprehension and semantic conflict.",
+      "safeUse": "可用于句子理解中语义/句法冲突与执行控制重叠的讲法。",
+      "boundary": "Table 3 只作 Stroop/Flanker 比较背景；不要把句子冲突直接等同 Stroop 冲突。"
+    },
+    {
+      "sourceId": "zacks-2008-mental-rotation",
+      "supportScope": "candidate_task_family",
+      "supports": "心理旋转元分析与综述证据，支持顶内沟及邻近顶叶区域作为心理旋转/空间变换的高优先级主线，并提示部分任务条件下可见前运动/运动模拟相关参与。",
+      "safeUse": "优先用于心理旋转，把表象操作讲成视觉形态输入后进入顶叶空间变换，再由额顶系统完成比较判断。",
+      "boundary": "视觉表象、空间注意、动作模拟和心理旋转不能混讲；前运动参与要按任务材料和策略单独核验，不能把它做成所有心理旋转范式的固定核心。"
+    },
+    {
+      "sourceId": "zago-2001-simple-complex-calculation",
+      "supportScope": "candidate_task_family",
+      "supports": "简单与复杂心算的 fMRI 任务来源，可用于区分基础算术、复杂计算负荷和额顶控制参与。",
+      "safeUse": "可用于补强多步骤心算、算术事实提取和代数/符号变换中工作记忆与控制需求的边界。",
+      "boundary": "需要全文坐标后再投射 Schaefer200；不能把复杂心算负荷直接套到所有计算、代数或应用题范式。"
+    },
+    {
+      "sourceId": "zeineh-2003-face-name-hippocampus",
+      "supportScope": "specialized_atlas_needed",
+      "supports": "Science 主文和 SOM 支持 face-name 联结学习中的 CA2/3-DG 编码和 posterior subiculum 提取机制；SOM Figure S1 提供 6 个 whole-brain recall-success 候选焦点。",
+      "safeUse": "可用于把面孔-姓名联结讲成 MTL/海马亚区内部也有编码与提取分工；皮层候选焦点只作 recall-success 辅助，不替代主 MTL 机制。",
+      "boundary": "CA2/3、齿状回、下托、内嗅、嗅周和海马旁边界来自研究自有 hippocampal-unfolding 模板，不能强行映射为 Schaefer200 皮层点。"
+    },
+    {
+      "sourceId": "kuhn-2014-super-mario-structural-plasticity",
+      "supportScope": "candidate_task_family",
+      "supports": "2个月、每天至少30分钟的商业3D平台游戏训练组，在结构MRI中观察到右海马结构、右背外侧前额叶和双侧小脑灰质增加；论文把这些区域解释为与空间导航、策略规划、工作记忆和动作表现相关。",
+      "safeUse": "可用于资料库、训练设计和家长讲解中的“复杂任务练习可能打到多个脑功能系统，并且大脑具有可塑性”的背景说明。适合连接表象/空间操作、执行功能、短时/工作记忆和动作协调，不作为某个具体范式的点位来源。",
+      "boundary": "样本是成人纵向训练研究，任务是 Super Mario 类3D平台游戏；不能据此承诺本项目训练会让儿童脑区灰质增长，不能作为疗效、诊断、个体预测或生产3D点位证据。"
+    },
+    {
+      "sourceId": "iuculano-2015-math-tutoring-dyscalculia-fmri",
+      "supportScope": "candidate_task_family",
+      "supports": "8周一对一数学辅导后，数学学习困难儿童的算术表现改善，算术任务中的分布式脑反应也出现训练前后变化，可作为计算训练行为与fMRI共同变化的强锚点。",
+      "safeUse": "可用于说明在明确样本、训练剂量和算术任务条件下，针对性辅导可能同时伴随行为改善与任务脑反应变化。",
+      "boundary": "样本是数学学习困难儿童，不能外推到所有儿童、所有数学能力或本项目疗效；未经过坐标复核前不得加入生产3D点位。"
+    },
+    {
+      "sourceId": "supekar-2013-math-tutoring-neural-predictors",
+      "supportScope": "candidate_task_family",
+      "supports": "24名三年级儿童接受8周一对一数学辅导后，算术速度、正确率和事实提取策略均改善；训练前海马体积及其与前额叶、基底节的连接与改善幅度相关。",
+      "safeUse": "可用于解释数学辅导反应存在个体差异，学习记忆系统的训练前状态可能与后续收益相关。",
+      "boundary": "论文没有证明训练导致海马体积或静息连接改变，也不能把组水平预测转成对单个孩子的诊断、分型或疗效承诺。"
+    },
+    {
+      "sourceId": "rueda-2005-executive-attention-training",
+      "supportScope": "candidate_task_family",
+      "supports": "4岁和6岁儿童接受5次执行注意训练，与控制组比较后在Child ANT行为指标和头皮ERP上呈现更成熟的表现，可支撑注意控制训练设计。",
+      "safeUse": "可用于说明短期、逐级加难的注意控制练习能改变近任务表现和ERP指标，并为ANT、Flanker和冲突控制训练提供设计依据。",
+      "boundary": "训练时间短、单组样本较小且没有MRI终点；不能据此承诺广泛智力、长期学业或所有注意力问题都会改善。"
+    },
+    {
+      "sourceId": "temple-2003-dyslexia-remediation-fmri",
+      "supportScope": "candidate_task_family",
+      "supports": "20名阅读障碍儿童完成8周听觉语言与音韵训练后，口语和阅读表现改善，音韵任务fMRI中左颞顶、左额下及部分右侧补偿区域活动增加。",
+      "safeUse": "可用于说明针对音韵与口语加工的矫正训练，在特定阅读障碍样本中可伴随阅读表现和任务脑反应变化。",
+      "boundary": "这不是典型儿童的一般阅读训练证据，干预并非随机盲法产品试验；不能把区域变化讲成固定训练靶点或本项目疗效。"
+    },
+    {
+      "sourceId": "klingberg-2005-working-memory-training-adhd-rct",
+      "supportScope": "candidate_task_family",
+      "supports": "53名7至12岁ADHD儿童被随机分配到自适应工作记忆训练或低剂量比较训练；完成训练者在未训练的视空间广度任务上改善，并报告了部分抑制、推理和症状指标变化。",
+      "safeUse": "可作为儿童工作记忆训练的随机对照行为证据，说明在特定临床样本、训练剂量和近任务条件下，工作记忆表现可能改善。",
+      "boundary": "样本是未用兴奋剂的ADHD儿童，完成者只有44人；没有训练前后MRI终点，远迁移、日常功能和一般儿童效果不能据此确定。"
+    },
+    {
+      "sourceId": "engvig-2010-memory-training-cortical-thickness",
+      "supportScope": "candidate_task_family",
+      "supports": "42名完成者中，训练组接受8周地点法记忆训练；来源记忆表现提高，并相较被动控制组出现局部皮层厚度增加，厚度变化与记忆改善相关。",
+      "safeUse": "可用于说明在中老年样本中，结构化记忆策略训练可能同时伴随来源记忆改善和局部结构MRI变化。",
+      "boundary": "样本为42至77岁的健康中老年人，控制组是被动控制；不能外推到儿童、一般学习成绩或所有长期记忆训练。MRI形态变化也不是个体诊断指标。"
+    },
+    {
+      "sourceId": "mackey-2011-reasoning-speed-training-children",
+      "supportScope": "candidate_task_family",
+      "supports": "28名7至9岁儿童分别接受8周推理训练或加工速度训练；推理组主要改善非言语推理测验，速度组主要改善编码速度，显示训练收益与所练任务成分有选择性。",
+      "safeUse": "可用于说明儿童的推理和加工速度表现具有可训练性，而且训练效果更可能先出现在与训练内容接近的任务上。",
+      "boundary": "样本小、没有无训练控制组、部分评估未完全盲法，也没有MRI终点；论文中的大效应不能当作一般儿童、智商或学业提升的稳定估计。"
+    },
+    {
+      "sourceId": "draganski-2004-juggling-structural-plasticity",
+      "supportScope": "candidate_task_family",
+      "supports": "24名年轻成人中，学习三球杂耍的组在3个月后出现双侧hMT/V5和左后顶内沟灰质暂时增加，停止练习后的第三次扫描显示部分回落。",
+      "safeUse": "可作为感知运动学习引起成人脑结构可塑性的经典背景证据，帮助解释训练剂量、持续练习和停止练习后的变化。",
+      "boundary": "杂耍不是九项功能中的标准认知范式，也不是儿童学习训练；只能作为广义可塑性背景，不能证明推理、速度或表象能力会自动迁移。"
+    },
+    {
+      "sourceId": "melby-lervag-2016-working-memory-far-transfer-meta",
+      "supportScope": "candidate_network",
+      "supports": "元分析发现工作记忆训练对相似的言语和视空间工作记忆任务存在较稳定的近迁移，但与处理过的控制组相比，对智力、阅读和算术等远迁移结果没有令人信服的稳定证据。",
+      "safeUse": "可用于解释为什么训练设计应锁定具体瓶颈、把练习接到真实任务，并分别验证近迁移和远迁移。",
+      "boundary": "这篇综述反对把简单重复练习宣传为一般智力或现实能力提升，但不等于任何针对性教育干预都无效。"
+    },
+    {
+      "sourceId": "simons-2016-brain-training-review",
+      "supportScope": "candidate_network",
+      "supports": "综合评估认为，训练任务本身的改善证据很多，接近任务的迁移证据较少，远距离任务和日常认知表现的改善证据很少；许多研究还存在控制、盲法、样本和分析问题。",
+      "safeUse": "可作为九项功能共同的证据边界：先讲训练内容、样本、剂量和直接结果，再单独证明是否迁移到真实学习。",
+      "boundary": "它评估的是外部脑训练研究，不证明本项目无效或有效；具体训练仍需自己的对照、随访、真实任务和产品级验证。"
+    },
+    {
+      "sourceId": "dux-2009-multitasking-training-fmri",
+      "supportScope": "candidate_task_family",
+      "supports": "7名成人在约2周、8次双任务练习后，双任务反应时成本由约400 ms降到约40 ms；fMRI结果支持左侧额下交界的信息处理时序加快。",
+      "safeUse": "可用于说明双任务干扰可以在高度相似的任务条件下通过重复练习明显降低，并为并行任务训练中的反应选择、节奏和自动化设计提供机制依据。",
+      "boundary": "样本只有7名成人，训练任务和测验高度相似，残余双任务成本仍存在；不能讲成多任务能力被彻底消除、可远迁移到学习成绩或适用于儿童。"
+    },
+    {
+      "sourceId": "berkman-2014-inhibitory-control-training-fmri",
+      "supportScope": "candidate_task_family",
+      "supports": "自适应停止信号训练组的停止反应时改善大于主动假训练组；控制网络活动由实施停止时更多转向线索阶段的提前准备。",
+      "safeUse": "可用于说明停止控制训练不仅可能提高近任务表现，还可能让控制从临时反应更多前移到提前准备。",
+      "boundary": "成人样本、近任务指标和组水平fMRI不能外推到儿童日常自控、课堂行为或本项目疗效；论文也指出抑制训练向其他任务的迁移有限。"
+    },
+    {
+      "sourceId": "chavan-2015-inhibitory-control-functional-structural-plasticity",
+      "supportScope": "candidate_task_family",
+      "supports": "Go/No-Go训练后抑制速度提高，并伴随双侧额下回功能活动下降、右侧额下回局部灰质和白质指标变化；工作记忆控制任务未见同样改变。",
+      "safeUse": "可用于说明在高剂量、任务高度一致的成人训练中，Go/No-Go表现和额下回功能/结构指标可能同步变化。",
+      "boundary": "样本只有18人且没有独立无训练对照组；每天1小时、连续14天的剂量不能直接迁移到儿童或产品设计，也不能把影像变化讲成越大越好。"
+    },
+    {
+      "sourceId": "kuhn-2013-updating-training-striatal-dynamics",
+      "supportScope": "candidate_task_family",
+      "supports": "高强度组练习数字更新和空间n-back，纹状体活动随训练呈先升后降的动态变化，显示影像变化不是简单的单向增强。",
+      "safeUse": "可用于解释工作记忆更新训练需要看训练进程、难度和时点，脑活动上升或下降都可能反映学习阶段变化。",
+      "boundary": "成人高剂量训练、主动对照剂量不等价，且局部BOLD变化不是能力高低刻度；不能把纹状体变化转成个体诊断或儿童训练靶点。"
+    },
+    {
+      "sourceId": "zinke-2012-task-switching-training-adolescents",
+      "supportScope": "candidate_task_family",
+      "supports": "任务切换训练降低了训练内切换成本，并对相似切换任务的混合成本产生近迁移；远迁移仅限选择反应时和更新速度趋势。",
+      "safeUse": "可用于说明青少年的任务切换成本可以通过少量针对性练习改善，但主要收益仍贴近训练结构。",
+      "boundary": "没有MRI终点，训练只有3次，远迁移有限；不能把切换训练讲成普遍提升工作记忆、抑制或学业表现。"
+    },
+    {
+      "sourceId": "park-brannon-2013-ans-training",
+      "supportScope": "candidate_task_family",
+      "supports": "近似加减训练组的符号加减收益高于被动控制、知识训练和数字顺序训练，支持数感与符号运算之间存在可训练联系。",
+      "safeUse": "可用于数感训练的任务设计依据，并强调训练应包含近似运算、反馈和逐步调难，而不是只反复比大小。",
+      "boundary": "研究对象是成人、没有影像终点，且后续领域存在复制和元分析争议；不能据此承诺儿童数学成绩或把ANS当成唯一数学瓶颈。"
+    },
+    {
+      "sourceId": "qin-2004-algebra-learning-fmri",
+      "supportScope": "candidate_task_family",
+      "supports": "儿童方程求解速度随练习提高，左前额叶和左顶叶活动下降、左壳核活动增加，说明初学符号变换时多个成分会共同重组。",
+      "safeUse": "可用于说明代数训练应拆成问题表征、符号变换、规则提取和答案执行，并通过练习降低不必要的检索和变换成本。",
+      "boundary": "只有10名学生、5天练习且没有独立对照组；不能把活动下降简单解释为能力更强，也不能外推到所有数学学习。"
+    },
+    {
+      "sourceId": "keller-just-2009-reading-remediation-white-matter",
+      "supportScope": "candidate_task_family",
+      "supports": "强化解码训练后，非词阅读改善，并在左侧前部半卵圆中心观察到FA增加和径向弥散下降；未干预组没有同样变化。",
+      "safeUse": "可用于说明阅读训练需要瞄准具体瓶颈；在阅读困难儿童中，足量音韵解码训练可能同时伴随行为和白质指标变化。",
+      "boundary": "样本是阅读困难儿童，四种干预被合并分析；影像指标不能直接解释为髓鞘增加，篇章理解也未出现可靠改善，不能宣传为全面阅读能力提升。"
+    },
+    {
+      "sourceId": "hampstead-2011-face-name-memory-training-fmri",
+      "supportScope": "candidate_task_family",
+      "supports": "训练项目在行为上改善，并伴随训练项目特异的分布式激活和连接增加；助记策略将面部特征、语言线索与心理表象结合。",
+      "safeUse": "可用于面孔-姓名联结和联想记忆训练的策略机制：把难记的配对转成显著视觉特征、语言钩子和可回想图像。",
+      "boundary": "只有6名MCI患者、无独立对照组，属于先导研究；不能外推到健康儿童、所有情景记忆或海马结构变化。"
+    },
+    {
+      "sourceId": "felssberg-2025-mot-training-fmri",
+      "supportScope": "candidate_task_family",
+      "supports": "训练后MOT表现提高，目标位置表征更多在视觉皮层巩固，额叶控制网络中的对象式表征作用相对变化；论文同时强调向其他任务的迁移有限。",
+      "safeUse": "可用于多目标追踪训练的直接证据，并帮助设计目标数量、速度、干扰密度和追踪持续时间的渐进负荷。",
+      "boundary": "成人任务特异训练、没有独立未训练对照组，且研究本身指出迁移有限；不能把MOT收益讲成一般注意力或运动表现提升。"
+    },
+    {
+      "sourceId": "uttal-2013-spatial-training-meta",
+      "supportScope": "candidate_network",
+      "supports": "空间训练总体呈中等幅度改善，效果在延迟测量中较稳定，并可迁移到未训练的空间任务；不同训练方式和年龄均可见收益。",
+      "safeUse": "可用于说明空间能力不是完全固定的，训练应把练习、表征方式和真实空间任务连接起来，并分别检验近迁移与远迁移。",
+      "boundary": "元分析汇总的是多种空间任务，不能据此声称每个具体范式、学业结果或个体都会得到同等改善，也没有提供统一的脑影像结论。"
+    },
+    {
+      "sourceId": "aronen-2005-nback-school-performance",
+      "supportScope": "candidate_task_family",
+      "supports": "55名6至13岁儿童完成视觉和听觉N-back；空间工作记忆表现较好与教师评价的学校学业表现较好相关，表现较低者被报告有更多学业和注意/行为困难。",
+      "safeUse": "可用于说明儿童N-back表现和学校中的学习、注意表现存在相关性，也能帮助把实验任务连接到课堂观察。",
+      "boundary": "这是横断面相关研究，学业表现来自教师报告，样本较小；不能据此判断因果方向，更不能推成练N-back一定会提高成绩。当前只核验了官方元数据与摘要，尚无合法开放全文进入本地库。"
+    },
+    {
+      "sourceId": "jones-2020-child-adhd-nback-training",
+      "supportScope": "candidate_task_family",
+      "supports": "80名7至14岁ADHD儿童进入分析：41人接受空间N-back训练，39人接受时长和奖励相近的知识/词汇主动对照。约5周20次、每次约15分钟后，未训练N-back和CPT抑制控制出现小幅近迁移；阅读理解、阅读流畅、数学应用题组成的学校任务没有可靠组间提升。",
+      "safeUse": "可作为儿童N-back训练形式、剂量、自适应调难和主动对照的直接证据，也可用于解释为什么训练任务进步、相似任务迁移和学科成绩迁移必须分开看。",
+      "boundary": "样本仅为ADHD儿童，入组后还有训练依从性排除；即时效应主要贴近N-back和CPT，三个月结果在多重比较校正后减弱，学校任务和矩阵推理没有可靠组间提升。不能外推到普通儿童或宣传为提高阅读、数学和一般智力。"
+    },
+    {
+      "sourceId": "jones-2020-working-memory-metacognitive-academic-transfer",
+      "supportScope": "candidate_task_family",
+      "supports": "95名9至14岁普通儿童被随机分到Cogmed、Cogmed加元认知策略或自适应视觉搜索主动对照组。训练持续6至7周，共20至25次，每次约45分钟；研究在训练前、训练后和三个月后测量四项工作记忆任务、数学推理和阅读理解。工作记忆近迁移保持到三个月；数学推理只在训练后立即出现改善，三个月后不再显著；阅读理解没有可靠改善。",
+      "safeUse": "可作为儿童工作记忆训练中较完整的训练、近迁移、学业远迁移和保持时间证据，也能说明主动对照和延迟测量为何重要。",
+      "boundary": "训练是包含11类言语与视空间任务的Cogmed，不是N-back直接训练。数学效应短暂且未保持，阅读没有改善；元认知策略增加了部分近迁移，但没有额外带来数学或阅读收益。不能把结果写成工作记忆训练稳定提高学业成绩。"
+    },
+    {
+      "sourceId": "roberts-2016-working-memory-two-year-academic-outcomes",
+      "supportScope": "candidate_task_family",
+      "supports": "研究先筛查44所学校的1723名一年级儿童，再将452名低工作记忆儿童随机分组。训练组在学校完成20至25次、每次45分钟的Cogmed训练；研究在6、12和24个月追踪工作记忆，并在12和24个月直接测量阅读、数学和拼写，同时收集行为、社会情绪、生活质量与成本。视空间短时记忆在6和12个月出现改善，但24个月消失；其他结局没有获益，学业成绩没有持续提高。",
+      "safeUse": "可作为训练迁移链和长期随访做得较完整的大样本边界研究，尤其适合说明为什么不能用短期任务进步代替长期学业结果。",
+      "boundary": "对照条件是常规课堂教学，而不是等时主动认知训练；样本是筛查出的低工作记忆儿童，且训练占用了课堂时间。当前只核验官方摘要和大学元数据，尚未获得可合法归档的开放全文，因此只能使用摘要明确报告的结果。"
+    },
+    {
+      "sourceId": "jacobs-1887-prehension-digit-span",
+      "supportScope": "candidate_task_family",
+      "supports": "Jacobs在1887年把数字和字母按逐渐增加的长度呈现，要求参与者当场复述或写出，并用能够稳定正确复现的最长序列描述即时记忆广度。",
+      "safeUse": "可用于交代数字广度的早期实验逻辑，以及为什么测验要逐级增加长度并区分长度错误与顺序错误。",
+      "boundary": "当前只核验了OUP元数据和公开历史摘要；第三方全文下载触发访问保护，未把挑战页当作论文。不要据此加入超出元数据与公认任务史的细节。"
+    },
+    {
+      "sourceId": "corsi-1972-spatial-span-thesis",
+      "supportScope": "candidate_task_family",
+      "supports": "Corsi在McGill的博士论文中设计了九块黑色木块组成的敲击任务。实验者依次敲击，患者按原顺序复现；这项空间任务与数字序列任务采用相近结构，并在左右颞叶切除患者中显示材料特异性的学习差异。",
+      "safeUse": "可用于说明空间广度为什么不能被数字广度替代，以及九块木块、顺序复现和空间路线的原始任务逻辑。",
+      "boundary": "原论文同时研究短时广度、重复序列学习和颞叶切除，不能把某一组临床结果直接解释成普通儿童的空间广度脑定位。"
+    },
+    {
+      "sourceId": "luck-vogel-1997-visual-working-memory-capacity",
+      "supportScope": "candidate_task_family",
+      "supports": "参与者短暂观看由颜色、方向等特征构成的阵列，经过空屏后判断是否变化。研究显示，大约四个整合物体可以被短暂保持；同一物体包含多个特征时，表现没有按特征总数成比例下降。",
+      "safeUse": "可用于解释物体广度测量的是有限数量的整合视觉对象，以及颜色、方向、大小等特征为什么会以物体为单位绑定。",
+      "boundary": "四个是该组成人实验和材料下的容量估计，不是所有年龄、材料和个体的固定上限，也不能直接换算成儿童学习能力等级。"
+    },
+    {
+      "sourceId": "gaspar-2013-change-detection-training",
+      "supportScope": "candidate_task_family",
+      "supports": "40名年轻成人和40名老年成人分别进入变化检测训练或电脑纸牌主动对照。训练组完成16次、每次一小时的自适应练习，在三或五个汽车、标志、形状、字母物体中找变化。训练后的编码速度提高，但更换为彩条的一次性变化检测和真实驾驶场景闪烁变化检测都没有优于对照组。",
+      "safeUse": "可用于说明物体变化检测练习能够提高训练材料上的速度和准确性，同时提醒读者把原任务进步、换材料迁移和真实情境迁移分开检验。",
+      "boundary": "样本是成人，训练剂量很高，且自适应变量主要是编码时间。不能把结果外推为儿童物体广度训练处方，也不能把熟悉训练材料后的进步写成视觉工作记忆容量普遍提升。"
+    },
+    {
+      "sourceId": "meyer-schvaneveldt-1971-lexical-decision",
+      "supportScope": "candidate_task_family",
+      "supports": "经典词汇判断研究显示，在判断字符串是否为真词时，意义相关的词对通常比无关词对反应更快，为语义启动和词汇提取相互依赖提供了早期行为证据。",
+      "safeUse": "可用于交代词汇判断的任务规则、反应时指标和语义启动研究史，也能说明一个词的识别会受到刚刚激活的意义背景影响。",
+      "boundary": "研究是成人实验室反应时研究，不等于儿童阅读理解、课堂成绩或训练效果；相关词优势也不能被讲成一个固定语义脑区的直接证据。"
+    },
+    {
+      "sourceId": "berninger-1999-early-reading-intervention",
+      "supportScope": "candidate_task_family",
+      "supports": "48名一年级末有阅读困难的儿童被随机分配到整词、字词内部单元或两者结合的教学，共8次、每次30分钟；各组在所教词和标准化阅读测验上均有进步，字词内部单元教学在标准化真实词阅读上呈现优势。",
+      "safeUse": "可作为字词识别、拼写声音单元与早期阅读教学的近成分证据，帮助把训练形式写成整词识别、字词拆分和新词迁移三层。",
+      "boundary": "样本小、训练只有8次，且结局不是标准词汇判断任务；不能由此承诺长期篇章理解、学科成绩或普通儿童的统一剂量。"
+    },
+    {
+      "sourceId": "devonshire-2013-orthographic-instruction",
+      "supportScope": "candidate_task_family",
+      "supports": "120名5至7岁英语儿童参加随机交叉设计；明确联结词形、音韵、词素和词源规则的教学，相比传统自然拼读阶段提高了字词阅读和拼写。",
+      "safeUse": "可用于正字法训练中的多层次比较：孩子既看字母位置和词形，也解释声音、词素与词源为何这样组合。",
+      "boundary": "干预同时包含多个成分，不能把全部效果单独归因于视觉字形加工；英语结果不能直接外推到汉字结构，也没有提供脑成像训练结论。"
+    },
+    {
+      "sourceId": "to-2015-cantonese-syntax-intervention",
+      "supportScope": "candidate_task_family",
+      "supports": "52名粤语学龄期语言障碍儿童被随机分到句子合并或叙事嵌入两种句法干预；45名按分配完成，4个月后两组标准化语言表现均有增长，两种方案之间没有可靠差异。",
+      "safeUse": "可用于说明复杂句法可以通过合并短句、在叙事中反复使用目标结构来直接教学，并把句法准确与真实篇章使用分开观察。",
+      "boundary": "两组都接受干预，没有未训练对照臂；样本为语言障碍儿童。不能确定自然发展之外的净效应，也不能外推普通儿童剂量、阅读篇章远迁移或学科成绩。"
+    },
+    {
+      "sourceId": "margosein-1982-semantic-mapping",
+      "supportScope": "candidate_task_family",
+      "supports": "44名初中生被随机分到丰富语境释义或语义映射教学；把新词与已知相关词比较异同的语义映射组，在周测、后测和标准化一般词汇测验上表现更好。",
+      "safeUse": "可用于语义训练的具体形式：把新概念放进类别、特征、相似点和区别组成的关系网，再用新语境检索。",
+      "boundary": "可核验结果主要是词汇学习，不能把题名中的 comprehension 直接扩写成篇章理解、学科成绩或长期保持；当前没有脑成像结论。"
+    },
+    {
+      "sourceId": "kirchner-1958-nback-origin",
+      "supportScope": "candidate_task_family",
+      "supports": "Kirchner用12盏灯和对应按键比较年轻人与老年人对连续变化位置信息的短时保持。老年组更早跟不上节奏，漏答和无规律反应更多；论文把差异解释为快速组织输入与输出信息的困难。",
+      "safeUse": "可用于交代N-back最初为何被设计、灯光与按键装置怎样运行，以及原始年龄组比较发现了什么。",
+      "boundary": "当前核验到PubMed官方元数据和出版社索引的摘要级结果，尚无合法开放全文进入本地库。研究比较年轻人与老年成人，不能直接外推为儿童训练效果或脑定位证据。"
+    },
+    {
+      "sourceId": "piazza-2003-subitizing-counting",
+      "supportScope": "reviewed_network",
+      "supports": "视觉量化任务中，1至3个项目主要表现为快速并行识别；从4个项目左右开始，后顶叶和额叶注意相关活动明显增加，更符合逐项搜索和计数。",
+      "safeUse": "可用于把小数量快速识别与较大数量逐项计数分成两个加工阶段，并说明计数会额外调用空间注意和搜索。",
+      "boundary": "成人小样本和特定视觉阵列不能用于儿童诊断，也不能把某个转折点固定成所有人的绝对容量；本轮只使用网络级显示，不生成新生产坐标。"
+    },
+    {
+      "sourceId": "cantlon-2009-abstract-number-development",
+      "supportScope": "reviewed_network",
+      "supports": "6至7岁儿童和成人都完成数字与点阵的大小比较；研究支持符号和非符号数量加工在发展中共享部分顶叶表征，同时保留年龄和形式差异。",
+      "safeUse": "可用于解释孩子要把数字符号接到它所代表的数量意义，并把数字形式与点阵数量作为可以比较但不能完全等同的两种输入。",
+      "boundary": "这是组水平发展研究，不证明所有年龄都使用完全相同的抽象数量编码；不能把共享顶叶活动讲成单一数量中心或个体数学能力诊断。"
+    },
+    {
+      "sourceId": "berteletti-2015-number-line-subtraction",
+      "supportScope": "reviewed_network",
+      "supports": "39名8至13岁儿童完成0至1000数轴估计；数轴表现与减法任务中顶内沟和后顶上小叶的数量、空间加工活动存在关系。",
+      "safeUse": "可用于把数序、数量大小和空间位置的协调单列为数轴估计范式，并解释数轴不是单纯画图，而是数量表征与空间比例共同工作。",
+      "boundary": "研究报告的是行为与脑活动相关，不是训练因果；样本筛除了明显数学困难，不能据此诊断儿童或承诺数轴练习必然提升整体数学成绩。"
+    },
+    {
+      "sourceId": "cangoz-2018-tablet-dyscalculia-screening",
+      "supportScope": "candidate_task_family",
+      "supports": "同一测验电池把点阵识别/计数、符号数字比较和0至10或0至100数轴估计放在一起，为数量理解三联任务提供现成结构参照。",
+      "safeUse": "可用于三联任务的结构来源，并说明同一个孩子可以在统一入口下分别完成数量识别、符号比较和数轴定位。",
+      "boundary": "这是土耳其小学样本的筛查研究；按一个标准差分组时三项任务未能稳定区分组别，只有比较最低10%与其余学生时出现区分，分年级后主要信号集中在一年级，不能当成中国儿童常模或诊断工具。"
+    },
+    {
+      "sourceId": "park-2024-number-sense-training-fmri",
+      "supportScope": "reviewed_network",
+      "supports": "7至10岁儿童接受四周、一周三次、每次约60分钟的一对一数感训练；训练直接围绕点阵与阿拉伯数字的数量对应，训练后符号和非符号比较效率提高，并观察到跨形式神经表征关系变化。",
+      "safeUse": "可作为数量理解三联任务中“数字代表多少”一关的直接训练和fMRI锚点，也可说明训练目标是改善跨形式数量加工，而不是机械刷同一种比较题。",
+      "boundary": "训练样本、剂量和多变量影像结果不能直接外推成本项目疗效；无接触组没有匹配辅导、期待和互动，也没有足够的纵向成像数据；神经表征相似性训练后下降不等于大脑变差，也不能证明整体数学成绩、数轴或计数都会同步提高。"
+    }
+  ],
+  "paradigmReviews": [
+    {
+      "paradigmId": "stroop",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "冲突控制、选择性注意和抑制控制。",
+      "safeClaim": "可讲成孩子遇到优势反应干扰时，视觉材料先进入枕叶加工，ACC/aMCC 监控目标反应与优势反应冲突，左 DLPFC/额中回维持“按颜色反应”的规则，额下/岛盖和顶叶辅助选择映射，前运动/中央沟邻近区准备最终输出。",
+      "avoidClaim": "不要说 Stroop 已经证明某几个 Schaefer 点位就是训练靶点；不要把壳核、丘脑等皮层外结构用最近皮层点代替。",
+      "mappingSummary": "Pardo 1990 和 MacDonald 2000 的 Stroop 坐标已转换或核对到 MNI 并映射：视觉输入 010/110/113，ACC/aMCC 180/156/092，左 DLPFC/额中回 069/068/174，顶叶选择 036/138/167，反应输出 021/120/151；Niendam 2012 只作为跨任务控制补强。"
+    },
+    {
+      "paradigmId": "attention-network-test",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "同一任务中评估警觉、空间定向和执行冲突控制，并用反应时差异形成三个注意网络效率指标。",
+      "safeClaim": "可讲成注意力的核心综合范式：线索让大脑进入准备状态，空间信息把注意指向目标，目标与旁侧干扰冲突时由前扣带/中前扣带、额下/额中和额顶邻近区域稳定规则并约束反应输出。",
+      "avoidClaim": "不要把 ANT 讲成三套完全独立、不交叉的线路；不要把丘脑、上丘、小脑或 pulvinar 硬塞进当前 Schaefer200 皮层点阵；不要说显示点位就是训练靶点。",
+      "mappingSummary": "Fan 2005 支持 ANT 警觉、定向和执行冲突的区域关联；当前 8 个节点用于教学示意。原文 26 组坐标是经 Brett 转换后的 Talairach，旧记录误标为 MNI，尚未验证到当前 FSL 图谱的逐峰映射。丘脑与小脑保留结构示意，不表示论文峰值定位。"
+    },
+    {
+      "paradigmId": "flanker",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "旁侧干扰下的目标选择和抗干扰控制。",
+      "safeClaim": "可讲成箭头/旁侧刺激先进入视觉加工，顶叶从干扰中选择目标，IFG/MFG/DLPFC 邻近额顶控制维持目标规则，ACC/中前扣带监控不一致带来的冲突，少量前岛叶/额叶岛盖锚点标记控制需求，中央前回邻近点准备反应输出。",
+      "avoidClaim": "不要把 Flanker 和 Stroop 讲成完全同一条回路；不要说 Marini 2016 已经证明所有 Flanker 研究都共同激活这些 Schaefer 点位；不要把 ROI 锚点当成新的 whole-brain 峰。",
+      "mappingSummary": "Marini 2016 Table 1/2 和 ROI 锚点已抽取 14 个 MNI 坐标并映射：视觉输入 008/011，顶叶目标选择 036/037/034/138/144，额顶抗干扰控制 069/175/174/173，ACC/中前扣带 156/052/180，前岛叶/岛盖 154/048，反应输出 151/122/147。当前是 Flanker 任务样本坐标复核，不是 Flanker 元分析。"
+    },
+    {
+      "paradigmId": "posner-cueing",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "空间线索下的注意定向和无效线索后的重新定向。",
+      "safeClaim": "可讲目标导向定向、刺激驱动重定向，以及背侧/腹侧注意系统互动。",
+      "avoidClaim": "不要讲成个体诊断，也不要讲成精确点位激活。",
+      "mappingSummary": "Hopfinger 2000 Table 1 已支撑 cue preparation 的视觉输入、IPS/SPL 空间定向、额叶线索准备和 TPJ/STS 重定向代理；Gitelman 1999 Table 1 已补入 covert spatial attention 的 16 个 Talairach 皮层候选峰值并转 MNI，主要覆盖双侧 IPS/SPL、楔前叶、FEF/前运动、SMA/ACC、后颞枕视觉区，丘脑和基底节保留为专门图谱边界。Wager 2004 Table 2 已抽取 13 个 MNI 皮层候选和 1 个丘脑边界行，但该文排除了 orienting-attention studies，只用于注意转移/shift 边界，不替代 Posner/ANT。"
+    },
+    {
+      "paradigmId": "n-back",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "工作记忆更新、短时保持和持续注意。",
+      "safeClaim": "可讲成一边保持旧信息、一边判断新刺激并更新当前目标；Rottschy 2012 Table 3 坐标层支持顶叶/下顶叶容量缓冲、侧前额叶控制、IFG/前运动边界任务集、前岛叶控制需求和内侧额叶监控这些工作记忆核心层。",
+      "avoidClaim": "不要把 N-back 简化为纯容量测试，也不要把 Rottschy 的通用工作记忆核心讲成所有短时记忆范式的精确点位。Owen 2005 的 N-back 专门坐标已抽取为 raw Talairach intake，但转成 MNI 并复核前不能当作精确 Schaefer200 点位。",
+      "mappingSummary": "已完成 Rottschy 2012 Table 3 的 10 个 MNI 核心峰值到 Schaefer200 的人工复核映射：左右 IPS/下顶叶、左右前岛叶、左右 IFG/侧前额叶和后内侧额叶可作为 N-back/工作记忆更新的皮层代理层；数字广度、空间广度、物体广度和 keep-track 不随此条自动通过。"
+    },
+    {
+      "paradigmId": "digit-span",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "数字序列的短时保持、复述和容量限制。",
+      "safeClaim": "可讲成数字序列需要短时保持、主动复述、容量/顺序监控和最终复述输出共同配合；Rottschy 2012 提供工作记忆核心背景，Paulesu 1993、Awh 1996、Emch 2019 和 Smith 1996 已提供语音工作记忆及 verbal/spatial 边界候选证据。",
+      "avoidClaim": "不要把 Paulesu/Awh/Emch 候选映射讲成精确语言脑区训练，也不要把通用工作记忆峰值直接等同数字广度专属点位。",
+      "mappingSummary": "已完成生产级裁剪：当前显式显示左下顶叶/IPS 候选支点、左 IFG/侧前额叶复述控制、左右顶叶容量/顺序监控和复述输出；Paulesu 1993、Awh 1996、Smith 1996 和 Emch 2019 可支撑数字广度的可讲候选网络。"
+    },
+    {
+      "paradigmId": "grid-span",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "空间位置序列的短时保持。",
+      "safeClaim": "可讲成空间位置序列需要视觉输入、顶叶空间保持/容量缓冲和侧前额叶序列控制，与数字广度形成言语和空间的对照；Jonides 1993、Courtney 1996、Diwadkar 2000 和 Smith 1996 已进入空间工作记忆候选坐标层。",
+      "avoidClaim": "不要直接声称已定位到具体顶叶小区，也不要把通用工作记忆坐标当作空间广度专属坐标。",
+      "mappingSummary": "已完成生产级裁剪：当前 overlay 用 Smith/Jonides/Courtney 与 Rottschy 2012 的后顶叶/IPS 候选峰作为空间保持候选，用双侧侧前额叶作为序列控制候选；Diwadkar 只作为 parietal-DLPFC 协作边界线索。"
+    },
+    {
+      "paradigmId": "go-no-go",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "看到 No-Go 刺激时抑制预期反应。",
+      "safeClaim": "可讲成看到 No-Go 信号时，额下/岛盖识别并触发控制，ACC/内侧额叶监控“该不该按”的冲突需求，额顶控制压住预期反应，动作通道被抑制。",
+      "avoidClaim": "不要把 Go/No-Go 等同 Stop-signal；不要把 caudate、cerebellum 或其他皮层外结构硬显示成皮层点。",
+      "mappingSummary": "Rubia 2006 成人组 Go/No-Go 坐标已由 Talairach 转 MNI 并映射，Niendam 2012 抑制域作跨任务补强。生产 overlay 保守显示额叶岛盖/前岛叶停止信号代理点 154、额顶抑制控制和动作通道，旧的 IFG/默认网络近邻点只保留在复核背景，不再作为 3D 主显示点；caudate/cerebellum 保留为 atlas 边界。"
+    },
+    {
+      "paradigmId": "stop-signal",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "已经准备或启动的反应被停止信号取消。",
+      "safeClaim": "可讲成右 IFC/额叶岛盖触发停止控制，SMA/pre-SMA 参与动作门控，把已经准备的按键反应刹住；STN/GP 是机制关键但当前皮层模型只能作为边界提示。",
+      "avoidClaim": "不要把 Stop-signal 等同 Go/No-Go；不要说当前 Schaefer200 已经显示完整 STN-基底节停止通路。",
+      "mappingSummary": "Aron & Poldrack 2006 StopInhibit-Go 相关坐标已入库：右 IFC [42, 26, 14] 和 SMA/pre-SMA [6, 4, 68] 可映射到 Schaefer200 皮层候选；右 STN 与 GP 坐标保留为 atlas-boundary evidence。"
+    },
+    {
+      "paradigmId": "task-switching",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "规则切换、任务集更新和反应重映射。",
+      "safeClaim": "可讲成任务切换时右 DLPFC/额顶层更新新规则，额下/岛盖检测状态变化，顶叶把注意和刺激-反应映射切到新任务，运动通道完成反应重配。",
+      "avoidClaim": "不要把切换成本只归因于 DLPFC；不要把 Rubia 的 Simon 或 Go/No-Go 坐标混成 task-switching 坐标。",
+      "mappingSummary": "Rubia 2006 Switch > repeat 坐标已转换映射，Niendam 2012 flexibility 域作补强：DLPFC 171/172/068，顶叶重映射 036/063/138/167，反应通道 019/120/121/126，并保留 right putamen atlas 边界。Wager 2004 Table 2 进一步补入 shifting-attention 元分析层：核心显示 medial PFC/pre-SMA、双侧 IPS/SPL、右前运动和视觉支持；DLPFC、前岛叶和丘脑只作边界。"
+    },
+    {
+      "paradigmId": "ravens-matrices",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "现代视觉矩阵推理 / Raven-like 关系建模。",
+      "safeClaim": "可讲成现代矩阵推理需要先处理视觉图形模式，再由顶叶关系工作区比较关系，右额叶维持和筛选候选规则，内侧额叶监控选择需求，最后组织答案反应。",
+      "avoidClaim": "不要把它讲成原版 Raven/APM/PMAT 的精确脑区图；不要暗示它能直接诊断智力、证明训练提升 IQ，或把 Caudle 的任务效应讲成难度参数化推理节点。",
+      "mappingSummary": "Caudle 2023 Table 2 已提供 11 个 MNI task-effect peaks 并完成 Schaefer200 最近点候选映射；Kroger 2002 支撑关系复杂度，Prabhakaran 1997 支撑 Raven/APM 任务身份，Hampshire 2012 与 P-FIT 支撑额顶/多需求边界。当前升级为 reviewed_network / task_family；coordinate-review 批次仍保持 coordinates_mapped_candidate。"
+    },
+    {
+      "paradigmId": "mental-rotation",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "在头脑中旋转图形并判断匹配。",
+      "safeClaim": "可讲成心理旋转需要把视觉形态表象送入双侧 SPL/IPS 空间变换主线，再由额下/DLPFC 候选支路完成比较判断和反应选择；前运动、IFG、ACC 等节点只在解释策略、难度或反应选择时显示。",
+      "avoidClaim": "不要把心理旋转泛化到所有想象能力；不要把 Talairach-to-MNI 转换后的 Schaefer200 最近点讲成诊断级精确亚区；不要把 premotor、IFG 或 ACC 讲成每个心理旋转任务的固定核心。",
+      "mappingSummary": "Zacks 2008 Table 1 的 30 个 meta-analysis cluster center 已完成 Talairach-to-MNI 转换和 Schaefer200 人工复核；生产 overlay 保留双侧 SPL/IPS 空间变换、枕颞视觉形态和额下/DLPFC 比较控制三层。"
+    },
+    {
+      "paradigmId": "choice-reaction-time",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "刺激识别、反应选择和速度准确性协调。",
+      "safeClaim": "可讲成选择反应时不是单纯快，而是视觉/线索输入后，由右额叶-顶叶选择层、pre-SMA/中前扣带调度层和运动输出层共同把规则匹配成正确动作。",
+      "avoidClaim": "不要把 Rae 2014 的 action/selection/stopping meta-analysis 直接讲成所有普通 choice RT 的完整专属图谱；不要把反应慢诊断成单一额叶问题；Dux 2006 只作为双任务瓶颈边界。",
+      "mappingSummary": "Rae 2014 supplementary coordinates 已完成 Schaefer200 最近点映射；生产 overlay 裁剪为视觉输入、右 MFG/IFG 与左 IPL 反应选择、pre-SMA/中前扣带选择调度、额盖/前岛显著性和躯体运动输出。"
+    },
+    {
+      "paradigmId": "mental-arithmetic",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "心算中的数量处理、步骤保持和规则执行。",
+      "safeClaim": "可讲成心算依赖视觉符号输入、IPS/SPL 数量表征、IPL/角回整合、DLPFC/IFG 步骤控制、BA6/SFS 准备和岛叶/扣带任务需求的协同。复杂或多步骤心算会比基础数字比较更明显牵动前额叶控制。",
+      "avoidClaim": "不要把心算网络讲成所有数学题网络；不要把成人/元分析坐标代理点讲成儿童训练靶点；不要把小脑、丘脑、基底节硬塞进 Schaefer200 皮层点。",
+      "mappingSummary": "Arsalidou 2011 Tables 2-6、Zago 2001 Tables 2-4 与 Dehaene 1999 已完成生产级裁剪：心算 overlay 保留视觉符号输入、双侧 IPS/SPL、IPL/角回、DLPFC/IFG、BA6/SFS、岛叶/扣带控制需求；应用题和概率统计不随此条自动通过。"
+    },
+    {
+      "paradigmId": "lexical-decision",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "字词识别、词汇判断和语义访问。",
+      "safeClaim": "可讲成词汇判断由视觉字形输入、左腹侧颞枕/VWFA 候选通路、熟悉词语义访问和左 IFG/额顶判断控制共同完成；它适合解释孩子为什么认字速度、词义熟悉度和判断输出会共同影响阅读流畅性。",
+      "avoidClaim": "不要把词汇判断等同所有阅读理解；不要说已经精确定位到 VWFA、Broca/Wernicke 或完整语言网络；不要把成人/元分析代理点讲成儿童训练靶点。",
+      "mappingSummary": "Taylor 2013 支撑字词视觉输入、熟悉词语义和左额叶控制；Jobard 2003 补入左腹侧颞枕、左 ITG/MTG 和左 IFG 阅读通路 cluster mean；Cohen 2002 支撑 VWFA/腹侧颞枕边界；Vigneau 2006 补强左 IFG、AG、T1/T2/T3、Fusa 等语义/词汇语言候选。当前生产裁剪保留四层：视觉字形、腹侧颞枕字形候选、语义访问、判断控制。"
+    },
+    {
+      "paradigmId": "word-list-learning",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "词表材料的长时编码和后续提取。",
+      "safeClaim": "可讲成词表学习不是机械重复，而是视觉词项输入、主动编码策略、注意组织和海马/MTL 绑定边界共同参与。",
+      "avoidClaim": "不要把词表学习的皮层编码支路等同于完整长时记忆；不要把海马/MTL 硬映射成 Schaefer200 点位。",
+      "mappingSummary": "已完成生产级裁剪：腹侧颞枕词项输入、左 IFG/前运动编码控制、IPS/SPL 组织注意、内侧额叶/pre-SMA 编码控制，并保留海马/MTL 专门图谱边界。"
+    },
+    {
+      "paradigmId": "associative-memory",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "项目-项目、线索-答案或人名-面孔等联结的形成与提取。",
+      "safeClaim": "可讲成长时记忆很大一部分是把两个信息联结起来：皮层图展示材料输入、下顶叶/角回联结整合和前额叶编码/提取控制，MTL 粗 mesh 显示海马/内嗅作为绑定边界。",
+      "avoidClaim": "不要把当前粗 MTL mesh 讲成 CA/DG/subiculum、嗅周或完整海马旁皮层精度；不要把面孔姓名联结、词语联想和所有配对联想任务讲成完全同一套点位。",
+      "mappingSummary": "联想记忆已升为第一版已核演示：Kim/Davachi 支持言语项目和来源/联结编码候选，Sperling/Chua/Kirwan-Stark 支持 face-name/MTL 边界，Zeineh 2003 进一步加固 CA2/3-DG 编码与 posterior subiculum 提取的亚区机制。当前 3D 用 Harvard-Oxford 海马/杏仁核 + Jülich 内嗅粗 mesh 显示物理结构。因仍缺 perirhinal/完整海马旁图谱和更多配对联想任务坐标，保留为 85% 安全档，不升 100%。"
+    },
+    {
+      "paradigmId": "sentence-comprehension",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "字词整合、句法语义加工和上下文理解。",
+      "safeClaim": "可讲成句子理解不是只看见字，而是把视觉字形、词义和语境、句法关系、目标问题和冲突控制合在一起，形成“这句话到底在说什么、问什么”的模型。",
+      "avoidClaim": "不要把句子理解讲成单一视觉网络或单一注意网络；不要把当前 Schaefer200 代理点讲成完整语言 atlas；不要把儿童 Ng 2025 结果讲成训练因果证明。",
+      "mappingSummary": "Vigneau 2006 Table 4 提供句子加工 cluster mean，覆盖左 F2/F3 与 STS/T1/T2/Pole 等候选层；Constable 2004 提供句子复杂度和 object-relative > subject-relative 复杂句法 Talairach/MNI 候选；Ye & Zhou 2009 提供句子 plausibility conflict 与跨任务冲突控制 MNI 候选；Ng 2025 补儿童非算术题/应用题语言上下文边界。当前生产裁剪保留文字输入、词义/语境、左颞叶句子加工、左 IFG/额顶整合和句子冲突/目标控制。"
+    },
+    {
+      "paradigmId": "number-comparison",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "数量大小判断和基础数字表征。",
+      "safeClaim": "可讲成基础数量大小判断：视觉数字输入进入后，双侧 IPS/SPL 支持数量大小比较，IPL/角回参与符号到数量和关系整合，轻量前额/背侧控制维持当前比较目标。",
+      "avoidClaim": "不要把数字比较等同复杂心算；不要默认显示复杂心算的 DLPFC/岛叶/扣带负荷层；不要说这些点位区分所有数字格式或年龄阶段。",
+      "mappingSummary": "Arsalidou 2011 number/calculation 表和 Dehaene 数量系统证据已裁剪为视觉输入、IPS/SPL 数量大小、IPL/角回整合和轻量目标维持四层；前额控制层只作为弱辅助，不作为数字比较核心。"
+    },
+    {
+      "paradigmId": "approximate-number-sense",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "数量估计、近似大小判断和基础数学直觉。",
+      "safeClaim": "可讲成数学直觉的基础候选层：视觉数量或数字材料进入后，双侧 IPS/SPL/楔前叶形成近似数量和大小感，随后进入比较目标和弱反应输出。",
+      "avoidClaim": "不要把近似数量感等同精确计算、熟练算术事实或应用题逻辑；不要把弱额叶输出讲成数感核心。",
+      "mappingSummary": "Dehaene 1999/2009 与 Arsalidou 2011 支撑 IPS/SPL 数量感主线；生产 overlay 保留视觉数量输入、双侧后顶叶数量感、比较目标和弱反应输出。"
+    },
+    {
+      "paradigmId": "arithmetic-fact-retrieval",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "熟练算术事实的快速提取和答案选择。",
+      "safeClaim": "可讲成熟练算术事实更像从过度学习的答案通路中提取结果：视觉符号输入后，左 IPS 和 IPL/角回支持熟练答案/数量事实整合，IFG/岛盖帮助选择候选答案。",
+      "avoidClaim": "不要把所有心算都讲成事实提取；不要把乘法、加法、复杂心算和应用题合并成同一机制；不要说它已经证明语言区或单个角回就是训练靶点。",
+      "mappingSummary": "Dehaene 1999 exact/approximate 边界、Arsalidou 2011 乘法/数字表和 Zago 2001 retrieve 条件已裁剪为视觉输入、左 IPS 熟练答案通路、IPL/角回事实整合和 IFG/岛盖选择检索。"
+    },
+    {
+      "paradigmId": "algebra-equation-solving",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "变量、等式关系和符号规则变换。",
+      "safeClaim": "可讲成代数方程把视觉符号和等式关系送入高级数学候选网络：腹侧/枕颞候选点承接公式和符号输入，IPS/SPL 和 IPL 保持关系与中间结果，DLPFC/额顶候选层维持规则并一步步变换。",
+      "avoidClaim": "不要把专家数学家的高级数学网络直接说成儿童代数训练的已验证靶点；不要说 Amalric 2016 已经给出代数专属脑区；不要把代数等同普通四则心算。",
+      "mappingSummary": "Amalric & Dehaene 2016 SI S1/S6/S8 已抽取专家高级数学共享网络和公式/VNFA 视觉局部化候选；当前 overlay 保留符号输入、IPS/SPL 关系表征、DLPFC 规则变换和 IPL 中间结果整合四层。当前升级为 reviewed_network / task_family；coordinate-review 批次仍保持 coordinates_mapped_candidate，仍需学生代数或方程解题来源复核教育迁移边界。"
+    },
+    {
+      "paradigmId": "geometric-reasoning",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "图形、空间关系、角度判断和几何证明。",
+      "safeClaim": "可讲成专家高级几何/空间数学推理先把图形和符号关系作为视觉输入，再由 SPL/IPS 层处理空间关系、角度和结构变换，额顶层维持证明目标和条件；动作模拟只作为部分空间操作策略边界。",
+      "avoidClaim": "不要把几何推理完全等同心理旋转；不要把前运动参与做成所有几何题固定核心；不要把专家数学家的几何激活直接外推为学生课堂几何训练靶点或训练效果证明。",
+      "mappingSummary": "Amalric & Dehaene 2016 SI S2 提供几何相对其他数学领域的特异峰，S1/S6 提供高级数学共享网络；当前 overlay 已按图形输入、SPL/IPS 空间关系、额顶证明目标和弱动作模拟边界完成受限生产裁剪，Zacks 2008 只作心理旋转边界。"
+    },
+    {
+      "paradigmId": "probability-statistics-reasoning",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "比例、概率、统计图表和不确定性判断。",
+      "safeClaim": "可讲成成人概率/似然判断会调用左腹侧前额/眶额做价值和似然评估，左额盖/岛叶处理不确定性和显著性，后扣带/腹侧楔前叶调取情境/世界知识，内侧额叶维持任务控制边界。",
+      "avoidClaim": "不要把它讲成学生课堂概率统计的完整专属脑网络；不要把一般概率/世界知识判断直接外推到所有统计题、比例题或训练效果；海马、uncus、海马旁和小脑行必须保留在专门图谱/边界层。",
+      "mappingSummary": "Gazzo 2023 Tables 2-3 和 Parsons & Osherson 2001 Table 1 已交叉裁剪为成人概率/似然判断的有限生产 overlay：左腹侧前额/眶额、左额盖/岛叶、后扣带/腹侧楔前叶和内侧额叶控制边界；MTL/海马、基底节、小脑和运动行不进 Schaefer200 主图核心。"
+    },
+    {
+      "paradigmId": "math-word-problem",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "应用题题干理解、数量关系抽取、限定词处理和逻辑建模。",
+      "safeClaim": "可讲成应用题会把题干文字输入、语义限定词解析、顶叶数量关系、冲突提示、SMA/dACC 监控和 DLPFC/额顶逻辑建模组织起来；演示中可用于说明直觉计算被限定词和逻辑关系重新约束。",
+      "avoidClaim": "不要把这套 overlay 讲成儿童训练因果证明、单一经典应用题范式的完整脑区图，或概率统计/比例推理的专属网络。",
+      "mappingSummary": "Ng 2021 Table 2 的成人应用题词汇一致性/运算交互峰值已完成生产裁剪；Ng 2025 儿童 AWP/NWP 坐标作为迁移边界；Dehaene/Arsalidou、Taylor/Binder、Houdé 和 Stroop 来源只作数量、语义和冲突控制边界。"
+    },
+    {
+      "paradigmId": "simple-reaction-time",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "刺激出现后的基础反应速度、刺激评价和动作输出基线。",
+      "safeClaim": "可讲成最基础的刺激-反应速度链路：线索进入后被多模态检测，SMA/内侧额叶和前运动区准备反应，额盖/顶盖附近完成感觉运动整合。",
+      "avoidClaim": "不要把简单反应时讲成复杂选择反应、抑制控制、执行功能训练或个体诊断靶点；小脑蚓部、听觉/躯体线索细节仍属于边界说明。",
+      "mappingSummary": "Kansaku 2004 Tables 1/2 抽取 13 个 Talairach 皮层峰值并转换到 MNI；生产裁剪保留右后颞上/颞顶线索检测、SMA/内侧额叶准备、左右前运动和左额盖/右顶盖感觉运动整合，右枕颞视觉点作为输入层。"
+    },
+    {
+      "paradigmId": "visual-imagery",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "内部视觉表象的生成、保持，以及与视觉感知系统的部分重叠。",
+      "safeClaim": "可讲成内部视觉表象需要枕叶视觉再激活、顶叶表象工作空间和前额叶保持/控制共同维持内部图像。",
+      "avoidClaim": "不要把内部表象说成屏幕式成像；不要等同心理旋转；不要声称当前点位完整覆盖 imagery-only 系统或 MTL/腹侧颞叶精细边界。",
+      "mappingSummary": "Ganis 2004 Tables 3-4 已完成 MNI 转换和生产裁剪：保留 imagery/perception 共同的枕叶、顶叶和前额控制候选点，排除 perception-only 腹侧颞叶边界。"
+    },
+    {
+      "paradigmId": "analogical-reasoning",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "语言命题类比中的已知关系检索、关系整合、语义选择和无效类比排除。",
+      "safeClaim": "可讲成语言类比推理需要左前额叶检索和选择可用语义关系，再由左前极/前额叶进行关系整合，并由右 DLPFC/MFG 邻近帮助排除不成立的类比答案。",
+      "avoidClaim": "不要把这套前额叶坐标外推为瑞文矩阵、所有非语言类比推理、IQ 诊断或完整全脑推理网络；不要把顶叶/语义背景讲成 Bunge 表 1 已坐实的核心点。",
+      "mappingSummary": "Bunge 2005 Table 1 的 11 个 MNI PFC 峰值已抽取并映射：左前极约落 `schaefer200_066`，左 aLIPC/IFG 候选落 `schaefer200_048/085/087`，左 pLIPC 候选落 `schaefer200_050/087/069`，右 DLPFC/MFG 候选落 `schaefer200_173/175`；生产 overlay 只保留这些前额叶机制层。"
+    },
+    {
+      "paradigmId": "recognition-memory",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "判断材料是否曾经见过，涉及熟悉性和提取判断。",
+      "safeClaim": "可讲成再认记忆是看到线索后进行 old/new 判断，需要提取证据、主观回忆感、前额叶判断控制和情景背景共同支持。",
+      "avoidClaim": "不要把再认记忆等同来源记忆；不要把皮层提取支路讲成完整海马记忆系统。",
+      "mappingSummary": "已完成生产级裁剪：顶叶提取线索、角回/下顶叶主观回忆、左前额叶 old/new 判断控制和后扣带情景背景；海马/MTL 和 familiarity/recollection 精细分离保留为专门图谱边界。"
+    },
+    {
+      "paradigmId": "source-memory",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "判断信息来自哪里、何时、或处于什么学习情境。",
+      "safeClaim": "可讲成来源记忆需要信息线索、情景细节提取和前额叶来源监控共同工作。",
+      "avoidClaim": "不要把来源记忆简化成再认记忆；不要把 MTL/source encoding 直接映射成 Schaefer200 皮层点。",
+      "mappingSummary": "已完成生产级裁剪：Dobbins 2002 已补 MNI 候选坐标，可支持左前额/后部前额来源控制、PCC/楔前叶情景背景、左顶叶提取支持；Davachi/Spaniol/Kim 提供编码/提取候选。Wagner 2005 作为顶叶记忆框架综述，不直接提供点位坐标。"
+    },
+    {
+      "paradigmId": "multiple-object-tracking",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "同时追踪多个移动目标，涉及动态空间注意和目标集合保持。",
+      "safeClaim": "可讲成多目标追踪需要运动视觉输入、顶叶追踪负荷、FEF/前运动注意集合和内侧额叶任务需求四层协作。",
+      "avoidClaim": "不要把视觉输入层讲成注意控制核心；不要把 FEF/PMA 当作 tracking-capacity 决定点；不要把 Schaefer 代理点讲成诊断级训练靶点。",
+      "mappingSummary": "Jovicich 2001 已完成 MOT 负荷生产裁剪，表达运动视觉输入、顶叶追踪负荷、FEF/前运动注意集合和内侧额叶任务需求四层。Merkel 2015 Table 1 已补 21 个 MNI ROI seed，用于策略分型：MT/V3a/VO/LO 和 cuneus 表达视觉/形状层，IPS/FEF 表达动态空间注意，DLPFC/insula 表达策略控制边界，M1/ACC 只作反应/监控边界。"
+    },
+    {
+      "paradigmId": "sustained-attention-cpt",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "连续监控刺激并长时间维持稳定反应。",
+      "safeClaim": "可讲成学习过程中持续在线、减少漏报和控制冲动反应的能力；Langner 和 Eickhoff 2013 的坐标表支持把 CPT/警觉维持拆成视觉监控、右 IPS/IPL 定向、右 TPJ 重定向、前岛/岛盖显著性、内侧额叶/pre-SMA 维持控制、右 IFG/MFG 规则控制和反应输出几层。",
+      "avoidClaim": "不要把所有 CPT/TOVA 版本讲成同一套精确脑回路；不要把丘脑、壳核、小脑、脑干等图谱外峰值硬塞进 Schaefer200 皮层点位；不要说这些 Schaefer 点位就是训练产品的直接靶点。",
+      "mappingSummary": "已抽取 Langner 和 Eickhoff 2013 PMC XML 表 1/表 2 共 38 个 MNI 皮层峰值：31 个全实验收敛峰值作为核心层，7 个持续时长调节峰值作为 duration-demand 支持层。当前 overlay 已裁剪为视觉持续监控、右 IPS/IPL 定向/映射、右 TPJ 重新定向、前岛叶/岛盖显著性、内侧额叶/pre-SMA 维持控制、右 IFG/MFG 规则控制和反应输出。"
+    },
+    {
+      "paradigmId": "dual-task",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "两个任务同时竞争反应选择阶段时的中央瓶颈和排队延迟。",
+      "safeClaim": "可讲成双任务负荷下，左 pLPFC 是反应选择瓶颈的核心候选，SMFC/pre-SMA 可作为次级时序/调度候选。",
+      "avoidClaim": "不要把 Dux 2006 泛化成所有双任务、所有分配注意或普通反应速度的完整网络；不要把 IFG、ACC、IPS、小脑等比较/边界 ROI 直接升成核心点位。",
+      "mappingSummary": "Dux 2006 Table 1 已完成 ROI mean Talairach 坐标抽取、MNI 转换和 Schaefer200 试映射。生产图只保留左 pLPFC 与 SMFC/pre-SMA 两层：左 pLPFC 对应 central bottleneck / response-selection queueing，SMFC/pre-SMA 只作次级调度候选；右 pLPFC 标签不一致、左 IPS 异常坐标、小脑和比较 ROI 保留为边界。"
+    },
+    {
+      "paradigmId": "tower-of-london",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "在规则限制下提前规划步骤并解决问题。",
+      "safeClaim": "可讲成执行功能中的计划和步骤安排需要双侧 mid-DLPFC 规则/步骤控制、FEF 注意准备、SMA/pre-SMA 监控、IPL/楔前叶空间状态模型、前岛叶控制需求和 RLPFC 子目标整合共同参与。",
+      "avoidClaim": "不要忽略尾状核等皮层外结构；不要把 Tower of London 规划网络复制给 Stop-signal、Go/No-Go 或 Keep-track；不要把 Schaefer200 最近点讲成个体训练靶点。",
+      "mappingSummary": "已完成 Nitschke 2017 Tower of London ALE 元分析 Table 2 的 13 个 overall planning 皮层 MNI weighted-centroid 到 Schaefer200 的人工复核映射；尾状核作为 atlas 外边界保留。"
+    },
+    {
+      "paradigmId": "keep-track",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "持续更新多个类别中的最新信息。",
+      "safeClaim": "可讲成执行功能里的更新能力：顶叶活动项目工作区保持当前信息，DLPFC/额顶控制层决定替换和规则维持，前岛叶/额盖帮助发现新信息带来的更新需求。",
+      "avoidClaim": "不要把它和简单数字广度混成同一种短时容量任务；不要说这些点是原版 Keep-track 的精确 fMRI 峰值；不要把 N-back、Collette、Murty、Nee/Brown 或 Saylik 直接冒充 Keep-track 专属定位。",
+      "mappingSummary": "Miyake 2000 支持任务分类，Reineberg 2022 支持扫描版 keep-track/common-EF 任务边界但无数字峰值表；Collette 2005、Murty 2011、Nee/Brown 2013、Saylik 2022 和 Rottschy 2012 共同支持 updating-family 网络级候选。当前升级为 reviewed_network / task_family；coordinate-review 批次仍保持 coordinates_mapped_candidate。"
+    },
+    {
+      "paradigmId": "object-span",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "视觉物体或面孔材料的短时保持，以及多项目保持时的通用工作记忆容量背景。",
+      "safeClaim": "可讲成物体广度需要腹侧视觉/梭状候选层维持物体形态，右额叶帮助保持任务目标，顶叶容量缓冲作为多项目短时保持背景。",
+      "avoidClaim": "不要把 Courtney face/object working memory 讲成所有 object-span 训练的唯一精确靶点；不要把 Rottschy 通用工作记忆核心讲成物体专属区域。",
+      "mappingSummary": "已完成 production pruning：Courtney 1996 Table 3 face/object > location 的左梭状、右后腹侧视觉和右额下/额下沟点进入主 overlay；Rottschy 2012 顶叶容量缓冲只作为背景层，Smith 1996 作为 verbal/spatial 边界来源。"
+    },
+    {
+      "paradigmId": "probabilistic-reversal-learning",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "根据概率反馈发现规则改变，并调整选择策略。",
+      "safeClaim": "可讲成孩子从反馈里发现规则变了以后，右 VLPFC/额叶岛盖参与规则反转，内侧额叶监控反馈变化，右顶叶帮助更新选择映射。",
+      "avoidClaim": "不要把当前图讲成完整 OFC-纹状体奖励学习环路；ventral striatum/nucleus accumbens 仍是 atlas 外边界。",
+      "mappingSummary": "Cools 2002 MNI 坐标已映射。生产 overlay 保守显示右 VLPFC/额叶岛盖反馈变化点 154、内侧额叶/BA8 冲突监控点 181/180、右顶叶规则调整点 138/139；169、156、166 等邻近候选保留在坐标复核层，不作为当前 3D 主显示点。纹状体峰值不在 Schaefer200 皮层模型内。"
+    },
+    {
+      "paradigmId": "temporal-order-judgment",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "判断两个短暂事件的先后顺序。",
+      "safeClaim": "可讲成时间顺序判断需要识别事件先后、定向注意并把排序结果转成报告反应。",
+      "avoidClaim": "不要把时间顺序判断等同简单反应时或选择反应时；不要把丘脑点硬塞进皮层模型。",
+      "mappingSummary": "已完成 Davis 2009 生产裁剪：TPJ/后颞事件先后排序、IPS 时间注意、FEF/前运动报告准备、右 IFG/岛盖规则控制和后颞视觉输入。"
+    },
+    {
+      "paradigmId": "semantic-task",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "判断词语或材料的语义关系。",
+      "safeClaim": "可讲成阅读理解和长时语义记忆中的受限生产链路：左颞叶词义/概念表征，左角回/下顶叶做语义整合，左腹侧颞叶把词义接到具体经验属性，左 IFG 负责语义检索和意义选择；dMPFC、PCC 和 vmPFC 只作为 Binder 区域级背景记忆/情境价值支撑。",
+      "avoidClaim": "不要把当前图讲成完整 Binder 2009 语义系统、完整语言网络、个体诊断定位或儿童训练因果证据；也不要把 Vigneau 的 cluster mean 当成单项任务峰值或所有语义材料通用靶点。",
+      "mappingSummary": "Vigneau 2006 Table 4 的 11 个语义 cluster mean 支撑左 IFG、角回、STG/MTG/ITG、梭状和颞极的语义任务主线；Ye & Zhou 2009 和 Constable 2004 补充句子/语义冲突与复杂句法控制边界；Binder 2009 继续作为区域级分布式语义系统框架，不用于数字峰值复刻。"
+    },
+    {
+      "paradigmId": "drm-false-memory",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "学习语义相关词表后对未出现关联词产生假记忆或假再认。",
+      "safeClaim": "可讲成长时记忆中的语义 gist、错误熟悉感、后顶叶证据整合和额内侧来源/冲突监控。",
+      "avoidClaim": "不要把 Thakral 2025 讲成单一 DRM primary-task 坐标，不要把 true-vs-false specificity 或海马/内侧颞叶机制说成已经完整解决。",
+      "mappingSummary": "已完成 Thakral 2025 false-recognition 生产裁剪：语义 gist 入口作为行为/语义背景，左 IPS/楔前叶和左角回/IPL作为错误再认证据整合层，额内侧/扣带作为监控代理；左额中/额上/中央前边界峰值暂不硬塞进 DLPFC 精确点。"
+    },
+    {
+      "paradigmId": "deductive-reasoning",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "语言命题演绎推理，包括前提整合、规则应用和结论一致性检查。",
+      "safeClaim": "可讲成语言命题/规则型演绎推理需要先保持前提语义，再由左额规则整合和顶叶关系工作区维持关系结构，内侧额叶/扣带附近监控一致性，右额 IFC/IFG/MFG 邻近节点参与验证和抑制不合规则的直觉答案。",
+      "avoidClaim": "不要把这张图讲成所有推理、瑞文矩阵、几何证明或概率统计的统一网络；不要把 Parsons 的概率判断直接等同课堂概率统计；不要把尾状核、丘脑、MTL/海马旁、杏仁核或小脑硬映射成 Schaefer200 皮层 parcel。",
+      "mappingSummary": "2026-06-17 完成 Rodriguez 2009、Coetzee 2018、Gazzo 2023 与 Parsons/Osherson 2001 跨源终审：保留前提语义右/双侧颞叶边界、左 MFG/DLPFC/IFG 规则整合、左 IPL/SPL/IPS 关系工作区、dACC/mCC/pre-SMA 中线监控和右 IFC/IFG/MFG 验证层；反应、视觉输入、记忆负荷、概率判断和皮层外结构只作边界。"
+    },
+    {
+      "paradigmId": "face-name-association",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "面孔-姓名联结编码/提取候选范式。",
+      "safeClaim": "可以讲面孔-姓名联结需要面孔视觉加工、姓名语义标签、海马/MTL 联结绑定和前额叶策略共同参与。",
+      "avoidClaim": "不要说当前 Schaefer200 点位已经精确显示海马或 FFA。",
+      "mappingSummary": "已完成生产级裁剪：Sperling 2003 Tables 2/3 已提供梭状/腹侧颞叶、IFG、扣带和功能连接候选坐标；海马/内嗅与 Chua 2007 的前海马证据、Kirwan/Stark 的 MTL 坐标以及 Zeineh 2003 的 CA2/3-DG encoding / posterior-subiculum retrieval 证据保留为 MTL 专门图谱边界。当前是可演示候选网络，不是 FFA/海马亚区精确复刻。"
+    },
+    {
+      "paradigmId": "episodic-order-memory",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "事件、词序列或学习材料先后顺序的长期记忆/近因检索候选范式。",
+      "safeClaim": "可以讲顺序记忆需要把材料按先后关系取回：海马/MTL 负责情景和顺序绑定，后扣带/楔前叶提供情景背景，内侧额叶/前扣带帮助分段和监控上下文边界，右 IPS/TPJ 支持时间上下文，左 IFG/前岛参与边界显著性和检索选择。",
+      "avoidClaim": "不要把 Konishi 2002 的词序列近因判断直接等同真实生活情景顺序记忆；不要把 MTL、丘脑、尾状、小脑强行画成 Schaefer200 皮层点；不要讲成完整故事顺序、个体诊断或训练因果靶点。",
+      "mappingSummary": "Konishi 2002、Kumaran 2006、Tubridy 2011、Hsieh 2014、Bellmund 2020 和 Ezzyat & Davachi 2014 共同支撑事件片段、上下文边界和海马/MTL 顺序绑定的网络级演示层；Konishi / Kumaran / Ezzyat 的皮层峰值用于 Schaefer200 最近点候选，MTL、丘脑、尾状、小脑保留为专门图谱/边界证据。当前升级为 reviewed_network / task_family；coordinate-review 批次仍保持 coordinates_mapped_candidate。"
+    },
+    {
+      "paradigmId": "visual-delayed-memory",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "图片、形状或复杂视觉材料的延迟再认/回忆候选范式。",
+      "safeClaim": "可以讲视觉长期记忆需要视觉形状输入与内侧颞叶/海马编码系统互动。",
+      "avoidClaim": "不要把它当作视觉短时容量或所有图片记忆任务的统一点位。",
+      "mappingSummary": "已完成生产级裁剪：Stern 1996 Figure 3 坐标已从 Talairach 转 MNI，可支持左右舌回/梭状回视觉图片编码候选；海马结构继续作为 MTL 边界，不强行映射到 Schaefer200。"
+    },
+    {
+      "paradigmId": "word-pseudoword-reading",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "真实词与伪词的朗读、判断和基础阅读路线区分。",
+      "safeClaim": "可讲成阅读先经过视觉字形输入和腹侧颞枕文字形态候选层；真实词更容易进入熟悉词语义整合，伪词更依赖左 IFG 音韵转换和发音准备。",
+      "avoidClaim": "不要把词和伪词阅读混成一个单一视觉点；不要把当前 Schaefer200 代理点讲成精确 VWFA 或完整语言网络；不要说这已经是最终坐标级阅读定位。",
+      "mappingSummary": "已完成 Taylor 2013 核心阅读通路生产裁剪：视觉字形输入、左腹侧颞枕文字形态候选、左 IFG 音韵规则、IPL 支持和熟悉词角回/MTG 语义整合。Jobard 2003 cluster mean 已补强视觉字形、音韵和词汇语义通路，但只作跨源裁剪支架；VWFA 精确边界仍待专门 atlas。"
+    },
+    {
+      "paradigmId": "phonological-decoding",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "伪词阅读、音韵转换、押韵/读音判断和发音准备。",
+      "safeClaim": "可讲成陌生字词/伪词需要把字形转换为音韵规则，并调用左 IFG 与顶叶/语音工作记忆支持。",
+      "avoidClaim": "不要把音韵解码等同所有阅读能力；不要把 IFG 代理点说成精确 Broca 训练靶点。",
+      "mappingSummary": "已完成生产级裁剪：视觉字形输入进入左 IFG 音韵规则/发音控制，并由 IPL/语音工作记忆候选支路支持。Jobard 2003 已补入左 SMG、pSTG/planum temporale、MTG/STG 和 IFG opercular phonological-route cluster mean；Vigneau 2006 Table 4 已补入 11 个音韵 cluster mean，覆盖 RolS/Prec/F3td/RolOp/F3orb-F2、SMG、T1/PT/T1a/T3p/T2m。不能把这些外推到完整阅读理解。"
+    },
+    {
+      "paradigmId": "orthographic-processing",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "字形、拼写结构、熟悉字母串和不规则字词的视觉阅读加工。",
+      "safeClaim": "可讲成看到文字后，大脑先把线条/字母串组织成可读的字形结构，再进入音韵或语义通路。",
+      "avoidClaim": "不要把当前腹侧颞枕候选直接命名为精确 VWFA，也不要用它替代语义理解。",
+      "mappingSummary": "已完成生产级裁剪：枕叶/下枕视觉字形输入和左腹侧颞枕文字形态候选构成正字法演示主线，左 IFG/岛叶只作为不规则词规则检查支路。Jobard 2003 已补入左 lingual 与左 fusiform/occipitotemporal cluster mean；Table 3 白质均值只保留为低置信视觉输入边界。"
+    },
+    {
+      "paradigmId": "symbol-search-coding-speed",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "符号搜索、编码速度和类似加工速度任务；核心过程是视觉符号输入、规则匹配、扫描定位、反应选择和熟练输出。",
+      "safeClaim": "可讲成加工速度不是单纯手快，而是视觉符号输入、顶叶扫描/匹配、FEF/前运动反应准备、左 IFG 规则支持和输出系统共同决定。Forn 2009 已给出 SDMT 直接任务的 Talairach 峰值表，当前已裁剪成可演示的生产 overlay；Fittipaldi-Marquez 2017 S1/S2 可作为 SDMT 负荷和 MS/HC 跨源补充。",
+      "avoidClaim": "不要把 Forn 2009 或 Fittipaldi 2017 讲成普通反应时、所有课堂加工速度或个体训练因果证据；不要把重复视觉峰值全部当独立训练靶点；不要把尾状核/小脑边界点强行映射到 Schaefer200 皮层；不要用 MS 样本替代健康学生结论。",
+      "mappingSummary": "Forn 2009 Table 1 已抽出 20 个皮层峰值并转换为 MNI/Schaefer200 候选；生产版保留四个显示节点：双侧枕叶/枕颞视觉符号输入，双侧顶叶/楔前叶扫描匹配，FEF/前运动反应准备，左 IFG 规则支持。6 个尾状核/小脑点保留为 specialized-atlas boundary。Fittipaldi-Marquez 2017 figshare S1/S2 已确认包含 MS 与健康对照的 SDMT MNI 坐标表，暂作补充坐标源和负荷边界，不直接并入 production overlay。"
+    },
+    {
+      "paradigmId": "visual-search-schulte",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "视觉搜索、舒尔特方格和类似目标定位/扫描训练；核心过程是视觉场输入、FEF 搜索路线控制、IPS 目标定位和反应输出。",
+      "safeClaim": "可讲成舒尔特类训练主要锻炼视觉搜索、注意扫描和目标定位效率；当前图用 Manjaly 2003 broad visual-search 坐标支持枕叶/枕颞输入、SPL/IPS 目标定位、FEF/前运动搜索控制和中线/前岛努力监控。",
+      "avoidClaim": "不要说舒尔特表本身已经被专门 fMRI 坐标证明；不要把 Manjaly 2003 的 EFT/control-task 视觉搜索底座讲成所有视觉搜索任务或儿童训练迁移的最终点位；不要把视觉搜索讲成只靠顶叶一个点。",
+      "mappingSummary": "Manjaly 2003 Table 1A broad visual-search > baseline 坐标已完成 MNI 转换和 Schaefer200 最近点映射；生产 overlay 裁剪为枕叶/枕颞视觉输入、SPL/IPS 目标定位、FEF/前运动搜索路线控制和运动输出。Culham 2001、Corbetta/Shulman 2002 与 Langner/Eickhoff 2013 继续作为视觉注意/扫描框架背景。"
+    },
+    {
+      "paradigmId": "perceptual-discrimination-rt",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "知觉辨别反应时，包括视觉差异判断、反应备选负荷、视觉/触觉跨模态差异判断，以及听觉 oddball / 音调辨别后的快速选择；核心过程是感觉输入、控制需求标记、反应备选工作区、证据/规则整合和反应输出。",
+      "safeClaim": "可讲成孩子反应慢有时不是动作慢，而是刺激差异、反应备选数量和规则转换都需要被整合成选择。2026-06-19 已把 Heekeren 2004、Fan 2014、Wu 2018、Esmeyer 2025 和 Damestani 2021 综合成五源公开候选栈：视觉/跨模态/听觉输入、前岛/额盖控制需求、IPS/SPL 反应备选工作区、左 DLPFC/SFS 证据/规则整合、PMd/SMA/中央前回输出。",
+      "avoidClaim": "不要把 Heekeren 的视觉 face/house 决策点讲成普通听觉辨别坐标；不要把 Fan 2014 的视觉箭头 majority-function 任务讲成普通 response-alternative Hick-Hyman 选择反应时；不要把 Esmeyer 2025 的跨模态 conjunction 直接讲成普通 reaction-speed production map；不要把 Wu 2018 的候选 ROI/mediation/PPI 坐标直接讲成 production-reviewed 普通反应速度网络；不要把 Damestani 2021 的听觉 oddball / tone-discrimination 和采集序列比较结果泛化为课堂反应速度 production overlay；不要把它等同 simple RT、符号搜索或所有 choice RT。",
+      "mappingSummary": "Heekeren 2004 Figure 4 已抽出两个 MNI 左 posterior DLPFC/SFS 峰值，作为 perceptual decision 候选 intake。Fan 2014 Figure 4 已抽出 MNI ICBM152 正相关 ROI 坐标：ACC、双侧前岛、FEF、IPC/IPS、MOG、fusiform 和 calcarine 进入候选 intake；丘脑和小脑蚓部保留为专门图谱边界。Wu 2018 真实 `bhx127suppl_1.zip` 已入库并抽取 493 行 MNI x/y/z 原始坐标，裁成 SMA/ACC、前岛/额盖、FEF、IPS/后顶叶、中央前回输出和低权重视觉输入六层候选。Esmeyer 2025 已抽出视觉 DMTC 与视觉/触觉 conjunction 的 PMv、IPS/SPL、pACC、PMd/M1 候选峰值；NeuroVault WILTPYNG zip 已完成 map-level integrity check，确认 `unthresh_conjunction.nii.gz` 最高点匹配左 IPS conjunction 峰值，`output.nii.gz` 在视觉 decision peaks 处有强阳性值，但还未做 threshold/cluster/parcel 生产图复核。Damestani 2021 Table 2 已抽出 auditory oddball / tone-discrimination 的 18 个 MNI 峰值，补入双侧听觉/颞上输入、额盖/前岛显著性、SMA/内侧额叶反应准备和右顶叶注意支持；小脑/后颅窝与枕叶视频材料行保留为边界。2026-06-19 公开展示层不直接叠加所有来源，而是收束成五源候选网络：视觉/跨模态/听觉输入、前岛/额盖、IPS/SPL、左 DLPFC/SFS、PMd/SMA/中央前回；终审为 reviewed_boundary / candidate network，不升 production。"
+    },
+    {
+      "paradigmId": "spatial-folding-unfolding",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "在脑中把纸面、立体或几何结构展开/折叠，涉及空间变换和规则比较。",
+      "safeClaim": "可讲成空间折叠不是普通旋转，而是多步、非刚性的空间变换；Glass 2013 提供右 IPL/BA40 与左海马旁-枕颞的病灶边界，Neubauer 2017 S2 进一步提供 direct PFT task-fMRI 坐标候选。2026-06-22 parcel review 后，演示层可使用视觉输入和左右顶叶空间变换 compact anchors。",
+      "avoidClaim": "不要把 Glass 2013 讲成 task-fMRI 激活坐标；不要把 Neubauer 2017 S2 讲成 production reviewed、训练效果或个体靶点；不要把负向 deactivation 行、Table 1 tACS stimulation-modulation 行、小脑或心理旋转坐标混入正向空间折叠 overlay。",
+      "mappingSummary": "Glass 2013 Table 3 已抽取 VLSM Talairach 坐标并转 MNI，保留为 lesion-boundary evidence。Neubauer 2017 Supplementary Table S2 已抽取 8 个 VERUM+SHAM > 0 direct PFT task-positive MNI peaks 和 5 个 VERUM+SHAM < 0 deactivation rows；2026-06-22 生成 `src/data/research-evidence/spatial-folding-neubauer-s2-parcel-review.generated.json`，把正向行裁成 5 个 compact anchors、3 个 background support，并把 5 个负向行固定为 deactivation boundary。当前从 evidence-ceiling candidate 关闭为 reviewed coordinate-candidate terminal；坐标批次仍保持 coordinates_mapped_candidate，不升 production reviewed。"
+    },
+    {
+      "paradigmId": "embedded-figures",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "从复杂背景中分离目标图形，涉及视觉分割、空间注意和表象匹配。",
+      "safeClaim": "可讲成孩子在复杂图形或几何图里找结构时，视觉材料先进入枕颞输入层，随后顶叶/楔前叶负责目标分离和空间搜索，FEF/前运动支路维持搜索策略，右 IFG-岛叶/TPJ 支路在熟练搜索中帮助抑制干扰线段并协调注意。",
+      "avoidClaim": "不要把 Walter 2011 单项成人 EFT 坐标讲成儿童训练效果、诊断靶点或所有空间表象任务的最终定位；不要把 Fonville 2013 临床组差异、Hao 2013 结构/静息结果或 Manjaly 2003 Table 1A 广义视觉搜索底座混入普通学生主网络。",
+      "mappingSummary": "Walter 2011 Tables 2-3 已抽取 Talairach 坐标、转 MNI 并完成当前生产裁剪；主线使用 SPL/precuneus、FEF/BA6、右 IFG/insula/TPJ 等 Schaefer200 演示代理。Fonville 2013 已抽为临床边界；Manjaly 2003 Table 1 已抽取 raw/MNI intake，其中 Table 1B 的左 IFG/腹侧前运动与左前/后 IPS 用于跨研究一致性补强，Table 1A 只作视觉搜索底座。Ring 1999 Tables 2-4 已抽取 raw/MNI clinical-boundary 坐标，只用于 autism/control 策略差异与特殊人群边界，不进普通学生主 overlay。"
+    },
+    {
+      "paradigmId": "relational-reasoning",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "比较多个对象之间的关系并整合成规则，尤其是关系复杂度上升时的额顶控制。",
+      "safeClaim": "可讲成关系推理需要前额叶维持多重关系、顶叶提供关系工作空间，并由内侧额叶/扣带邻近区监控规则冲突。",
+      "avoidClaim": "不要把 Kroger 2002 单一关系复杂度研究直接升级为整个推理能力的 reviewed 坐标；也不要把它替代 Raven、类比或演绎推理专门来源。",
+      "mappingSummary": "已完成关系复杂度任务生产级裁剪：Kroger 2002 Tables 1/2 已从 Talairach 转 MNI，可支持双侧前额叶、顶上/顶内沟、前扣带/内侧额叶和视觉矩阵输入候选；Bunge/Rodriguez 已补坐标，Hampshire 已补网络层但无峰值坐标；仍需 Coetzee 等来源后才能升级为跨推理范式 reviewed。"
+    },
+    {
+      "paradigmId": "inductive-rule-discovery",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "从多个样例中发现规律并形成可验证规则。",
+      "safeClaim": "可讲成归纳规则发现需要样例输入、IPS/SPL 关系工作区、左 IFG/VLPFC 规则假设生成、内侧额叶反馈监控，以及在空间/图形材料中更明显的右 PFC 策略支路。",
+      "avoidClaim": "不要把归纳规则发现等同 Raven、类比推理或任务切换；不要展示所有抽取峰值，也不要把小脑、尾状核、感觉运动和广泛视觉/颞叶行当作主图核心。",
+      "mappingSummary": "已完成 Crescentini 2011 与 Babcock/Vallesi 2015 生产裁剪：保留左 IFG/VLPFC、双侧 IPS/SPL、内侧额叶/扣带和右 PFC 空间/领域策略；视觉材料输入只作低权重入口。"
+    },
+    {
+      "paradigmId": "symbolic-quantity-mapping",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "在阿拉伯数字、数词或点阵之间匹配相同数量，或比较符号与非符号数量大小。",
+      "safeClaim": "可以讲孩子理解数字时，需要把数字外形接到它代表的数量意义；儿童与成人研究支持视觉形式和顶叶数量表征协作。",
+      "avoidClaim": "不要说数字和点阵在所有年龄都由完全相同的神经编码处理，不要把共享顶叶活动讲成单一数量中心或个体诊断。",
+      "mappingSummary": "Cantlon 2009与Dehaene 2009支持视觉数字/点阵输入、双侧IPS/SPL数量意义和下顶叶形式对应的网络级链路；没有新增生产坐标。"
+    },
+    {
+      "paradigmId": "subitizing-enumeration",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "快速报告点阵项目数，比较少量一眼识别和较大集合逐项计数时的反应与脑活动。",
+      "safeClaim": "可以讲少量项目常能被快速整体识别，而项目增多后更依赖后顶叶空间搜索、计数顺序和当前累计保持。",
+      "avoidClaim": "不要把三或四个写成所有人的固定生理上限，也不要把计数速度直接解释成数学天赋或智力。",
+      "mappingSummary": "Piazza 2003支持少量并行识别与较大集合串行计数的网络级分层；TPJ、后顶叶和额叶均只作任务家族候选层。"
+    },
+    {
+      "paradigmId": "number-line-estimation",
+      "reviewStatus": "reviewed",
+      "supportScope": "reviewed_network",
+      "supportedTask": "把目标数字放到有起点和终点的空白数轴上，测量位置估计误差和策略。",
+      "safeClaim": "可以讲数轴估计把数量大小、数序和空间比例放到同一个任务中，儿童表现与顶内沟和后顶叶数量/空间加工有关。",
+      "avoidClaim": "不要把相关性写成训练因果，不要用数轴单项表现诊断数学障碍，也不要承诺数轴练习会自动提升整体数学成绩。",
+      "mappingSummary": "Berteletti 2015直接支持数轴表现与减法任务中IPS数量大小、后顶叶空间加工的相关；额顶参考策略与动作输出只保留为任务结构候选，不能由单次落点直接推断。"
+    }
+  ]
+}

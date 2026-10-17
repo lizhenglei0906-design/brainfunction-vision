@@ -1,0 +1,76 @@
+{
+  "model": "Schaefer200 label-volume visualization",
+  "kind": "volume-boundary-not-pial",
+  "sourceCommit": "634f676630929a71297852d01dd92a287103e861",
+  "sourceFile": "Schaefer2018_200Parcels_7Networks_order_FSLMNI152_1mm.nii.gz",
+  "sourceSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec",
+  "license": "MIT; see LICENSES/CBIG.txt",
+  "changes": "2mm sampling, marching-cubes isosurface, documented local display smoothing, common RAS display transform; official IDs and original representative coordinates retained",
+  "naming": "Rebuilt from Schaefer official labels and Yeo7 networks; no anatomical-overlap names",
+  "cerebellum": {
+    "source": "DiedrichsenLab/SUITPy@16ccf3b16a977417cd24cbf3950c7755e98e85eb / SUITPy/surfaces/PIAL_FSL.surf.gii",
+    "license": "MIT; see LICENSES/SUITPy.txt",
+    "registration": "Common FSL group-reference correspondence and coarse placement checked; subject-specific, fine lobular and paper-peak registration not established",
+    "upstreamPath": "SUITPy/surfaces/PIAL_FSL.surf.gii",
+    "localFilename": "SUIT_PIAL_FSL.surf.gii",
+    "inputSha256": "e6120db6463de0efe819e84862f963fc95fb224d3e7de0af3dc2667674d07bd6",
+    "changes": "Preserve all 56588 original faces and 28834 referenced vertices; remove 101 unreferenced zero vertices; restore 12 valid vertices and 35 faces removed by the prior clipping filter; original coordinates and shared display affine unchanged"
+  },
+  "brainstem": "Project procedural teaching illustration",
+  "scientificLimits": [
+    "Not a measured pial cortex reconstruction or measured cortical inflation",
+    "Original parcel representative coordinates are retained; display anchors are same-label surface representatives, not paper peaks",
+    "All 260 teaching nodes lack direct published-peak bindings; precise paper localization remains unestablished",
+    "Cerebellum validation supports a common group reference and coarse placement, not individual or fine lobular localization",
+    "Smoothed display cannot be used for cross-structure distance measurement; procedural brainstem is an illustration"
+  ],
+  "assets": [
+    {
+      "path": "src/data/brain-surface/schaefer200-mni-label-volume.surface.json",
+      "sha256": "e3ba7074b1f71ce7c827fd96096f71645d0ef4d5d4dc9df4c3497375c1716186",
+      "license": "CBIG MIT"
+    },
+    {
+      "path": "src/data/brain-surface/cerebellum-suitpy-fsl-pial.surface.json",
+      "sha256": "0e56bc567277dc85f3601fe43a1863cfd8461c41aedb802621cdeed8d93fb2fd",
+      "license": "SUITPy MIT"
+    }
+  ],
+  "spatialValidationSummary": "/docs/spatial-validation.html",
+  "releaseReadiness": "LOCAL_FIRST_RELEASE_PREPARATION_PENDING_OWNER_PUBLIC_ACTION",
+  "coordinateRepair": {
+    "summaryUrl": "/docs/coordinate-evidence.html",
+    "dataUrl": "/docs/coordinate-review.generated.json",
+    "dataSha256": "9296a93a2312d5cf38a3fa022c0aea447796793200160f9692161ffd63e90ba5",
+    "verifiedOriginalTableRows": 109,
+    "reproducibleRestrictedCandidates": 72,
+    "preciseDisplayCount": 0,
+    "originalNodePositionsChanged": false
+  },
+  "davisTemplateValidation": {
+    "date": "2026-10-17",
+    "sourceRows": 42,
+    "numericalChecks": "PASS",
+    "templateCorrespondence": "NOT_ESTABLISHED",
+    "preciseDisplayCount": 0,
+    "link": "/docs/davis-template-validation.html",
+    "conditionalAtlasQuery": {
+      "nonzero": 33,
+      "zero": 9,
+      "status": "DIAGNOSTIC_ONLY"
+    },
+    "geometryChanged": false
+  },
+  "teachingUse": {
+    "reviewData": "public/docs/teaching-review.json",
+    "paperApproximatePoints": 72,
+    "schematicNodes": 260,
+    "scientificPrecisionUnchanged": true
+  },
+  "originalLicensing": {
+    "code": "MIT",
+    "originalStoriesIllustrationsAndTeachingText": "CC-BY-4.0",
+    "attribution": "lizhenglei0906-design",
+    "scope": "Project-owned expression only; external works and scientific facts are not relicensed"
+  }
+}

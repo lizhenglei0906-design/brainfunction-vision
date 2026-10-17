@@ -1,0 +1,724 @@
+{
+  "id": "function-paradigm-importance-v0",
+  "version": "0.1.0",
+  "status": "seed",
+  "updated": "2026-09-02",
+  "rankingPolicy": [
+    "Primary paradigms are always shown before related/participating paradigms.",
+    "Within each relation group, rank by product-demo value, directness as a measurement of the function, and current evidence maturity.",
+    "Related paradigms are ordered by explanation value, not by claiming that the function is the task's main target."
+  ],
+  "functions": [
+    {
+      "functionId": "attention",
+      "paradigms": [
+        {
+          "paradigmId": "attention-network-test",
+          "rank": 1,
+          "tier": "core",
+          "rationale": "Best first-line attention taxonomy: alerting, orienting, executive attention."
+        },
+        {
+          "paradigmId": "sustained-attention-cpt",
+          "rank": 2,
+          "tier": "core",
+          "rationale": "Most direct sustained-attention/vigilance demo."
+        },
+        {
+          "paradigmId": "posner-cueing",
+          "rank": 3,
+          "tier": "core",
+          "rationale": "Clean spatial orienting paradigm."
+        },
+        {
+          "paradigmId": "flanker",
+          "rank": 4,
+          "tier": "core",
+          "rationale": "Selective attention with distractor conflict."
+        },
+        {
+          "paradigmId": "stroop",
+          "rank": 5,
+          "tier": "core",
+          "rationale": "High-value conflict attention story, but strongly overlaps executive control."
+        },
+        {
+          "paradigmId": "dual-task",
+          "rank": 6,
+          "tier": "supporting",
+          "rationale": "Divided-attention demo."
+        },
+        {
+          "paradigmId": "multiple-object-tracking",
+          "rank": 7,
+          "tier": "supporting",
+          "rationale": "Spatial tracking and divided visual attention."
+        },
+        {
+          "paradigmId": "choice-reaction-time",
+          "rank": 20,
+          "tier": "related",
+          "rationale": "Attention contributes to fast stimulus-response selection."
+        },
+        {
+          "paradigmId": "simple-reaction-time",
+          "rank": 21,
+          "tier": "related",
+          "rationale": "Basic alerting and motor readiness."
+        },
+        {
+          "paradigmId": "go-no-go",
+          "rank": 22,
+          "tier": "related",
+          "rationale": "Response control depends on attention but is mainly inhibition."
+        },
+        {
+          "paradigmId": "task-switching",
+          "rank": 23,
+          "tier": "related",
+          "rationale": "Switching requires attention reallocation."
+        },
+        {
+          "paradigmId": "n-back",
+          "rank": 24,
+          "tier": "related",
+          "rationale": "Working-memory task with sustained attention load."
+        },
+        {
+          "paradigmId": "digit-span",
+          "rank": 25,
+          "tier": "related",
+          "rationale": "Span tasks require attention to ordered input."
+        },
+        {
+          "paradigmId": "keep-track",
+          "rank": 26,
+          "tier": "related",
+          "rationale": "Goal maintenance and tracking require attention."
+        },
+        {
+          "paradigmId": "temporal-order-judgment",
+          "rank": 27,
+          "tier": "related",
+          "rationale": "Temporal attention and rapid event ordering."
+        },
+        {
+          "paradigmId": "sentence-comprehension",
+          "rank": 28,
+          "tier": "context",
+          "rationale": "Reading comprehension uses attention but is not an attention task."
+        },
+        {
+          "paradigmId": "math-word-problem",
+          "rank": 29,
+          "tier": "context",
+          "rationale": "Attention to qualifiers in word problems."
+        },
+        {
+          "paradigmId": "object-span",
+          "rank": 30,
+          "tier": "context",
+          "rationale": "Object memory needs attention but is not primarily attention."
+        }
+      ]
+    },
+    {
+      "functionId": "short_term_memory",
+      "paradigms": [
+        {
+          "paradigmId": "n-back",
+          "rank": 1,
+          "tier": "core",
+          "rationale": "Core updating and working-memory maintenance paradigm."
+        },
+        {
+          "paradigmId": "digit-span",
+          "rank": 2,
+          "tier": "core",
+          "rationale": "Most direct verbal short-term capacity paradigm."
+        },
+        {
+          "paradigmId": "grid-span",
+          "rank": 3,
+          "tier": "core",
+          "rationale": "Most direct spatial short-term capacity paradigm."
+        },
+        {
+          "paradigmId": "object-span",
+          "rank": 4,
+          "tier": "supporting",
+          "rationale": "Object/visual short-term capacity."
+        },
+        {
+          "paradigmId": "word-list-learning",
+          "rank": 20,
+          "tier": "related",
+          "rationale": "Encoding begins with short-term maintenance but targets long-term memory."
+        },
+        {
+          "paradigmId": "keep-track",
+          "rank": 21,
+          "tier": "related",
+          "rationale": "Working-memory monitoring and goal maintenance."
+        },
+        {
+          "paradigmId": "dual-task",
+          "rank": 22,
+          "tier": "related",
+          "rationale": "Divided task load taxes working memory."
+        },
+        {
+          "paradigmId": "multiple-object-tracking",
+          "rank": 23,
+          "tier": "related",
+          "rationale": "Tracking uses spatial short-term representations."
+        },
+        {
+          "paradigmId": "mental-arithmetic",
+          "rank": 24,
+          "tier": "context",
+          "rationale": "Mental calculation uses temporary storage."
+        },
+        {
+          "paradigmId": "algebra-equation-solving",
+          "rank": 25,
+          "tier": "context",
+          "rationale": "Equation solving uses intermediate state maintenance."
+        },
+        {
+          "paradigmId": "tower-of-london",
+          "rank": 26,
+          "tier": "context",
+          "rationale": "Planning requires holding intermediate states."
+        }
+      ]
+    },
+    {
+      "functionId": "reading",
+      "paradigms": [
+        {
+          "paradigmId": "word-pseudoword-reading",
+          "rank": 1,
+          "tier": "core",
+          "rationale": "Most direct reading route task for visual word-form, phonological, and semantic access."
+        },
+        {
+          "paradigmId": "lexical-decision",
+          "rank": 2,
+          "tier": "core",
+          "rationale": "Fast word/nonword decision remains a compact reading-speed and meaning-access task."
+        },
+        {
+          "paradigmId": "orthographic-processing",
+          "rank": 3,
+          "tier": "core",
+          "rationale": "Separates visual word-form/orthographic processing from broader comprehension."
+        },
+        {
+          "paradigmId": "phonological-decoding",
+          "rank": 4,
+          "tier": "core",
+          "rationale": "Critical for child reading accuracy and pseudoword/rhyme decoding."
+        },
+        {
+          "paradigmId": "sentence-comprehension",
+          "rank": 5,
+          "tier": "core",
+          "rationale": "Main comprehension and context-integration task."
+        },
+        {
+          "paradigmId": "semantic-task",
+          "rank": 6,
+          "tier": "supporting",
+          "rationale": "Meaning access and conceptual integration for reading."
+        },
+        {
+          "paradigmId": "math-word-problem",
+          "rank": 7,
+          "tier": "supporting",
+          "rationale": "Reading qualifiers and logical relations inside math problems."
+        },
+        {
+          "paradigmId": "deductive-reasoning",
+          "rank": 8,
+          "tier": "related",
+          "rationale": "Text-based logical comprehension can recruit language-control layers."
+        },
+        {
+          "paradigmId": "face-name-association",
+          "rank": 9,
+          "tier": "context",
+          "rationale": "Uses visual/verbal binding, not a reading task."
+        }
+      ]
+    },
+    {
+      "functionId": "calculation",
+      "paradigms": [
+        {
+          "paradigmId": "approximate-number-sense",
+          "rank": 1,
+          "tier": "core",
+          "rationale": "Foundational nonsymbolic quantity and approximate magnitude processing."
+        },
+        {
+          "paradigmId": "symbolic-quantity-mapping",
+          "rank": 2,
+          "tier": "core",
+          "rationale": "Links learned number symbols to the quantities they represent."
+        },
+        {
+          "paradigmId": "number-comparison",
+          "rank": 3,
+          "tier": "core",
+          "rationale": "Direct symbolic magnitude and place-value comparison."
+        },
+        {
+          "paradigmId": "subitizing-enumeration",
+          "rank": 4,
+          "tier": "core",
+          "rationale": "Separates rapid small-set recognition from serial counting."
+        },
+        {
+          "paradigmId": "number-line-estimation",
+          "rank": 5,
+          "tier": "core",
+          "rationale": "Combines order, magnitude, interval, and spatial scaling."
+        },
+        {
+          "paradigmId": "mental-arithmetic",
+          "rank": 6,
+          "tier": "core",
+          "rationale": "Online calculation, intermediate-state maintenance, and step control."
+        },
+        {
+          "paradigmId": "arithmetic-fact-retrieval",
+          "rank": 7,
+          "tier": "core",
+          "rationale": "Fluent retrieval of learned arithmetic facts."
+        },
+        {
+          "paradigmId": "algebra-equation-solving",
+          "rank": 8,
+          "tier": "supporting",
+          "rationale": "Symbolic rule transformation and intermediate-state control."
+        },
+        {
+          "paradigmId": "math-word-problem",
+          "rank": 9,
+          "tier": "supporting",
+          "rationale": "Composite demonstration of language, quantity relations, and logical modeling."
+        },
+        {
+          "paradigmId": "geometric-reasoning",
+          "rank": 10,
+          "tier": "supporting",
+          "rationale": "Spatial-mathematical reasoning and proof structure."
+        },
+        {
+          "paradigmId": "probability-statistics-reasoning",
+          "rank": 11,
+          "tier": "supporting",
+          "rationale": "Ratio, probability, sample, and uncertainty reasoning."
+        }
+      ]
+    },
+    {
+      "functionId": "reaction_speed",
+      "paradigms": [
+        {
+          "paradigmId": "simple-reaction-time",
+          "rank": 1,
+          "tier": "core",
+          "rationale": "Purest basic alert-response speed task."
+        },
+        {
+          "paradigmId": "choice-reaction-time",
+          "rank": 2,
+          "tier": "core",
+          "rationale": "Adds stimulus discrimination and response selection."
+        },
+        {
+          "paradigmId": "symbol-search-coding-speed",
+          "rank": 3,
+          "tier": "core",
+          "rationale": "Best fit for educational processing-speed demonstrations."
+        },
+        {
+          "paradigmId": "visual-search-schulte",
+          "rank": 4,
+          "tier": "core",
+          "rationale": "Closest visual-search/scan-speed analog for Schulte-style training."
+        },
+        {
+          "paradigmId": "perceptual-discrimination-rt",
+          "rank": 5,
+          "tier": "core",
+          "rationale": "Separates sensory discrimination speed from motor speed."
+        },
+        {
+          "paradigmId": "temporal-order-judgment",
+          "rank": 6,
+          "tier": "supporting",
+          "rationale": "Temporal sequencing and order judgment branch."
+        },
+        {
+          "paradigmId": "attention-network-test",
+          "rank": 7,
+          "tier": "supporting",
+          "rationale": "Alerting/orienting/executive attention includes RT components."
+        },
+        {
+          "paradigmId": "posner-cueing",
+          "rank": 8,
+          "tier": "supporting",
+          "rationale": "Orienting cue effects are RT-sensitive."
+        },
+        {
+          "paradigmId": "go-no-go",
+          "rank": 9,
+          "tier": "related",
+          "rationale": "Speeded response with inhibition load."
+        },
+        {
+          "paradigmId": "stop-signal",
+          "rank": 10,
+          "tier": "related",
+          "rationale": "Stopping latency is reaction-speed adjacent but inhibition-first."
+        },
+        {
+          "paradigmId": "lexical-decision",
+          "rank": 11,
+          "tier": "related",
+          "rationale": "Reading speed and decision time branch."
+        },
+        {
+          "paradigmId": "number-comparison",
+          "rank": 12,
+          "tier": "related",
+          "rationale": "Numerical decision speed branch."
+        }
+      ]
+    },
+    {
+      "functionId": "mental_imagery_operation",
+      "paradigms": [
+        {
+          "paradigmId": "mental-rotation",
+          "rank": 1,
+          "tier": "core",
+          "rationale": "Strongest spatial transformation representative."
+        },
+        {
+          "paradigmId": "spatial-folding-unfolding",
+          "rank": 2,
+          "tier": "core",
+          "rationale": "Adds folding/unfolding and geometry-like transformation beyond rotation."
+        },
+        {
+          "paradigmId": "visual-imagery",
+          "rank": 3,
+          "tier": "core",
+          "rationale": "Internal image generation and maintenance."
+        },
+        {
+          "paradigmId": "embedded-figures",
+          "rank": 4,
+          "tier": "supporting",
+          "rationale": "Complex figure search and visual segmentation branch."
+        },
+        {
+          "paradigmId": "grid-span",
+          "rank": 5,
+          "tier": "supporting",
+          "rationale": "Spatial holding/manipulation support."
+        },
+        {
+          "paradigmId": "geometric-reasoning",
+          "rank": 6,
+          "tier": "supporting",
+          "rationale": "Geometry uses spatial imagery plus reasoning."
+        },
+        {
+          "paradigmId": "multiple-object-tracking",
+          "rank": 7,
+          "tier": "related",
+          "rationale": "Dynamic visual-spatial tracking support."
+        },
+        {
+          "paradigmId": "object-span",
+          "rank": 8,
+          "tier": "related",
+          "rationale": "Object representation support."
+        },
+        {
+          "paradigmId": "visual-delayed-memory",
+          "rank": 9,
+          "tier": "context",
+          "rationale": "Visual memory branch, not pure imagery operation."
+        },
+        {
+          "paradigmId": "ravens-matrices",
+          "rank": 10,
+          "tier": "context",
+          "rationale": "Visual reasoning often uses imagery but is reasoning-first."
+        }
+      ]
+    },
+    {
+      "functionId": "reasoning",
+      "paradigms": [
+        {
+          "paradigmId": "ravens-matrices",
+          "rank": 1,
+          "tier": "core",
+          "rationale": "Best current abstract/fluid reasoning representative."
+        },
+        {
+          "paradigmId": "relational-reasoning",
+          "rank": 2,
+          "tier": "core",
+          "rationale": "Explicitly covers relational integration and relational complexity."
+        },
+        {
+          "paradigmId": "inductive-rule-discovery",
+          "rank": 3,
+          "tier": "core",
+          "rationale": "Covers rule discovery and hypothesis generation."
+        },
+        {
+          "paradigmId": "deductive-reasoning",
+          "rank": 4,
+          "tier": "core",
+          "rationale": "Explicit premise-rule-conclusion reasoning."
+        },
+        {
+          "paradigmId": "analogical-reasoning",
+          "rank": 5,
+          "tier": "supporting",
+          "rationale": "Relation mapping and transfer."
+        },
+        {
+          "paradigmId": "math-word-problem",
+          "rank": 6,
+          "tier": "supporting",
+          "rationale": "Applied reasoning under language constraints."
+        },
+        {
+          "paradigmId": "algebra-equation-solving",
+          "rank": 7,
+          "tier": "supporting",
+          "rationale": "Symbolic rule reasoning with math content."
+        },
+        {
+          "paradigmId": "geometric-reasoning",
+          "rank": 8,
+          "tier": "supporting",
+          "rationale": "Spatial-mathematical reasoning."
+        },
+        {
+          "paradigmId": "probability-statistics-reasoning",
+          "rank": 9,
+          "tier": "supporting",
+          "rationale": "Uncertainty and statistical reasoning."
+        },
+        {
+          "paradigmId": "tower-of-london",
+          "rank": 10,
+          "tier": "related",
+          "rationale": "Planning and problem-solving branch."
+        },
+        {
+          "paradigmId": "probabilistic-reversal-learning",
+          "rank": 11,
+          "tier": "related",
+          "rationale": "Rule updating and feedback learning."
+        },
+        {
+          "paradigmId": "mental-rotation",
+          "rank": 12,
+          "tier": "context",
+          "rationale": "Spatial reasoning support, but imagery-first."
+        }
+      ]
+    },
+    {
+      "functionId": "long_term_memory",
+      "paradigms": [
+        {
+          "paradigmId": "word-list-learning",
+          "rank": 1,
+          "tier": "core",
+          "rationale": "Classic verbal encoding and delayed recall branch."
+        },
+        {
+          "paradigmId": "associative-memory",
+          "rank": 2,
+          "tier": "core",
+          "rationale": "Core binding/paired-associate memory branch."
+        },
+        {
+          "paradigmId": "face-name-association",
+          "rank": 3,
+          "tier": "core",
+          "rationale": "Concrete person-name associative binding demo with MTL support."
+        },
+        {
+          "paradigmId": "source-memory",
+          "rank": 4,
+          "tier": "core",
+          "rationale": "Context/source monitoring and episodic detail branch."
+        },
+        {
+          "paradigmId": "recognition-memory",
+          "rank": 5,
+          "tier": "core",
+          "rationale": "Familiarity and recognition judgment branch."
+        },
+        {
+          "paradigmId": "episodic-order-memory",
+          "rank": 6,
+          "tier": "supporting",
+          "rationale": "Event/episode sequence memory."
+        },
+        {
+          "paradigmId": "visual-delayed-memory",
+          "rank": 7,
+          "tier": "supporting",
+          "rationale": "Nonverbal visual long-term memory branch."
+        },
+        {
+          "paradigmId": "semantic-task",
+          "rank": 8,
+          "tier": "supporting",
+          "rationale": "Semantic knowledge access overlaps long-term memory."
+        },
+        {
+          "paradigmId": "drm-false-memory",
+          "rank": 9,
+          "tier": "related",
+          "rationale": "Gist/false-memory branch."
+        },
+        {
+          "paradigmId": "sentence-comprehension",
+          "rank": 10,
+          "tier": "context",
+          "rationale": "Language comprehension uses semantic memory but is reading-first."
+        },
+        {
+          "paradigmId": "arithmetic-fact-retrieval",
+          "rank": 11,
+          "tier": "context",
+          "rationale": "Long-learned math facts as semantic memory branch."
+        }
+      ]
+    },
+    {
+      "functionId": "executive_function",
+      "paradigms": [
+        {
+          "paradigmId": "stroop",
+          "rank": 1,
+          "tier": "core",
+          "rationale": "Best conflict-monitoring and intuitive-response suppression demo."
+        },
+        {
+          "paradigmId": "stop-signal",
+          "rank": 2,
+          "tier": "core",
+          "rationale": "Direct response inhibition and stopping."
+        },
+        {
+          "paradigmId": "go-no-go",
+          "rank": 3,
+          "tier": "core",
+          "rationale": "Simple action inhibition."
+        },
+        {
+          "paradigmId": "task-switching",
+          "rank": 4,
+          "tier": "core",
+          "rationale": "Rule switching and cognitive flexibility."
+        },
+        {
+          "paradigmId": "flanker",
+          "rank": 5,
+          "tier": "core",
+          "rationale": "Conflict control under distractor interference."
+        },
+        {
+          "paradigmId": "tower-of-london",
+          "rank": 6,
+          "tier": "core",
+          "rationale": "Planning and multi-step goal control."
+        },
+        {
+          "paradigmId": "keep-track",
+          "rank": 7,
+          "tier": "supporting",
+          "rationale": "Goal maintenance and updating."
+        },
+        {
+          "paradigmId": "probabilistic-reversal-learning",
+          "rank": 8,
+          "tier": "supporting",
+          "rationale": "Feedback-based flexibility and rule updating."
+        },
+        {
+          "paradigmId": "n-back",
+          "rank": 20,
+          "tier": "related",
+          "rationale": "Updating component overlaps executive function."
+        },
+        {
+          "paradigmId": "attention-network-test",
+          "rank": 21,
+          "tier": "related",
+          "rationale": "Executive attention component."
+        },
+        {
+          "paradigmId": "dual-task",
+          "rank": 22,
+          "tier": "related",
+          "rationale": "Coordination and resource control."
+        },
+        {
+          "paradigmId": "math-word-problem",
+          "rank": 23,
+          "tier": "context",
+          "rationale": "Control over impulsive arithmetic intuition."
+        },
+        {
+          "paradigmId": "probability-statistics-reasoning",
+          "rank": 24,
+          "tier": "context",
+          "rationale": "Inhibiting intuitive probability errors."
+        },
+        {
+          "paradigmId": "algebra-equation-solving",
+          "rank": 25,
+          "tier": "context",
+          "rationale": "Rule keeping and intermediate-state control."
+        },
+        {
+          "paradigmId": "mental-arithmetic",
+          "rank": 26,
+          "tier": "context",
+          "rationale": "Calculation uses control under load."
+        },
+        {
+          "paradigmId": "sustained-attention-cpt",
+          "rank": 27,
+          "tier": "context",
+          "rationale": "Vigilance overlaps control only indirectly."
+        },
+        {
+          "paradigmId": "deductive-reasoning",
+          "rank": 28,
+          "tier": "context",
+          "rationale": "Rule logic uses executive control but is reasoning-first."
+        }
+      ]
+    }
+  ]
+}

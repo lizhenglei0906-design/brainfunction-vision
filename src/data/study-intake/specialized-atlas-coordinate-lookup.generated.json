@@ -1,0 +1,573 @@
+{
+  "id": "specialized-atlas-coordinate-lookup-v0",
+  "updated": "2026-06-16",
+  "status": "excluded_from_core_distribution_pending_source_terms",
+  "lookupPolicy": "Only explicit MNI specialized boundary peaks are sampled against matching NIfTI atlases: cerebellar/vermis peaks against cerebellar atlases, hippocampus/amygdala peaks against Harvard-Oxford and Juelich MTL layers, basal-ganglia/thalamus peaks against the coarse Harvard-Oxford subcortical layer, and entorhinal/subfield peaks against Juelich. Talairach-only or unsupported regions are skipped.",
+  "atlasIds": [
+    "diedrichsen-2009-cerebellar-lobules",
+    "buckner-2011-cerebellum-7networks",
+    "harvard-oxford-subcortical-mtl",
+    "harvard-oxford-subcortical-basal-ganglia-thalamus",
+    "juelich-mtl-cytoarchitectonic"
+  ],
+  "summary": {
+    "includedCount": 0,
+    "excludedCount": 168
+  },
+  "lookupRows": [],
+  "skipped": [
+    {
+      "peakId": "collette2005-table2-medial-cerebellum-2--71--30",
+      "sourceId": "collette-2005-executive-functioning-unity-diversity",
+      "reportedRegion": "Medial cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "collette2005-table2-medial-cerebellum-2--61--21",
+      "sourceId": "collette-2005-executive-functioning-unity-diversity",
+      "reportedRegion": "Medial cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "collette2005-table2-medial-cerebellum-4--63--12",
+      "sourceId": "collette-2005-executive-functioning-unity-diversity",
+      "reportedRegion": "Medial cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "collette2005-table2-right-cerebellum-51--50--27",
+      "sourceId": "collette-2005-executive-functioning-unity-diversity",
+      "reportedRegion": "Right cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "collette2005-table2-right-cerebellum-18--67--19",
+      "sourceId": "collette-2005-executive-functioning-unity-diversity",
+      "reportedRegion": "Right cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "constable2004-table3-complexity-left-thalamus",
+      "sourceId": "constable-2004-sentence-complexity-modality",
+      "reportedRegion": "Left thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "dehaene1999-approx-left-cerebellum",
+      "sourceId": "dehaene-1999-sources-math-thinking",
+      "reportedRegion": "Left cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "dehaene1999-approx-left-thalamus",
+      "sourceId": "dehaene-1999-sources-math-thinking",
+      "reportedRegion": "Left thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "dehaene1999-approx-right-thalamus",
+      "sourceId": "dehaene-1999-sources-math-thinking",
+      "reportedRegion": "Right thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "dux2006-exp1-left-cerebellum",
+      "sourceId": "dux-2006-central-bottleneck",
+      "reportedRegion": "Left anterior cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "dux2006-exp2-left-cerebellum",
+      "sourceId": "dux-2006-central-bottleneck",
+      "reportedRegion": "Left anterior cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "dux2006-exp3-left-cerebellum-x-mismatch",
+      "sourceId": "dux-2006-central-bottleneck",
+      "reportedRegion": "Left anterior cerebellum (table label; x coordinate is right-sided)",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "dux2006-exp1-right-cerebellum",
+      "sourceId": "dux-2006-central-bottleneck",
+      "reportedRegion": "Right anterior cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "dux2006-exp2-right-cerebellum",
+      "sourceId": "dux-2006-central-bottleneck",
+      "reportedRegion": "Right anterior cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "dux2006-exp3-right-cerebellum",
+      "sourceId": "dux-2006-central-bottleneck",
+      "reportedRegion": "Right anterior cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "forn2009-sdmt-left-cerebellum-declive",
+      "sourceId": "forn-2009-sdmt-fmri",
+      "reportedRegion": "Left cerebellum posterior lobe, declive",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "forn2009-sdmt-left-caudate-body",
+      "sourceId": "forn-2009-sdmt-fmri",
+      "reportedRegion": "Left caudate body",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "forn2009-sdmt-right-caudate-body",
+      "sourceId": "forn-2009-sdmt-fmri",
+      "reportedRegion": "Right caudate body",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "forn2009-sdmt-right-cerebellum-culmen",
+      "sourceId": "forn-2009-sdmt-fmri",
+      "reportedRegion": "Right cerebellum anterior lobe, culmen",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "forn2009-sdmt-right-caudate-tail",
+      "sourceId": "forn-2009-sdmt-fmri",
+      "reportedRegion": "Right caudate tail",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "forn2009-sdmt-left-cerebellum-semilunar",
+      "sourceId": "forn-2009-sdmt-fmri",
+      "reportedRegion": "Left cerebellum posterior lobe, semi-lunar",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "gitelman1999-boundary-right-thalamus-12--3-3",
+      "sourceId": "gitelman-1999-covert-spatial-attention",
+      "reportedRegion": "Right thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "gitelman1999-boundary-left-putamen--18--6-15",
+      "sourceId": "gitelman-1999-covert-spatial-attention",
+      "reportedRegion": "Left putamen",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "gitelman1999-boundary-right-putamen-globus-pallidus-27-6--6",
+      "sourceId": "gitelman-1999-covert-spatial-attention",
+      "reportedRegion": "Right putamen / globus pallidus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "gitelman1999-boundary-right-putamen-globus-pallidus-18--3-12",
+      "sourceId": "gitelman-1999-covert-spatial-attention",
+      "reportedRegion": "Right putamen / globus pallidus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "jovicich2001-cerebellum-left",
+      "sourceId": "jovicich-2001-motion-tracking-load",
+      "reportedRegion": "Left cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "jovicich2001-cerebellum-midline",
+      "sourceId": "jovicich-2001-motion-tracking-load",
+      "reportedRegion": "Midline cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "jovicich2001-cerebellum-right",
+      "sourceId": "jovicich-2001-motion-tracking-load",
+      "reportedRegion": "Right cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "kansaku2004-sensorimotor-cerebellar-vermis",
+      "sourceId": "kansaku-2004-simple-reaction-time",
+      "reportedRegion": "Cerebellar vermis",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "kim-cabeza2007-table1-tmf-activity-thalamus-0-4--4",
+      "sourceId": "kim-cabeza-2007-true-false-memory-formation",
+      "reportedRegion": "L Thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "kim-cabeza2007-table2-tmf-activity-fmf-activity-thalamus-0--8--4",
+      "sourceId": "kim-cabeza-2007-true-false-memory-formation",
+      "reportedRegion": "L Thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "kim-cabeza2007-table3-high-confidence-tmf-activity-fmf-activity-hippocampus--26--15--9",
+      "sourceId": "kim-cabeza-2007-true-false-memory-formation",
+      "reportedRegion": "L Hippocampus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "kim-cabeza2007-table3-high-confidence-tmf-activity-fmf-activity-thalamus-0--8--14",
+      "sourceId": "kim-cabeza-2007-true-false-memory-formation",
+      "reportedRegion": "L Thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "kim-cabeza2007-table3-high-confidence-tmf-activity-fmf-activity-cerebellum-8--83--19",
+      "sourceId": "kim-cabeza-2007-true-false-memory-formation",
+      "reportedRegion": "R Cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "kirwan2004-study-left-amygdala-associative",
+      "sourceId": "kirwan-stark-2004-face-name-pairs",
+      "reportedRegion": "Left amygdala",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "kirwan2004-test-right-entorhinal-associative",
+      "sourceId": "kirwan-stark-2004-face-name-pairs",
+      "reportedRegion": "Right entorhinal cortex",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "konishi2002-high-low-thalamus",
+      "sourceId": "konishi-2002-recency-judgment",
+      "reportedRegion": "Thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "konishi2002-high-low-cerebellum-001",
+      "sourceId": "konishi-2002-recency-judgment",
+      "reportedRegion": "Cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "konishi2002-high-low-right-caudate-thalamus",
+      "sourceId": "konishi-2002-recency-judgment",
+      "reportedRegion": "Caudate / thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "konishi2002-high-low-left-caudate-thalamus",
+      "sourceId": "konishi-2002-recency-judgment",
+      "reportedRegion": "Caudate / thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "konishi2002-high-low-cerebellum-002",
+      "sourceId": "konishi-2002-recency-judgment",
+      "reportedRegion": "Cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "macdonald2000-stroop-medial-extrastriate",
+      "sourceId": "macdonald-2000-stroop-control",
+      "reportedRegion": "Medial extrastriate cortex, BA 31",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "macdonald2000-stroop-thalamus",
+      "sourceId": "macdonald-2000-stroop-control",
+      "reportedRegion": "Thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "manjaly2003-table1-a-midline-bilateral-vermis-and-lateral-cerebellum-2--80--24",
+      "sourceId": "manjaly-2003-hidden-figures-fmri",
+      "reportedRegion": "midline/bilateral vermis and lateral cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "pardo1990-stroop-acc-left-putamen",
+      "sourceId": "pardo-1990-stroop-acc",
+      "reportedRegion": "Putamen (L)",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "pardo1990-stroop-acc-left-peristriate-01",
+      "sourceId": "pardo-1990-stroop-acc",
+      "reportedRegion": "Peristriate (L)",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "pardo1990-stroop-acc-left-peristriate-02",
+      "sourceId": "pardo-1990-stroop-acc",
+      "reportedRegion": "Peristriate (L)",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "pardo1990-stroop-acc-right-peristriate",
+      "sourceId": "pardo-1990-stroop-acc",
+      "reportedRegion": "Peristriate (R)",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "parsons2001-deduction-right-caudate",
+      "sourceId": "parsons-osherson-2001-deductive-probabilistic-reasoning",
+      "reportedRegion": "Right caudate nucleus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "parsons2001-deduction-right-amygdala",
+      "sourceId": "parsons-osherson-2001-deductive-probabilistic-reasoning",
+      "reportedRegion": "Right amygdala",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "parsons2001-deduction-right-thalamus-001",
+      "sourceId": "parsons-osherson-2001-deductive-probabilistic-reasoning",
+      "reportedRegion": "Right thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "parsons2001-deduction-left-thalamus-001",
+      "sourceId": "parsons-osherson-2001-deductive-probabilistic-reasoning",
+      "reportedRegion": "Left thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "parsons2001-deduction-left-globus-pallidus",
+      "sourceId": "parsons-osherson-2001-deductive-probabilistic-reasoning",
+      "reportedRegion": "Left lateral globus pallidus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "parsons2001-deduction-left-thalamus-002",
+      "sourceId": "parsons-osherson-2001-deductive-probabilistic-reasoning",
+      "reportedRegion": "Left thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "parsons2001-probability-right-globus-pallidus",
+      "sourceId": "parsons-osherson-2001-deductive-probabilistic-reasoning",
+      "reportedRegion": "Right globus pallidus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "paulesu1993-left-cerebellum-boundary",
+      "sourceId": "paulesu-1993-phonological-loop",
+      "reportedRegion": "Left cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "paulesu1993-right-cerebellum-boundary",
+      "sourceId": "paulesu-1993-phonological-loop",
+      "reportedRegion": "Right cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "rodriguez2009-co-left-caudate",
+      "sourceId": "rodriguez-moreno-hirsch-2009-deductive-reasoning",
+      "reportedRegion": "Left caudate",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "rodriguez2009-co-right-caudate-thalamus",
+      "sourceId": "rodriguez-moreno-hirsch-2009-deductive-reasoning",
+      "reportedRegion": "Right caudate / thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "rubia2006-gonogo-adult-right-caudate-head",
+      "sourceId": "rubia-2006-frontostriatal-cognitive-control",
+      "reportedRegion": "Right caudate, head",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "rubia2006-gonogo-adult-left-cerebellum",
+      "sourceId": "rubia-2006-frontostriatal-cognitive-control",
+      "reportedRegion": "Left cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "rubia2006-gonogo-adult-right-cerebellum",
+      "sourceId": "rubia-2006-frontostriatal-cognitive-control",
+      "reportedRegion": "Right cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "rubia2006-switch-adult-right-putamen",
+      "sourceId": "rubia-2006-frontostriatal-cognitive-control",
+      "reportedRegion": "Right putamen",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "slotnick2004-table1-true-recognition-false-recognition-right-striate-11--76-11",
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "reportedRegion": "Right striate, BA17",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "slotnick2004-table2-true-and-false-recognition-common-old-response-activity-left-striate--5--88--1",
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "reportedRegion": "Left striate, BA17",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "slotnick2004-table3-main-main-experiment-old-hits-and-old-misses-left-striate--5--89-1",
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "reportedRegion": "Left striate, BA17",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "slotnick2004-table3-main-main-experiment-old-hits-and-old-misses-right-striate-16--82-5",
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "reportedRegion": "Right striate, BA17",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "slotnick2004-table3-followup-follow-up-experiment-old-hits-and-old-misses-left-striate--10--86-6",
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "reportedRegion": "Left striate, BA17",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "slotnick2004-table3-followup-follow-up-experiment-old-hits-and-old-misses-right-striate-20--79-2",
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "reportedRegion": "Right striate, BA17",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "slotnick2004-table1-true-recognition-false-recognition-left-caudate--4-10-3",
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "reportedRegion": "Left caudate",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "slotnick2004-table1-true-recognition-false-recognition-right-caudate-6-14-1",
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "reportedRegion": "Right caudate",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "slotnick2004-table2-true-and-false-recognition-common-old-response-activity-left-caudate--8-6-5",
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "reportedRegion": "Left caudate",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "slotnick2004-table2-true-and-false-recognition-common-old-response-activity-right-caudate-9-6-0",
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "reportedRegion": "Right caudate",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "slotnick2004-table2-true-and-false-recognition-common-old-response-activity-right-thalamus-5--17-12",
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "reportedRegion": "Right thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "slotnick2004-fig5-text-true-recognition-hippocampal-roi-left-hippocampus--18--27--9",
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "reportedRegion": "Left hippocampus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "smith1996-exp1-verbal-left-thalamus",
+      "sourceId": "smith-1996-verbal-spatial-wm",
+      "reportedRegion": "Left thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "smith1996-exp1-right-cerebellum",
+      "sourceId": "smith-1996-verbal-spatial-wm",
+      "reportedRegion": "Right cerebellum",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "stavy2016-main-right-thalamus-12--21-16",
+      "sourceId": "stavy-babai-kallai-2016-proportional-reasoning",
+      "reportedRegion": "Right thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "stavy2016-main-left-thalamus--6--22-11",
+      "sourceId": "stavy-babai-kallai-2016-proportional-reasoning",
+      "reportedRegion": "Left thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "stavy2016-main-left-lentiform-nucleus--10-3-2",
+      "sourceId": "stavy-babai-kallai-2016-proportional-reasoning",
+      "reportedRegion": "Left lentiform nucleus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "stavy2016-main-left-pyramis--1--66--25",
+      "sourceId": "stavy-babai-kallai-2016-proportional-reasoning",
+      "reportedRegion": "Left cerebellar pyramis",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "stavy2016-main-right-uvula-32--63--26",
+      "sourceId": "stavy-babai-kallai-2016-proportional-reasoning",
+      "reportedRegion": "Right cerebellar uvula",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "stavy2016-main-right-culmen-8--49--16",
+      "sourceId": "stavy-babai-kallai-2016-proportional-reasoning",
+      "reportedRegion": "Right cerebellar culmen",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "stavy2016-main-right-cerebellar-tonsil-3--52--31",
+      "sourceId": "stavy-babai-kallai-2016-proportional-reasoning",
+      "reportedRegion": "Right cerebellar tonsil",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "stavy2016-main-left-pyramis--28--58--28",
+      "sourceId": "stavy-babai-kallai-2016-proportional-reasoning",
+      "reportedRegion": "Left cerebellar pyramis",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "stavy2016-main-right-uvula-9--70--34",
+      "sourceId": "stavy-babai-kallai-2016-proportional-reasoning",
+      "reportedRegion": "Right cerebellar uvula",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "swick2011-sst-right-thalamus",
+      "sourceId": "swick-2011-stopping",
+      "reportedRegion": "Right thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "swick2011-sst-left-putamen",
+      "sourceId": "swick-2011-stopping",
+      "reportedRegion": "Left putamen",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "swick2011-sst-right-lentiform-lateral-gp",
+      "sourceId": "swick-2011-stopping",
+      "reportedRegion": "Right lentiform nucleus / lateral globus pallidus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "swick2011-diff-sst-gt-gng-right-thalamus",
+      "sourceId": "swick-2011-stopping",
+      "reportedRegion": "Right thalamus",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "swick2011-gng-left-putamen",
+      "sourceId": "swick-2011-stopping",
+      "reportedRegion": "Left putamen",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    },
+    {
+      "peakId": "swick2011-gng-right-caudate-body",
+      "sourceId": "swick-2011-stopping",
+      "reportedRegion": "Right caudate body",
+      "reason": "not_mni_or_not_marked_safe_for_lookup"
+    }
+  ],
+  "distributionNote": "Computed atlas-derived numerical detail not bundled pending exact source-term review; source registry and citation links retained."
+}

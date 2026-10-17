@@ -1,0 +1,14 @@
+{
+  "id": "freesurfer-icbm2009c-marker-candidates-v0",
+  "updated": "2026-06-18",
+  "status": "excluded_from_core_distribution_pending_source_terms",
+  "sourceReviewFile": "src/data/study-intake/freesurfer-icbm2009c-coordinate-review.generated.json",
+  "summary": {
+    "includedCount": 0,
+    "excludedCount": 13,
+    "includedMarkerCandidateCount": 0,
+    "heldMarkerCandidateCount": 0
+  },
+  "markerCandidates": [],
+  "distributionNote": "Computed atlas-derived numerical detail not bundled pending exact source-term review; source registry and citation links retained."
+}

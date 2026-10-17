@@ -1,0 +1,584 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Effector-dependent neural representations of perceptual decisions independent of motor actions and sensory modalities</title><style>body{font:17px/1.65 system-ui;max-width:900px;margin:36px auto;padding:0 24px}p{overflow-wrap:anywhere}aside{background:#eef3f2;padding:16px}</style><aside><strong>Esmeyer J, Schmidt TT, Blankenburg F. Imaging Neuroscience. 2025;3:IMAG.a.11.</strong><p>Text-only reading edition derived from the archived article. Publisher navigation and figures omitted; original wording retained. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12319951/">Original article</a> · <a href="https://creativecommons.org/licenses/by/4.0">CC BY license</a>. Original copyright and attribution appear below.</p></aside><h1>Effector-dependent neural representations of perceptual decisions independent of motor actions and sensory modalities</h1><p>. 2025 May 22;3:IMAG.a.11. doi: 10.1162/IMAG.a.11</p>
+<p>Effector-dependent neural representations of perceptual decisions independent of motor actions and sensory modalities</p>
+<p>Marlon F Esmeyer</p>
+<p>Marlon F Esmeyer</p>
+<p>1Neurocomputation and Neuroimaging Unit, Department of Education and Psychology, Freie Universität Berlin, Berlin, Germany</p>
+<p>2Berlin School of Mind and Brain, Humboldt-Universität zu Berlin, Berlin, Germany Find articles by Marlon F Esmeyer</p>
+<p>1,2,*, Timo T Schmidt</p>
+<p>Timo T Schmidt</p>
+<p>1Neurocomputation and Neuroimaging Unit, Department of Education and Psychology, Freie Universität Berlin, Berlin, Germany Find articles by Timo T Schmidt</p>
+<p>1, Felix Blankenburg</p>
+<p>Felix Blankenburg</p>
+<p>1Neurocomputation and Neuroimaging Unit, Department of Education and Psychology, Freie Universität Berlin, Berlin, Germany</p>
+<p>2Berlin School of Mind and Brain, Humboldt-Universität zu Berlin, Berlin, Germany Find articles by Felix Blankenburg</p>
+<p>1,2</p>
+<p>1Neurocomputation and Neuroimaging Unit, Department of Education and Psychology, Freie Universität Berlin, Berlin, Germany</p>
+<p>2Berlin School of Mind and Brain, Humboldt-Universität zu Berlin, Berlin, Germany</p>
+<p>✉</p>
+<p>*Corresponding Author: Marlon F. Esmeyer ( marlon.esmeyer@fu-berlin.de )</p>
+<p>Received 2024 Jul 30; Revised 2025 Mar 28; Accepted 2025 Apr 26; Collection date 2025.</p>
+<p>© 2025 The Authors. Published under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.</p>
+<p>This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International (CC BY 4.0) license, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. For a full description of the license, please visit https://creativecommons.org/licenses/by/4.0/ .</p>
+<p>PMC Copyright notice</p>
+<p>PMCID: PMC12319951 PMID: 40800809</p>
+<p>Abstract</p>
+<p>Neuroscientific research has shown that perceptual decision-making occurs in brain regions that are associated with the required motor response. Recent functional magnetic resonance imaging (fMRI) studies that dissociated decisions from coinciding processes, such as the motor response, partly challenge this, indicating that perceptual decisions are represented in an abstract or sensory-specific manner that might vary across sensory modalities. However, comparisons across sensory modalities have been difficult since most task designs differ not only in modality but also in effectors, motor response, and level of abstraction. Here, we describe an fMRI experiment where participants compared frequencies of two sequentially presented visual flicker stimuli in a delayed match-to-comparison task, which controlled for motor responses and stimulus sequence. A whole-brain searchlight support vector machine analysis of multi voxel patterns was used to identify brain regions containing information on perceptual decisions. Furthermore, a conjunction analysis with data from an analogue vibrotactile study was conducted for a comparison between visual and tactile decision-making processes. Both analyses revealed above-chance decoding accuracies in the left dorsal premotor cortex (PMd) as well as in the left intraparietal sulcus (IPS). While previous primate and human imaging research have implicated these regions in transforming sensory information into action, our findings indicate that the IPS processes abstract decision signals while the PMd represents an effector-dependent, but motor response independent encoding of perceptual decisions that is similar across sensory domains.</p>
+<p>Keywords: multisensory decision-making, effector-dependent, delayed match-to-comparison, multi-voxel pattern analysis, cross-modal conjunction analysis</p>
+<p>1. Introduction</p>
+<p>Humans rely on a variety of sensory information to navigate the multitude of every day’s decisions. Thus, understanding the neural mechanisms of perceptual decision-making has been a fundamental inquiry of neuroscientific research that has been explored across various sensory modalities using diverse research paradigms. An important avenue of research has investigated the neural correlates of vibrotactile perceptual decisions in primates (LaMotte &amp; Mountcastle, 1975;Romo &amp; de Lafuente, 2013). These studies typically employ variants of delayed match-to-comparison (DMTC) tasks, where participants compare frequencies of two subsequently presented vibrotactile flutter stimuli and decide whether the frequency of the second stimulus (f2) was higher or lower than the frequency of the first stimulus (f1). The response is usually indicated with a button press. In their seminal work, Romo and colleagues have described perceptual decision-making in DMTC tasks as a sequence of processing steps that dynamically link action and perception. Following the initial encoding of f1 in somatosensory areas, information on stimulus frequencies is retained across different neurons in higher somatosensory and frontal areas (see below), showing opposite tuning curves for high and low frequencies. This mnemonic representation of f1 is maintained during the delay-period until the presentation of f2. Subsequently, as f2 is encoded in the same areas, the decision whether f2 was higher or lower than f1 likely arises through the generation of a difference signal between neurons whose firing can be described by opposite tuning curves (Romo &amp; de Lafuente, 2013). Following this computation, which corresponds to a subtraction of the two frequencies, a binary signed decision signal emerges, which is then transformed into a motor command, observed within the primary motor cortex. Notably, alongside prefrontal (Jun et al., 2010) and secondary somatosensory regions (Romo et al., 2002), decision-related signals have been most prominently observed across different brain areas associated to planning and executing the required motor response. In the context of the vibrotactile DMTC task, these brain regions typically encompass motor-related areas involved in the planning and execution of button presses or arm movements. Accordingly, studies have reported decision-related activity in different sites of the premotor cortex, including the medial premotor cortex (PMm;de Lafuente &amp; Romo, 2005;Hernández et al., 2002), the dorsal premotor cortex (PMd;Haegens et al., 2011;Rossi-Pool et al., 2017), and the ventral premotor cortex (PMv;Romo et al., 2004).</p>
+<p>The findings by Romo and colleagues are in line with the intentional framework, which suggests that perceptual decisions are processed in brain areas associated with the required motor response (Shadlen et al., 2008). Similar to Romo and colleagues’ primate studies, human electroencephalography (EEG) studies using similar vibrotactile DMTC tasks revealed that beta-band amplitude in the premotor cortex (Herding et al., 2016) and parietal event-related potentials (Herding et al., 2019) were predictive of categorical choices. However, in most decision-making tasks, decisions are inextricably linked to task components such as the response, making it difficult to pinpoint neural markers of perceptual decisions independent of other sensory or motor processes. Consequently, it remains unclear whether these brain regions encode decisions as representations dependent on the required motor response or as a more general, effector-dependent representation that is independent of the motor response. While a motor response refers to the action or movement that is executed as the outcome of a decision (e.g., left vs. right button press or left vs. right saccade), an effector refers to the body part that is used to execute a response (e.g., the right hand for a button press or the eyes for a saccade). Thus, a motor response is more specific than an effector, but in most cases the two are inseparably linked. Therefore, to better understand the nature of these neural representations, it is necessary to decouple decision- from motor-related signals in the task designs. Human imaging studies that employed multiple effectors or flexible response-mappings to achieve such a decoupling have reported decision-related signals in varying brain regions, including abstract (e.g.,Filimon et al., 2013;Heekeren et al., 2006), sensory-modality specific (e.g.,Hebart et al., 2012;Liu &amp; Pleskac, 2011), or effector-dependent representations (e.g.,Hebart et al., 2016;Y. Wu et al., 2019). These findings suggest that, if a decision is mapped to an abstract decision-rule, it is represented in higher-order brain regions, while a decision that is directly mapped to a specific response is encoded in brain regions associated with the required response. This notion was supported by an EEG study, which showed that beta-band power encoded decisions in the premotor cortex when the motor response was known, and in the parietal cortex when the decision was decoupled from the motor response (Ludwig et al., 2018). Interestingly, two recent vibrotactile DMTC studies that decoupled decisions from the response and the stimulus order in a functional magnetic resonance imaging (fMRI) experiment decoded categorical choices from brain regions that have been associated with planning and executing a required motor response, that is, frontal eye fields (FEF) for saccadic responses, PMd for button presses, and the intraparietal sulcus (IPS) for both (Y. Wu et al., 2019,2021). This indicates that these regions do not process perceptual decisions as concrete motor plans but instead in a more abstract, but effector-dependent manner, if a response effector is pre-specified.</p>
+<p>To characterize the basic neural mechanisms underlying perceptual decision-making, it is crucial to examine the similarities and differences across sensory modalities. The sensory modality refers to the sensory modality of the stimulus or stimuli being evaluated to form a decision (e.g., vibrotactile for the flutter stimuli in DMTC tasks and visual for the motion stimuli in random dot motion tasks). Studies in different sensory modalities have causally linked perceptual decision processes to brain regions specific to the sensory modality of the stimulus, such as visual (e.g.,Hebart et al., 2012), auditory (e.g.Tsunada et al., 2016), and somatosensory cortices (Romo et al., 2002). These findings imply that perceptual decisions might be processed according to the low-level sensory features inherent to task stimuli. These low-level sensory processes are described as sensory evidence accumulation or comparison signals that are then conveyed to higher-order cortical regions relevant for decision formation and lastly for motor preparation and responses (Gold &amp; Shadlen, 2007;Hernández et al., 2010;Tsunada et al., 2016). Importantly, comparing perceptual decisions across sensory modalities has been challenging due to distinct paradigms used to investigate perceptual decisions in different modalities, most notably differing in the applied motor responses. For instance, while vibrotactile decisions have been investigated using DMTC paradigms with button presses as the response modality, research on visual decisions has typically employed random dot motion tasks and saccades as the response effector (Gold &amp; Shadlen, 2007;Shadlen et al., 1996). As described above, most of the perceptual decision literature suggests that perceptual decisions are represented in an intentional framework (Shadlen et al., 2008). Thereby, decisions evolve as motor intentions in brain regions associated with the required motor response and should be encoded independent of the sensory modality. Although earlier visual studies identified such decision-related signals from neurons in brain regions associated with planning and preparation of saccades, notably in the FEF and lateral intraparietal (LIP) neurons (Ding &amp; Gold, 2012;Roitman &amp; Shadlen, 2002;Shadlen &amp; Newsome, 2001), newer findings suggest that these neurons represent aspects of decisions that occur independent of the motor response (Shushruth et al., 2022;So &amp; Shadlen, 2022;Zhou et al., 2023). Furthermore, a human neuroimaging study that decoupled decisions from motor responses in a visual random dot motion task reported decision-related signals in the IPS (the human counterpart to LIP) and in the FEF (Liu &amp; Pleskac, 2011). This indicates that IPS and FEF encode decisions according to sensory stimulus features (i.e., visual motion direction) and independent of the motor response (i.e., eye movement). In contrast, the vibrotactile studies byY. Wu et al. (2019,2021), who decoupled decisions from motor responses, reported decision-related activation patterns in brain regions associated with specific effectors, that is, FEF for saccades and PMd for button presses as well as in the IPS, suggesting an effector-dependent rather than a sensory-modality dependent representation. Importantly, these studies differ fromLiu &amp; Pleskac (2011)as participants knew the effector modality they would use to select a response at the time of the decision. Thus, it is unclear whether these differences reflect inherent differences between the vibrotactile and visual modality or variations in task paradigms. Evidence from primate, single-unit recordings supports the latter, revealing functional heterogeneity in the FEF. While some neuron populations encode saccade preparation, others are tuned to sensory stimulus features, such as motion strength (Ding &amp; Gold, 2012;Purcell et al., 2012). This suggests that both effector-dependent and effector-independent representations may coexist within the same brain regions. Despite these insights, no study has directly compared perceptual decisions across sensory modalities using tasks that explicitly control for stimulus features and separate decisions from motor-responses. To address this, it is crucial to use unified task designs that isolate perceptual decisions from other processes to identify underlying similarities and differences in neural processing underlying perceptual decisions across different sensory modalities.</p>
+<p>The aim of the present fMRI study is to investigate cross-modal, that is, visual and vibrotactile, neural correlates of perceptual decisions, which are independent of motor responses and stimulus sequence. Therefore, we used a visual adaptation of the vibrotactile DMTC task ofY. Wu et al. (2021). To identify brain regions which process perceptual decisions, we applied a multi-voxel pattern analysis (MVPA) whole-brain searchlight approach (Kriegeskorte et al., 2006) using a support vector machine classifier (SVM). Furthermore, we conducted a conjunction analysis of both datasets to reveal how neural activation patterns reflect perceptual decisions across sensory modalities. We hypothesized effector-dependent activation patterns of perceptual decisions in both the left PMd and the left IPS. Moreover, we expected these regions to predict binary decisions consistently across the visual and the vibrotactile domain.</p>
+<p>2. Methods</p>
+<p>2.1. Participants</p>
+<p>A total of 36 healthy volunteers participated in the fMRI experiment. Eligible participants were required to be right-handed, as assessed by the Edinburgh Handedness Inventory (Oldfield, 1971; 0.83 ± 0.18) and free from any neurological or psychiatric disorders. Data from 9 participants were removed due to strict exclusion criteria of behavioral performance (less than 50% correct responses in at least one stimulus pair). Another three participants were excluded due to a large amount of head movement (&gt;3 mm), leaving 24 participants (13 males, 11 females) with a mean age of 24.8 (standard deviation [SD] = 3.5, range: 18–32) for further analysis. All participants provided written informed consent and were compensated monetarily for their participation. The study was approved by the local ethics committee of the Freie Universität Berlin (003/2021).</p>
+<p>2.2. Task design and stimuli</p>
+<p>The task design was adapted from the vibrotactile DMTC task byY. Wu et al. (2021). In our visual version of the DMTC task, we instructed participants to compare the frequency of two sequentially presented visual flicker stimuli (Fig. 1). f1 was 16, 20, 24, or 28 Hz and f2 was either 4 Hz above or below the first stimulus frequency (i.e., eight different frequency combinations in the frequency range of 12–32 Hz).</p>
+<p>Fig. 1.</p>
+<p>Open in a new tab</p>
+<p>Experimental paradigm. An initial rule cue (square or diamond) indicated whether f1 would serve as the comparison and f2 as the reference stimulus (rule 1), or vice versa (rule 2). Subsequently, participants had to decide whether the frequency of the comparison stimulus was higher or lower than the frequency of the reference stimulus. Following a short fixation period, two visual flicker stimuli with differing frequencies were sequentially presented. After the decision phase, one of two matching cues was shown. An upward pointing triangle denoted that the frequency of the comparison stimulus was higher than the frequency of the reference stimulus, while a downward pointing triangle represented a lower frequency of the comparison stimulus. Participants then had to decide whether the matching cue correctly reflected their perception and indicate their decision with a button press associated to one of two colored disks on the following target screen.</p>
+<p>Trials started with the presentation of one of two rule cues (i.e.,Y. Wu et al., 2019,2021). Depending on its shape (square or diamond), the rule cue determined whether participants had to compare f1 against f2 or to compare f2 to f1 in half of the trials, respectively. The rule cue was introduced to decouple the decision (higher vs. lower) from potential effects of stimulus order (f1 &gt; f2 vs. f1 &lt; f2). After 0.5 s fixation period, two consecutive visual flicker stimuli were presented on both sides of the participants’ periphery (5°, eccentricity) for 0.5 s, separated by a retention interval of 1 s. Following a 2-s decision phase, a matching cue was presented, consisting of a triangle pointing either upward or downward. Participants had to compare their decision to the orientation of the matching cue (an upward pointing triangle meaning “higher”, downward meaning “lower”), to decide for “match” (the matching cue was consistent with their stimulus comparison, i.e. true) or “mismatch” (the matching cue was inconsistent with their stimulus comparison, i.e. false). This procedure was introduced to render decisions independent from the motor response to avoid response-related confounds. The matching cue was independent from the true frequency difference, and matches/mismatches were balanced within each run. Finally, participants reported whether the comparison between their perception and the matching cue resulted in a match or mismatch (i.e., the matching cue was true or false) during the presentation of a target screen, displayed until the response but for a maximum of 1.5 s. The target screen comprised a central fixation cross and two coloured target disks (blue and yellow) in the periphery along the horizontal meridian (3°, eccentricity). The colour assignment for match or mismatch was balanced across participants. Depending on the location of the target, participants responded with a left or right button press, using their right-hand index or middle finger, rendering the motor response independent of the perceptual decision. The target side was balanced within a run. Inter-trial intervals with a fixation period of varying durations (3, 4, 5, or 6 s) were administered between all trials.</p>
+<p>During the fMRI session, the visual cues were projected onto a screen on the bore opening of the MR scanner. Participants viewed the visual displays through a mirror attached to the MR head coil from approximately 110 ± 2 cm. The cues were presented with MATLAB version 9.13 (The MathWorks, Inc, Natick, MA) using Psychtoolbox-3 (Brainard, 1997). Visual flicker stimuli were generated using a sine function with a fixed voltage amplitude of 10 V. In each trial, the sine waves were received and stored by a data acquisition card (NI-USB 6343; National Instruments Corporation, Austin, Texas, USA) and released upon a trigger signal to ensure precise timing. The visual flicker stimuli were presented with light emitting diodes (LEDs), transmitted through fiber-optic cables, and presented 10 cm to the left and right of a fixation cross on both sides of the screen. The LEDs illuminated above a threshold of 2.24 V such that the duty cycle of the flicker stimuli was approximately 43%.</p>
+<p>After training the task for 20–40 min, participants performed six experimental runs inside of the fMRI scanner on a separate day. A run lasted approximately 12.5 min and consisted of 64 trials with each of the eight frequency combinations being presented eight times per run. Each of the eight presentations contained a unique combination of rule cue, matching cue as well as target screen.</p>
+<p>2.3. fMRI data acquisition and preprocessing</p>
+<p>Functional magnetic resonance imaging (fMRI) data were acquired on a 3 T Magnetom Prisma Fit Scanner (Siemens Healthcare GmbH, Erlangen, Germany) at the Center for Cognitive Neuroscience Berlin, using a 32-channel head coil. In each of the six experimental runs, 378 functional, T2*-weighted volumes were acquired with a repetition time (TR) of 2000 ms, an echo time (TE) of 30 ms, an in-plane resolution of 64 x 64, a flip angle of 70°, and a voxel size of 3 x 3 x 3 mm³. Furthermore, a T1-weighted image with 176 sagittal slices was acquired (TR = 1900 ms, TE = 2.52 ms, in-plane resolution: 256 x 256, voxel size: 1 x 1 x 1 mm³).</p>
+<p>2.4. fMRI analysis</p>
+<p>Pre-processing and general linear model (GLM) analysis of the fMRI data was performed with SPM12 version v7388 (http://fil.ion.ucl.ac.uk/spm/). During the pre-processing, the functional images were slice-time corrected, realigned to the mean image, and co-registered with the structural image.</p>
+<p>To estimate voxel-wise decision-related activity patterns, we fitted a GLM with a 192 s high-pass filter to each participant’s functional data. Within each GLM, we estimated run-wise beta estimates during the decision phase for all voxels. The two regressors of interest included the categorical outcome of correct decisions (“higher” vs. “lower”) and were convolved with the hemodynamic response function at the onset of the decision phase. Incorrect decisions were modeled with a separate regressor of non-interest. Additionally, six movement parameters, the first five principal components explaining variance in the white matter and cerebrospinal fluid signals respectively (Behzadi et al., 2007) and a run constant, were added as nuisance regressors. Altogether, this yields 20 regressors for each run, resulting in a total of 120 regressors.</p>
+<p>To identify brain regions with activation patterns being predictive of categorical decisions, we applied an MVPA whole-brain searchlight approach for each participant. Voxel-wise activation patterns with above-chance decoding accuracies were obtained with an SVM classifier using version 3.999F of The Decoding Toolbox (TDT;Hebart et al., 2015). A searchlight radius of 4 voxels was used to match the prior study byY. Wu et al. (2021). However, the consistency of the main findings was additionally tested through control analyses with searchlight sizes of 3- and 5-voxel radius. Run-wise beta estimates of the GLM analysis were retrieved for all incorporated voxels of each searchlight. Then, a six-fold leave-one-run-out cross-validation procedure was applied, as implemented in TDT (Hebart et al., 2015). The resulting prediction accuracy maps comprised above-chance decoding accuracies at each searchlight location, depicting the ability to accurately predict the decision (higher vs. lower). For the subsequent group-level analyses, the single-subject correlation maps were normalized to MNI space, resampled to a voxel size of 2 × 2 × 2 mm³, and spatially smoothed using a 3 mm full width at half maximum Gaussian kernel. Correlation maps were then entered into a one-sample t-test, to test for local brain activation patterns that showed significant above-chance decoding accuracies on the group level. The results are presented at a voxel-level threshold ofp&lt; 0.001, corrected at the cluster-level using family-wise error (FWE) correction atp&lt; 0.05. The anatomical regions were identified with the JuBrain Anatomy Toolbox (Eickhoff et al., 2005).</p>
+<p>2.5. fMRI control analyses</p>
+<p>We conducted two additional decoding analysis to identify brain regions encoding information about the motor response and task rule during the decision. To this end, we implemented two separate GLMs with regressors modeling the motor response and task rule at the onset of the decision phase (seeFig. 1). Similar to our main analysis, nuisance regressors were included to control for movement-related effects and variance in white matter and cerebrospinal fluid signals. Subsequently, two MVPA whole-brain searchlight approaches with a searchlight radius of 4 voxels were applied to the resulting beta images. An SVM classifier using a six-fold leave-one-run-out cross-validation procedure was employed to find brain activity patterns with above-chance decoding accuracies for motor responses and task rules.</p>
+<p>To determine whether the reported brain regions encode categorical decisions independently of action planning and selection (left vs. right) and the representation of specific task rules (first against second vs. second against first), we conducted an additional neuroimaging control analysis. Specifically, we repeated the main decoding analysis, while balancing both response direction and task rule across conditions and runs. This was accomplished through a subsampling scheme in which the searchlight decoding analysis was repeated 100 times. For each subsample, a subset of trials was randomly selected to ensure that both response direction and task rules would occur equally as often across choices and runs. The resulting 100 accuracy maps were averaged into a single global accuracy map per participant, which was subsequently used for the second-level analysis. If the results of these subsampling analyses aligned with our main results, this would indicate that our findings were not confounded by motor- or rule-dependent activation.</p>
+<p>2.6. Cross-modal analysis</p>
+<p>One of our main objectives was to investigate the neural underpinnings of perceptual decision across sensory modalities. Therefore, we implemented a conjunction analysis with the vibrotactile data obtained byY. Wu et al. (2021), who used an identical study design as well as identical fMRI analysis parameters. To identify cross-modal decision-specific activation patterns, we entered the first-level accuracy maps from both studies into a flexible factorial second-level model. Then, we computed a conjunction analysis to test the results against the conjunction null hypothesis (Nichols et al., 2005) and reported the results at an uncorrected threshold (p&lt; 0.001). We would, therefore, like to point out that these results, which are not corrected for multiple comparison, must be viewed with caution. However, the high spatial specificity of the results found exclusively in a priori assumed brain areas and the fact that the conjunction null hypothesis is known to be overly conservative (Friston et al., 2005) supports the decision to report these results. In addition to this conservative conjunction approach, a more liberal approach was also implemented by testing against the global null hypothesis (Price &amp; Friston, 1997). However, in this analysis, FWE-correction was applied.</p>
+<p>3. Results</p>
+<p>3.1. Behavioral results</p>
+<p>Participants performed the task with a mean accuracy of 87.6 % (SD: 5.4 %, range: 77.3–96.1 %) and an average response time of 506 ms (SD: 74 ms, range: 389–632 ms). To compare behavioral performances toY. Wu et al. (2021), we used a two-sample z-test of proportions as well as a two-sample t-test to compare response times. The tests revealed no significant difference of mean accuracies (Δaccuracies= 0.4 %,p= 0.964), while response times were slightly lower in our task (ΔRTs= -60 ms,p= 0.024). Overall, the task difficulty was approximately equal between both studies. To assess the effects of rule (compare f1 against f2 vs. f2 against f1), stimulus order (f1 &gt; f2 vs. f1 &lt; f2), and f1 frequency (16 Hz, 20 Hz, 24 Hz, and 28 Hz) on the performance, we implemented a three-way repeated measure analysis of variance (ANOVA). To account for the bounded nature of proportional data, we applied an arcsine transformation to stabilize variance and meet the assumptions of normality required for an ANOVA. The ANOVA revealed substantial performance differences across conditions (seeFig. 2). Similarly toY. Wu et al. (2021), there was no significant main effect of task rule (F(1,23) = 3.626,p= 0.07) and a significant effect of stimulus order (F(1,23) = 60.755,p&lt; 0.001). However, in contrast toY. Wu et al. (2021), this main effect was much stronger, and its direction was reversed, with a better performance in f1 &lt; f2 trials (mean = 92.8 %) than in f1 &gt; f2 trials (mean = 82.3 %). Furthermore, there was a significant interaction between task rule and stimulus order (F(3,69) = 5.063,p= 0.034), indicating that the difference between f1 &lt; f2 trials and f1 &gt; f2 trials would be slightly higher for rule 2 than for rule 1. Similarly toY. Wu et al. (2021), the performance decreased with increasing f1 only in f1 &gt; f2 trials while the performance in f1 &lt; f2 trials remained the same throughout f1 frequencies, indicated by a significant main effect of f1 frequencies (F(1,23) = 15.972,p&lt; 0.001) as well as a significant interaction between stimulus order and f1 frequencies (F(3,69) = 14.389,p&lt; 0.001).</p>
+<p>Fig. 2.</p>
+<p>Open in a new tab</p>
+<p>Behavioral results. The bar plots show the average performance across participants over all runs for different stimulus orders, rules, and f1 frequencies. Error bars show the 95% confidence intervals (CIs).</p>
+<p>We further tested whether potential biases in left and right motor responses within participants could have distorted the main decoding results. Note that the required motor responses were balanced through the task design. To that end, we computed Pearson chi-square tests comparing the distribution of the two conditions “higher” vs. “lower” (indicating whether the true comparison frequency was higher or lower than the reference frequency) between left and right motor responses, for each participant. The results showed a significant difference for one participant (p= 0.045). In the remaining 23 participants, no significant difference was observed (allp&gt; 0.1), suggesting that our main results were not influenced by imbalanced motor responses.</p>
+<p>3.2. fMRI results</p>
+<p>In the current study, our primary aim was to identify brain regions that convey information about perceptual decisions, irrespective of stimulus order and motor responses. To accomplish this, we applied an MVPA, whole-brain searchlight approach during the 2-s decision phase. This approach allowed us to systematically test for brain regions that are predictive of the binary decision (high vs. low). The results of the SVM, as depicted inFigure 3, revealed 6 clusters, mainly located in contralateral parts of premotor and parietal cortices, that showed local activation patterns predicting perceptual decisions irrespective of stimulus order and motor response (FWE corrected at the cluster level atp&lt; 0.05). These included clusters in the left PMv (peak voxel: [-44 6 2]; cluster size: 1627), the left IPS (peak voxel: [-38, -40 58]; cluster size: 1619), the left superior parietal lobule (SPL; peak voxel: [-10 -64 40]; cluster size: 914), the right posterior anterior cingulate cortex (pACC; peak voxel: [24 54 16]; cluster size: 301), the left PMd (peak voxel: [-8 -14 76]; cluster size: 221), and the right SPL (peak voxel: [14 -46 72]; cluster size: 205). For comprehensive details refer toSupplementary Table 1. To further solidify the robustness of our findings, we repeated the SVM with different searchlight radii of 3 and 5 voxels, respectively. Both different searchlight radii reaffirmed the involvement of the same brain regions.</p>
+<p>Fig. 3.</p>
+<p>Open in a new tab</p>
+<p>Results of the SVM analysis. The SVM revealed activation pattern in the left IPS, left PMd, left PMv, right pACC, as well as bilateral SPL that were predictive of categorical decisions. Results are displayed at a voxel-level threshold ofp&lt; 0.001, FWE corrected on the cluster-level atp&lt; 0.05. The unthresholded statistical map is accessible viahttps://neurovault.org/collections/WILTPYNG/images/899935/.</p>
+<p>To test for differences in prediction accuracy between hemispheres for IPS, SPL, PMv, and PMd, single subject prediction accuracies were extracted from the peak voxel in the respective region of each hemisphere and compared with one-sided paired t-tests, hypothesizing higher prediction accuracies in the left hemisphere, contralateral to the effector. The t-test comparing left versus right IPS did not reveal a significantly higher decoding accuracy in the left IPS (t(23) = 1.131,p= 0.269). The same was true for left versus right SPL (t(23) = 0.655,p= 0.519) and left versus right PMd (t(23) = -0.252,p= 0.598). After Bonferroni correction, there was also no significantly higher prediction accuracy in the left versus right PMv (t(23) = 1.727,p= 0.034).</p>
+<p>3.3. fMRI control analyses</p>
+<p>We additionally employed two SVM searchlight analyses to test for brain activation patterns with above-chance decoding accuracies of motor response and task rule during the decision period. Activation patterns selective for the motor response (left vs. right) were observed in the left primary motor cortex as well as in the bilateral occipital cortex. Activation patterns selective for the rule (compare f1 against f2 vs. f2 against f1) were observed in the bilateral PPC and in the bilateral premotor cortex.</p>
+<p>We conducted an additional control analysis to eliminate the possibility that our results were biased by imbalances in the distributions of motor responses or task rules. To achieve this, we repeated the main searchlight decoding analysis while subsampling trials to ensure that response direction and task rules were balanced across decisions and runs. Despite the significant data reduction, this analysis yielded highly similar results to those of our main analysis with significant clusters in the left PMv, left PMd, and bilateral PPC (seeSupplementary Fig. 1).</p>
+<p>3.4. Cross-modal analysis</p>
+<p>The second aim of our study was to identify brain regions that carry information on perceptual decisions across different sensory domains. To achieve this, we conducted a conjunction analysis against the conjunction null hypothesis (Nichols et al., 2005) to compare our results to data of a vibrotactile study (Y. Wu et al., 2021), which used an identical task design. Specifically, we tested the first-level accuracy maps of both studies in a conjunction analysis to assess which brain regions predicted categorical perceptual decisions throughout both modalities. The conjunction analysis revealed above-chance decoding accuracies in the left IPS (peak voxel: [-34 -54 56], cluster size = 85), the left primary motor cortex (peak voxel: [-36 -36 54], cluster size = 54), and the left PMd (peak voxel: [-10 -14 72], cluster size = 6). Please note that these results are reported at a significance threshold ofp&lt; 0.001, without correction for multiple comparisons. The results of the conjunction analysis are depicted inFigure 4. For comprehensive details of the regions reported from the conjunction refer toSupplementary Table 2. To further validate our findings, we also performed a conjunction analysis as a test against the global null hypothesis (Price &amp; Friston, 1997). This more sensitive approach confirmed the results from the conjunction null analysis, revealing above-chance decoding accuracies in the bilateral IPS and left PMd, among other regions (seeSupplementary Fig. 2andSupplementary Table 3). However, although these results indicate that the effects were consistently high and jointly significant, they do not strictly imply that both contrasts were individually significant (Friston et al., 2005). Overall, the brain regions involved in encoding perceptual decisions showed substantial overlap across sensory domains, indicating that decisions are encoded as effector-dependent neural representations, that are at least partially independent of the specific sensory modality.</p>
+<p>Fig. 4.</p>
+<p>Open in a new tab</p>
+<p>Results of the conjunction analysis between our visual data and the vibrotactile data obtained byY. Wu et al. (2021), tested against the conjunction null hypothesis (Nichols et al., 2005). The conjunction revealed above-chance decoding accuracies in the left IPS, the left primary motor cortex (M1), and the left PMd (subregion 6d1 according to the JuBrain Anatomy toolbox,Eickhoff et al., 2005). Results are displayed at a voxel-level threshold ofp&lt; 0.001 (uncorrected). The unthresholded statistical map is accessible viahttps://neurovault.org/collections/WILTPYNG/images/896900/.</p>
+<p>4. Discussion</p>
+<p>In this fMRI study, we aimed to test for effector-dependent neural correlates of decisions in the visual domain that are independent from the required motor response. Thus, we used a visual version of a DMTC task that rendered decisions independent from choice direction and response selection. Thereby, the right hand was pre-specified as the effector, while the motor response—a left or right button press—was unknown during the decision process. The SVM MVPA searchlight approach revealed above-chance decoding accuracies in the left PMd, the left PMv, the left IPS, the right SPL, and the right pACC. Using the same task design and analysis parameters, a similar vibrotactile DMTC study fromY. Wu et al. (2021)reported above-chance decoding accuracies in the left PMd and the left IPS, suggesting a substantial cross-modal overlap between visual and vibrotactile sensory domain. To identify the cross-modal neural correlates of perceptual decision, we computed a conjunction analysis against the conjunction null hypothesis, which was not corrected for whole-brain multiple comparisons, and a conjunction against the global null hypothesis with their data and the present data. Both revealed above-chance decoding accuracies in the left PMd and the left IPS. Altogether, activation patterns in the left PMd and the PPC, particularly in the IPS, showed consistent overlap in predicting perceptual decisions across sensory modalities, irrespective of stimulus order and motor response. While these findings align with the hypothesized regions, suggesting that effector-dependent representations of perceptual decisions may generalize across sensory modalities, the lack of whole-brain correction in the conjunction against the conjunction analysis as well as the limited interpretability of the conjunction against the global null hypothesis should be taken with caution. Nonetheless, alongside previous findings byY. Wu et al. (2019,2021), our results support the hypothesis of an effector-dependent encoding of perceptual decisions that is not only independent of task-related processes but that also generalizes across sensory modalities.</p>
+<p>4.1. The role of the premotor cortex in perceptual decision-making</p>
+<p>The premotor cortex has been found to play a crucial role in perceptual decisions by a series of primate vibrotactile studies which used arm movements or button presses as responses (reviewed inRomo &amp; de Lafuente, 2013). The activity within premotor regions has been linked to different stages of the decision-making process, likely reflecting the integration of mnemonic processes and sensory inputs towards the formation of behavioural responses (e.g.,Hernández et al., 2002;Wallis &amp; Miller, 2003). Results from primate studies suggest that the PMd and PMv is involved in transforming sensory information into action through an evidence accumulation process (e.g.,Cisek &amp; Kalaska, 2005;Lemus et al., 2009;Romo et al., 2004;Wang et al., 2019). While the PMv has been associated to processes linked to action selection, the PMd has been more strongly associated with action preparation (e.g.,Pardo-Vazquez et al., 2008;Pardo-Vázquez et al., 2011). Similarly toY. Wu et al. (2021), our study decoupled the decision from task-related processes, notably motor responses and stimulus order, to identify the precise role of premotor cortices in perceptual decision-making. Both our study and the findings fromY. Wu et al. (2021)indicate that the left PMd is involved in decision-making, irrespective of these task-related processes, supporting the notion that the PMd encodes categorical decisions. In addition to the original findings byY. Wu et al. (2021), we found above-chance decoding accuracies in the left PMv. However, the PMv was not predictive of perceptual decisions in either of the conjunction analyses. Furthermore, in our study, the peak of the PMd was slightly more posterior and medial compared toY. Wu et al. (2021). This, alongside the lack of whole-brain correction for multiple comparisons in the conservative conjunction analysis, suggests that while effector-dependent overlaps are evident, cross-modal differences may also exist in how decisions are represented within the premotor cortices. As hypothesized, the results of our main analysis and conjunction suggest a lateralized encoding of decision-related information in the premotor cortex contralateral to the effector. Although significant clusters were only observed in the contralateral hemisphere of PMv and PMd, a comparison of peak-voxels within PMd and PMv did not reveal a significantly higher decoding accuracy in the contralateral hemisphere. Thus, it remains possible that the more abstract effector-dependent representations investigated in our study could be represented partially bilaterally. This suggests that the observed activation patterns in premotor cortices might not be purely specific to an effector but rather represent more complex, associative processes that involve perception, working memory, and categorical decisions as suggested byRossi-Pool et al. (2017). Overall, our findings support the relevance of the premotor cortex in perceptual decision-making, even when participants have no knowledge about the upcoming motor response if the effector is pre-specified. Although our study suggests an effector-dependent but motor-response independent encoding of perceptual decisions, it needs further research to elaborate the precise role of the premotor cortex.</p>
+<p>4.2. The role of the posterior parietal cortex in perceptual decision-making in primates</p>
+<p>A substantial body of primate studies investigating the neural correlates of perceptual decision-making has focused on the role of the PPC, with particular emphasis on LIP neurons (Gold &amp; Shadlen, 2007). Most visual decision studies suggested that LIP neurons are predominantly involved in an effector-dependent evidence accumulation process among competing saccade responses (Roitman &amp; Shadlen, 2002;Shadlen &amp; Newsome, 2001). However, almost all these studies used visual random dot motion tasks with saccades as response effectors, making it difficult to draw clear conclusions on the precise involvement of posterior parietal regions. Accordingly, recent primate studies have challenged this notion, showing that LIP neurons encoded perceptual decisions even in situations where the response was unpredictable during stimulus presentation (Shushruth et al., 2022) or disrupted (So &amp; Shadlen, 2022). Freedman and colleagues conducted a series of studies employing a delayed match-to-category task with arbitrary categories of different random dot motion stimuli and manual arm movements as response modalities. Their results indicated that activity in LIP neurons reflect categorical decisions independent of specific effectors or sensory modalities (Freedman &amp; Assad, 2006;Swaminathan &amp; Freedman, 2012;Swaminathan et al., 2013). Furthermore, by pharmacological inactivation, they demonstrated that LIP neurons have a causal role in evaluating task-relevant sensory stimuli that goes beyond the previously suggested primary function of merely representing motor responses (Zhou &amp; Freedman, 2019). Interestingly, LIP inactivation impaired performance levels across different decision-making tasks regardless of the response modality used (Zhou et al., 2023). Overall, findings from primate studies suggest that neuronal activity in the PPC reflects decisions beyond a specific effector. Thus, despite its repeatedly demonstrated involvement in perceptual decision-making, the precise role of the PPC remains unclear.</p>
+<p>4.3. Sensorimotor mapping in the posterior parietal cortex</p>
+<p>Similar to the abovementioned primate studies, human neuroimaging studies also challenge an exclusively effector-specific role of the PPC in perceptual decision-making. For instance, different regions of the PPC exhibited sustained activity throughout both arm reaching and saccadic responses, albeit with local variations in effector preference (Levy et al., 2007). Along these lines, a recent behavioral study on visual learning showed that training effects were only partially transferred between saccadic and reach responses. This partial learning transfer suggests that perceptual learning is neither entirely effector-dependent nor completely effector-independent but rather entails a sensorimotor mapping from visual regions to effector-dependent integrator regions. Given the PPC’s localization within the sensorimotor hierarchy as well as its overlapping encoding of multiple effectors, it emerges as a likely candidate region for a sensorimotor mapping across effectors (Ivanov et al., 2024). This notion was further supported by findings from the vibrotactile DMTC studies byY. Wu et al. (2019,2021), who showed that the IPS was predictive of binary decisions regardless of whether the effector was saccades or button-presses. Our results replicate these findings in a perceptual decision task in a different sensory modality, indicating that the IPS does not only represent decisions beyond the motor response but also independent of the stimulus modality. Overall, this implies that the PPC conveys an abstract decision variable across multiple domains, with a varying degree of effector-dependence.</p>
+<p>4.4. Effector-dependent representations across sensory modalities</p>
+<p>As described in the sections above, findings from primate studies overwhelmingly provide evidence for fully and partly effector-dependent representations of visual decisions in premotor and posterior parietal regions. Conversely, when decoupling the decision from the motor response, human imaging studies suggest that decisions tend to be represented either in a more abstract manner in posterior parietal and prefrontal brain regions (e.g.,Filimon et al., 2013;Heekeren et al., 2008) or in brain areas associated with sensory specific stimulus features (Liu &amp; Pleskac, 2011). In contrast, when decoupling decisions from the motor response in a vibrotactile DMTC task,Y. Wu et al. (2019,2021)demonstrated that activation patterns in brain regions associated with specific effectors (in the FEF for saccadic responses and in the PMd for button press responses) were still predictive of categorical decisions. Comparing these findings to studies in the visual domain (e.g.,Liu &amp; Pleskac, 2011) indicates that there might be an interaction between effector and stimulus modality. However, using a visual DMTC task with button presses as the response, our results revealed activation patterns in highly similar brain regions linked to specific effectors that also persisted in the cross-modal comparison between the visual and vibrotactile stimulus domains, although in slightly different subregions of the PMd and at an uncorrected threshold in the strict conjunction. While this overlap provides evidence for an effector-dependent component in the encoding of perceptual decisions, it is important to consider the heterogeneity of neural responses within these regions. For instance, the PMd, while associated with finger-based responses (e.g., button presses), has also been linked to other effectors, such as the arm for reaching (Hoshi &amp; Tanji, 2002), the hand for grasping (Caccialupi et al., 2025) and the foot for foot movements (Sahyoun et al., 2004), albeit with different subregions involved. Moreover, responses in these brain regions have also been implicated in effector-independent processing of sensory or abstract information during perceptual decisions. For instance, primate studies have shown that while some single-units in the FEF are tuned to effector-dependent features, others encode sensory attributes like stimulus movement (Ding &amp; Gold, 2012;Purcell et al., 2012). Since fMRI does not provide the resolution needed to distinguish between neuronal populations within subregions, our results cannot confirm or rule out a purely effector-specific representation. Nonetheless, the considerable similarity between the representations of vibrotactile and visual modality in these regions, combined with the orthogonalization of decisions from motor responses and sensory task attributes in the task design, suggests a substantial effector-dependent component. This interpretation is further supported by comparing our results to a similar vibrotactile study byY. Wu et al. (2019), which used eye movements as the required motor response and reported above-chance decoding accuracies in the FEF but not in the PMd. Additional insight can be provided from the mouse model byZ. Wu et al. (2020). They used optogenetics to inactivate premotor areas in an olfactory delayed match to sample task. Similar to our study, the mice knew the effector modality but were not able to plan a specific motor movement before the response. The disruption of neurons in the premotor cortex impaired task performance, suggesting that the relevance of premotor regions extend beyond the preparation of movements. Along with our results, it appears that the effector-dependent encoding of perceptual decisions in brain regions classically associated with planning and executing specific movements does not strictly constitute a mapping that is bound to a specific motor-movement. Rather, effector-dependent representations in these brain regions appear to retain abstract information about stimulus identity and subsequently transforming it into motor responses.</p>
+<p>4.5. Flexible representations of perceptual decision processes</p>
+<p>The findings from human studies seem to be somewhat incoherent, with some of them supporting an effector-dependent representation of perceptual decisions while others suggest more abstract or sensory-modality specific representations (Liu &amp; Pleskac, 2011). However, upon further examination, this apparent discrepancy may be attributed to fundamental differences in analysis methods and task design. Firstly, our study employed a multivariate approach that aims towards uncovering nuanced local cortical activation patterns instead of focusing solely on average BOLD-signal. Consequently, distinct patterns that rely on both activation and deactivation may have been averaged out in studies that use conventional fMRI analyses. Secondly, and perhaps more importantly, our study rendered decisions independent of a specific motor response while still preserving dependence on the effector itself. In contrast, prior studies that aimed to disentangle motor responses and decisions relied on abstract associations between decision and motor response, wherein participants were unaware of the effector until making their response. Overall, this implies that decisions are represented flexibly, depending on task demands. When a task does not pre-specify an effector, a decision between stimuli cannot be directly mapped to brain regions involved in planning and executing the respective motor responses. Instead, information remains within brain areas associated with the sensory modality (Liu &amp; Pleskac, 2011) or is transferred to a central, more abstract decision hub, for example, in posterior parietal regions (O’Connell et al., 2012;Sandhaeger et al., 2023). On the other hand, if an effector is pre-specified, although a decision cannot be directly transformed into a specific motor response, decisions are categorized as abstract motor intentions in brain regions associated with the required effectors, facilitating the transformation into specific motor plans and actions upon presentation of the response mapping.</p>
+<p>4.6. Conclusion</p>
+<p>In conclusion, our fMRI study suggests that if a response effector is pre-specified, local brain activation patterns encode perceptual decisions in an effector-dependent manner. Notably this encoding remains independent of stimulus order, motor response, and likely sensory modality. It is conceivable that the PMd processes such effector-dependent decision signals, while the IPS adopts a more abstract representation of perceptual decisions which persists across different effectors. Overall, our findings support the notion of a cross-modal, effector-dependent representation of perceptual decisions if an effector is pre-specified, although there may be variations in how these representations manifest across different subregions. Being the first study comparing perceptual decisions across different sensory modalities in an equivalent experimental task that controls for motor- and task-related confounds, our study contributes to a deeper understanding of perceptual decision-making across a variety of sensory contexts.</p>
+<p>Supplementary Material</p>
+<p>Supplementary Material</p>
+<p>imag.a.11_supp.pdf (329.2KB, pdf)</p>
+<p>Data and Code Availability</p>
+<p>The data that support the findings of this study are available on request to M.F.E. (marlon.esmeyer@fu-berlin.de). In accordance with EU’s General Data Protection Regulation and specifications in data protection section of the participants consent forms, we cannot share raw fMRI data. However, group-level statistical maps are available at:https://neurovault.org/collections/WILTPYNG/. All analysis scripts are available at:https://github.com/marlones95/vDMTC.git.</p>
+<p>Author Contributions</p>
+<p>M.F.E.: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Software, Validation, Visualization, and Writing—original draft. T.T.S.: Conceptualization, Methodology, Software, Supervision, Validation, Visualization, and Writing—review and editing. F.B.: Conceptualization, Funding acquisition, Methodology, Project administration, Resources, Supervision, Validation, and Writing—review and editing.</p>
+<p>Funding</p>
+<p>This research was supported by the Deutsche Forschungsgemeinschaft (DFG) – project number: 656512. M.F.E. is a PhD fellow at the Berlin School of Mind and Brain and is funded by a PhD scholarship from the Studienstiftung des deutschen Volkes.</p>
+<p>Declaration of Competing Interest</p>
+<p>None.</p>
+<p>Supplementary Materials</p>
+<p>Supplementary material for this article is available with the online version here:https://doi.org/10.1162/imag.a.11.</p>
+<p>References</p>
+<p>Behzadi , Y.</p>
+<p>,</p>
+<p>Restom , K.</p>
+<p>,</p>
+<p>Liau , J.</p>
+<p>, &amp;</p>
+<p>Liu , T. T.</p>
+<p>( 2007. ). A component based noise correction method (CompCor) for BOLD and perfusion based fMRI . NeuroImage , 37 ( 1 ), 90 – 101 . 10.1016/j.neuroimage.2007.04.042</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Brainard , D. H.</p>
+<p>( 1997. ). The Psychophysics Toolbox . Spatial Vision , 10 ( 4 ), 433 – 436 . 10.1163/156856897X00357</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Caccialupi , G.</p>
+<p>,</p>
+<p>Schmidt , T. T.</p>
+<p>,</p>
+<p>Nierhaus , T.</p>
+<p>,</p>
+<p>Wesolek , S.</p>
+<p>,</p>
+<p>Esmeyer , M.</p>
+<p>, &amp;</p>
+<p>Blankenburg , F.</p>
+<p>( 2025. ). Decoding parametric grip‐force anticipation from fMRI data . Human Brain Mapping , 46 ( 3 ), e70154 . 10.1002/hbm.70154</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Cisek , P.</p>
+<p>, &amp;</p>
+<p>Kalaska , J. F.</p>
+<p>( 2005. ). Neural correlates of reaching decisions in dorsal premotor cortex: Specification of multiple direction choices and final selection of action . Neuron , 45 ( 5 ), 801 – 814 . 10.1016/j.neuron.2005.01.027</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>de Lafuente , V.</p>
+<p>, &amp;</p>
+<p>Romo , R.</p>
+<p>( 2005. ). Neuronal correlates of subjective sensory experience . Nature Neuroscience , 8 ( 12 ), 1698 – 1703 . 10.1038/nn1587</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Ding , L.</p>
+<p>, &amp;</p>
+<p>Gold , J. I.</p>
+<p>( 2012. ). Neural correlates of perceptual decision making before, during, and after decision commitment in monkey frontal eye field . Cerebral Cortex (New York, N.Y.: 1991) , 22 ( 5 ), 1052 – 1067 . 10.1093/cercor/bhr178</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Eickhoff , S. B.</p>
+<p>,</p>
+<p>Stephan , K. E.</p>
+<p>,</p>
+<p>Mohlberg , H.</p>
+<p>,</p>
+<p>Grefkes , C.</p>
+<p>,</p>
+<p>Fink , G. R.</p>
+<p>,</p>
+<p>Amunts , K.</p>
+<p>, &amp;</p>
+<p>Zilles , K.</p>
+<p>( 2005. ). A new SPM toolbox for combining probabilistic cytoarchitectonic maps and functional imaging data . NeuroImage , 25 ( 4 ), 1325 – 1335 . 10.1016/j.neuroimage.2004.12.034</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Filimon , F.</p>
+<p>,</p>
+<p>Philiastides , M. G.</p>
+<p>,</p>
+<p>Nelson , J. D.</p>
+<p>,</p>
+<p>Kloosterman , N. A.</p>
+<p>, &amp;</p>
+<p>Heekeren , H. R.</p>
+<p>( 2013. ). How embodied is perceptual decision making? Evidence for separate processing of perceptual and motor decisions . The Journal of Neuroscience , 33 ( 5 ), 2121 – 2136 . 10.1523/JNEUROSCI.2334-12.2013</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Freedman , D. J.</p>
+<p>, &amp;</p>
+<p>Assad , J. A.</p>
+<p>( 2006. ). Experience-dependent representation of visual categories in parietal cortex . Nature , 443 ( 7107 ), 85 – 88 . 10.1038/nature05078</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Friston , K. J.</p>
+<p>,</p>
+<p>Penny , W. D.</p>
+<p>, &amp;</p>
+<p>Glaser , D. E.</p>
+<p>( 2005. ). Conjunction revisited . NeuroImage , 25 ( 3 ), 661 – 667 . 10.1016/j.neuroimage.2005.01.013</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Gold , J. I.</p>
+<p>, &amp;</p>
+<p>Shadlen , M. N.</p>
+<p>( 2007. ). The neural basis of decision making . Annual Review of Neuroscience , 30 , 535 – 574 . 10.1146/annurev.neuro.29.051605.113038 [DOI] [PubMed] [Google Scholar]</p>
+<p>Haegens , S.</p>
+<p>,</p>
+<p>Nácher , V.</p>
+<p>,</p>
+<p>Hernández , A.</p>
+<p>,</p>
+<p>Luna , R.</p>
+<p>,</p>
+<p>Jensen , O.</p>
+<p>, &amp;</p>
+<p>Romo , R.</p>
+<p>( 2011. ). Beta oscillations in the monkey sensorimotor network reflect somatosensory decision making . Proceedings of the National Academy of Sciences , 108 ( 26 ), 10708 – 10713 . 10.1073/pnas.1107297108 [DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Hebart , M. N.</p>
+<p>,</p>
+<p>Donner , T. H.</p>
+<p>, &amp;</p>
+<p>Haynes , J.-D.</p>
+<p>( 2012. ). Human visual and parietal cortex encode visual choices independent of motor plans . NeuroImage , 63 ( 3 ), 1393 – 1403 . 10.1016/j.neuroimage.2012.08.027</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Hebart , M. N.</p>
+<p>,</p>
+<p>Görgen , K.</p>
+<p>, &amp;</p>
+<p>Haynes , J.-D.</p>
+<p>( 2015. ). The decoding toolbox (TDT): A versatile software package for multivariate analyses of functional imaging data . Frontiers in Neuroinformatics , 8 , 88 . https://www.frontiersin.org/articles/10.3389/fninf.2014.00088</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Hebart , M. N.</p>
+<p>,</p>
+<p>Schriever , Y.</p>
+<p>,</p>
+<p>Donner , T. H.</p>
+<p>, &amp;</p>
+<p>Haynes , J.-D.</p>
+<p>( 2016. ). The relationship between perceptual decision variables and confidence in the human brain . Cerebral Cortex (New York, N.Y.: 1991) , 26 ( 1 ), 118 – 130 . 10.1093/cercor/bhu181</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Heekeren , H. R.</p>
+<p>,</p>
+<p>Marrett , S.</p>
+<p>,</p>
+<p>Ruff , D. A.</p>
+<p>,</p>
+<p>Bandettini , P. A.</p>
+<p>, &amp;</p>
+<p>Ungerleider , L. G.</p>
+<p>( 2006. ). Involvement of human left dorsolateral prefrontal cortex in perceptual decision making is independent of response modality . Proceedings of the National Academy of Sciences of the United States of America , 103 ( 26 ), 10023 – 10028 . 10.1073/pnas.0603949103</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Heekeren , H. R.</p>
+<p>,</p>
+<p>Marrett , S.</p>
+<p>, &amp;</p>
+<p>Ungerleider , L. G.</p>
+<p>( 2008. ). The neural systems that mediate human perceptual decision making . Nature Reviews Neuroscience , 9 ( 6 ), 467 – 479 . 10.1038/nrn2374</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Herding , J.</p>
+<p>,</p>
+<p>Ludwig , S.</p>
+<p>,</p>
+<p>von Lautz , A.</p>
+<p>,</p>
+<p>Spitzer , B.</p>
+<p>, &amp;</p>
+<p>Blankenburg , F.</p>
+<p>( 2019. ). Centro-parietal EEG potentials index subjective evidence and confidence during perceptual decision making . NeuroImage , 201 , 116011 . 10.1016/j.neuroimage.2019.116011</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Herding , J.</p>
+<p>,</p>
+<p>Spitzer , B.</p>
+<p>, &amp;</p>
+<p>Blankenburg , F.</p>
+<p>( 2016. ). Upper beta band oscillations in human premotor cortex encode subjective choices in a vibrotactile comparison task . Journal of Cognitive Neuroscience , 28 ( 5 ), 668 – 679 . 10.1162/jocn_a_00932</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Hernández , A.</p>
+<p>,</p>
+<p>Nácher , V.</p>
+<p>,</p>
+<p>Luna , R.</p>
+<p>,</p>
+<p>Zainos , A.</p>
+<p>,</p>
+<p>Lemus , L.</p>
+<p>,</p>
+<p>Alvarez , M.</p>
+<p>,</p>
+<p>Vázquez , Y.</p>
+<p>,</p>
+<p>Camarillo , L.</p>
+<p>, &amp;</p>
+<p>Romo , R.</p>
+<p>( 2010. ). Decoding a perceptual decision process across cortex . Neuron , 66 ( 2 ), 300 – 314 . 10.1016/j.neuron.2010.03.031</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Hernández , A.</p>
+<p>,</p>
+<p>Zainos , A.</p>
+<p>, &amp;</p>
+<p>Romo , R.</p>
+<p>( 2002. ). Temporal evolution of a decision-making process in medial premotor cortex . Neuron , 33 ( 6 ), 959 – 972 . 10.1016/s0896-6273(02)00613-x</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Hoshi , E.</p>
+<p>, &amp;</p>
+<p>Tanji , J.</p>
+<p>( 2002. ). Contrasting neuronal activity in the dorsal and ventral premotor areas during preparation to reach . Journal of Neurophysiology , 87 ( 2 ), 1123 – 1128 . 10.1152/jn.00496.2001</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Ivanov , V.</p>
+<p>,</p>
+<p>Manenti , G. L.</p>
+<p>,</p>
+<p>Plewe , S. S.</p>
+<p>,</p>
+<p>Kagan , I.</p>
+<p>, &amp;</p>
+<p>Schwiedrzik , C. M.</p>
+<p>( 2024. ). Decision-making processes in perceptual learning depend on effectors . Scientific Reports , 14 ( 1 ), 5644 . 10.1038/s41598-024-55508-5</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Jun , J. K.</p>
+<p>,</p>
+<p>Miller , P.</p>
+<p>,</p>
+<p>Hernández , A.</p>
+<p>,</p>
+<p>Zainos , A.</p>
+<p>,</p>
+<p>Lemus , L.</p>
+<p>,</p>
+<p>Brody , C. D.</p>
+<p>, &amp;</p>
+<p>Romo , R.</p>
+<p>( 2010. ). Heterogenous population coding of a short-term memory and decision task . Journal of Neuroscience , 30 ( 3 ), 916 – 929 . 10.1523/JNEUROSCI.2062-09.2010</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Kriegeskorte , N.</p>
+<p>,</p>
+<p>Goebel , R.</p>
+<p>, &amp;</p>
+<p>Bandettini , P.</p>
+<p>( 2006. ). Information-based functional brain mapping . Proceedings of the National Academy of Sciences of the United States of America , 103 ( 10 ), 3863 – 3868 . 10.1073/pnas.0600244103</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>LaMotte , R. H.</p>
+<p>, &amp;</p>
+<p>Mountcastle , V. B.</p>
+<p>( 1975. ). Capacities of humans and monkeys to discriminate vibratory stimuli of different frequency and amplitude: A correlation between neural events and psychological measurements . Journal of Neurophysiology , 38 ( 3 ), 539 – 559 . 10.1152/jn.1975.38.3.539</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Lemus , L.</p>
+<p>,</p>
+<p>Hernández , A.</p>
+<p>, &amp;</p>
+<p>Romo , R.</p>
+<p>( 2009. ). Neural encoding of auditory discrimination in ventral premotor cortex . Proceedings of the National Academy of Sciences , 106 ( 34 ), 14640 – 14645 . 10.1073/pnas.0907505106 [DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Levy , I.</p>
+<p>,</p>
+<p>Schluppeck , D.</p>
+<p>,</p>
+<p>Heeger , D. J.</p>
+<p>, &amp;</p>
+<p>Glimcher , P. W.</p>
+<p>( 2007. ). Specificity of human cortical areas for reaches and saccades . The Journal of Neuroscience , 27 ( 17 ), 4687 – 4696 . 10.1523/JNEUROSCI.0459-07.2007</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Liu , T.</p>
+<p>, &amp;</p>
+<p>Pleskac , T. J.</p>
+<p>( 2011. ). Neural correlates of evidence accumulation in a perceptual decision task . Journal of Neurophysiology , 106 ( 5 ), 2383 – 2398 . 10.1152/jn.00413.2011</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Ludwig , S.</p>
+<p>,</p>
+<p>Herding , J.</p>
+<p>, &amp;</p>
+<p>Blankenburg , F.</p>
+<p>( 2018. ). Oscillatory EEG signatures of postponed somatosensory decisions . Human Brain Mapping , 39 ( 9 ), 3611 – 3624 . 10.1002/hbm.24198</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Nichols , T.</p>
+<p>,</p>
+<p>Brett , M.</p>
+<p>,</p>
+<p>Andersson , J.</p>
+<p>,</p>
+<p>Wager , T.</p>
+<p>, &amp;</p>
+<p>Poline , J.-B.</p>
+<p>( 2005. ). Valid conjunction inference with the minimum statistic . NeuroImage , 25 ( 3 ), 653 – 660 . 10.1016/j.neuroimage.2004.12.005</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>O’Connell , R. G.</p>
+<p>,</p>
+<p>Dockree , P. M.</p>
+<p>, &amp;</p>
+<p>Kelly , S. P.</p>
+<p>( 2012. ). A supramodal accumulation-to-bound signal that determines perceptual decisions in humans . Nature Neuroscience , 15 ( 12 ), 1729 – 1735 . 10.1038/nn.3248</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Oldfield , R. C.</p>
+<p>( 1971. ). The assessment and analysis of handedness: The Edinburgh inventory . Neuropsychologia , 9 ( 1 ), 97 – 113 . 10.1016/0028-3932(71)90067-4</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Pardo-Vazquez , J. L.</p>
+<p>,</p>
+<p>Leboran , V.</p>
+<p>, &amp;</p>
+<p>Acuña , C.</p>
+<p>( 2008. ). Neural correlates of decisions and their outcomes in the ventral premotor cortex . The Journal of Neuroscience: The Official Journal of the Society for Neuroscience , 28 ( 47 ), 12396 – 12408 . 10.1523/JNEUROSCI.3396-08.2008</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Pardo-Vázquez , J. L.</p>
+<p>,</p>
+<p>Padron , I.</p>
+<p>,</p>
+<p>Fernandez-Rey , J.</p>
+<p>, &amp;</p>
+<p>Acuña , C.</p>
+<p>( 2011. ). Decision-making in the ventral premotor cortex harbinger of action . Frontiers in Integrative Neuroscience , 5 , 54 . 10.3389/fnint.2011.00054</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Price , C. J.</p>
+<p>, &amp;</p>
+<p>Friston , K. J.</p>
+<p>( 1997. ). Cognitive conjunction: A new approach to brain activation experiments . NeuroImage , 5 ( 4 Pt 1 ), 261 – 270 . 10.1006/nimg.1997.0269</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Purcell , B. A.</p>
+<p>,</p>
+<p>Heitz , R. P.</p>
+<p>,</p>
+<p>Cohen , J. Y.</p>
+<p>, &amp;</p>
+<p>Schall , J. D.</p>
+<p>( 2012. ). Response variability of frontal eye field neurons modulates with sensory input and saccade preparation but not visual search salience . Journal of Neurophysiology , 108 ( 10 ), 2737 – 2750 . 10.1152/jn.00613.2012</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Roitman , J. D.</p>
+<p>, &amp;</p>
+<p>Shadlen , M. N.</p>
+<p>( 2002. ). Response of neurons in the lateral intraparietal area during a combined visual discrimination reaction time task . The Journal of Neuroscience: The Official Journal of the Society for Neuroscience , 22 ( 21 ), 9475 – 9489 . 10.1523/JNEUROSCI.22-21-09475.2002</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Romo , R.</p>
+<p>, &amp;</p>
+<p>de Lafuente , V</p>
+<p>. ( 2013. ). Conversion of sensory signals into perceptual decisions . Progress in Neurobiology , 103 , 41 – 75 . 10.1016/j.pneurobio.2012.03.007</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Romo , R.</p>
+<p>,</p>
+<p>Hernández , A.</p>
+<p>, &amp;</p>
+<p>Zainos , A.</p>
+<p>( 2004. ). Neuronal correlates of a perceptual decision in ventral premotor cortex . Neuron , 41 ( 1 ), 165 – 173 . 10.1016/s0896-6273(03)00817-1</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Romo , R.</p>
+<p>,</p>
+<p>Hernández , A.</p>
+<p>,</p>
+<p>Zainos , A.</p>
+<p>,</p>
+<p>Lemus , L.</p>
+<p>, &amp;</p>
+<p>Brody , C. D.</p>
+<p>( 2002. ). Neuronal correlates of decision-making in secondary somatosensory cortex . Nature Neuroscience , 5 ( 11 ), 1217 – 1225 . 10.1038/nn950</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Rossi-Pool , R.</p>
+<p>,</p>
+<p>Zainos , A.</p>
+<p>,</p>
+<p>Alvarez , M.</p>
+<p>,</p>
+<p>Zizumbo , J.</p>
+<p>,</p>
+<p>Vergara , J.</p>
+<p>, &amp;</p>
+<p>Romo , R.</p>
+<p>( 2017. ). Decoding a decision process in the neuronal population of dorsal premotor cortex . Neuron , 96 ( 6 ), 1432 - 1446.e7 . 10.1016/j.neuron.2017.11.023</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Sahyoun , C.</p>
+<p>,</p>
+<p>Floyer-Lea , A.</p>
+<p>,</p>
+<p>Johansen-Berg , H.</p>
+<p>, &amp;</p>
+<p>Matthews , P. M.</p>
+<p>( 2004. ). Towards an understanding of gait control: Brain activation during the anticipation, preparation and execution of foot movements . NeuroImage , 21 ( 2 ), 568 – 575 . 10.1016/j.neuroimage.2003.09.065</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Sandhaeger , F.</p>
+<p>,</p>
+<p>Omejc , N.</p>
+<p>,</p>
+<p>Pape , A.-A.</p>
+<p>, &amp;</p>
+<p>Siegel , M.</p>
+<p>( 2023. ). Abstract perceptual choice signals during action-linked decisions in the human brain . PLoS Biology , 21 ( 10 ), e3002324 . 10.1371/journal.pbio.3002324</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Shadlen , M. N.</p>
+<p>,</p>
+<p>Britten , K. H.</p>
+<p>,</p>
+<p>Newsome , W. T.</p>
+<p>, &amp;</p>
+<p>Movshon , J. A.</p>
+<p>( 1996. ). A computational analysis of the relationship between neuronal and behavioral responses to visual motion . Journal of Neuroscience , 16 ( 4 ), 1486 – 1510 . 10.1523/JNEUROSCI.16-04-01486.1996</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Shadlen , M. N.</p>
+<p>,</p>
+<p>Kiani , R.</p>
+<p>,</p>
+<p>Hanks , T. D.</p>
+<p>, &amp;</p>
+<p>Churchland , A. K.</p>
+<p>( 2008. ). Neurobiology of decision making: An intentional framework . 10.7551/mitpress/7735.003.0007 [DOI]</p>
+<p>Shadlen , M. N.</p>
+<p>, &amp;</p>
+<p>Newsome , W. T.</p>
+<p>( 2001. ). Neural basis of a perceptual decision in the parietal cortex (area LIP) of the rhesus monkey . Journal of Neurophysiology , 86 ( 4 ), 1916 – 1936 . 10.1152/jn.2001.86.4.1916</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Shushruth , S.</p>
+<p>,</p>
+<p>Zylberberg , A.</p>
+<p>, &amp;</p>
+<p>Shadlen , M. N.</p>
+<p>( 2022. ). Sequential sampling from memory underlies action selection during abstract decision-making . Current Biology , 32 ( 9 ), 1949 - 1960.e5 . 10.1016/j.cub.2022.03.014</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>So , N.</p>
+<p>, &amp;</p>
+<p>Shadlen , M. N.</p>
+<p>( 2022. ). Decision formation in parietal cortex transcends a fixed frame of reference . Neuron , 110 ( 19 ), 3206 - 3215.e5 . 10.1016/j.neuron.2022.07.019</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Swaminathan , S. K.</p>
+<p>, &amp;</p>
+<p>Freedman , D. J.</p>
+<p>( 2012. ). Preferential encoding of visual categories in parietal cortex compared with prefrontal cortex . Nature Neuroscience , 15 ( 2 ), 315 – 320 . 10.1038/nn.3016</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Swaminathan , S. K.</p>
+<p>,</p>
+<p>Masse , N. Y.</p>
+<p>, &amp;</p>
+<p>Freedman , D. J.</p>
+<p>( 2013. ). A comparison of lateral and medial intraparietal areas during a visual categorization task . The Journal of Neuroscience , 33 ( 32 ), 13157 – 13170 . 10.1523/JNEUROSCI.5723-12.2013</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Tsunada , J.</p>
+<p>,</p>
+<p>Liu , A. S. K.</p>
+<p>,</p>
+<p>Gold , J. I.</p>
+<p>, &amp;</p>
+<p>Cohen , Y. E.</p>
+<p>( 2016. ). Causal contribution of primate auditory cortex to auditory perceptual decision-making . Nature Neuroscience , 19 ( 1 ), 135 – 142 . 10.1038/nn.4195</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Wallis , J. D.</p>
+<p>, &amp;</p>
+<p>Miller , E. K.</p>
+<p>( 2003. ). From rule to response: Neuronal processes in the premotor and prefrontal cortex . Journal of Neurophysiology , 90 ( 3 ), 1790 – 1806 . 10.1152/jn.00086.2003</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Wang , M.</p>
+<p>,</p>
+<p>Montanède , C.</p>
+<p>,</p>
+<p>Chandrasekaran , C.</p>
+<p>,</p>
+<p>Peixoto , D.</p>
+<p>,</p>
+<p>Shenoy , K. V.</p>
+<p>, &amp;</p>
+<p>Kalaska , J. F.</p>
+<p>( 2019. ). Macaque dorsal premotor cortex exhibits decision-related activity only when specific stimulus–Response associations are known . Nature Communications , 10 ( 1 ), 1793 . 10.1038/s41467-019-09460-y [DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Wu , Y.</p>
+<p>,</p>
+<p>Velenosi , L. A.</p>
+<p>, &amp;</p>
+<p>Blankenburg , F.</p>
+<p>( 2021. ). Response modality-dependent categorical choice representations for vibrotactile comparisons . NeuroImage , 226 , 117592 . 10.1016/j.neuroimage.2020.117592</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Wu , Y.</p>
+<p>,</p>
+<p>Velenosi , L. A.</p>
+<p>,</p>
+<p>Schröder , P.</p>
+<p>,</p>
+<p>Ludwig , S.</p>
+<p>, &amp;</p>
+<p>Blankenburg , F.</p>
+<p>( 2019. ). Decoding vibrotactile choice independent of stimulus order and saccade selection during sequential comparisons . Human Brain Mapping , 40 ( 6 ), 1898 – 1907 . 10.1002/hbm.24499</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Wu , Z.</p>
+<p>,</p>
+<p>Litwin-Kumar , A.</p>
+<p>,</p>
+<p>Shamash , P.</p>
+<p>,</p>
+<p>Taylor , A.</p>
+<p>,</p>
+<p>Axel , R.</p>
+<p>, &amp;</p>
+<p>Shadlen , M. N.</p>
+<p>( 2020. ). Context-dependent decision making in a premotor circuit . Neuron , 106 ( 2 ), 316 - 328.e6 . 10.1016/j.neuron.2020.01.034</p>
+<p>[DOI] [PubMed] [Google Scholar]</p>
+<p>Zhou , Y.</p>
+<p>, &amp;</p>
+<p>Freedman , D. J.</p>
+<p>( 2019. ). Posterior parietal cortex plays a causal role in perceptual and categorical decisions . Science (New York, N.Y.) , 365 ( 6449 ), 180 – 185 . 10.1126/science.aaw8347</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Zhou , Y.</p>
+<p>,</p>
+<p>Zhu , O.</p>
+<p>, &amp;</p>
+<p>Freedman , D. J.</p>
+<p>( 2023. ). Posterior parietal cortex plays a causal role in abstract memory-based visual categorical decisions . Journal of Neuroscience , 43 ( 23 ), 4315 – 4328 . 10.1523/JNEUROSCI.2241-22.2023</p>
+<p>[DOI] [PMC free article] [PubMed] [Google Scholar]</p>
+<p>Associated Data</p>
+<p>This section collects any data citations, data availability statements, or supplementary materials included in this article.</p>
+<p>Supplementary Materials</p>
+<p>Supplementary Material</p>
+<p>imag.a.11_supp.pdf (329.2KB, pdf)</p>
+<p>Data Availability Statement</p>
+<p>The data that support the findings of this study are available on request to M.F.E. (marlon.esmeyer@fu-berlin.de). In accordance with EU’s General Data Protection Regulation and specifications in data protection section of the participants consent forms, we cannot share raw fMRI data. However, group-level statistical maps are available at:https://neurovault.org/collections/WILTPYNG/. All analysis scripts are available at:https://github.com/marlones95/vDMTC.git.</p>
+<p>Articles from Imaging Neuroscience are provided here courtesy of MIT Press</p></html>

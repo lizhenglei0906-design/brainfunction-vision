@@ -1,0 +1,5019 @@
+[
+  {
+    "sourceId": "amalric-dehaene-2016-advanced-math",
+    "title": "Origins of the brain networks for advanced mathematics in expert mathematicians",
+    "citation": "Amalric M, Dehaene S. Proceedings of the National Academy of Sciences. 2016;113(18):4909-4917.",
+    "doi": "10.1073/pnas.1603205113",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1073/pnas.1603205113"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1073/pnas.1603205113"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "aron-2004-right-ifc-inhibition",
+    "title": "Inhibition and the right inferior frontal cortex",
+    "citation": "Aron AR, Robbins TW, Poldrack RA. Trends in Cognitive Sciences. 2004;8(4):170-177.",
+    "doi": "10.1016/j.tics.2004.02.010",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.tics.2004.02.010"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.tics.2004.02.010"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/15050513/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "aron-2014-response-inhibition",
+    "title": "Inhibition and the right inferior frontal cortex: one decade on",
+    "citation": "Aron AR, Robbins TW, Poldrack RA. Trends in Cognitive Sciences. 2014;18(4):177-185.",
+    "doi": "10.1016/j.tics.2013.12.003",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.tics.2013.12.003"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.tics.2013.12.003"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "aron-poldrack-2006-stop-signal",
+    "title": "Cortical and Subcortical Contributions to Stop Signal Response Inhibition: Role of the Subthalamic Nucleus",
+    "citation": "Aron AR, Poldrack RA. Journal of Neuroscience. 2006;26(9):2424-2433.",
+    "doi": "10.1523/JNEUROSCI.4682-05.2006",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://www.jneurosci.org/content/26/9/2424"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1523/JNEUROSCI.4682-05.2006"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/16510720/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "aronen-2005-nback-school-performance",
+    "title": "Working memory, psychiatric symptoms, and academic performance at school",
+    "citation": "Aronen ET, Vuontela V, Steenari MR, Salmi J, Carlson S. Neurobiology of Learning and Memory. 2005;83(1):33-42.",
+    "doi": "10.1016/j.nlm.2004.06.010",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://researchportal.helsinki.fi/en/publications/working-memory-psychiatric-symptoms-and-academic-performance-at-s/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.nlm.2004.06.010"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/15607686/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "arsalidou-taylor-2011-calculation",
+    "title": "Is 2 + 2 = 4? Meta-analyses of brain areas needed for numbers and calculations",
+    "citation": "Arsalidou M, Taylor MJ. NeuroImage. 2011;54(3):2382-2393.",
+    "doi": "10.1016/j.neuroimage.2010.10.009",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2010.10.009"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2010.10.009"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "augustinack-2013-perirhinal",
+    "title": "Predicting the location of human perirhinal cortex, Brodmann's area 35, from MRI",
+    "citation": "Augustinack JC, Huber KE, Stevens AA, Roy M, Frosch MP, van der Kouwe AJW, Wald LL, Van Leemput K, McKee A, Fischl B; Alzheimer's Disease Neuroimaging Initiative. NeuroImage. 2013;64:32-42.",
+    "doi": "10.1016/j.neuroimage.2012.08.071",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2012.08.071"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2012.08.071"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3508349/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/22960087/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "awh-1996-verbal-wm-storage-rehearsal",
+    "title": "Dissociation of Storage and Rehearsal in Verbal Working Memory: Evidence From Positron Emission Tomography",
+    "citation": "Awh E, Jonides J, Smith EE, Schumacher EH, Koeppe RA, Katz S. Psychological Science. 1996;7(1):25-31.",
+    "doi": "10.1111/j.1467-9280.1996.tb00662.x",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1111/j.1467-9280.1996.tb00662.x"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1111/j.1467-9280.1996.tb00662.x"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "babai-2018-proportional-reasoning",
+    "title": "Proportional reasoning: Reducing the interference of natural numbers through an intervention based on the problem-solving framework of executive functions",
+    "citation": "Babai R, Cohen E, Stavy R. Neuroeducation. 2018;5(2):109-118.",
+    "doi": "10.24046/neuroed.20180502.109",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.24046/neuroed.20180502.109"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.24046/neuroed.20180502.109"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "babcock-vallesi-2015-inductive-reasoning",
+    "title": "The interaction of process and domain in prefrontal cortex during inductive reasoning",
+    "citation": "Babcock L, Vallesi A. Neuropsychologia. 2015;67:91-99.",
+    "doi": "10.1016/j.neuropsychologia.2014.12.010",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4410791/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuropsychologia.2014.12.010"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4410791/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/25498406/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "bartra-2013-valuation-system",
+    "title": "The valuation system: A coordinate-based meta-analysis of BOLD fMRI experiments examining neural correlates of subjective value",
+    "citation": "Bartra O, McGuire JT, Kable JW. NeuroImage. 2013;76:412-427.",
+    "doi": "10.1016/j.neuroimage.2013.02.063",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2013.02.063"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3756836/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/23507394/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "bellmund-2020-sequence-memory",
+    "title": "Sequence Memory in the Hippocampal-Entorhinal Region",
+    "citation": "Bellmund JLS, Deuker L, Schröder TN, Doeller CF. Journal of Cognitive Neuroscience. 2020;32(11):2056-2070.",
+    "doi": "10.1162/jocn_a_01592",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1162/jocn_a_01592"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1162/jocn_a_01592"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "berkman-2014-inhibitory-control-training-fmri",
+    "title": "Training-induced changes in inhibitory control network activity",
+    "citation": "Berkman ET, Kahn LE, Merchant JS. Journal of Neuroscience. 2014;34(1):149-157.",
+    "doi": "10.1523/JNEUROSCI.3564-13.2014",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1523/JNEUROSCI.3564-13.2014"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1523/JNEUROSCI.3564-13.2014"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3866481/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/24381276/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "berninger-1999-early-reading-intervention",
+    "title": "Early Intervention for Reading Disabilities: Teaching the Alphabetic Principle in a Connectionist Framework",
+    "citation": "Berninger VW, Abbott RD, Zook D, Ogier S, Lemos-Britton Z, Brooksher R. Journal of Learning Disabilities. 1999;32(6):491-503.",
+    "doi": "10.1177/002221949903200604",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://journals.sagepub.com/doi/10.1177/002221949903200604"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1177/002221949903200604"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "berteletti-2015-number-line-subtraction",
+    "title": "How number line estimation skills relate to neural activations in single digit subtraction problems",
+    "citation": "Berteletti I, Man G, Booth JR. NeuroImage. 2015;107:198-206.",
+    "doi": "10.1016/j.neuroimage.2014.12.011",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2014.12.011"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2014.12.011"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4300271/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/25497398/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "bids-derivatives",
+    "title": "BIDS Derivatives",
+    "citation": "Brain Imaging Data Structure Specification, Derivatives section.",
+    "doi": null,
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://bids-specification.readthedocs.io/en/stable/derivatives/introduction.html"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "binder-2009-semantic-system",
+    "title": "Where Is the Semantic System? A Critical Review and Meta-Analysis of 120 Functional Neuroimaging Studies",
+    "citation": "Binder JR, Desai RH, Graves WW, Conant LL. Cerebral Cortex. 2009;19(12):2767-2796.",
+    "doi": "10.1093/cercor/bhp055",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1093/cercor/bhp055"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/bhp055"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "bishop-2004-anxiety-attention",
+    "title": "Prefrontal cortical function and anxiety: controlling attention to threat-related stimuli",
+    "citation": "Bishop S, Duncan J, Brett M, Lawrence AD. Nature Neuroscience. 2004;7(2):184-188.",
+    "doi": "10.1038/nn1173",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/nn1173"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/14703573/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "blokland-2011-working-memory-brain-activation-heritability",
+    "title": "Heritability of working memory brain activation",
+    "citation": null,
+    "doi": "10.1523/JNEUROSCI.5334-10.2011",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1523/JNEUROSCI.5334-10.2011"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3163233/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/21795540/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "blokland-2017-gwas-working-memory-brain-activation",
+    "title": "Genome-wide association study of working memory brain activation",
+    "citation": null,
+    "doi": "10.1016/j.ijpsycho.2016.09.010",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.ijpsycho.2016.09.010"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5364069/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/27671502/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "braem-2017-affective-conflict",
+    "title": "The role of anterior cingulate cortex in the affective evaluation of conflict",
+    "citation": "Braem S, King JA, Korb FM, Krebs RM, Notebaert W, Egner T. Journal of Cognitive Neuroscience. 2017;29(1):137-149.",
+    "doi": "10.1162/jocn_a_01023",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1162/jocn_a_01023"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5341786/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/27575278/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "buhle-2014-cognitive-reappraisal",
+    "title": "Cognitive Reappraisal of Emotion: A Meta-Analysis of Human Neuroimaging Studies",
+    "citation": "Buhle JT, Silvers JA, Wager TD, Lopez R, Onyemekwu C, Kober H, Weber J, Ochsner KN. Cerebral Cortex. 2014;24(11):2981-2990.",
+    "doi": "10.1093/cercor/bht154",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/bht154"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4193464/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/23765157/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "bunge-2004-analogical-reasoning",
+    "title": "Analogical Reasoning and Prefrontal Cortex: Evidence for Separable Retrieval and Integration Mechanisms",
+    "citation": "Bunge SA. Cerebral Cortex. 2005;15(3):239-249.",
+    "doi": "10.1093/cercor/bhh126",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1093/cercor/bhh126"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/bhh126"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "butcher-2019-qtl-processing-speed",
+    "title": "A QTL on chromosome 3q23 influences processing speed in humans",
+    "citation": null,
+    "doi": "10.1111/gbb.12530",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1111/gbb.12530"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6458095/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/30379395/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "cabeza-2008-parietal-episodic-memory",
+    "title": "The parietal cortex and episodic memory: an attentional account",
+    "citation": "Cabeza R, Ciaramelli E, Olson IR, Moscovitch M. Nature Reviews Neuroscience. 2008;9(8):613-625.",
+    "doi": "10.1038/nrn2459",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/nrn2459"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/nrn2459"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2692883/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/18641668/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "cangoz-2018-tablet-dyscalculia-screening",
+    "title": "Comparing two cut-off based criteria while investigating the discriminatory characteristics of a tablet-based dyscalculia screening battery for 5-9 age group",
+    "citation": "Cangoz B, Olkun S, Altun A, Salman F. Archives of Neuropsychiatry. 2018;55(2):177-182.",
+    "doi": "10.5152/npa.2017.19255",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.5152/npa.2017.19255"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.5152/npa.2017.19255"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6060656/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/30042648/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "cantlon-2009-abstract-number-development",
+    "title": "The Neural Development of an Abstract Concept of Number",
+    "citation": "Cantlon JF, Libertus ME, Pinel P, Dehaene S, Brannon EM, Pelphrey KA. Journal of Cognitive Neuroscience. 2009;21(11):2217-2229.",
+    "doi": "10.1162/jocn.2008.21159",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1162/jocn.2008.21159"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1162/jocn.2008.21159"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745480/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/19016605/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "caudle-2023-matrix-reasoning",
+    "title": "Neural activity and network analysis for understanding reasoning using the matrix reasoning task",
+    "citation": "Caudle MM, Spadoni AD, Schiehser DM, Simmons AN, Bomyea J. Cognitive Processing. 2023;24(4):585-594.",
+    "doi": "10.1007/s10339-023-01152-2",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10533635/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1007/s10339-023-01152-2"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10533635/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/37597116/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "chavan-2015-inhibitory-control-functional-structural-plasticity",
+    "title": "Differential patterns of functional and structural plasticity within and between inferior frontal gyri support training-induced improvements in inhibitory control proficiency",
+    "citation": "Chavan CF, Mouthon M, Draganski B, van der Zwaag W, Spierer L. Human Brain Mapping. 2015;36(7):2527-2543.",
+    "doi": "10.1002/hbm.22789",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1002/hbm.22789"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1002/hbm.22789"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6869523/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/25801718/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "chechko-2012-emotional-distractors",
+    "title": "Brain Circuitries Involved in Semantic Interference by Demands of Emotional and Non-Emotional Distractors",
+    "citation": "Chechko N, Kellermann T, Zvyagintsev M, Augustin M, Schneider F, Habel U. PLoS ONE. 2012;7(5):e38155.",
+    "doi": "10.1371/journal.pone.0038155",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1371/journal.pone.0038155"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3362560/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/22666470/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "chen-2018-cognitive-interference",
+    "title": "A domain-general brain network underlying emotional and cognitive interference processing: evidence from coordinate-based and functional connectivity meta-analyses",
+    "citation": "Chen T, Becker B, Camilleri J, Wang L, Yu S, Eickhoff SB, Feng C. Brain Structure and Function. 2018;223(8):3813-3840.",
+    "doi": "10.1007/s00429-018-1727-9",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1007/s00429-018-1727-9"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7967034/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/30083997/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "chua-2007-anterior-hippocampal-associative-encoding",
+    "title": "Evidence for a specific role of the anterior hippocampal region in successful associative encoding",
+    "citation": "Chua EF, Schacter DL, Rand-Giovannetti E, Sperling RA. Hippocampus. 2007;17(11):1071-1080.",
+    "doi": "10.1002/hipo.20340",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1002/hipo.20340"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1002/hipo.20340"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "coetzee-2018-core-reasoning",
+    "title": "At the core of reasoning: Dissociating deductive and non-deductive load",
+    "citation": "Coetzee JP, Monti MM. Human Brain Mapping. 2018;39(4):1850-1861.",
+    "doi": "10.1002/hbm.23979",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1002/hbm.23979"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1002/hbm.23979"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "cohen-2002-vwfa-language-specific-tuning",
+    "title": "Language-specific tuning of visual cortex? Functional properties of the visual word form area",
+    "citation": "Cohen L, Lehéricy S, Chochon F, et al. Brain. 2002;125(5):1054-1069.",
+    "doi": "10.1093/brain/awf094",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1093/brain/awf094"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/brain/awf094"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "collette-2005-executive-functioning-unity-diversity",
+    "title": "Exploring the unity and diversity of the neural substrates of executive functioning",
+    "citation": "Collette F, Van der Linden M, Laureys S, Delfiore G, Degueldre C, Luxen A, Salmon E. Human Brain Mapping. 2005;25(4):409-423.",
+    "doi": "10.1002/hbm.20118",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1002/hbm.20118"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1002/hbm.20118"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6871684/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "constable-2004-sentence-complexity-modality",
+    "title": "Sentence complexity and input modality effects in sentence comprehension: an fMRI study",
+    "citation": "Constable RT, Pugh KR, Berroya E, et al. NeuroImage. 2004;22(1):11-21.",
+    "doi": "10.1016/j.neuroimage.2004.01.001",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2004.01.001"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2004.01.001"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "cools-2002-reversal-learning",
+    "title": "Defining the Neural Mechanisms of Probabilistic Reversal Learning Using Event-Related Functional Magnetic Resonance Imaging",
+    "citation": "Cools R, Clark L, Owen AM, Robbins TW. The Journal of Neuroscience. 2002;22(11):4563-4567.",
+    "doi": "10.1523/JNEUROSCI.22-11-04563.2002",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1523/JNEUROSCI.22-11-04563.2002"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1523/JNEUROSCI.22-11-04563.2002"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "corbetta-shulman-2002-attention",
+    "title": "Control of goal-directed and stimulus-driven attention in the brain",
+    "citation": "Corbetta M, Shulman GL. Nature Reviews Neuroscience. 2002;3(3):201-215.",
+    "doi": "10.1038/nrn755",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/nrn755"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/nrn755"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "corsi-1972-spatial-span-thesis",
+    "title": "Human memory and the medial temporal region of the brain",
+    "citation": "Corsi PM. Doctoral thesis, McGill University. 1972.",
+    "doi": null,
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://library-archives.canada.ca/eng/services/services-libraries/theses/Pages/item.aspx?idNumber=1033436511"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "courtney-1996-object-spatial-wm",
+    "title": "Object and Spatial Visual Working Memory Activate Separate Neural Systems in Human Cortex",
+    "citation": "Courtney SM, Ungerleider LG, Keil K, Haxby JV. Cerebral Cortex. 1996;6(1):39-49.",
+    "doi": "10.1093/cercor/6.1.39",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1093/cercor/6.1.39"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/6.1.39"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "crescentini-2011-rule-acquisition",
+    "title": "Mechanisms of rule acquisition and rule following in inductive reasoning",
+    "citation": "Crescentini C, Seyed-Allaei S, De Pisapia N, et al. Journal of Neuroscience. 2011;31(21):7763-7774.",
+    "doi": "10.1523/JNEUROSCI.4579-10.2011",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6633120/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1523/JNEUROSCI.4579-10.2011"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6633120/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/21613494/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "cromheeke-mueller-2014-emotion-cognition-ale",
+    "title": "Probing emotional influences on cognitive control: an ALE meta-analysis of cognition emotion interactions",
+    "citation": "Cromheeke S, Mueller SC. Brain Structure and Function. 2014;219(3):995-1008.",
+    "doi": "10.1007/s00429-013-0549-z",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1007/s00429-013-0549-z"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1007/s00429-013-0549-z"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/23563751/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "culham-2001-attention-response",
+    "title": "Attention Response Functions",
+    "citation": "Culham JC, Cavanagh P, Kanwisher NG. Neuron. 2001;32(4):737-745.",
+    "doi": "10.1016/S0896-6273(01)00499-8",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/S0896-6273(01)00499-8"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/S0896-6273(01)00499-8"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "damestani-2021-auditory-oddball-tone-discrimination",
+    "title": "Revealing the mechanisms behind novel auditory stimuli discrimination: An evaluation of silent functional MRI using looping star",
+    "citation": "Damestani NL, O'Daly O, Solana AB, Wiesinger F, Lythgoe DJ, Hill S, de Lara Rubio A, Makovac E, Williams SCR, Zelaya F. Human Brain Mapping. 2021;42(9):2833-2850.",
+    "doi": "10.1002/hbm.25407",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8127154/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1002/hbm.25407"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8127154/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/33729637/"
+      }
+    ],
+    "decision": "included-CC-BY",
+    "reason": "Article-specific notice in local archived article",
+    "license": "https://creativecommons.org/licenses/by/4.0",
+    "licenseEvidencePath": "src/data/research-evidence/fulltext/damestani-2021-auditory-oddball-tone-discrimination/article.xml",
+    "licenseEvidenceExcerpt": "\">  21  05  2021      22  05  2021      © 2021 The Authors.  Human Brain Mapping  published by Wiley Periodicals LLC.   https://creativecommons.org/licenses/by/4.0/  This is an open access article under the terms of the  http://creativecommons.org/licenses/by/4.0/  License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.       Abstract  Looping Star is a near‐sile",
+    "includedFiles": [
+      "public/fulltext/damestani-2021-auditory-oddball-tone-discrimination/article.html"
+    ],
+    "modification": "Text-only standalone HTML; publisher chrome, active elements and images omitted; article-specific notices retained"
+  },
+  {
+    "sourceId": "davachi-2003-item-source-memory",
+    "title": "Multiple routes to memory: Distinct medial temporal lobe processes build item and source memories",
+    "citation": "Davachi L, Mitchell JP, Wagner AD. Proceedings of the National Academy of Sciences. 2003;100(4):2157-2162.",
+    "doi": "10.1073/pnas.0337195100",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1073/pnas.0337195100"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1073/pnas.0337195100"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC149975/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/12578977/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "davis-2009-temporal-order-judgment",
+    "title": "Temporal Order Judgments Activate Temporal Parietal Junction",
+    "citation": "Davis B, Christie J, Rorden C. The Journal of Neuroscience. 2009;29(10):3182-3188.",
+    "doi": "10.1523/JNEUROSCI.5793-08.2009",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1523/JNEUROSCI.5793-08.2009"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1523/JNEUROSCI.5793-08.2009"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "dehaene-1999-sources-math-thinking",
+    "title": "Sources of Mathematical Thinking: Behavioral and Brain-Imaging Evidence",
+    "citation": "Dehaene S, Spelke E, Pinel P, Stanescu R, Tsivkin S. Science. 1999;284(5416):970-974.",
+    "doi": "10.1126/science.284.5416.970",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1126/science.284.5416.970"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1126/science.284.5416.970"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "dehaene-2009-math-intuitions",
+    "title": "Origins of Mathematical Intuitions: The Case of Arithmetic",
+    "citation": "Dehaene S. Annals of the New York Academy of Sciences. 2009;1156(1):232-259.",
+    "doi": "10.1111/j.1749-6632.2009.04469.x",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1111/j.1749-6632.2009.04469.x"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1111/j.1749-6632.2009.04469.x"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "demontis-2023-adhd-27-risk-loci",
+    "title": "Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains",
+    "citation": null,
+    "doi": "10.1038/s41588-022-01285-8",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/s41588-022-01285-8"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10914347/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/36702997/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "devonshire-2013-orthographic-instruction",
+    "title": "Spelling and reading development: The effect of teaching children multiple levels of representation in their orthography",
+    "citation": "Devonshire V, Morris P, Fluck M. Learning and Instruction. 2013;25:85-94.",
+    "doi": "10.1016/j.learninstruc.2012.11.007",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://www.sciencedirect.com/science/article/pii/S0959475212001028"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.learninstruc.2012.11.007"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "diedrichsenlab-cerebellar-atlases",
+    "title": "Diedrichsen Lab cerebellar atlases repository",
+    "citation": "Diedrichsen Lab. cerebellar_atlases repository, accessed 2026-06-14.",
+    "doi": null,
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://github.com/DiedrichsenLab/cerebellar_atlases"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "diwadkar-2000-dynamic-spatial-wm",
+    "title": "Collaborative Activity between Parietal and Dorso-Lateral Prefrontal Cortex in Dynamic Spatial Working Memory Revealed by fMRI",
+    "citation": "Diwadkar VA, Carpenter PA, Just MA. NeuroImage. 2000;12(1):85-99.",
+    "doi": "10.1006/nimg.2000.0586",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1006/nimg.2000.0586"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1006/nimg.2000.0586"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "dizaji-2021-intelligence-neuroimaging-review",
+    "title": "Linking Brain Biology to Intellectual Endowment: A Review on the Associations of Human Intelligence With Neuroimaging Data",
+    "citation": "Dizaji AS, Hebling Vieira B, Khodaei MR, Ashrafi M, Parham E, Hossein-Zadeh GA, et al. Basic and Clinical Neuroscience. 2021;12(1):1-28.",
+    "doi": "10.32598/bcn.12.1.574.1",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.32598/bcn.12.1.574.1"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.32598/bcn.12.1.574.1"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "dobbins-2002-source-memory-control",
+    "title": "Executive control during episodic retrieval: multiple prefrontal processes subserve source memory",
+    "citation": "Dobbins IG, Foley H, Schacter DL, Wagner AD. Neuron. 2002;35(5):989-996.",
+    "doi": "10.1016/S0896-6273(02)00858-9",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/S0896-6273(02)00858-9"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/S0896-6273(02)00858-9"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/12372291/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "docherty-2010-gwas-mathematics-ability-disability",
+    "title": "A genome-wide association study identifies multiple loci associated with mathematics ability and disability",
+    "citation": null,
+    "doi": "10.1111/j.1601-183X.2009.00553.x",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1111/j.1601-183X.2009.00553.x"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2855870/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/20039944/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "draganski-2004-juggling-structural-plasticity",
+    "title": "Neuroplasticity: changes in grey matter induced by training",
+    "citation": "Draganski B, Gaser C, Busch V, Schuierer G, Bogdahn U, May A. Nature. 2004;427:311-312.",
+    "doi": "10.1038/427311a",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/427311a"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/427311a"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/14737157/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "duan-2023-gwas-mathematical-abilities-children",
+    "title": "A genome-wide association study identified new variants associated with mathematical abilities in Chinese children",
+    "citation": null,
+    "doi": "10.1111/gbb.12843",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1111/gbb.12843"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10067424/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/36811322/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "dux-2006-central-bottleneck",
+    "title": "Isolation of a Central Bottleneck of Information Processing with Time-Resolved fMRI",
+    "citation": "Dux PE, Ivanoff J, Asplund CL, Marois R. Neuron. 2006;52(6):1109-1120.",
+    "doi": "10.1016/j.neuron.2006.11.009",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuron.2006.11.009"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuron.2006.11.009"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "dux-2009-multitasking-training-fmri",
+    "title": "Training improves multitasking performance by increasing the speed of information processing in human prefrontal cortex",
+    "citation": "Dux PE, Tombu MN, Harrison S, Rogers BP, Tong F, Marois R. Neuron. 2009;63(1):127-138.",
+    "doi": "10.1016/j.neuron.2009.06.005",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuron.2009.06.005"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuron.2009.06.005"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2713348/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/19607798/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "egan-2001-comt-frontal-lobe-function",
+    "title": "Effect of COMT Val108/158 Met genotype on frontal lobe function and risk for schizophrenia",
+    "citation": null,
+    "doi": "10.1073/pnas.111134598",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1073/pnas.111134598"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC34453/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/11381111/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "emch-2019-verbal-wm-meta",
+    "title": "Neural Correlates of Verbal Working Memory: An fMRI Meta-Analysis",
+    "citation": "Emch M, von Bastian CC, Koch K. Frontiers in Human Neuroscience. 2019;13:180.",
+    "doi": "10.3389/fnhum.2019.00180",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.3389/fnhum.2019.00180"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.3389/fnhum.2019.00180"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "engvig-2010-memory-training-cortical-thickness",
+    "title": "Effects of memory training on cortical thickness in the elderly",
+    "citation": "Engvig A, Fjell AM, Westlye LT, et al. NeuroImage. 2010;52(4):1667-1676.",
+    "doi": "10.1016/j.neuroimage.2010.05.041",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2010.05.041"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2010.05.041"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/20580844/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "esmeyer-2025-crossmodal-perceptual-decision",
+    "title": "Effector-dependent neural representations of perceptual decisions independent of motor actions and sensory modalities",
+    "citation": "Esmeyer J, Schmidt TT, Blankenburg F. Imaging Neuroscience. 2025;3:IMAG.a.11.",
+    "doi": "10.1162/IMAG.a.11",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12319951/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1162/IMAG.a.11"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12319951/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/40800809/"
+      }
+    ],
+    "decision": "included-CC-BY",
+    "reason": "Article-specific notice in local archived article",
+    "license": "https://creativecommons.org/licenses/by/4.0",
+    "licenseEvidencePath": "src/data/research-evidence/fulltext/esmeyer-2025-crossmodal-perceptual-decision/article.html",
+    "licenseEvidenceExcerpt": " 26; Collection date 2025.    \n \n © 2025 The Authors. Published under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. \n \nThis is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International (CC BY 4.0) license, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. For a full description of the license, please visit\n https://creativecommons.org/licenses/by/4.0/ \n.\n \n  PMC Copyright notice  \n \n \n PMCID: PMC12319951  PMID:  40800809 \n \n       Abstract \n Neuroscientific research has shown that perceptual decision-making occurs in brain regions that are associated with the required motor res",
+    "includedFiles": [
+      "public/fulltext/esmeyer-2025-crossmodal-perceptual-decision/article.html"
+    ],
+    "modification": "Text-only standalone HTML; publisher chrome, active elements and images omitted; article-specific notices retained"
+  },
+  {
+    "sourceId": "etkin-2011-acc-mpfc-emotion",
+    "title": "Emotional processing in anterior cingulate and medial prefrontal cortex",
+    "citation": "Etkin A, Egner T, Kalisch R. Trends in Cognitive Sciences. 2011;15(2):85-93.",
+    "doi": "10.1016/j.tics.2010.11.004",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.tics.2010.11.004"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3035157/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/21167765/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "ewert-2018-distal-atlas",
+    "title": "Toward defining deep brain stimulation targets in MNI space: A subcortical atlas based on multimodal MRI, histology and structural connectivity",
+    "citation": "Ewert S, Plettig P, Chakravarty MM, Kuhn AA, Horn A. NeuroImage. 2018;170:271-282.",
+    "doi": "10.1016/j.neuroimage.2017.05.015",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2017.05.015"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2017.05.015"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "ezzyat-davachi-2014-temporal-proximity",
+    "title": "Similarity Breeds Proximity: Pattern Similarity within and across Contexts Is Related to Later Mnemonic Judgments of Temporal Proximity",
+    "citation": "Ezzyat Y, Davachi L. Neuron. 2014;81(5):1179-1189.",
+    "doi": "10.1016/j.neuron.2014.01.042",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuron.2014.01.042"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuron.2014.01.042"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "fan-2002-ant-behavior",
+    "title": "Testing the Efficiency and Independence of Attentional Networks",
+    "citation": "Fan J, McCandliss BD, Sommer T, Raz A, Posner MI. Journal of Cognitive Neuroscience. 2002;14(3):340-347.",
+    "doi": "10.1162/089892902317361886",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1162/089892902317361886"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1162/089892902317361886"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "fan-2005-ant-fmri",
+    "title": "The activation of attentional networks",
+    "citation": "Fan J, McCandliss BD, Fossella J, Flombaum JI, Posner MI. NeuroImage. 2005;26(2):471-479.",
+    "doi": "10.1016/j.neuroimage.2005.02.004",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2005.02.004"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2005.02.004"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "fan-2014-uncertainty-cognitive-control",
+    "title": "Quantitative Characterization of Functional Anatomical Contributions to Cognitive Control under Uncertainty",
+    "citation": "Fan J, Gu X, Liu X, Guise KG, Park Y, Martin L, de Marchena A, Tang CY, Minzenberg MJ, Hof PR. Journal of Cognitive Neuroscience. 2014;26(7):1490-1506.",
+    "doi": "10.1162/jocn_a_00554",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5070967/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1162/jocn_a_00554"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5070967/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/24116884/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "fan-fossella-sommer-2003-executive-attention-genetics-fmri",
+    "title": "Mapping the genetic variation of executive attention onto brain activity",
+    "citation": null,
+    "doi": "10.1073/pnas.0732088100",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1073/pnas.0732088100"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC165888/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/12773616/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "fan-wu-fossella-posner-2001-attention-heritability",
+    "title": "Assessing the heritability of attentional networks",
+    "citation": null,
+    "doi": "10.1186/1471-2202-2-14",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1186/1471-2202-2-14"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC57000/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/11580865/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "felssberg-2025-mot-training-fmri",
+    "title": "Cortical network modulations associated with prolonged training of the multiple object-tracking task",
+    "citation": "Felssberg AM, Schonemann N, Hopf JM, Schoenfeld MA, Merkel C. Imaging Neuroscience. 2025;3:imag_a_00577.",
+    "doi": "10.1162/imag_a_00577",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1162/imag_a_00577"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1162/imag_a_00577"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12319924/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/40800779/"
+      }
+    ],
+    "decision": "included-CC-BY",
+    "reason": "Article-specific notice in local archived article",
+    "license": "https://creativecommons.org/licenses/by/4.0",
+    "licenseEvidencePath": "src/data/research-evidence/fulltext/felssberg-2025-mot-training-fmri/article.html",
+    "licenseEvidenceExcerpt": " 18; Collection date 2025.    \n \n © 2025 The Authors. Published under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. \n \nThis is an open-access article distributed under the terms of the Creative Commons Attribution 4.0 International (CC BY 4.0) license, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. For a full description of the license, please visit\n https://creativecommons.org/licenses/by/4.0/ \n.\n \n  PMC Copyright notice  \n \n \n PMCID: PMC12319924  PMID:  40800779 \n \n       Abstract \n A fundamental mechanism enabling object permanence for the visual system constitutes visual tracking. During the interaction with a dynami",
+    "includedFiles": [
+      "public/fulltext/felssberg-2025-mot-training-fmri/article.html"
+    ],
+    "modification": "Text-only standalone HTML; publisher chrome, active elements and images omitted; article-specific notices retained"
+  },
+  {
+    "sourceId": "fittipaldi-marquez-2017-sdmt-neural-efficiency",
+    "title": "Exploring Neural Efficiency in Multiple Sclerosis Patients during the Symbol Digit Modalities Test: A Functional Magnetic Resonance Imaging Study",
+    "citation": "Fittipaldi-Marquez MS, et al. Neurodegenerative Diseases. 2017;17(6):292-300.",
+    "doi": "10.1159/000460252",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1159/000460252"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1159/000460252"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "fonville-2013-embedded-figures",
+    "title": "Evaluation of Enhanced Attention to Local Detail in Anorexia Nervosa Using the Embedded Figures Test; an fMRI Study",
+    "citation": "Fonville L, Giampietro V, Williams SCR, Simmons A, Tchanturia K. PLoS ONE. 2013;8(5):e63964.",
+    "doi": "10.1371/journal.pone.0063964",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1371/journal.pone.0063964"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1371/journal.pone.0063964"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "forn-2009-sdmt-fmri",
+    "title": "A Symbol Digit Modalities Test version suitable for functional MRI studies",
+    "citation": "Forn C, Belloch V, Bustamante JC, Garbin G, Parcet-Ibars MA, Sanjuan A, Ventura N, Avila C. Neuroscience Letters. 2009;456(1):11-14.",
+    "doi": "10.1016/j.neulet.2009.03.081",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neulet.2009.03.081"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neulet.2009.03.081"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/19429124/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "fossella-sommer-fan-2002-molecular-genetics-attention",
+    "title": "Assessing the molecular genetics of attention networks",
+    "citation": null,
+    "doi": "10.1186/1471-2202-3-14",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1186/1471-2202-3-14"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC130047/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/12366871/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "frick-2019-spatial-transformation-achievement",
+    "title": "Spatial transformation abilities and their relation to later academic achievement",
+    "citation": "Frick A. Psychological Research. 2019;83(7):1465-1484.",
+    "doi": "10.1007/s00426-018-1008-5",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1007/s00426-018-1008-5"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1007/s00426-018-1008-5"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "friedman-2016-ef-longitudinal-twin",
+    "title": "Stability and change in executive function abilities from late adolescence to early adulthood: A longitudinal twin study",
+    "citation": null,
+    "doi": "10.1037/dev0000075",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1037/dev0000075"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4821683/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/26619323/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "ganis-2004-imagery-perception",
+    "title": "Brain areas underlying visual mental imagery and visual perception: an fMRI study",
+    "citation": "Ganis G, Thompson WL, Kosslyn SM. Cognitive Brain Research. 2004;20(2):226-241.",
+    "doi": "10.1016/j.cogbrainres.2004.02.012",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.cogbrainres.2004.02.012"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.cogbrainres.2004.02.012"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "gaspar-2013-change-detection-training",
+    "title": "Change Detection: Training and Transfer",
+    "citation": "Gaspar JG, Neider MB, Simons DJ, McCarley JS, Kramer AF. PLoS ONE. 2013;8(6):e67781.",
+    "doi": "10.1371/journal.pone.0067781",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3695860/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1371/journal.pone.0067781"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3695860/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/23840775/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "gawryluk-2014-sdmt",
+    "title": "Functional MRI activation in white matter during the Symbol Digit Modalities Test",
+    "citation": null,
+    "doi": "10.3389/fnhum.2014.00589",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.3389/fnhum.2014.00589"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "gazzo-2023-probabilistic-deductive-reasoning",
+    "title": "Probabilistic and deductive reasoning in the human brain",
+    "citation": "Gazzo Castañeda LE, Sklarek B, Dal Mas DE, et al. NeuroImage. 2023;275:120180.",
+    "doi": "10.1016/j.neuroimage.2023.120180",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2023.120180"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2023.120180"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "ghaderi-yazdi-2026-qnld-openneuro-ds006148",
+    "title": "A Multimodal Dataset to Investigate Task-Evoked Negative BOLD Response and Neurodegeneration",
+    "citation": null,
+    "doi": "10.1038/s41597-026-07081-x",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/s41597-026-07081-x"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "gitelman-1999-covert-spatial-attention",
+    "title": "A Large-Scale Distributed Network for Covert Spatial Attention",
+    "citation": "Gitelman DR, Nobre AC, Parrish TB, et al. Brain. 1999;122(6):1093-1106.",
+    "doi": "10.1093/brain/122.6.1093",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1093/brain/122.6.1093"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/brain/122.6.1093"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "glass-2013-mental-paper-folding-lesion",
+    "title": "Mental Paper Folding Performance Following Penetrating Traumatic Brain Injury in Combat Veterans: A Lesion Mapping Study",
+    "citation": "Glass L, Krueger F, Solomon J, Raymont V, Grafman J. Cerebral Cortex. 2013;23(7):1663-1672.",
+    "doi": "10.1093/cercor/bhs153",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3673178/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/bhs153"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3673178/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/22669970/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "greene-2009-noradrenergic-genotype-sustained-attention",
+    "title": "Noradrenergic genotype predicts lapses in sustained attention",
+    "citation": null,
+    "doi": "10.1016/j.neuropsychologia.2008.10.003",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuropsychologia.2008.10.003"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/18973765/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "hampshire-2012-intelligence",
+    "title": "Fractionating human intelligence",
+    "citation": "Hampshire A, Highfield RR, Parkin BL, Owen AM. Neuron. 2012;76(6):1225-1237.",
+    "doi": "10.1016/j.neuron.2012.06.022",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuron.2012.06.022"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuron.2012.06.022"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "hampstead-2011-face-name-memory-training-fmri",
+    "title": "Activation and effective connectivity changes following explicit-memory training for face-name pairs in patients with mild cognitive impairment: a pilot study",
+    "citation": "Hampstead BM, Stringer AY, Stilla RF, et al. Neurorehabilitation and Neural Repair. 2011;25(3):210-222.",
+    "doi": "10.1177/1545968310382424",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1177/1545968310382424"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1177/1545968310382424"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3595021/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/20935339/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "hao-2013-embedded-figures-cognitive-style",
+    "title": "Individual differences in brain structure and resting brain function underlie cognitive styles: evidence from the Embedded Figures Test",
+    "citation": "Hao X, Wang K, Li W, et al. PLoS One. 2013;8(12):e78089.",
+    "doi": "10.1371/journal.pone.0078089",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3862473/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1371/journal.pone.0078089"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "harris-2013-spatial-transformations-rotation-folding",
+    "title": "Understanding spatial transformations: similarities and differences between mental rotation and mental folding",
+    "citation": "Harris J, Hirsh-Pasek K, Newcombe NS. Cognitive Processing. 2013;14(2):105-115.",
+    "doi": "10.1007/s10339-013-0544-6",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1007/s10339-013-0544-6"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1007/s10339-013-0544-6"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "heekeren-2004-perceptual-decision",
+    "title": "A general mechanism for perceptual decision-making in the human brain",
+    "citation": "Heekeren HR, Marrett S, Bandettini PA, Ungerleider LG. Nature. 2004;431(7010):859-862.",
+    "doi": "10.1038/nature02966",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/nature02966"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/nature02966"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "hilton-2022-spatial-transformation",
+    "title": "A general spatial transformation process? Assessing the neurophysiological evidence on the similarity of mental rotation and folding",
+    "citation": null,
+    "doi": "10.1016/j.ynirp.2022.100092",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.ynirp.2022.100092"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12172892/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "hopfinger-2000-top-down-attention",
+    "title": "The neural mechanisms of top-down attentional control",
+    "citation": "Hopfinger JB, Buonocore MH, Mangun GR. Nature Neuroscience. 2000;3(3):284-291.",
+    "doi": "10.1038/72999",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/72999"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/72999"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/10700262/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "houde-2003-logical-math-cognition",
+    "title": "Neural foundations of logical and mathematical cognition",
+    "citation": "Houde O, Tzourio-Mazoyer N. Nature Reviews Neuroscience. 2003;4(6):507-514.",
+    "doi": "10.1038/nrn1117",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/nrn1117"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/nrn1117"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "houlihan-1994-reaction-time-processes",
+    "title": "Reaction time and movement time as measures of stimulus evaluation and response processes",
+    "citation": "Houlihan M, Campbell K, Stelmack RM. Intelligence. 1994;18(3):289-307.",
+    "doi": "10.1016/0160-2896(94)90031-0",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/0160-2896(94)90031-0"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/0160-2896(94)90031-0"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "hsieh-2014-sequence-memory",
+    "title": "Hippocampal Activity Patterns Carry Information about Objects in Temporal Context",
+    "citation": "Hsieh LT, Gruber MJ, Jenkins LJ, Ranganath C. Neuron. 2014;81(5):1165-1178.",
+    "doi": "10.1016/j.neuron.2014.01.015",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuron.2014.01.015"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuron.2014.01.015"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "hung-2018-inhibition-emotional-interference",
+    "title": "Dissociations of cognitive inhibition, response inhibition, and emotional interference: Voxelwise ALE meta-analyses of fMRI studies",
+    "citation": "Hung Y, Gaillard SL, Yarmak P, Arsalidou M. Human Brain Mapping. 2018;39:4065-4082.",
+    "doi": "10.1002/hbm.24232",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1002/hbm.24232"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1002/hbm.24232"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "iglesias-2015-hippocampal-subfields",
+    "title": "A computational atlas of the hippocampal formation using ex vivo, ultra-high resolution MRI: Application to adaptive segmentation of in vivo MRI",
+    "citation": null,
+    "doi": "10.1016/j.neuroimage.2015.04.042",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2015.04.042"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4461537/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "iglesias-2018-thalamic-nuclei-atlas",
+    "title": "A probabilistic atlas of the human thalamic nuclei combining ex vivo MRI and histology",
+    "citation": null,
+    "doi": "10.1016/j.neuroimage.2018.08.012",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2018.08.012"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6215335/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "iuculano-2015-math-tutoring-dyscalculia-fmri",
+    "title": "Cognitive tutoring induces widespread neuroplasticity and remediates brain function in children with mathematical learning disabilities",
+    "citation": "Iuculano T, Rosenberg-Lee M, Richardson J, Tenison C, Fuchs L, Supekar K, Menon V. Nature Communications. 2015;6:8453.",
+    "doi": "10.1038/ncomms9453",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/ncomms9453"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/ncomms9453"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4598717/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/26419418/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "jacobs-1887-prehension-digit-span",
+    "title": "Experiments on \"Prehension\"",
+    "citation": "Jacobs J. Mind. 1887;os-12(45):75-79.",
+    "doi": "10.1093/mind/os-12.45.75",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://academic.oup.com/mind/article-abstract/os-12/45/75/2877871"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/mind/os-12.45.75"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "jobard-2003-dual-route-reading-meta",
+    "title": "Evaluation of the dual route theory of reading: a metanalysis of 35 neuroimaging studies",
+    "citation": "Jobard G, Crivello F, Tzourio-Mazoyer N. NeuroImage. 2003;20(2):693-712.",
+    "doi": "10.1016/S1053-8119(03)00343-4",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/S1053-8119(03)00343-4"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/S1053-8119(03)00343-4"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "jones-2020-child-adhd-nback-training",
+    "title": "Exploring N-Back Cognitive Training for Children With ADHD",
+    "citation": "Jones MR, Katz B, Buschkuehl M, Jaeggi SM, Shah P. Journal of Attention Disorders. 2020;24(5):704-719.",
+    "doi": "10.1177/1087054718779230",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6445784/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1177/1087054718779230"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6445784/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/29877128/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "jones-2020-working-memory-metacognitive-academic-transfer",
+    "title": "The academic outcomes of working memory and metacognitive strategy training in children: A double-blind randomized controlled trial",
+    "citation": "Jones JS, Milton F, Mostazir M, Adlam AR. Developmental Science. 2020;23(4):e12870.",
+    "doi": "10.1111/desc.12870",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7379186/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1111/desc.12870"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7379186/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/31134713/"
+      }
+    ],
+    "decision": "included-CC-BY",
+    "reason": "Article-specific notice in local archived article",
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "licenseEvidencePath": "src/data/research-evidence/fulltext/jones-2020-working-memory-metacognitive-academic-transfer/article.html",
+    "licenseEvidenceExcerpt": "sup>✉  Corresponding author. \n \n \n \n    Received 2018 Sep 20; Revised 2019 Mar 6; Accepted 2019 May 3; Issue date 2020 Jul.    \n \n © 2019 The Authors.  Developmental Science  Published by John Wiley & Sons Ltd. \n This is an open access article under the terms of the  http://creativecommons.org/licenses/by/4.0/  License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited. \n  PMC Copyright notice  \n \n \n PMCID: PMC7379186  PMID:  31134713 \n \n       Abstract \n Working memory ",
+    "includedFiles": [
+      "public/fulltext/jones-2020-working-memory-metacognitive-academic-transfer/article.html"
+    ],
+    "modification": "Text-only standalone HTML; publisher chrome, active elements and images omitted; article-specific notices retained"
+  },
+  {
+    "sourceId": "jonides-1993-spatial-wm-pet",
+    "title": "Spatial working memory in humans as revealed by PET",
+    "citation": "Jonides J, Smith EE, Koeppe RA, Awh E, Minoshima S, Mintun MA. Nature. 1993;363(6430):623-625.",
+    "doi": "10.1038/363623a0",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/363623a0"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/363623a0"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "jovicich-2001-motion-tracking-load",
+    "title": "Brain Areas Specific for Attentional Load in a Motion-Tracking Task",
+    "citation": "Jovicich J, Peters RJ, Koch C, Braun J, Chang L, Ernst T. Journal of Cognitive Neuroscience. 2001;13(8):1048-1058.",
+    "doi": "10.1162/089892901753294347",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1162/089892901753294347"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1162/089892901753294347"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "jung-haier-2007-pfit",
+    "title": "The Parieto-Frontal Integration Theory (P-FIT) of intelligence: converging neuroimaging evidence",
+    "citation": "Jung RE, Haier RJ. Behavioral and Brain Sciences. 2007;30(2):135-154.",
+    "doi": "10.1017/S0140525X07001185",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1017/S0140525X07001185"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1017/S0140525X07001185"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kansaku-2004-simple-reaction-time",
+    "title": "A shared neural network for simple reaction time",
+    "citation": "Kansaku K, Hanakawa T, Wu T, Hallett M. NeuroImage. 2004;22(2):904-911.",
+    "doi": "10.1016/j.neuroimage.2004.02.006",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2004.02.006"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2004.02.006"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kauppi-2011-kibra-memory-hippocampal-processing",
+    "title": "KIBRA polymorphism is related to enhanced memory and elevated hippocampal processing",
+    "citation": null,
+    "doi": "10.1523/JNEUROSCI.3292-11.2011",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1523/JNEUROSCI.3292-11.2011"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6623644/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/21976506/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kauppi-2014-apoe-bdnf-hippocampus-activity",
+    "title": "Additive genetic effect of APOE and BDNF on hippocampus activity",
+    "citation": null,
+    "doi": "10.1016/j.neuroimage.2013.11.049",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2013.11.049"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/24321557/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "keller-just-2009-reading-remediation-white-matter",
+    "title": "Altering cortical connectivity: remediation-induced changes in the white matter of poor readers",
+    "citation": "Keller TA, Just MA. Neuron. 2009;64(5):624-631.",
+    "doi": "10.1016/j.neuron.2009.10.018",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuron.2009.10.018"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuron.2009.10.018"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2796260/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/20005820/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kim-2011-subsequent-memory",
+    "title": "Neural activity that predicts subsequent memory and forgetting: A meta-analysis of 74 fMRI studies",
+    "citation": "Kim H. NeuroImage. 2011;54(3):2446-2461.",
+    "doi": "10.1016/j.neuroimage.2010.09.045",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2010.09.045"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2010.09.045"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kim-cabeza-2007-true-false-memory-formation",
+    "title": "Differential Contributions of Prefrontal, Medial Temporal, and Sensory-Perceptual Regions to True and False Memory Formation",
+    "citation": "Kim H, Cabeza R. Cerebral Cortex. 2007;17(9):2143-2150.",
+    "doi": "10.1093/cercor/bhl122",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1093/cercor/bhl122"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/bhl122"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "king-2019-cerebellum-task-battery",
+    "title": "Functional boundaries in the human cerebellum revealed by a multi-domain task battery",
+    "citation": "King M, Hernandez-Castillo CR, Poldrack RA, Ivry RB, Diedrichsen J. 2019. Nature Neuroscience.",
+    "doi": "10.1038/s41593-019-0436-x",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/s41593-019-0436-x"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/s41593-019-0436-x"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kirchner-1958-nback-origin",
+    "title": "Age differences in short-term retention of rapidly changing information",
+    "citation": "Kirchner WK. J Exp Psychol. 1958;55(4):352-358.",
+    "doi": "10.1037/h0043688",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/13539317/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1037/h0043688"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/13539317/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kirwan-stark-2004-face-name-pairs",
+    "title": "Medial temporal lobe activation during encoding and retrieval of novel face-name pairs",
+    "citation": "Kirwan CB, Stark CEL. Hippocampus. 2004;14(7):919-930.",
+    "doi": "10.1002/hipo.20014",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1002/hipo.20014"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1002/hipo.20014"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "klingberg-2005-working-memory-training-adhd-rct",
+    "title": "Computerized training of working memory in children with ADHD: a randomized, controlled trial",
+    "citation": "Klingberg T, Fernell E, Olesen PJ, et al. J Am Acad Child Adolesc Psychiatry. 2005;44(2):177-186.",
+    "doi": "10.1097/00004583-200502000-00010",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1097/00004583-200502000-00010"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1097/00004583-200502000-00010"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/15689731/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "konishi-2002-recency-judgment",
+    "title": "Neural correlates of recency judgment",
+    "citation": "Konishi S, Uchida I, Okuaki T, Machida T, Shirouzu I, Miyashita Y. The Journal of Neuroscience. 2002;22(21):9549-9555.",
+    "doi": "10.1523/JNEUROSCI.22-21-09549.2002",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1523/JNEUROSCI.22-21-09549.2002"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1523/JNEUROSCI.22-21-09549.2002"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6758056/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/12417679/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kosslyn-2001-imagery-foundations",
+    "title": "Neural foundations of imagery",
+    "citation": "Kosslyn SM, Ganis G, Thompson WL. Nature Reviews Neuroscience. 2001;2(9):635-642.",
+    "doi": "10.1038/35090055",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/35090055"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/35090055"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kroger-2002-relational-complexity",
+    "title": "Recruitment of Anterior Dorsolateral Prefrontal Cortex in Human Reasoning: a Parametric Study of Relational Complexity",
+    "citation": "Kroger JK et al. 2002. Cerebral Cortex.",
+    "doi": "10.1093/cercor/12.5.477",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1093/cercor/12.5.477"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/12.5.477"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kuhn-2013-updating-training-striatal-dynamics",
+    "title": "The dynamics of change in striatal activity following updating training",
+    "citation": "Kühn S, Schmiedek F, Noack H, et al. Human Brain Mapping. 2013;34(7):1530-1541.",
+    "doi": "10.1002/hbm.22007",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1002/hbm.22007"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1002/hbm.22007"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6870272/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/22331673/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kuhn-2014-super-mario-structural-plasticity",
+    "title": "Playing Super Mario induces structural brain plasticity: gray matter changes resulting from training with a commercial video game",
+    "citation": "Kuhn S, Gleich T, Lorenz RC, Lindenberger U, Gallinat J. Molecular Psychiatry. 2014;19(2):265-271.",
+    "doi": "10.1038/mp.2013.120",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/mp.2013.120"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/mp.2013.120"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/24166407/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kumaran-maguire-2006-unexpected-sequence-events",
+    "title": "An Unexpected Sequence of Events: Mismatch Detection in the Human Hippocampus",
+    "citation": "Kumaran D, Maguire EA. PLoS Biology. 2006;4(12):e424.",
+    "doi": "10.1371/journal.pbio.0040424",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1371/journal.pbio.0040424"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1371/journal.pbio.0040424"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1661685/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/17132050/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "kuntsi-2006-reaction-time-inhibition-working-memory-genetics",
+    "title": "Reaction time, inhibition, working memory and 'delay aversion' performance: genetic influences and their interpretation",
+    "citation": null,
+    "doi": "10.1017/S0033291706008580",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1017/S0033291706008580"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3770933/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/16882357/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "lam-2023-sh2b1-fluid-intelligence-gwas",
+    "title": "SH2B1 Tunes Hippocampal ERK Signaling to Influence Fluid Intelligence in Humans and Mice",
+    "citation": null,
+    "doi": "10.34133/research.0269",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.34133/research.0269"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10907025/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/38434247/"
+      }
+    ],
+    "decision": "included-CC-BY",
+    "reason": "Article-specific notice in local archived article",
+    "license": "https://creativecommons.org/licenses/by/4.0",
+    "licenseEvidencePath": "src/data/research-evidence/fulltext/lam-2023-sh2b1-fluid-intelligence-gwas/article.html",
+    "licenseEvidenceExcerpt": "-inline\">These authors contributed equally to this work. \n \n \n \n    Received 2023 Aug 5; Accepted 2023 Oct 19; Collection date 2023.    \n \n Copyright © 2023 Xiujuan Du et al. \n Exclusive licensee Science and Technology Review Publishing House. No claim to original U.S. Government Works. Distributed under a  Creative Commons Attribution License 4.0 (CC BY 4.0) . \n  PMC Copyright notice  \n \n \n PMCID: PMC10907025  PMID:  38434247 \n \n       Abstract \n Fluid intelligence is a cognitive domain that encompasses general reasoning, pattern recognition, and problem-solving abilities inde",
+    "includedFiles": [
+      "public/fulltext/lam-2023-sh2b1-fluid-intelligence-gwas/article.html"
+    ],
+    "modification": "Text-only standalone HTML; publisher chrome, active elements and images omitted; article-specific notices retained"
+  },
+  {
+    "sourceId": "langner-eickhoff-2013-vigilant-attention",
+    "title": "Sustaining attention to simple tasks: A meta-analytic review of the neural mechanisms of vigilant attention",
+    "citation": "Langner R, Eickhoff SB. Psychological Bulletin. 2013;139(4):870-900.",
+    "doi": "10.1037/a0030694",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1037/a0030694"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1037/a0030694"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "luck-vogel-1997-visual-working-memory-capacity",
+    "title": "The capacity of visual working memory for features and conjunctions",
+    "citation": "Luck SJ, Vogel EK. Nature. 1997;390:279-281.",
+    "doi": "10.1038/36846",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://www.nature.com/articles/36846"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/36846"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "macdonald-2000-stroop-control",
+    "title": "Dissociating the Role of the Dorsolateral Prefrontal and Anterior Cingulate Cortex in Cognitive Control",
+    "citation": "MacDonald AW, Cohen JD, Stenger VA, Carter CS. Science. 2000;288(5472):1835-1838.",
+    "doi": "10.1126/science.288.5472.1835",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1126/science.288.5472.1835"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1126/science.288.5472.1835"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "mackey-2011-reasoning-speed-training-children",
+    "title": "Differential effects of reasoning and speed training in children",
+    "citation": "Mackey AP, Hill SS, Stone SI, Bunge SA. Developmental Science. 2011;14(3):582-590.",
+    "doi": "10.1111/j.1467-7687.2010.01005.x",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1111/j.1467-7687.2010.01005.x"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1111/j.1467-7687.2010.01005.x"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/21477196/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "malanchini-2020-unitary-spatial-cognition",
+    "title": "Evidence for a unitary structure of spatial cognition beyond general intelligence",
+    "citation": null,
+    "doi": "10.1038/s41539-020-0067-8",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/s41539-020-0067-8"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7331750/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/32655883/"
+      }
+    ],
+    "decision": "included-CC-BY",
+    "reason": "Article-specific notice in local archived article",
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "licenseEvidencePath": "src/data/research-evidence/fulltext/malanchini-2020-unitary-spatial-cognition/article.html",
+    "licenseEvidenceExcerpt": "the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit  http://creativecommons.org/licenses/by/4.0/ . \n  PMC Copyright notice  \n \n \n PMCID: PMC7331750  PMID:  32655883 \n \n       Abstract \n Performance in everyday spatial orientation tasks (e.g., map reading and navigation) has been considered functionally separate from perfo",
+    "includedFiles": [
+      "public/fulltext/malanchini-2020-unitary-spatial-cognition/article.html"
+    ],
+    "modification": "Text-only standalone HTML; publisher chrome, active elements and images omitted; article-specific notices retained"
+  },
+  {
+    "sourceId": "manjaly-2003-hidden-figures-fmri",
+    "title": "In search of the hidden: an fMRI study with implications for the study of patients with autism and with acquired brain injury",
+    "citation": "Manjaly ZM, Bruning N, Neufang S, et al. NeuroImage. 2003;19(3):674-683.",
+    "doi": "10.1016/S1053-8119(03)00095-8",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/S1053-8119(03)00095-8"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/S1053-8119(03)00095-8"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "margosein-1982-semantic-mapping",
+    "title": "The Effects of Instruction Using Semantic Mapping on Vocabulary and Comprehension",
+    "citation": "Margosein CM, Pascarella ET, Pflaum SW. The Journal of Early Adolescence. 1982;2(2):185-194.",
+    "doi": "10.1177/027243168200200210",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://journals.sagepub.com/doi/10.1177/027243168200200210"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1177/027243168200200210"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "marini-2016-distractor-filtering",
+    "title": "Orchestrating Proactive and Reactive Mechanisms for Filtering Distracting Information: Brain-Behavior Relationships Revealed by a Mixed-Design fMRI Study",
+    "citation": "Marini F, Demeter E, Roberts KC, Chelazzi L, Woldorff MG. Journal of Neuroscience. 2016;36(3):988-1000.",
+    "doi": "10.1523/JNEUROSCI.2966-15.2016",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4719027/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1523/JNEUROSCI.2966-15.2016"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "mccandliss-2003-vwfa",
+    "title": "The visual word form area: expertise for reading in the fusiform gyrus",
+    "citation": "McCandliss BD, Cohen L, Dehaene S. 2003. Trends in Cognitive Sciences.",
+    "doi": "10.1016/S1364-6613(03)00134-7",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/S1364-6613(03)00134-7"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/S1364-6613(03)00134-7"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "melby-lervag-2016-working-memory-far-transfer-meta",
+    "title": "Working memory training does not improve performance on measures of intelligence or other measures of far transfer",
+    "citation": "Melby-Lervag M, Redick TS, Hulme C. Perspectives on Psychological Science. 2016;11(4):512-534.",
+    "doi": "10.1177/1745691616635612",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1177/1745691616635612"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1177/1745691616635612"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/27474138/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "meng-2011-dcdc2-expression-reading",
+    "title": "A dyslexia-associated variant in DCDC2 changes gene expression",
+    "citation": null,
+    "doi": "10.1007/s10519-010-9408-3",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1007/s10519-010-9408-3"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3053575/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/21042874/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "merkel-2015-multiple-object-tracking-strategies",
+    "title": "Neural correlates of multiple object tracking strategies",
+    "citation": "Merkel C, Hopf JM, Schoenfeld MA. NeuroImage. 2015;118:63-73.",
+    "doi": "10.1016/j.neuroimage.2015.06.005",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2015.06.005"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2015.06.005"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "meyer-schvaneveldt-1971-lexical-decision",
+    "title": "Facilitation in recognizing pairs of words: Evidence of a dependence between retrieval operations",
+    "citation": "Meyer DE, Schvaneveldt RW. Journal of Experimental Psychology. 1971;90(2):227-234.",
+    "doi": "10.1037/h0031564",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1037/h0031564"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1037/h0031564"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "milivojevic-2003-mental-paper-folding",
+    "title": "Non-identical neural mechanisms for two types of mental transformation: event-related potentials during mental rotation and mental paper folding",
+    "citation": "Milivojevic B, Johnson BW, Hamm JP, Corballis MC. Neuropsychologia. 2003;41(10):1345-1356.",
+    "doi": "10.1016/S0028-3932(03)00060-5",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/S0028-3932(03)00060-5"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/S0028-3932(03)00060-5"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "miyake-2000-executive-functions",
+    "title": "The unity and diversity of executive functions and their contributions to complex frontal lobe tasks",
+    "citation": "Miyake A, Friedman NP, Emerson MJ, Witzki AH, Howerter A, Wager TD. Cognitive Psychology. 2000;41(1):49-100.",
+    "doi": "10.1006/cogp.1999.0734",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1006/cogp.1999.0734"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1006/cogp.1999.0734"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "miyake-friedman-2017-ef-unity-diversity-genetics",
+    "title": "Unity and diversity of executive functions: Individual differences as a window on cognitive structure",
+    "citation": null,
+    "doi": "10.1016/j.cortex.2016.04.023",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.cortex.2016.04.023"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5104682/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/27251123/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "model-note-v0",
+    "title": "Brain Function Vision evidence modeling note",
+    "citation": "Project-local modeling convention: keep atlas, evidence priors, and task overlays separate.",
+    "doi": null,
+    "sourceLinks": [],
+    "decision": "excluded-project-note",
+    "reason": "Internal model note is not an external research article and is excluded from public bibliography"
+  },
+  {
+    "sourceId": "murty-2011-flexible-updating",
+    "title": "Selective updating of working memory content modulates meso-cortico-striatal activity",
+    "citation": "Murty VP, Sambataro F, Radulescu E, Altamura M, Iudicello J, Zoltick B, Weinberger DR, Goldberg TE, Mattay VS. NeuroImage. 2011;57(3):1264-1272.",
+    "doi": "10.1016/j.neuroimage.2011.05.006",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2011.05.006"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2011.05.006"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3908780/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "navarro-schroder-2015-entorhinal-topography",
+    "title": "Functional topography of the human entorhinal cortex",
+    "citation": "Navarro Schroder T, Haak KV, Zaragoza Jimenez NI, Beckmann CF, Doeller CF. eLife. 2015;4:e06738.",
+    "doi": "10.7554/eLife.06738",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.7554/eLife.06738"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.7554/eLife.06738"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4524462/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/26052748/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "nee-brown-2013-updating-hierarchical-contexts",
+    "title": "Dissociable Frontal-Striatal and Frontal-Parietal Networks Involved in Updating Hierarchical Contexts in Working Memory",
+    "citation": "Nee DE, Brown JW. Cerebral Cortex. 2013;23(9):2146-2158.",
+    "doi": "10.1093/cercor/bhs194",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1093/cercor/bhs194"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/bhs194"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3841420/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "neubauer-2017-tacs-paper-folding-fmri",
+    "title": "The influence of transcranial alternating current stimulation (tACS) on fluid intelligence: An fMRI study",
+    "citation": "Neubauer AC, Wammerl M, Benedek M, Jauk E, Jausovec N. Personality and Individual Differences. 2017;118:50-55.",
+    "doi": "10.1016/j.paid.2017.04.016",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5700801/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.paid.2017.04.016"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5700801/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/29176918/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "ng-2021-word-problem-lexical-consistency",
+    "title": "Operation-Specific Lexical Consistency Effect in Fronto-Insular-Parietal Network During Word Problem Solving",
+    "citation": "Ng CT, Lung TC, Chang TT. Frontiers in Human Neuroscience. 2021;15:631438.",
+    "doi": "10.3389/fnhum.2021.631438",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7987662/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.3389/fnhum.2021.631438"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7987662/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/33746763/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "ng-2025-word-problem-sentence-comprehension",
+    "title": "Distinct Behavioural and Brain Response Profiles Between Arithmetic Word Problem Solving and Sentence Comprehension in Third and Fourth Graders",
+    "citation": "Ng CT, Chen XY, Chang TT. European Journal of Neuroscience. 2025;61(2):e70003.",
+    "doi": "10.1111/ejn.70003",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1111/ejn.70003"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1111/ejn.70003"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "niendam-2012-cognitive-control",
+    "title": "Meta-analytic evidence for a superordinate cognitive control network subserving diverse executive functions",
+    "citation": "Niendam TA, Laird AR, Ray KL, Dean YM, Glahn DC, Carter CS. Cognitive, Affective, & Behavioral Neuroscience. 2012;12(2):241-268.",
+    "doi": "10.3758/s13415-011-0083-5",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.3758/s13415-011-0083-5"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.3758/s13415-011-0083-5"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "nitschke-2017-tower-of-london",
+    "title": "A Meta-analysis on the neural basis of planning: Activation likelihood estimation of functional brain imaging results in the Tower of London task",
+    "citation": "Nitschke K, Köstering L, Finkel L, Weiller C, Kaller CP. Human Brain Mapping. 2017;38(1):396-413.",
+    "doi": "10.1002/hbm.23368",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6867129/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1002/hbm.23368"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "ochsner-2012-emotion-regulation",
+    "title": "Functional imaging studies of emotion regulation: A synthetic review and evolving model of the cognitive control of emotion",
+    "citation": "Ochsner KN, Silvers JA, Buhle JT. Annals of the New York Academy of Sciences. 2012;1251:E1-E24.",
+    "doi": "10.1111/j.1749-6632.2012.06751.x",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1111/j.1749-6632.2012.06751.x"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4133790/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/23025352/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "oliver-2013-literacy-numeracy-heritability",
+    "title": "Literacy and numeracy are more heritable than intelligence in primary school",
+    "citation": null,
+    "doi": "10.1177/0956797613486982",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1177/0956797613486982"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3834736/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/24002885/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "owen-2005-nback",
+    "title": "N-back working memory paradigm: A meta-analysis of normative functional neuroimaging studies",
+    "citation": "Owen AM, McMillan KM, Laird AR, Bullmore E. Human Brain Mapping. 2005;25(1):46-59.",
+    "doi": "10.1002/hbm.20131",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1002/hbm.20131"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1002/hbm.20131"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "papassotiropoulos-2006-kibra-memory-performance",
+    "title": "Common Kibra Alleles Are Associated with Human Memory Performance",
+    "citation": null,
+    "doi": "10.1126/science.1129837",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1126/science.1129837"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/17053149/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "pardo-1990-stroop-acc",
+    "title": "The anterior cingulate cortex mediates processing selection in the Stroop attentional conflict paradigm",
+    "citation": "Pardo JV, Pardo PJ, Janer KW, Raichle ME. Proceedings of the National Academy of Sciences. 1990;87(1):256-259.",
+    "doi": "10.1073/pnas.87.1.256",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1073/pnas.87.1.256"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1073/pnas.87.1.256"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "park-2024-number-sense-training-fmri",
+    "title": "Short-term number sense training recapitulates long-term neurodevelopmental changes from childhood to adolescence",
+    "citation": "Park Y, Zhang Y, Chang H, Menon V. Developmental Science. 2024;27(5):e13524.",
+    "doi": "10.1111/desc.13524",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1111/desc.13524"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1111/desc.13524"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11343340/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/38695515/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "park-brannon-2013-ans-training",
+    "title": "Training the Approximate Number System Improves Math Proficiency",
+    "citation": "Park J, Brannon EM. Psychological Science. 2013;24(10):2013-2019.",
+    "doi": "10.1177/0956797613482944",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1177/0956797613482944"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1177/0956797613482944"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3797151/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/23921769/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "parsons-osherson-2001-deductive-probabilistic-reasoning",
+    "title": "New Evidence for Distinct Right and Left Brain Systems for Deductive versus Probabilistic Reasoning",
+    "citation": "Parsons LM, Osherson DN. Cerebral Cortex. 2001;11(10):954-965.",
+    "doi": "10.1093/cercor/11.10.954",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1093/cercor/11.10.954"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/11.10.954"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "paulesu-1993-phonological-loop",
+    "title": "The neural correlates of the verbal component of working memory",
+    "citation": "Paulesu E, Frith CD, Frackowiak RSJ. Nature. 1993;362(6418):342-345.",
+    "doi": "10.1038/362342a0",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/362342a0"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/362342a0"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "petersen-posner-2012-attention-system",
+    "title": "The Attention System of the Human Brain: 20 Years After",
+    "citation": "Petersen SE, Posner MI. Annual Review of Neuroscience. 2012;35:73-89.",
+    "doi": "10.1146/annurev-neuro-062111-150525",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1146/annurev-neuro-062111-150525"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1146/annurev-neuro-062111-150525"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "piazza-2003-subitizing-counting",
+    "title": "Single-trial classification of parallel pre-attentive and serial attentive processes using functional magnetic resonance imaging",
+    "citation": "Piazza M, Giacomini E, Le Bihan D, Dehaene S. Proceedings of the Royal Society B. 2003;270(1521):1237-1241.",
+    "doi": "10.1098/rspb.2003.2356",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1098/rspb.2003.2356"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1098/rspb.2003.2356"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1691365/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/12816636/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "plomin-2022-genetics-specific-cognitive-abilities",
+    "title": "The genetics of specific cognitive abilities",
+    "citation": null,
+    "doi": "10.1016/j.intell.2022.101689",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.intell.2022.101689"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10184120/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/37197611/"
+      }
+    ],
+    "decision": "included-CC-BY",
+    "reason": "Article-specific notice in local archived article",
+    "license": "http://creativecommons.org/licenses/by/4.0",
+    "licenseEvidencePath": "src/data/research-evidence/fulltext/plomin-2022-genetics-specific-cognitive-abilities/article.html",
+    "licenseEvidenceExcerpt": "cesca.procopio@kcl.ac.uk  \n \n \n 1  These authors contributed equally. \n \n \n \n    Received 2022 Jan 31; Revised 2022 Aug 31; Accepted 2022 Aug 31.    \n \n © 2022 The Authors \n This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/). \n  PMC Copyright notice  \n \n \n PMCID: PMC10184120  PMID:  37197611 \n \n       Abstract \n Most research on individual differences in performance on tests of cognitive ability focuses on general cognitive ability (g), the highest level in the three-level Cattell-Horn-Carroll (CHC) hierarchical model of intelligence. About 50% of the variance of g is due to inherited DNA differences (heritabil",
+    "includedFiles": [
+      "public/fulltext/plomin-2022-genetics-specific-cognitive-abilities/article.html"
+    ],
+    "modification": "Text-only standalone HTML; publisher chrome, active elements and images omitted; article-specific notices retained"
+  },
+  {
+    "sourceId": "powers-2010-dyslexia-dcdc2-normal-reading",
+    "title": "Dyslexia and DCDC2: normal variation in reading and spelling is associated with DCDC2 polymorphisms in an Australian population sample",
+    "citation": null,
+    "doi": "10.1038/ejhg.2009.237",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/ejhg.2009.237"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2987340/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/20068590/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "prabhakaran-1997-fluid-reasoning-raven",
+    "title": "Neural Substrates of Fluid Reasoning: An fMRI Study of Neocortical Activation during Performance of the Raven's Progressive Matrices Test",
+    "citation": "Prabhakaran V, Smith JAL, Desmond JE, Glover GH, Gabrieli JDE. Cognitive Psychology. 1997;33(1):43-63.",
+    "doi": "10.1006/cogp.1997.0659",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1006/cogp.1997.0659"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1006/cogp.1997.0659"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "price-2012-language-review",
+    "title": "A review and synthesis of the first 20 years of PET and fMRI studies of heard speech, spoken language and reading",
+    "citation": "Price CJ. NeuroImage. 2012;62(2):816-847.",
+    "doi": "10.1016/j.neuroimage.2012.04.062",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2012.04.062"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2012.04.062"
+      }
+    ],
+    "decision": "included-CC-BY",
+    "reason": "Article-specific notice in local archived article",
+    "license": "https://creativecommons.org/licenses/by/3.0",
+    "licenseEvidencePath": "src/data/research-evidence/fulltext/price-2012-language-review/article.html",
+    "licenseEvidenceExcerpt": "e information  \n \n \n  \n 1 Wellcome Trust Centre for Neuroimaging, UCL, London, WC1N 3BG, UK  \n    Accepted 2012 Apr 30.    \n \n © 2012 Elsevier Inc. \n Open Access under  CC BY 3.0  license \n  PMC Copyright notice  \n \n \n PMCID: PMC3398395  PMID:  22584224 \n \n       Abstract \n The anatomy of language has been investigated with PET or fMRI for more than 20 years. Here I attempt to provide an overview of the brain areas associated with heard spe",
+    "includedFiles": [
+      "public/fulltext/price-2012-language-review/article.html"
+    ],
+    "modification": "Text-only standalone HTML; publisher chrome, active elements and images omitted; article-specific notices retained"
+  },
+  {
+    "sourceId": "qin-2004-algebra-learning-fmri",
+    "title": "The change of the brain activation patterns as children learn algebra equation solving",
+    "citation": "Qin Y, Carter CS, Silk EM, et al. Proceedings of the National Academy of Sciences. 2004;101(15):5686-5691.",
+    "doi": "10.1073/pnas.0401227101",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1073/pnas.0401227101"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1073/pnas.0401227101"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC397478/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/15064407/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "rae-2014-selection-stopping",
+    "title": "Selection and stopping in voluntary action: A meta-analysis and combined fMRI study",
+    "citation": "Rae CL, Hughes LE, Weaver C, Anderson MC, Rowe JB. NeuroImage. 2014;86:381-391.",
+    "doi": "10.1016/j.neuroimage.2013.10.012",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2013.10.012"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2013.10.012"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "reineberg-2022-general-executive-function",
+    "title": "Context-specific activations are a hallmark of the neural basis of individual differences in common executive function",
+    "citation": "Reineberg AE, Banich MT, Wager TD, Friedman NP. NeuroImage. 2022;249:118845.",
+    "doi": "10.1016/j.neuroimage.2021.118845",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2021.118845"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2021.118845"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "rimfeld-2017-genetic-structure-spatial-abilities",
+    "title": "Phenotypic and genetic evidence for a unifactorial structure of spatial abilities",
+    "citation": null,
+    "doi": "10.1073/pnas.1607883114",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1073/pnas.1607883114"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5347574/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/28223478/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "ring-1999-preserved-cognitive-skills-autism",
+    "title": "Cerebral correlates of preserved cognitive skills in autism",
+    "citation": "Ring HA, Baron-Cohen S, Wheelwright S, et al. Brain. 1999;122(7):1305-1315.",
+    "doi": "10.1093/brain/122.7.1305",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1093/brain/122.7.1305"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/brain/122.7.1305"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "roberts-2016-working-memory-two-year-academic-outcomes",
+    "title": "Academic Outcomes 2 Years After Working Memory Training for Children With Low Working Memory: A Randomized Clinical Trial",
+    "citation": "Roberts G, Quach J, Spencer-Smith M, et al. JAMA Pediatrics. 2016;170(5):e154568.",
+    "doi": "10.1001/jamapediatrics.2015.4568",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://research.monash.edu/en/publications/academic-outcomes-2-years-after-working-memory-training-for-child/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1001/jamapediatrics.2015.4568"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/26954779/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "rodriguez-moreno-hirsch-2009-deductive-reasoning",
+    "title": "The dynamics of deductive reasoning: An fMRI investigation",
+    "citation": "Rodriguez-Moreno D, Hirsch J. Neuropsychologia. 2009;47(4):949-961.",
+    "doi": "10.1016/j.neuropsychologia.2008.08.030",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuropsychologia.2008.08.030"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuropsychologia.2008.08.030"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "roediger-mcdermott-1995-drm",
+    "title": "Creating false memories: Remembering words not presented in lists",
+    "citation": "Roediger HL, McDermott KB. Journal of Experimental Psychology: Learning, Memory, and Cognition. 1995;21(4):803-814.",
+    "doi": "10.1037/0278-7393.21.4.803",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1037/0278-7393.21.4.803"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1037/0278-7393.21.4.803"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "rolls-2022-hippocampus-vmpfc-memory",
+    "title": "The hippocampus, ventromedial prefrontal cortex, and episodic and semantic memory",
+    "citation": "Rolls ET. Progress in Neurobiology. 2022;217:102334.",
+    "doi": "10.1016/j.pneurobio.2022.102334",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.pneurobio.2022.102334"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.pneurobio.2022.102334"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "rottschy-2012-working-memory",
+    "title": "Modelling neural correlates of working memory: A coordinate-based meta-analysis",
+    "citation": "Rottschy C, Langner R, Dogan I, et al. NeuroImage. 2012;60(1):830-846.",
+    "doi": "10.1016/j.neuroimage.2011.11.050",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2011.11.050"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2011.11.050"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "rubia-2006-frontostriatal-cognitive-control",
+    "title": "Progressive increase of frontostriatal brain activation from childhood to adulthood during event-related tasks of cognitive control",
+    "citation": "Rubia K, Smith AB, Woolley J, et al. Human Brain Mapping. 2006;27(12):973-993.",
+    "doi": "10.1002/hbm.20237",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6871373/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1002/hbm.20237"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6871373/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/16683265/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "rueda-2005-executive-attention-training",
+    "title": "Training, maturation, and genetic influences on the development of executive attention",
+    "citation": "Rueda MR, Rothbart MK, McCandliss BD, Saccomanno L, Posner MI. PNAS. 2005;102(41):14931-14936.",
+    "doi": "10.1073/pnas.0506897102",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1073/pnas.0506897102"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1073/pnas.0506897102"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1253585/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/16192352/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "sambataro-2015-dat1-working-memory-updating",
+    "title": "A variable number of tandem repeats in the 3'-untranslated region of the dopamine transporter modulates striatal function during working memory updating across the adult age span",
+    "citation": null,
+    "doi": "10.1111/ejn.12956",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1111/ejn.12956"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/25997640/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "saylik-2022-executive-function-unity-diversity",
+    "title": "Characterising the unity and diversity of executive functions in a within-subject fMRI study",
+    "citation": "Saylik R, Williams AL, Murphy RA, Szameitat AJ. Scientific Reports. 2022;12:8182.",
+    "doi": "10.1038/s41598-022-11433-z",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/s41598-022-11433-z"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/s41598-022-11433-z"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "scerri-2012-dyx2-reading-activation",
+    "title": "Variants in the DYX2 locus are associated with altered brain activation in reading-related brain regions in subjects with reading disability",
+    "citation": null,
+    "doi": "10.1016/j.neuroimage.2012.06.037",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2012.06.037"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3518451/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/22750057/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "schaefer2018",
+    "title": "Local-Global Parcellation of the Human Cerebral Cortex from Intrinsic Functional Connectivity MRI",
+    "citation": "Schaefer A, Kong R, Gordon EM, et al. Cerebral Cortex, 2018.",
+    "doi": "10.1093/cercor/bhx179",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/bhx179"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "simons-2016-brain-training-review",
+    "title": "Do brain-training programs work?",
+    "citation": "Simons DJ, Boot WR, Charness N, et al. Psychological Science in the Public Interest. 2016;17(3):103-186.",
+    "doi": "10.1177/1529100616661983",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1177/1529100616661983"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1177/1529100616661983"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/27697851/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "skeide-2024-dyslexia-genes-reading-brain-function",
+    "title": "Developmental dyslexia susceptibility genes DNAAF4, DCDC2, and NRSN1 are associated with brain function in fluently reading adolescents and young adults",
+    "citation": null,
+    "doi": "10.1093/cercor/bhae144",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/bhae144"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11014888/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/38610086/"
+      }
+    ],
+    "decision": "included-CC-BY",
+    "reason": "Article-specific notice in local archived article",
+    "license": "https://creativecommons.org/licenses/by/4.0",
+    "licenseEvidencePath": "src/data/research-evidence/fulltext/skeide-2024-dyslexia-genes-reading-brain-function/article.html",
+    "licenseEvidenceExcerpt": "span>nea.rinne@helsinki.fi  \n  \n \n    Received 2023 Oct 11; Revised 2024 Mar 16; Accepted 2024 Mar 17; Collection date 2024 Apr.    \n \n © The Author(s) 2024. Published by Oxford University Press. \n This is an Open Access article distributed under the terms of the Creative Commons Attribution License ( https://creativecommons.org/licenses/by/4.0/ ), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited. \n  PMC Copyright notice  \n \n \n PMCID: PMC11014888  PMID:  38610086 \n \n       Abstract \n Reading skill",
+    "includedFiles": [
+      "public/fulltext/skeide-2024-dyslexia-genes-reading-brain-function/article.html"
+    ],
+    "modification": "Text-only standalone HTML; publisher chrome, active elements and images omitted; article-specific notices retained"
+  },
+  {
+    "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+    "title": "A sensory signature that distinguishes true from false memories",
+    "citation": "Slotnick SD, Schacter DL. Nature Neuroscience. 2004;7(6):664-672.",
+    "doi": "10.1038/nn1252",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1038/nn1252"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/nn1252"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "smith-1996-verbal-spatial-wm",
+    "title": "Dissociating Verbal and Spatial Working Memory Using PET",
+    "citation": "Smith EE, Jonides J, Koeppe RA. Cerebral Cortex. 1996;6(1):11-20.",
+    "doi": "10.1093/cercor/6.1.11",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1093/cercor/6.1.11"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/6.1.11"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "spaniol-2009-episodic-memory",
+    "title": "Event-related fMRI studies of episodic encoding and retrieval: Meta-analyses using activation likelihood estimation",
+    "citation": "Spaniol J, Davidson PSR, Kim ASN, Han H, Moscovitch M, Grady CL. Neuropsychologia. 2009;47(8-9):1765-1779.",
+    "doi": "10.1016/j.neuropsychologia.2009.02.028",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuropsychologia.2009.02.028"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuropsychologia.2009.02.028"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "sperling-2003-face-name",
+    "title": "Putting names to faces:",
+    "citation": "Sperling R, Chua E, Cocchiarella A, et al. NeuroImage. 2003;20(2):1400-1410.",
+    "doi": "10.1016/S1053-8119(03)00391-4",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/S1053-8119(03)00391-4"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/S1053-8119(03)00391-4"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "stavy-babai-kallai-2016-proportional-reasoning",
+    "title": "Proportional Reasoning",
+    "citation": "Stavy R, Babai R, Kallai AY. Zeitschrift fuer Psychologie. 2016;224(4):266-276.",
+    "doi": "10.1027/2151-2604/a000262",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1027/2151-2604/a000262"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1027/2151-2604/a000262"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "stern-1996-novel-picture-encoding",
+    "title": "The hippocampal formation participates in novel picture encoding: evidence from functional magnetic resonance imaging",
+    "citation": "Stern CE, Corkin S, Gonzalez RG, et al. Proceedings of the National Academy of Sciences. 1996;93(16):8660-8665.",
+    "doi": "10.1073/pnas.93.16.8660",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1073/pnas.93.16.8660"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1073/pnas.93.16.8660"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "stokes-2011-comt-bold-wm-planning-inhibition",
+    "title": "The effects of the COMT Val108/158Met polymorphism on BOLD activation during working memory, planning, and response inhibition: a role for the posterior cingulate cortex?",
+    "citation": null,
+    "doi": "10.1038/npp.2010.210",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/npp.2010.210"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3055733/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/21150912/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "supekar-2013-math-tutoring-neural-predictors",
+    "title": "Neural predictors of individual differences in response to math tutoring in primary-grade school children",
+    "citation": "Supekar K, Swigart AG, Tenison C, Jolles DD, Rosenberg-Lee M, Fuchs L, Menon V. PNAS. 2013;110(20):8230-8235.",
+    "doi": "10.1073/pnas.1222154110",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1073/pnas.1222154110"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1073/pnas.1222154110"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3657798/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/23630286/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "swick-2011-stopping",
+    "title": "Are the neural correlates of stopping and not going identical? Quantitative meta-analysis of two response inhibition tasks",
+    "citation": "Swick D, Ashley V, Turken AU. NeuroImage. 2011;56(3):1655-1665.",
+    "doi": "10.1016/j.neuroimage.2011.02.070",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2011.02.070"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2011.02.070"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "taylor-2013-reading-meta",
+    "title": "Can cognitive models explain brain activation during word and pseudoword reading? A meta-analysis of 36 neuroimaging studies",
+    "citation": "Taylor JS, Rastle K, Davis MH. Psychological Bulletin. 2013;139(4):766-791.",
+    "doi": "10.1037/a0030266",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1037/a0030266"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1037/a0030266"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "temple-2003-dyslexia-remediation-fmri",
+    "title": "Neural deficits in children with dyslexia ameliorated by behavioral remediation: Evidence from functional MRI",
+    "citation": "Temple E, Deutsch GK, Poldrack RA, Miller SL, Tallal P, Merzenich MM, Gabrieli JDE. PNAS. 2003;100(5):2860-2865.",
+    "doi": "10.1073/pnas.0030098100",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1073/pnas.0030098100"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1073/pnas.0030098100"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC151431/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/12604786/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "thakral-2025-false-memory-meta",
+    "title": "Are False Memory and Creative Thinking Mediated by Common Neural Substrates? An fMRI Meta-Analysis",
+    "citation": "Thakral PP, Starkey CC, Devitt AL, Schacter DL. Creativity Research Journal. 2025;37(1):6-21.",
+    "doi": "10.1080/10400419.2023.2269356",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11810115/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1080/10400419.2023.2269356"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11810115/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/39953013/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "to-2015-cantonese-syntax-intervention",
+    "title": "A Randomized Controlled Trial of Two Syntactic Treatment Procedures With Cantonese-Speaking, School-Age Children With Language Disorders",
+    "citation": "To CKS, Lui HM, Li XX, Lam GYH. Journal of Speech, Language, and Hearing Research. 2015;58(4):1258-1272.",
+    "doi": "10.1044/2015_JSLHR-L-14-0140",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pubs.asha.org/doi/10.1044/2015_JSLHR-L-14-0140"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1044/2015_JSLHR-L-14-0140"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/26049076/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "torres-quesada-2014-emotional-conflict",
+    "title": "Comparing neural substrates of emotional vs. non-emotional conflict modulation by global control context",
+    "citation": "Torres-Quesada M, Korb FM, Funes MJ, Lupianez J, Egner T. Frontiers in Human Neuroscience. 2014;8:66.",
+    "doi": "10.3389/fnhum.2014.00066",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.3389/fnhum.2014.00066"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3923398/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/24592229/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "tosto-2014-number-sense-genetically-sensitive",
+    "title": "Why do we differ in number sense? Evidence from a genetically sensitive investigation",
+    "citation": null,
+    "doi": "10.1016/j.intell.2013.12.007",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.intell.2013.12.007"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3969293/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/24696527/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "tubridy-davachi-2011-episodic-sequence-encoding",
+    "title": "Medial Temporal Lobe Contributions to Episodic Sequence Encoding",
+    "citation": "Tubridy S, Davachi L. Cerebral Cortex. 2011;21(2):272-280.",
+    "doi": "10.1093/cercor/bhq092",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1093/cercor/bhq092"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/bhq092"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3020579/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "uddin2019-universal-taxonomy",
+    "title": "Towards a Universal Taxonomy of Macro-scale Functional Human Brain Networks",
+    "citation": "Uddin LQ, Yeo BTT, Spreng RN. Brain Topography. 2019;32(6):926-942.",
+    "doi": "10.1007/s10548-019-00744-6",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7325607/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1007/s10548-019-00744-6"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7325607/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/31707621/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "unterrainer-owen-2006-planning",
+    "title": "Planning and problem solving: From neuropsychology to functional neuroimaging",
+    "citation": "Unterrainer JM, Owen AM. Journal of Physiology-Paris. 2006;99(4-6):308-317.",
+    "doi": "10.1016/j.jphysparis.2006.03.014",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.jphysparis.2006.03.014"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.jphysparis.2006.03.014"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "uttal-2013-spatial-training-meta",
+    "title": "The malleability of spatial skills: a meta-analysis of training studies",
+    "citation": "Uttal DH, Meadow NG, Tipton E, et al. Psychological Bulletin. 2013;139(2):352-402.",
+    "doi": "10.1037/a0028446",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1037/a0028446"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1037/a0028446"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/22663761/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "vigneau-2006-left-hemisphere-language-meta",
+    "title": "Meta-analyzing left hemisphere language areas: phonology, semantics, and sentence processing",
+    "citation": "Vigneau M, Beaucousin V, Hervé PY, et al. NeuroImage. 2006;30(4):1414-1432.",
+    "doi": "10.1016/j.neuroimage.2005.11.002",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2005.11.002"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2005.11.002"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "wager-2004-shifting-attention-meta",
+    "title": "Neuroimaging studies of shifting attention: a meta-analysis",
+    "citation": "Wager TD, Jonides J, Reading S. NeuroImage. 2004;22(4):1679-1693.",
+    "doi": "10.1016/j.neuroimage.2004.03.052",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2004.03.052"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2004.03.052"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "wagner-2005-parietal-episodic-retrieval",
+    "title": "Parietal lobe contributions to episodic memory retrieval",
+    "citation": "Wagner AD, Shannon BJ, Kahn I, Buckner RL. Trends in Cognitive Sciences. 2005;9(9):445-453.",
+    "doi": "10.1016/j.tics.2005.07.001",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.tics.2005.07.001"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.tics.2005.07.001"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/16054861/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "walter-2011-embedded-figures",
+    "title": "Activation in a Frontoparietal Cortical Network Underlies Individual Differences in the Performance of an Embedded Figures Task",
+    "citation": "Walter E, Dassonville P. PLoS ONE. 2011;6(7):e20742.",
+    "doi": "10.1371/journal.pone.0020742",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1371/journal.pone.0020742"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1371/journal.pone.0020742"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "wu-2018-hick-hyman",
+    "title": "Hick-Hyman Law is Mediated by the Cognitive Control Network in the Brain",
+    "citation": "Wu T, Dufford AJ, Egan LJ, Mackie MA, Chen C, Yuan C, Chen C, Li X, Liu X, Hof PR, Fan J. Cerebral Cortex. 2018;28(7):2267-2282.",
+    "doi": "10.1093/cercor/bhx127",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5998988/"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1093/cercor/bhx127"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5998988/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/28531252/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "yarkoni-2009-rt-variability",
+    "title": "BOLD Correlates of Trial-by-Trial Reaction Time Variability in Gray and White Matter: A Multi-Study fMRI Analysis",
+    "citation": null,
+    "doi": "10.1371/journal.pone.0004257",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1371/journal.pone.0004257"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2625434/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "ye-zhou-2009-sentence-conflict-control",
+    "title": "Conflict control during sentence comprehension: fMRI evidence",
+    "citation": "Ye Z, Zhou X. NeuroImage. 2009;48(1):280-290.",
+    "doi": "10.1016/j.neuroimage.2009.06.032",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1016/j.neuroimage.2009.06.032"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1016/j.neuroimage.2009.06.032"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "yeo2011",
+    "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity",
+    "citation": "Yeo BTT, Krienen FM, Sepulcre J, et al. Journal of Neurophysiology, 2011.",
+    "doi": "10.1152/jn.00338.2011",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1152/jn.00338.2011"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "zacks-2008-mental-rotation",
+    "title": "Neuroimaging studies of mental rotation: A meta-analysis and review",
+    "citation": "Zacks JM. Journal of Cognitive Neuroscience. 2008;20(1):1-19.",
+    "doi": "10.1162/jocn.2008.20013",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1162/jocn.2008.20013"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1162/jocn.2008.20013"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "zago-2001-simple-complex-calculation",
+    "title": "Neural Correlates of Simple and Complex Mental Calculation",
+    "citation": "Zago L, Pesenti M, Mellet E, Crivello F, Mazoyer B, Tzourio-Mazoyer N. NeuroImage. 2001;13(2):314-327.",
+    "doi": "10.1006/nimg.2000.0697",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1006/nimg.2000.0697"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1006/nimg.2000.0697"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "zeineh-2003-face-name-hippocampus",
+    "title": "Dynamics of the Hippocampus During Encoding and Retrieval of Face-Name Pairs",
+    "citation": "Zeineh MM, Engel SA, Thompson PM, Bookheimer SY. Science. 2003;299(5606):577-580.",
+    "doi": "10.1126/science.1077775",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.1126/science.1077775"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1126/science.1077775"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "zhang-2024-processing-speed-accuracy-genetic-architecture",
+    "title": "Cognitive processing speed and accuracy are intrinsically different in genetic architecture and brain phenotypes",
+    "citation": null,
+    "doi": "10.1038/s41467-024-52222-8",
+    "sourceLinks": [
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.1038/s41467-024-52222-8"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11379965/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/39242605/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  },
+  {
+    "sourceId": "zinke-2012-task-switching-training-adolescents",
+    "title": "Plasticity of Executive Control through Task Switching Training in Adolescents",
+    "citation": "Zinke K, Einert M, Pfennig L, Kliegel M. Frontiers in Human Neuroscience. 2012;6:41.",
+    "doi": "10.3389/fnhum.2012.00041",
+    "sourceLinks": [
+      {
+        "kind": "url",
+        "label": "原始链接",
+        "href": "https://doi.org/10.3389/fnhum.2012.00041"
+      },
+      {
+        "kind": "doi",
+        "label": "DOI",
+        "href": "https://doi.org/10.3389/fnhum.2012.00041"
+      },
+      {
+        "kind": "pmcid",
+        "label": "PMCID",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3312238/"
+      },
+      {
+        "kind": "pmid",
+        "label": "PMID",
+        "href": "https://pubmed.ncbi.nlm.nih.gov/22470325/"
+      }
+    ],
+    "decision": "source-link-only",
+    "reason": "No article-specific redistribution permission established in this candidate audit"
+  }
+]

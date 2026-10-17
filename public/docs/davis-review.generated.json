@@ -1,0 +1,3803 @@
+{
+  "schema": "davis-diagnostic-review.v1",
+  "version": "1",
+  "sourceId": "davis-2009-temporal-order-judgment",
+  "interpretation": "Conditional lookup preserving reported numbers in an assumed target; no paper-to-target registration established.",
+  "chainSummary": [
+    "原文：FSL4.1、MNI152、FLIRT线性配准；42行原表已核。",
+    "官方历史：4.0起默认非线性生成MNI152；默认不能替代作者实际配置。",
+    "目标：固定CBIG/FSL5.0.8；历史参考文件及实际变体对应尚未建立。",
+    "以下标签和显示坐标均为保留原数值的条件诊断；不得定位教学节点。"
+  ],
+  "decision": {
+    "status": "TARGET_REFERENCE_NOT_ESTABLISHED",
+    "preciseDisplayAllowed": false,
+    "sameReferenceIdentityTransformGranted": false,
+    "mapping": null,
+    "historicalDefaultFamily": "FSL_NONLINEAR_MNI152_SUPPORTED_BY_OFFICIAL_RELEASE_HISTORY",
+    "actualPaperVariant": "NOT_IDENTIFIED_BEYOND_FSL4.1_MNI152",
+    "historicalFileChain": "NOT_ESTABLISHED",
+    "unknowns": [
+      "HISTORICAL_REFERENCE_FILE_OR_SPATIAL_VERSION_CHAIN",
+      "ARTICLE_REFERENCE_VARIANT_OR_SUFFICIENT_SOURCE_SPECIFIC_CHAIN"
+    ],
+    "meaning": "Evidence currently supports the standard nonlinear FSL MNI152 family as a plausible interpretation, but the complete paper-to-fixed-target reference chain is not established. This does not show that the coordinates are wrong or incompatible.",
+    "acceptableClosure": "Reliable source-specific methods/reference chain and historical official file/spatial identity may suffice; unpublished author hash is not a mandatory sole route. An author reference setting plus a suitable known reference also suffices.",
+    "uncertaintyBoundMm": null
+  },
+  "bindings": {
+    "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+    "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+    "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+    "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec",
+    "parcelDescriptionsSha256": "f20f1a69d878284b070de34a054d37f1d632ef6dcd3a24e37b1b8d940726393a",
+    "implementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+    "builderSha256": "092c771191b7d9f85c817470944eea010d0272c53cd1359182af7ca993df7aa3"
+  },
+  "sourceLinks": [
+    {
+      "id": "davis2009",
+      "url": "https://doi.org/10.1523/JNEUROSCI.5793-08.2009"
+    },
+    {
+      "id": "fsl-history",
+      "url": "https://fsl.fmrib.ox.ac.uk/fsl/docs/development/history/index.html#release-40-august-2007"
+    },
+    {
+      "id": "fsl41-tree-unknown",
+      "url": "https://git.fmrib.ox.ac.uk/fsl/data_standard/-/tree/fsl-4_0"
+    },
+    {
+      "id": "cbig-fixed-reference",
+      "url": "https://github.com/ThomasYeoLab/CBIG/tree/634f676630929a71297852d01dd92a287103e861/data/templates/volume/FSL5.0.8_MNI_templates"
+    }
+  ],
+  "summary": {
+    "sourceRows": 42,
+    "nonzeroLabels": 33,
+    "zeroLabels": 9,
+    "outsideGrid": 0,
+    "preciseDisplayCount": 0,
+    "teachingNodePositionsChanged": 0
+  },
+  "rows": [
+    {
+      "assumedTargetXYZ": [
+        62,
+        -40,
+        36
+      ],
+      "continuousVoxel1mm": [
+        28.0,
+        86.0,
+        108.0
+      ],
+      "sampledVoxel1mm": [
+        28,
+        86,
+        108
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 165,
+      "parcelSourceLabel": "7Networks_RH_Cont_Par_1",
+      "network": "frontoparietal",
+      "assumedViewerXYZ": [
+        149.26948738727054,
+        45.38701764475562,
+        57.5740891363433
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        149.269,
+        45.387,
+        57.574
+      ],
+      "numericViewerComponentResidual": 7.105427357601002e-15,
+      "float32ViewerRoundtripMaxMm": 7.893674265346817e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-5c4c148ef8e30af75c9daded",
+      "pointId": "davis2009-exp1-right-ips-001",
+      "originalXYZ": [
+        62,
+        -40,
+        36
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 5.36
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 1,
+        "rowWithinCluster": 1,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right intraparietal sulcus, BA 40",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        52,
+        -62,
+        8
+      ],
+      "continuousVoxel1mm": [
+        38.0,
+        64.0,
+        80.0
+      ],
+      "sampledVoxel1mm": [
+        38,
+        64,
+        80
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 136,
+      "parcelSourceLabel": "7Networks_RH_DorsAttn_Post_2",
+      "network": "dorsal_attention",
+      "assumedViewerXYZ": [
+        125.02681308883153,
+        -22.492470390873635,
+        110.90797259290915
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        125.027,
+        -22.492,
+        110.908
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 1.4010206470516096e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-a4b16ab408d958e2e02534ef",
+      "pointId": "davis2009-exp1-right-posterior-it-001",
+      "originalXYZ": [
+        52,
+        -62,
+        8
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.74
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 1,
+        "rowWithinCluster": 2,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right posterior inferior temporal cortex, BA 37",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        64,
+        -50,
+        14
+      ],
+      "continuousVoxel1mm": [
+        26.0,
+        76.0,
+        86.0
+      ],
+      "sampledVoxel1mm": [
+        26,
+        76,
+        86
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 148,
+      "parcelSourceLabel": "7Networks_RH_SalVentAttn_TempOccPar_1",
+      "network": "ventral_attention",
+      "assumedViewerXYZ": [
+        154.11802224695836,
+        -7.94686581181022,
+        81.81676343478233
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        154.118,
+        -7.947,
+        81.817
+      ],
+      "numericViewerComponentResidual": 3.552713678800501e-15,
+      "float32ViewerRoundtripMaxMm": 1.850637445954817e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-71f4396c7c08420fe707ef48",
+      "pointId": "davis2009-exp1-right-tpj-001",
+      "originalXYZ": [
+        64,
+        -50,
+        14
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.33
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 1,
+        "rowWithinCluster": 3,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right temporal parietal junction, BA 21",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        66,
+        -44,
+        20
+      ],
+      "continuousVoxel1mm": [
+        24.0,
+        82.0,
+        92.0
+      ],
+      "sampledVoxel1mm": [
+        24,
+        82,
+        92
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 149,
+      "parcelSourceLabel": "7Networks_RH_SalVentAttn_TempOccPar_2",
+      "network": "ventral_attention",
+      "assumedViewerXYZ": [
+        158.96655710664618,
+        6.598738767253188,
+        67.27115885571891
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        158.967,
+        6.599,
+        67.271
+      ],
+      "numericViewerComponentResidual": 2.842170943040401e-14,
+      "float32ViewerRoundtripMaxMm": 1.8035432418628261e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-1162af21aa3eda9c1b328d1d",
+      "pointId": "davis2009-exp1-right-tpj-002",
+      "originalXYZ": [
+        66,
+        -44,
+        20
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.3
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 1,
+        "rowWithinCluster": 4,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right temporal parietal junction, BA 22",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        60,
+        -52,
+        16
+      ],
+      "continuousVoxel1mm": [
+        30.0,
+        74.0,
+        88.0
+      ],
+      "sampledVoxel1mm": [
+        30,
+        74,
+        88
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 183,
+      "parcelSourceLabel": "7Networks_RH_Default_Par_2",
+      "network": "default_mode",
+      "assumedViewerXYZ": [
+        144.42095252758276,
+        -3.098330952122417,
+        86.66529829447012
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        144.421,
+        -3.098,
+        86.665
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 2.8648132683883887e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-cb3d0e57f19a79e913839a7a",
+      "pointId": "davis2009-exp1-right-tpj-003",
+      "originalXYZ": [
+        60,
+        -52,
+        16
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.25
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 1,
+        "rowWithinCluster": 5,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right temporal parietal junction, BA 21",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        58,
+        -40,
+        24
+      ],
+      "continuousVoxel1mm": [
+        32.0,
+        86.0,
+        96.0
+      ],
+      "sampledVoxel1mm": [
+        32,
+        86,
+        96
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 149,
+      "parcelSourceLabel": "7Networks_RH_SalVentAttn_TempOccPar_2",
+      "network": "ventral_attention",
+      "assumedViewerXYZ": [
+        139.57241766789494,
+        16.2958084866288,
+        57.5740891363433
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        139.572,
+        16.296,
+        57.574
+      ],
+      "numericViewerComponentResidual": 7.105427357601002e-15,
+      "float32ViewerRoundtripMaxMm": 2.2480840300431737e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-791132e594c213eb719f0bf2",
+      "pointId": "davis2009-exp1-right-tpj-004",
+      "originalXYZ": [
+        58,
+        -40,
+        24
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.2
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 1,
+        "rowWithinCluster": 6,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right temporal parietal junction, BA 48",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -58,
+        -54,
+        6
+      ],
+      "continuousVoxel1mm": [
+        148.0,
+        72.0,
+        78.0
+      ],
+      "sampledVoxel1mm": [
+        148,
+        72,
+        78
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 78,
+      "parcelSourceLabel": "7Networks_LH_Default_Temp_5",
+      "network": "default_mode",
+      "assumedViewerXYZ": [
+        -141.6426041939977,
+        -27.341005250561437,
+        91.51383315415794
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -141.643,
+        -27.341,
+        91.514
+      ],
+      "numericViewerComponentResidual": 3.552713678800501e-15,
+      "float32ViewerRoundtripMaxMm": 1.8350204982198193e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-8c0622976e475233af089761",
+      "pointId": "davis2009-exp1-left-tpj-001",
+      "originalXYZ": [
+        -58,
+        -54,
+        6
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 5.97
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 2,
+        "rowWithinCluster": 1,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Left temporal parietal junction, BA 21",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -44,
+        -46,
+        52
+      ],
+      "continuousVoxel1mm": [
+        134.0,
+        80.0,
+        124.0
+      ],
+      "sampledVoxel1mm": [
+        134,
+        80,
+        124
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 63,
+      "parcelSourceLabel": "7Networks_LH_Cont_Par_3",
+      "network": "frontoparietal",
+      "assumedViewerXYZ": [
+        -107.70286017618308,
+        84.17529652225807,
+        72.11969371540673
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -107.703,
+        84.175,
+        72.12
+      ],
+      "numericViewerComponentResidual": 0.0,
+      "float32ViewerRoundtripMaxMm": 1.5567591304943562e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-ddbf972204c24a04e8aa579d",
+      "pointId": "davis2009-exp1-left-ips-001",
+      "originalXYZ": [
+        -44,
+        -46,
+        52
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 5.0
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 2,
+        "rowWithinCluster": 2,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Left intraparietal sulcus, BA 40",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -50,
+        -44,
+        38
+      ],
+      "continuousVoxel1mm": [
+        140.0,
+        82.0,
+        110.0
+      ],
+      "sampledVoxel1mm": [
+        140,
+        82,
+        110
+      ],
+      "status": "UNLABELLED_OR_NONCORTICAL",
+      "labelId": 0,
+      "parcelSourceLabel": null,
+      "network": null,
+      "assumedViewerXYZ": [
+        -122.24846475524649,
+        50.235552504443426,
+        67.27115885571891
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -122.248,
+        50.236,
+        67.271
+      ],
+      "numericViewerComponentResidual": 7.105427357601002e-15,
+      "float32ViewerRoundtripMaxMm": 1.0496712192775703e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-1c79f4500d5eb60f4e942992",
+      "pointId": "davis2009-exp1-left-smg-sulcus-001",
+      "originalXYZ": [
+        -50,
+        -44,
+        38
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.46
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 2,
+        "rowWithinCluster": 3,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Left supramarginal sulcus, BA 40",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -60,
+        -42,
+        34
+      ],
+      "continuousVoxel1mm": [
+        150.0,
+        84.0,
+        106.0
+      ],
+      "sampledVoxel1mm": [
+        150,
+        84,
+        106
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 46,
+      "parcelSourceLabel": "7Networks_LH_SalVentAttn_ParOper_3",
+      "network": "ventral_attention",
+      "assumedViewerXYZ": [
+        -146.49113905368552,
+        40.53848278506782,
+        62.42262399603111
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -146.491,
+        40.538,
+        62.423
+      ],
+      "numericViewerComponentResidual": 0.0,
+      "float32ViewerRoundtripMaxMm": 1.8191601967032511e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-96c879aef3eff505c7debe10",
+      "pointId": "davis2009-exp1-left-smg-sulcus-002",
+      "originalXYZ": [
+        -60,
+        -42,
+        34
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.02
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 2,
+        "rowWithinCluster": 4,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Left supramarginal sulcus, BA 40",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -48,
+        -46,
+        24
+      ],
+      "continuousVoxel1mm": [
+        138.0,
+        80.0,
+        96.0
+      ],
+      "sampledVoxel1mm": [
+        138,
+        80,
+        96
+      ],
+      "status": "UNLABELLED_OR_NONCORTICAL",
+      "labelId": 0,
+      "parcelSourceLabel": null,
+      "network": null,
+      "assumedViewerXYZ": [
+        -117.39992989555869,
+        16.2958084866288,
+        72.11969371540673
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -117.4,
+        16.296,
+        72.12
+      ],
+      "numericViewerComponentResidual": 0.0,
+      "float32ViewerRoundtripMaxMm": 1.5567591304943562e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-d803b364b8bd72925e36e17b",
+      "pointId": "davis2009-exp1-left-tpj-002",
+      "originalXYZ": [
+        -48,
+        -46,
+        24
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.47
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 2,
+        "rowWithinCluster": 5,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Left temporal parietal junction, BA 41",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -46,
+        -44,
+        20
+      ],
+      "continuousVoxel1mm": [
+        136.0,
+        82.0,
+        92.0
+      ],
+      "sampledVoxel1mm": [
+        136,
+        82,
+        92
+      ],
+      "status": "UNLABELLED_OR_NONCORTICAL",
+      "labelId": 0,
+      "parcelSourceLabel": null,
+      "network": null,
+      "assumedViewerXYZ": [
+        -112.55139503587088,
+        6.598738767253188,
+        67.27115885571891
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -112.551,
+        6.599,
+        67.271
+      ],
+      "numericViewerComponentResidual": 1.7763568394002505e-15,
+      "float32ViewerRoundtripMaxMm": 1.4166375947866072e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-da5b37d184e14f9349c6d420",
+      "pointId": "davis2009-exp1-left-tpj-003",
+      "originalXYZ": [
+        -46,
+        -44,
+        20
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.45
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 2,
+        "rowWithinCluster": 6,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Left temporal parietal junction, BA 41",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        28,
+        48,
+        2
+      ],
+      "continuousVoxel1mm": [
+        62.0,
+        174.0,
+        74.0
+      ],
+      "sampledVoxel1mm": [
+        62,
+        174,
+        74
+      ],
+      "status": "UNLABELLED_OR_NONCORTICAL",
+      "labelId": 0,
+      "parcelSourceLabel": null,
+      "network": null,
+      "assumedViewerXYZ": [
+        66.84439477257789,
+        -37.03807496993705,
+        -155.7614446899201
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        66.844,
+        -37.038,
+        -155.761
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 1.536941528712532e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-8b105c96fc92b160d05fbd8c",
+      "pointId": "davis2009-exp1-right-ifl-ba47-001",
+      "originalXYZ": [
+        28,
+        48,
+        2
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.12
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 3,
+        "rowWithinCluster": 1,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right inferior frontal lobe, BA 47",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        50,
+        40,
+        -10
+      ],
+      "continuousVoxel1mm": [
+        40.0,
+        166.0,
+        62.0
+      ],
+      "sampledVoxel1mm": [
+        40,
+        166,
+        62
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 190,
+      "parcelSourceLabel": "7Networks_RH_Default_PFCv_1",
+      "network": "default_mode",
+      "assumedViewerXYZ": [
+        120.17827822914373,
+        -66.12928412806387,
+        -136.36730525116886
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        120.178,
+        -66.129,
+        -136.367
+      ],
+      "numericViewerComponentResidual": 0.0,
+      "float32ViewerRoundtripMaxMm": 1.7816283701677094e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-919572b28e3f10658014fce4",
+      "pointId": "davis2009-exp1-right-ifl-ba47-002",
+      "originalXYZ": [
+        50,
+        40,
+        -10
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.09
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 3,
+        "rowWithinCluster": 2,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right inferior frontal lobe, BA 47",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        44,
+        32,
+        -6
+      ],
+      "continuousVoxel1mm": [
+        46.0,
+        158.0,
+        66.0
+      ],
+      "sampledVoxel1mm": [
+        46,
+        158,
+        66
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 190,
+      "parcelSourceLabel": "7Networks_RH_Default_PFCv_1",
+      "network": "default_mode",
+      "assumedViewerXYZ": [
+        105.63267365008032,
+        -56.43221440868827,
+        -116.97316581241765
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        105.633,
+        -56.432,
+        -116.973
+      ],
+      "numericViewerComponentResidual": 0.0,
+      "float32ViewerRoundtripMaxMm": 6.628872313285683e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-b0df97f25cd212238577b521",
+      "pointId": "davis2009-exp1-right-ifl-ba47-003",
+      "originalXYZ": [
+        44,
+        32,
+        -6
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.66
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 3,
+        "rowWithinCluster": 3,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right inferior frontal lobe, BA 47",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        44,
+        20,
+        6
+      ],
+      "continuousVoxel1mm": [
+        46.0,
+        146.0,
+        78.0
+      ],
+      "sampledVoxel1mm": [
+        46,
+        146,
+        78
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 154,
+      "parcelSourceLabel": "7Networks_RH_SalVentAttn_FrOperIns_3",
+      "network": "ventral_attention",
+      "assumedViewerXYZ": [
+        105.63267365008032,
+        -27.341005250561437,
+        -87.88195665429083
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        105.633,
+        -27.341,
+        -87.882
+      ],
+      "numericViewerComponentResidual": 3.552713678800501e-15,
+      "float32ViewerRoundtripMaxMm": 6.273310049209613e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-32cce6bcc139ec634650fec6",
+      "pointId": "davis2009-exp1-right-ifg-ba45-001",
+      "originalXYZ": [
+        44,
+        20,
+        6
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.59
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 3,
+        "rowWithinCluster": 4,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right inferior frontal gyrus, BA 45",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        36,
+        58,
+        12
+      ],
+      "continuousVoxel1mm": [
+        54.0,
+        184.0,
+        84.0
+      ],
+      "sampledVoxel1mm": [
+        54,
+        184,
+        84
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 171,
+      "parcelSourceLabel": "7Networks_RH_Cont_PFCl_2",
+      "network": "frontoparietal",
+      "assumedViewerXYZ": [
+        86.2385342113291,
+        -12.795400671498026,
+        -180.0041189883591
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        86.239,
+        -12.795,
+        -180.004
+      ],
+      "numericViewerComponentResidual": 1.7763568394002505e-15,
+      "float32ViewerRoundtripMaxMm": 4.914101268127524e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-e54fe814ad59c9be31ce30cc",
+      "pointId": "davis2009-exp1-right-mfg-ba46-001",
+      "originalXYZ": [
+        36,
+        58,
+        12
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.5
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 3,
+        "rowWithinCluster": 5,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right middle frontal gyrus, BA 46",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        20,
+        54,
+        12
+      ],
+      "continuousVoxel1mm": [
+        70.0,
+        180.0,
+        84.0
+      ],
+      "sampledVoxel1mm": [
+        70,
+        180,
+        84
+      ],
+      "status": "UNLABELLED_OR_NONCORTICAL",
+      "labelId": 0,
+      "parcelSourceLabel": null,
+      "network": null,
+      "assumedViewerXYZ": [
+        47.450255333826654,
+        -12.795400671498026,
+        -170.3070492689835
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        47.45,
+        -12.795,
+        -170.307
+      ],
+      "numericViewerComponentResidual": 1.7763568394002505e-15,
+      "float32ViewerRoundtripMaxMm": 1.3791057682510655e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-3da736f378b1d44324c7ad8d",
+      "pointId": "davis2009-exp1-right-frontal-pole-ba10-001",
+      "originalXYZ": [
+        20,
+        54,
+        12
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.19
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 3,
+        "rowWithinCluster": 6,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right frontal pole, BA 10",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        26,
+        14,
+        54
+      ],
+      "continuousVoxel1mm": [
+        64.0,
+        140.0,
+        126.0
+      ],
+      "sampledVoxel1mm": [
+        64,
+        140,
+        126
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 146,
+      "parcelSourceLabel": "7Networks_RH_DorsAttn_FEF_2",
+      "network": "dorsal_attention",
+      "assumedViewerXYZ": [
+        61.99585991289007,
+        89.02383138194585,
+        -73.33635207522741
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        61.996,
+        89.024,
+        -73.336
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 1.1741979193402585e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-868e0d1181178dec98a19f93",
+      "pointId": "davis2009-exp1-right-fef-ba8-001",
+      "originalXYZ": [
+        26,
+        14,
+        54
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.65
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 4,
+        "rowWithinCluster": 1,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right frontal eye field, BA 8",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        42,
+        6,
+        40
+      ],
+      "continuousVoxel1mm": [
+        48.0,
+        132.0,
+        112.0
+      ],
+      "sampledVoxel1mm": [
+        48,
+        132,
+        112
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 151,
+      "parcelSourceLabel": "7Networks_RH_SalVentAttn_PrC_1",
+      "network": "ventral_attention",
+      "assumedViewerXYZ": [
+        100.78413879039252,
+        55.08408736413123,
+        -53.9422126364762
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        100.784,
+        55.084,
+        -53.942
+      ],
+      "numericViewerComponentResidual": 7.105427357601002e-15,
+      "float32ViewerRoundtripMaxMm": 1.1344189161377471e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-8d05b1aa077a67c52886b70e",
+      "pointId": "davis2009-exp1-right-sma-ba6-001",
+      "originalXYZ": [
+        42,
+        6,
+        40
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.55
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 4,
+        "rowWithinCluster": 2,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right supplementary motor area, BA 6",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        26,
+        8,
+        42
+      ],
+      "continuousVoxel1mm": [
+        64.0,
+        134.0,
+        114.0
+      ],
+      "sampledVoxel1mm": [
+        64,
+        134,
+        114
+      ],
+      "status": "UNLABELLED_OR_NONCORTICAL",
+      "labelId": 0,
+      "parcelSourceLabel": null,
+      "network": null,
+      "assumedViewerXYZ": [
+        61.99585991289007,
+        59.932622223819045,
+        -58.790747496164
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        61.996,
+        59.933,
+        -58.791
+      ],
+      "numericViewerComponentResidual": 7.105427357601002e-15,
+      "float32ViewerRoundtripMaxMm": 5.039137818130257e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-c13d668479a42f1ab84a6c51",
+      "pointId": "davis2009-exp1-right-sma-ba6-002",
+      "originalXYZ": [
+        26,
+        8,
+        42
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.51
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 4,
+        "rowWithinCluster": 3,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right supplementary motor area, BA 6",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        26,
+        10,
+        46
+      ],
+      "continuousVoxel1mm": [
+        64.0,
+        136.0,
+        118.0
+      ],
+      "sampledVoxel1mm": [
+        64,
+        136,
+        118
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 146,
+      "parcelSourceLabel": "7Networks_RH_DorsAttn_FEF_2",
+      "network": "dorsal_attention",
+      "assumedViewerXYZ": [
+        61.99585991289007,
+        69.62969194319464,
+        -63.639282355851805
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        61.996,
+        69.63,
+        -63.639
+      ],
+      "numericViewerComponentResidual": 0.0,
+      "float32ViewerRoundtripMaxMm": 4.704830480761757e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-0eb59b71541a3e95cb292afe",
+      "pointId": "davis2009-exp1-right-sma-ba6-003",
+      "originalXYZ": [
+        26,
+        10,
+        46
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.5
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 4,
+        "rowWithinCluster": 4,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right supplementary motor area, BA 6",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        26,
+        2,
+        62
+      ],
+      "continuousVoxel1mm": [
+        64.0,
+        128.0,
+        134.0
+      ],
+      "sampledVoxel1mm": [
+        64,
+        128,
+        134
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 146,
+      "parcelSourceLabel": "7Networks_RH_DorsAttn_FEF_2",
+      "network": "dorsal_attention",
+      "assumedViewerXYZ": [
+        61.99585991289007,
+        108.41797082069706,
+        -44.24514291710059
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        61.996,
+        108.418,
+        -44.245
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 8.541537326323123e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-528fb71fba764ef25f7d2209",
+      "pointId": "davis2009-exp1-right-sma-ba6-004",
+      "originalXYZ": [
+        26,
+        2,
+        62
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.49
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 4,
+        "rowWithinCluster": 5,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right supplementary motor area, BA 6",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        22,
+        4,
+        62
+      ],
+      "continuousVoxel1mm": [
+        68.0,
+        130.0,
+        134.0
+      ],
+      "sampledVoxel1mm": [
+        68,
+        130,
+        134
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 146,
+      "parcelSourceLabel": "7Networks_RH_DorsAttn_FEF_2",
+      "network": "dorsal_attention",
+      "assumedViewerXYZ": [
+        52.29879019351446,
+        108.41797082069706,
+        -49.0936777767884
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        52.299,
+        108.418,
+        -49.094
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 8.541537326323123e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-e72ccd9a95170bf8d6598db3",
+      "pointId": "davis2009-exp1-right-sma-ba6-005",
+      "originalXYZ": [
+        22,
+        4,
+        62
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.48
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "1",
+        "pdfPage": 4,
+        "printedPage": 3185,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 4,
+        "rowWithinCluster": 6,
+        "contrast": "Experiment1: TOJ > shape",
+        "rowRegionLabel": "Right supplementary motor area, BA 6",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        36,
+        -8,
+        54
+      ],
+      "continuousVoxel1mm": [
+        54.0,
+        118.0,
+        126.0
+      ],
+      "sampledVoxel1mm": [
+        54,
+        118,
+        126
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 145,
+      "parcelSourceLabel": "7Networks_RH_DorsAttn_FEF_1",
+      "network": "dorsal_attention",
+      "assumedViewerXYZ": [
+        86.2385342113291,
+        89.02383138194585,
+        -20.002468618661567
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        86.239,
+        89.024,
+        -20.002
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 1.1741979193402585e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-9437401718d170007b53a056",
+      "pointId": "davis2009-exp2-right-ips-001",
+      "originalXYZ": [
+        36,
+        -8,
+        54
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.24
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 1,
+        "rowWithinCluster": 1,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Right intraparietal sulcus, BA 40",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -44,
+        6,
+        44
+      ],
+      "continuousVoxel1mm": [
+        134.0,
+        132.0,
+        116.0
+      ],
+      "sampledVoxel1mm": [
+        134,
+        132,
+        116
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 70,
+      "parcelSourceLabel": "7Networks_LH_Cont_PFCl_5",
+      "network": "frontoparietal",
+      "assumedViewerXYZ": [
+        -107.70286017618308,
+        64.78115708350686,
+        -53.9422126364762
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -107.703,
+        64.781,
+        -53.942
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 9.09549676464394e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-1af7902f03ac4f97c01f1187",
+      "pointId": "davis2009-exp2-left-fef-ba6-001",
+      "originalXYZ": [
+        -44,
+        6,
+        44
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.12
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 1,
+        "rowWithinCluster": 2,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Left frontal eye field, BA 6",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -40,
+        -42,
+        54
+      ],
+      "continuousVoxel1mm": [
+        130.0,
+        84.0,
+        126.0
+      ],
+      "sampledVoxel1mm": [
+        130,
+        84,
+        126
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 35,
+      "parcelSourceLabel": "7Networks_LH_DorsAttn_Post_5",
+      "network": "dorsal_attention",
+      "assumedViewerXYZ": [
+        -98.00579045680746,
+        89.02383138194585,
+        62.42262399603111
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -98.006,
+        89.024,
+        62.423
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 1.1741979193402585e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-70d18cbfd53fdff6a3a82280",
+      "pointId": "davis2009-exp2-left-ips-001",
+      "originalXYZ": [
+        -40,
+        -42,
+        54
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.95
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 1,
+        "rowWithinCluster": 3,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Left intraparietal sulcus, BA 40",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        16,
+        4,
+        70
+      ],
+      "continuousVoxel1mm": [
+        74.0,
+        130.0,
+        142.0
+      ],
+      "sampledVoxel1mm": [
+        74,
+        130,
+        142
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 158,
+      "parcelSourceLabel": "7Networks_RH_SalVentAttn_Med_3",
+      "network": "ventral_attention",
+      "assumedViewerXYZ": [
+        37.75318561445105,
+        127.8121102594483,
+        -49.0936777767884
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        37.753,
+        127.812,
+        -49.094
+      ],
+      "numericViewerComponentResidual": 7.105427357601002e-15,
+      "float32ViewerRoundtripMaxMm": 2.645873991014014e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-196605070f178b957f9f1286",
+      "pointId": "davis2009-exp2-right-fef-ba6-001",
+      "originalXYZ": [
+        16,
+        4,
+        70
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.92
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 1,
+        "rowWithinCluster": 4,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Right frontal eye field, BA 6",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        20,
+        16,
+        46
+      ],
+      "continuousVoxel1mm": [
+        70.0,
+        142.0,
+        118.0
+      ],
+      "sampledVoxel1mm": [
+        70,
+        142,
+        118
+      ],
+      "status": "UNLABELLED_OR_NONCORTICAL",
+      "labelId": 0,
+      "parcelSourceLabel": null,
+      "network": null,
+      "assumedViewerXYZ": [
+        47.450255333826654,
+        69.62969194319464,
+        -78.18488693491523
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        47.45,
+        69.63,
+        -78.185
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 1.5724977551201391e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-4de441e61d442045f7d18c03",
+      "pointId": "davis2009-exp2-right-fef-ba8-001",
+      "originalXYZ": [
+        20,
+        16,
+        46
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.74
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 1,
+        "rowWithinCluster": 5,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Right frontal eye field, BA 8",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -36,
+        6,
+        56
+      ],
+      "continuousVoxel1mm": [
+        126.0,
+        132.0,
+        128.0
+      ],
+      "sampledVoxel1mm": [
+        126,
+        132,
+        128
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 70,
+      "parcelSourceLabel": "7Networks_LH_Cont_PFCl_5",
+      "network": "frontoparietal",
+      "assumedViewerXYZ": [
+        -88.30872073743186,
+        93.87236624163367,
+        -53.9422126364762
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -88.309,
+        93.872,
+        -53.942
+      ],
+      "numericViewerComponentResidual": 7.105427357601002e-15,
+      "float32ViewerRoundtripMaxMm": 1.1188019684027495e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-68ec4000fe18157d680e1d2d",
+      "pointId": "davis2009-exp2-left-fef-ba6-002",
+      "originalXYZ": [
+        -36,
+        6,
+        56
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.64
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 1,
+        "rowWithinCluster": 6,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Left frontal eye field, BA 6",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -50,
+        -48,
+        10
+      ],
+      "continuousVoxel1mm": [
+        140.0,
+        78.0,
+        82.0
+      ],
+      "sampledVoxel1mm": [
+        140,
+        78,
+        82
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 78,
+      "parcelSourceLabel": "7Networks_LH_Default_Temp_5",
+      "network": "default_mode",
+      "assumedViewerXYZ": [
+        -122.24846475524649,
+        -17.643935531185832,
+        76.96822857509451
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -122.248,
+        -17.644,
+        76.968
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 1.083245734889715e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-808621d3763bed7f930a348e",
+      "pointId": "davis2009-exp2-left-tpj-001",
+      "originalXYZ": [
+        -50,
+        -48,
+        10
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 5.16
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 2,
+        "rowWithinCluster": 1,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Left temporal parietal junction, BA 21",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -50,
+        -42,
+        20
+      ],
+      "continuousVoxel1mm": [
+        140.0,
+        84.0,
+        92.0
+      ],
+      "sampledVoxel1mm": [
+        140,
+        84,
+        92
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 44,
+      "parcelSourceLabel": "7Networks_LH_SalVentAttn_ParOper_1",
+      "network": "ventral_attention",
+      "assumedViewerXYZ": [
+        -122.24846475524649,
+        6.598738767253188,
+        62.42262399603111
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -122.248,
+        6.599,
+        62.423
+      ],
+      "numericViewerComponentResidual": 1.7763568394002505e-15,
+      "float32ViewerRoundtripMaxMm": 7.162793664861056e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-747f3de24486d7fb883772b7",
+      "pointId": "davis2009-exp2-left-tpj-002",
+      "originalXYZ": [
+        -50,
+        -42,
+        20
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.41
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 2,
+        "rowWithinCluster": 2,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Left temporal parietal junction, BA 41",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -54,
+        -36,
+        34
+      ],
+      "continuousVoxel1mm": [
+        144.0,
+        90.0,
+        106.0
+      ],
+      "sampledVoxel1mm": [
+        144,
+        90,
+        106
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 46,
+      "parcelSourceLabel": "7Networks_LH_SalVentAttn_ParOper_3",
+      "network": "ventral_attention",
+      "assumedViewerXYZ": [
+        -131.9455344746221,
+        40.53848278506782,
+        47.87701941696769
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -131.946,
+        40.538,
+        47.877
+      ],
+      "numericViewerComponentResidual": 7.105427357601002e-15,
+      "float32ViewerRoundtripMaxMm": 2.849196320653391e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-5160a614915e99e41950131b",
+      "pointId": "davis2009-exp2-left-smg-001",
+      "originalXYZ": [
+        -54,
+        -36,
+        34
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.22
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 2,
+        "rowWithinCluster": 3,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Left supramarginal gyrus, BA 2",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -66,
+        -38,
+        24
+      ],
+      "continuousVoxel1mm": [
+        156.0,
+        88.0,
+        96.0
+      ],
+      "sampledVoxel1mm": [
+        156,
+        88,
+        96
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 46,
+      "parcelSourceLabel": "7Networks_LH_SalVentAttn_ParOper_3",
+      "network": "ventral_attention",
+      "assumedViewerXYZ": [
+        -161.03674363274894,
+        16.2958084866288,
+        52.725554276655494
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -161.037,
+        16.296,
+        52.726
+      ],
+      "numericViewerComponentResidual": 7.105427357601002e-15,
+      "float32ViewerRoundtripMaxMm": 4.7159251437278726e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-35696dfdc6769e762e231836",
+      "pointId": "davis2009-exp2-left-tpj-003",
+      "originalXYZ": [
+        -66,
+        -38,
+        24
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.82
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 2,
+        "rowWithinCluster": 4,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Left temporal parietal junction, BA 42",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -66,
+        -40,
+        10
+      ],
+      "continuousVoxel1mm": [
+        156.0,
+        86.0,
+        82.0
+      ],
+      "sampledVoxel1mm": [
+        156,
+        86,
+        82
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 78,
+      "parcelSourceLabel": "7Networks_LH_Default_Temp_5",
+      "network": "default_mode",
+      "assumedViewerXYZ": [
+        -161.03674363274894,
+        -17.643935531185832,
+        57.5740891363433
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -161.037,
+        -17.644,
+        57.574
+      ],
+      "numericViewerComponentResidual": 7.105427357601002e-15,
+      "float32ViewerRoundtripMaxMm": 2.582391367411674e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-1e5bc323309527d69a9bf7ed",
+      "pointId": "davis2009-exp2-left-tpj-004",
+      "originalXYZ": [
+        -66,
+        -40,
+        10
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.52
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 2,
+        "rowWithinCluster": 5,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Left temporal parietal junction, BA 22",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        -34,
+        -48,
+        12
+      ],
+      "continuousVoxel1mm": [
+        124.0,
+        78.0,
+        84.0
+      ],
+      "sampledVoxel1mm": [
+        124,
+        78,
+        84
+      ],
+      "status": "UNLABELLED_OR_NONCORTICAL",
+      "labelId": 0,
+      "parcelSourceLabel": null,
+      "network": null,
+      "assumedViewerXYZ": [
+        -83.46018587774405,
+        -12.795400671498026,
+        76.96822857509451
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        -83.46,
+        -12.795,
+        76.968
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 1.5212028969813218e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-2e3ff7d28478d4b1b879bfa5",
+      "pointId": "davis2009-exp2-left-tpj-005",
+      "originalXYZ": [
+        -34,
+        -48,
+        12
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.39
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 2,
+        "rowWithinCluster": 6,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Left temporal parietal junction, BA 41",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        44,
+        0,
+        -12
+      ],
+      "continuousVoxel1mm": [
+        46.0,
+        126.0,
+        60.0
+      ],
+      "sampledVoxel1mm": [
+        46,
+        126,
+        60
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 153,
+      "parcelSourceLabel": "7Networks_RH_SalVentAttn_FrOperIns_2",
+      "network": "ventral_attention",
+      "assumedViewerXYZ": [
+        105.63267365008032,
+        -70.97781898775168,
+        -39.396608057412784
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        105.633,
+        -70.978,
+        -39.397
+      ],
+      "numericViewerComponentResidual": 0.0,
+      "float32ViewerRoundtripMaxMm": 9.744576665582372e-07,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-6bcadd8b07ebd8cb88c168dc",
+      "pointId": "davis2009-exp2-right-ifl-ba48-001",
+      "originalXYZ": [
+        44,
+        0,
+        -12
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.43
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 3,
+        "rowWithinCluster": 1,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Right inferior frontal lobe, BA 48",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        52,
+        20,
+        12
+      ],
+      "continuousVoxel1mm": [
+        38.0,
+        146.0,
+        84.0
+      ],
+      "sampledVoxel1mm": [
+        38,
+        146,
+        84
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 147,
+      "parcelSourceLabel": "7Networks_RH_DorsAttn_PrCv_1",
+      "network": "dorsal_attention",
+      "assumedViewerXYZ": [
+        125.02681308883153,
+        -12.795400671498026,
+        -87.88195665429083
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        125.027,
+        -12.795,
+        -87.882
+      ],
+      "numericViewerComponentResidual": 1.7763568394002505e-15,
+      "float32ViewerRoundtripMaxMm": 1.4010206470516096e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-f8b9247f7b6887b4e92f5eb5",
+      "pointId": "davis2009-exp2-right-ifl-ba48-002",
+      "originalXYZ": [
+        52,
+        20,
+        12
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.38
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 3,
+        "rowWithinCluster": 2,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Right inferior frontal lobe, BA 48",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        52,
+        22,
+        12
+      ],
+      "continuousVoxel1mm": [
+        38.0,
+        148.0,
+        84.0
+      ],
+      "sampledVoxel1mm": [
+        38,
+        148,
+        84
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 190,
+      "parcelSourceLabel": "7Networks_RH_Default_PFCv_1",
+      "network": "default_mode",
+      "assumedViewerXYZ": [
+        125.02681308883153,
+        -12.795400671498026,
+        -92.73049151397863
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        125.027,
+        -12.795,
+        -92.73
+      ],
+      "numericViewerComponentResidual": 1.7763568394002505e-15,
+      "float32ViewerRoundtripMaxMm": 1.4010206470516096e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-948a8d1a2f5f9b431753f3b0",
+      "pointId": "davis2009-exp2-right-ifg-ba45-001",
+      "originalXYZ": [
+        52,
+        22,
+        12
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 4.23
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 3,
+        "rowWithinCluster": 3,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Right inferior frontal gyrus, BA 45",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        54,
+        36,
+        -4
+      ],
+      "continuousVoxel1mm": [
+        36.0,
+        162.0,
+        68.0
+      ],
+      "sampledVoxel1mm": [
+        36,
+        162,
+        68
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 190,
+      "parcelSourceLabel": "7Networks_RH_Default_PFCv_1",
+      "network": "default_mode",
+      "assumedViewerXYZ": [
+        129.87534794851933,
+        -51.583679549000465,
+        -126.67023553179325
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        129.875,
+        -51.584,
+        -126.67
+      ],
+      "numericViewerComponentResidual": 1.4210854715202004e-14,
+      "float32ViewerRoundtripMaxMm": 1.2389842254378891e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-17c0226c09bda078672d8eb7",
+      "pointId": "davis2009-exp2-right-ifg-ba45-002",
+      "originalXYZ": [
+        54,
+        36,
+        -4
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.85
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 3,
+        "rowWithinCluster": 4,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Right inferior frontal gyrus, BA 45",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        52,
+        38,
+        -10
+      ],
+      "continuousVoxel1mm": [
+        38.0,
+        164.0,
+        62.0
+      ],
+      "sampledVoxel1mm": [
+        38,
+        164,
+        62
+      ],
+      "status": "LABEL_AT_ASSUMED_REFERENCE_POINT",
+      "labelId": 190,
+      "parcelSourceLabel": "7Networks_RH_Default_PFCv_1",
+      "network": "default_mode",
+      "assumedViewerXYZ": [
+        125.02681308883153,
+        -66.12928412806387,
+        -131.51877039148107
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        125.027,
+        -66.129,
+        -131.519
+      ],
+      "numericViewerComponentResidual": 0.0,
+      "float32ViewerRoundtripMaxMm": 1.481545577775023e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-c04ecbd72f101d36e06155d9",
+      "pointId": "davis2009-exp2-right-ifl-ba47-001",
+      "originalXYZ": [
+        52,
+        38,
+        -10
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.61
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 3,
+        "rowWithinCluster": 5,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Right inferior frontal lobe, BA 47",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "peaks",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    },
+    {
+      "assumedTargetXYZ": [
+        2,
+        -16,
+        -10
+      ],
+      "continuousVoxel1mm": [
+        88.0,
+        110.0,
+        62.0
+      ],
+      "sampledVoxel1mm": [
+        88,
+        110,
+        62
+      ],
+      "status": "UNLABELLED_OR_NONCORTICAL",
+      "labelId": 0,
+      "parcelSourceLabel": null,
+      "network": null,
+      "assumedViewerXYZ": [
+        3.8134415966364203,
+        -66.12928412806387,
+        -0.6083291799103492
+      ],
+      "assumedViewerXYZRoundedForInspection": [
+        3.813,
+        -66.129,
+        -0.608
+      ],
+      "numericViewerComponentResidual": 2.3314683517128287e-15,
+      "float32ViewerRoundtripMaxMm": 1.481545577775023e-06,
+      "diagnosticOnly": true,
+      "sourceRegistrationEstablished": false,
+      "preciseDisplayAllowed": false,
+      "verifiedTargetXYZ": null,
+      "verifiedViewerXYZ": null,
+      "mayPositionTeachingNode": false,
+      "refusalReason": "TARGET_REFERENCE_NOT_ESTABLISHED",
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "recordId": "rec-aa228e84e14e0c1202471787",
+      "pointId": "davis2009-exp2-thalamus-001",
+      "originalXYZ": [
+        2,
+        -16,
+        -10
+      ],
+      "statistic": {
+        "name": "Z",
+        "value": 3.52
+      },
+      "sourceRowLocator": {
+        "status": "MANUALLY_VERIFIED_TABLE_ROW_CONTEXT",
+        "table": "2",
+        "pdfPage": 5,
+        "printedPage": 3186,
+        "htmlSha256": "3b75b9799d03d5169aff3bf89e9e19d6208bbecb9c69ac59cc881963145d64a3",
+        "clusterNumber": 3,
+        "rowWithinCluster": 6,
+        "contrast": "Experiment2: TOJ > shape",
+        "rowRegionLabel": "Thalamus",
+        "coordinateColumns": [
+          "x",
+          "y",
+          "z"
+        ],
+        "statisticColumn": "Z-score"
+      },
+      "recordKind": "ACTIVATION_CLUSTER_LOCAL_MAXIMUM",
+      "legacyCategory": "atlasBoundaryEvidence",
+      "sourceFrame": "FSL4.1_MNI152_FLIRT_LINEAR_REPORTED; exact reference variant unresolved",
+      "units": "mm",
+      "axes": "RAS",
+      "transformId": "davis-reported-numbers-assumed-target-diagnostic",
+      "transformVersion": "1",
+      "transformImplementationSha256": "997dd378d8d6fb48bc4aeb4db29d50b9438396d6fa9e03a5a822462734f4623d",
+      "inputFrameId": "SOURCE_REPORTED:davis-2009-temporal-order-judgment:MNI152",
+      "outputFrameId": "ASSUMED_TARGET_ONLY:CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "assumedTargetFrameId": "CBIG_FSL5.0.8_MNI152_RAS_MM",
+      "verifiedTargetFrameId": null,
+      "transformHistory": [
+        "davis-reported-numbers-assumed-target-diagnostic"
+      ],
+      "sourceRowVerification": "MANUALLY_VERIFIED_XYZ_AND_Z",
+      "sourceRowsSha256": "ef06fa48fd42f7bf59a4128f5893021cbf124594e05d824b64ff339989222690",
+      "contractSha256": "f158d3d86d090e091ede95486f47af81f1cbea0fc39c2321d79b0d256390523f",
+      "criteriaSha256": "8f78d2da5a2e1668512afa3ca1225e4df5a5b7f9c3e5fff8ec60d4f0729a629c",
+      "labelVolumeSha256": "a47808f907f175f2e83f2c941bc68a766a8991b238e98457e9d27a8760ea21ec"
+    }
+  ]
+}

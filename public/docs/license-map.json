@@ -1,0 +1,1439 @@
+{
+  "schema": "brainfunction-license-map.v1",
+  "codeLicense": "MIT",
+  "originalContentLicense": "CC-BY-4.0",
+  "maintainer": "lizhenglei0906-design",
+  "copyright": "Copyright (c) 2026 lizhenglei0906-design",
+  "grantBoundary": "Only project-owned expression; external works and scientific facts are not exclusively appropriated or relicensed",
+  "thirdPartyNotices": "THIRD_PARTY_NOTICES.md",
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": ".gitignore",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "CITATION.cff",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "CONTENT_LICENSE.md",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "LICENSE",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "LICENSES/CBIG.txt",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "LICENSES/IBM-Plex-Sans-LICENSE",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "LICENSES/React-LICENSE",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "LICENSES/ReactDOM-LICENSE",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "LICENSES/SUITPy.txt",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "LICENSES/Three-LICENSE",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "README.md",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "docs/FIRST_RELEASE.md",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "docs/illustration-provenance.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "docs/license-map.json",
+      "kind": "license-scope-metadata",
+      "license": "CC-BY-4.0 project-owned expression only",
+      "scope": "Rights mapping is descriptive; does not grant rights in external works or unprotectable facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "docs/model-provenance.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "docs/npm-dependency-license-inventory.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "docs/paper-redistribution-records.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "docs/story-illustration-records.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "index.html",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "package-lock.json",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "package.json",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/CITATION.cff",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/CONTENT_LICENSE.md",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/LICENSE",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/LICENSES/CBIG.txt",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/LICENSES/CC-BY-4.0.txt",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/LICENSES/IBM-Plex-Sans-LICENSE",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/LICENSES/React-LICENSE",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/LICENSES/ReactDOM-LICENSE",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/LICENSES/SUITPy.txt",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/LICENSES/Three-LICENSE",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/THIRD_PARTY_NOTICES.md",
+      "kind": "license-notice",
+      "license": "Respective license text / notice",
+      "scope": "License texts retain their own terms; declarations describe scope only",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/ant-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/choice-reaction-time-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/digit-span-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/dual-task-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/embedded-figures-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/face-name-association-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/flanker-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/go-no-go-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/keep-track-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/math-word-problem-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/multiple-object-tracking-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/n-back-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/object-span-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/perceptual-discrimination-rt-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/posner-cueing-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/sentence-comprehension-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/simple-reaction-time-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/source-memory-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/stroop-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/sustained-attention-cpt-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/symbol-search-coding-speed-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/task-switching-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/temporal-order-judgment-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/visual-delayed-memory-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/attention/visual-search-schulte-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/calculation/approximate-number-sense-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/calculation/arithmetic-fact-retrieval-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/calculation/geometric-reasoning-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/calculation/number-comparison-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/calculation/number-line-estimation-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/calculation/probability-statistics-reasoning-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/calculation/subitizing-enumeration-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/calculation/symbolic-quantity-mapping-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/executive-function/stop-signal-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/long-term-memory/associative-memory-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/long-term-memory/drm-false-memory-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/long-term-memory/recognition-memory-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/mental-imagery-operation/visual-imagery-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reading/lexical-decision-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reading/orthographic-processing-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reading/semantic-task-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reading/word-pseudoword-reading-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reasoning/analogical-reasoning-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reasoning/deductive-reasoning-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reasoning/episodic-order-memory-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reasoning/inductive-rule-discovery-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reasoning/mental-rotation-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reasoning/probabilistic-reversal-learning-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reasoning/ravens-matrices-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reasoning/relational-reasoning-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/reasoning/spatial-folding-unfolding-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/short-term-memory/algebra-equation-solving-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/short-term-memory/grid-span-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/short-term-memory/mental-arithmetic-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/short-term-memory/phonological-decoding-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/short-term-memory/tower-of-london-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/assets/paradigm-stories/short-term-memory/word-list-learning-story-infographic-zh.webp",
+      "kind": "original-content",
+      "license": "CC-BY-4.0",
+      "scope": "Project-owned illustration expression only; no claim over external marks/third-party material",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/coordinate-evidence.css",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/coordinate-evidence.html",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/coordinate-evidence.js",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/coordinate-navigation.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/coordinate-review.generated.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/coordinate-statistics.js",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/davis-review.generated.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/davis-template-validation.css",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/davis-template-validation.html",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/davis-template-validation.js",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/display-spatial-audit.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/illustration-provenance.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/license-map.json",
+      "kind": "license-scope-metadata",
+      "license": "CC-BY-4.0 project-owned expression only",
+      "scope": "Rights mapping is descriptive; does not grant rights in external works or unprotectable facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/model-license.html",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/model-provenance.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/npm-dependency-license-inventory.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/paper-redistribution-records.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/project-license.html",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/spatial-validation.html",
+      "kind": "original-documentation",
+      "license": "CC-BY-4.0 project-owned teaching/documentation expression",
+      "scope": "Third-party quotations and scientific facts excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/story-illustration-records.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/docs/teaching-review.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "public/fulltext/damestani-2021-auditory-oddball-tone-discrimination/article.html",
+      "kind": "third-party-paper",
+      "license": "Article-specific CC BY; see paper-redistribution-records.json",
+      "scope": "Original article authors/rightsholders; text-only modifications indicated in each file",
+      "originalAttribution": null
+    },
+    {
+      "path": "public/fulltext/esmeyer-2025-crossmodal-perceptual-decision/article.html",
+      "kind": "third-party-paper",
+      "license": "Article-specific CC BY; see paper-redistribution-records.json",
+      "scope": "Original article authors/rightsholders; text-only modifications indicated in each file",
+      "originalAttribution": null
+    },
+    {
+      "path": "public/fulltext/felssberg-2025-mot-training-fmri/article.html",
+      "kind": "third-party-paper",
+      "license": "Article-specific CC BY; see paper-redistribution-records.json",
+      "scope": "Original article authors/rightsholders; text-only modifications indicated in each file",
+      "originalAttribution": null
+    },
+    {
+      "path": "public/fulltext/jones-2020-working-memory-metacognitive-academic-transfer/article.html",
+      "kind": "third-party-paper",
+      "license": "Article-specific CC BY; see paper-redistribution-records.json",
+      "scope": "Original article authors/rightsholders; text-only modifications indicated in each file",
+      "originalAttribution": null
+    },
+    {
+      "path": "public/fulltext/lam-2023-sh2b1-fluid-intelligence-gwas/article.html",
+      "kind": "third-party-paper",
+      "license": "Article-specific CC BY; see paper-redistribution-records.json",
+      "scope": "Original article authors/rightsholders; text-only modifications indicated in each file",
+      "originalAttribution": null
+    },
+    {
+      "path": "public/fulltext/malanchini-2020-unitary-spatial-cognition/article.html",
+      "kind": "third-party-paper",
+      "license": "Article-specific CC BY; see paper-redistribution-records.json",
+      "scope": "Original article authors/rightsholders; text-only modifications indicated in each file",
+      "originalAttribution": null
+    },
+    {
+      "path": "public/fulltext/plomin-2022-genetics-specific-cognitive-abilities/article.html",
+      "kind": "third-party-paper",
+      "license": "Article-specific CC BY; see paper-redistribution-records.json",
+      "scope": "Original article authors/rightsholders; text-only modifications indicated in each file",
+      "originalAttribution": null
+    },
+    {
+      "path": "public/fulltext/price-2012-language-review/article.html",
+      "kind": "third-party-paper",
+      "license": "Article-specific CC BY; see paper-redistribution-records.json",
+      "scope": "Original article authors/rightsholders; text-only modifications indicated in each file",
+      "originalAttribution": null
+    },
+    {
+      "path": "public/fulltext/skeide-2024-dyslexia-genes-reading-brain-function/article.html",
+      "kind": "third-party-paper",
+      "license": "Article-specific CC BY; see paper-redistribution-records.json",
+      "scope": "Original article authors/rightsholders; text-only modifications indicated in each file",
+      "originalAttribution": null
+    },
+    {
+      "path": "scripts/validate-coordinate-evidence.mjs",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "scripts/validate-core.mjs",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "scripts/validate-pages.mjs",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "scripts/validate-reading.mjs",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "scripts/validate-spatial.mjs",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "scripts/validate-teaching.mjs",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/App.tsx",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/AtlasThreeView.tsx",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/AtlasThreeViewConfig.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/AtlasThreeViewVisualSystem.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/AtlasViewer.tsx",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/LearningFunctionNavigator.tsx",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/LocalPaperReaderDrawer.tsx",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/NetworkFilter.tsx",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/PaperReaderPage.css",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/PaperReaderPage.tsx",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/ParcelInfoPanel.tsx",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/ParcelSearch.tsx",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/PhysicalStructureInfoPanel.tsx",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/TeachingPointPage.css",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/components/atlas-viewer/TeachingPointPage.tsx",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/content/paradigm-stories/paradigm-story-figures.ts",
+      "kind": "mixed-code-and-content",
+      "license": "MIT code; CC-BY-4.0 original narrative",
+      "scope": "Code wrapper and original narrative treated separately; quotations/facts/third-party works excluded from new grant",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/content/paradigm-stories/types.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/brain-atlas/network-taxonomy.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/brain-atlas/schaefer-200-7networks.json",
+      "kind": "third-party-model-or-label-derivative",
+      "license": "CBIG MIT",
+      "scope": "Fixed upstream snapshot and existing source/transform hashes retained; no project-exclusive title",
+      "originalAttribution": null
+    },
+    {
+      "path": "src/data/brain-structures/physical-structures.seed.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/brain-surface/cerebellum-suitpy-fsl-pial.surface.json",
+      "kind": "third-party-model-or-label-derivative",
+      "license": "SUITPy MIT",
+      "scope": "Fixed upstream snapshot and existing source/transform hashes retained; no project-exclusive title",
+      "originalAttribution": null
+    },
+    {
+      "path": "src/data/brain-surface/schaefer200-mni-label-volume.surface.json",
+      "kind": "third-party-model-or-label-derivative",
+      "license": "CBIG MIT",
+      "scope": "Fixed upstream snapshot and existing source/transform hashes retained; no project-exclusive title",
+      "originalAttribution": null
+    },
+    {
+      "path": "src/data/connection-overlays/math-logic-stroop-demo.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/display-ledger/evidence-display-ledger.generated.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/emotion-cognition/emotionModulation3dLayer.ts",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/function-synthesis/foundation-function-synthesis.seed.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/function-use-cases/foundation-function-use-cases.ts",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/learning-functions/bnu-learning-foundations.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/paradigm-library/evidence-review-contracts.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/paradigm-library/evidence-upgrade-plan.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/paradigm-library/foundational-paradigms.seed.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/paradigm-library/function-paradigm-importance.seed.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/paradigm-library/spatial-audit.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/paradigm-library/teaching-nodes.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/parcel-identity/schaefer200-identity.seed.json",
+      "kind": "third-party-model-or-label-derivative",
+      "license": "CBIG MIT",
+      "scope": "Fixed upstream snapshot and existing source/transform hashes retained; no project-exclusive title",
+      "originalAttribution": null
+    },
+    {
+      "path": "src/data/product-composites/quantity-understanding-triplet.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/region-coverage/region-coverage-registry.seed.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/research-evidence/evidence-consumer-interface.generated.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/research-evidence/foundational-functional-domains.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/research-evidence/local-paper-library.generated.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/research-evidence/paper-reading-index.generated.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/research-evidence/training-paradigm-coverage.generated.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/specialized-atlases/mtl-memory-routing.seed.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/specialized-atlases/specialized-atlas-registry.seed.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/study-intake/freesurfer-icbm2009c-marker-candidates.generated.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/data/study-intake/specialized-atlas-coordinate-lookup.generated.json",
+      "kind": "mixed-teaching-data",
+      "license": "CC-BY-4.0 project-owned teaching expression only; third-party/factual exclusions",
+      "scope": "Original facts, coordinates, statistics, article/table quotations, official labels and source records retain original status; no exclusive rights claimed over scientific facts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/lib/evidence.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/lib/networkPalette.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/lib/paradigmImportance.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/lib/paradigmMenuCopy.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/lib/parcelNaming.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/lib/presentationCopy.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/lib/publicPaperReading.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/lib/siteUrl.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/main.tsx",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/styles.css",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/brainAtlas.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/brainSurface.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/connectionOverlay.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/emotionCognition.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/functionSynthesis.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/learningFunction.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/paradigmEvidencePlan.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/paradigmEvidenceReview.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/paradigmLibrary.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/parcelIdentity.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/physicalBrainStructures.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/regionCoverage.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/researchEvidence.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/types/taskOverlay.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "tsconfig.app.json",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "tsconfig.json",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "tsconfig.node.json",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    },
+    {
+      "path": "vite.config.ts",
+      "kind": "original-code",
+      "license": "MIT",
+      "scope": "Only project-owned software/configuration; package metadata does not relicense dependencies or fonts",
+      "originalAttribution": "lizhenglei0906-design"
+    }
+  ]
+}

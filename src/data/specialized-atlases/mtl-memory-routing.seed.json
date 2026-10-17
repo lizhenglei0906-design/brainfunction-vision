@@ -1,0 +1,246 @@
+{
+  "id": "mtl-memory-routing-v0",
+  "version": "0.1.0",
+  "status": "seed",
+  "updated": "2026-06-18",
+  "scope": "Routing rules for how long-term-memory paradigms may use currently imported MTL, hippocampal, entorhinal, amygdala and subiculum atlas labels.",
+  "globalPolicy": {
+    "safeUse": "Use imported MTL labels as anatomical orientation, task-boundary support and review-grade structure display. A task can highlight these structures only when the task evidence names hippocampus, MTL, entorhinal, subiculum, amygdala or a compatible atlas boundary. Navarro Schroder 2015 may support anterior-lateral versus posterior-medial entorhinal context/content mechanism language, but not exact Schaefer200 point claims.",
+    "hardBoundary": "Do not convert MTL, hippocampal, thalamic, striatal or cerebellar atlas-boundary rows into Schaefer200 cortical parcels. Do not claim individual diagnosis, training causality, or hippocampal subfield precision unless a task source directly supports that subfield.",
+    "missingAtlasGap": "Perirhinal cortex and full parahippocampal cortex are still not covered by the current imported atlas layer. Juelich supports entorhinal, CA-region, dentate gyrus, subiculum, hippocampal-amygdaloid transition area and amygdala subdivisions, but not perirhinal, complete parahippocampal cortex, or a dedicated alEC/pmEC split."
+  },
+  "routes": [
+    {
+      "paradigmId": "word-list-learning",
+      "status": "production_boundary",
+      "displayIntent": "词表编码和再认的主图仍以皮层生产点为主；MTL 只作为编码/提取绑定的结构边界。",
+      "primaryAtlasLabelIds": [
+        "harvard-oxford-subcortical-mtl-09",
+        "harvard-oxford-subcortical-mtl-19"
+      ],
+      "reviewAtlasLabelIds": [
+        "juelich-mtl-cytoarchitectonic-17",
+        "juelich-mtl-cytoarchitectonic-18",
+        "juelich-mtl-cytoarchitectonic-25",
+        "juelich-mtl-cytoarchitectonic-26"
+      ],
+      "sourceIds": [
+        "kim-2011-subsequent-memory",
+        "spaniol-2009-episodic-memory"
+      ],
+      "safeTalkTrack": "可以讲词表学习依赖皮层编码控制、语义组织和海马/MTL 绑定边界；不要把海马当作唯一记忆中心。",
+      "blockedClaims": [
+        "不能说 Juelich CA 区证明具体 CA1/CA2/CA3 的任务激活。",
+        "不能把词表学习的海马边界讲成个体训练靶点。"
+      ],
+      "nextRefinementGate": "如需更精细讲编码与提取阶段，继续用 Kim/Spaniol 坐标与 Juelich CA/subiculum 标签交叉复核。"
+    },
+    {
+      "paradigmId": "associative-memory",
+      "status": "candidate_boundary",
+      "displayIntent": "联想记忆优先显示海马结构、下托和内嗅边界，皮层点只作联结策略和线索提取辅助。",
+      "primaryAtlasLabelIds": [
+        "harvard-oxford-subcortical-mtl-09",
+        "harvard-oxford-subcortical-mtl-19",
+        "juelich-mtl-cytoarchitectonic-25",
+        "juelich-mtl-cytoarchitectonic-26"
+      ],
+      "reviewAtlasLabelIds": [
+        "juelich-mtl-cytoarchitectonic-17",
+        "juelich-mtl-cytoarchitectonic-18",
+        "juelich-mtl-cytoarchitectonic-19",
+        "juelich-mtl-cytoarchitectonic-20",
+        "juelich-mtl-cytoarchitectonic-21",
+        "juelich-mtl-cytoarchitectonic-22"
+      ],
+      "sourceIds": [
+        "davachi-2003-item-source-memory",
+        "kirwan-stark-2004-face-name-pairs",
+        "sperling-2003-face-name",
+        "zeineh-2003-face-name-hippocampus",
+        "navarro-schroder-2015-entorhinal-topography"
+      ],
+      "safeTalkTrack": "可以讲联想记忆需要把两个信息绑定成一组，海马/MTL 是关键结构边界，前额叶和顶叶帮助策略组织与提取。",
+      "blockedClaims": [
+        "不能把联想记忆直接升为完整生产级，除非和具体 paired-associate 坐标源完成终审。",
+        "不能把 perirhinal 或完整 parahippocampal cortex 画成已解决精细结构。",
+        "不能把 alEC/pmEC 讲成当前 3D 模型已经精细分割出的两个实体。"
+      ],
+      "nextRefinementGate": "继续寻找 paired-associate 或 object-context 的直接 task-fMRI 坐标，补 perirhinal/parahippocampal 专门图谱，并继续找能区分 alEC/pmEC 的 atlas/mesh。"
+    },
+    {
+      "paradigmId": "recognition-memory",
+      "status": "production_boundary",
+      "displayIntent": "再认记忆生产层以皮层检索/熟悉性/回忆点为主；海马、内嗅和下托作为情景回忆边界。",
+      "primaryAtlasLabelIds": [
+        "harvard-oxford-subcortical-mtl-09",
+        "harvard-oxford-subcortical-mtl-19"
+      ],
+      "reviewAtlasLabelIds": [
+        "juelich-mtl-cytoarchitectonic-19",
+        "juelich-mtl-cytoarchitectonic-20",
+        "juelich-mtl-cytoarchitectonic-25",
+        "juelich-mtl-cytoarchitectonic-26"
+      ],
+      "sourceIds": [
+        "spaniol-2009-episodic-memory",
+        "wagner-2005-parietal-episodic-retrieval",
+        "cabeza-2008-parietal-episodic-memory"
+      ],
+      "safeTalkTrack": "可以讲再认不是只靠一个脑区，而是由皮层检索网络和海马/MTL 情景回忆边界共同支持。",
+      "blockedClaims": [
+        "不能把再认记忆的所有熟悉感都归因于海马。",
+        "不能把当前 MTL 标签讲成 perirhinal 熟悉性精确定位。"
+      ],
+      "nextRefinementGate": "如要区分 recollection 与 familiarity，需要额外 perirhinal/MTL cortical atlas 和任务源。"
+    },
+    {
+      "paradigmId": "source-memory",
+      "status": "production_boundary",
+      "displayIntent": "来源记忆主图显示前额叶控制、顶叶检索和 PCC/retrosplenial 情景背景；MTL 作为项目-来源绑定边界。",
+      "primaryAtlasLabelIds": [
+        "harvard-oxford-subcortical-mtl-09",
+        "harvard-oxford-subcortical-mtl-19",
+        "juelich-mtl-cytoarchitectonic-19",
+        "juelich-mtl-cytoarchitectonic-20"
+      ],
+      "reviewAtlasLabelIds": [
+        "juelich-mtl-cytoarchitectonic-25",
+        "juelich-mtl-cytoarchitectonic-26"
+      ],
+      "sourceIds": [
+        "davachi-2003-item-source-memory",
+        "dobbins-2002-source-memory-control",
+        "kim-2011-subsequent-memory",
+        "navarro-schroder-2015-entorhinal-topography"
+      ],
+      "safeTalkTrack": "可以讲来源记忆要把内容和来源线索绑定，并在提取时由前额叶和顶叶帮助判断信息来自哪里。",
+      "blockedClaims": [
+        "不能把来源记忆说成只有海马问题。",
+        "不能把当前内嗅标签扩展为完整海马旁/嗅周皮层。",
+        "不能把 alEC/pmEC 讲成当前 3D 模型已经精细分割出的两个实体。"
+      ],
+      "nextRefinementGate": "继续把 Davachi/Dobbins 的 MTL 边界与 Juelich entorhinal/subiculum 标签对齐，并继续找能区分 alEC/pmEC 的 atlas/mesh。"
+    },
+    {
+      "paradigmId": "drm-false-memory",
+      "status": "production_boundary",
+      "displayIntent": "DRM/错误再认主图显示语义 gist、顶叶错误再认和额内侧监控；MTL 只作为 true-vs-false memory 形成与感官特异性的边界层。",
+      "primaryAtlasLabelIds": [
+        "harvard-oxford-subcortical-mtl-09",
+        "harvard-oxford-subcortical-mtl-19"
+      ],
+      "reviewAtlasLabelIds": [
+        "juelich-mtl-cytoarchitectonic-17",
+        "juelich-mtl-cytoarchitectonic-18",
+        "juelich-mtl-cytoarchitectonic-25",
+        "juelich-mtl-cytoarchitectonic-26"
+      ],
+      "sourceIds": [
+        "thakral-2025-false-memory-meta",
+        "slotnick-schacter-2004-sensory-signature-false-memory",
+        "kim-cabeza-2007-true-false-memory-formation",
+        "roediger-mcdermott-1995-drm"
+      ],
+      "safeTalkTrack": "可以讲假记忆涉及语义联想、感官证据和监控系统的竞争，MTL 只作为记忆形成/情景证据边界。",
+      "blockedClaims": [
+        "不能把 Slotnick/Kim-Cabeza 的 true-vs-false memory 直接等同单一 DRM 任务。",
+        "不能把海马边界讲成判断真假记忆的唯一开关。"
+      ],
+      "nextRefinementGate": "把 Thakral、Slotnick、Kim-Cabeza 三条证据分成 DRM gist、感官特异性和形成阶段三个讲解层。"
+    },
+    {
+      "paradigmId": "face-name-association",
+      "status": "production_boundary",
+      "displayIntent": "面孔-姓名联结可以显示海马/MTL 绑定和面孔/姓名皮层输入；Zeineh 的 CA2/3-DG 与后下托只作为机制边界。",
+      "primaryAtlasLabelIds": [
+        "harvard-oxford-subcortical-mtl-09",
+        "harvard-oxford-subcortical-mtl-19",
+        "juelich-mtl-cytoarchitectonic-21",
+        "juelich-mtl-cytoarchitectonic-22",
+        "juelich-mtl-cytoarchitectonic-25",
+        "juelich-mtl-cytoarchitectonic-26"
+      ],
+      "reviewAtlasLabelIds": [
+        "juelich-mtl-cytoarchitectonic-17",
+        "juelich-mtl-cytoarchitectonic-18",
+        "harvard-oxford-subcortical-mtl-10",
+        "harvard-oxford-subcortical-mtl-20"
+      ],
+      "sourceIds": [
+        "sperling-2003-face-name",
+        "zeineh-2003-face-name-hippocampus",
+        "kirwan-stark-2004-face-name-pairs",
+        "chua-2007-anterior-hippocampal-associative-encoding"
+      ],
+      "safeTalkTrack": "可以讲面孔和姓名需要在海马/MTL 中建立联结，齿状回/CA 区和下托相关讲法只能作为文献支持的机制边界。",
+      "blockedClaims": [
+        "不能说当前模型已经精确分出 CA2、CA3、DG 的个体边界。",
+        "不能把杏仁核作为面孔姓名记忆的主结构，除非讲情绪显著性调节。"
+      ],
+      "nextRefinementGate": "如要精细讲 Zeineh 的 CA2/3-DG 与 posterior subiculum，需要 FreeSurfer/ASHS 海马亚区图谱继续入库。"
+    },
+    {
+      "paradigmId": "episodic-order-memory",
+      "status": "candidate_boundary",
+      "displayIntent": "事件顺序/情景顺序只显示受限候选网络；MTL/海马用于顺序绑定、上下文边界和时间接近机制，不升完整生活事件顺序生产级。",
+      "primaryAtlasLabelIds": [
+        "harvard-oxford-subcortical-mtl-09",
+        "harvard-oxford-subcortical-mtl-19",
+        "juelich-mtl-cytoarchitectonic-19",
+        "juelich-mtl-cytoarchitectonic-20",
+        "juelich-mtl-cytoarchitectonic-25",
+        "juelich-mtl-cytoarchitectonic-26"
+      ],
+      "reviewAtlasLabelIds": [
+        "juelich-mtl-cytoarchitectonic-17",
+        "juelich-mtl-cytoarchitectonic-18",
+        "juelich-mtl-cytoarchitectonic-21",
+        "juelich-mtl-cytoarchitectonic-22"
+      ],
+      "sourceIds": [
+        "konishi-2002-recency-judgment",
+        "kumaran-maguire-2006-unexpected-sequence-events",
+        "tubridy-davachi-2011-episodic-sequence-encoding",
+        "hsieh-2014-sequence-memory",
+        "bellmund-2020-sequence-memory",
+        "ezzyat-davachi-2014-temporal-proximity",
+        "navarro-schroder-2015-entorhinal-topography"
+      ],
+      "safeTalkTrack": "可以讲事件片段的顺序依赖海马/MTL 绑定、内嗅/下托上下文接口，以及前额叶/顶叶对顺序的监控和检索。",
+      "blockedClaims": [
+        "不能讲成完整故事顺序或真实生活事件顺序的最终脑图。",
+        "不能把 Hsieh 2014 讲成 Schaefer200 点位来源。",
+        "不能把 Ezzyat 2014 单独讲成完整 event-order network。",
+        "不能把 alEC/pmEC 讲成当前 3D 模型已经精细分割出的两个实体。"
+      ],
+      "nextRefinementGate": "继续找更直接 event-order/story-order/narrative-order 或 paired-association task-fMRI 坐标源，并补 perirhinal/full parahippocampal atlas 和 alEC/pmEC atlas/mesh。"
+    },
+    {
+      "paradigmId": "visual-delayed-memory",
+      "status": "production_boundary",
+      "displayIntent": "视觉延迟记忆主图显示视觉表征保持、顶叶/额叶控制和海马新异/延迟边界。",
+      "primaryAtlasLabelIds": [
+        "harvard-oxford-subcortical-mtl-09",
+        "harvard-oxford-subcortical-mtl-19"
+      ],
+      "reviewAtlasLabelIds": [
+        "juelich-mtl-cytoarchitectonic-17",
+        "juelich-mtl-cytoarchitectonic-18",
+        "juelich-mtl-cytoarchitectonic-21",
+        "juelich-mtl-cytoarchitectonic-22"
+      ],
+      "sourceIds": [
+        "stern-1996-novel-picture-encoding",
+        "courtney-1996-object-spatial-wm",
+        "kim-2011-subsequent-memory"
+      ],
+      "safeTalkTrack": "可以讲视觉延迟记忆既需要视觉/顶额保持系统，也需要海马/MTL 帮助把新异视觉材料编码成可提取的记忆。",
+      "blockedClaims": [
+        "不能把视觉短时保持和长时视觉延迟记忆完全混为一谈。",
+        "不能把海马边界替代视觉皮层和顶额控制点。"
+      ],
+      "nextRefinementGate": "继续区分 object working memory、novel picture encoding 和 delayed recognition 的证据层。"
+    }
+  ]
+}

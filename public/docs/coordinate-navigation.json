@@ -1,0 +1,2426 @@
+{
+  "schema": "coordinate-review-navigation.v1",
+  "methodsReviewedSources": 21,
+  "unreviewedOriginalRows": 2092,
+  "dataSha256": "9296a93a2312d5cf38a3fa022c0aea447796793200160f9692161ffd63e90ba5",
+  "nodes": [
+    {
+      "nodeId": "stroop-visual-input",
+      "label": "颜色/词义输入",
+      "paradigmId": "stroop",
+      "paradigmLabel": "Stroop 色词冲突任务"
+    },
+    {
+      "nodeId": "stroop-acc-monitoring",
+      "label": "前扣带冲突监控",
+      "paradigmId": "stroop",
+      "paradigmLabel": "Stroop 色词冲突任务"
+    },
+    {
+      "nodeId": "stroop-thalamic-gate",
+      "label": "丘脑反应门控",
+      "paradigmId": "stroop",
+      "paradigmLabel": "Stroop 色词冲突任务"
+    },
+    {
+      "nodeId": "stroop-insula-salience",
+      "label": "前岛叶显著性",
+      "paradigmId": "stroop",
+      "paradigmLabel": "Stroop 色词冲突任务"
+    },
+    {
+      "nodeId": "stroop-dlpfc-rule",
+      "label": "前额叶规则保持",
+      "paradigmId": "stroop",
+      "paradigmLabel": "Stroop 色词冲突任务"
+    },
+    {
+      "nodeId": "stroop-ifg-inhibition",
+      "label": "额下反应抑制",
+      "paradigmId": "stroop",
+      "paradigmLabel": "Stroop 色词冲突任务"
+    },
+    {
+      "nodeId": "stroop-parietal-mapping",
+      "label": "顶叶刺激-反应映射",
+      "paradigmId": "stroop",
+      "paradigmLabel": "Stroop 色词冲突任务"
+    },
+    {
+      "nodeId": "stroop-premotor-response",
+      "label": "前运动/SMA反应准备",
+      "paradigmId": "stroop",
+      "paradigmLabel": "Stroop 色词冲突任务"
+    },
+    {
+      "nodeId": "ant-visual-cue-target",
+      "label": "枕颞/梭状视觉输入",
+      "paradigmId": "attention-network-test",
+      "paradigmLabel": "ANT 注意网络测试"
+    },
+    {
+      "nodeId": "ant-alerting-readiness",
+      "label": "右 TPJ 警觉准备",
+      "paradigmId": "attention-network-test",
+      "paradigmLabel": "ANT 注意网络测试"
+    },
+    {
+      "nodeId": "ant-thalamic-alerting",
+      "label": "丘脑警觉门控",
+      "paradigmId": "attention-network-test",
+      "paradigmLabel": "ANT 注意网络测试"
+    },
+    {
+      "nodeId": "ant-spatial-orienting",
+      "label": "FEF/顶叶空间定向",
+      "paradigmId": "attention-network-test",
+      "paradigmLabel": "ANT 注意网络测试"
+    },
+    {
+      "nodeId": "ant-acc-conflict",
+      "label": "中前扣带冲突监控",
+      "paradigmId": "attention-network-test",
+      "paradigmLabel": "ANT 注意网络测试"
+    },
+    {
+      "nodeId": "ant-frontoparietal-rule",
+      "label": "额下/额中规则控制",
+      "paradigmId": "attention-network-test",
+      "paradigmLabel": "ANT 注意网络测试"
+    },
+    {
+      "nodeId": "ant-response-output",
+      "label": "中央前/中央后反应输出",
+      "paradigmId": "attention-network-test",
+      "paradigmLabel": "ANT 注意网络测试"
+    },
+    {
+      "nodeId": "ant-cerebellar-vermis",
+      "label": "小脑蚓部/小脑 V",
+      "paradigmId": "attention-network-test",
+      "paradigmLabel": "ANT 注意网络测试"
+    },
+    {
+      "nodeId": "flanker-visual-input",
+      "label": "视觉目标/旁侧刺激输入",
+      "paradigmId": "flanker",
+      "paradigmLabel": "Flanker 旁侧干扰任务"
+    },
+    {
+      "nodeId": "flanker-target-selection",
+      "label": "顶叶目标选择",
+      "paradigmId": "flanker",
+      "paradigmLabel": "Flanker 旁侧干扰任务"
+    },
+    {
+      "nodeId": "flanker-proactive-control",
+      "label": "额顶抗干扰控制",
+      "paradigmId": "flanker",
+      "paradigmLabel": "Flanker 旁侧干扰任务"
+    },
+    {
+      "nodeId": "flanker-conflict-monitoring",
+      "label": "冲突监控",
+      "paradigmId": "flanker",
+      "paradigmLabel": "Flanker 旁侧干扰任务"
+    },
+    {
+      "nodeId": "flanker-salience-demand",
+      "label": "前岛叶控制需求",
+      "paradigmId": "flanker",
+      "paradigmLabel": "Flanker 旁侧干扰任务"
+    },
+    {
+      "nodeId": "flanker-response",
+      "label": "反应输出",
+      "paradigmId": "flanker",
+      "paradigmLabel": "Flanker 旁侧干扰任务"
+    },
+    {
+      "nodeId": "posner-visual-cue",
+      "label": "空间线索",
+      "paradigmId": "posner-cueing",
+      "paradigmLabel": "Posner 空间线索任务"
+    },
+    {
+      "nodeId": "posner-orienting",
+      "label": "主动定向",
+      "paradigmId": "posner-cueing",
+      "paradigmLabel": "Posner 空间线索任务"
+    },
+    {
+      "nodeId": "posner-reorienting",
+      "label": "重新定向",
+      "paradigmId": "posner-cueing",
+      "paradigmLabel": "Posner 空间线索任务"
+    },
+    {
+      "nodeId": "posner-thalamic-boundary",
+      "label": "右丘脑定向边界",
+      "paradigmId": "posner-cueing",
+      "paradigmLabel": "Posner 空间线索任务"
+    },
+    {
+      "nodeId": "nback-parietal-buffer",
+      "label": "顶叶容量缓冲",
+      "paradigmId": "n-back",
+      "paradigmLabel": "N-back 更新任务"
+    },
+    {
+      "nodeId": "nback-lateral-pfc-control",
+      "label": "侧前额叶控制",
+      "paradigmId": "n-back",
+      "paradigmLabel": "N-back 更新任务"
+    },
+    {
+      "nodeId": "nback-ifg-task-set",
+      "label": "IFG任务集",
+      "paradigmId": "n-back",
+      "paradigmLabel": "N-back 更新任务"
+    },
+    {
+      "nodeId": "nback-insula-salience",
+      "label": "前岛叶匹配信号",
+      "paradigmId": "n-back",
+      "paradigmLabel": "N-back 更新任务"
+    },
+    {
+      "nodeId": "nback-medial-monitoring",
+      "label": "内侧额叶监控",
+      "paradigmId": "n-back",
+      "paradigmLabel": "N-back 更新任务"
+    },
+    {
+      "nodeId": "digit-span-phonological-store",
+      "label": "语音短时存储",
+      "paradigmId": "digit-span",
+      "paradigmLabel": "数字广度"
+    },
+    {
+      "nodeId": "digit-span-rehearsal-control",
+      "label": "复述控制",
+      "paradigmId": "digit-span",
+      "paradigmLabel": "数字广度"
+    },
+    {
+      "nodeId": "digit-span-capacity-attention",
+      "label": "容量/顺序监控",
+      "paradigmId": "digit-span",
+      "paradigmLabel": "数字广度"
+    },
+    {
+      "nodeId": "digit-span-response-output",
+      "label": "复述输出",
+      "paradigmId": "digit-span",
+      "paradigmLabel": "数字广度"
+    },
+    {
+      "nodeId": "grid-visual",
+      "label": "空间图样",
+      "paradigmId": "grid-span",
+      "paradigmLabel": "空间广度"
+    },
+    {
+      "nodeId": "grid-spatial-attention",
+      "label": "右IPS空间保持",
+      "paradigmId": "grid-span",
+      "paradigmLabel": "空间广度"
+    },
+    {
+      "nodeId": "grid-control",
+      "label": "额顶序列控制",
+      "paradigmId": "grid-span",
+      "paradigmLabel": "空间广度"
+    },
+    {
+      "nodeId": "gonogo-signal",
+      "label": "前岛叶/岛盖信号",
+      "paradigmId": "go-no-go",
+      "paradigmLabel": "Go/No-Go 反应抑制任务"
+    },
+    {
+      "nodeId": "gonogo-inhibit",
+      "label": "反应抑制",
+      "paradigmId": "go-no-go",
+      "paradigmLabel": "Go/No-Go 反应抑制任务"
+    },
+    {
+      "nodeId": "gonogo-parietal-set",
+      "label": "右顶叶任务集",
+      "paradigmId": "go-no-go",
+      "paradigmLabel": "Go/No-Go 反应抑制任务"
+    },
+    {
+      "nodeId": "gonogo-motor",
+      "label": "动作通道",
+      "paradigmId": "go-no-go",
+      "paradigmLabel": "Go/No-Go 反应抑制任务"
+    },
+    {
+      "nodeId": "stop-motor-start",
+      "label": "运动输出通道",
+      "paradigmId": "stop-signal",
+      "paradigmLabel": "停止信号任务"
+    },
+    {
+      "nodeId": "stop-signal-detect",
+      "label": "双侧前岛叶/岛盖",
+      "paradigmId": "stop-signal",
+      "paradigmLabel": "停止信号任务"
+    },
+    {
+      "nodeId": "stop-control",
+      "label": "右额下控制",
+      "paradigmId": "stop-signal",
+      "paradigmLabel": "停止信号任务"
+    },
+    {
+      "nodeId": "stop-thalamic-gate",
+      "label": "右丘脑停止边界",
+      "paradigmId": "stop-signal",
+      "paradigmLabel": "停止信号任务"
+    },
+    {
+      "nodeId": "stop-sma-gating",
+      "label": "SMA/pre-SMA 门控",
+      "paradigmId": "stop-signal",
+      "paradigmLabel": "停止信号任务"
+    },
+    {
+      "nodeId": "switch-rule",
+      "label": "规则更新",
+      "paradigmId": "task-switching",
+      "paradigmLabel": "任务切换"
+    },
+    {
+      "nodeId": "switch-cue",
+      "label": "切换线索",
+      "paradigmId": "task-switching",
+      "paradigmLabel": "任务切换"
+    },
+    {
+      "nodeId": "switch-attention",
+      "label": "目标重定向",
+      "paradigmId": "task-switching",
+      "paradigmLabel": "任务切换"
+    },
+    {
+      "nodeId": "raven-visual-input",
+      "label": "矩阵图形输入",
+      "paradigmId": "ravens-matrices",
+      "paradigmLabel": "瑞文矩阵"
+    },
+    {
+      "nodeId": "raven-parietal-workspace",
+      "label": "顶叶关系工作区",
+      "paradigmId": "ravens-matrices",
+      "paradigmLabel": "瑞文矩阵"
+    },
+    {
+      "nodeId": "raven-right-frontal-control",
+      "label": "右额叶候选控制",
+      "paradigmId": "ravens-matrices",
+      "paradigmLabel": "瑞文矩阵"
+    },
+    {
+      "nodeId": "raven-medial-monitor",
+      "label": "内侧额叶监控",
+      "paradigmId": "ravens-matrices",
+      "paradigmLabel": "瑞文矩阵"
+    },
+    {
+      "nodeId": "raven-response-output",
+      "label": "反应输出组织",
+      "paradigmId": "ravens-matrices",
+      "paradigmLabel": "瑞文矩阵"
+    },
+    {
+      "nodeId": "rotation-image",
+      "label": "枕叶视觉表象",
+      "paradigmId": "mental-rotation",
+      "paradigmLabel": "心理旋转"
+    },
+    {
+      "nodeId": "rotation-space",
+      "label": "SPL/IPS空间变换",
+      "paradigmId": "mental-rotation",
+      "paradigmLabel": "心理旋转"
+    },
+    {
+      "nodeId": "rotation-control",
+      "label": "DLPFC比较控制",
+      "paradigmId": "mental-rotation",
+      "paradigmLabel": "心理旋转"
+    },
+    {
+      "nodeId": "crt-stimulus",
+      "label": "刺激识别",
+      "paradigmId": "choice-reaction-time",
+      "paradigmLabel": "选择反应时"
+    },
+    {
+      "nodeId": "crt-decision",
+      "label": "额叶反应选择",
+      "paradigmId": "choice-reaction-time",
+      "paradigmLabel": "选择反应时"
+    },
+    {
+      "nodeId": "crt-presma",
+      "label": "pre-SMA/中前扣带选择调度",
+      "paradigmId": "choice-reaction-time",
+      "paradigmLabel": "选择反应时"
+    },
+    {
+      "nodeId": "crt-output",
+      "label": "动作输出",
+      "paradigmId": "choice-reaction-time",
+      "paradigmLabel": "选择反应时"
+    },
+    {
+      "nodeId": "crt-alert",
+      "label": "额盖/前岛显著性",
+      "paradigmId": "choice-reaction-time",
+      "paradigmLabel": "选择反应时"
+    },
+    {
+      "nodeId": "calc-symbol",
+      "label": "视觉皮层符号输入",
+      "paradigmId": "mental-arithmetic",
+      "paradigmLabel": "心算任务"
+    },
+    {
+      "nodeId": "calc-quantity",
+      "label": "IPS/SPL数量表征",
+      "paradigmId": "mental-arithmetic",
+      "paradigmLabel": "心算任务"
+    },
+    {
+      "nodeId": "calc-ipl-integration",
+      "label": "IPL/角回数量整合",
+      "paradigmId": "mental-arithmetic",
+      "paradigmLabel": "心算任务"
+    },
+    {
+      "nodeId": "calc-rule",
+      "label": "DLPFC步骤控制",
+      "paradigmId": "mental-arithmetic",
+      "paradigmLabel": "心算任务"
+    },
+    {
+      "nodeId": "calc-step-prep",
+      "label": "BA6/SFS步骤准备",
+      "paradigmId": "mental-arithmetic",
+      "paradigmLabel": "心算任务"
+    },
+    {
+      "nodeId": "calc-state-demand",
+      "label": "前岛/岛盖任务需求",
+      "paradigmId": "mental-arithmetic",
+      "paradigmLabel": "心算任务"
+    },
+    {
+      "nodeId": "calc-medial-monitoring",
+      "label": "中前扣带监控",
+      "paradigmId": "mental-arithmetic",
+      "paradigmLabel": "心算任务"
+    },
+    {
+      "nodeId": "calc-thalamic-subcortical-boundary",
+      "label": "丘脑/皮层外计算边界",
+      "paradigmId": "mental-arithmetic",
+      "paradigmLabel": "心算任务"
+    },
+    {
+      "nodeId": "lexical-visual",
+      "label": "字形识别",
+      "paradigmId": "lexical-decision",
+      "paradigmLabel": "词汇判断"
+    },
+    {
+      "nodeId": "lexical-semantic",
+      "label": "熟悉词语义访问",
+      "paradigmId": "lexical-decision",
+      "paradigmLabel": "词汇判断"
+    },
+    {
+      "nodeId": "lexical-decision",
+      "label": "判断输出",
+      "paradigmId": "lexical-decision",
+      "paradigmLabel": "词汇判断"
+    },
+    {
+      "nodeId": "word-visual-fusiform",
+      "label": "词项视觉输入",
+      "paradigmId": "word-list-learning",
+      "paradigmLabel": "词表学习"
+    },
+    {
+      "nodeId": "word-ifg-encoding-control",
+      "label": "IFG编码控制",
+      "paradigmId": "word-list-learning",
+      "paradigmLabel": "词表学习"
+    },
+    {
+      "nodeId": "word-ips-organization",
+      "label": "IPS/SPL组织注意",
+      "paradigmId": "word-list-learning",
+      "paradigmLabel": "词表学习"
+    },
+    {
+      "nodeId": "word-medial-frontal-control",
+      "label": "pre-SMA/内侧额叶控制",
+      "paradigmId": "word-list-learning",
+      "paradigmLabel": "词表学习"
+    },
+    {
+      "nodeId": "assoc-visual-cue",
+      "label": "项目视觉线索",
+      "paradigmId": "associative-memory",
+      "paradigmLabel": "联想记忆"
+    },
+    {
+      "nodeId": "assoc-ifg-selection",
+      "label": "IFG/VLPFC选择编码",
+      "paradigmId": "associative-memory",
+      "paradigmLabel": "联想记忆"
+    },
+    {
+      "nodeId": "assoc-insula-demand",
+      "label": "岛叶状态需求",
+      "paradigmId": "associative-memory",
+      "paradigmLabel": "联想记忆"
+    },
+    {
+      "nodeId": "assoc-angular-binding",
+      "label": "联结整合边界",
+      "paradigmId": "associative-memory",
+      "paradigmLabel": "联想记忆"
+    },
+    {
+      "nodeId": "sentence-visual",
+      "label": "文字输入",
+      "paradigmId": "sentence-comprehension",
+      "paradigmLabel": "句子理解"
+    },
+    {
+      "nodeId": "sentence-context",
+      "label": "语义语境",
+      "paradigmId": "sentence-comprehension",
+      "paradigmLabel": "句子理解"
+    },
+    {
+      "nodeId": "sentence-control",
+      "label": "理解整合",
+      "paradigmId": "sentence-comprehension",
+      "paradigmLabel": "句子理解"
+    },
+    {
+      "nodeId": "sentence-attention",
+      "label": "阅读注意",
+      "paradigmId": "sentence-comprehension",
+      "paradigmLabel": "句子理解"
+    },
+    {
+      "nodeId": "number-symbol",
+      "label": "视觉皮层数字输入",
+      "paradigmId": "number-comparison",
+      "paradigmLabel": "数字大小比较"
+    },
+    {
+      "nodeId": "number-magnitude",
+      "label": "IPS/SPL数量大小",
+      "paradigmId": "number-comparison",
+      "paradigmLabel": "数字大小比较"
+    },
+    {
+      "nodeId": "number-ipl-integration",
+      "label": "IPL/角回数量整合",
+      "paradigmId": "number-comparison",
+      "paradigmLabel": "数字大小比较"
+    },
+    {
+      "nodeId": "number-attention",
+      "label": "背侧顶叶目标维持",
+      "paradigmId": "number-comparison",
+      "paradigmLabel": "数字大小比较"
+    },
+    {
+      "nodeId": "ans-visual-array",
+      "label": "视觉数量输入",
+      "paradigmId": "approximate-number-sense",
+      "paradigmLabel": "非符号数量感"
+    },
+    {
+      "nodeId": "ans-ips-numerosity",
+      "label": "IPS/SPL数量感",
+      "paradigmId": "approximate-number-sense",
+      "paradigmLabel": "非符号数量感"
+    },
+    {
+      "nodeId": "ans-comparison-goal",
+      "label": "比较目标维持",
+      "paradigmId": "approximate-number-sense",
+      "paradigmLabel": "非符号数量感"
+    },
+    {
+      "nodeId": "ans-response-choice",
+      "label": "快速判断输出",
+      "paradigmId": "approximate-number-sense",
+      "paradigmLabel": "非符号数量感"
+    },
+    {
+      "nodeId": "fact-symbol-input",
+      "label": "数字符号输入",
+      "paradigmId": "arithmetic-fact-retrieval",
+      "paradigmLabel": "算术事实提取"
+    },
+    {
+      "nodeId": "fact-left-ips-route",
+      "label": "左IPS熟练答案通路",
+      "paradigmId": "arithmetic-fact-retrieval",
+      "paradigmLabel": "算术事实提取"
+    },
+    {
+      "nodeId": "fact-angular-retrieval",
+      "label": "角回/IPL事实提取",
+      "paradigmId": "arithmetic-fact-retrieval",
+      "paradigmLabel": "算术事实提取"
+    },
+    {
+      "nodeId": "fact-ifg-selection",
+      "label": "IFG/岛盖选择检索",
+      "paradigmId": "arithmetic-fact-retrieval",
+      "paradigmLabel": "算术事实提取"
+    },
+    {
+      "nodeId": "fact-semantic-store",
+      "label": "语义事实背景",
+      "paradigmId": "arithmetic-fact-retrieval",
+      "paradigmLabel": "算术事实提取"
+    },
+    {
+      "nodeId": "algebra-symbol-input",
+      "label": "符号/等式输入",
+      "paradigmId": "algebra-equation-solving",
+      "paradigmLabel": "代数方程/符号变换"
+    },
+    {
+      "nodeId": "algebra-relation-map",
+      "label": "顶叶关系表征",
+      "paradigmId": "algebra-equation-solving",
+      "paradigmLabel": "代数方程/符号变换"
+    },
+    {
+      "nodeId": "algebra-dlpfc-rule",
+      "label": "DLPFC规则变换",
+      "paradigmId": "algebra-equation-solving",
+      "paradigmLabel": "代数方程/符号变换"
+    },
+    {
+      "nodeId": "algebra-ipl-integration",
+      "label": "IPL中间结果整合",
+      "paradigmId": "algebra-equation-solving",
+      "paradigmLabel": "代数方程/符号变换"
+    },
+    {
+      "nodeId": "geometry-visual-shape",
+      "label": "图形视觉输入",
+      "paradigmId": "geometric-reasoning",
+      "paradigmLabel": "几何空间推理"
+    },
+    {
+      "nodeId": "geometry-parietal-space",
+      "label": "IPS/SPL空间关系",
+      "paradigmId": "geometric-reasoning",
+      "paradigmLabel": "几何空间推理"
+    },
+    {
+      "nodeId": "geometry-dlpfc-proof",
+      "label": "额顶证明目标",
+      "paradigmId": "geometric-reasoning",
+      "paradigmLabel": "几何空间推理"
+    },
+    {
+      "nodeId": "geometry-premotor-transform",
+      "label": "空间操作准备",
+      "paradigmId": "geometric-reasoning",
+      "paradigmLabel": "几何空间推理"
+    },
+    {
+      "nodeId": "stats-data-input",
+      "label": "数字/图表输入",
+      "paradigmId": "probability-statistics-reasoning",
+      "paradigmLabel": "概率统计判断"
+    },
+    {
+      "nodeId": "stats-ratio-magnitude",
+      "label": "顶叶比例/数量",
+      "paradigmId": "probability-statistics-reasoning",
+      "paradigmLabel": "概率统计判断"
+    },
+    {
+      "nodeId": "stats-dlpfc-rule",
+      "label": "规则/条件控制",
+      "paradigmId": "probability-statistics-reasoning",
+      "paradigmLabel": "概率统计判断"
+    },
+    {
+      "nodeId": "stats-salience-interference",
+      "label": "显著性干扰入口",
+      "paradigmId": "probability-statistics-reasoning",
+      "paradigmLabel": "概率统计判断"
+    },
+    {
+      "nodeId": "stats-conflict-bias",
+      "label": "直觉偏差监控",
+      "paradigmId": "probability-statistics-reasoning",
+      "paradigmLabel": "概率统计判断"
+    },
+    {
+      "nodeId": "word-problem-text",
+      "label": "题干文字输入",
+      "paradigmId": "math-word-problem",
+      "paradigmLabel": "数学应用题逻辑建模"
+    },
+    {
+      "nodeId": "word-problem-semantics",
+      "label": "题意限定词解析",
+      "paradigmId": "math-word-problem",
+      "paradigmLabel": "数学应用题逻辑建模"
+    },
+    {
+      "nodeId": "word-problem-quantity",
+      "label": "顶叶数量关系",
+      "paradigmId": "math-word-problem",
+      "paradigmLabel": "数学应用题逻辑建模"
+    },
+    {
+      "nodeId": "word-problem-model",
+      "label": "额顶逻辑建模",
+      "paradigmId": "math-word-problem",
+      "paradigmLabel": "数学应用题逻辑建模"
+    },
+    {
+      "nodeId": "word-problem-salience",
+      "label": "前岛叶冲突提示",
+      "paradigmId": "math-word-problem",
+      "paradigmLabel": "数学应用题逻辑建模"
+    },
+    {
+      "nodeId": "word-problem-conflict",
+      "label": "SMA/dACC冲突监控",
+      "paradigmId": "math-word-problem",
+      "paradigmLabel": "数学应用题逻辑建模"
+    },
+    {
+      "nodeId": "srt-visual-sensory-input",
+      "label": "感觉线索输入",
+      "paradigmId": "simple-reaction-time",
+      "paradigmLabel": "简单反应时"
+    },
+    {
+      "nodeId": "srt-multimodal-cue-detection",
+      "label": "多模态线索检测",
+      "paradigmId": "simple-reaction-time",
+      "paradigmLabel": "简单反应时"
+    },
+    {
+      "nodeId": "srt-medial-frontal-preparation",
+      "label": "SMA/内侧额叶准备",
+      "paradigmId": "simple-reaction-time",
+      "paradigmLabel": "简单反应时"
+    },
+    {
+      "nodeId": "srt-bilateral-premotor-output",
+      "label": "前运动反应准备",
+      "paradigmId": "simple-reaction-time",
+      "paradigmLabel": "简单反应时"
+    },
+    {
+      "nodeId": "srt-opercular-sensorimotor-integration",
+      "label": "额盖/顶盖感觉运动整合",
+      "paradigmId": "simple-reaction-time",
+      "paradigmLabel": "简单反应时"
+    },
+    {
+      "nodeId": "imagery-memory",
+      "label": "下顶叶/角回记忆线索",
+      "paradigmId": "visual-imagery",
+      "paradigmLabel": "视觉表象任务"
+    },
+    {
+      "nodeId": "imagery-visual",
+      "label": "枕叶视觉再激活",
+      "paradigmId": "visual-imagery",
+      "paradigmLabel": "视觉表象任务"
+    },
+    {
+      "nodeId": "imagery-control",
+      "label": "DLPFC保持操作",
+      "paradigmId": "visual-imagery",
+      "paradigmLabel": "视觉表象任务"
+    },
+    {
+      "nodeId": "analogy-frontopolar-integration",
+      "label": "关系整合",
+      "paradigmId": "analogical-reasoning",
+      "paradigmLabel": "类比推理"
+    },
+    {
+      "nodeId": "analogy-controlled-retrieval",
+      "label": "关系检索",
+      "paradigmId": "analogical-reasoning",
+      "paradigmLabel": "类比推理"
+    },
+    {
+      "nodeId": "analogy-verbal-selection",
+      "label": "语言选择",
+      "paradigmId": "analogical-reasoning",
+      "paradigmLabel": "类比推理"
+    },
+    {
+      "nodeId": "analogy-response-check",
+      "label": "排除无效类比",
+      "paradigmId": "analogical-reasoning",
+      "paradigmLabel": "类比推理"
+    },
+    {
+      "nodeId": "recognition-parietal-retrieval",
+      "label": "顶叶提取线索",
+      "paradigmId": "recognition-memory",
+      "paradigmLabel": "再认记忆"
+    },
+    {
+      "nodeId": "recognition-angular-recollection",
+      "label": "角回主观回忆",
+      "paradigmId": "recognition-memory",
+      "paradigmLabel": "再认记忆"
+    },
+    {
+      "nodeId": "recognition-judge",
+      "label": "前额叶再认判断",
+      "paradigmId": "recognition-memory",
+      "paradigmLabel": "再认记忆"
+    },
+    {
+      "nodeId": "recognition-context-pcc",
+      "label": "后扣带情景背景",
+      "paradigmId": "recognition-memory",
+      "paradigmLabel": "再认记忆"
+    },
+    {
+      "nodeId": "source-vlpfc-monitor",
+      "label": "左LIPC/VLPFC来源监控",
+      "paradigmId": "source-memory",
+      "paradigmLabel": "来源记忆"
+    },
+    {
+      "nodeId": "source-context",
+      "label": "retrosplenial情景背景",
+      "paradigmId": "source-memory",
+      "paradigmLabel": "来源记忆"
+    },
+    {
+      "nodeId": "source-parietal-recollection",
+      "label": "IPL/IPS细节提取",
+      "paradigmId": "source-memory",
+      "paradigmLabel": "来源记忆"
+    },
+    {
+      "nodeId": "source-mtl-boundary",
+      "label": "海马/MTL绑定边界",
+      "paradigmId": "source-memory",
+      "paradigmLabel": "来源记忆"
+    },
+    {
+      "nodeId": "source-thalamic-boundary",
+      "label": "左丘脑来源检索边界",
+      "paradigmId": "source-memory",
+      "paradigmLabel": "来源记忆"
+    },
+    {
+      "nodeId": "mot-visual-motion",
+      "label": "运动视觉输入",
+      "paradigmId": "multiple-object-tracking",
+      "paradigmLabel": "多目标追踪"
+    },
+    {
+      "nodeId": "mot-parietal-tracking",
+      "label": "顶叶追踪负荷",
+      "paradigmId": "multiple-object-tracking",
+      "paradigmLabel": "多目标追踪"
+    },
+    {
+      "nodeId": "mot-fef-premotor-set",
+      "label": "FEF/前运动准备",
+      "paradigmId": "multiple-object-tracking",
+      "paradigmLabel": "多目标追踪"
+    },
+    {
+      "nodeId": "mot-medial-demand",
+      "label": "内侧额叶需求",
+      "paradigmId": "multiple-object-tracking",
+      "paradigmLabel": "多目标追踪"
+    },
+    {
+      "nodeId": "cpt-visual-monitoring",
+      "label": "视觉持续监控",
+      "paradigmId": "sustained-attention-cpt",
+      "paradigmLabel": "持续注意/CPT"
+    },
+    {
+      "nodeId": "cpt-parietal-orienting",
+      "label": "右IPS持续定向",
+      "paradigmId": "sustained-attention-cpt",
+      "paradigmLabel": "持续注意/CPT"
+    },
+    {
+      "nodeId": "cpt-tpj-reorienting",
+      "label": "右TPJ重新定向",
+      "paradigmId": "sustained-attention-cpt",
+      "paradigmLabel": "持续注意/CPT"
+    },
+    {
+      "nodeId": "cpt-salience",
+      "label": "前岛叶/岛盖捕捉",
+      "paradigmId": "sustained-attention-cpt",
+      "paradigmLabel": "持续注意/CPT"
+    },
+    {
+      "nodeId": "cpt-control",
+      "label": "内侧额叶维持控制",
+      "paradigmId": "sustained-attention-cpt",
+      "paradigmLabel": "持续注意/CPT"
+    },
+    {
+      "nodeId": "cpt-right-frontal-control",
+      "label": "右额叶规则控制",
+      "paradigmId": "sustained-attention-cpt",
+      "paradigmLabel": "持续注意/CPT"
+    },
+    {
+      "nodeId": "cpt-response",
+      "label": "反应输出",
+      "paradigmId": "sustained-attention-cpt",
+      "paradigmLabel": "持续注意/CPT"
+    },
+    {
+      "nodeId": "dual-plpfc-bottleneck",
+      "label": "左 pLPFC 反应选择瓶颈",
+      "paradigmId": "dual-task",
+      "paradigmLabel": "双任务"
+    },
+    {
+      "nodeId": "dual-smfc-presma-timing",
+      "label": "SMFC/pre-SMA 调度",
+      "paradigmId": "dual-task",
+      "paradigmLabel": "双任务"
+    },
+    {
+      "nodeId": "tol-mid-dlpfc",
+      "label": "双侧 mid-DLPFC",
+      "paradigmId": "tower-of-london",
+      "paradigmLabel": "伦敦塔规划任务"
+    },
+    {
+      "nodeId": "tol-fef",
+      "label": "双侧 FEF",
+      "paradigmId": "tower-of-london",
+      "paradigmLabel": "伦敦塔规划任务"
+    },
+    {
+      "nodeId": "tol-sma-presma",
+      "label": "SMA/pre-SMA",
+      "paradigmId": "tower-of-london",
+      "paradigmLabel": "伦敦塔规划任务"
+    },
+    {
+      "nodeId": "tol-ipl",
+      "label": "双侧 IPL/顶内沟",
+      "paradigmId": "tower-of-london",
+      "paradigmLabel": "伦敦塔规划任务"
+    },
+    {
+      "nodeId": "tol-precuneus",
+      "label": "楔前叶",
+      "paradigmId": "tower-of-london",
+      "paradigmLabel": "伦敦塔规划任务"
+    },
+    {
+      "nodeId": "tol-anterior-insula",
+      "label": "双侧前岛叶/岛盖",
+      "paradigmId": "tower-of-london",
+      "paradigmLabel": "伦敦塔规划任务"
+    },
+    {
+      "nodeId": "tol-rlpfc",
+      "label": "RLPFC/额极邻近",
+      "paradigmId": "tower-of-london",
+      "paradigmLabel": "伦敦塔规划任务"
+    },
+    {
+      "nodeId": "keep-update-control",
+      "label": "更新控制",
+      "paradigmId": "keep-track",
+      "paradigmLabel": "保持追踪"
+    },
+    {
+      "nodeId": "keep-active-items",
+      "label": "活动项目保持",
+      "paradigmId": "keep-track",
+      "paradigmLabel": "保持追踪"
+    },
+    {
+      "nodeId": "keep-change-detection",
+      "label": "变化检测",
+      "paradigmId": "keep-track",
+      "paradigmLabel": "保持追踪"
+    },
+    {
+      "nodeId": "object-visual-form",
+      "label": "腹侧视觉/梭状物体表征",
+      "paradigmId": "object-span",
+      "paradigmLabel": "物体广度"
+    },
+    {
+      "nodeId": "object-parietal-buffer",
+      "label": "顶叶容量缓冲",
+      "paradigmId": "object-span",
+      "paradigmLabel": "物体广度"
+    },
+    {
+      "nodeId": "object-control",
+      "label": "右额下/额下沟保持控制",
+      "paradigmId": "object-span",
+      "paradigmLabel": "物体广度"
+    },
+    {
+      "nodeId": "prl-feedback-value",
+      "label": "VLPFC/岛盖反馈变化",
+      "paradigmId": "probabilistic-reversal-learning",
+      "paradigmLabel": "概率反转学习"
+    },
+    {
+      "nodeId": "prl-rule-control",
+      "label": "右顶叶规则调整",
+      "paradigmId": "probabilistic-reversal-learning",
+      "paradigmLabel": "概率反转学习"
+    },
+    {
+      "nodeId": "prl-conflict-monitor",
+      "label": "错误/冲突监控",
+      "paradigmId": "probabilistic-reversal-learning",
+      "paradigmLabel": "概率反转学习"
+    },
+    {
+      "nodeId": "toj-visual-input",
+      "label": "后颞视觉输入",
+      "paradigmId": "temporal-order-judgment",
+      "paradigmLabel": "时间顺序判断"
+    },
+    {
+      "nodeId": "toj-tpj-sequence",
+      "label": "TPJ先后事件捕捉",
+      "paradigmId": "temporal-order-judgment",
+      "paradigmLabel": "时间顺序判断"
+    },
+    {
+      "nodeId": "toj-ips-orienting",
+      "label": "IPS时间注意定向",
+      "paradigmId": "temporal-order-judgment",
+      "paradigmLabel": "时间顺序判断"
+    },
+    {
+      "nodeId": "toj-fef-report",
+      "label": "FEF/前运动报告准备",
+      "paradigmId": "temporal-order-judgment",
+      "paradigmLabel": "时间顺序判断"
+    },
+    {
+      "nodeId": "toj-ifg-control",
+      "label": "右IFG/岛盖任务控制",
+      "paradigmId": "temporal-order-judgment",
+      "paradigmLabel": "时间顺序判断"
+    },
+    {
+      "nodeId": "semantic-temporal-representation",
+      "label": "词义/概念表征",
+      "paradigmId": "semantic-task",
+      "paradigmLabel": "语义任务"
+    },
+    {
+      "nodeId": "semantic-angular-integration",
+      "label": "语义整合",
+      "paradigmId": "semantic-task",
+      "paradigmLabel": "语义任务"
+    },
+    {
+      "nodeId": "semantic-ventral-temporal-interface",
+      "label": "腹侧颞叶语义接口",
+      "paradigmId": "semantic-task",
+      "paradigmLabel": "语义任务"
+    },
+    {
+      "nodeId": "semantic-dmpfc-retrieval",
+      "label": "DMPFC语义检索",
+      "paradigmId": "semantic-task",
+      "paradigmLabel": "语义任务"
+    },
+    {
+      "nodeId": "semantic-retrieval-control",
+      "label": "语义检索控制",
+      "paradigmId": "semantic-task",
+      "paradigmLabel": "语义任务"
+    },
+    {
+      "nodeId": "semantic-vmpfc-affective-context",
+      "label": "VMPFC情境价值",
+      "paradigmId": "semantic-task",
+      "paradigmLabel": "语义任务"
+    },
+    {
+      "nodeId": "semantic-pcc-context",
+      "label": "后扣带语境背景",
+      "paradigmId": "semantic-task",
+      "paradigmLabel": "语义任务"
+    },
+    {
+      "nodeId": "drm-semantic-gist",
+      "label": "语义 gist 入口",
+      "paradigmId": "drm-false-memory",
+      "paradigmLabel": "DRM 词表假记忆"
+    },
+    {
+      "nodeId": "drm-ips-precuneus-false-recognition",
+      "label": "IPS/楔前叶错误再认",
+      "paradigmId": "drm-false-memory",
+      "paradigmLabel": "DRM 词表假记忆"
+    },
+    {
+      "nodeId": "drm-angular-false-recognition",
+      "label": "角回/IPL错误熟悉感",
+      "paradigmId": "drm-false-memory",
+      "paradigmLabel": "DRM 词表假记忆"
+    },
+    {
+      "nodeId": "drm-medial-monitoring",
+      "label": "额内侧监控",
+      "paradigmId": "drm-false-memory",
+      "paradigmLabel": "DRM 词表假记忆"
+    },
+    {
+      "nodeId": "deductive-premise-semantics",
+      "label": "前提语义保持",
+      "paradigmId": "deductive-reasoning",
+      "paradigmLabel": "演绎推理"
+    },
+    {
+      "nodeId": "deductive-left-frontal-rule-integration",
+      "label": "左额规则整合",
+      "paradigmId": "deductive-reasoning",
+      "paradigmLabel": "演绎推理"
+    },
+    {
+      "nodeId": "deductive-parietal-relation-workspace",
+      "label": "顶叶关系工作区",
+      "paradigmId": "deductive-reasoning",
+      "paradigmLabel": "演绎推理"
+    },
+    {
+      "nodeId": "deductive-medial-monitoring",
+      "label": "内侧额叶监控",
+      "paradigmId": "deductive-reasoning",
+      "paradigmLabel": "演绎推理"
+    },
+    {
+      "nodeId": "deductive-right-frontal-validation",
+      "label": "右额验证/抑制",
+      "paradigmId": "deductive-reasoning",
+      "paradigmLabel": "演绎推理"
+    },
+    {
+      "nodeId": "deductive-thalamic-boundary",
+      "label": "右丘脑边界",
+      "paradigmId": "deductive-reasoning",
+      "paradigmLabel": "演绎推理"
+    },
+    {
+      "nodeId": "deductive-basal-ganglia-boundary",
+      "label": "尾状核/苍白球边界",
+      "paradigmId": "deductive-reasoning",
+      "paradigmLabel": "演绎推理"
+    },
+    {
+      "nodeId": "face-name-face-input",
+      "label": "面孔输入",
+      "paradigmId": "face-name-association",
+      "paradigmLabel": "面孔-姓名联结"
+    },
+    {
+      "nodeId": "face-name-name-label",
+      "label": "姓名标签",
+      "paradigmId": "face-name-association",
+      "paradigmLabel": "面孔-姓名联结"
+    },
+    {
+      "nodeId": "face-name-hippocampal-bind",
+      "label": "海马联结绑定",
+      "paradigmId": "face-name-association",
+      "paradigmLabel": "面孔-姓名联结"
+    },
+    {
+      "nodeId": "face-name-prefrontal-strategy",
+      "label": "前额叶提取策略",
+      "paradigmId": "face-name-association",
+      "paradigmLabel": "面孔-姓名联结"
+    },
+    {
+      "nodeId": "face-name-cingulate-effort",
+      "label": "联结努力监控",
+      "paradigmId": "face-name-association",
+      "paradigmLabel": "面孔-姓名联结"
+    },
+    {
+      "nodeId": "episodic-order-hippocampal-sequence",
+      "label": "海马顺序绑定",
+      "paradigmId": "episodic-order-memory",
+      "paradigmLabel": "事件顺序/情景顺序记忆"
+    },
+    {
+      "nodeId": "episodic-order-context",
+      "label": "情景背景",
+      "paradigmId": "episodic-order-memory",
+      "paradigmLabel": "事件顺序/情景顺序记忆"
+    },
+    {
+      "nodeId": "episodic-order-context-boundary-control",
+      "label": "上下文边界控制",
+      "paradigmId": "episodic-order-memory",
+      "paradigmLabel": "事件顺序/情景顺序记忆"
+    },
+    {
+      "nodeId": "episodic-order-temporal-context-parietal",
+      "label": "时间上下文支持",
+      "paradigmId": "episodic-order-memory",
+      "paradigmLabel": "事件顺序/情景顺序记忆"
+    },
+    {
+      "nodeId": "episodic-order-boundary-salience",
+      "label": "边界显著性选择",
+      "paradigmId": "episodic-order-memory",
+      "paradigmLabel": "事件顺序/情景顺序记忆"
+    },
+    {
+      "nodeId": "episodic-order-prefrontal-monitor",
+      "label": "顺序监控",
+      "paradigmId": "episodic-order-memory",
+      "paradigmLabel": "事件顺序/情景顺序记忆"
+    },
+    {
+      "nodeId": "episodic-order-parietal-detail",
+      "label": "细节重建",
+      "paradigmId": "episodic-order-memory",
+      "paradigmLabel": "事件顺序/情景顺序记忆"
+    },
+    {
+      "nodeId": "visual-delayed-visual-form",
+      "label": "视觉形状输入",
+      "paradigmId": "visual-delayed-memory",
+      "paradigmLabel": "视觉延迟记忆"
+    },
+    {
+      "nodeId": "visual-delayed-mtl-encoding",
+      "label": "内侧颞叶编码",
+      "paradigmId": "visual-delayed-memory",
+      "paradigmLabel": "视觉延迟记忆"
+    },
+    {
+      "nodeId": "visual-delayed-hippocampus",
+      "label": "海马新异编码",
+      "paradigmId": "visual-delayed-memory",
+      "paradigmLabel": "视觉延迟记忆"
+    },
+    {
+      "nodeId": "visual-delayed-parietal-retrieval",
+      "label": "视觉记忆提取",
+      "paradigmId": "visual-delayed-memory",
+      "paradigmLabel": "视觉延迟记忆"
+    },
+    {
+      "nodeId": "wpr-visual",
+      "label": "枕叶视觉输入",
+      "paradigmId": "word-pseudoword-reading",
+      "paradigmLabel": "字词/伪词阅读"
+    },
+    {
+      "nodeId": "wpr-vwfa",
+      "label": "左腹侧颞枕字形区候选",
+      "paradigmId": "word-pseudoword-reading",
+      "paradigmLabel": "字词/伪词阅读"
+    },
+    {
+      "nodeId": "wpr-ifg-phonology",
+      "label": "左下额音韵控制",
+      "paradigmId": "word-pseudoword-reading",
+      "paradigmLabel": "字词/伪词阅读"
+    },
+    {
+      "nodeId": "wpr-semantic-temporal",
+      "label": "熟悉词语义整合",
+      "paradigmId": "word-pseudoword-reading",
+      "paradigmLabel": "字词/伪词阅读"
+    },
+    {
+      "nodeId": "phon-visual-form",
+      "label": "字形输入",
+      "paradigmId": "phonological-decoding",
+      "paradigmLabel": "音韵解码/押韵判断"
+    },
+    {
+      "nodeId": "phon-left-ifg",
+      "label": "左下额音韵规则",
+      "paradigmId": "phonological-decoding",
+      "paradigmLabel": "音韵解码/押韵判断"
+    },
+    {
+      "nodeId": "phon-parietal-support",
+      "label": "IPL音韵支持",
+      "paradigmId": "phonological-decoding",
+      "paradigmLabel": "音韵解码/押韵判断"
+    },
+    {
+      "nodeId": "ortho-occipital",
+      "label": "枕叶线条/字形输入",
+      "paradigmId": "orthographic-processing",
+      "paradigmLabel": "正字法/字形加工"
+    },
+    {
+      "nodeId": "ortho-vwfa",
+      "label": "左梭状字形区候选",
+      "paradigmId": "orthographic-processing",
+      "paradigmLabel": "正字法/字形加工"
+    },
+    {
+      "nodeId": "ortho-ifg-check",
+      "label": "左下额规则检查",
+      "paradigmId": "orthographic-processing",
+      "paradigmLabel": "正字法/字形加工"
+    },
+    {
+      "nodeId": "symbol-visual",
+      "label": "枕叶/枕颞符号输入",
+      "paradigmId": "symbol-search-coding-speed",
+      "paradigmLabel": "符号搜索/编码速度"
+    },
+    {
+      "nodeId": "symbol-parietal-scan",
+      "label": "顶叶扫描/匹配",
+      "paradigmId": "symbol-search-coding-speed",
+      "paradigmLabel": "符号搜索/编码速度"
+    },
+    {
+      "nodeId": "symbol-fef-premotor",
+      "label": "FEF/前运动反应准备",
+      "paradigmId": "symbol-search-coding-speed",
+      "paradigmLabel": "符号搜索/编码速度"
+    },
+    {
+      "nodeId": "symbol-left-ifg-rule",
+      "label": "左 IFG 规则支持",
+      "paradigmId": "symbol-search-coding-speed",
+      "paradigmLabel": "符号搜索/编码速度"
+    },
+    {
+      "nodeId": "search-visual-field",
+      "label": "枕叶视觉场",
+      "paradigmId": "visual-search-schulte",
+      "paradigmLabel": "视觉搜索/舒尔特方格"
+    },
+    {
+      "nodeId": "search-fef",
+      "label": "额眼区扫描控制",
+      "paradigmId": "visual-search-schulte",
+      "paradigmLabel": "视觉搜索/舒尔特方格"
+    },
+    {
+      "nodeId": "search-ips",
+      "label": "顶内沟目标定位",
+      "paradigmId": "visual-search-schulte",
+      "paradigmLabel": "视觉搜索/舒尔特方格"
+    },
+    {
+      "nodeId": "search-motor",
+      "label": "中央前回反应输出",
+      "paradigmId": "visual-search-schulte",
+      "paradigmLabel": "视觉搜索/舒尔特方格"
+    },
+    {
+      "nodeId": "discrimination-sensory",
+      "label": "视觉/跨模态输入代理",
+      "paradigmId": "perceptual-discrimination-rt",
+      "paradigmLabel": "知觉辨别反应时"
+    },
+    {
+      "nodeId": "discrimination-auditory-input",
+      "label": "听觉/颞上输入候选",
+      "paradigmId": "perceptual-discrimination-rt",
+      "paradigmLabel": "知觉辨别反应时"
+    },
+    {
+      "nodeId": "discrimination-salience",
+      "label": "前岛/额盖控制需求",
+      "paradigmId": "perceptual-discrimination-rt",
+      "paradigmLabel": "知觉辨别反应时"
+    },
+    {
+      "nodeId": "discrimination-parietal-choice",
+      "label": "IPS/SPL 反应备选工作区",
+      "paradigmId": "perceptual-discrimination-rt",
+      "paradigmLabel": "知觉辨别反应时"
+    },
+    {
+      "nodeId": "discrimination-dlpfc-decision",
+      "label": "左 DLPFC/SFS 证据整合",
+      "paradigmId": "perceptual-discrimination-rt",
+      "paradigmLabel": "知觉辨别反应时"
+    },
+    {
+      "nodeId": "discrimination-motor",
+      "label": "PMd/中央前回反应输出",
+      "paradigmId": "perceptual-discrimination-rt",
+      "paradigmLabel": "知觉辨别反应时"
+    },
+    {
+      "nodeId": "folding-visual",
+      "label": "枕叶形状表象",
+      "paradigmId": "spatial-folding-unfolding",
+      "paradigmLabel": "空间展开/折叠"
+    },
+    {
+      "nodeId": "folding-right-ipl-ba40-lesion",
+      "label": "右IPL/BA40折叠边界",
+      "paradigmId": "spatial-folding-unfolding",
+      "paradigmLabel": "空间展开/折叠"
+    },
+    {
+      "nodeId": "folding-left-phc-configuration",
+      "label": "左海马旁构型支持",
+      "paradigmId": "spatial-folding-unfolding",
+      "paradigmLabel": "空间展开/折叠"
+    },
+    {
+      "nodeId": "embedded-visual-background",
+      "label": "枕颞复杂图形输入",
+      "paradigmId": "embedded-figures",
+      "paradigmLabel": "嵌入图形/复杂图形搜索"
+    },
+    {
+      "nodeId": "embedded-ips-selection",
+      "label": "顶叶/楔前叶目标分离",
+      "paradigmId": "embedded-figures",
+      "paradigmLabel": "嵌入图形/复杂图形搜索"
+    },
+    {
+      "nodeId": "embedded-fef-search-set",
+      "label": "FEF/前运动搜索策略",
+      "paradigmId": "embedded-figures",
+      "paradigmLabel": "嵌入图形/复杂图形搜索"
+    },
+    {
+      "nodeId": "embedded-salience-switch",
+      "label": "右IFG-岛叶熟练搜索",
+      "paradigmId": "embedded-figures",
+      "paradigmLabel": "嵌入图形/复杂图形搜索"
+    },
+    {
+      "nodeId": "relational-dlpfc",
+      "label": "前DLPFC关系整合",
+      "paradigmId": "relational-reasoning",
+      "paradigmLabel": "关系推理/关系整合"
+    },
+    {
+      "nodeId": "relational-parietal",
+      "label": "顶叶关系工作空间",
+      "paradigmId": "relational-reasoning",
+      "paradigmLabel": "关系推理/关系整合"
+    },
+    {
+      "nodeId": "relational-acc-monitor",
+      "label": "内侧额叶冲突监控",
+      "paradigmId": "relational-reasoning",
+      "paradigmLabel": "关系推理/关系整合"
+    },
+    {
+      "nodeId": "relational-visual-input",
+      "label": "关系材料输入",
+      "paradigmId": "relational-reasoning",
+      "paradigmLabel": "关系推理/关系整合"
+    },
+    {
+      "nodeId": "inductive-material-input",
+      "label": "样例材料输入",
+      "paradigmId": "inductive-rule-discovery",
+      "paradigmLabel": "归纳推理/规则发现"
+    },
+    {
+      "nodeId": "inductive-parietal-workspace",
+      "label": "IPS/SPL关系工作区",
+      "paradigmId": "inductive-rule-discovery",
+      "paradigmLabel": "归纳推理/规则发现"
+    },
+    {
+      "nodeId": "inductive-left-ifg-hypothesis",
+      "label": "左IFG/VLPFC假设生成",
+      "paradigmId": "inductive-rule-discovery",
+      "paradigmLabel": "归纳推理/规则发现"
+    },
+    {
+      "nodeId": "inductive-medial-monitoring",
+      "label": "额内侧规则监控",
+      "paradigmId": "inductive-rule-discovery",
+      "paradigmLabel": "归纳推理/规则发现"
+    },
+    {
+      "nodeId": "inductive-right-pfc-domain-strategy",
+      "label": "右PFC空间策略支路",
+      "paradigmId": "inductive-rule-discovery",
+      "paradigmLabel": "归纳推理/规则发现"
+    },
+    {
+      "nodeId": "symbol-quantity-visual",
+      "label": "数字/点阵视觉输入",
+      "paradigmId": "symbolic-quantity-mapping",
+      "paradigmLabel": "数字与数量对应"
+    },
+    {
+      "nodeId": "symbol-quantity-ips",
+      "label": "IPS/SPL数量意义",
+      "paradigmId": "symbolic-quantity-mapping",
+      "paradigmLabel": "数字与数量对应"
+    },
+    {
+      "nodeId": "symbol-quantity-ipl",
+      "label": "下顶叶形式对应",
+      "paradigmId": "symbolic-quantity-mapping",
+      "paradigmLabel": "数字与数量对应"
+    },
+    {
+      "nodeId": "symbol-quantity-goal",
+      "label": "当前对应目标",
+      "paradigmId": "symbolic-quantity-mapping",
+      "paradigmLabel": "数字与数量对应"
+    },
+    {
+      "nodeId": "subitizing-visual",
+      "label": "点阵视觉输入",
+      "paradigmId": "subitizing-enumeration",
+      "paradigmLabel": "小数量识别与计数"
+    },
+    {
+      "nodeId": "subitizing-tpj",
+      "label": "TPJ小集合识别",
+      "paradigmId": "subitizing-enumeration",
+      "paradigmLabel": "小数量识别与计数"
+    },
+    {
+      "nodeId": "subitizing-ips-count",
+      "label": "后顶叶逐项计数",
+      "paradigmId": "subitizing-enumeration",
+      "paradigmLabel": "小数量识别与计数"
+    },
+    {
+      "nodeId": "subitizing-frontal-sequence",
+      "label": "额叶计数顺序",
+      "paradigmId": "subitizing-enumeration",
+      "paradigmLabel": "小数量识别与计数"
+    },
+    {
+      "nodeId": "number-line-visual",
+      "label": "数字/数轴视觉输入",
+      "paradigmId": "number-line-estimation",
+      "paradigmLabel": "数序与数轴估计"
+    },
+    {
+      "nodeId": "number-line-ips",
+      "label": "IPS数量大小",
+      "paradigmId": "number-line-estimation",
+      "paradigmLabel": "数序与数轴估计"
+    },
+    {
+      "nodeId": "number-line-spl",
+      "label": "后顶叶空间比例",
+      "paradigmId": "number-line-estimation",
+      "paradigmLabel": "数序与数轴估计"
+    },
+    {
+      "nodeId": "number-line-rule",
+      "label": "参考点/区间策略",
+      "paradigmId": "number-line-estimation",
+      "paradigmLabel": "数序与数轴估计"
+    },
+    {
+      "nodeId": "number-line-response",
+      "label": "位置标记输出",
+      "paradigmId": "number-line-estimation",
+      "paradigmLabel": "数序与数轴估计"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "amalric-dehaene-2016-advanced-math",
+      "title": "Origins of the brain networks for advanced mathematics in expert mathematicians"
+    },
+    {
+      "sourceId": "aron-2004-right-ifc-inhibition",
+      "title": "Inhibition and the right inferior frontal cortex"
+    },
+    {
+      "sourceId": "aron-2014-response-inhibition",
+      "title": "Inhibition and the right inferior frontal cortex: one decade on"
+    },
+    {
+      "sourceId": "aron-poldrack-2006-stop-signal",
+      "title": "Cortical and Subcortical Contributions to Stop Signal Response Inhibition: Role of the Subthalamic Nucleus"
+    },
+    {
+      "sourceId": "aronen-2005-nback-school-performance",
+      "title": "Working memory, psychiatric symptoms, and academic performance at school"
+    },
+    {
+      "sourceId": "arsalidou-taylor-2011-calculation",
+      "title": "Is 2 + 2 = 4? Meta-analyses of brain areas needed for numbers and calculations"
+    },
+    {
+      "sourceId": "augustinack-2013-perirhinal",
+      "title": "Predicting the location of human perirhinal cortex, Brodmann's area 35, from MRI"
+    },
+    {
+      "sourceId": "awh-1996-verbal-wm-storage-rehearsal",
+      "title": "Dissociation of Storage and Rehearsal in Verbal Working Memory: Evidence From Positron Emission Tomography"
+    },
+    {
+      "sourceId": "babai-2018-proportional-reasoning",
+      "title": "Proportional reasoning: Reducing the interference of natural numbers through an intervention based on the problem-solving framework of executive functions"
+    },
+    {
+      "sourceId": "babcock-vallesi-2015-inductive-reasoning",
+      "title": "The interaction of process and domain in prefrontal cortex during inductive reasoning"
+    },
+    {
+      "sourceId": "bartra-2013-valuation-system",
+      "title": "The valuation system: A coordinate-based meta-analysis of BOLD fMRI experiments examining neural correlates of subjective value"
+    },
+    {
+      "sourceId": "bellmund-2020-sequence-memory",
+      "title": "Sequence Memory in the Hippocampal-Entorhinal Region"
+    },
+    {
+      "sourceId": "berkman-2014-inhibitory-control-training-fmri",
+      "title": "Training-induced changes in inhibitory control network activity"
+    },
+    {
+      "sourceId": "berninger-1999-early-reading-intervention",
+      "title": "Early Intervention for Reading Disabilities: Teaching the Alphabetic Principle in a Connectionist Framework"
+    },
+    {
+      "sourceId": "berteletti-2015-number-line-subtraction",
+      "title": "How number line estimation skills relate to neural activations in single digit subtraction problems"
+    },
+    {
+      "sourceId": "bids-derivatives",
+      "title": "BIDS Derivatives"
+    },
+    {
+      "sourceId": "binder-2009-semantic-system",
+      "title": "Where Is the Semantic System? A Critical Review and Meta-Analysis of 120 Functional Neuroimaging Studies"
+    },
+    {
+      "sourceId": "bishop-2004-anxiety-attention",
+      "title": "Prefrontal cortical function and anxiety: controlling attention to threat-related stimuli"
+    },
+    {
+      "sourceId": "blokland-2011-working-memory-brain-activation-heritability",
+      "title": "Heritability of working memory brain activation"
+    },
+    {
+      "sourceId": "blokland-2017-gwas-working-memory-brain-activation",
+      "title": "Genome-wide association study of working memory brain activation"
+    },
+    {
+      "sourceId": "braem-2017-affective-conflict",
+      "title": "The role of anterior cingulate cortex in the affective evaluation of conflict"
+    },
+    {
+      "sourceId": "buhle-2014-cognitive-reappraisal",
+      "title": "Cognitive Reappraisal of Emotion: A Meta-Analysis of Human Neuroimaging Studies"
+    },
+    {
+      "sourceId": "bunge-2004-analogical-reasoning",
+      "title": "Analogical Reasoning and Prefrontal Cortex: Evidence for Separable Retrieval and Integration Mechanisms"
+    },
+    {
+      "sourceId": "butcher-2019-qtl-processing-speed",
+      "title": "A QTL on chromosome 3q23 influences processing speed in humans"
+    },
+    {
+      "sourceId": "cabeza-2008-parietal-episodic-memory",
+      "title": "The parietal cortex and episodic memory: an attentional account"
+    },
+    {
+      "sourceId": "cangoz-2018-tablet-dyscalculia-screening",
+      "title": "Comparing two cut-off based criteria while investigating the discriminatory characteristics of a tablet-based dyscalculia screening battery for 5-9 age group"
+    },
+    {
+      "sourceId": "cantlon-2009-abstract-number-development",
+      "title": "The Neural Development of an Abstract Concept of Number"
+    },
+    {
+      "sourceId": "caudle-2023-matrix-reasoning",
+      "title": "Neural activity and network analysis for understanding reasoning using the matrix reasoning task"
+    },
+    {
+      "sourceId": "chavan-2015-inhibitory-control-functional-structural-plasticity",
+      "title": "Differential patterns of functional and structural plasticity within and between inferior frontal gyri support training-induced improvements in inhibitory control proficiency"
+    },
+    {
+      "sourceId": "chechko-2012-emotional-distractors",
+      "title": "Brain Circuitries Involved in Semantic Interference by Demands of Emotional and Non-Emotional Distractors"
+    },
+    {
+      "sourceId": "chen-2018-cognitive-interference",
+      "title": "A domain-general brain network underlying emotional and cognitive interference processing: evidence from coordinate-based and functional connectivity meta-analyses"
+    },
+    {
+      "sourceId": "chua-2007-anterior-hippocampal-associative-encoding",
+      "title": "Evidence for a specific role of the anterior hippocampal region in successful associative encoding"
+    },
+    {
+      "sourceId": "coetzee-2018-core-reasoning",
+      "title": "At the core of reasoning: Dissociating deductive and non-deductive load"
+    },
+    {
+      "sourceId": "cohen-2002-vwfa-language-specific-tuning",
+      "title": "Language-specific tuning of visual cortex? Functional properties of the visual word form area"
+    },
+    {
+      "sourceId": "collette-2005-executive-functioning-unity-diversity",
+      "title": "Exploring the unity and diversity of the neural substrates of executive functioning"
+    },
+    {
+      "sourceId": "constable-2004-sentence-complexity-modality",
+      "title": "Sentence complexity and input modality effects in sentence comprehension: an fMRI study"
+    },
+    {
+      "sourceId": "cools-2002-reversal-learning",
+      "title": "Defining the Neural Mechanisms of Probabilistic Reversal Learning Using Event-Related Functional Magnetic Resonance Imaging"
+    },
+    {
+      "sourceId": "corbetta-shulman-2002-attention",
+      "title": "Control of goal-directed and stimulus-driven attention in the brain"
+    },
+    {
+      "sourceId": "corsi-1972-spatial-span-thesis",
+      "title": "Human memory and the medial temporal region of the brain"
+    },
+    {
+      "sourceId": "courtney-1996-object-spatial-wm",
+      "title": "Object and Spatial Visual Working Memory Activate Separate Neural Systems in Human Cortex"
+    },
+    {
+      "sourceId": "crescentini-2011-rule-acquisition",
+      "title": "Mechanisms of rule acquisition and rule following in inductive reasoning"
+    },
+    {
+      "sourceId": "cromheeke-mueller-2014-emotion-cognition-ale",
+      "title": "Probing emotional influences on cognitive control: an ALE meta-analysis of cognition emotion interactions"
+    },
+    {
+      "sourceId": "culham-2001-attention-response",
+      "title": "Attention Response Functions"
+    },
+    {
+      "sourceId": "damestani-2021-auditory-oddball-tone-discrimination",
+      "title": "Revealing the mechanisms behind novel auditory stimuli discrimination: An evaluation of silent functional MRI using looping star"
+    },
+    {
+      "sourceId": "davachi-2003-item-source-memory",
+      "title": "Multiple routes to memory: Distinct medial temporal lobe processes build item and source memories"
+    },
+    {
+      "sourceId": "davis-2009-temporal-order-judgment",
+      "title": "Temporal Order Judgments Activate Temporal Parietal Junction"
+    },
+    {
+      "sourceId": "dehaene-1999-sources-math-thinking",
+      "title": "Sources of Mathematical Thinking: Behavioral and Brain-Imaging Evidence"
+    },
+    {
+      "sourceId": "dehaene-2009-math-intuitions",
+      "title": "Origins of Mathematical Intuitions: The Case of Arithmetic"
+    },
+    {
+      "sourceId": "demontis-2023-adhd-27-risk-loci",
+      "title": "Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains"
+    },
+    {
+      "sourceId": "devonshire-2013-orthographic-instruction",
+      "title": "Spelling and reading development: The effect of teaching children multiple levels of representation in their orthography"
+    },
+    {
+      "sourceId": "diedrichsenlab-cerebellar-atlases",
+      "title": "Diedrichsen Lab cerebellar atlases repository"
+    },
+    {
+      "sourceId": "diwadkar-2000-dynamic-spatial-wm",
+      "title": "Collaborative Activity between Parietal and Dorso-Lateral Prefrontal Cortex in Dynamic Spatial Working Memory Revealed by fMRI"
+    },
+    {
+      "sourceId": "dizaji-2021-intelligence-neuroimaging-review",
+      "title": "Linking Brain Biology to Intellectual Endowment: A Review on the Associations of Human Intelligence With Neuroimaging Data"
+    },
+    {
+      "sourceId": "dobbins-2002-source-memory-control",
+      "title": "Executive control during episodic retrieval: multiple prefrontal processes subserve source memory"
+    },
+    {
+      "sourceId": "docherty-2010-gwas-mathematics-ability-disability",
+      "title": "A genome-wide association study identifies multiple loci associated with mathematics ability and disability"
+    },
+    {
+      "sourceId": "draganski-2004-juggling-structural-plasticity",
+      "title": "Neuroplasticity: changes in grey matter induced by training"
+    },
+    {
+      "sourceId": "duan-2023-gwas-mathematical-abilities-children",
+      "title": "A genome-wide association study identified new variants associated with mathematical abilities in Chinese children"
+    },
+    {
+      "sourceId": "dux-2006-central-bottleneck",
+      "title": "Isolation of a Central Bottleneck of Information Processing with Time-Resolved fMRI"
+    },
+    {
+      "sourceId": "dux-2009-multitasking-training-fmri",
+      "title": "Training improves multitasking performance by increasing the speed of information processing in human prefrontal cortex"
+    },
+    {
+      "sourceId": "egan-2001-comt-frontal-lobe-function",
+      "title": "Effect of COMT Val108/158 Met genotype on frontal lobe function and risk for schizophrenia"
+    },
+    {
+      "sourceId": "emch-2019-verbal-wm-meta",
+      "title": "Neural Correlates of Verbal Working Memory: An fMRI Meta-Analysis"
+    },
+    {
+      "sourceId": "engvig-2010-memory-training-cortical-thickness",
+      "title": "Effects of memory training on cortical thickness in the elderly"
+    },
+    {
+      "sourceId": "esmeyer-2025-crossmodal-perceptual-decision",
+      "title": "Effector-dependent neural representations of perceptual decisions independent of motor actions and sensory modalities"
+    },
+    {
+      "sourceId": "etkin-2011-acc-mpfc-emotion",
+      "title": "Emotional processing in anterior cingulate and medial prefrontal cortex"
+    },
+    {
+      "sourceId": "ewert-2018-distal-atlas",
+      "title": "Toward defining deep brain stimulation targets in MNI space: A subcortical atlas based on multimodal MRI, histology and structural connectivity"
+    },
+    {
+      "sourceId": "ezzyat-davachi-2014-temporal-proximity",
+      "title": "Similarity Breeds Proximity: Pattern Similarity within and across Contexts Is Related to Later Mnemonic Judgments of Temporal Proximity"
+    },
+    {
+      "sourceId": "fan-2002-ant-behavior",
+      "title": "Testing the Efficiency and Independence of Attentional Networks"
+    },
+    {
+      "sourceId": "fan-2005-ant-fmri",
+      "title": "The activation of attentional networks"
+    },
+    {
+      "sourceId": "fan-2014-uncertainty-cognitive-control",
+      "title": "Quantitative Characterization of Functional Anatomical Contributions to Cognitive Control under Uncertainty"
+    },
+    {
+      "sourceId": "fan-fossella-sommer-2003-executive-attention-genetics-fmri",
+      "title": "Mapping the genetic variation of executive attention onto brain activity"
+    },
+    {
+      "sourceId": "fan-wu-fossella-posner-2001-attention-heritability",
+      "title": "Assessing the heritability of attentional networks"
+    },
+    {
+      "sourceId": "felssberg-2025-mot-training-fmri",
+      "title": "Cortical network modulations associated with prolonged training of the multiple object-tracking task"
+    },
+    {
+      "sourceId": "fittipaldi-marquez-2017-sdmt-neural-efficiency",
+      "title": "Exploring Neural Efficiency in Multiple Sclerosis Patients during the Symbol Digit Modalities Test: A Functional Magnetic Resonance Imaging Study"
+    },
+    {
+      "sourceId": "fonville-2013-embedded-figures",
+      "title": "Evaluation of Enhanced Attention to Local Detail in Anorexia Nervosa Using the Embedded Figures Test; an fMRI Study"
+    },
+    {
+      "sourceId": "forn-2009-sdmt-fmri",
+      "title": "A Symbol Digit Modalities Test version suitable for functional MRI studies"
+    },
+    {
+      "sourceId": "fossella-sommer-fan-2002-molecular-genetics-attention",
+      "title": "Assessing the molecular genetics of attention networks"
+    },
+    {
+      "sourceId": "frick-2019-spatial-transformation-achievement",
+      "title": "Spatial transformation abilities and their relation to later academic achievement"
+    },
+    {
+      "sourceId": "friedman-2016-ef-longitudinal-twin",
+      "title": "Stability and change in executive function abilities from late adolescence to early adulthood: A longitudinal twin study"
+    },
+    {
+      "sourceId": "ganis-2004-imagery-perception",
+      "title": "Brain areas underlying visual mental imagery and visual perception: an fMRI study"
+    },
+    {
+      "sourceId": "gaspar-2013-change-detection-training",
+      "title": "Change Detection: Training and Transfer"
+    },
+    {
+      "sourceId": "gawryluk-2014-sdmt",
+      "title": "Functional MRI activation in white matter during the Symbol Digit Modalities Test"
+    },
+    {
+      "sourceId": "gazzo-2023-probabilistic-deductive-reasoning",
+      "title": "Probabilistic and deductive reasoning in the human brain"
+    },
+    {
+      "sourceId": "ghaderi-yazdi-2026-qnld-openneuro-ds006148",
+      "title": "A Multimodal Dataset to Investigate Task-Evoked Negative BOLD Response and Neurodegeneration"
+    },
+    {
+      "sourceId": "gitelman-1999-covert-spatial-attention",
+      "title": "A Large-Scale Distributed Network for Covert Spatial Attention"
+    },
+    {
+      "sourceId": "glass-2013-mental-paper-folding-lesion",
+      "title": "Mental Paper Folding Performance Following Penetrating Traumatic Brain Injury in Combat Veterans: A Lesion Mapping Study"
+    },
+    {
+      "sourceId": "greene-2009-noradrenergic-genotype-sustained-attention",
+      "title": "Noradrenergic genotype predicts lapses in sustained attention"
+    },
+    {
+      "sourceId": "hampshire-2012-intelligence",
+      "title": "Fractionating human intelligence"
+    },
+    {
+      "sourceId": "hampstead-2011-face-name-memory-training-fmri",
+      "title": "Activation and effective connectivity changes following explicit-memory training for face-name pairs in patients with mild cognitive impairment: a pilot study"
+    },
+    {
+      "sourceId": "hao-2013-embedded-figures-cognitive-style",
+      "title": "Individual differences in brain structure and resting brain function underlie cognitive styles: evidence from the Embedded Figures Test"
+    },
+    {
+      "sourceId": "harris-2013-spatial-transformations-rotation-folding",
+      "title": "Understanding spatial transformations: similarities and differences between mental rotation and mental folding"
+    },
+    {
+      "sourceId": "heekeren-2004-perceptual-decision",
+      "title": "A general mechanism for perceptual decision-making in the human brain"
+    },
+    {
+      "sourceId": "hilton-2022-spatial-transformation",
+      "title": "A general spatial transformation process? Assessing the neurophysiological evidence on the similarity of mental rotation and folding"
+    },
+    {
+      "sourceId": "hopfinger-2000-top-down-attention",
+      "title": "The neural mechanisms of top-down attentional control"
+    },
+    {
+      "sourceId": "houde-2003-logical-math-cognition",
+      "title": "Neural foundations of logical and mathematical cognition"
+    },
+    {
+      "sourceId": "houlihan-1994-reaction-time-processes",
+      "title": "Reaction time and movement time as measures of stimulus evaluation and response processes"
+    },
+    {
+      "sourceId": "hsieh-2014-sequence-memory",
+      "title": "Hippocampal Activity Patterns Carry Information about Objects in Temporal Context"
+    },
+    {
+      "sourceId": "hung-2018-inhibition-emotional-interference",
+      "title": "Dissociations of cognitive inhibition, response inhibition, and emotional interference: Voxelwise ALE meta-analyses of fMRI studies"
+    },
+    {
+      "sourceId": "iglesias-2015-hippocampal-subfields",
+      "title": "A computational atlas of the hippocampal formation using ex vivo, ultra-high resolution MRI: Application to adaptive segmentation of in vivo MRI"
+    },
+    {
+      "sourceId": "iglesias-2018-thalamic-nuclei-atlas",
+      "title": "A probabilistic atlas of the human thalamic nuclei combining ex vivo MRI and histology"
+    },
+    {
+      "sourceId": "iuculano-2015-math-tutoring-dyscalculia-fmri",
+      "title": "Cognitive tutoring induces widespread neuroplasticity and remediates brain function in children with mathematical learning disabilities"
+    },
+    {
+      "sourceId": "jacobs-1887-prehension-digit-span",
+      "title": "Experiments on \"Prehension\""
+    },
+    {
+      "sourceId": "jobard-2003-dual-route-reading-meta",
+      "title": "Evaluation of the dual route theory of reading: a metanalysis of 35 neuroimaging studies"
+    },
+    {
+      "sourceId": "jones-2020-child-adhd-nback-training",
+      "title": "Exploring N-Back Cognitive Training for Children With ADHD"
+    },
+    {
+      "sourceId": "jones-2020-working-memory-metacognitive-academic-transfer",
+      "title": "The academic outcomes of working memory and metacognitive strategy training in children: A double-blind randomized controlled trial"
+    },
+    {
+      "sourceId": "jonides-1993-spatial-wm-pet",
+      "title": "Spatial working memory in humans as revealed by PET"
+    },
+    {
+      "sourceId": "jovicich-2001-motion-tracking-load",
+      "title": "Brain Areas Specific for Attentional Load in a Motion-Tracking Task"
+    },
+    {
+      "sourceId": "jung-haier-2007-pfit",
+      "title": "The Parieto-Frontal Integration Theory (P-FIT) of intelligence: converging neuroimaging evidence"
+    },
+    {
+      "sourceId": "kansaku-2004-simple-reaction-time",
+      "title": "A shared neural network for simple reaction time"
+    },
+    {
+      "sourceId": "kauppi-2011-kibra-memory-hippocampal-processing",
+      "title": "KIBRA polymorphism is related to enhanced memory and elevated hippocampal processing"
+    },
+    {
+      "sourceId": "kauppi-2014-apoe-bdnf-hippocampus-activity",
+      "title": "Additive genetic effect of APOE and BDNF on hippocampus activity"
+    },
+    {
+      "sourceId": "keller-just-2009-reading-remediation-white-matter",
+      "title": "Altering cortical connectivity: remediation-induced changes in the white matter of poor readers"
+    },
+    {
+      "sourceId": "kim-2011-subsequent-memory",
+      "title": "Neural activity that predicts subsequent memory and forgetting: A meta-analysis of 74 fMRI studies"
+    },
+    {
+      "sourceId": "kim-cabeza-2007-true-false-memory-formation",
+      "title": "Differential Contributions of Prefrontal, Medial Temporal, and Sensory-Perceptual Regions to True and False Memory Formation"
+    },
+    {
+      "sourceId": "king-2019-cerebellum-task-battery",
+      "title": "Functional boundaries in the human cerebellum revealed by a multi-domain task battery"
+    },
+    {
+      "sourceId": "kirchner-1958-nback-origin",
+      "title": "Age differences in short-term retention of rapidly changing information"
+    },
+    {
+      "sourceId": "kirwan-stark-2004-face-name-pairs",
+      "title": "Medial temporal lobe activation during encoding and retrieval of novel face-name pairs"
+    },
+    {
+      "sourceId": "klingberg-2005-working-memory-training-adhd-rct",
+      "title": "Computerized training of working memory in children with ADHD: a randomized, controlled trial"
+    },
+    {
+      "sourceId": "konishi-2002-recency-judgment",
+      "title": "Neural correlates of recency judgment"
+    },
+    {
+      "sourceId": "kosslyn-2001-imagery-foundations",
+      "title": "Neural foundations of imagery"
+    },
+    {
+      "sourceId": "kroger-2002-relational-complexity",
+      "title": "Recruitment of Anterior Dorsolateral Prefrontal Cortex in Human Reasoning: a Parametric Study of Relational Complexity"
+    },
+    {
+      "sourceId": "kuhn-2013-updating-training-striatal-dynamics",
+      "title": "The dynamics of change in striatal activity following updating training"
+    },
+    {
+      "sourceId": "kuhn-2014-super-mario-structural-plasticity",
+      "title": "Playing Super Mario induces structural brain plasticity: gray matter changes resulting from training with a commercial video game"
+    },
+    {
+      "sourceId": "kumaran-maguire-2006-unexpected-sequence-events",
+      "title": "An Unexpected Sequence of Events: Mismatch Detection in the Human Hippocampus"
+    },
+    {
+      "sourceId": "kuntsi-2006-reaction-time-inhibition-working-memory-genetics",
+      "title": "Reaction time, inhibition, working memory and 'delay aversion' performance: genetic influences and their interpretation"
+    },
+    {
+      "sourceId": "lam-2023-sh2b1-fluid-intelligence-gwas",
+      "title": "SH2B1 Tunes Hippocampal ERK Signaling to Influence Fluid Intelligence in Humans and Mice"
+    },
+    {
+      "sourceId": "langner-eickhoff-2013-vigilant-attention",
+      "title": "Sustaining attention to simple tasks: A meta-analytic review of the neural mechanisms of vigilant attention"
+    },
+    {
+      "sourceId": "luck-vogel-1997-visual-working-memory-capacity",
+      "title": "The capacity of visual working memory for features and conjunctions"
+    },
+    {
+      "sourceId": "macdonald-2000-stroop-control",
+      "title": "Dissociating the Role of the Dorsolateral Prefrontal and Anterior Cingulate Cortex in Cognitive Control"
+    },
+    {
+      "sourceId": "mackey-2011-reasoning-speed-training-children",
+      "title": "Differential effects of reasoning and speed training in children"
+    },
+    {
+      "sourceId": "malanchini-2020-unitary-spatial-cognition",
+      "title": "Evidence for a unitary structure of spatial cognition beyond general intelligence"
+    },
+    {
+      "sourceId": "manjaly-2003-hidden-figures-fmri",
+      "title": "In search of the hidden: an fMRI study with implications for the study of patients with autism and with acquired brain injury"
+    },
+    {
+      "sourceId": "margosein-1982-semantic-mapping",
+      "title": "The Effects of Instruction Using Semantic Mapping on Vocabulary and Comprehension"
+    },
+    {
+      "sourceId": "marini-2016-distractor-filtering",
+      "title": "Orchestrating Proactive and Reactive Mechanisms for Filtering Distracting Information: Brain-Behavior Relationships Revealed by a Mixed-Design fMRI Study"
+    },
+    {
+      "sourceId": "mccandliss-2003-vwfa",
+      "title": "The visual word form area: expertise for reading in the fusiform gyrus"
+    },
+    {
+      "sourceId": "melby-lervag-2016-working-memory-far-transfer-meta",
+      "title": "Working memory training does not improve performance on measures of intelligence or other measures of far transfer"
+    },
+    {
+      "sourceId": "meng-2011-dcdc2-expression-reading",
+      "title": "A dyslexia-associated variant in DCDC2 changes gene expression"
+    },
+    {
+      "sourceId": "merkel-2015-multiple-object-tracking-strategies",
+      "title": "Neural correlates of multiple object tracking strategies"
+    },
+    {
+      "sourceId": "meyer-schvaneveldt-1971-lexical-decision",
+      "title": "Facilitation in recognizing pairs of words: Evidence of a dependence between retrieval operations"
+    },
+    {
+      "sourceId": "milivojevic-2003-mental-paper-folding",
+      "title": "Non-identical neural mechanisms for two types of mental transformation: event-related potentials during mental rotation and mental paper folding"
+    },
+    {
+      "sourceId": "miyake-2000-executive-functions",
+      "title": "The unity and diversity of executive functions and their contributions to complex frontal lobe tasks"
+    },
+    {
+      "sourceId": "miyake-friedman-2017-ef-unity-diversity-genetics",
+      "title": "Unity and diversity of executive functions: Individual differences as a window on cognitive structure"
+    },
+    {
+      "sourceId": "murty-2011-flexible-updating",
+      "title": "Selective updating of working memory content modulates meso-cortico-striatal activity"
+    },
+    {
+      "sourceId": "navarro-schroder-2015-entorhinal-topography",
+      "title": "Functional topography of the human entorhinal cortex"
+    },
+    {
+      "sourceId": "nee-brown-2013-updating-hierarchical-contexts",
+      "title": "Dissociable Frontal-Striatal and Frontal-Parietal Networks Involved in Updating Hierarchical Contexts in Working Memory"
+    },
+    {
+      "sourceId": "neubauer-2017-tacs-paper-folding-fmri",
+      "title": "The influence of transcranial alternating current stimulation (tACS) on fluid intelligence: An fMRI study"
+    },
+    {
+      "sourceId": "ng-2021-word-problem-lexical-consistency",
+      "title": "Operation-Specific Lexical Consistency Effect in Fronto-Insular-Parietal Network During Word Problem Solving"
+    },
+    {
+      "sourceId": "ng-2025-word-problem-sentence-comprehension",
+      "title": "Distinct Behavioural and Brain Response Profiles Between Arithmetic Word Problem Solving and Sentence Comprehension in Third and Fourth Graders"
+    },
+    {
+      "sourceId": "niendam-2012-cognitive-control",
+      "title": "Meta-analytic evidence for a superordinate cognitive control network subserving diverse executive functions"
+    },
+    {
+      "sourceId": "nitschke-2017-tower-of-london",
+      "title": "A Meta-analysis on the neural basis of planning: Activation likelihood estimation of functional brain imaging results in the Tower of London task"
+    },
+    {
+      "sourceId": "ochsner-2012-emotion-regulation",
+      "title": "Functional imaging studies of emotion regulation: A synthetic review and evolving model of the cognitive control of emotion"
+    },
+    {
+      "sourceId": "oliver-2013-literacy-numeracy-heritability",
+      "title": "Literacy and numeracy are more heritable than intelligence in primary school"
+    },
+    {
+      "sourceId": "owen-2005-nback",
+      "title": "N-back working memory paradigm: A meta-analysis of normative functional neuroimaging studies"
+    },
+    {
+      "sourceId": "papassotiropoulos-2006-kibra-memory-performance",
+      "title": "Common Kibra Alleles Are Associated with Human Memory Performance"
+    },
+    {
+      "sourceId": "pardo-1990-stroop-acc",
+      "title": "The anterior cingulate cortex mediates processing selection in the Stroop attentional conflict paradigm"
+    },
+    {
+      "sourceId": "park-2024-number-sense-training-fmri",
+      "title": "Short-term number sense training recapitulates long-term neurodevelopmental changes from childhood to adolescence"
+    },
+    {
+      "sourceId": "park-brannon-2013-ans-training",
+      "title": "Training the Approximate Number System Improves Math Proficiency"
+    },
+    {
+      "sourceId": "parsons-osherson-2001-deductive-probabilistic-reasoning",
+      "title": "New Evidence for Distinct Right and Left Brain Systems for Deductive versus Probabilistic Reasoning"
+    },
+    {
+      "sourceId": "paulesu-1993-phonological-loop",
+      "title": "The neural correlates of the verbal component of working memory"
+    },
+    {
+      "sourceId": "petersen-posner-2012-attention-system",
+      "title": "The Attention System of the Human Brain: 20 Years After"
+    },
+    {
+      "sourceId": "piazza-2003-subitizing-counting",
+      "title": "Single-trial classification of parallel pre-attentive and serial attentive processes using functional magnetic resonance imaging"
+    },
+    {
+      "sourceId": "plomin-2022-genetics-specific-cognitive-abilities",
+      "title": "The genetics of specific cognitive abilities"
+    },
+    {
+      "sourceId": "powers-2010-dyslexia-dcdc2-normal-reading",
+      "title": "Dyslexia and DCDC2: normal variation in reading and spelling is associated with DCDC2 polymorphisms in an Australian population sample"
+    },
+    {
+      "sourceId": "prabhakaran-1997-fluid-reasoning-raven",
+      "title": "Neural Substrates of Fluid Reasoning: An fMRI Study of Neocortical Activation during Performance of the Raven's Progressive Matrices Test"
+    },
+    {
+      "sourceId": "price-2012-language-review",
+      "title": "A review and synthesis of the first 20 years of PET and fMRI studies of heard speech, spoken language and reading"
+    },
+    {
+      "sourceId": "qin-2004-algebra-learning-fmri",
+      "title": "The change of the brain activation patterns as children learn algebra equation solving"
+    },
+    {
+      "sourceId": "rae-2014-selection-stopping",
+      "title": "Selection and stopping in voluntary action: A meta-analysis and combined fMRI study"
+    },
+    {
+      "sourceId": "reineberg-2022-general-executive-function",
+      "title": "Context-specific activations are a hallmark of the neural basis of individual differences in common executive function"
+    },
+    {
+      "sourceId": "rimfeld-2017-genetic-structure-spatial-abilities",
+      "title": "Phenotypic and genetic evidence for a unifactorial structure of spatial abilities"
+    },
+    {
+      "sourceId": "ring-1999-preserved-cognitive-skills-autism",
+      "title": "Cerebral correlates of preserved cognitive skills in autism"
+    },
+    {
+      "sourceId": "roberts-2016-working-memory-two-year-academic-outcomes",
+      "title": "Academic Outcomes 2 Years After Working Memory Training for Children With Low Working Memory: A Randomized Clinical Trial"
+    },
+    {
+      "sourceId": "rodriguez-moreno-hirsch-2009-deductive-reasoning",
+      "title": "The dynamics of deductive reasoning: An fMRI investigation"
+    },
+    {
+      "sourceId": "roediger-mcdermott-1995-drm",
+      "title": "Creating false memories: Remembering words not presented in lists"
+    },
+    {
+      "sourceId": "rolls-2022-hippocampus-vmpfc-memory",
+      "title": "The hippocampus, ventromedial prefrontal cortex, and episodic and semantic memory"
+    },
+    {
+      "sourceId": "rottschy-2012-working-memory",
+      "title": "Modelling neural correlates of working memory: A coordinate-based meta-analysis"
+    },
+    {
+      "sourceId": "rubia-2006-frontostriatal-cognitive-control",
+      "title": "Progressive increase of frontostriatal brain activation from childhood to adulthood during event-related tasks of cognitive control"
+    },
+    {
+      "sourceId": "rueda-2005-executive-attention-training",
+      "title": "Training, maturation, and genetic influences on the development of executive attention"
+    },
+    {
+      "sourceId": "sambataro-2015-dat1-working-memory-updating",
+      "title": "A variable number of tandem repeats in the 3'-untranslated region of the dopamine transporter modulates striatal function during working memory updating across the adult age span"
+    },
+    {
+      "sourceId": "saylik-2022-executive-function-unity-diversity",
+      "title": "Characterising the unity and diversity of executive functions in a within-subject fMRI study"
+    },
+    {
+      "sourceId": "scerri-2012-dyx2-reading-activation",
+      "title": "Variants in the DYX2 locus are associated with altered brain activation in reading-related brain regions in subjects with reading disability"
+    },
+    {
+      "sourceId": "schaefer2018",
+      "title": "Local-Global Parcellation of the Human Cerebral Cortex from Intrinsic Functional Connectivity MRI"
+    },
+    {
+      "sourceId": "simons-2016-brain-training-review",
+      "title": "Do brain-training programs work?"
+    },
+    {
+      "sourceId": "skeide-2024-dyslexia-genes-reading-brain-function",
+      "title": "Developmental dyslexia susceptibility genes DNAAF4, DCDC2, and NRSN1 are associated with brain function in fluently reading adolescents and young adults"
+    },
+    {
+      "sourceId": "slotnick-schacter-2004-sensory-signature-false-memory",
+      "title": "A sensory signature that distinguishes true from false memories"
+    },
+    {
+      "sourceId": "smith-1996-verbal-spatial-wm",
+      "title": "Dissociating Verbal and Spatial Working Memory Using PET"
+    },
+    {
+      "sourceId": "spaniol-2009-episodic-memory",
+      "title": "Event-related fMRI studies of episodic encoding and retrieval: Meta-analyses using activation likelihood estimation"
+    },
+    {
+      "sourceId": "sperling-2003-face-name",
+      "title": "Putting names to faces:"
+    },
+    {
+      "sourceId": "stavy-babai-kallai-2016-proportional-reasoning",
+      "title": "Proportional Reasoning"
+    },
+    {
+      "sourceId": "stern-1996-novel-picture-encoding",
+      "title": "The hippocampal formation participates in novel picture encoding: evidence from functional magnetic resonance imaging"
+    },
+    {
+      "sourceId": "stokes-2011-comt-bold-wm-planning-inhibition",
+      "title": "The effects of the COMT Val108/158Met polymorphism on BOLD activation during working memory, planning, and response inhibition: a role for the posterior cingulate cortex?"
+    },
+    {
+      "sourceId": "supekar-2013-math-tutoring-neural-predictors",
+      "title": "Neural predictors of individual differences in response to math tutoring in primary-grade school children"
+    },
+    {
+      "sourceId": "swick-2011-stopping",
+      "title": "Are the neural correlates of stopping and not going identical? Quantitative meta-analysis of two response inhibition tasks"
+    },
+    {
+      "sourceId": "taylor-2013-reading-meta",
+      "title": "Can cognitive models explain brain activation during word and pseudoword reading? A meta-analysis of 36 neuroimaging studies"
+    },
+    {
+      "sourceId": "temple-2003-dyslexia-remediation-fmri",
+      "title": "Neural deficits in children with dyslexia ameliorated by behavioral remediation: Evidence from functional MRI"
+    },
+    {
+      "sourceId": "thakral-2025-false-memory-meta",
+      "title": "Are False Memory and Creative Thinking Mediated by Common Neural Substrates? An fMRI Meta-Analysis"
+    },
+    {
+      "sourceId": "to-2015-cantonese-syntax-intervention",
+      "title": "A Randomized Controlled Trial of Two Syntactic Treatment Procedures With Cantonese-Speaking, School-Age Children With Language Disorders"
+    },
+    {
+      "sourceId": "torres-quesada-2014-emotional-conflict",
+      "title": "Comparing neural substrates of emotional vs. non-emotional conflict modulation by global control context"
+    },
+    {
+      "sourceId": "tosto-2014-number-sense-genetically-sensitive",
+      "title": "Why do we differ in number sense? Evidence from a genetically sensitive investigation"
+    },
+    {
+      "sourceId": "tubridy-davachi-2011-episodic-sequence-encoding",
+      "title": "Medial Temporal Lobe Contributions to Episodic Sequence Encoding"
+    },
+    {
+      "sourceId": "uddin2019-universal-taxonomy",
+      "title": "Towards a Universal Taxonomy of Macro-scale Functional Human Brain Networks"
+    },
+    {
+      "sourceId": "unterrainer-owen-2006-planning",
+      "title": "Planning and problem solving: From neuropsychology to functional neuroimaging"
+    },
+    {
+      "sourceId": "uttal-2013-spatial-training-meta",
+      "title": "The malleability of spatial skills: a meta-analysis of training studies"
+    },
+    {
+      "sourceId": "vigneau-2006-left-hemisphere-language-meta",
+      "title": "Meta-analyzing left hemisphere language areas: phonology, semantics, and sentence processing"
+    },
+    {
+      "sourceId": "wager-2004-shifting-attention-meta",
+      "title": "Neuroimaging studies of shifting attention: a meta-analysis"
+    },
+    {
+      "sourceId": "wagner-2005-parietal-episodic-retrieval",
+      "title": "Parietal lobe contributions to episodic memory retrieval"
+    },
+    {
+      "sourceId": "walter-2011-embedded-figures",
+      "title": "Activation in a Frontoparietal Cortical Network Underlies Individual Differences in the Performance of an Embedded Figures Task"
+    },
+    {
+      "sourceId": "wu-2018-hick-hyman",
+      "title": "Hick-Hyman Law is Mediated by the Cognitive Control Network in the Brain"
+    },
+    {
+      "sourceId": "yarkoni-2009-rt-variability",
+      "title": "BOLD Correlates of Trial-by-Trial Reaction Time Variability in Gray and White Matter: A Multi-Study fMRI Analysis"
+    },
+    {
+      "sourceId": "ye-zhou-2009-sentence-conflict-control",
+      "title": "Conflict control during sentence comprehension: fMRI evidence"
+    },
+    {
+      "sourceId": "yeo2011",
+      "title": "The organization of the human cerebral cortex estimated by intrinsic functional connectivity"
+    },
+    {
+      "sourceId": "zacks-2008-mental-rotation",
+      "title": "Neuroimaging studies of mental rotation: A meta-analysis and review"
+    },
+    {
+      "sourceId": "zago-2001-simple-complex-calculation",
+      "title": "Neural Correlates of Simple and Complex Mental Calculation"
+    },
+    {
+      "sourceId": "zeineh-2003-face-name-hippocampus",
+      "title": "Dynamics of the Hippocampus During Encoding and Retrieval of Face-Name Pairs"
+    },
+    {
+      "sourceId": "zhang-2024-processing-speed-accuracy-genetic-architecture",
+      "title": "Cognitive processing speed and accuracy are intrinsically different in genetic architecture and brain phenotypes"
+    },
+    {
+      "sourceId": "zinke-2012-task-switching-training-adolescents",
+      "title": "Plasticity of Executive Control through Task Switching Training in Adolescents"
+    }
+  ]
+}

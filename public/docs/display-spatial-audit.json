@@ -1,0 +1,5002 @@
+{
+  "date": "2026-10-17",
+  "scope": "All 57 paradigms and 260 existing display nodes",
+  "regionalAggregateCount": 217,
+  "paradigmOnlyCount": 43,
+  "directPeakBindingCount": 0,
+  "caution": "Source associations describe provenance, not a published coordinate or a validated peak-to-parcel assignment.",
+  "nodes": [
+    {
+      "paradigmId": "stroop",
+      "nodeId": "stroop-visual-input",
+      "label": "颜色/词义输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "macdonald-2000-stroop-control",
+        "pardo-1990-stroop-acc"
+      ],
+      "displayParcelId": "schaefer200_002",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "stroop",
+      "nodeId": "stroop-acc-monitoring",
+      "label": "前扣带冲突监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "macdonald-2000-stroop-control",
+        "niendam-2012-cognitive-control",
+        "pardo-1990-stroop-acc"
+      ],
+      "displayParcelId": "schaefer200_052",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "stroop",
+      "nodeId": "stroop-thalamic-gate",
+      "label": "丘脑反应门控",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "macdonald-2000-stroop-control",
+        "niendam-2012-cognitive-control",
+        "pardo-1990-stroop-acc"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "thalamus",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "stroop",
+      "nodeId": "stroop-insula-salience",
+      "label": "前岛叶显著性",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "stroop",
+      "nodeId": "stroop-dlpfc-rule",
+      "label": "前额叶规则保持",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "macdonald-2000-stroop-control",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "stroop",
+      "nodeId": "stroop-ifg-inhibition",
+      "label": "额下反应抑制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "macdonald-2000-stroop-control",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_069",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "stroop",
+      "nodeId": "stroop-parietal-mapping",
+      "label": "顶叶刺激-反应映射",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_142",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "stroop",
+      "nodeId": "stroop-premotor-response",
+      "label": "前运动/SMA反应准备",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "macdonald-2000-stroop-control",
+        "niendam-2012-cognitive-control",
+        "pardo-1990-stroop-acc"
+      ],
+      "displayParcelId": "schaefer200_028",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "attention-network-test",
+      "nodeId": "ant-visual-cue-target",
+      "label": "枕颞/梭状视觉输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "pardo-1990-stroop-acc"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "attention-network-test",
+      "nodeId": "ant-alerting-readiness",
+      "label": "右 TPJ 警觉准备",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri"
+      ],
+      "displayParcelId": "schaefer200_149",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "attention-network-test",
+      "nodeId": "ant-thalamic-alerting",
+      "label": "丘脑警觉门控",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "macdonald-2000-stroop-control",
+        "niendam-2012-cognitive-control",
+        "pardo-1990-stroop-acc"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "thalamus",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "attention-network-test",
+      "nodeId": "ant-spatial-orienting",
+      "label": "FEF/顶叶空间定向",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_033",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "attention-network-test",
+      "nodeId": "ant-acc-conflict",
+      "label": "中前扣带冲突监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "macdonald-2000-stroop-control",
+        "niendam-2012-cognitive-control",
+        "pardo-1990-stroop-acc"
+      ],
+      "displayParcelId": "schaefer200_180",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "attention-network-test",
+      "nodeId": "ant-frontoparietal-rule",
+      "label": "额下/额中规则控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "macdonald-2000-stroop-control",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_173",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "attention-network-test",
+      "nodeId": "ant-response-output",
+      "label": "中央前/中央后反应输出",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_024",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "attention-network-test",
+      "nodeId": "ant-cerebellar-vermis",
+      "label": "小脑蚓部/小脑 V",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "macdonald-2000-stroop-control",
+        "niendam-2012-cognitive-control",
+        "pardo-1990-stroop-acc"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "cerebellum",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "flanker",
+      "nodeId": "flanker-visual-input",
+      "label": "视觉目标/旁侧刺激输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "marini-2016-distractor-filtering",
+        "pardo-1990-stroop-acc"
+      ],
+      "displayParcelId": "schaefer200_008",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "flanker",
+      "nodeId": "flanker-target-selection",
+      "label": "顶叶目标选择",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "marini-2016-distractor-filtering",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_036",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "flanker",
+      "nodeId": "flanker-proactive-control",
+      "label": "额顶抗干扰控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "macdonald-2000-stroop-control",
+        "marini-2016-distractor-filtering",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_175",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "flanker",
+      "nodeId": "flanker-conflict-monitoring",
+      "label": "冲突监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "macdonald-2000-stroop-control",
+        "marini-2016-distractor-filtering",
+        "niendam-2012-cognitive-control",
+        "pardo-1990-stroop-acc"
+      ],
+      "displayParcelId": "schaefer200_156",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "flanker",
+      "nodeId": "flanker-salience-demand",
+      "label": "前岛叶控制需求",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "marini-2016-distractor-filtering",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "flanker",
+      "nodeId": "flanker-response",
+      "label": "反应输出",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2005-ant-fmri",
+        "marini-2016-distractor-filtering",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_151",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F1_FRAME_FAN",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "posner-cueing",
+      "nodeId": "posner-visual-cue",
+      "label": "空间线索",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "culham-2001-attention-response",
+        "hopfinger-2000-top-down-attention",
+        "jovicich-2001-motion-tracking-load"
+      ],
+      "displayParcelId": "schaefer200_002",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "posner-cueing",
+      "nodeId": "posner-orienting",
+      "label": "主动定向",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "culham-2001-attention-response",
+        "hopfinger-2000-top-down-attention",
+        "jovicich-2001-motion-tracking-load",
+        "langner-eickhoff-2013-vigilant-attention"
+      ],
+      "displayParcelId": "schaefer200_142",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "posner-cueing",
+      "nodeId": "posner-reorienting",
+      "label": "重新定向",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "hopfinger-2000-top-down-attention"
+      ],
+      "displayParcelId": "schaefer200_149",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "posner-cueing",
+      "nodeId": "posner-thalamic-boundary",
+      "label": "右丘脑定向边界",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "culham-2001-attention-response",
+        "dux-2006-central-bottleneck",
+        "hopfinger-2000-top-down-attention",
+        "jovicich-2001-motion-tracking-load",
+        "langner-eickhoff-2013-vigilant-attention",
+        "miyake-2000-executive-functions",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "thalamus",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "n-back",
+      "nodeId": "nback-parietal-buffer",
+      "label": "顶叶容量缓冲",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "rottschy-2012-working-memory"
+      ],
+      "displayParcelId": "schaefer200_167",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "n-back",
+      "nodeId": "nback-lateral-pfc-control",
+      "label": "侧前额叶控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "owen-2005-nback",
+        "rottschy-2012-working-memory"
+      ],
+      "displayParcelId": "schaefer200_174",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "n-back",
+      "nodeId": "nback-ifg-task-set",
+      "label": "IFG任务集",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "rottschy-2012-working-memory"
+      ],
+      "displayParcelId": "schaefer200_147",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "n-back",
+      "nodeId": "nback-insula-salience",
+      "label": "前岛叶匹配信号",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "rottschy-2012-working-memory"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "n-back",
+      "nodeId": "nback-medial-monitoring",
+      "label": "内侧额叶监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "rottschy-2012-working-memory"
+      ],
+      "displayParcelId": "schaefer200_181",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "digit-span",
+      "nodeId": "digit-span-phonological-store",
+      "label": "语音短时存储",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "awh-1996-verbal-wm-storage-rehearsal",
+        "courtney-1996-object-spatial-wm",
+        "diwadkar-2000-dynamic-spatial-wm",
+        "emch-2019-verbal-wm-meta",
+        "jonides-1993-spatial-wm-pet",
+        "paulesu-1993-phonological-loop",
+        "rottschy-2012-working-memory",
+        "smith-1996-verbal-spatial-wm"
+      ],
+      "displayParcelId": "schaefer200_063",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "digit-span",
+      "nodeId": "digit-span-rehearsal-control",
+      "label": "复述控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "awh-1996-verbal-wm-storage-rehearsal",
+        "diwadkar-2000-dynamic-spatial-wm",
+        "emch-2019-verbal-wm-meta",
+        "owen-2005-nback",
+        "paulesu-1993-phonological-loop",
+        "rottschy-2012-working-memory",
+        "smith-1996-verbal-spatial-wm"
+      ],
+      "displayParcelId": "schaefer200_069",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "digit-span",
+      "nodeId": "digit-span-capacity-attention",
+      "label": "容量/顺序监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "courtney-1996-object-spatial-wm",
+        "diwadkar-2000-dynamic-spatial-wm",
+        "jonides-1993-spatial-wm-pet",
+        "rottschy-2012-working-memory",
+        "smith-1996-verbal-spatial-wm"
+      ],
+      "displayParcelId": "schaefer200_167",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "digit-span",
+      "nodeId": "digit-span-response-output",
+      "label": "复述输出",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "awh-1996-verbal-wm-storage-rehearsal",
+        "courtney-1996-object-spatial-wm",
+        "diwadkar-2000-dynamic-spatial-wm",
+        "emch-2019-verbal-wm-meta",
+        "jonides-1993-spatial-wm-pet",
+        "owen-2005-nback",
+        "paulesu-1993-phonological-loop",
+        "rottschy-2012-working-memory",
+        "smith-1996-verbal-spatial-wm"
+      ],
+      "displayParcelId": "schaefer200_028",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "grid-span",
+      "nodeId": "grid-visual",
+      "label": "空间图样",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "awh-1996-verbal-wm-storage-rehearsal",
+        "courtney-1996-object-spatial-wm",
+        "diwadkar-2000-dynamic-spatial-wm",
+        "emch-2019-verbal-wm-meta",
+        "jonides-1993-spatial-wm-pet",
+        "owen-2005-nback",
+        "paulesu-1993-phonological-loop",
+        "rottschy-2012-working-memory",
+        "smith-1996-verbal-spatial-wm"
+      ],
+      "displayParcelId": "schaefer200_002",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "grid-span",
+      "nodeId": "grid-spatial-attention",
+      "label": "右IPS空间保持",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "courtney-1996-object-spatial-wm",
+        "diwadkar-2000-dynamic-spatial-wm",
+        "jonides-1993-spatial-wm-pet",
+        "rottschy-2012-working-memory",
+        "smith-1996-verbal-spatial-wm"
+      ],
+      "displayParcelId": "schaefer200_167",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "grid-span",
+      "nodeId": "grid-control",
+      "label": "额顶序列控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "awh-1996-verbal-wm-storage-rehearsal",
+        "diwadkar-2000-dynamic-spatial-wm",
+        "emch-2019-verbal-wm-meta",
+        "owen-2005-nback",
+        "paulesu-1993-phonological-loop",
+        "rottschy-2012-working-memory",
+        "smith-1996-verbal-spatial-wm"
+      ],
+      "displayParcelId": "schaefer200_174",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "go-no-go",
+      "nodeId": "gonogo-signal",
+      "label": "前岛叶/岛盖信号",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "aron-2014-response-inhibition",
+        "aron-poldrack-2006-stop-signal",
+        "cools-2002-reversal-learning",
+        "miyake-2000-executive-functions",
+        "niendam-2012-cognitive-control",
+        "rae-2014-selection-stopping",
+        "rottschy-2012-working-memory",
+        "rubia-2006-frontostriatal-cognitive-control",
+        "swick-2011-stopping",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "go-no-go",
+      "nodeId": "gonogo-inhibit",
+      "label": "反应抑制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "miyake-2000-executive-functions",
+        "niendam-2012-cognitive-control",
+        "rottschy-2012-working-memory",
+        "rubia-2006-frontostriatal-cognitive-control",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_171",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "go-no-go",
+      "nodeId": "gonogo-parietal-set",
+      "label": "右顶叶任务集",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "niendam-2012-cognitive-control",
+        "rottschy-2012-working-memory",
+        "rubia-2006-frontostriatal-cognitive-control",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_166",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "go-no-go",
+      "nodeId": "gonogo-motor",
+      "label": "动作通道",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "aron-2014-response-inhibition",
+        "rubia-2006-frontostriatal-cognitive-control",
+        "swick-2011-stopping"
+      ],
+      "displayParcelId": "schaefer200_120",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "stop-signal",
+      "nodeId": "stop-motor-start",
+      "label": "运动输出通道",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "aron-2014-response-inhibition",
+        "aron-poldrack-2006-stop-signal",
+        "rae-2014-selection-stopping",
+        "swick-2011-stopping"
+      ],
+      "displayParcelId": "schaefer200_131",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "stop-signal",
+      "nodeId": "stop-signal-detect",
+      "label": "双侧前岛叶/岛盖",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "aron-poldrack-2006-stop-signal",
+        "rae-2014-selection-stopping"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "stop-signal",
+      "nodeId": "stop-control",
+      "label": "右额下控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "aron-2014-response-inhibition",
+        "aron-poldrack-2006-stop-signal",
+        "niendam-2012-cognitive-control",
+        "rae-2014-selection-stopping",
+        "swick-2011-stopping"
+      ],
+      "displayParcelId": "schaefer200_173",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "stop-signal",
+      "nodeId": "stop-thalamic-gate",
+      "label": "右丘脑停止边界",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "aron-2014-response-inhibition",
+        "aron-poldrack-2006-stop-signal",
+        "cools-2002-reversal-learning",
+        "miyake-2000-executive-functions",
+        "niendam-2012-cognitive-control",
+        "rae-2014-selection-stopping",
+        "rottschy-2012-working-memory",
+        "swick-2011-stopping",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "thalamus",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "stop-signal",
+      "nodeId": "stop-sma-gating",
+      "label": "SMA/pre-SMA 门控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "aron-2014-response-inhibition",
+        "aron-poldrack-2006-stop-signal",
+        "rae-2014-selection-stopping",
+        "swick-2011-stopping"
+      ],
+      "displayParcelId": "schaefer200_158",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "task-switching",
+      "nodeId": "switch-rule",
+      "label": "规则更新",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "miyake-2000-executive-functions",
+        "niendam-2012-cognitive-control",
+        "rottschy-2012-working-memory",
+        "rubia-2006-frontostriatal-cognitive-control",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_171",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "task-switching",
+      "nodeId": "switch-cue",
+      "label": "切换线索",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "aron-2014-response-inhibition",
+        "aron-poldrack-2006-stop-signal",
+        "cools-2002-reversal-learning",
+        "miyake-2000-executive-functions",
+        "niendam-2012-cognitive-control",
+        "rae-2014-selection-stopping",
+        "rottschy-2012-working-memory",
+        "rubia-2006-frontostriatal-cognitive-control",
+        "swick-2011-stopping",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "task-switching",
+      "nodeId": "switch-attention",
+      "label": "目标重定向",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "niendam-2012-cognitive-control",
+        "rottschy-2012-working-memory",
+        "rubia-2006-frontostriatal-cognitive-control",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "ravens-matrices",
+      "nodeId": "raven-visual-input",
+      "label": "矩阵图形输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "caudle-2023-matrix-reasoning",
+        "ganis-2004-imagery-perception",
+        "hampshire-2012-intelligence",
+        "kosslyn-2001-imagery-foundations",
+        "kroger-2002-relational-complexity",
+        "zacks-2008-mental-rotation"
+      ],
+      "displayParcelId": "schaefer200_011",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS",
+        "F4_POINT_KIND"
+      ]
+    },
+    {
+      "paradigmId": "ravens-matrices",
+      "nodeId": "raven-parietal-workspace",
+      "label": "顶叶关系工作区",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "caudle-2023-matrix-reasoning",
+        "hampshire-2012-intelligence",
+        "jung-haier-2007-pfit",
+        "kroger-2002-relational-complexity",
+        "zacks-2008-mental-rotation"
+      ],
+      "displayParcelId": "schaefer200_062",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "ravens-matrices",
+      "nodeId": "raven-right-frontal-control",
+      "label": "右额叶候选控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "bunge-2004-analogical-reasoning",
+        "caudle-2023-matrix-reasoning",
+        "kroger-2002-relational-complexity",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning"
+      ],
+      "displayParcelId": "schaefer200_173",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "ravens-matrices",
+      "nodeId": "raven-medial-monitor",
+      "label": "内侧额叶监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "caudle-2023-matrix-reasoning",
+        "kroger-2002-relational-complexity"
+      ],
+      "displayParcelId": "schaefer200_156",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "ravens-matrices",
+      "nodeId": "raven-response-output",
+      "label": "反应输出组织",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "caudle-2023-matrix-reasoning"
+      ],
+      "displayParcelId": "schaefer200_145",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "mental-rotation",
+      "nodeId": "rotation-image",
+      "label": "枕叶视觉表象",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "zacks-2008-mental-rotation"
+      ],
+      "displayParcelId": "schaefer200_002",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "mental-rotation",
+      "nodeId": "rotation-space",
+      "label": "SPL/IPS空间变换",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "zacks-2008-mental-rotation"
+      ],
+      "displayParcelId": "schaefer200_144",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "mental-rotation",
+      "nodeId": "rotation-control",
+      "label": "DLPFC比较控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "zacks-2008-mental-rotation"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "choice-reaction-time",
+      "nodeId": "crt-stimulus",
+      "label": "刺激识别",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "davis-2009-temporal-order-judgment",
+        "houlihan-1994-reaction-time-processes",
+        "kansaku-2004-simple-reaction-time",
+        "rae-2014-selection-stopping",
+        "wu-2018-hick-hyman"
+      ],
+      "displayParcelId": "schaefer200_002",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "choice-reaction-time",
+      "nodeId": "crt-decision",
+      "label": "额叶反应选择",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "dux-2006-central-bottleneck",
+        "rae-2014-selection-stopping"
+      ],
+      "displayParcelId": "schaefer200_175",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "choice-reaction-time",
+      "nodeId": "crt-presma",
+      "label": "pre-SMA/中前扣带选择调度",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "rae-2014-selection-stopping",
+        "wu-2018-hick-hyman"
+      ],
+      "displayParcelId": "schaefer200_156",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "choice-reaction-time",
+      "nodeId": "crt-output",
+      "label": "动作输出",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "davis-2009-temporal-order-judgment",
+        "houlihan-1994-reaction-time-processes",
+        "kansaku-2004-simple-reaction-time",
+        "rae-2014-selection-stopping",
+        "wu-2018-hick-hyman"
+      ],
+      "displayParcelId": "schaefer200_028",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "choice-reaction-time",
+      "nodeId": "crt-alert",
+      "label": "额盖/前岛显著性",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "davis-2009-temporal-order-judgment",
+        "houlihan-1994-reaction-time-processes",
+        "rae-2014-selection-stopping",
+        "wu-2018-hick-hyman"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "mental-arithmetic",
+      "nodeId": "calc-symbol",
+      "label": "视觉皮层符号输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "mental-arithmetic",
+      "nodeId": "calc-quantity",
+      "label": "IPS/SPL数量表征",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "mental-arithmetic",
+      "nodeId": "calc-ipl-integration",
+      "label": "IPL/角回数量整合",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_063",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "mental-arithmetic",
+      "nodeId": "calc-rule",
+      "label": "DLPFC步骤控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "mental-arithmetic",
+      "nodeId": "calc-step-prep",
+      "label": "BA6/SFS步骤准备",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_042",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "mental-arithmetic",
+      "nodeId": "calc-state-demand",
+      "label": "前岛/岛盖任务需求",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "mental-arithmetic",
+      "nodeId": "calc-medial-monitoring",
+      "label": "中前扣带监控",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "dehaene-1999-sources-math-thinking",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_052",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "mental-arithmetic",
+      "nodeId": "calc-thalamic-subcortical-boundary",
+      "label": "丘脑/皮层外计算边界",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "dehaene-1999-sources-math-thinking",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "thalamus",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "lexical-decision",
+      "nodeId": "lexical-visual",
+      "label": "字形识别",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "cohen-2002-vwfa-language-specific-tuning",
+        "jobard-2003-dual-route-reading-meta",
+        "price-2012-language-review",
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_008",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "lexical-decision",
+      "nodeId": "lexical-semantic",
+      "label": "熟悉词语义访问",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "jobard-2003-dual-route-reading-meta",
+        "taylor-2013-reading-meta",
+        "vigneau-2006-left-hemisphere-language-meta"
+      ],
+      "displayParcelId": "schaefer200_081",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "lexical-decision",
+      "nodeId": "lexical-decision",
+      "label": "判断输出",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "constable-2004-sentence-complexity-modality",
+        "jobard-2003-dual-route-reading-meta",
+        "ng-2025-word-problem-sentence-comprehension",
+        "price-2012-language-review",
+        "taylor-2013-reading-meta",
+        "vigneau-2006-left-hemisphere-language-meta",
+        "ye-zhou-2009-sentence-conflict-control"
+      ],
+      "displayParcelId": "schaefer200_066",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "word-list-learning",
+      "nodeId": "word-visual-fusiform",
+      "label": "词项视觉输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "kim-2011-subsequent-memory",
+        "spaniol-2009-episodic-memory"
+      ],
+      "displayParcelId": "schaefer200_031",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "word-list-learning",
+      "nodeId": "word-ifg-encoding-control",
+      "label": "IFG编码控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "kim-2011-subsequent-memory",
+        "spaniol-2009-episodic-memory"
+      ],
+      "displayParcelId": "schaefer200_069",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "word-list-learning",
+      "nodeId": "word-ips-organization",
+      "label": "IPS/SPL组织注意",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "kim-2011-subsequent-memory",
+        "spaniol-2009-episodic-memory"
+      ],
+      "displayParcelId": "schaefer200_033",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "word-list-learning",
+      "nodeId": "word-medial-frontal-control",
+      "label": "pre-SMA/内侧额叶控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "kim-2011-subsequent-memory",
+        "thakral-2025-false-memory-meta"
+      ],
+      "displayParcelId": "schaefer200_181",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "associative-memory",
+      "nodeId": "assoc-visual-cue",
+      "label": "项目视觉线索",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "kim-2011-subsequent-memory",
+        "sperling-2003-face-name",
+        "stern-1996-novel-picture-encoding"
+      ],
+      "displayParcelId": "schaefer200_031",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "associative-memory",
+      "nodeId": "assoc-ifg-selection",
+      "label": "IFG/VLPFC选择编码",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "kim-2011-subsequent-memory",
+        "sperling-2003-face-name"
+      ],
+      "displayParcelId": "schaefer200_069",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "associative-memory",
+      "nodeId": "assoc-insula-demand",
+      "label": "岛叶状态需求",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "chua-2007-anterior-hippocampal-associative-encoding",
+        "kim-2011-subsequent-memory",
+        "kirwan-stark-2004-face-name-pairs",
+        "sperling-2003-face-name",
+        "stern-1996-novel-picture-encoding",
+        "zeineh-2003-face-name-hippocampus"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "associative-memory",
+      "nodeId": "assoc-angular-binding",
+      "label": "联结整合边界",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "chua-2007-anterior-hippocampal-associative-encoding",
+        "kim-2011-subsequent-memory",
+        "kirwan-stark-2004-face-name-pairs",
+        "sperling-2003-face-name",
+        "stern-1996-novel-picture-encoding",
+        "zeineh-2003-face-name-hippocampus"
+      ],
+      "displayParcelId": "schaefer200_082",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "sentence-comprehension",
+      "nodeId": "sentence-visual",
+      "label": "文字输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "cohen-2002-vwfa-language-specific-tuning",
+        "jobard-2003-dual-route-reading-meta",
+        "price-2012-language-review",
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_008",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "sentence-comprehension",
+      "nodeId": "sentence-context",
+      "label": "语义语境",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "jobard-2003-dual-route-reading-meta",
+        "taylor-2013-reading-meta",
+        "vigneau-2006-left-hemisphere-language-meta"
+      ],
+      "displayParcelId": "schaefer200_081",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "sentence-comprehension",
+      "nodeId": "sentence-control",
+      "label": "理解整合",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "constable-2004-sentence-complexity-modality",
+        "jobard-2003-dual-route-reading-meta",
+        "ng-2025-word-problem-sentence-comprehension",
+        "price-2012-language-review",
+        "taylor-2013-reading-meta",
+        "vigneau-2006-left-hemisphere-language-meta",
+        "ye-zhou-2009-sentence-conflict-control"
+      ],
+      "displayParcelId": "schaefer200_069",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "sentence-comprehension",
+      "nodeId": "sentence-attention",
+      "label": "阅读注意",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "cohen-2002-vwfa-language-specific-tuning",
+        "constable-2004-sentence-complexity-modality",
+        "jobard-2003-dual-route-reading-meta",
+        "ng-2025-word-problem-sentence-comprehension",
+        "price-2012-language-review",
+        "taylor-2013-reading-meta",
+        "vigneau-2006-left-hemisphere-language-meta",
+        "ye-zhou-2009-sentence-conflict-control"
+      ],
+      "displayParcelId": "schaefer200_041",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "number-comparison",
+      "nodeId": "number-symbol",
+      "label": "视觉皮层数字输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "number-comparison",
+      "nodeId": "number-magnitude",
+      "label": "IPS/SPL数量大小",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "number-comparison",
+      "nodeId": "number-ipl-integration",
+      "label": "IPL/角回数量整合",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_063",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "number-comparison",
+      "nodeId": "number-attention",
+      "label": "背侧顶叶目标维持",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_141",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "approximate-number-sense",
+      "nodeId": "ans-visual-array",
+      "label": "视觉数量输入",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "dehaene-1999-sources-math-thinking",
+        "dehaene-2009-math-intuitions",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "approximate-number-sense",
+      "nodeId": "ans-ips-numerosity",
+      "label": "IPS/SPL数量感",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "dehaene-1999-sources-math-thinking",
+        "dehaene-2009-math-intuitions",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "approximate-number-sense",
+      "nodeId": "ans-comparison-goal",
+      "label": "比较目标维持",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "dehaene-1999-sources-math-thinking",
+        "dehaene-2009-math-intuitions",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_141",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "approximate-number-sense",
+      "nodeId": "ans-response-choice",
+      "label": "快速判断输出",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "dehaene-1999-sources-math-thinking"
+      ],
+      "displayParcelId": "schaefer200_050",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "arithmetic-fact-retrieval",
+      "nodeId": "fact-symbol-input",
+      "label": "数字符号输入",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "dehaene-1999-sources-math-thinking",
+        "dehaene-2009-math-intuitions",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "arithmetic-fact-retrieval",
+      "nodeId": "fact-left-ips-route",
+      "label": "左IPS熟练答案通路",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "dehaene-1999-sources-math-thinking",
+        "dehaene-2009-math-intuitions",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_036",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "arithmetic-fact-retrieval",
+      "nodeId": "fact-angular-retrieval",
+      "label": "角回/IPL事实提取",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "dehaene-1999-sources-math-thinking",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_082",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "arithmetic-fact-retrieval",
+      "nodeId": "fact-ifg-selection",
+      "label": "IFG/岛盖选择检索",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "dehaene-1999-sources-math-thinking"
+      ],
+      "displayParcelId": "schaefer200_050",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "arithmetic-fact-retrieval",
+      "nodeId": "fact-semantic-store",
+      "label": "语义事实背景",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "dehaene-1999-sources-math-thinking",
+        "dehaene-2009-math-intuitions",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_078",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "algebra-equation-solving",
+      "nodeId": "algebra-symbol-input",
+      "label": "符号/等式输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "amalric-dehaene-2016-advanced-math",
+        "zacks-2008-mental-rotation"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "algebra-equation-solving",
+      "nodeId": "algebra-relation-map",
+      "label": "顶叶关系表征",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "amalric-dehaene-2016-advanced-math",
+        "zacks-2008-mental-rotation"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "algebra-equation-solving",
+      "nodeId": "algebra-dlpfc-rule",
+      "label": "DLPFC规则变换",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "amalric-dehaene-2016-advanced-math",
+        "zago-2001-simple-complex-calculation"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "algebra-equation-solving",
+      "nodeId": "algebra-ipl-integration",
+      "label": "IPL中间结果整合",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "amalric-dehaene-2016-advanced-math",
+        "zacks-2008-mental-rotation"
+      ],
+      "displayParcelId": "schaefer200_166",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "geometric-reasoning",
+      "nodeId": "geometry-visual-shape",
+      "label": "图形视觉输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "amalric-dehaene-2016-advanced-math"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "geometric-reasoning",
+      "nodeId": "geometry-parietal-space",
+      "label": "IPS/SPL空间关系",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "amalric-dehaene-2016-advanced-math"
+      ],
+      "displayParcelId": "schaefer200_140",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "geometric-reasoning",
+      "nodeId": "geometry-dlpfc-proof",
+      "label": "额顶证明目标",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "amalric-dehaene-2016-advanced-math"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "geometric-reasoning",
+      "nodeId": "geometry-premotor-transform",
+      "label": "空间操作准备",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "amalric-dehaene-2016-advanced-math"
+      ],
+      "displayParcelId": "schaefer200_021",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "probability-statistics-reasoning",
+      "nodeId": "stats-data-input",
+      "label": "数字/图表输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "stavy-babai-kallai-2016-proportional-reasoning"
+      ],
+      "displayParcelId": "schaefer200_002",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "probability-statistics-reasoning",
+      "nodeId": "stats-ratio-magnitude",
+      "label": "顶叶比例/数量",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "dehaene-1999-sources-math-thinking",
+        "ng-2021-word-problem-lexical-consistency",
+        "stavy-babai-kallai-2016-proportional-reasoning"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "probability-statistics-reasoning",
+      "nodeId": "stats-dlpfc-rule",
+      "label": "规则/条件控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "amalric-dehaene-2016-advanced-math",
+        "houde-2003-logical-math-cognition",
+        "ng-2021-word-problem-lexical-consistency"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "probability-statistics-reasoning",
+      "nodeId": "stats-salience-interference",
+      "label": "显著性干扰入口",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "gazzo-2023-probabilistic-deductive-reasoning",
+        "ng-2021-word-problem-lexical-consistency",
+        "parsons-osherson-2001-deductive-probabilistic-reasoning",
+        "stavy-babai-kallai-2016-proportional-reasoning"
+      ],
+      "displayParcelId": "schaefer200_048",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "probability-statistics-reasoning",
+      "nodeId": "stats-conflict-bias",
+      "label": "直觉偏差监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "gazzo-2023-probabilistic-deductive-reasoning",
+        "houde-2003-logical-math-cognition",
+        "ng-2021-word-problem-lexical-consistency",
+        "parsons-osherson-2001-deductive-probabilistic-reasoning",
+        "stavy-babai-kallai-2016-proportional-reasoning"
+      ],
+      "displayParcelId": "schaefer200_053",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "math-word-problem",
+      "nodeId": "word-problem-text",
+      "label": "题干文字输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_008",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "math-word-problem",
+      "nodeId": "word-problem-semantics",
+      "label": "题意限定词解析",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "ng-2021-word-problem-lexical-consistency",
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_081",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "math-word-problem",
+      "nodeId": "word-problem-quantity",
+      "label": "顶叶数量关系",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "dehaene-1999-sources-math-thinking",
+        "ng-2021-word-problem-lexical-consistency"
+      ],
+      "displayParcelId": "schaefer200_036",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "math-word-problem",
+      "nodeId": "word-problem-model",
+      "label": "额顶逻辑建模",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "amalric-dehaene-2016-advanced-math",
+        "houde-2003-logical-math-cognition",
+        "macdonald-2000-stroop-control",
+        "ng-2021-word-problem-lexical-consistency"
+      ],
+      "displayParcelId": "schaefer200_173",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "math-word-problem",
+      "nodeId": "word-problem-salience",
+      "label": "前岛叶冲突提示",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "ng-2021-word-problem-lexical-consistency"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "math-word-problem",
+      "nodeId": "word-problem-conflict",
+      "label": "SMA/dACC冲突监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "houde-2003-logical-math-cognition",
+        "macdonald-2000-stroop-control",
+        "ng-2021-word-problem-lexical-consistency",
+        "pardo-1990-stroop-acc"
+      ],
+      "displayParcelId": "schaefer200_156",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "simple-reaction-time",
+      "nodeId": "srt-visual-sensory-input",
+      "label": "感觉线索输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "davis-2009-temporal-order-judgment",
+        "houlihan-1994-reaction-time-processes",
+        "kansaku-2004-simple-reaction-time"
+      ],
+      "displayParcelId": "schaefer200_103",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "simple-reaction-time",
+      "nodeId": "srt-multimodal-cue-detection",
+      "label": "多模态线索检测",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "davis-2009-temporal-order-judgment",
+        "kansaku-2004-simple-reaction-time"
+      ],
+      "displayParcelId": "schaefer200_149",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "simple-reaction-time",
+      "nodeId": "srt-medial-frontal-preparation",
+      "label": "SMA/内侧额叶准备",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "davis-2009-temporal-order-judgment",
+        "houlihan-1994-reaction-time-processes",
+        "kansaku-2004-simple-reaction-time"
+      ],
+      "displayParcelId": "schaefer200_054",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "simple-reaction-time",
+      "nodeId": "srt-bilateral-premotor-output",
+      "label": "前运动反应准备",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "davis-2009-temporal-order-judgment",
+        "houlihan-1994-reaction-time-processes",
+        "kansaku-2004-simple-reaction-time"
+      ],
+      "displayParcelId": "schaefer200_024",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "simple-reaction-time",
+      "nodeId": "srt-opercular-sensorimotor-integration",
+      "label": "额盖/顶盖感觉运动整合",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "houlihan-1994-reaction-time-processes",
+        "kansaku-2004-simple-reaction-time"
+      ],
+      "displayParcelId": "schaefer200_050",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "visual-imagery",
+      "nodeId": "imagery-memory",
+      "label": "下顶叶/角回记忆线索",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "bunge-2004-analogical-reasoning",
+        "jung-haier-2007-pfit"
+      ],
+      "displayParcelId": "schaefer200_081",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "visual-imagery",
+      "nodeId": "imagery-visual",
+      "label": "枕叶视觉再激活",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "ganis-2004-imagery-perception",
+        "hampshire-2012-intelligence",
+        "kosslyn-2001-imagery-foundations",
+        "zacks-2008-mental-rotation"
+      ],
+      "displayParcelId": "schaefer200_002",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS",
+        "F4_POINT_KIND"
+      ]
+    },
+    {
+      "paradigmId": "visual-imagery",
+      "nodeId": "imagery-control",
+      "label": "DLPFC保持操作",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "bunge-2004-analogical-reasoning",
+        "ganis-2004-imagery-perception",
+        "hampshire-2012-intelligence",
+        "jung-haier-2007-pfit",
+        "kosslyn-2001-imagery-foundations",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS",
+        "F4_POINT_KIND"
+      ]
+    },
+    {
+      "paradigmId": "analogical-reasoning",
+      "nodeId": "analogy-frontopolar-integration",
+      "label": "关系整合",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "bunge-2004-analogical-reasoning",
+        "hampshire-2012-intelligence",
+        "jung-haier-2007-pfit",
+        "kroger-2002-relational-complexity",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning"
+      ],
+      "displayParcelId": "schaefer200_066",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "analogical-reasoning",
+      "nodeId": "analogy-controlled-retrieval",
+      "label": "关系检索",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "bunge-2004-analogical-reasoning",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning"
+      ],
+      "displayParcelId": "schaefer200_048",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "analogical-reasoning",
+      "nodeId": "analogy-verbal-selection",
+      "label": "语言选择",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "bunge-2004-analogical-reasoning",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning"
+      ],
+      "displayParcelId": "schaefer200_050",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "analogical-reasoning",
+      "nodeId": "analogy-response-check",
+      "label": "排除无效类比",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "bunge-2004-analogical-reasoning",
+        "kroger-2002-relational-complexity",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning"
+      ],
+      "displayParcelId": "schaefer200_173",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "recognition-memory",
+      "nodeId": "recognition-parietal-retrieval",
+      "label": "顶叶提取线索",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "dobbins-2002-source-memory-control",
+        "spaniol-2009-episodic-memory"
+      ],
+      "displayParcelId": "schaefer200_062",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "recognition-memory",
+      "nodeId": "recognition-angular-recollection",
+      "label": "角回主观回忆",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "kim-2011-subsequent-memory",
+        "spaniol-2009-episodic-memory",
+        "thakral-2025-false-memory-meta"
+      ],
+      "displayParcelId": "schaefer200_082",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "recognition-memory",
+      "nodeId": "recognition-judge",
+      "label": "前额叶再认判断",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "dobbins-2002-source-memory-control",
+        "roediger-mcdermott-1995-drm",
+        "spaniol-2009-episodic-memory",
+        "thakral-2025-false-memory-meta"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "recognition-memory",
+      "nodeId": "recognition-context-pcc",
+      "label": "后扣带情景背景",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "dobbins-2002-source-memory-control",
+        "spaniol-2009-episodic-memory"
+      ],
+      "displayParcelId": "schaefer200_098",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "source-memory",
+      "nodeId": "source-vlpfc-monitor",
+      "label": "左LIPC/VLPFC来源监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "davachi-2003-item-source-memory",
+        "dobbins-2002-source-memory-control",
+        "spaniol-2009-episodic-memory"
+      ],
+      "displayParcelId": "schaefer200_069",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "source-memory",
+      "nodeId": "source-context",
+      "label": "retrosplenial情景背景",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "dobbins-2002-source-memory-control",
+        "spaniol-2009-episodic-memory"
+      ],
+      "displayParcelId": "schaefer200_098",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "source-memory",
+      "nodeId": "source-parietal-recollection",
+      "label": "IPL/IPS细节提取",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "dobbins-2002-source-memory-control",
+        "spaniol-2009-episodic-memory"
+      ],
+      "displayParcelId": "schaefer200_061",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "source-memory",
+      "nodeId": "source-mtl-boundary",
+      "label": "海马/MTL绑定边界",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "davachi-2003-item-source-memory",
+        "dobbins-2002-source-memory-control",
+        "spaniol-2009-episodic-memory"
+      ],
+      "displayParcelId": "schaefer200_100",
+      "physicalStructureId": "hippocampal-formation",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "source-memory",
+      "nodeId": "source-thalamic-boundary",
+      "label": "左丘脑来源检索边界",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "davachi-2003-item-source-memory",
+        "dobbins-2002-source-memory-control",
+        "spaniol-2009-episodic-memory"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "thalamus",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "multiple-object-tracking",
+      "nodeId": "mot-visual-motion",
+      "label": "运动视觉输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "culham-2001-attention-response",
+        "hopfinger-2000-top-down-attention",
+        "jovicich-2001-motion-tracking-load"
+      ],
+      "displayParcelId": "schaefer200_108",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "multiple-object-tracking",
+      "nodeId": "mot-parietal-tracking",
+      "label": "顶叶追踪负荷",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "culham-2001-attention-response",
+        "hopfinger-2000-top-down-attention",
+        "jovicich-2001-motion-tracking-load",
+        "langner-eickhoff-2013-vigilant-attention"
+      ],
+      "displayParcelId": "schaefer200_144",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "multiple-object-tracking",
+      "nodeId": "mot-fef-premotor-set",
+      "label": "FEF/前运动准备",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "culham-2001-attention-response",
+        "hopfinger-2000-top-down-attention",
+        "jovicich-2001-motion-tracking-load",
+        "langner-eickhoff-2013-vigilant-attention"
+      ],
+      "displayParcelId": "schaefer200_145",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "multiple-object-tracking",
+      "nodeId": "mot-medial-demand",
+      "label": "内侧额叶需求",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "jovicich-2001-motion-tracking-load"
+      ],
+      "displayParcelId": "schaefer200_181",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "sustained-attention-cpt",
+      "nodeId": "cpt-visual-monitoring",
+      "label": "视觉持续监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "culham-2001-attention-response",
+        "hopfinger-2000-top-down-attention",
+        "jovicich-2001-motion-tracking-load",
+        "langner-eickhoff-2013-vigilant-attention"
+      ],
+      "displayParcelId": "schaefer200_108",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "sustained-attention-cpt",
+      "nodeId": "cpt-parietal-orienting",
+      "label": "右IPS持续定向",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "culham-2001-attention-response",
+        "hopfinger-2000-top-down-attention",
+        "jovicich-2001-motion-tracking-load",
+        "langner-eickhoff-2013-vigilant-attention"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "sustained-attention-cpt",
+      "nodeId": "cpt-tpj-reorienting",
+      "label": "右TPJ重新定向",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "langner-eickhoff-2013-vigilant-attention"
+      ],
+      "displayParcelId": "schaefer200_148",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "sustained-attention-cpt",
+      "nodeId": "cpt-salience",
+      "label": "前岛叶/岛盖捕捉",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "langner-eickhoff-2013-vigilant-attention",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "sustained-attention-cpt",
+      "nodeId": "cpt-control",
+      "label": "内侧额叶维持控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "langner-eickhoff-2013-vigilant-attention"
+      ],
+      "displayParcelId": "schaefer200_180",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "sustained-attention-cpt",
+      "nodeId": "cpt-right-frontal-control",
+      "label": "右额叶规则控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "langner-eickhoff-2013-vigilant-attention"
+      ],
+      "displayParcelId": "schaefer200_172",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "sustained-attention-cpt",
+      "nodeId": "cpt-response",
+      "label": "反应输出",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "langner-eickhoff-2013-vigilant-attention",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_151",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "dual-task",
+      "nodeId": "dual-plpfc-bottleneck",
+      "label": "左 pLPFC 反应选择瓶颈",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "dux-2006-central-bottleneck",
+        "langner-eickhoff-2013-vigilant-attention",
+        "miyake-2000-executive-functions",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_069",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "dual-task",
+      "nodeId": "dual-smfc-presma-timing",
+      "label": "SMFC/pre-SMA 调度",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "dux-2006-central-bottleneck",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_156",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "tower-of-london",
+      "nodeId": "tol-mid-dlpfc",
+      "label": "双侧 mid-DLPFC",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "miyake-2000-executive-functions",
+        "niendam-2012-cognitive-control",
+        "nitschke-2017-tower-of-london",
+        "rottschy-2012-working-memory",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_175",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "tower-of-london",
+      "nodeId": "tol-fef",
+      "label": "双侧 FEF",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "nitschke-2017-tower-of-london"
+      ],
+      "displayParcelId": "schaefer200_146",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "tower-of-london",
+      "nodeId": "tol-sma-presma",
+      "label": "SMA/pre-SMA",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "cools-2002-reversal-learning",
+        "niendam-2012-cognitive-control",
+        "nitschke-2017-tower-of-london"
+      ],
+      "displayParcelId": "schaefer200_181",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "tower-of-london",
+      "nodeId": "tol-ipl",
+      "label": "双侧 IPL/顶内沟",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "niendam-2012-cognitive-control",
+        "nitschke-2017-tower-of-london",
+        "rottschy-2012-working-memory",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "tower-of-london",
+      "nodeId": "tol-precuneus",
+      "label": "楔前叶",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "niendam-2012-cognitive-control",
+        "nitschke-2017-tower-of-london",
+        "rottschy-2012-working-memory",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_039",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "tower-of-london",
+      "nodeId": "tol-anterior-insula",
+      "label": "双侧前岛叶/岛盖",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "nitschke-2017-tower-of-london"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "tower-of-london",
+      "nodeId": "tol-rlpfc",
+      "label": "RLPFC/额极邻近",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "miyake-2000-executive-functions",
+        "niendam-2012-cognitive-control",
+        "nitschke-2017-tower-of-london",
+        "rottschy-2012-working-memory",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_171",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "keep-track",
+      "nodeId": "keep-update-control",
+      "label": "更新控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "collette-2005-executive-functioning-unity-diversity",
+        "miyake-2000-executive-functions",
+        "murty-2011-flexible-updating",
+        "nee-brown-2013-updating-hierarchical-contexts",
+        "niendam-2012-cognitive-control",
+        "owen-2005-nback",
+        "rottschy-2012-working-memory",
+        "saylik-2022-executive-function-unity-diversity",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "keep-track",
+      "nodeId": "keep-active-items",
+      "label": "活动项目保持",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "collette-2005-executive-functioning-unity-diversity",
+        "murty-2011-flexible-updating",
+        "nee-brown-2013-updating-hierarchical-contexts",
+        "niendam-2012-cognitive-control",
+        "rottschy-2012-working-memory",
+        "saylik-2022-executive-function-unity-diversity",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_142",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "keep-track",
+      "nodeId": "keep-change-detection",
+      "label": "变化检测",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "rottschy-2012-working-memory"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "object-span",
+      "nodeId": "object-visual-form",
+      "label": "腹侧视觉/梭状物体表征",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "courtney-1996-object-spatial-wm"
+      ],
+      "displayParcelId": "schaefer200_002",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "object-span",
+      "nodeId": "object-parietal-buffer",
+      "label": "顶叶容量缓冲",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "courtney-1996-object-spatial-wm",
+        "diwadkar-2000-dynamic-spatial-wm",
+        "jonides-1993-spatial-wm-pet",
+        "rottschy-2012-working-memory",
+        "smith-1996-verbal-spatial-wm"
+      ],
+      "displayParcelId": "schaefer200_167",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "object-span",
+      "nodeId": "object-control",
+      "label": "右额下/额下沟保持控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "awh-1996-verbal-wm-storage-rehearsal",
+        "courtney-1996-object-spatial-wm",
+        "emch-2019-verbal-wm-meta",
+        "paulesu-1993-phonological-loop",
+        "rottschy-2012-working-memory",
+        "smith-1996-verbal-spatial-wm"
+      ],
+      "displayParcelId": "schaefer200_172",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "probabilistic-reversal-learning",
+      "nodeId": "prl-feedback-value",
+      "label": "VLPFC/岛盖反馈变化",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "cools-2002-reversal-learning"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "probabilistic-reversal-learning",
+      "nodeId": "prl-rule-control",
+      "label": "右顶叶规则调整",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "cools-2002-reversal-learning",
+        "niendam-2012-cognitive-control",
+        "rottschy-2012-working-memory",
+        "unterrainer-owen-2006-planning"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "probabilistic-reversal-learning",
+      "nodeId": "prl-conflict-monitor",
+      "label": "错误/冲突监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "cools-2002-reversal-learning",
+        "niendam-2012-cognitive-control"
+      ],
+      "displayParcelId": "schaefer200_181",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "temporal-order-judgment",
+      "nodeId": "toj-visual-input",
+      "label": "后颞视觉输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "davis-2009-temporal-order-judgment",
+        "houlihan-1994-reaction-time-processes"
+      ],
+      "displayParcelId": "schaefer200_136",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "temporal-order-judgment",
+      "nodeId": "toj-tpj-sequence",
+      "label": "TPJ先后事件捕捉",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "davis-2009-temporal-order-judgment"
+      ],
+      "displayParcelId": "schaefer200_149",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "temporal-order-judgment",
+      "nodeId": "toj-ips-orienting",
+      "label": "IPS时间注意定向",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "davis-2009-temporal-order-judgment"
+      ],
+      "displayParcelId": "schaefer200_165",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "temporal-order-judgment",
+      "nodeId": "toj-fef-report",
+      "label": "FEF/前运动报告准备",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "davis-2009-temporal-order-judgment"
+      ],
+      "displayParcelId": "schaefer200_146",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "temporal-order-judgment",
+      "nodeId": "toj-ifg-control",
+      "label": "右IFG/岛盖任务控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "davis-2009-temporal-order-judgment",
+        "houlihan-1994-reaction-time-processes"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "semantic-task",
+      "nodeId": "semantic-temporal-representation",
+      "label": "词义/概念表征",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "price-2012-language-review",
+        "vigneau-2006-left-hemisphere-language-meta"
+      ],
+      "displayParcelId": "schaefer200_078",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "semantic-task",
+      "nodeId": "semantic-angular-integration",
+      "label": "语义整合",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "taylor-2013-reading-meta",
+        "vigneau-2006-left-hemisphere-language-meta"
+      ],
+      "displayParcelId": "schaefer200_081",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "semantic-task",
+      "nodeId": "semantic-ventral-temporal-interface",
+      "label": "腹侧颞叶语义接口",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "taylor-2013-reading-meta",
+        "vigneau-2006-left-hemisphere-language-meta"
+      ],
+      "displayParcelId": "schaefer200_100",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "semantic-task",
+      "nodeId": "semantic-dmpfc-retrieval",
+      "label": "DMPFC语义检索",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system"
+      ],
+      "displayParcelId": "schaefer200_092",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "semantic-task",
+      "nodeId": "semantic-retrieval-control",
+      "label": "语义检索控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "constable-2004-sentence-complexity-modality",
+        "price-2012-language-review",
+        "taylor-2013-reading-meta",
+        "vigneau-2006-left-hemisphere-language-meta",
+        "ye-zhou-2009-sentence-conflict-control"
+      ],
+      "displayParcelId": "schaefer200_066",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "semantic-task",
+      "nodeId": "semantic-vmpfc-affective-context",
+      "label": "VMPFC情境价值",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system"
+      ],
+      "displayParcelId": "schaefer200_084",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "semantic-task",
+      "nodeId": "semantic-pcc-context",
+      "label": "后扣带语境背景",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_096",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "drm-false-memory",
+      "nodeId": "drm-semantic-gist",
+      "label": "语义 gist 入口",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "roediger-mcdermott-1995-drm"
+      ],
+      "displayParcelId": "schaefer200_078",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "drm-false-memory",
+      "nodeId": "drm-ips-precuneus-false-recognition",
+      "label": "IPS/楔前叶错误再认",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "thakral-2025-false-memory-meta"
+      ],
+      "displayParcelId": "schaefer200_062",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "drm-false-memory",
+      "nodeId": "drm-angular-false-recognition",
+      "label": "角回/IPL错误熟悉感",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "kim-2011-subsequent-memory",
+        "spaniol-2009-episodic-memory",
+        "thakral-2025-false-memory-meta"
+      ],
+      "displayParcelId": "schaefer200_082",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "drm-false-memory",
+      "nodeId": "drm-medial-monitoring",
+      "label": "额内侧监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "thakral-2025-false-memory-meta"
+      ],
+      "displayParcelId": "schaefer200_052",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "deductive-reasoning",
+      "nodeId": "deductive-premise-semantics",
+      "label": "前提语义保持",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "bunge-2004-analogical-reasoning",
+        "parsons-osherson-2001-deductive-probabilistic-reasoning",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning"
+      ],
+      "displayParcelId": "schaefer200_188",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "deductive-reasoning",
+      "nodeId": "deductive-left-frontal-rule-integration",
+      "label": "左额规则整合",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "bunge-2004-analogical-reasoning",
+        "coetzee-2018-core-reasoning",
+        "hampshire-2012-intelligence",
+        "jung-haier-2007-pfit",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning"
+      ],
+      "displayParcelId": "schaefer200_069",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "deductive-reasoning",
+      "nodeId": "deductive-parietal-relation-workspace",
+      "label": "顶叶关系工作区",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "bunge-2004-analogical-reasoning",
+        "coetzee-2018-core-reasoning",
+        "hampshire-2012-intelligence",
+        "jung-haier-2007-pfit",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning",
+        "zacks-2008-mental-rotation"
+      ],
+      "displayParcelId": "schaefer200_061",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "deductive-reasoning",
+      "nodeId": "deductive-medial-monitoring",
+      "label": "内侧额叶监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "coetzee-2018-core-reasoning",
+        "gazzo-2023-probabilistic-deductive-reasoning",
+        "parsons-osherson-2001-deductive-probabilistic-reasoning",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning"
+      ],
+      "displayParcelId": "schaefer200_052",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "deductive-reasoning",
+      "nodeId": "deductive-right-frontal-validation",
+      "label": "右额验证/抑制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "bunge-2004-analogical-reasoning",
+        "coetzee-2018-core-reasoning",
+        "gazzo-2023-probabilistic-deductive-reasoning",
+        "parsons-osherson-2001-deductive-probabilistic-reasoning",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning"
+      ],
+      "displayParcelId": "schaefer200_173",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "deductive-reasoning",
+      "nodeId": "deductive-thalamic-boundary",
+      "label": "右丘脑边界",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "bunge-2004-analogical-reasoning",
+        "coetzee-2018-core-reasoning",
+        "ganis-2004-imagery-perception",
+        "gazzo-2023-probabilistic-deductive-reasoning",
+        "hampshire-2012-intelligence",
+        "jung-haier-2007-pfit",
+        "kosslyn-2001-imagery-foundations",
+        "kroger-2002-relational-complexity",
+        "parsons-osherson-2001-deductive-probabilistic-reasoning",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning",
+        "zacks-2008-mental-rotation"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "thalamus",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS",
+        "F4_POINT_KIND"
+      ]
+    },
+    {
+      "paradigmId": "deductive-reasoning",
+      "nodeId": "deductive-basal-ganglia-boundary",
+      "label": "尾状核/苍白球边界",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "binder-2009-semantic-system",
+        "bunge-2004-analogical-reasoning",
+        "coetzee-2018-core-reasoning",
+        "ganis-2004-imagery-perception",
+        "gazzo-2023-probabilistic-deductive-reasoning",
+        "hampshire-2012-intelligence",
+        "jung-haier-2007-pfit",
+        "kosslyn-2001-imagery-foundations",
+        "kroger-2002-relational-complexity",
+        "parsons-osherson-2001-deductive-probabilistic-reasoning",
+        "rodriguez-moreno-hirsch-2009-deductive-reasoning",
+        "zacks-2008-mental-rotation"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "basal-ganglia",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS",
+        "F4_POINT_KIND"
+      ]
+    },
+    {
+      "paradigmId": "face-name-association",
+      "nodeId": "face-name-face-input",
+      "label": "面孔输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "kim-2011-subsequent-memory",
+        "sperling-2003-face-name",
+        "stern-1996-novel-picture-encoding",
+        "zeineh-2003-face-name-hippocampus"
+      ],
+      "displayParcelId": "schaefer200_002",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "face-name-association",
+      "nodeId": "face-name-name-label",
+      "label": "姓名标签",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "chua-2007-anterior-hippocampal-associative-encoding",
+        "kim-2011-subsequent-memory",
+        "kirwan-stark-2004-face-name-pairs",
+        "sperling-2003-face-name",
+        "stern-1996-novel-picture-encoding",
+        "zeineh-2003-face-name-hippocampus"
+      ],
+      "displayParcelId": "schaefer200_064",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "face-name-association",
+      "nodeId": "face-name-hippocampal-bind",
+      "label": "海马联结绑定",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "chua-2007-anterior-hippocampal-associative-encoding",
+        "kim-2011-subsequent-memory",
+        "kirwan-stark-2004-face-name-pairs",
+        "sperling-2003-face-name",
+        "stern-1996-novel-picture-encoding",
+        "zeineh-2003-face-name-hippocampus"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "hippocampal-formation",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "face-name-association",
+      "nodeId": "face-name-prefrontal-strategy",
+      "label": "前额叶提取策略",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "chua-2007-anterior-hippocampal-associative-encoding",
+        "sperling-2003-face-name",
+        "zeineh-2003-face-name-hippocampus"
+      ],
+      "displayParcelId": "schaefer200_069",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "face-name-association",
+      "nodeId": "face-name-cingulate-effort",
+      "label": "联结努力监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "sperling-2003-face-name"
+      ],
+      "displayParcelId": "schaefer200_052",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "episodic-order-memory",
+      "nodeId": "episodic-order-hippocampal-sequence",
+      "label": "海马顺序绑定",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "ezzyat-davachi-2014-temporal-proximity",
+        "konishi-2002-recency-judgment",
+        "kumaran-maguire-2006-unexpected-sequence-events",
+        "tubridy-davachi-2011-episodic-sequence-encoding"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "hippocampal-formation",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "episodic-order-memory",
+      "nodeId": "episodic-order-context",
+      "label": "情景背景",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "kumaran-maguire-2006-unexpected-sequence-events"
+      ],
+      "displayParcelId": "schaefer200_096",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "episodic-order-memory",
+      "nodeId": "episodic-order-context-boundary-control",
+      "label": "上下文边界控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "ezzyat-davachi-2014-temporal-proximity",
+        "konishi-2002-recency-judgment",
+        "kumaran-maguire-2006-unexpected-sequence-events"
+      ],
+      "displayParcelId": "schaefer200_181",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "episodic-order-memory",
+      "nodeId": "episodic-order-temporal-context-parietal",
+      "label": "时间上下文支持",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "ezzyat-davachi-2014-temporal-proximity",
+        "konishi-2002-recency-judgment"
+      ],
+      "displayParcelId": "schaefer200_167",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "episodic-order-memory",
+      "nodeId": "episodic-order-boundary-salience",
+      "label": "边界显著性选择",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "ezzyat-davachi-2014-temporal-proximity"
+      ],
+      "displayParcelId": "schaefer200_048",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "episodic-order-memory",
+      "nodeId": "episodic-order-prefrontal-monitor",
+      "label": "顺序监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "konishi-2002-recency-judgment"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "episodic-order-memory",
+      "nodeId": "episodic-order-parietal-detail",
+      "label": "细节重建",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "ezzyat-davachi-2014-temporal-proximity",
+        "konishi-2002-recency-judgment",
+        "kumaran-maguire-2006-unexpected-sequence-events",
+        "tubridy-davachi-2011-episodic-sequence-encoding"
+      ],
+      "displayParcelId": "schaefer200_061",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "visual-delayed-memory",
+      "nodeId": "visual-delayed-visual-form",
+      "label": "视觉形状输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "kim-2011-subsequent-memory",
+        "sperling-2003-face-name",
+        "stern-1996-novel-picture-encoding",
+        "zeineh-2003-face-name-hippocampus"
+      ],
+      "displayParcelId": "schaefer200_101",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "visual-delayed-memory",
+      "nodeId": "visual-delayed-mtl-encoding",
+      "label": "内侧颞叶编码",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "chua-2007-anterior-hippocampal-associative-encoding",
+        "kim-2011-subsequent-memory",
+        "kirwan-stark-2004-face-name-pairs",
+        "sperling-2003-face-name",
+        "stern-1996-novel-picture-encoding",
+        "zeineh-2003-face-name-hippocampus"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "entorhinal-parahippocampal-interface",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "visual-delayed-memory",
+      "nodeId": "visual-delayed-hippocampus",
+      "label": "海马新异编码",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "chua-2007-anterior-hippocampal-associative-encoding",
+        "kim-2011-subsequent-memory",
+        "kirwan-stark-2004-face-name-pairs",
+        "sperling-2003-face-name",
+        "stern-1996-novel-picture-encoding",
+        "zeineh-2003-face-name-hippocampus"
+      ],
+      "displayParcelId": null,
+      "physicalStructureId": "hippocampal-formation",
+      "placementKind": "PHYSICAL_STRUCTURE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "visual-delayed-memory",
+      "nodeId": "visual-delayed-parietal-retrieval",
+      "label": "视觉记忆提取",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "kim-2011-subsequent-memory"
+      ],
+      "displayParcelId": "schaefer200_061",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F2_KIM_ARITHMETIC",
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "word-pseudoword-reading",
+      "nodeId": "wpr-visual",
+      "label": "枕叶视觉输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_008",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "word-pseudoword-reading",
+      "nodeId": "wpr-vwfa",
+      "label": "左腹侧颞枕字形区候选",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "word-pseudoword-reading",
+      "nodeId": "wpr-ifg-phonology",
+      "label": "左下额音韵控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "emch-2019-verbal-wm-meta",
+        "paulesu-1993-phonological-loop",
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_066",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "word-pseudoword-reading",
+      "nodeId": "wpr-semantic-temporal",
+      "label": "熟悉词语义整合",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_081",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "phonological-decoding",
+      "nodeId": "phon-visual-form",
+      "label": "字形输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "phonological-decoding",
+      "nodeId": "phon-left-ifg",
+      "label": "左下额音韵规则",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "emch-2019-verbal-wm-meta",
+        "paulesu-1993-phonological-loop",
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_066",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "phonological-decoding",
+      "nodeId": "phon-parietal-support",
+      "label": "IPL音韵支持",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "emch-2019-verbal-wm-meta",
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_063",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "orthographic-processing",
+      "nodeId": "ortho-occipital",
+      "label": "枕叶线条/字形输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_008",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "orthographic-processing",
+      "nodeId": "ortho-vwfa",
+      "label": "左梭状字形区候选",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "orthographic-processing",
+      "nodeId": "ortho-ifg-check",
+      "label": "左下额规则检查",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "emch-2019-verbal-wm-meta",
+        "paulesu-1993-phonological-loop",
+        "taylor-2013-reading-meta"
+      ],
+      "displayParcelId": "schaefer200_066",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "symbol-search-coding-speed",
+      "nodeId": "symbol-visual",
+      "label": "枕叶/枕颞符号输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "forn-2009-sdmt-fmri"
+      ],
+      "displayParcelId": "schaefer200_111",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "symbol-search-coding-speed",
+      "nodeId": "symbol-parietal-scan",
+      "label": "顶叶扫描/匹配",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "forn-2009-sdmt-fmri"
+      ],
+      "displayParcelId": "schaefer200_040",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "symbol-search-coding-speed",
+      "nodeId": "symbol-fef-premotor",
+      "label": "FEF/前运动反应准备",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "forn-2009-sdmt-fmri"
+      ],
+      "displayParcelId": "schaefer200_041",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "symbol-search-coding-speed",
+      "nodeId": "symbol-left-ifg-rule",
+      "label": "左 IFG 规则支持",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "forn-2009-sdmt-fmri"
+      ],
+      "displayParcelId": "schaefer200_069",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "visual-search-schulte",
+      "nodeId": "search-visual-field",
+      "label": "枕叶视觉场",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "manjaly-2003-hidden-figures-fmri"
+      ],
+      "displayParcelId": "schaefer200_011",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "visual-search-schulte",
+      "nodeId": "search-fef",
+      "label": "额眼区扫描控制",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention"
+      ],
+      "displayParcelId": "schaefer200_041",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "visual-search-schulte",
+      "nodeId": "search-ips",
+      "label": "顶内沟目标定位",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "culham-2001-attention-response",
+        "manjaly-2003-hidden-figures-fmri"
+      ],
+      "displayParcelId": "schaefer200_037",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "visual-search-schulte",
+      "nodeId": "search-motor",
+      "label": "中央前回反应输出",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "corbetta-shulman-2002-attention",
+        "langner-eickhoff-2013-vigilant-attention"
+      ],
+      "displayParcelId": "schaefer200_028",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "perceptual-discrimination-rt",
+      "nodeId": "discrimination-sensory",
+      "label": "视觉/跨模态输入代理",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "fan-2014-uncertainty-cognitive-control",
+        "wu-2018-hick-hyman"
+      ],
+      "displayParcelId": "schaefer200_002",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "perceptual-discrimination-rt",
+      "nodeId": "discrimination-auditory-input",
+      "label": "听觉/颞上输入候选",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "damestani-2021-auditory-oddball-tone-discrimination"
+      ],
+      "displayParcelId": "schaefer200_016",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "perceptual-discrimination-rt",
+      "nodeId": "discrimination-salience",
+      "label": "前岛/额盖控制需求",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "damestani-2021-auditory-oddball-tone-discrimination",
+        "esmeyer-2025-crossmodal-perceptual-decision",
+        "fan-2014-uncertainty-cognitive-control",
+        "wu-2018-hick-hyman"
+      ],
+      "displayParcelId": "schaefer200_154",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "perceptual-discrimination-rt",
+      "nodeId": "discrimination-parietal-choice",
+      "label": "IPS/SPL 反应备选工作区",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "damestani-2021-auditory-oddball-tone-discrimination",
+        "esmeyer-2025-crossmodal-perceptual-decision",
+        "fan-2014-uncertainty-cognitive-control",
+        "wu-2018-hick-hyman"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "perceptual-discrimination-rt",
+      "nodeId": "discrimination-dlpfc-decision",
+      "label": "左 DLPFC/SFS 证据整合",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "damestani-2021-auditory-oddball-tone-discrimination",
+        "esmeyer-2025-crossmodal-perceptual-decision",
+        "heekeren-2004-perceptual-decision"
+      ],
+      "displayParcelId": "schaefer200_069",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "perceptual-discrimination-rt",
+      "nodeId": "discrimination-motor",
+      "label": "PMd/中央前回反应输出",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "damestani-2021-auditory-oddball-tone-discrimination",
+        "esmeyer-2025-crossmodal-perceptual-decision",
+        "wu-2018-hick-hyman"
+      ],
+      "displayParcelId": "schaefer200_028",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "spatial-folding-unfolding",
+      "nodeId": "folding-visual",
+      "label": "枕叶形状表象",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "glass-2013-mental-paper-folding-lesion",
+        "neubauer-2017-tacs-paper-folding-fmri"
+      ],
+      "displayParcelId": "schaefer200_002",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "spatial-folding-unfolding",
+      "nodeId": "folding-right-ipl-ba40-lesion",
+      "label": "右IPL/BA40折叠边界",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "glass-2013-mental-paper-folding-lesion",
+        "milivojevic-2003-mental-paper-folding",
+        "neubauer-2017-tacs-paper-folding-fmri"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "spatial-folding-unfolding",
+      "nodeId": "folding-left-phc-configuration",
+      "label": "左海马旁构型支持",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "glass-2013-mental-paper-folding-lesion"
+      ],
+      "displayParcelId": "schaefer200_100",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "embedded-figures",
+      "nodeId": "embedded-visual-background",
+      "label": "枕颞复杂图形输入",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "fonville-2013-embedded-figures",
+        "manjaly-2003-hidden-figures-fmri",
+        "walter-2011-embedded-figures"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS",
+        "F4_POINT_KIND"
+      ]
+    },
+    {
+      "paradigmId": "embedded-figures",
+      "nodeId": "embedded-ips-selection",
+      "label": "顶叶/楔前叶目标分离",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "manjaly-2003-hidden-figures-fmri",
+        "walter-2011-embedded-figures"
+      ],
+      "displayParcelId": "schaefer200_142",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS",
+        "F4_POINT_KIND"
+      ]
+    },
+    {
+      "paradigmId": "embedded-figures",
+      "nodeId": "embedded-fef-search-set",
+      "label": "FEF/前运动搜索策略",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "walter-2011-embedded-figures"
+      ],
+      "displayParcelId": "schaefer200_145",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS",
+        "F4_POINT_KIND"
+      ]
+    },
+    {
+      "paradigmId": "embedded-figures",
+      "nodeId": "embedded-salience-switch",
+      "label": "右IFG-岛叶熟练搜索",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "walter-2011-embedded-figures"
+      ],
+      "displayParcelId": "schaefer200_155",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS",
+        "F4_POINT_KIND"
+      ]
+    },
+    {
+      "paradigmId": "relational-reasoning",
+      "nodeId": "relational-dlpfc",
+      "label": "前DLPFC关系整合",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "kroger-2002-relational-complexity"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "relational-reasoning",
+      "nodeId": "relational-parietal",
+      "label": "顶叶关系工作空间",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "caudle-2023-matrix-reasoning",
+        "jung-haier-2007-pfit",
+        "kroger-2002-relational-complexity"
+      ],
+      "displayParcelId": "schaefer200_167",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "relational-reasoning",
+      "nodeId": "relational-acc-monitor",
+      "label": "内侧额叶冲突监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "caudle-2023-matrix-reasoning",
+        "kroger-2002-relational-complexity"
+      ],
+      "displayParcelId": "schaefer200_073",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "relational-reasoning",
+      "nodeId": "relational-visual-input",
+      "label": "关系材料输入",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "caudle-2023-matrix-reasoning",
+        "kroger-2002-relational-complexity"
+      ],
+      "displayParcelId": "schaefer200_012",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "inductive-rule-discovery",
+      "nodeId": "inductive-material-input",
+      "label": "样例材料输入",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "babcock-vallesi-2015-inductive-reasoning",
+        "crescentini-2011-rule-acquisition"
+      ],
+      "displayParcelId": "schaefer200_002",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "inductive-rule-discovery",
+      "nodeId": "inductive-parietal-workspace",
+      "label": "IPS/SPL关系工作区",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "crescentini-2011-rule-acquisition"
+      ],
+      "displayParcelId": "schaefer200_062",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "inductive-rule-discovery",
+      "nodeId": "inductive-left-ifg-hypothesis",
+      "label": "左IFG/VLPFC假设生成",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "babcock-vallesi-2015-inductive-reasoning",
+        "crescentini-2011-rule-acquisition"
+      ],
+      "displayParcelId": "schaefer200_069",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "inductive-rule-discovery",
+      "nodeId": "inductive-medial-monitoring",
+      "label": "额内侧规则监控",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "babcock-vallesi-2015-inductive-reasoning",
+        "crescentini-2011-rule-acquisition"
+      ],
+      "displayParcelId": "schaefer200_052",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "inductive-rule-discovery",
+      "nodeId": "inductive-right-pfc-domain-strategy",
+      "label": "右PFC空间策略支路",
+      "bindingLevel": "CONVERGENCE_REGION_AGGREGATE",
+      "sourceIds": [
+        "babcock-vallesi-2015-inductive-reasoning",
+        "crescentini-2011-rule-acquisition"
+      ],
+      "displayParcelId": "schaefer200_173",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "区域/多文献综合教学锚点；不表示论文原始峰值",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "symbolic-quantity-mapping",
+      "nodeId": "symbol-quantity-visual",
+      "label": "数字/点阵视觉输入",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "cantlon-2009-abstract-number-development",
+        "dehaene-2009-math-intuitions",
+        "park-2024-number-sense-training-fmri"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "symbolic-quantity-mapping",
+      "nodeId": "symbol-quantity-ips",
+      "label": "IPS/SPL数量意义",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "cantlon-2009-abstract-number-development",
+        "dehaene-2009-math-intuitions",
+        "park-2024-number-sense-training-fmri"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "symbolic-quantity-mapping",
+      "nodeId": "symbol-quantity-ipl",
+      "label": "下顶叶形式对应",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "cantlon-2009-abstract-number-development",
+        "dehaene-2009-math-intuitions",
+        "park-2024-number-sense-training-fmri"
+      ],
+      "displayParcelId": "schaefer200_063",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "symbolic-quantity-mapping",
+      "nodeId": "symbol-quantity-goal",
+      "label": "当前对应目标",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "cantlon-2009-abstract-number-development",
+        "dehaene-2009-math-intuitions",
+        "park-2024-number-sense-training-fmri"
+      ],
+      "displayParcelId": "schaefer200_141",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "subitizing-enumeration",
+      "nodeId": "subitizing-visual",
+      "label": "点阵视觉输入",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "dehaene-2009-math-intuitions",
+        "piazza-2003-subitizing-counting"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "subitizing-enumeration",
+      "nodeId": "subitizing-tpj",
+      "label": "TPJ小集合识别",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "dehaene-2009-math-intuitions",
+        "piazza-2003-subitizing-counting"
+      ],
+      "displayParcelId": "schaefer200_044",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "subitizing-enumeration",
+      "nodeId": "subitizing-ips-count",
+      "label": "后顶叶逐项计数",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "dehaene-2009-math-intuitions",
+        "piazza-2003-subitizing-counting"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "subitizing-enumeration",
+      "nodeId": "subitizing-frontal-sequence",
+      "label": "额叶计数顺序",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "dehaene-2009-math-intuitions",
+        "piazza-2003-subitizing-counting"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": []
+    },
+    {
+      "paradigmId": "number-line-estimation",
+      "nodeId": "number-line-visual",
+      "label": "数字/数轴视觉输入",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "berteletti-2015-number-line-subtraction",
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "dehaene-2009-math-intuitions"
+      ],
+      "displayParcelId": "schaefer200_003",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "number-line-estimation",
+      "nodeId": "number-line-ips",
+      "label": "IPS数量大小",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "berteletti-2015-number-line-subtraction",
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "dehaene-2009-math-intuitions"
+      ],
+      "displayParcelId": "schaefer200_138",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "number-line-estimation",
+      "nodeId": "number-line-spl",
+      "label": "后顶叶空间比例",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "berteletti-2015-number-line-subtraction",
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "dehaene-2009-math-intuitions"
+      ],
+      "displayParcelId": "schaefer200_140",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "number-line-estimation",
+      "nodeId": "number-line-rule",
+      "label": "参考点/区间策略",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "berteletti-2015-number-line-subtraction",
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "dehaene-2009-math-intuitions"
+      ],
+      "displayParcelId": "schaefer200_068",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    },
+    {
+      "paradigmId": "number-line-estimation",
+      "nodeId": "number-line-response",
+      "label": "位置标记输出",
+      "bindingLevel": "PARADIGM_LEVEL_ONLY",
+      "sourceIds": [
+        "arsalidou-taylor-2011-calculation",
+        "berteletti-2015-number-line-subtraction",
+        "cangoz-2018-tablet-dyscalculia-screening",
+        "dehaene-2009-math-intuitions"
+      ],
+      "displayParcelId": "schaefer200_021",
+      "physicalStructureId": null,
+      "placementKind": "PARCEL_SURFACE_ANCHOR",
+      "directPeakId": null,
+      "exactPaperLocalization": "NOT_ESTABLISHED",
+      "precisionWording": "教学锚点；仅有范式级参考，节点专属坐标血缘未核",
+      "sourceAuditIssues": [
+        "F3_TRANSFORM_PRECONDITIONS"
+      ]
+    }
+  ]
+}

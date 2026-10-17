@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Davis 模板检查 · 脑功能可视化</title>
+  <link rel="stylesheet" href="coordinate-evidence.css">
+  <link rel="stylesheet" href="davis-template-validation.css">
+</head>
+<body>
+<main>
+  <nav><a href="../">← 返回脑图</a><a href="coordinate-evidence.html?source=davis-2009-temporal-order-judgment">查看原表与来源</a></nav>
+  <header>
+    <p class="eyebrow">Davis 2009 · 论文坐标检查</p>
+    <h1>数字已核对，模板对应仍待证实</h1>
+    <p>论文报告了 FSL 4.1、MNI152 和 FLIRT。历史参考与当前固定模板之间，还缺完整的对应证据。</p>
+  </header>
+  <section class="summary" aria-label="Davis 检查结果">
+    <div><strong id="row-count">—</strong><span>处原表坐标保留</span></div>
+    <div><strong id="label-count">—</strong><span>处诊断标签非零</span></div>
+    <div><strong id="zero-count">—</strong><span>处无皮层标签</span></div>
+    <div><strong id="precise-count">—</strong><span>处精确定位获准</span></div>
+  </section>
+  <p class="notice"><strong>下方查询带有条件假设：</strong>暂把论文原始数值放入当前模板的同名坐标，检查会查到什么标签。这个计算可以复现，但参考对应尚未验证，因此这些点没有画入脑图，也不改变现有教学节点。</p>
+  <ol id="chain" class="chain" aria-label="参考对应链"></ol>
+  <section class="points" aria-label="Davis 42处坐标">
+    <h2>逐条查看</h2>
+    <div class="filters">
+      <label>条件查询结果<select id="label-filter"><option value="all">全部条目</option><option value="nonzero">有皮层标签</option><option value="zero">无皮层标签</option></select></label>
+      <label>实验<select id="experiment"><option value="all">两个实验</option><option value="1">实验 1 · 表 1</option><option value="2">实验 2 · 表 2</option></select></label>
+      <label>搜索原表条目<input id="search" type="search" placeholder="如 Thalamus、TPJ 或 62 -40 36" autocomplete="off"></label>
+      <button id="clear" type="button">清除筛选</button>
+    </div>
+    <p id="result-count" role="status" aria-live="polite">正在加载…</p>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="坐标结果表，可滚动查看">
+      <table>
+        <thead><tr><th scope="col">原表脑区与位置</th><th scope="col">原始 x, y, z</th><th scope="col">原表 Z</th><th scope="col">假设下的皮层标签</th><th scope="col">精确定位</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </section>
+  <details>
+    <summary>这些检查能说明什么？</summary>
+    <p>1 毫米和 2 毫米参考使用相同世界坐标，格距不同不需要把论文坐标乘二或除二。左右方向、网格边界以及世界到显示坐标的换算已核验。</p>
+    <p>标签 0 保留为“无皮层标签”，可能涉及非皮层组织或标签体范围；丘脑没有被强行归到最近的皮层。非零标签也不代表原研究证实了一个独有的功能网络归属。</p>
+    <p>计算残差只说明数值实现误差很小。历史模板差异、论文报告精度、群体配准和个体差异的误差界尚未建立；8 毫米平滑核不能直接当成定位误差界。平滑展示表面不用于空间测量。</p>
+    <p>小脑沿用已经核验的共同群体参考和粗略位置，精细小脑分区没有升级；脑干继续作为教学示意。其他论文的未核状态保留。</p>
+  </details>
+  <p class="footnote">下一项所需证据：可靠的历史参考文件或空间版本链，结合文章足够明确的参考识别；作者处理设置也是可选来源。未公开作者文件哈希并非唯一途径。此页保留精确定位诊断记录；教学近似首发准备不依赖精确对应闭合，实际公开尚未执行。</p>
+  <p id="sources" class="footnote"></p>
+  <p class="footnote">原始行、统计值和表位置完整保留；毫米按 FSL 坐标语义解释，论文未另给出的单位说明保留其限制。此页只展示内部验证摘要。</p>
+</main>
+<script type="module" src="davis-template-validation.js"></script>
+</body>
+</html>

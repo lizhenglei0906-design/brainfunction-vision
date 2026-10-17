@@ -1,0 +1,668 @@
+{
+  "id": "connection-overlay-math-logic-stroop-demo",
+  "name": "做题冲动与逻辑接管演示图",
+  "version": "0.1.0",
+  "mode": "narrative_expression",
+  "status": "draft",
+  "userPromptExample": "孩子做数学应用题时，熟悉数量关系先触发下意识计算；如果忽略关键限定词就会答错。Stroop 冲突控制网络介入后，压住冲动，把注意力切到逻辑关系处理网络。",
+  "description": "A sales-demo narrative overlay connecting math intuition, semantic/logical modeling, and Stroop-like conflict control. This is a presentation-safe candidate expression layer, not a parcel-level proof.",
+  "sourceIds": [
+    "dehaene-1999-sources-math-thinking",
+    "dehaene-2009-math-intuitions",
+    "houde-2003-logical-math-cognition",
+    "pardo-1990-stroop-acc",
+    "macdonald-2000-stroop-control",
+    "niendam-2012-cognitive-control"
+  ],
+  "sourceClaimIds": [
+    "claim-dehaene1999-parietal-magnitude-system",
+    "claim-dehaene1999-exact-approximate-separation",
+    "claim-dehaene2009-intuition-vs-formal-reasoning",
+    "claim-houde2003-inhibit-misleading-intuition",
+    "claim-houde2003-logic-math-control-relation",
+    "claim-pardo1990-stroop-acc-priority",
+    "claim-macdonald2000-dlpfc-rule-control",
+    "claim-macdonald2000-acc-dlpfc-dissociation",
+    "claim-niendam2012-conflict-response-control"
+  ],
+  "nodes": [
+    {
+      "id": "demo-visual-problem-input",
+      "kind": "parcel",
+      "label": "题目输入",
+      "role": "sensory_input",
+      "weight": 0.7,
+      "networkId": "visual",
+      "parcelId": "schaefer200_002",
+      "domainId": "visual-processing",
+      "caption": "数字、符号、图形和题干进入视觉处理。"
+    },
+    {
+      "id": "demo-math-intuition",
+      "kind": "parcel",
+      "label": "数学直觉",
+      "role": "attention_orienting",
+      "weight": 0.92,
+      "networkId": "dorsal_attention",
+      "parcelId": "schaefer200_142",
+      "domainId": "goal-directed-attention",
+      "caption": "熟悉数量关系快速触发顶叶数量/空间表征，形成下意识的计算方向。",
+      "accentColor": "#c95a4d"
+    },
+    {
+      "id": "demo-fast-answer",
+      "kind": "parcel",
+      "label": "熟练答案通路",
+      "role": "memory_context",
+      "weight": 0.66,
+      "networkId": "frontoparietal",
+      "parcelId": "schaefer200_166",
+      "domainId": "executive-control",
+      "caption": "熟练算术事实和中间结果整合，容易让孩子迅速给出一个看似合理的答案。",
+      "accentColor": "#c95a4d"
+    },
+    {
+      "id": "demo-constraint-language",
+      "kind": "parcel",
+      "label": "题干限定词",
+      "role": "context",
+      "weight": 0.68,
+      "networkId": "default_mode",
+      "parcelId": "schaefer200_076",
+      "domainId": "self-memory-context",
+      "caption": "题干里的只、至少、剩下、每组、相差等限定词改变逻辑结构。",
+      "accentColor": "#376eaa"
+    },
+    {
+      "id": "demo-semantic-understanding",
+      "kind": "parcel",
+      "label": "语义理解",
+      "role": "context",
+      "weight": 0.76,
+      "networkId": "default_mode",
+      "parcelId": "schaefer200_187",
+      "domainId": "self-memory-context",
+      "caption": "把题干文字、条件关系和生活语义整合成可理解的问题情境。",
+      "accentColor": "#376eaa"
+    },
+    {
+      "id": "demo-stroop-conflict",
+      "kind": "parcel",
+      "label": "冲突监控",
+      "role": "conflict_monitoring",
+      "weight": 0.88,
+      "networkId": "ventral_attention",
+      "parcelId": "schaefer200_053",
+      "domainId": "salience-reorienting",
+      "caption": "当前直觉答案和题干限制不一致时，Stroop-like 冲突控制网络提示暂停自动反应。",
+      "accentColor": "#d6a728"
+    },
+    {
+      "id": "demo-response-inhibition",
+      "kind": "parcel",
+      "label": "压制冲动反应",
+      "role": "response_selection",
+      "weight": 0.74,
+      "networkId": "frontoparietal",
+      "parcelId": "schaefer200_066",
+      "domainId": "executive-control",
+      "caption": "抑制直接按熟悉数量关系作答，把反应从冲动答案里拉回来。",
+      "accentColor": "#d6a728"
+    },
+    {
+      "id": "demo-logical-modeling",
+      "kind": "parcel",
+      "label": "综合逻辑判断",
+      "role": "executive_control",
+      "weight": 0.9,
+      "networkId": "frontoparietal",
+      "parcelId": "schaefer200_068",
+      "domainId": "executive-control",
+      "caption": "维持题干条件、运算步骤和逻辑关系，重建真正要解的问题。",
+      "accentColor": "#376eaa"
+    },
+    {
+      "id": "stroop-visual-input",
+      "kind": "parcel",
+      "label": "颜色/词义输入",
+      "role": "sensory_input",
+      "weight": 0.72,
+      "networkId": "visual",
+      "parcelId": "schaefer200_002",
+      "displayParcelId": "schaefer200_002",
+      "candidateParcelIds": [
+        "schaefer200_001",
+        "schaefer200_002",
+        "schaefer200_101",
+        "schaefer200_102"
+      ],
+      "regionCoverageId": "visual-cortex",
+      "displayLayer": "default",
+      "accentColor": "#d6a728",
+      "caption": "视觉网络承接颜色和文字形式输入。"
+    },
+    {
+      "id": "stroop-acc-monitoring",
+      "kind": "parcel",
+      "label": "前扣带冲突监控",
+      "role": "conflict_monitoring",
+      "weight": 0.94,
+      "networkId": "ventral_attention",
+      "parcelId": "schaefer200_052",
+      "displayParcelId": "schaefer200_052",
+      "candidateParcelIds": [
+        "schaefer200_052",
+        "schaefer200_053",
+        "schaefer200_156",
+        "schaefer200_157",
+        "schaefer200_178",
+        "schaefer200_179"
+      ],
+      "regionCoverageId": "anterior-cingulate-medial-frontal",
+      "displayLayer": "default",
+      "accentColor": "#d6a728",
+      "caption": "前扣带/内侧额叶用于表达读词冲动和命名颜色目标之间的冲突监控。"
+    },
+    {
+      "id": "stroop-thalamic-gate",
+      "kind": "domain",
+      "label": "丘脑反应门控",
+      "role": "modulator",
+      "weight": 0.46,
+      "networkId": "ventral_attention",
+      "domainId": "attention-control-backbone",
+      "physicalStructureId": "thalamus",
+      "regionCoverageId": "thalamus",
+      "specializedAtlasLabelIds": [
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-04",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-15"
+      ],
+      "displayLayer": "boundary",
+      "accentColor": "#d6a728",
+      "caption": "MacDonald 2000 的 Stroop 丘脑峰值接近中线，当前只作为粗粒度丘脑门控边界显示，不讲成左侧特异分核。"
+    },
+    {
+      "id": "stroop-insula-salience",
+      "kind": "parcel",
+      "label": "前岛叶显著性",
+      "role": "salience_detection",
+      "weight": 0.82,
+      "networkId": "ventral_attention",
+      "parcelId": "schaefer200_154",
+      "displayParcelId": "schaefer200_154",
+      "candidateParcelIds": [
+        "schaefer200_047",
+        "schaefer200_048",
+        "schaefer200_049",
+        "schaefer200_050",
+        "schaefer200_152",
+        "schaefer200_153",
+        "schaefer200_154",
+        "schaefer200_155"
+      ],
+      "regionCoverageId": "frontal-operculum-anterior-insula",
+      "displayLayer": "support",
+      "accentColor": "#d6a728",
+      "caption": "额叶岛盖/前岛叶表达冲突变显著后对控制系统的唤起。"
+    },
+    {
+      "id": "stroop-dlpfc-rule",
+      "kind": "parcel",
+      "label": "前额叶规则保持",
+      "role": "attention_orienting",
+      "weight": 0.96,
+      "networkId": "frontoparietal",
+      "parcelId": "schaefer200_068",
+      "displayParcelId": "schaefer200_068",
+      "candidateParcelIds": [
+        "schaefer200_066",
+        "schaefer200_067",
+        "schaefer200_068",
+        "schaefer200_170",
+        "schaefer200_171",
+        "schaefer200_172"
+      ],
+      "regionCoverageId": "dorsolateral-prefrontal-cortex",
+      "displayLayer": "default",
+      "accentColor": "#d6a728",
+      "caption": "背外侧/外侧前额叶维持“说颜色，不读字”的任务规则。"
+    },
+    {
+      "id": "stroop-ifg-inhibition",
+      "kind": "parcel",
+      "label": "额下反应抑制",
+      "role": "response_selection",
+      "weight": 0.86,
+      "networkId": "frontoparietal",
+      "parcelId": "schaefer200_069",
+      "displayParcelId": "schaefer200_069",
+      "candidateParcelIds": [
+        "schaefer200_050",
+        "schaefer200_069",
+        "schaefer200_066",
+        "schaefer200_169",
+        "schaefer200_172",
+        "schaefer200_173",
+        "schaefer200_190"
+      ],
+      "regionCoverageId": "inferior-frontal-gyrus",
+      "displayLayer": "default",
+      "accentColor": "#d6a728",
+      "caption": "额下/腹侧前额叶表达压住自动读词反应、选择颜色命名反应。"
+    },
+    {
+      "id": "stroop-parietal-mapping",
+      "kind": "parcel",
+      "label": "顶叶刺激-反应映射",
+      "role": "attention_orienting",
+      "weight": 0.74,
+      "networkId": "dorsal_attention",
+      "parcelId": "schaefer200_142",
+      "displayParcelId": "schaefer200_142",
+      "candidateParcelIds": [
+        "schaefer200_033",
+        "schaefer200_037",
+        "schaefer200_062",
+        "schaefer200_141",
+        "schaefer200_142",
+        "schaefer200_144",
+        "schaefer200_167"
+      ],
+      "regionCoverageId": "intraparietal-posterior-parietal",
+      "displayLayer": "support",
+      "accentColor": "#d6a728",
+      "caption": "顶内沟、顶上小叶和楔前叶用于表达颜色维度选择、刺激-反应映射和空间/数量属性调度。"
+    },
+    {
+      "id": "stroop-premotor-response",
+      "kind": "parcel",
+      "label": "前运动/SMA反应准备",
+      "role": "response_selection",
+      "weight": 0.68,
+      "networkId": "somatomotor",
+      "parcelId": "schaefer200_028",
+      "displayParcelId": "schaefer200_028",
+      "candidateParcelIds": [
+        "schaefer200_026",
+        "schaefer200_028",
+        "schaefer200_041",
+        "schaefer200_054",
+        "schaefer200_129",
+        "schaefer200_131",
+        "schaefer200_145",
+        "schaefer200_158"
+      ],
+      "regionCoverageId": "primary-motor-somatomotor",
+      "displayLayer": "default",
+      "accentColor": "#d6a728",
+      "caption": "前运动、中央前和SMA邻近区用于表达按键或口头反应的准备与动作竞争。"
+    }
+  ],
+  "edges": [
+    {
+      "id": "demo-edge-input-intuition",
+      "sourceNodeId": "demo-visual-problem-input",
+      "targetNodeId": "demo-math-intuition",
+      "relation": "candidate_flow",
+      "weight": 0.76,
+      "caption": "题目输入首先唤起数量大小和空间关系。",
+      "sourceClaimIds": [
+        "claim-dehaene1999-parietal-magnitude-system"
+      ],
+      "accentColor": "#c95a4d"
+    },
+    {
+      "id": "demo-edge-intuition-fast-answer",
+      "sourceNodeId": "demo-math-intuition",
+      "targetNodeId": "demo-fast-answer",
+      "relation": "candidate_flow",
+      "weight": 0.64,
+      "caption": "熟悉数量关系推动快速算术事实整合。",
+      "sourceClaimIds": [
+        "claim-dehaene1999-exact-approximate-separation"
+      ],
+      "accentColor": "#c95a4d"
+    },
+    {
+      "id": "demo-edge-input-constraint",
+      "sourceNodeId": "demo-visual-problem-input",
+      "targetNodeId": "demo-constraint-language",
+      "relation": "context_integration",
+      "weight": 0.62,
+      "caption": "题干文字同时进入限定词和语义条件处理。",
+      "sourceClaimIds": [
+        "claim-houde2003-logic-math-control-relation"
+      ],
+      "accentColor": "#376eaa"
+    },
+    {
+      "id": "demo-edge-constraint-semantic",
+      "sourceNodeId": "demo-constraint-language",
+      "targetNodeId": "demo-semantic-understanding",
+      "relation": "context_integration",
+      "weight": 0.7,
+      "caption": "限定词和条件词进入语义理解，改变题目真正要求。",
+      "sourceClaimIds": [
+        "claim-houde2003-logic-math-control-relation"
+      ],
+      "accentColor": "#376eaa"
+    },
+    {
+      "id": "demo-edge-constraint-conflict",
+      "sourceNodeId": "demo-constraint-language",
+      "targetNodeId": "demo-stroop-conflict",
+      "relation": "salience_gate",
+      "weight": 0.82,
+      "caption": "限定词改变题意时，冲突控制网络标记直觉答案不可靠。",
+      "sourceClaimIds": [
+        "claim-houde2003-inhibit-misleading-intuition",
+        "claim-pardo1990-stroop-acc-priority"
+      ]
+    },
+    {
+      "id": "demo-edge-fast-answer-conflict",
+      "sourceNodeId": "demo-fast-answer",
+      "targetNodeId": "demo-stroop-conflict",
+      "relation": "salience_gate",
+      "weight": 0.74,
+      "caption": "看似顺手的快速答案成为需要被检查的冲动反应。",
+      "sourceClaimIds": [
+        "claim-niendam2012-conflict-response-control"
+      ]
+    },
+    {
+      "id": "demo-edge-conflict-inhibition",
+      "sourceNodeId": "demo-stroop-conflict",
+      "targetNodeId": "demo-response-inhibition",
+      "relation": "top_down_bias",
+      "weight": 0.68,
+      "caption": "冲突信号帮助压住直接作答的动作倾向。",
+      "sourceClaimIds": [
+        "claim-macdonald2000-acc-dlpfc-dissociation",
+        "claim-niendam2012-conflict-response-control"
+      ]
+    },
+    {
+      "id": "demo-edge-conflict-logic",
+      "sourceNodeId": "demo-stroop-conflict",
+      "targetNodeId": "demo-logical-modeling",
+      "relation": "salience_gate",
+      "weight": 0.78,
+      "caption": "冲突提示把注意力切到规则保持和逻辑建模。",
+      "sourceClaimIds": [
+        "claim-macdonald2000-dlpfc-rule-control",
+        "claim-houde2003-logic-math-control-relation"
+      ]
+    },
+    {
+      "id": "demo-edge-constraint-logic",
+      "sourceNodeId": "demo-constraint-language",
+      "targetNodeId": "demo-logical-modeling",
+      "relation": "context_integration",
+      "weight": 0.76,
+      "caption": "题干限定词进入逻辑结构，重新定义解题路径。",
+      "sourceClaimIds": [
+        "claim-houde2003-logic-math-control-relation"
+      ],
+      "accentColor": "#376eaa"
+    },
+    {
+      "id": "demo-edge-semantic-logic",
+      "sourceNodeId": "demo-semantic-understanding",
+      "targetNodeId": "demo-logical-modeling",
+      "relation": "context_integration",
+      "weight": 0.74,
+      "caption": "语义理解把文字条件组织成可推理的逻辑模型。",
+      "sourceClaimIds": [
+        "claim-houde2003-logic-math-control-relation"
+      ],
+      "accentColor": "#376eaa"
+    },
+    {
+      "id": "demo-edge-logic-intuition",
+      "sourceNodeId": "demo-logical-modeling",
+      "targetNodeId": "demo-math-intuition",
+      "relation": "top_down_bias",
+      "weight": 0.7,
+      "caption": "逻辑模型反向约束数量操作，让直觉回到正确条件下工作。",
+      "sourceClaimIds": [
+        "claim-dehaene2009-intuition-vs-formal-reasoning",
+        "claim-macdonald2000-dlpfc-rule-control"
+      ],
+      "accentColor": "#376eaa"
+    },
+    {
+      "id": "stroop-input-conflict",
+      "sourceNodeId": "stroop-visual-input",
+      "targetNodeId": "stroop-acc-monitoring",
+      "relation": "coactivation",
+      "weight": 0.64,
+      "caption": "冲突来自视觉输入中的竞争信息。",
+      "sourceClaimIds": [],
+      "accentColor": "#d6a728"
+    },
+    {
+      "id": "stroop-acc-salience",
+      "sourceNodeId": "stroop-acc-monitoring",
+      "targetNodeId": "stroop-insula-salience",
+      "relation": "salience_gate",
+      "weight": 0.72,
+      "caption": "冲突监控提高显著性和控制需求。",
+      "sourceClaimIds": [],
+      "accentColor": "#d6a728"
+    },
+    {
+      "id": "stroop-acc-thalamic-gate",
+      "sourceNodeId": "stroop-acc-monitoring",
+      "targetNodeId": "stroop-thalamic-gate",
+      "relation": "coactivation",
+      "weight": 0.42,
+      "caption": "丘脑作为粗粒度皮层外门控边界，与冲突控制网络共同出现。",
+      "sourceClaimIds": [],
+      "accentColor": "#d6a728"
+    },
+    {
+      "id": "stroop-conflict-rule",
+      "sourceNodeId": "stroop-acc-monitoring",
+      "targetNodeId": "stroop-dlpfc-rule",
+      "relation": "salience_gate",
+      "weight": 0.7,
+      "caption": "默认讲解层把冲突监控到规则保持压缩成一条主线；完整证据层仍保留前岛显著性支路。",
+      "sourceClaimIds": [],
+      "accentColor": "#d6a728"
+    },
+    {
+      "id": "stroop-salience-rule",
+      "sourceNodeId": "stroop-insula-salience",
+      "targetNodeId": "stroop-dlpfc-rule",
+      "relation": "salience_gate",
+      "weight": 0.78,
+      "caption": "显著性信号推动前额叶强化当前任务规则。",
+      "sourceClaimIds": [],
+      "accentColor": "#d6a728"
+    },
+    {
+      "id": "stroop-rule-inhibition",
+      "sourceNodeId": "stroop-dlpfc-rule",
+      "targetNodeId": "stroop-ifg-inhibition",
+      "relation": "top_down_bias",
+      "weight": 0.78,
+      "caption": "规则保持帮助抑制自动读词反应。",
+      "sourceClaimIds": [],
+      "accentColor": "#d6a728"
+    },
+    {
+      "id": "stroop-rule-attention",
+      "sourceNodeId": "stroop-dlpfc-rule",
+      "targetNodeId": "stroop-parietal-mapping",
+      "relation": "top_down_bias",
+      "weight": 0.74,
+      "caption": "前额控制把注意和映射压回颜色维度。",
+      "sourceClaimIds": [],
+      "accentColor": "#d6a728"
+    },
+    {
+      "id": "stroop-parietal-response",
+      "sourceNodeId": "stroop-parietal-mapping",
+      "targetNodeId": "stroop-premotor-response",
+      "relation": "candidate_flow",
+      "weight": 0.58,
+      "caption": "顶叶映射把被选中的颜色维度转为反应准备。",
+      "sourceClaimIds": [],
+      "accentColor": "#d6a728"
+    },
+    {
+      "id": "stroop-inhibition-response",
+      "sourceNodeId": "stroop-ifg-inhibition",
+      "targetNodeId": "stroop-premotor-response",
+      "relation": "top_down_bias",
+      "weight": 0.62,
+      "caption": "额下控制帮助压住自动读词通道，稳定目标反应输出。",
+      "sourceClaimIds": [],
+      "accentColor": "#d6a728"
+    }
+  ],
+  "presentationStages": [
+    {
+      "id": "demo-stage-impulse",
+      "title": "1. 数学直觉网络",
+      "summary": "先只看数量关系、数量直觉和熟练答案通路，这是一张相对短、相对快的网络。",
+      "speakerCue": "这里先讲：孩子不是不会算，而是熟悉数量关系太快把他带到一个下意识答案上。",
+      "focusNodeIds": [
+        "demo-visual-problem-input",
+        "demo-math-intuition",
+        "demo-fast-answer"
+      ],
+      "supportingNodeIds": [],
+      "mutedNodeIds": [
+        "demo-constraint-language",
+        "demo-semantic-understanding",
+        "demo-stroop-conflict",
+        "demo-response-inhibition",
+        "demo-logical-modeling"
+      ],
+      "focusEdgeIds": [
+        "demo-edge-input-intuition",
+        "demo-edge-intuition-fast-answer"
+      ],
+      "supportingEdgeIds": []
+    },
+    {
+      "id": "demo-stage-logic-network",
+      "title": "2. 语义理解 + 逻辑建模",
+      "summary": "再看题干语义、限定词和逻辑建模，这张网络比数学直觉更大，负责把题目真正问什么搭起来。",
+      "speakerCue": "这里对比两张网络：直觉网络很快，但逻辑建模网络更大，处理的是题目条件和关系。",
+      "focusNodeIds": [
+        "demo-visual-problem-input",
+        "demo-constraint-language",
+        "demo-semantic-understanding",
+        "demo-logical-modeling"
+      ],
+      "supportingNodeIds": [],
+      "mutedNodeIds": [
+        "demo-math-intuition",
+        "demo-fast-answer",
+        "demo-stroop-conflict",
+        "demo-response-inhibition"
+      ],
+      "focusEdgeIds": [
+        "demo-edge-input-constraint",
+        "demo-edge-constraint-semantic",
+        "demo-edge-semantic-logic",
+        "demo-edge-constraint-logic"
+      ],
+      "supportingEdgeIds": []
+    },
+    {
+      "id": "demo-stage-conflict",
+      "title": "3. 冲突管理介入",
+      "summary": "当直觉答案和题干逻辑不一致时，冲突管理网络把冲动反应刹住，并把注意力推回逻辑建模。",
+      "speakerCue": "这里讲：真正拉开差距的不是计算速度，而是能不能在关键限定词出现时停一下。",
+      "focusNodeIds": [
+        "stroop-visual-input",
+        "stroop-acc-monitoring",
+        "stroop-thalamic-gate",
+        "stroop-insula-salience",
+        "stroop-dlpfc-rule",
+        "stroop-ifg-inhibition",
+        "stroop-parietal-mapping",
+        "stroop-premotor-response",
+        "demo-stroop-conflict",
+        "demo-response-inhibition"
+      ],
+      "supportingNodeIds": [],
+      "mutedNodeIds": [
+        "demo-visual-problem-input",
+        "demo-math-intuition",
+        "demo-fast-answer",
+        "demo-constraint-language",
+        "demo-semantic-understanding",
+        "demo-logical-modeling"
+      ],
+      "focusEdgeIds": [
+        "stroop-input-conflict",
+        "stroop-acc-salience",
+        "stroop-acc-thalamic-gate",
+        "stroop-conflict-rule",
+        "stroop-salience-rule",
+        "stroop-rule-inhibition",
+        "stroop-rule-attention",
+        "stroop-parietal-response",
+        "stroop-inhibition-response",
+        "demo-edge-conflict-inhibition"
+      ],
+      "supportingEdgeIds": []
+    },
+    {
+      "id": "demo-stage-integrated",
+      "title": "4. 完整做题状态",
+      "summary": "数学直觉、语义理解、逻辑建模和冲突管理都在线，直觉被逻辑约束后再参与计算。",
+      "speakerCue": "最后落到训练价值：不是消灭直觉，而是让孩子在该快的时候快、该慢的时候慢。",
+      "focusNodeIds": [
+        "demo-visual-problem-input",
+        "demo-math-intuition",
+        "demo-fast-answer",
+        "demo-constraint-language",
+        "demo-semantic-understanding",
+        "demo-logical-modeling",
+        "stroop-visual-input",
+        "stroop-acc-monitoring",
+        "stroop-thalamic-gate",
+        "stroop-insula-salience",
+        "stroop-dlpfc-rule",
+        "stroop-ifg-inhibition",
+        "stroop-parietal-mapping",
+        "stroop-premotor-response",
+        "demo-stroop-conflict",
+        "demo-response-inhibition"
+      ],
+      "supportingNodeIds": [],
+      "mutedNodeIds": [],
+      "focusEdgeIds": [
+        "demo-edge-input-intuition",
+        "demo-edge-intuition-fast-answer",
+        "demo-edge-input-constraint",
+        "demo-edge-constraint-semantic",
+        "demo-edge-semantic-logic",
+        "demo-edge-constraint-logic",
+        "demo-edge-logic-intuition",
+        "stroop-input-conflict",
+        "stroop-acc-salience",
+        "stroop-acc-thalamic-gate",
+        "stroop-conflict-rule",
+        "stroop-salience-rule",
+        "stroop-rule-inhibition",
+        "stroop-rule-attention",
+        "stroop-parietal-response",
+        "stroop-inhibition-response",
+        "demo-edge-constraint-conflict",
+        "demo-edge-fast-answer-conflict",
+        "demo-edge-conflict-inhibition",
+        "demo-edge-conflict-logic"
+      ],
+      "supportingEdgeIds": []
+    }
+  ],
+  "safeClaim": "这张图可以作为销售演示中的机制表达：数学直觉、题干语义/逻辑建模和 Stroop-like 冲突控制共同影响应用题表现。",
+  "boundary": "当前是候选表达层，不要讲成每个点位都已由应用题 fMRI 坐标严格证明；应用题专门 fMRI 和计算元分析坐标仍在补强。"
+}

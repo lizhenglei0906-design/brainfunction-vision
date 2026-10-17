@@ -1,0 +1,2360 @@
+{
+  "id": "specialized-atlas-registry-v0",
+  "version": "0.1.0",
+  "status": "seed",
+  "updated": "2026-06-21",
+  "sourceNote": "Specialized non-Schaefer atlas registry. Cerebellar MNI dseg files are locally archived; Harvard-Oxford subcortical MNI labels currently provide coarse hippocampus/amygdala localization and coarse basal-ganglia/thalamus localization; Juelich cytoarchitectonic labels add hippocampal subfield, entorhinal, transition-area, and amygdala-subdivision localization; Lead-DBS/DISTAL raw atlas package is local, has a full review mesh and a main-view lite mesh, and its MNI152NLin2009bAsym review-space assignment is supported by Lead-DBS documentation, but formal atlas_index labels and license remain pending production review; ASHS / UPenn PMC T1ext is now locally available as the primary MTL atlas package candidate for anterior/posterior hippocampus, ERC, BA35/BA36 perirhinal cortex, PHC, and amygdala. Its template/refspace audit shows cached template files are binary masks or continuous refspace volumes rather than seven-label consensus segmentations, while its train-segmentation audit confirms all 29 left/right training segmentations contain all seven target labels. Its transform-chain audit has enumerated and executed the 58 ASHS-defined nearest-neighbor train-to-refspace warp commands with zero missing inputs and zero geometry failures; vote maps, consensus label maps, source-refspace review mesh, and a calibrated viewer-projection candidate now exist in local outputs. The projection candidate uses a data-driven translation selected by reference-overlap search; overlap warnings are cleared and projection validation now has warningCount 0. A structure-level terminal review queue is generated with 14/14 rows ready for terminal review, 0 signed-production rows, and 0 lookup-ready rows; a visual QA evidence pack preserves those 14 rows with automated geometry evidence, and a signoff queue now expands them into 62 executable review items with viewer poses, required checklists, 62/62 linked direct-view SVG screenshots, 62 pending signoffs, 0 signed-production rows, and 0 lookup-ready rows. A source/license/citation audit is now generated: NITRC source page and release notes are captured for the February 2025 T1ext release, including the Sadeghpour et al. 2025 DOI reference, and ASHS software/project GPL text is found; atlas data redistribution terms, 62 manual signoffs, decimation/lazy-load policy, and lookup QA remain blocked. ERC/Br35/Br36 retain deep ventral MTL review notes and Br35/Br36/PHC retain the perirhinal reference-mesh gap note; a P0 packet isolates 30 Br35/Br36/PHC reference-gap review items, a P0 manual signoff review board lays out those 30 direct-view items for human inspection, and empty P0 plus full 62-item decision ledgers provide the later signoff targets while keeping all reviewer fields pending. From the current BrainFunction_vision educational 3D tool perspective, the ASHS lane is marked application-fit 100%; the reference-consistency and application-precision boundary mark 24 P2 hippocampus/amygdala rows as app-fit preview candidates after viewer source/uncertainty labeling, no lookup, no signed export, and reversible feature-flag affordances; 30 P0 and 8 P1 rows remain expert-blocked, and signed production remains blocked until manual visual QA signoff, release-level atlas data redistribution review, decimation/lazy-load policy, and lookup QA are complete. ASHS Neuropresage/Cyceron LC package remains a left locus-coeruleus candidate only; Delay-dependent MTL ROI remains a secondary PRC/PHC candidate pending source/license review.",
+  "sources": [
+    {
+      "id": "diedrichsenlab-cerebellar-atlases",
+      "label": "DiedrichsenLab cerebellar_atlases",
+      "citation": "DiedrichsenLab cerebellar atlas collection; includes Diedrichsen et al. 2009 and Buckner et al. 2011 maps.",
+      "url": "https://github.com/DiedrichsenLab/cerebellar_atlases",
+      "license": "CC BY-ND unless otherwise noted by the contributing paper",
+      "note": "Repository README states that atlas/data maps are provided in MNI, MNISym and SUIT template spaces; Buckner7/Buckner17 and Diedrichsen2009 labels are used here."
+    },
+    {
+      "id": "mtl-memory-atlas-seed-source-note",
+      "label": "MTL memory atlas seed anchors",
+      "citation": "Seed layer for hippocampal formation, amygdala, and entorhinal/parahippocampal interface; replace with vetted MTL voxel/subfield atlas in a later pass.",
+      "url": "local://src/data/brain-structures/physical-structures.seed.json",
+      "note": "This source is intentionally local and conservative. It prevents Schaefer200 cortical parcels from being misused as hippocampal/subcortical labels."
+    },
+    {
+      "id": "harvard-oxford-subcortical-structural-atlas",
+      "label": "Harvard-Oxford Subcortical Structural Atlas",
+      "citation": "Harvard-Oxford Subcortical Structural Atlas, distributed with FSL and fetched locally through Nilearn.",
+      "url": "https://nilearn.github.io/stable/modules/generated/nilearn.datasets.fetch_atlas_harvard_oxford.html",
+      "note": "Local cache file is HarvardOxford-sub-maxprob-thr25-1mm. The current import uses hippocampus/amygdala plus a coarse caudate/putamen/pallidum/accumbens/thalamus layer; it is not a hippocampal subfield atlas and not a fine subcortical nuclei atlas."
+    },
+    {
+      "id": "juelich-histological-atlas",
+      "label": "Juelich Histological Atlas",
+      "citation": "Juelich Histological Atlas / Julich-Brain cytoarchitectonic probability maps, distributed with FSL and fetched locally through Nilearn; cite the Julich-Brain atlas methodology such as Amunts et al. 2020 for scientific use.",
+      "url": "https://nilearn.github.io/stable/modules/generated/nilearn.datasets.fetch_atlas_juelich.html",
+      "note": "Local cache file is Juelich-maxprob-thr25-1mm. Only MTL-relevant hippocampal, entorhinal, hippocampal-amygdaloid transition, subiculum, dentate, cornu ammonis, and amygdala group labels are imported here."
+    },
+    {
+      "id": "leaddbs-distal-data-package",
+      "label": "Lead-DBS / DISTAL atlas data package",
+      "citation": "Lead-DBS data package containing DISTAL (Ewert 2017), DISTAL Medium/Minimal, AHEAD, ATAG_STN, and basal-ganglia/thalamus atlas folders. Cite Ewert et al. 2018 and the specific atlas source paper before scientific release.",
+      "url": "https://www.lead-dbs.org/release/download.php?id=data_pcloud",
+      "note": "Downloaded locally on 2026-06-19 from the Lead-DBS data package redirect. Raw zip and extracted NIfTI masks are intentionally kept under src/data/specialized-atlases/raw/ and ignored by Git. Surface mesh conversion and atlas_index label parsing are still pending."
+    },
+    {
+      "id": "ashs-lc-neuropresage-package",
+      "label": "ASHS Neuropresage/Cyceron LC atlas package",
+      "citation": "Local ASHS-compatible Neuropresage/Cyceron LC atlas package provided on 2026-06-19; formal source page, citation, and redistribution terms still need review before scientific release.",
+      "url": "local://src/data/specialized-atlases/raw/ashs-lc-neuropresage/ashs_atlas_neuropresage_lc_20230331.tgz",
+      "note": "Archive root is ashs_atlas_cyceron_lc_20230331; ASHS vars report version 1.0.0, date 20170915, N=30; label table contains one anatomical label, LC. Template files are locally extracted and refspace_meanseg_left.nii.gz was audited as a 510-voxel binary source-template LC mask, but no README, citation file, license file, or package-specific documentation file was found in the archive. This is a left-only locus-coeruleus candidate atlas source, not an MTL/hippocampal/perirhinal/parahippocampal atlas package."
+    },
+    {
+      "id": "delay-dependent-mtl-roi-zip",
+      "label": "Delay-dependent MTL ROI zip",
+      "citation": "Local zip titled Delay-dependent contributions of medial temporal lobe regions to episodic memory retrieval, provided on 2026-06-20; original source page, paper citation, and redistribution terms still need review before scientific release.",
+      "url": "local://src/data/specialized-atlases/raw/delay-dependent-mtl-roi/source.zip",
+      "note": "Archive contains 20 MNI-like 1 mm NIfTI files for bilateral PRC, PHC, hippocampal head, hippocampal body, and hippocampal tail, with binary mask files and graded group files. No README, license, or source metadata was found in the zip. Treat as a candidate MTL ROI source pending source/citation/license review, threshold policy, mesh conversion, and visual QA."
+    },
+    {
+      "id": "ashs-upennpmc-t1ext-20240617-package",
+      "label": "ASHS / UPenn PMC T1ext atlas package",
+      "citation": "NITRC ASHS package: Penn Memory Center 3T ASHS Atlas for T1-weighted MRI, February 2025 Release with Amygdala and Anterior MTL, file ashs_atlas_upennpmc_t1ext_20240617.tgz, posted by Paul Yushkevich on 2025-02-21. Release notes state the atlas extends the T1-ASHS PMC atlas with more anterior regions and the amygdala label, as described in Sadeghpour et al. 2025, DOI 10.1101/2025.02.11.637506.",
+      "url": "https://www.nitrc.org/frs/shownotes.php?release_id=7230",
+      "license": "NITRC ASHS project specifications list GNU General Public License (GPL); release-level atlas data redistribution terms are not separately captured.",
+      "downloadUrl": "https://ashs.projects.nitrc.org/ashs_atlas_upennpmc_t1ext_20240617.tgz",
+      "atlasDataRedistributionTermsCaptured": false,
+      "upstreamEvidence": [
+        {
+          "type": "source_page",
+          "url": "https://www.nitrc.org/projects/ashs/",
+          "note": "ASHS project page lists the February 2025 release with Amygdala and Anterior MTL and the direct T1ext package URL."
+        },
+        {
+          "type": "filelist",
+          "url": "https://www.nitrc.org/frs/?group_id=370",
+          "note": "Filelist identifies package Penn Memory Center 3T ASHS Atlas for T1-weighted MRI, release date 2025-02-21, file ashs_atlas_upennpmc_t1ext_20240617.tgz, size 4 GB."
+        },
+        {
+          "type": "release_notes",
+          "url": "https://www.nitrc.org/frs/shownotes.php?release_id=7230",
+          "note": "Release notes state the atlas extends the T1-ASHS PMC atlas with more anterior regions and amygdala label, and cite DOI 10.1101/2025.02.11.637506."
+        }
+      ],
+      "note": "Local full package is about 4.0 GB and contains ASHS final/template, final/train, final/adaboost, and final/snap. Project raw cache selectively copies final/template, final/adaboost, final/snap and config files under src/data/specialized-atlases/raw/ashs-upennpmc-t1ext-20240617/. ASHS vars report version 1.0.0, date 20170915, N=29. snaplabels.txt includes anterior/posterior hippocampus, ERC, Br35, Br36, PHC, amygdala, and auxiliary training labels. ASHS system config carries GPLv3 software text, and the NITRC ASHS project lists GPL, but atlas package data redistribution terms remain blocked until release-level redistribution language is captured."
+    }
+  ],
+  "atlases": [
+    {
+      "id": "mtl-memory-atlas-seed",
+      "family": "medial_temporal_lobe",
+      "label": "海马/内侧颞叶记忆种子图谱",
+      "englishLabel": "MTL memory seed atlas",
+      "sourceId": "mtl-memory-atlas-seed-source-note",
+      "status": "metadata_seed",
+      "refinementStage": "seed_anchor_only",
+      "presentationUseLevel": "physical_anchor_only",
+      "coordinateSpace": "viewer_ras_approximate",
+      "rawFiles": [
+        "src/data/brain-structures/physical-structures.seed.json"
+      ],
+      "labelIds": [
+        "mtl-left-hippocampal-formation",
+        "mtl-right-hippocampal-formation",
+        "mtl-left-entorhinal-parahippocampal",
+        "mtl-right-entorhinal-parahippocampal",
+        "mtl-left-amygdala",
+        "mtl-right-amygdala"
+      ],
+      "scope": "Hippocampal formation, amygdala, and entorhinal/parahippocampal interface anchors for visualization.",
+      "displayPolicy": "Render as translucent auxiliary physical anchors only. Use for memory-system orientation, not for voxel-level or subfield-level claims.",
+      "nextRefinementGate": "Import a vetted MNI-space MTL/hippocampal voxel or subfield atlas, then connect study coordinates to atlas labels before upgrading beyond anchor use.",
+      "caution": "Use only as a conservative physical/semantic anchor. It is not a hippocampal subfield atlas and not a voxel segmentation."
+    },
+    {
+      "id": "harvard-oxford-subcortical-mtl",
+      "family": "medial_temporal_lobe",
+      "label": "Harvard-Oxford 海马/杏仁核结构图谱",
+      "englishLabel": "Harvard-Oxford hippocampus/amygdala structural atlas",
+      "sourceId": "harvard-oxford-subcortical-structural-atlas",
+      "status": "voxel_label_imported",
+      "refinementStage": "coarse_template_mesh_projected_review",
+      "presentationUseLevel": "atlas_label_reference",
+      "coordinateSpace": "MNI152NLin6AsymC",
+      "rawFiles": [
+        "src/data/specialized-atlases/raw/mtl/HarvardOxford-subcortical-mtl.tsv",
+        "src/data/specialized-atlases/raw/mtl/HarvardOxford-sub-maxprob-thr25-1mm.nii"
+      ],
+      "labelIds": [
+        "harvard-oxford-subcortical-mtl-09",
+        "harvard-oxford-subcortical-mtl-10",
+        "harvard-oxford-subcortical-mtl-19",
+        "harvard-oxford-subcortical-mtl-20"
+      ],
+      "scope": "Left/right hippocampus and left/right amygdala labels from the Harvard-Oxford subcortical maximum-probability atlas.",
+      "displayPolicy": "Use for coarse MNI-space hippocampus/amygdala localization, coordinate lookup, and review-grade translucent 3D structure display. Do not present as entorhinal cortex, parahippocampal cortex, perirhinal cortex, or hippocampal subfield precision.",
+      "nextRefinementGate": "Use the Juelich MTL cytoarchitectonic layer for CA-region/dentate/subiculum/entorhinal review localization, then add a separate MTL cortical atlas before claiming perirhinal or full parahippocampal boundary precision.",
+      "caution": "This is a coarse subcortical structural atlas layer. It stabilizes hippocampus/amygdala localization but does not solve MTL subfield or cortical MTL segmentation."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic",
+      "family": "medial_temporal_lobe",
+      "label": "Jülich 海马/内嗅/杏仁核细胞构筑图谱",
+      "englishLabel": "Juelich MTL cytoarchitectonic atlas",
+      "sourceId": "juelich-histological-atlas",
+      "status": "voxel_label_imported",
+      "refinementStage": "cytoarchitectonic_mesh_projected_review",
+      "presentationUseLevel": "atlas_label_reference",
+      "coordinateSpace": "MNI152NLin6AsymC",
+      "rawFiles": [
+        "src/data/specialized-atlases/raw/mtl/Juelich-mtl-cytoarchitectonic.tsv",
+        "src/data/specialized-atlases/raw/mtl/Juelich-maxprob-thr25-1mm.nii"
+      ],
+      "labelIds": [
+        "juelich-mtl-cytoarchitectonic-07",
+        "juelich-mtl-cytoarchitectonic-08",
+        "juelich-mtl-cytoarchitectonic-09",
+        "juelich-mtl-cytoarchitectonic-10",
+        "juelich-mtl-cytoarchitectonic-11",
+        "juelich-mtl-cytoarchitectonic-12",
+        "juelich-mtl-cytoarchitectonic-17",
+        "juelich-mtl-cytoarchitectonic-18",
+        "juelich-mtl-cytoarchitectonic-19",
+        "juelich-mtl-cytoarchitectonic-20",
+        "juelich-mtl-cytoarchitectonic-21",
+        "juelich-mtl-cytoarchitectonic-22",
+        "juelich-mtl-cytoarchitectonic-23",
+        "juelich-mtl-cytoarchitectonic-24",
+        "juelich-mtl-cytoarchitectonic-25",
+        "juelich-mtl-cytoarchitectonic-26"
+      ],
+      "scope": "Juelich max-probability MNI labels for amygdala subdivisions, hippocampal cornu ammonis, dentate gyrus, entorhinal cortex, hippocampal-amygdaloid transition area, and subiculum.",
+      "displayPolicy": "Use as review-grade MTL cytoarchitectonic localization, coordinate lookup metadata, and translucent 3D mesh for hippocampal CA region, dentate gyrus, subiculum, entorhinal cortex, hippocampal-amygdaloid transition area, and amygdala subdivisions. Do not use it for perirhinal or full parahippocampal cortex claims.",
+      "nextRefinementGate": "Connect more MTL boundary coordinates to Juelich labels, compare against Harvard-Oxford coarse labels, and add a separate parahippocampal/perirhinal atlas before claiming full MTL cortical coverage.",
+      "caution": "This max-probability layer improves subfield-level localization but still does not prove task-specific activation and does not cover perirhinal/parahippocampal cortex."
+    },
+    {
+      "id": "delay-dependent-mtl-roi-candidate",
+      "family": "medial_temporal_lobe",
+      "label": "Delay-dependent MTL ROI 候选图谱",
+      "englishLabel": "Delay-dependent MTL ROI candidate atlas",
+      "sourceId": "delay-dependent-mtl-roi-zip",
+      "status": "raw_atlas_package_extracted",
+      "refinementStage": "nifti_masks_extracted_mesh_conversion_pending",
+      "presentationUseLevel": "atlas_source_ready_not_mesh_ready",
+      "coordinateSpace": "MNI152NLin6AsymC",
+      "rawFiles": [
+        "src/data/specialized-atlases/raw/delay-dependent-mtl-roi/source.zip",
+        "src/data/specialized-atlases/raw/delay-dependent-mtl-roi/extracted/Delay-dependent contributions of medial temporal lobe regions to episodic memory retrieval/PRC_L_mask.nii.gz",
+        "src/data/specialized-atlases/raw/delay-dependent-mtl-roi/extracted/Delay-dependent contributions of medial temporal lobe regions to episodic memory retrieval/PRC_R_mask.nii.gz",
+        "src/data/specialized-atlases/raw/delay-dependent-mtl-roi/extracted/Delay-dependent contributions of medial temporal lobe regions to episodic memory retrieval/PHC_L_mask.nii.gz",
+        "src/data/specialized-atlases/raw/delay-dependent-mtl-roi/extracted/Delay-dependent contributions of medial temporal lobe regions to episodic memory retrieval/PHC_R_mask.nii.gz"
+      ],
+      "labelIds": [],
+      "scope": "Candidate MNI-like ROI masks and graded group maps for bilateral perirhinal cortex, parahippocampal cortex, and hippocampal head/body/tail.",
+      "displayPolicy": "Keep as source-ready candidate material only. Do not render in the main 3D view or use for production coordinate lookup until source/citation/license, threshold policy, mesh conversion, and visual QA are complete.",
+      "nextRefinementGate": "Identify the original source/citation/license, decide whether binary masks or thresholded group maps should drive the mesh, generate lightweight PRC/PHC and hippocampal head/body/tail review meshes, then cross-check against Juelich, Harvard-Oxford, FreeSurfer HippoAmyg, and any future ASHS / UPenn PMC package.",
+      "caution": "The NIfTI headers are MNI-like and internally consistent, but the archive lacks README, source page, license, and explicit template-space documentation. Treat as a candidate bridge for PRC/PHC coverage, not a closed production atlas."
+    },
+    {
+      "id": "ashs-upennpmc-t1ext-20240617",
+      "family": "medial_temporal_lobe",
+      "label": "ASHS / UPenn PMC T1ext 内侧颞叶图谱",
+      "englishLabel": "ASHS / UPenn PMC T1ext medial temporal lobe atlas",
+      "sourceId": "ashs-upennpmc-t1ext-20240617-package",
+      "status": "raw_atlas_package_extracted",
+      "refinementStage": "viewer_projection_candidate_generated",
+      "presentationUseLevel": "atlas_mesh_projection_candidate_not_display_ready",
+      "coordinateSpace": "viewer_projection_candidate_from_source_refspace",
+      "rawFiles": [
+        "src/data/specialized-atlases/raw/ashs-upennpmc-t1ext-20240617/final/ashs_atlas_vars.sh",
+        "src/data/specialized-atlases/raw/ashs-upennpmc-t1ext-20240617/final/ashs_user_config.sh",
+        "src/data/specialized-atlases/raw/ashs-upennpmc-t1ext-20240617/final/ashs_system_config.sh",
+        "src/data/specialized-atlases/raw/ashs-upennpmc-t1ext-20240617/final/snap/snaplabels.txt",
+        "src/data/specialized-atlases/raw/ashs-upennpmc-t1ext-20240617/final/template/refspace_meanseg_left.nii.gz",
+        "src/data/specialized-atlases/raw/ashs-upennpmc-t1ext-20240617/final/template/refspace_meanseg_right.nii.gz",
+        "src/data/specialized-atlases/raw/ashs-upennpmc-t1ext-20240617/final/template/refspace_left.nii.gz",
+        "src/data/specialized-atlases/raw/ashs-upennpmc-t1ext-20240617/final/template/refspace_right.nii.gz",
+        "src/data/specialized-atlases/raw/ashs-upennpmc-t1ext-20240617/final/template/template.nii.gz",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-refspace-audit.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-train-segmentation-audit.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-transform-chain-audit.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-consensus-readiness.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-consensus-refspace-mesh.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-viewer-projection-audit.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-terminal-review.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-visual-qa-evidence.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-visual-qa-signoff-queue.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-direct-view-evidence.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-source-license-citation-audit.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-redistribution-terms-sweep.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-p0-reference-gap-review-packet.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-p0-manual-signoff-review-board.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-p0-manual-signoff-decision-ledger.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-manual-signoff-decision-ledger.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-reference-consistency-review.generated.json",
+        "src/data/specialized-atlases/ashs-upennpmc-t1ext-application-precision-boundary.generated.json"
+      ],
+      "labelIds": [
+        "ashs-upennpmc-t1ext-20240617-anterior-hippocampus",
+        "ashs-upennpmc-t1ext-20240617-posterior-hippocampus",
+        "ashs-upennpmc-t1ext-20240617-erc",
+        "ashs-upennpmc-t1ext-20240617-br35",
+        "ashs-upennpmc-t1ext-20240617-br36",
+        "ashs-upennpmc-t1ext-20240617-phc",
+        "ashs-upennpmc-t1ext-20240617-amygdala"
+      ],
+      "scope": "ASHS T1ext atlas package for medial temporal lobe segmentation, including anterior/posterior hippocampus, entorhinal cortex, perirhinal BA35/BA36, parahippocampal cortex, and amygdala labels.",
+      "displayPolicy": "Keep signed atlas production and application-fit educational preview separate. Do not render refspace_left/right as seven-label meshes: the generated refspace audit classifies them as continuous refspace volumes, not integer label maps. The 24 P2 hippocampus/amygdala rows may become a clearly labeled ASHS T1ext app-fit preview layer only after the viewer has uncertainty/source labeling, no coordinate lookup, no signed-atlas export, and a reversible review/feature flag. The 30 P0 Br35/Br36/PHC rows and 8 P1 ERC/deep-ventral rows remain blocked from educational preview.",
+      "nextRefinementGate": "Use the generated visual QA signoff queue, P0 reference-gap packet, P0 manual signoff review board, empty P0 decision ledger, full 62-item manual signoff decision ledger, automated reference-consistency review, and application precision boundary to route all 62 ASHS items. From the current BrainFunction_vision educational 3D tool perspective, this lane is application-fit 100%. The automated pass verifies 62/62 screenshots and 62/62 laterality geometry, marks 24 P2 hippocampus/amygdala rows as application-fit preview candidates, and keeps 30 P0 Br35/Br36/PHC plus 8 P1 ERC/deep-ventral rows expert-blocked. NITRC source page and release citation are captured, but release-level atlas data redistribution terms remain blocked; then implement viewer affordances before any preview display, and separately choose decimation/lazy-load plus cross-check against Juelich, Harvard-Oxford, FreeSurfer HippoAmyg, and Delay-dependent MTL ROI before any signed production or lookup promotion.",
+      "caution": "This appears to be the requested ASHS / UPenn PMC T1ext atlas package, but the cached template/refspace files do not directly provide a seven-label consensus segmentation. The project has generated one from nearest-neighbor train-to-refspace warps and produced a calibrated viewer-projection candidate, a visual QA evidence pack, a 62-item signoff queue, a 62/62 direct-view evidence set, a source/license/citation audit, a redistribution-terms sweep, a 30-item P0 reference-gap packet, a static P0 manual signoff review board, an empty P0 decision ledger, a full 62-item manual signoff decision ledger scaffold, an automated reference-consistency review, and an application precision boundary. Projection validation is now warning-clean, screenshot/laterality consistency checks pass, and NITRC source/citation is captured, but the application-fit boundary is not human neuroanatomical signoff. Release-level atlas data redistribution terms, manual visual signoff, decimation/lazy-load policy, lookup QA, and perirhinal reference-gap resolution still block signed production. Do not present it as signed viewer/MNI-ready or coordinate-lookup-ready until those gates are complete."
+    },
+    {
+      "id": "harvard-oxford-subcortical-basal-ganglia-thalamus",
+      "family": "subcortical",
+      "label": "Harvard-Oxford 基底节/丘脑粗粒度结构图谱",
+      "englishLabel": "Harvard-Oxford basal ganglia and thalamus structural atlas",
+      "sourceId": "harvard-oxford-subcortical-structural-atlas",
+      "status": "voxel_label_imported",
+      "refinementStage": "coarse_template_mesh_projected_review",
+      "presentationUseLevel": "atlas_label_reference",
+      "coordinateSpace": "MNI152NLin6AsymC",
+      "rawFiles": [
+        "src/data/specialized-atlases/raw/mtl/HarvardOxford-subcortical-basal-ganglia-thalamus.tsv",
+        "src/data/specialized-atlases/raw/mtl/HarvardOxford-sub-maxprob-thr25-1mm.nii"
+      ],
+      "labelIds": [
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-04",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-05",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-06",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-07",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-11",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-15",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-16",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-17",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-18",
+        "harvard-oxford-subcortical-basal-ganglia-thalamus-21"
+      ],
+      "scope": "Left/right thalamus, caudate, putamen, pallidum, and nucleus accumbens labels from the Harvard-Oxford subcortical maximum-probability atlas.",
+      "displayPolicy": "Use for coarse MNI-space basal-ganglia/thalamus localization, coordinate lookup, and review-grade translucent 3D display. Do not present as STN, GPi/GPe, pulvinar, mediodorsal thalamus, or ventral-striatal shell/core precision.",
+      "nextRefinementGate": "Basal ganglia/STN fine display is handled by CIT168; thalamic nuclei still require THOMAS/AHEAD/DISTAL or another vetted nuclei atlas before claiming pulvinar or mediodorsal precision.",
+      "caution": "This is a coarse subcortical structural atlas layer. It stabilizes basal-ganglia/thalamus localization but does not solve fine nuclei segmentation or prove task-specific activation by itself."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules",
+      "family": "cerebellum",
+      "label": "Diedrichsen 2009 小脑分叶/深部核团图谱",
+      "englishLabel": "Diedrichsen 2009 cerebellar lobules and nuclei",
+      "sourceId": "diedrichsenlab-cerebellar-atlases",
+      "status": "voxel_label_imported",
+      "refinementStage": "boundary_shell_projected_review",
+      "presentationUseLevel": "atlas_label_reference",
+      "coordinateSpace": "MNI152NLin6AsymC",
+      "rawFiles": [
+        "src/data/specialized-atlases/raw/cerebellum/atl-Anatom.tsv",
+        "src/data/specialized-atlases/raw/cerebellum/atl-Anatom_space-MNI_dseg.nii",
+        "src/data/brain-surface/cerebellum-diedrichsen-boundary.surface.json"
+      ],
+      "labelIds": [
+        "diedrichsen-2009-cerebellar-lobules-01",
+        "diedrichsen-2009-cerebellar-lobules-02",
+        "diedrichsen-2009-cerebellar-lobules-03",
+        "diedrichsen-2009-cerebellar-lobules-04",
+        "diedrichsen-2009-cerebellar-lobules-05",
+        "diedrichsen-2009-cerebellar-lobules-06",
+        "diedrichsen-2009-cerebellar-lobules-07",
+        "diedrichsen-2009-cerebellar-lobules-08",
+        "diedrichsen-2009-cerebellar-lobules-09",
+        "diedrichsen-2009-cerebellar-lobules-10",
+        "diedrichsen-2009-cerebellar-lobules-11",
+        "diedrichsen-2009-cerebellar-lobules-12",
+        "diedrichsen-2009-cerebellar-lobules-13",
+        "diedrichsen-2009-cerebellar-lobules-14",
+        "diedrichsen-2009-cerebellar-lobules-15",
+        "diedrichsen-2009-cerebellar-lobules-16",
+        "diedrichsen-2009-cerebellar-lobules-17",
+        "diedrichsen-2009-cerebellar-lobules-18",
+        "diedrichsen-2009-cerebellar-lobules-19",
+        "diedrichsen-2009-cerebellar-lobules-20",
+        "diedrichsen-2009-cerebellar-lobules-21",
+        "diedrichsen-2009-cerebellar-lobules-22",
+        "diedrichsen-2009-cerebellar-lobules-23",
+        "diedrichsen-2009-cerebellar-lobules-24",
+        "diedrichsen-2009-cerebellar-lobules-25",
+        "diedrichsen-2009-cerebellar-lobules-26",
+        "diedrichsen-2009-cerebellar-lobules-27",
+        "diedrichsen-2009-cerebellar-lobules-28",
+        "diedrichsen-2009-cerebellar-lobules-29",
+        "diedrichsen-2009-cerebellar-lobules-30",
+        "diedrichsen-2009-cerebellar-lobules-31",
+        "diedrichsen-2009-cerebellar-lobules-32",
+        "diedrichsen-2009-cerebellar-lobules-33",
+        "diedrichsen-2009-cerebellar-lobules-34"
+      ],
+      "scope": "Cerebellar lobules I-IV, V, VI, Crus I/II, VIIb, VIIIa/b, IX, X, and deep nuclei.",
+      "displayPolicy": "Use label names, voxel counts, MNI centroids, and the generated boundary shell as an anatomical presentation layer. The shell supports overall cerebellum position and lobule-boundary cues, not subject-specific precision.",
+      "nextRefinementGate": "Upgrade the point-cloud boundary shell to a true mesh/volume layer and add selectable lobule/network overlays before using lobule outlines as fine-grained production geometry.",
+      "caution": "This is anatomical localization plus a lightweight viewer projection. Cognitive interpretation still requires task evidence or Buckner/MDTB functional maps."
+    },
+    {
+      "id": "buckner-2011-cerebellum-7networks",
+      "family": "cerebellum",
+      "label": "Buckner 2011 小脑 7 网络图谱",
+      "englishLabel": "Buckner 2011 cerebellar 7-network atlas",
+      "sourceId": "diedrichsenlab-cerebellar-atlases",
+      "status": "voxel_label_imported",
+      "refinementStage": "voxel_labels_imported_mesh_projection_pending",
+      "presentationUseLevel": "atlas_label_reference",
+      "coordinateSpace": "MNI152NLin6AsymC",
+      "rawFiles": [
+        "src/data/specialized-atlases/raw/cerebellum/atl-Buckner7.tsv",
+        "src/data/specialized-atlases/raw/cerebellum/atl-Buckner7_space-MNI_dseg.nii"
+      ],
+      "labelIds": [
+        "buckner-2011-cerebellum-7networks-01",
+        "buckner-2011-cerebellum-7networks-02",
+        "buckner-2011-cerebellum-7networks-03",
+        "buckner-2011-cerebellum-7networks-04",
+        "buckner-2011-cerebellum-7networks-05",
+        "buckner-2011-cerebellum-7networks-06",
+        "buckner-2011-cerebellum-7networks-07"
+      ],
+      "scope": "Cerebellar voxel assignment to seven Yeo-compatible resting-state networks.",
+      "displayPolicy": "Use as cerebellar network membership metadata and for convergence review. Do not treat resting-state membership as task activation proof.",
+      "nextRefinementGate": "Add coordinate-to-network lookup and a viewer overlay that distinguishes cerebellar network labels from cortical Schaefer/Yeo labels.",
+      "caution": "Resting-state network assignment helps interpret cerebellar participation but does not prove task-specific activation."
+    },
+    {
+      "id": "leaddbs-distal-subcortical-atlas-package",
+      "family": "subcortical",
+      "label": "Lead-DBS / DISTAL 基底节与丘脑精细图谱包",
+      "englishLabel": "Lead-DBS / DISTAL subcortical atlas package",
+      "sourceId": "leaddbs-distal-data-package",
+      "status": "raw_atlas_package_extracted",
+      "refinementStage": "nifti_masks_projected_mesh_review_lite_connected",
+      "presentationUseLevel": "atlas_mesh_review_lite_connected",
+      "coordinateSpace": "MNI152NLin2009bAsym",
+      "rawFiles": [
+        "src/data/specialized-atlases/raw/leaddbs-distal/leaddbs_data.zip",
+        "src/data/specialized-atlases/raw/leaddbs-distal/extracted/templates/space/MNI152NLin2009bAsym/atlases/DISTAL Minimal (Ewert 2017)",
+        "src/data/specialized-atlases/raw/leaddbs-distal/extracted/templates/space/MNI152NLin2009bAsym/atlases/DISTAL Medium (Ewert 2017)",
+        "src/data/specialized-atlases/raw/leaddbs-distal/extracted/templates/space/MNI152NLin2009bAsym/atlases/Atlas of the Basal Ganglia and Thalamus (He 2020)",
+        "src/data/specialized-atlases/raw/leaddbs-distal/extracted/templates/space/MNI152NLin2009bAsym/atlases/AHEAD Atlas (Alkemade 2020)",
+        "src/data/specialized-atlases/raw/leaddbs-distal/extracted/templates/space/MNI152NLin2009bAsym/atlases/ATAG_STN (Forstmann 2012 & Keuken 2013)",
+        "src/data/brain-surface/leaddbs-distal-subcortical.surface.json",
+        "src/data/brain-surface/leaddbs-distal-subcortical-lite.surface.json",
+        "src/data/specialized-atlases/leaddbs-distal-label-audit.generated.json"
+      ],
+      "labelIds": [],
+      "scope": "Subcortical masks for STN, GPi, GPe, red nucleus, substantia nigra, caudate/putamen/pallidum, thalamus and selected thalamic targets such as VA/VIM/VoiCm. DISTAL also includes STN motor/associative/limbic and GPi functional subdivision masks.",
+      "displayPolicy": "Use the lite mesh only as an atlas-derived orientation and review layer in the main 3D viewer. It is loaded on demand when basal-ganglia or thalamus is active; the full 32-structure mesh stays in review for lookup and spatial audit.",
+      "nextRefinementGate": "Parse atlas_index.mat with an HDF5/MAT reader, generate a formal structure registry, compare filename-derived labels with atlas metadata, then review license/citation and decide whether GPe/VA/VoiCm should become separate lazy-loaded groups.",
+      "caution": "The package is real and local, full/lite review meshes exist, and review-space is supported by Lead-DBS MNI2009b documentation. It is still not production-grade precision because formal label metadata and license/citation require final review."
+    },
+    {
+      "id": "ashs-lc-neuropresage-left",
+      "family": "subcortical",
+      "label": "ASHS Neuropresage/Cyceron 左侧蓝斑候选图谱",
+      "englishLabel": "ASHS Neuropresage/Cyceron left locus coeruleus candidate atlas",
+      "sourceId": "ashs-lc-neuropresage-package",
+      "status": "raw_atlas_package_extracted",
+      "refinementStage": "nifti_masks_extracted_mesh_conversion_pending",
+      "presentationUseLevel": "atlas_source_ready_not_mesh_ready",
+      "coordinateSpace": "source_template_refspace_unconfirmed",
+      "rawFiles": [
+        "src/data/specialized-atlases/raw/ashs-lc-neuropresage/ashs_atlas_neuropresage_lc_20230331.tgz",
+        "src/data/specialized-atlases/raw/ashs-lc-neuropresage/ashs_atlas_vars.sh",
+        "src/data/specialized-atlases/raw/ashs-lc-neuropresage/ashs_user_config.sh",
+        "src/data/specialized-atlases/raw/ashs-lc-neuropresage/snap/snaplabels.txt",
+        "src/data/specialized-atlases/raw/ashs-lc-neuropresage/ashs_atlas_cyceron_lc_20230331/template/refspace_meanseg_left.nii.gz",
+        "src/data/specialized-atlases/raw/ashs-lc-neuropresage/ashs_atlas_cyceron_lc_20230331/template/refspace_left.nii.gz",
+        "src/data/specialized-atlases/raw/ashs-lc-neuropresage/ashs_atlas_cyceron_lc_20230331/template/refspace_mprage_left.nii.gz"
+      ],
+      "labelIds": [
+        "ashs-lc-neuropresage-left-lc"
+      ],
+      "scope": "Left locus coeruleus / LC candidate mask package for possible future alerting, vigilance, arousal, and memory-modulation orientation layers.",
+      "displayPolicy": "Keep out of the main 3D viewer until source/citation/license and source-template-to-viewer projection are reviewed. Do not use it to upgrade any attention or memory paradigm by itself.",
+      "nextRefinementGate": "Identify the formal source page/citation, confirm license and template space, then convert the audited 510-voxel left-LC source-template mask into a review-only centroid or mesh after viewer registration review.",
+      "caution": "LC-only and left-only candidate package. The LC mask geometry has been audited in package refspace, but it is not confirmed as a MNI/viewer projection. It does not replace the missing ASHS / UPenn PMC MTL atlas and does not provide hippocampal subfields, entorhinal, perirhinal, or parahippocampal labels."
+    }
+  ],
+  "labels": [
+    {
+      "id": "mtl-left-hippocampal-formation",
+      "atlasId": "mtl-memory-atlas-seed",
+      "index": 1,
+      "label": "Left hippocampal formation",
+      "englishLabel": "Left hippocampal formation",
+      "chineseLabel": "左海马结构",
+      "color": "#c985ac",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -29,
+        -20,
+        -18
+      ],
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "episodic_sequence",
+        "visual_delayed_memory"
+      ],
+      "caution": "MTL seed anchor only; replace with a voxel/subfield atlas before claiming subfield-level precision."
+    },
+    {
+      "id": "mtl-right-hippocampal-formation",
+      "atlasId": "mtl-memory-atlas-seed",
+      "index": 2,
+      "label": "Right hippocampal formation",
+      "englishLabel": "Right hippocampal formation",
+      "chineseLabel": "右海马结构",
+      "color": "#c985ac",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        29,
+        -20,
+        -18
+      ],
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "episodic_sequence",
+        "visual_delayed_memory"
+      ],
+      "caution": "MTL seed anchor only; replace with a voxel/subfield atlas before claiming subfield-level precision."
+    },
+    {
+      "id": "mtl-left-entorhinal-parahippocampal",
+      "atlasId": "mtl-memory-atlas-seed",
+      "index": 3,
+      "label": "Left entorhinal-parahippocampal interface",
+      "englishLabel": "Left entorhinal-parahippocampal interface",
+      "chineseLabel": "左内嗅/海马旁接口",
+      "color": "#b7769c",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -24,
+        -24,
+        -13
+      ],
+      "relatedPhysicalStructureId": "entorhinal-parahippocampal-interface",
+      "taskUse": [
+        "novel_picture_encoding",
+        "context_binding",
+        "scene_memory"
+      ],
+      "caution": "MTL seed anchor only; do not treat as a precise entorhinal or parahippocampal atlas label."
+    },
+    {
+      "id": "mtl-right-entorhinal-parahippocampal",
+      "atlasId": "mtl-memory-atlas-seed",
+      "index": 4,
+      "label": "Right entorhinal-parahippocampal interface",
+      "englishLabel": "Right entorhinal-parahippocampal interface",
+      "chineseLabel": "右内嗅/海马旁接口",
+      "color": "#b7769c",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        24,
+        -24,
+        -13
+      ],
+      "relatedPhysicalStructureId": "entorhinal-parahippocampal-interface",
+      "taskUse": [
+        "novel_picture_encoding",
+        "context_binding",
+        "scene_memory"
+      ],
+      "caution": "MTL seed anchor only; do not treat as a precise entorhinal or parahippocampal atlas label."
+    },
+    {
+      "id": "mtl-left-amygdala",
+      "atlasId": "mtl-memory-atlas-seed",
+      "index": 5,
+      "label": "Left amygdala",
+      "englishLabel": "Left amygdala",
+      "chineseLabel": "左杏仁核",
+      "color": "#b26f8c",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -23,
+        -5,
+        -18
+      ],
+      "relatedPhysicalStructureId": "amygdala",
+      "taskUse": [
+        "affective_value",
+        "salience_memory_modulation"
+      ],
+      "caution": "MTL seed anchor only; emotion-memory modulation requires separate task evidence."
+    },
+    {
+      "id": "mtl-right-amygdala",
+      "atlasId": "mtl-memory-atlas-seed",
+      "index": 6,
+      "label": "Right amygdala",
+      "englishLabel": "Right amygdala",
+      "chineseLabel": "右杏仁核",
+      "color": "#b26f8c",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        23,
+        -5,
+        -18
+      ],
+      "relatedPhysicalStructureId": "amygdala",
+      "taskUse": [
+        "affective_value",
+        "salience_memory_modulation"
+      ],
+      "caution": "MTL seed anchor only; emotion-memory modulation requires separate task evidence."
+    },
+    {
+      "id": "harvard-oxford-subcortical-mtl-09",
+      "atlasId": "harvard-oxford-subcortical-mtl",
+      "index": 9,
+      "label": "Left Hippocampus",
+      "englishLabel": "Left Hippocampus",
+      "chineseLabel": "左海马",
+      "color": "#b980a2",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -24.84,
+        -22.18,
+        -14.4
+      ],
+      "voxelCount": 5575,
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "episodic_sequence",
+        "source_memory",
+        "visual_delayed_memory"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; use for hippocampal structure localization, not hippocampal subfield precision."
+    },
+    {
+      "id": "harvard-oxford-subcortical-mtl-10",
+      "atlasId": "harvard-oxford-subcortical-mtl",
+      "index": 10,
+      "label": "Left Amygdala",
+      "englishLabel": "Left Amygdala",
+      "chineseLabel": "左杏仁核",
+      "color": "#a96f8f",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -22.57,
+        -4.87,
+        -18.07
+      ],
+      "voxelCount": 2476,
+      "relatedPhysicalStructureId": "amygdala",
+      "taskUse": [
+        "affective_value",
+        "salience_memory_modulation",
+        "face_name_memory"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; emotion-memory modulation requires task evidence."
+    },
+    {
+      "id": "harvard-oxford-subcortical-mtl-19",
+      "atlasId": "harvard-oxford-subcortical-mtl",
+      "index": 19,
+      "label": "Right Hippocampus",
+      "englishLabel": "Right Hippocampus",
+      "chineseLabel": "右海马",
+      "color": "#b980a2",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        26.32,
+        -20.68,
+        -14.48
+      ],
+      "voxelCount": 5688,
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "episodic_sequence",
+        "source_memory",
+        "visual_delayed_memory"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; use for hippocampal structure localization, not hippocampal subfield precision."
+    },
+    {
+      "id": "harvard-oxford-subcortical-mtl-20",
+      "atlasId": "harvard-oxford-subcortical-mtl",
+      "index": 20,
+      "label": "Right Amygdala",
+      "englishLabel": "Right Amygdala",
+      "chineseLabel": "右杏仁核",
+      "color": "#a96f8f",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        22.95,
+        -3.71,
+        -18
+      ],
+      "voxelCount": 2848,
+      "relatedPhysicalStructureId": "amygdala",
+      "taskUse": [
+        "affective_value",
+        "salience_memory_modulation",
+        "face_name_memory"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; emotion-memory modulation requires task evidence."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-07",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 7,
+      "label": "GM Amygdala_centromedial group L",
+      "englishLabel": "GM Amygdala_centromedial group L",
+      "chineseLabel": "左杏仁核中心内侧群",
+      "color": "#9d6a86",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -23.83,
+        -9.61,
+        -7.83
+      ],
+      "voxelCount": 478,
+      "relatedPhysicalStructureId": "amygdala",
+      "taskUse": [
+        "affective_value",
+        "salience_memory_modulation",
+        "face_name_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; use as atlas localization only, not task activation proof."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-08",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 8,
+      "label": "GM Amygdala_centromedial group R",
+      "englishLabel": "GM Amygdala_centromedial group R",
+      "chineseLabel": "右杏仁核中心内侧群",
+      "color": "#9d6a86",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        26.89,
+        -9.38,
+        -7.4
+      ],
+      "voxelCount": 533,
+      "relatedPhysicalStructureId": "amygdala",
+      "taskUse": [
+        "affective_value",
+        "salience_memory_modulation",
+        "face_name_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; use as atlas localization only, not task activation proof."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-09",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 9,
+      "label": "GM Amygdala_laterobasal group L",
+      "englishLabel": "GM Amygdala_laterobasal group L",
+      "chineseLabel": "左杏仁核外侧基底群",
+      "color": "#a96f8f",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -26.42,
+        -4.73,
+        -23.13
+      ],
+      "voxelCount": 2470,
+      "relatedPhysicalStructureId": "amygdala",
+      "taskUse": [
+        "affective_value",
+        "salience_memory_modulation",
+        "face_name_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; use as atlas localization only, not task activation proof."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-10",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 10,
+      "label": "GM Amygdala_laterobasal group R",
+      "englishLabel": "GM Amygdala_laterobasal group R",
+      "chineseLabel": "右杏仁核外侧基底群",
+      "color": "#a96f8f",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        29.67,
+        -3.2,
+        -23.07
+      ],
+      "voxelCount": 2741,
+      "relatedPhysicalStructureId": "amygdala",
+      "taskUse": [
+        "affective_value",
+        "salience_memory_modulation",
+        "face_name_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; use as atlas localization only, not task activation proof."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-11",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 11,
+      "label": "GM Amygdala_superficial group L",
+      "englishLabel": "GM Amygdala_superficial group L",
+      "chineseLabel": "左杏仁核浅表群",
+      "color": "#b77c98",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -18.33,
+        -4,
+        -15.42
+      ],
+      "voxelCount": 1641,
+      "relatedPhysicalStructureId": "amygdala",
+      "taskUse": [
+        "affective_value",
+        "salience_memory_modulation",
+        "face_name_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; use as atlas localization only, not task activation proof."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-12",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 12,
+      "label": "GM Amygdala_superficial group R",
+      "englishLabel": "GM Amygdala_superficial group R",
+      "chineseLabel": "右杏仁核浅表群",
+      "color": "#b77c98",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        21.53,
+        -2.99,
+        -13.38
+      ],
+      "voxelCount": 1555,
+      "relatedPhysicalStructureId": "amygdala",
+      "taskUse": [
+        "affective_value",
+        "salience_memory_modulation",
+        "face_name_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; use as atlas localization only, not task activation proof."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-17",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 17,
+      "label": "GM Hippocampus cornu ammonis L",
+      "englishLabel": "GM Hippocampus cornu ammonis L",
+      "chineseLabel": "左海马 CA 区",
+      "color": "#c487a8",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -28.11,
+        -24.94,
+        -12.4
+      ],
+      "voxelCount": 5837,
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "episodic_sequence",
+        "source_memory",
+        "visual_delayed_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; suitable for CA-region localization, not for overclaiming individual CA1/CA2/CA3 borders."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-18",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 18,
+      "label": "GM Hippocampus cornu ammonis R",
+      "englishLabel": "GM Hippocampus cornu ammonis R",
+      "chineseLabel": "右海马 CA 区",
+      "color": "#c487a8",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        29.98,
+        -22.83,
+        -11.96
+      ],
+      "voxelCount": 6169,
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "episodic_sequence",
+        "source_memory",
+        "visual_delayed_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; suitable for CA-region localization, not for overclaiming individual CA1/CA2/CA3 borders."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-19",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 19,
+      "label": "GM Hippocampus entorhinal cortex L",
+      "englishLabel": "GM Hippocampus entorhinal cortex L",
+      "chineseLabel": "左内嗅皮层",
+      "color": "#ba789c",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -22.65,
+        -8.12,
+        -33.48
+      ],
+      "voxelCount": 4993,
+      "relatedPhysicalStructureId": "entorhinal-parahippocampal-interface",
+      "taskUse": [
+        "novel_picture_encoding",
+        "context_binding",
+        "scene_memory",
+        "source_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; use for entorhinal localization, not perirhinal or parahippocampal claims."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-20",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 20,
+      "label": "GM Hippocampus entorhinal cortex R",
+      "englishLabel": "GM Hippocampus entorhinal cortex R",
+      "chineseLabel": "右内嗅皮层",
+      "color": "#ba789c",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        24.2,
+        -4.9,
+        -33.25
+      ],
+      "voxelCount": 6084,
+      "relatedPhysicalStructureId": "entorhinal-parahippocampal-interface",
+      "taskUse": [
+        "novel_picture_encoding",
+        "context_binding",
+        "scene_memory",
+        "source_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; use for entorhinal localization, not perirhinal or parahippocampal claims."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-21",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 21,
+      "label": "GM Hippocampus dentate gyrus L",
+      "englishLabel": "GM Hippocampus dentate gyrus L",
+      "chineseLabel": "左海马齿状回",
+      "color": "#d09ab4",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -24.67,
+        -31.14,
+        -6.16
+      ],
+      "voxelCount": 647,
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "episodic_sequence",
+        "pattern_separation",
+        "visual_delayed_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; use as atlas localization only unless a task source specifically supports dentate involvement."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-22",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 22,
+      "label": "GM Hippocampus dentate gyrus R",
+      "englishLabel": "GM Hippocampus dentate gyrus R",
+      "chineseLabel": "右海马齿状回",
+      "color": "#d09ab4",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        25.31,
+        -29.26,
+        -5.04
+      ],
+      "voxelCount": 647,
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "episodic_sequence",
+        "pattern_separation",
+        "visual_delayed_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; use as atlas localization only unless a task source specifically supports dentate involvement."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-23",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 23,
+      "label": "GM Hippocampus hippocampal-amygdaloid transition area L",
+      "englishLabel": "GM Hippocampus hippocampal-amygdaloid transition area L",
+      "chineseLabel": "左海马-杏仁核过渡区",
+      "color": "#b36f95",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -18.31,
+        -12.06,
+        -10.48
+      ],
+      "voxelCount": 48,
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "affective_value",
+        "salience_memory_modulation"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; interpret cautiously as a transition-area localization."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-24",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 24,
+      "label": "GM Hippocampus hippocampal-amygdaloid transition area R",
+      "englishLabel": "GM Hippocampus hippocampal-amygdaloid transition area R",
+      "chineseLabel": "右海马-杏仁核过渡区",
+      "color": "#b36f95",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        18.7,
+        -10.78,
+        -10.57
+      ],
+      "voxelCount": 37,
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "affective_value",
+        "salience_memory_modulation"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; interpret cautiously as a transition-area localization."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-25",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 25,
+      "label": "GM Hippocampus subiculum L",
+      "englishLabel": "GM Hippocampus subiculum L",
+      "chineseLabel": "左下托",
+      "color": "#cc8fb0",
+      "laterality": "left",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        -19.1,
+        -27.5,
+        -14.35
+      ],
+      "voxelCount": 4083,
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "episodic_sequence",
+        "source_memory",
+        "scene_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; use as subiculum localization, not a whole-MTL claim."
+    },
+    {
+      "id": "juelich-mtl-cytoarchitectonic-26",
+      "atlasId": "juelich-mtl-cytoarchitectonic",
+      "index": 26,
+      "label": "GM Hippocampus subiculum R",
+      "englishLabel": "GM Hippocampus subiculum R",
+      "chineseLabel": "右下托",
+      "color": "#cc8fb0",
+      "laterality": "right",
+      "systemId": "limbic_system",
+      "mniCentroid": [
+        20.81,
+        -25.76,
+        -14.14
+      ],
+      "voxelCount": 4215,
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "episodic_sequence",
+        "source_memory",
+        "scene_memory"
+      ],
+      "caution": "Juelich max-probability cytoarchitectonic label; use as subiculum localization, not a whole-MTL claim."
+    },
+    {
+      "id": "harvard-oxford-subcortical-basal-ganglia-thalamus-04",
+      "atlasId": "harvard-oxford-subcortical-basal-ganglia-thalamus",
+      "index": 4,
+      "label": "Left Thalamus",
+      "englishLabel": "Left Thalamus",
+      "chineseLabel": "左丘脑",
+      "color": "#6f80b6",
+      "laterality": "left",
+      "systemId": "subcortical",
+      "mniCentroid": [
+        -9.82,
+        -19.21,
+        6.22
+      ],
+      "voxelCount": 10385,
+      "relatedPhysicalStructureId": "thalamus",
+      "taskUse": [
+        "alerting_gate",
+        "attention_relay",
+        "response_gate",
+        "calculation_control_boundary",
+        "reasoning_control_boundary"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; use for coarse thalamic localization only, not thalamic-nuclei precision."
+    },
+    {
+      "id": "harvard-oxford-subcortical-basal-ganglia-thalamus-05",
+      "atlasId": "harvard-oxford-subcortical-basal-ganglia-thalamus",
+      "index": 5,
+      "label": "Left Caudate",
+      "englishLabel": "Left Caudate",
+      "chineseLabel": "左尾状核",
+      "color": "#6d9b7f",
+      "laterality": "left",
+      "systemId": "subcortical",
+      "mniCentroid": [
+        -12.69,
+        9.24,
+        9.69
+      ],
+      "voxelCount": 3949,
+      "relatedPhysicalStructureId": "basal-ganglia",
+      "taskUse": [
+        "action_selection",
+        "executive_inhibition",
+        "feedback_learning",
+        "reasoning_control_boundary"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; use for coarse striatal localization only, not subnucleus precision."
+    },
+    {
+      "id": "harvard-oxford-subcortical-basal-ganglia-thalamus-06",
+      "atlasId": "harvard-oxford-subcortical-basal-ganglia-thalamus",
+      "index": 6,
+      "label": "Left Putamen",
+      "englishLabel": "Left Putamen",
+      "chineseLabel": "左壳核",
+      "color": "#c98a63",
+      "laterality": "left",
+      "systemId": "subcortical",
+      "mniCentroid": [
+        -24.86,
+        0.57,
+        0.37
+      ],
+      "voxelCount": 6397,
+      "relatedPhysicalStructureId": "basal-ganglia",
+      "taskUse": [
+        "motor_gating",
+        "response_selection",
+        "habit_automation",
+        "conflict_control_boundary"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; use for coarse striatal localization only, not subnucleus precision."
+    },
+    {
+      "id": "harvard-oxford-subcortical-basal-ganglia-thalamus-07",
+      "atlasId": "harvard-oxford-subcortical-basal-ganglia-thalamus",
+      "index": 7,
+      "label": "Left Pallidum",
+      "englishLabel": "Left Pallidum",
+      "chineseLabel": "左苍白球",
+      "color": "#b0a15f",
+      "laterality": "left",
+      "systemId": "subcortical",
+      "mniCentroid": [
+        -19.25,
+        -5.06,
+        -1.25
+      ],
+      "voxelCount": 2133,
+      "relatedPhysicalStructureId": "basal-ganglia",
+      "taskUse": [
+        "response_gating",
+        "inhibitory_output",
+        "frontostriatal_boundary"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; use for coarse pallidal localization only, not GPi/GPe precision."
+    },
+    {
+      "id": "harvard-oxford-subcortical-basal-ganglia-thalamus-11",
+      "atlasId": "harvard-oxford-subcortical-basal-ganglia-thalamus",
+      "index": 11,
+      "label": "Left Accumbens",
+      "englishLabel": "Left Accumbens",
+      "chineseLabel": "左伏隔核",
+      "color": "#c46d86",
+      "laterality": "left",
+      "systemId": "subcortical",
+      "mniCentroid": [
+        -9.48,
+        11.4,
+        -7.07
+      ],
+      "voxelCount": 756,
+      "relatedPhysicalStructureId": "basal-ganglia",
+      "taskUse": [
+        "reward_feedback",
+        "motivation_update",
+        "reversal_learning_boundary"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; use for coarse ventral-striatal localization only, not shell/core precision."
+    },
+    {
+      "id": "harvard-oxford-subcortical-basal-ganglia-thalamus-15",
+      "atlasId": "harvard-oxford-subcortical-basal-ganglia-thalamus",
+      "index": 15,
+      "label": "Right Thalamus",
+      "englishLabel": "Right Thalamus",
+      "chineseLabel": "右丘脑",
+      "color": "#6f80b6",
+      "laterality": "right",
+      "systemId": "subcortical",
+      "mniCentroid": [
+        10.84,
+        -18.3,
+        6.66
+      ],
+      "voxelCount": 10211,
+      "relatedPhysicalStructureId": "thalamus",
+      "taskUse": [
+        "alerting_gate",
+        "attention_relay",
+        "response_gate",
+        "calculation_control_boundary",
+        "reasoning_control_boundary"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; use for coarse thalamic localization only, not thalamic-nuclei precision."
+    },
+    {
+      "id": "harvard-oxford-subcortical-basal-ganglia-thalamus-16",
+      "atlasId": "harvard-oxford-subcortical-basal-ganglia-thalamus",
+      "index": 16,
+      "label": "Right Caudate",
+      "englishLabel": "Right Caudate",
+      "chineseLabel": "右尾状核",
+      "color": "#6d9b7f",
+      "laterality": "right",
+      "systemId": "subcortical",
+      "mniCentroid": [
+        13.31,
+        10.11,
+        10.45
+      ],
+      "voxelCount": 4127,
+      "relatedPhysicalStructureId": "basal-ganglia",
+      "taskUse": [
+        "action_selection",
+        "executive_inhibition",
+        "feedback_learning",
+        "reasoning_control_boundary"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; use for coarse striatal localization only, not subnucleus precision."
+    },
+    {
+      "id": "harvard-oxford-subcortical-basal-ganglia-thalamus-17",
+      "atlasId": "harvard-oxford-subcortical-basal-ganglia-thalamus",
+      "index": 17,
+      "label": "Right Putamen",
+      "englishLabel": "Right Putamen",
+      "chineseLabel": "右壳核",
+      "color": "#c98a63",
+      "laterality": "right",
+      "systemId": "subcortical",
+      "mniCentroid": [
+        25.49,
+        1.85,
+        0.3
+      ],
+      "voxelCount": 6397,
+      "relatedPhysicalStructureId": "basal-ganglia",
+      "taskUse": [
+        "motor_gating",
+        "response_selection",
+        "habit_automation",
+        "conflict_control_boundary"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; use for coarse striatal localization only, not subnucleus precision."
+    },
+    {
+      "id": "harvard-oxford-subcortical-basal-ganglia-thalamus-18",
+      "atlasId": "harvard-oxford-subcortical-basal-ganglia-thalamus",
+      "index": 18,
+      "label": "Right Pallidum",
+      "englishLabel": "Right Pallidum",
+      "chineseLabel": "右苍白球",
+      "color": "#b0a15f",
+      "laterality": "right",
+      "systemId": "subcortical",
+      "mniCentroid": [
+        19.93,
+        -3.94,
+        -1.15
+      ],
+      "voxelCount": 2118,
+      "relatedPhysicalStructureId": "basal-ganglia",
+      "taskUse": [
+        "response_gating",
+        "inhibitory_output",
+        "frontostriatal_boundary"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; use for coarse pallidal localization only, not GPi/GPe precision."
+    },
+    {
+      "id": "harvard-oxford-subcortical-basal-ganglia-thalamus-21",
+      "atlasId": "harvard-oxford-subcortical-basal-ganglia-thalamus",
+      "index": 21,
+      "label": "Right Accumbens",
+      "englishLabel": "Right Accumbens",
+      "chineseLabel": "右伏隔核",
+      "color": "#c46d86",
+      "laterality": "right",
+      "systemId": "subcortical",
+      "mniCentroid": [
+        9.39,
+        12.23,
+        -6.44
+      ],
+      "voxelCount": 666,
+      "relatedPhysicalStructureId": "basal-ganglia",
+      "taskUse": [
+        "reward_feedback",
+        "motivation_update",
+        "reversal_learning_boundary"
+      ],
+      "caution": "Harvard-Oxford subcortical max-probability label; use for coarse ventral-striatal localization only, not shell/core precision."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-01",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 1,
+      "label": "Left_I_IV",
+      "englishLabel": "Left_I_IV",
+      "chineseLabel": "左小脑 I_IV",
+      "color": "#ccff00",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -6.58,
+        -45.41,
+        -17.95
+      ],
+      "voxelCount": 3929,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-02",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 2,
+      "label": "Right_I_IV",
+      "englishLabel": "Right_I_IV",
+      "chineseLabel": "右小脑 I_IV",
+      "color": "#b8e600",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        9.63,
+        -44.31,
+        -18.6
+      ],
+      "voxelCount": 4749,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-03",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 3,
+      "label": "Left_V",
+      "englishLabel": "Left_V",
+      "chineseLabel": "左小脑 V",
+      "color": "#00e65c",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -12.86,
+        -51.19,
+        -19.39
+      ],
+      "voxelCount": 5054,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-04",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 4,
+      "label": "Right_V",
+      "englishLabel": "Right_V",
+      "chineseLabel": "右小脑 V",
+      "color": "#00ff66",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        14.68,
+        -51.54,
+        -18.94
+      ],
+      "voxelCount": 5534,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-05",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 5,
+      "label": "Left_VI",
+      "englishLabel": "Left_VI",
+      "chineseLabel": "左小脑 VI",
+      "color": "#0066ff",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -22.08,
+        -60.64,
+        -24.92
+      ],
+      "voxelCount": 11718,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-06",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 6,
+      "label": "Vermis_VI",
+      "englishLabel": "Vermis_VI",
+      "chineseLabel": "小脑蚓部 VI",
+      "color": "#0052cc",
+      "laterality": "midline",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        0.86,
+        -70.27,
+        -20.85
+      ],
+      "voxelCount": 2504,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-07",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 7,
+      "label": "Right_VI",
+      "englishLabel": "Right_VI",
+      "chineseLabel": "右小脑 VI",
+      "color": "#0066ff",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        24.16,
+        -59.45,
+        -24.6
+      ],
+      "voxelCount": 11532,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-08",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 8,
+      "label": "Left_CrusI",
+      "englishLabel": "Left_CrusI",
+      "chineseLabel": "左小脑 Crus I",
+      "color": "#cc00ff",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -35.35,
+        -69.59,
+        -31.97
+      ],
+      "voxelCount": 17660,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-09",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 9,
+      "label": "Vermis_CrusI",
+      "englishLabel": "Vermis_CrusI",
+      "chineseLabel": "小脑蚓部 Crus I",
+      "color": "#a200cc",
+      "laterality": "midline",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -3.48,
+        -78.41,
+        -25.44
+      ],
+      "voxelCount": 27,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-10",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 10,
+      "label": "Right_CrusI",
+      "englishLabel": "Right_CrusI",
+      "chineseLabel": "右小脑 Crus I",
+      "color": "#cc00ff",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        36.67,
+        -68.44,
+        -31.55
+      ],
+      "voxelCount": 17980,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-11",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 11,
+      "label": "Left_CrusII",
+      "englishLabel": "Left_CrusII",
+      "chineseLabel": "左小脑 Crus II",
+      "color": "#ff0000",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -26.2,
+        -74.97,
+        -41.69
+      ],
+      "voxelCount": 13560,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-12",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 12,
+      "label": "Vermis_CrusII",
+      "englishLabel": "Vermis_CrusII",
+      "chineseLabel": "小脑蚓部 Crus II",
+      "color": "#cc0000",
+      "laterality": "midline",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        0.74,
+        -74.84,
+        -30.6
+      ],
+      "voxelCount": 551,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-13",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 13,
+      "label": "Right_CrusII",
+      "englishLabel": "Right_CrusII",
+      "chineseLabel": "右小脑 Crus II",
+      "color": "#ff0000",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        25.96,
+        -75.8,
+        -40.7
+      ],
+      "voxelCount": 12549,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-14",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 14,
+      "label": "Left_VIIb",
+      "englishLabel": "Left_VIIb",
+      "chineseLabel": "左小脑 VIIb",
+      "color": "#ff9900",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -26.6,
+        -66.74,
+        -50.28
+      ],
+      "voxelCount": 7013,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-15",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 15,
+      "label": "Vermis_VIIb",
+      "englishLabel": "Vermis_VIIb",
+      "chineseLabel": "小脑蚓部 VIIb",
+      "color": "#cc7900",
+      "laterality": "midline",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        0.36,
+        -68.28,
+        -30.81
+      ],
+      "voxelCount": 266,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-16",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 16,
+      "label": "Right_VIIb",
+      "englishLabel": "Right_VIIb",
+      "chineseLabel": "右小脑 VIIb",
+      "color": "#ff9900",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        28.22,
+        -66.46,
+        -50.01
+      ],
+      "voxelCount": 7035,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-17",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 17,
+      "label": "Left_VIIIa",
+      "englishLabel": "Left_VIIIa",
+      "chineseLabel": "左小脑 VIIIa",
+      "color": "#33ff00",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -23.87,
+        -59.03,
+        -52.74
+      ],
+      "voxelCount": 6876,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-18",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 18,
+      "label": "Vermis_VIIIa",
+      "englishLabel": "Vermis_VIIIa",
+      "chineseLabel": "小脑蚓部 VIIIa",
+      "color": "#29cc00",
+      "laterality": "midline",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        0.32,
+        -66.66,
+        -37.09
+      ],
+      "voxelCount": 1618,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-19",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 19,
+      "label": "Right_VIIIa",
+      "englishLabel": "Right_VIIIa",
+      "chineseLabel": "右小脑 VIIIa",
+      "color": "#33ff00",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        25.96,
+        -58.63,
+        -52.8
+      ],
+      "voxelCount": 6452,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-20",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 20,
+      "label": "Left_VIIIb",
+      "englishLabel": "Left_VIIIb",
+      "chineseLabel": "左小脑 VIIIb",
+      "color": "#00ffff",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -16.57,
+        -51.89,
+        -54.5
+      ],
+      "voxelCount": 5409,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-21",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 21,
+      "label": "Vermis_VIIIb",
+      "englishLabel": "Vermis_VIIIb",
+      "chineseLabel": "小脑蚓部 VIIIb",
+      "color": "#00cccc",
+      "laterality": "midline",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        0.04,
+        -63.06,
+        -40.73
+      ],
+      "voxelCount": 816,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-22",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 22,
+      "label": "Right_VIIIb",
+      "englishLabel": "Right_VIIIb",
+      "chineseLabel": "右小脑 VIIIb",
+      "color": "#00ffff",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        17.87,
+        -52.12,
+        -54.67
+      ],
+      "voxelCount": 5443,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-23",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 23,
+      "label": "Left_IX",
+      "englishLabel": "Left_IX",
+      "chineseLabel": "左小脑 IX",
+      "color": "#3300ff",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -6.48,
+        -53.97,
+        -48.42
+      ],
+      "voxelCount": 4478,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-24",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 24,
+      "label": "Vermis_IX",
+      "englishLabel": "Vermis_IX",
+      "chineseLabel": "小脑蚓部 IX",
+      "color": "#2900cc",
+      "laterality": "midline",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        0.21,
+        -56.32,
+        -37.28
+      ],
+      "voxelCount": 879,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-25",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 25,
+      "label": "Right_IX",
+      "englishLabel": "Right_IX",
+      "chineseLabel": "右小脑 IX",
+      "color": "#3300ff",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        7.13,
+        -53.96,
+        -48.99
+      ],
+      "voxelCount": 4682,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-26",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 26,
+      "label": "Left_X",
+      "englishLabel": "Left_X",
+      "chineseLabel": "左小脑 X",
+      "color": "#ff0099",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -19.73,
+        -39.27,
+        -45.07
+      ],
+      "voxelCount": 776,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-27",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 27,
+      "label": "Vermis_X",
+      "englishLabel": "Vermis_X",
+      "chineseLabel": "小脑蚓部 X",
+      "color": "#cc0079",
+      "laterality": "midline",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        1.15,
+        -49.39,
+        -36.59
+      ],
+      "voxelCount": 493,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-28",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 28,
+      "label": "Right_X",
+      "englishLabel": "Right_X",
+      "chineseLabel": "右小脑 X",
+      "color": "#ff0099",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        21.9,
+        -38.93,
+        -45.31
+      ],
+      "voxelCount": 827,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-29",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 29,
+      "label": "Left_Dentate",
+      "englishLabel": "Left_Dentate",
+      "chineseLabel": "左小脑 齿状核",
+      "color": "#4c4c4c",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -14.13,
+        -60.05,
+        -34.19
+      ],
+      "voxelCount": 1843,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-30",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 30,
+      "label": "Right_Dentate",
+      "englishLabel": "Right_Dentate",
+      "chineseLabel": "右小脑 齿状核",
+      "color": "#4c4c4c",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        15.16,
+        -59.57,
+        -34.39
+      ],
+      "voxelCount": 2087,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-31",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 31,
+      "label": "Left_Interposed",
+      "englishLabel": "Left_Interposed",
+      "chineseLabel": "左小脑 中位核",
+      "color": "#7f7f7f",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -6.53,
+        -57.7,
+        -28.66
+      ],
+      "voxelCount": 213,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-32",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 32,
+      "label": "Right_Interposed",
+      "englishLabel": "Right_Interposed",
+      "chineseLabel": "右小脑 中位核",
+      "color": "#7f7f7f",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        7.69,
+        -57.49,
+        -28.78
+      ],
+      "voxelCount": 242,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-33",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 33,
+      "label": "Left_Fastigial",
+      "englishLabel": "Left_Fastigial",
+      "chineseLabel": "左小脑 顶核",
+      "color": "#b2b2b2",
+      "laterality": "left",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -1.33,
+        -54.67,
+        -27.33
+      ],
+      "voxelCount": 3,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "diedrichsen-2009-cerebellar-lobules-34",
+      "atlasId": "diedrichsen-2009-cerebellar-lobules",
+      "index": 34,
+      "label": "Right_Fastigial",
+      "englishLabel": "Right_Fastigial",
+      "chineseLabel": "右小脑 顶核",
+      "color": "#b2b2b2",
+      "laterality": "right",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        2.5,
+        -54.5,
+        -27.25
+      ],
+      "voxelCount": 4,
+      "relatedPhysicalStructureId": "cerebellum",
+      "taskUse": [
+        "cerebellar_anatomical_localization"
+      ],
+      "caution": "Diedrichsen2009 supplies cerebellar lobule/nucleus localization; task interpretation still needs paradigm-specific evidence."
+    },
+    {
+      "id": "buckner-2011-cerebellum-7networks-01",
+      "atlasId": "buckner-2011-cerebellum-7networks",
+      "index": 1,
+      "label": "Network1",
+      "englishLabel": "Network1",
+      "chineseLabel": "视觉小脑网络",
+      "color": "#771286",
+      "laterality": "not_applicable",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        0.52,
+        -68.01,
+        -26.49
+      ],
+      "voxelCount": 555,
+      "relatedPhysicalStructureId": "cerebellum",
+      "relatedNetworkId": "visual",
+      "taskUse": [
+        "visual_processing",
+        "visual_delayed_memory"
+      ],
+      "caution": "Buckner7 is a cerebellar resting-state network assignment, not a task activation proof by itself."
+    },
+    {
+      "id": "buckner-2011-cerebellum-7networks-02",
+      "atlasId": "buckner-2011-cerebellum-7networks",
+      "index": 2,
+      "label": "Network2",
+      "englishLabel": "Network2",
+      "chineseLabel": "躯体运动小脑网络",
+      "color": "#4682b4",
+      "laterality": "not_applicable",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        1.67,
+        -51.54,
+        -27.91
+      ],
+      "voxelCount": 26781,
+      "relatedPhysicalStructureId": "cerebellum",
+      "relatedNetworkId": "somatomotor",
+      "taskUse": [
+        "reaction_speed",
+        "motor_response"
+      ],
+      "caution": "Buckner7 is a cerebellar resting-state network assignment, not a task activation proof by itself."
+    },
+    {
+      "id": "buckner-2011-cerebellum-7networks-03",
+      "atlasId": "buckner-2011-cerebellum-7networks",
+      "index": 3,
+      "label": "Network3",
+      "englishLabel": "Network3",
+      "chineseLabel": "背侧注意小脑网络",
+      "color": "#00760e",
+      "laterality": "not_applicable",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        1.38,
+        -62.93,
+        -46.76
+      ],
+      "voxelCount": 12466,
+      "relatedPhysicalStructureId": "cerebellum",
+      "relatedNetworkId": "dorsal_attention",
+      "taskUse": [
+        "attention",
+        "visual_search"
+      ],
+      "caution": "Buckner7 is a cerebellar resting-state network assignment, not a task activation proof by itself."
+    },
+    {
+      "id": "buckner-2011-cerebellum-7networks-04",
+      "atlasId": "buckner-2011-cerebellum-7networks",
+      "index": 4,
+      "label": "Network4",
+      "englishLabel": "Network4",
+      "chineseLabel": "腹侧注意/显著性小脑网络",
+      "color": "#c43afa",
+      "laterality": "not_applicable",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -3.79,
+        -56.01,
+        -36.81
+      ],
+      "voxelCount": 37182,
+      "relatedPhysicalStructureId": "cerebellum",
+      "relatedNetworkId": "ventral_attention",
+      "taskUse": [
+        "salience_detection",
+        "conflict_monitoring"
+      ],
+      "caution": "Buckner7 is a cerebellar resting-state network assignment, not a task activation proof by itself."
+    },
+    {
+      "id": "buckner-2011-cerebellum-7networks-05",
+      "atlasId": "buckner-2011-cerebellum-7networks",
+      "index": 5,
+      "label": "Network5",
+      "englishLabel": "Network5",
+      "chineseLabel": "边缘小脑网络",
+      "color": "#dcf8a4",
+      "laterality": "not_applicable",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        1.49,
+        -47.31,
+        -37.03
+      ],
+      "voxelCount": 22747,
+      "relatedPhysicalStructureId": "cerebellum",
+      "relatedNetworkId": "limbic",
+      "taskUse": [
+        "affective_value",
+        "memory_modulation"
+      ],
+      "caution": "Buckner7 is a cerebellar resting-state network assignment, not a task activation proof by itself."
+    },
+    {
+      "id": "buckner-2011-cerebellum-7networks-06",
+      "atlasId": "buckner-2011-cerebellum-7networks",
+      "index": 6,
+      "label": "Netowrk6",
+      "englishLabel": "Netowrk6",
+      "chineseLabel": "额顶控制小脑网络",
+      "color": "#e69422",
+      "laterality": "not_applicable",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        -6.86,
+        -64.92,
+        -37.35
+      ],
+      "voxelCount": 43608,
+      "relatedPhysicalStructureId": "cerebellum",
+      "relatedNetworkId": "frontoparietal",
+      "taskUse": [
+        "executive_control",
+        "reasoning",
+        "calculation"
+      ],
+      "caution": "Buckner7 is a cerebellar resting-state network assignment, not a task activation proof by itself."
+    },
+    {
+      "id": "buckner-2011-cerebellum-7networks-07",
+      "atlasId": "buckner-2011-cerebellum-7networks",
+      "index": 7,
+      "label": "Network7",
+      "englishLabel": "Network7",
+      "chineseLabel": "默认模式小脑网络",
+      "color": "#cc3e4e",
+      "laterality": "not_applicable",
+      "systemId": "cerebellum",
+      "mniCentroid": [
+        10.1,
+        -70.42,
+        -37.47
+      ],
+      "voxelCount": 42206,
+      "relatedPhysicalStructureId": "cerebellum",
+      "relatedNetworkId": "default_mode",
+      "taskUse": [
+        "episodic_memory",
+        "semantic_integration"
+      ],
+      "caution": "Buckner7 is a cerebellar resting-state network assignment, not a task activation proof by itself."
+    },
+    {
+      "id": "ashs-lc-neuropresage-left-lc",
+      "atlasId": "ashs-lc-neuropresage-left",
+      "index": 1,
+      "label": "LC",
+      "englishLabel": "Left locus coeruleus candidate",
+      "chineseLabel": "左侧蓝斑候选",
+      "color": "#2f6fbd",
+      "laterality": "left",
+      "systemId": "subcortical",
+      "voxelCount": 510,
+      "relatedNetworkId": "ventral_attention",
+      "taskUse": [
+        "alerting",
+        "vigilance",
+        "arousal_modulation",
+        "memory_modulation"
+      ],
+      "caution": "Single-label LC candidate from a local ASHS-compatible package. Local refspace_meanseg_left.nii.gz geometry was audited as a 510-voxel binary source-template mask, but source, license, MNI/viewer projection, and display conversion are not production-reviewed; it is not evidence of task activation by itself."
+    },
+    {
+      "id": "ashs-upennpmc-t1ext-20240617-anterior-hippocampus",
+      "atlasId": "ashs-upennpmc-t1ext-20240617",
+      "index": 1,
+      "label": "Anterior hippocampus",
+      "englishLabel": "Anterior hippocampus",
+      "chineseLabel": "前部海马",
+      "color": "#ff0000",
+      "laterality": "bilateral",
+      "systemId": "limbic_system",
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "associative_binding",
+        "episodic_memory",
+        "novel_picture_encoding"
+      ],
+      "caution": "ASHS T1ext label table entry. Mesh projection, coordinate-space confirmation, and source/license review are pending; do not use as task activation proof."
+    },
+    {
+      "id": "ashs-upennpmc-t1ext-20240617-posterior-hippocampus",
+      "atlasId": "ashs-upennpmc-t1ext-20240617",
+      "index": 2,
+      "label": "Posterior hippocampus",
+      "englishLabel": "Posterior hippocampus",
+      "chineseLabel": "后部海马",
+      "color": "#00ff00",
+      "laterality": "bilateral",
+      "systemId": "limbic_system",
+      "relatedPhysicalStructureId": "hippocampal-formation",
+      "taskUse": [
+        "episodic_sequence",
+        "context_binding",
+        "spatial_memory"
+      ],
+      "caution": "ASHS T1ext label table entry. Mesh projection, coordinate-space confirmation, and source/license review are pending; do not use as task activation proof."
+    },
+    {
+      "id": "ashs-upennpmc-t1ext-20240617-erc",
+      "atlasId": "ashs-upennpmc-t1ext-20240617",
+      "index": 10,
+      "label": "ERC",
+      "englishLabel": "Entorhinal cortex",
+      "chineseLabel": "内嗅皮层",
+      "color": "#b5ff9e",
+      "laterality": "bilateral",
+      "systemId": "limbic_system",
+      "relatedPhysicalStructureId": "entorhinal-parahippocampal-interface",
+      "taskUse": [
+        "context_binding",
+        "episodic_sequence",
+        "novel_picture_encoding"
+      ],
+      "caution": "ASHS T1ext entorhinal label. It may support ERC boundary display after mesh QA, but it is not an alEC/pmEC split and not task activation evidence by itself."
+    },
+    {
+      "id": "ashs-upennpmc-t1ext-20240617-br35",
+      "atlasId": "ashs-upennpmc-t1ext-20240617",
+      "index": 11,
+      "label": "Br35",
+      "englishLabel": "Brodmann area 35 / perirhinal cortex",
+      "chineseLabel": "嗅周皮层 BA35",
+      "color": "#37b4ff",
+      "laterality": "bilateral",
+      "systemId": "limbic_system",
+      "relatedPhysicalStructureId": "entorhinal-parahippocampal-interface",
+      "taskUse": [
+        "item_memory",
+        "familiarity",
+        "object_context_binding"
+      ],
+      "caution": "ASHS T1ext perirhinal BA35 label. Use only after mesh/space/license QA; do not treat as a task-specific familiarity activation without matching study evidence."
+    },
+    {
+      "id": "ashs-upennpmc-t1ext-20240617-br36",
+      "atlasId": "ashs-upennpmc-t1ext-20240617",
+      "index": 12,
+      "label": "Br36",
+      "englishLabel": "Brodmann area 36 / perirhinal cortex",
+      "chineseLabel": "嗅周皮层 BA36",
+      "color": "#0000ff",
+      "laterality": "bilateral",
+      "systemId": "limbic_system",
+      "relatedPhysicalStructureId": "entorhinal-parahippocampal-interface",
+      "taskUse": [
+        "item_memory",
+        "familiarity",
+        "object_context_binding"
+      ],
+      "caution": "ASHS T1ext perirhinal BA36 label. Use only after mesh/space/license QA; do not treat as a task-specific familiarity activation without matching study evidence."
+    },
+    {
+      "id": "ashs-upennpmc-t1ext-20240617-phc",
+      "atlasId": "ashs-upennpmc-t1ext-20240617",
+      "index": 13,
+      "label": "PHC",
+      "englishLabel": "Parahippocampal cortex",
+      "chineseLabel": "海马旁皮层",
+      "color": "#f300aa",
+      "laterality": "bilateral",
+      "systemId": "limbic_system",
+      "relatedPhysicalStructureId": "entorhinal-parahippocampal-interface",
+      "taskUse": [
+        "context_binding",
+        "scene_memory",
+        "episodic_sequence"
+      ],
+      "caution": "ASHS T1ext parahippocampal cortex label. Mesh projection and visual QA are pending; use as anatomical boundary only after atlas integration review."
+    },
+    {
+      "id": "ashs-upennpmc-t1ext-20240617-amygdala",
+      "atlasId": "ashs-upennpmc-t1ext-20240617",
+      "index": 18,
+      "label": "Amygdala",
+      "englishLabel": "Amygdala",
+      "chineseLabel": "杏仁核",
+      "color": "#7ae4e9",
+      "laterality": "bilateral",
+      "systemId": "limbic_system",
+      "relatedPhysicalStructureId": "amygdala",
+      "taskUse": [
+        "affective_value",
+        "salience_memory_modulation",
+        "emotion_memory"
+      ],
+      "caution": "ASHS T1ext amygdala label. Prefer existing reviewed amygdala atlas layers until ASHS mesh/space/license QA is complete."
+    }
+  ]
+}

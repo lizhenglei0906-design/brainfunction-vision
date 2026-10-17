@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>论文坐标依据 · 脑功能可视化</title>
+  <link rel="stylesheet" href="coordinate-evidence.css">
+</head>
+<body>
+<main>
+  <nav><a href="../">← 返回脑图</a><a href="../?view=teaching-points">查看教学近似点</a><a href="davis-template-validation.html">Davis 精确模板检查记录</a><a href="spatial-validation.html">定位说明</a></nav>
+  <header><p class="eyebrow">论文 → 坐标 → 脑图</p><h1>论文坐标依据</h1>
+    <p>从原文数字查到换算过程，也看清图上的位置依据。</p>
+  </header>
+  <section class="summary" aria-label="核对范围">
+    <div><strong id="verified-count">—</strong><span>处原文坐标已核</span></div>
+    <div><strong id="repair-count">—</strong><span>处旧算术已修复</span></div>
+    <div><strong id="precise-count">—</strong><span>处精确定位获准</span></div>
+  </section>
+  <p class="notice">原文核对、换算复现和精确定位是三件事。当前脑图仍使用区域、结构或网络锚点，其中 72 条已另行允许教学近似展示，下面保留原始来源与历史精确检查，不能当成个体或精确功能定位。</p>
+  <section id="node-context" hidden aria-label="当前节点依据"></section>
+  <div class="filters">
+    <label>论文<select id="source" aria-label="选择论文"><option>正在加载…</option></select></label>
+    <label>筛选原文条目<input id="search" type="search" placeholder="脑区名称、对比或坐标" autocomplete="off"></label>
+    <button id="all-sources" type="button">查看全部已核来源</button>
+  </div>
+  <p id="source-title" class="source-title"></p>
+  <div class="workspace">
+    <section class="record-list" aria-label="已核原文条目">
+      <p id="result-count" role="status" aria-live="polite"></p>
+      <div id="records"></div>
+    </section>
+    <section id="detail" aria-label="坐标详情" aria-live="polite"><p>正在加载坐标来源…</p></section>
+  </div>
+  <p id="coverage" class="footnote"></p>
+  <p class="footnote">“毫米”按立体定位坐标惯例记录；原文单位未逐项明示的情况仍保留未核状态。数值往返一致不证明解剖精度；边界外点不会被强行归到最近皮层分区。</p>
+</main>
+<script type="module" src="coordinate-evidence.js"></script>
+</body>
+</html>
